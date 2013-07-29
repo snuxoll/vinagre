@@ -152,7 +152,7 @@ vinagre_bookmarks_tree_init (VinagreBookmarksTree *tree)
                                   GTK_POLICY_AUTOMATIC);
   gtk_scrolled_window_set_shadow_type (GTK_SCROLLED_WINDOW (scroll),
                                        GTK_SHADOW_ETCHED_OUT);
-  gtk_widget_set_size_request (scroll, 200, 180);
+  gtk_widget_set_size_request (scroll, 150, 100);
   gtk_box_pack_start (GTK_BOX (tree), scroll, TRUE, TRUE, 0);
 
   /* Create the model */
