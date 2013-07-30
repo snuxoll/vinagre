@@ -1,3 +1,32 @@
+Vinagre 3.9.5
+=============
+
+Daniel Mustieles (1):
+      Updated Spanish translation
+
+David King (4):
+      Post-release version bump to 3.9.5
+      Revert "Fixes the libsecret 'user' argument passing"
+      Fix credential access with libsecret, bug 704744
+      Improve credential description, bug 648008
+
+Jonh Wendell (8):
+      Fix a logic bug in utils.show_many_errors()
+      Add recognize_file() API to VinagreProtocol interface
+      Use the new API recognize_file() when parsing a file
+      implement recognize_file() in VNC plugin
+      implement recognize_file() in SPICE plugin
+      Fill the right ipv6 notation when using avahi dialog
+      Fixes the libsecret 'user' argument passing
+      Make the BookmarksTree widget smaller
+
+Marek Černocký (5):
+      Updated Czech translation
+      Added Czech language
+      Czech translation
+      Updated Czech translation
+      Updated Czech translation
+
 Vinagre 3.9.4
 =============
 
