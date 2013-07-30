@@ -1,3 +1,30 @@
+Vinagre 3.8.3
+=============
+
+David King (8):
+      Revert "Add recognize_file() API to VinagreProtocol interface"
+      Revert "Use the new API recognize_file() when parsing a file"
+      Revert "implement recognize_file() in VNC plugin"
+      Revert "implement recognize_file() in SPICE plugin"
+      Revert "Fixes the libsecret 'user' argument passing"
+      Fix credential access with libsecret, bug 704744
+      Revert the recognize_file() reverts
+      Update NEWS for 3.8.3 release
+
+Jonh Wendell (9):
+      VinagreTab: don't crash on screenshot
+      Fix a logic bug in utils.show_many_errors()
+      Add recognize_file() API to VinagreProtocol interface
+      Use the new API recognize_file() when parsing a file
+      implement recognize_file() in VNC plugin
+      implement recognize_file() in SPICE plugin
+      Fill the right ipv6 notation when using avahi dialog
+      Fixes the libsecret 'user' argument passing
+      Make the BookmarksTree widget smaller
+
+Marek Kasik (1):
+      Show correct title in error dialog
+
 Vinagre 3.8.2
 =============
 
