@@ -152,6 +152,15 @@ vnc_tab_get_tooltip (VinagreTab *tab)
 }
 
 static void
+vnc_tab_get_dimensions (VinagreTab *tab, int *w, int *h)
+{
+  VinagreVncTab *vnc_tab = VINAGRE_VNC_TAB (tab);
+
+  *w = vinagre_vnc_tab_get_original_width (vnc_tab);
+  *h = vinagre_vnc_tab_get_original_height (vnc_tab);
+}
+
+static void
 vinagre_vnc_tab_finalize (GObject *object)
 {
   VinagreVncTab *vnc_tab = VINAGRE_VNC_TAB (object);
@@ -216,6 +225,7 @@ vinagre_vnc_tab_class_init (VinagreVncTabClass *klass)
   tab_class->impl_get_tooltip = vnc_tab_get_tooltip;
   tab_class->impl_get_connected_actions = vnc_get_connected_actions;
   tab_class->impl_get_initialized_actions = vnc_get_initialized_actions;
+  tab_class->impl_get_dimensions = vnc_tab_get_dimensions;
 
   g_object_class_install_property (object_class,
 				   PROP_ORIGINAL_WIDTH,
