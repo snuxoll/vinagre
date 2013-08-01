@@ -56,6 +56,16 @@ rdp_tab_get_tooltip (VinagreTab *tab)
 }
 
 static void
+rdp_tab_get_dimensions (VinagreTab *tab, int *w, int *h)
+{
+  VinagreRdpTab *rdp_tab = VINAGRE_RDP_TAB (tab);
+  GdkWindow *window = gtk_widget_get_window (rdp_tab->priv->box);
+
+  *w = gdk_window_get_width (window);
+  *h = gdk_window_get_height (window);
+}
+
+static void
 emit_connected_signal (GtkSocket *socket, VinagreRdpTab *rdp_tab)
 {
   g_signal_emit_by_name (rdp_tab, "tab-initialized");
@@ -181,6 +191,7 @@ vinagre_rdp_tab_class_init (VinagreRdpTabClass *klass)
   object_class->dispose = vinagre_rdp_tab_dispose;
 
   tab_class->impl_get_tooltip = rdp_tab_get_tooltip;
+  tab_class->impl_get_dimensions = rdp_tab_get_dimensions;
 
   g_type_class_add_private (object_class, sizeof (VinagreRdpTabPrivate));
 }
