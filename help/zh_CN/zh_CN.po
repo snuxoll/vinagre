@@ -1,0 +1,595 @@
+# Chinese (China) translation for vinagre.
+# Copyright (C) 2012 vinagre's COPYRIGHT HOLDER
+# This file is distributed under the same license as the vinagre package.
+# tuhaihe <1132321739qq@gmail.com>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: vinagre gnome-3-4\n"
+"POT-Creation-Date: 2012-05-25 23:21+0000\n"
+"PO-Revision-Date: 2013-08-04 09:30+0800\n"
+"Last-Translator: tuhaihe <1132321739qq@gmail.com>\n"
+"Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+
+#: C/index.page:5(page/title)
+msgid "Vinagre Help"
+msgstr "Vinagre 帮助"
+
+#: C/index.page:8(section/title)
+msgid "Connecting to other computers using VNC"
+msgstr "使用 VNC 连接到其他计算机"
+
+#: C/index.page:12(section/title)
+msgid "Using Vinagre's options and features"
+msgstr "Vinagre 使用选项与功能"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "tuhaihe <1132321739qq@gmail.com>, 2012"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/connect.page:28(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/vinagre-connect-dialog.png' "
+"md5='de8a00cf5315e5aa9678620054cf1e8b'"
+msgstr ""
+"external ref='figures/vinagre-connect-dialog.png' "
+"md5='de8a00cf5315e5aa9678620054cf1e8b'"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/connect.page:61(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/vinagre-auth-needed.png' "
+"md5='498cf1ea1941e4821f9e5eafbe4b55ed'"
+msgstr ""
+"external ref='figures/vinagre-auth-needed.png' "
+"md5='498cf1ea1941e4821f9e5eafbe4b55ed'"
+
+#: C/connect.page:7(info/title)
+msgctxt "sort"
+msgid "1"
+msgstr "1"
+
+#: C/connect.page:8(info/desc)
+msgid "Establish a connection to another computer on your local network."
+msgstr "建立到局域网另一台计算机的连接。"
+
+#: C/connect.page:10(credit/name) C/connect-file.page:11(credit/name)
+#: C/fullscreen.page:9(credit/name) C/introduction.page:9(credit/name)
+#: C/keyboard-shortcuts.page:11(credit/name)
+#: C/reverse-connections.page:12(credit/name) C/scaling.page:9(credit/name)
+#: C/take-screenshot.page:9(credit/name) C/view-only.page:9(credit/name)
+msgid "Ekaterina Gerasimova"
+msgstr "Ekaterina Gerasimova"
+
+#: C/connect.page:14(license/p) C/connect-file.page:15(license/p)
+#: C/fullscreen.page:13(license/p) C/introduction.page:13(license/p)
+#: C/keyboard-shortcuts.page:15(license/p)
+#: C/reverse-connections.page:16(license/p) C/scaling.page:13(license/p)
+#: C/take-screenshot.page:13(license/p) C/view-only.page:13(license/p)
+msgid "Creative Commons Share Alike 3.0"
+msgstr "知识共享相同方式共享 3.0"
+
+#: C/connect.page:18(page/title)
+msgid "Establish a connection"
+msgstr "建立连接"
+
+#: C/connect.page:20(page/p)
+msgid ""
+"You can connect to other computers on your local network using <app>Vinagre</"
+"app>."
+msgstr "您可以使用<app>Vinagre</app>连接到局域网中的其他计算机。"
+
+#: C/connect.page:25(item/p)
+msgid "Choose <guiseq><gui>Remote</gui><gui>Connect</gui></guiseq>."
+msgstr "选择<guiseq><gui>远程</gui><gui>连接</gui></guiseq>。"
+
+#: C/connect.page:27(figure/title)
+msgid "Connect dialog"
+msgstr "连接对话框"
+
+#: C/connect.page:32(item/p)
+msgid ""
+"Choose the <gui>Protocol</gui> and the <gui>Host</gui> for the connection."
+msgstr "为连接选择<gui>协议</gui>和<gui>主机</gui>。"
+
+#: C/connect.page:35(note/p)
+msgid ""
+"Some protocols allow you to see all available computers on your local "
+"network by clicking the <gui>Find</gui> button. Without <app>Avahi</app> "
+"support, this button will not be displayed."
+msgstr ""
+"某些协议允许您通过点击<gui>查找/gui>按钮来查看局域网中所有的计算机。若没有"
+"<app>avahi</app>支持，该按钮将不会显示。"
+
+#: c/connect.page:41(item/p)
+msgid ""
+"select the options which you want enabled when the connection is made. "
+"options will vary depending on the protocol you use."
+msgstr "选择连接建立时您要启用的选项。选项会根据您使用的协议变化。"
+
+#: c/connect.page:45(item/p)
+msgid "click the <gui>connect</gui> button."
+msgstr "点击<gui>连接</gui>按钮。"
+
+#: c/connect.page:47(note/p)
+msgid ""
+"at this point, the remote desktop may need to confirm the connection. if "
+"this is the case, the viewer may remain black until the connection is "
+"confirmed."
+msgstr ""
+"此时，远程桌面可能需要确认连接。如果是这样，查看器可能会在连接确认前变黑。"
+
+#: c/connect.page:52(note/p)
+msgid ""
+"some computers may require a secure connection: an authentication dialog "
+"will be displayed, asking for the credentials. the type of credentials "
+"depend on the remote host, it may be a password and a username. if you "
+"select <gui>remember this credential</gui>, <app>vinagre</app> will store "
+"the information using <app>gnome keyring</app>."
+msgstr ""
+"某些计算机可能需要安全连接：显示一个认证对话框、要求凭证。凭证类型根据远程主"
+"机决定，可能是一个密码或一个用户名。如果您选择了<gui>记住该凭证</gui>，则"
+"<app>vinagre</app>将使用<app>gnome 密钥环</app>来存储凭证信息。"
+
+#: c/connect.page:60(figure/title)
+msgid "authentication dialog"
+msgstr "认证对话框"
+
+#: c/connect.page:66(page/p)
+msgid ""
+"if the connection has been used previously, you can also access it through "
+"<guiseq><gui>remote</gui><gui>recent connections</gui></guiseq>."
+msgstr ""
+"如果连接原先使用过，您也可以通过<guiseq><gui>远程</gui><gui>最近连接</gui></"
+"guiseq>来启用它。"
+
+# 感觉原文有误，界面上显示的是“远程-断开连接”，而不是关闭～～
+#: c/connect.page:69(page/p)
+msgid ""
+"to close a connection, choose <guiseq><gui>remote</gui> <gui>close</gui></"
+"guiseq> or click the <gui>close</gui> button."
+msgstr ""
+"要关闭连接，选择<guiseq><gui>远程</gui> <gui>关闭</gui></guiseq>或点击"
+"<gui>关闭</gui>按钮。"
+
+#: c/connect-file.page:8(info/title)
+msgctxt "sort"
+msgid "2"
+msgstr "2"
+
+#: c/connect-file.page:9(info/desc)
+msgid "use a remote connection file to connect to a remote machine."
+msgstr "使用远程连接文件连接到远程机器。"
+
+#: c/connect-file.page:19(page/title)
+msgid "connect with a .vnc file"
+msgstr "使用 .vnc 文件连接"
+
+#: c/connect-file.page:21(page/p)
+msgid ""
+"some hosts distribute remote connection files (generally ending with suffix "
+"<file>.vnc</file>) instead of using a host address and port."
+msgstr ""
+"部分主机分发远程连接文件(通常以后缀<file>.vnc</file>结尾)，而不是使用主机地址"
+"和端口。"
+
+#: c/connect-file.page:26(item/p)
+msgid "choose <guiseq><gui>remote</gui> <gui>open</gui></guiseq>."
+msgstr "选择<guiseq><gui>远程</gui> <gui>打开</gui></guiseq>。"
+
+#: c/connect-file.page:29(item/p)
+msgid "select the file you want to open."
+msgstr "选择您要打开的文件。"
+
+#: c/connect-file.page:32(item/p)
+msgid "click the <gui>open</gui> button."
+msgstr "点击<gui>打开</gui>按钮。"
+
+#: c/connect-file.page:37(note/p)
+msgid ""
+"you can also double-click on a remote connection file in <app>nautilus</app> "
+"to open it with <app>vinagre</app>."
+msgstr ""
+"您也可以在<app>nautilus</app>中双击一个远程连接文件以用<app>vinagre</app>打开"
+"它。"
+
+#. this is a reference to an external file such as an image or video. when
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. the msgstr is not used at all. set it to
+#. whatever you like once you have updated your copy of the file.
+#: c/fullscreen.page:38(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/vinagre-fullscreen.png' "
+"md5='47259d69f3a106a69b4de230b04250e6'"
+msgstr ""
+"external ref='figures/vinagre-fullscreen.png' "
+"md5='47259d69f3a106a69b4de230b04250e6'"
+
+#: c/fullscreen.page:7(info/desc)
+msgid "view the remote desktop in fullscreen mode."
+msgstr "以全屏模式查看远程桌面。"
+
+#: c/fullscreen.page:17(page/title)
+msgid "fullscreen mode"
+msgstr "全屏模式"
+
+#: c/fullscreen.page:19(page/p)
+msgid ""
+"fullscreen mode can be useful if viewing a desktop which is the same size or "
+"larger than yours."
+msgstr "如果查看与您尺寸相同或更大尺寸的桌面时全屏模式会有用处。"
+
+#: c/fullscreen.page:24(item/p)
+msgid ""
+"choose <guiseq><gui>view</gui><gui>fullscreen</gui></guiseq>, or press the "
+"corresponding toolbar button, to view the display area in fullscreen mode."
+msgstr ""
+"选择<guiseq><gui>查看</gui><gui>全屏</gui></guiseq>，或按下相应的工具栏按钮，"
+"以全屏模式查看显示区域。"
+
+#: c/fullscreen.page:31(note/p)
+msgid ""
+"while in fullscreen mode, move the mouse to the top-center of the screen to "
+"display a hidden toolbar, which has a <gui>leave fullscreen</gui> button, "
+"<gui>disconnect</gui> and other options."
+msgstr ""
+"当在全屏模式下，将鼠标移动到屏幕的顶部中间位置可显示一个隐藏的工具栏，该工具"
+"栏有<gui>离开全屏</gui>按钮、<gui>断开连接</gui>和其他选项。"
+
+# 这里的 overlay toolbar，不太确定怎么解释。
+#: c/fullscreen.page:37(figure/title)
+msgid "Fullscreen mode with overlay toolbar"
+msgstr "带有浮动工具栏的全屏模式"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/introduction.page:37(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/vinagre-connected.png' "
+"md5='abef2af863dbd4659703bcc09bb89d1a'"
+msgstr ""
+"external ref='figures/vinagre-connected.png' "
+"md5='abef2af863dbd4659703bcc09bb89d1a'"
+
+#: C/introduction.page:7(info/desc)
+msgid "Introduction to the <app>Vinagre</app> remote desktop viewer."
+msgstr "<app>Vinagre</app>远程桌面查看器简介。"
+
+#: C/introduction.page:17(page/title)
+msgid "Introduction"
+msgstr "简介"
+
+#: C/introduction.page:19(page/p)
+msgid ""
+"<app>Vinagre</app> is a remote desktop viewer application for the GNOME "
+"desktop which uses Virtual Network Computing (VNC), and other protocols, to "
+"remotely control another computer."
+msgstr ""
+"<app>Vinagre</app>是一款 GNOME 桌面下的远程桌面查看器，其使用虚拟网络计算"
+"(VNC)和其他协议来远程控制另一台计算机。"
+
+#: C/introduction.page:23(page/p)
+msgid ""
+"<app>Vinagre</app> can be used to control another computer and interact with "
+"its desktop."
+msgstr "<app>Vinagre</app>可用来控制另一台计算机并与其桌面交互操作。"
+
+#: C/introduction.page:26(page/p)
+msgid "<app>Vinagre</app> provides the following features:"
+msgstr "<app>Vinagre</app>提供下面功能："
+
+#: C/introduction.page:28(item/p)
+msgid "connect to several machines at the same time"
+msgstr "同时连接到多台机器"
+
+#: C/introduction.page:29(item/p)
+msgid "store recent connections and allows them to be bookmarked"
+msgstr "保存最近连接并允许添加书签"
+
+#: C/introduction.page:31(item/p)
+msgid "browse local network for machines"
+msgstr "浏览本地网络查找机器"
+
+#: C/introduction.page:38(media/p)
+msgid "Screenshot of Vinagre in action"
+msgstr "为运作中的 Vinagre 屏幕截图"
+
+#: C/introduction.page:42(td/p)
+msgid "<em>Vinagre in action</em>"
+msgstr "<em>运作中的 Vinagre</em>"
+
+#: C/keyboard-shortcuts.page:9(info/desc)
+msgid "Disable the sending of keyboard shortcuts to the remote machine."
+msgstr "禁止键盘快捷键发送到远程机器。"
+
+#: C/keyboard-shortcuts.page:19(page/title)
+msgid "Keyboard shortcuts"
+msgstr "键盘快捷键"
+
+#: C/keyboard-shortcuts.page:21(page/p)
+msgid ""
+"You can enable or disable keyboard shortcuts by clicking <guiseq><gui>View</"
+"gui><gui>Keyboard shortcuts</gui></guiseq>."
+msgstr ""
+"您可以通过点击<guiseq><gui>查看</gui><gui>键盘快捷键</gui></guiseq>来启用/禁"
+"用键盘快捷键。"
+
+#: C/keyboard-shortcuts.page:24(page/p)
+msgid ""
+"Enabling this option allows the use of keyboard shortcuts (like "
+"<keyseq><key>Ctrl</key><key>D</key></keyseq>), menu accelerators and "
+"mnemonics (such as <keyseq><key>Alt</key><key>M</key></keyseq>), with "
+"<app>Vinagre</app>. This means that <app>Vinagre</app> will catch those key "
+"combinations instead of sending them to the remote machine. This option is "
+"disabled by default because most of the time, you will be interacting with "
+"the computer which you have connected to."
+msgstr ""
+"启用该选项，<app>Vinagre</app>会允许使用键盘快捷键(如<keyseq><key>Ctrl</"
+"key><key>D</key></keyseq>)、菜单加速器和助记符(如<keyseq><key>Alt</"
+"key><key>M</key></keyseq>)。这意味着<app>Vinagre</app>将捕捉这些按键绑定，而"
+"不是将它们发送到远程机器。该选项默认被禁用，因为大多数时候，您会与已建立连接"
+"的计算机进行交互。"
+
+#: C/keyboard-shortcuts.page:33(note/p)
+msgid ""
+"When the <gui>Keyboard shortcuts</gui> option is disabled, "
+"<keyseq><key>Ctrl</key><key>Alt</key> <key>Delete</key></keyseq> is the only "
+"key combination which will not be sent to the remote desktop. Choose "
+"<guiseq><gui>Remote</gui><gui>Send Ctrl-Alt-Delete</gui></guiseq>, or use "
+"the corresponding toolbar button, to send this key combination."
+msgstr ""
+"当禁用<gui>键盘快捷键</gui>选项时，<keyseq><key>Ctrl</key><key>Alt</key> "
+"<key>Delete</key></keyseq>是唯一不会发送到远程主机的按键组合。选择"
+"<guiseq><gui>远程</gui><gui>发送 Ctrl-Alt-Delete</gui></guiseq>，或使用相应的"
+"工具栏按钮，可发送该按键组合。"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/reverse-connections.page:43(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/vinagre-reverse-connections.png' "
+"md5='6271ec7b3c197e9599bd0f453aad2d0b'"
+msgstr ""
+"external ref='figures/vinagre-reverse-connections.png' "
+"md5='6271ec7b3c197e9599bd0f453aad2d0b'"
+
+#: C/reverse-connections.page:8(info/title)
+msgctxt "sort"
+msgid "3"
+msgstr "3"
+
+#: C/reverse-connections.page:9(info/desc)
+msgid ""
+"Connect to computers not on your local network: bypassing firewall "
+"restrictions on remote host."
+msgstr "连接到不在您本地网络的计算机：绕过远程主机上的防火墙限制。"
+
+#: C/reverse-connections.page:20(page/title)
+msgid "Reverse Connections…"
+msgstr "反向连接..."
+
+#: C/reverse-connections.page:22(page/p)
+msgid ""
+"A reverse connection is usually used to bypass firewall restrictions on open "
+"ports. A firewall usually blocks open ports, but does not block outgoing "
+"traffic. In a normal forward connection, a client connects to a server "
+"through the server's open port, but in the case of a reverse connection, the "
+"client opens the port that the server connects to."
+msgstr ""
+"反向连接通常用来绕过防火墙对公开端口的限制。防火墙通常阻断公开端口，但不会阻"
+"断向外的流量。在一般的正向连接中，客户端会通过服务器的开放端口连接到服务器，"
+"但是在反向连接中，客户端会打开服务器连接的端口。"
+
+#: C/reverse-connections.page:29(section/title)
+msgid "Enabling reverse connections"
+msgstr "启用反向连接"
+
+#: C/reverse-connections.page:33(item/p)
+msgid ""
+"Open <guiseq><gui>Remote</gui><gui>Reverse Connections...</gui> </guiseq>."
+msgstr "打开<guiseq><gui>远程</gui><gui>反向连接...</gui> </guiseq>。"
+
+#: C/reverse-connections.page:37(item/p)
+msgid "Select <gui>Enable Reverse Connections</gui>."
+msgstr "选择<gui>启用反向连接</gui>。"
+
+#: C/reverse-connections.page:42(figure/title)
+msgid "Reverse Connections dialog"
+msgstr "反向连接对话框"
+
+#: C/reverse-connections.page:49(section/title)
+msgid "Access a computer behind a firewall"
+msgstr "访问防火墙后边的计算机"
+
+#: C/reverse-connections.page:51(section/p)
+msgid ""
+"The remote computer needs to connect to your machine using your IP address "
+"and port number, which are in the <gui>Reverse Connections...</gui> dialog, "
+"under <gui>Connectivity</gui>."
+msgstr ""
+"远程计算机需要使用您的 IP 地址和端口号连接到您的机器，这可在<gui>连接</gui>下"
+"的<gui>反向连接...</gui>对话框中进行配置。"
+
+#: C/reverse-connections.page:56(note/p)
+msgid ""
+"Currently, <app>Vino</app>, the GNOME VNC server, does not support reverse "
+"connections (also known as \"listen mode\"). Some other applications, such "
+"as <app>UltraVNC</app>, <app>RealVNC</app> and <app>TightVNC</app>, do have "
+"support for reverse connections."
+msgstr ""
+"目前，<app>Vino</app>，GNOME VNC 服务器，并不支持反向连接(亦为“监听模式”)。其"
+"他应用程序，例如<app>UltraVNC</app>、<app>RealVNC</app>和<app>TightVNC</app>"
+"支持反向连接。"
+
+#: C/reverse-connections.page:62(section/p)
+msgid ""
+"Once the remote computer connects to your machine, <app>Vinagre</app> will "
+"establish the reverse connection."
+msgstr "一旦远程计算机连接到您的机器，<app>Vinagre</app>将建立反向连接。"
+
+#: C/reverse-connections.page:66(note/p)
+msgid ""
+"When connecting to a machine which is not on your local network, you will "
+"need to provide your externally visible IP address and port number to the "
+"remote server."
+msgstr ""
+"当连接到不在您本地网络的一台机器时，您需要提供您相对远程服务器而言的外部可见"
+"的 IP 地址和端口号。"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/scaling.page:41(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/vinagre-no-scaling.png' "
+"md5='8ffbdb394e1437cd050ec28b3aa73380'"
+msgstr ""
+"external ref='figures/vinagre-no-scaling.png' "
+"md5='8ffbdb394e1437cd050ec28b3aa73380'"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/scaling.page:46(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/vinagre-scaling.png' "
+"md5='d307923fd473871d8d4c8fc81d716256'"
+msgstr ""
+"external ref='figures/vinagre-scaling.png' "
+"md5='d307923fd473871d8d4c8fc81d716256'"
+
+#: C/scaling.page:7(info/desc)
+msgid "Scale the remote desktop to fit the display area."
+msgstr "缩放远程桌面以适合显示区域。"
+
+#: C/scaling.page:17(page/title)
+msgid "Scale the remote desktop"
+msgstr "缩放远程桌面"
+
+#: C/scaling.page:19(page/p)
+msgid ""
+"Some protocols have an option to scale the remote desktop to fit your "
+"display area."
+msgstr "部分协议有缩放远程桌面以适合您显示区域的选项。"
+
+#: C/scaling.page:24(item/p)
+msgid ""
+"Choose <guiseq><gui>View</gui><gui>Scaling</gui></guiseq>, or click the "
+"<gui>Scaling</gui> toolbar button."
+msgstr ""
+"选择<guiseq><gui>查看</gui><gui>缩放</gui></guiseq>，或点击<gui>缩放</gui>工"
+"具栏按钮。"
+
+#: C/scaling.page:28(item/p)
+msgid ""
+"Select <guiseq><gui>View</gui><gui>Keep Aspect Ratio</gui></guiseq> if you "
+"want to constrain the aspect ratio of the remote desktop inside the display "
+"area, or deselect the option to stretch the remote desktop to fill the "
+"available space."
+msgstr ""
+"如果您想要在显示区域约束远程桌面的宽高比，则选择<guiseq><gui>查看</gui><gui>"
+"保持宽高比</gui></guiseq>，或不选中该选项以伸展远程桌面来填充可用空间。"
+
+#: C/scaling.page:33(note/p)
+msgid ""
+"This option can be toggled only if <gui>Scaling</gui> has already been "
+"enabled."
+msgstr "该选项只有在<gui>缩放</gui>启用时才可以使用。"
+
+#: C/scaling.page:40(figure/title)
+msgid "Unscaled desktop"
+msgstr "未缩放桌面"
+
+#: C/scaling.page:45(figure/title)
+msgid "Scaled desktop"
+msgstr "已缩放桌面"
+
+#: C/take-screenshot.page:7(info/desc)
+msgid "Take a screenshot of a remote desktop."
+msgstr "抓取远程桌面的屏幕截图。"
+
+#: C/take-screenshot.page:17(page/title)
+msgid "Take a screenshot"
+msgstr "抓取屏幕截图"
+
+#: C/take-screenshot.page:19(page/p)
+msgid ""
+"You can take screenshots of only the desktop you have connected to by using "
+"the tool provided by <app>Vinagre</app>."
+msgstr "您可以通过<app>Vinagre</app>提供的工具来抓拍已建立连接桌面的屏幕截图。"
+
+#: C/take-screenshot.page:24(item/p)
+msgid ""
+"Choose <guiseq><gui>Remote</gui><gui>Take screenshot</gui></guiseq>, or "
+"click the <gui>Take Screenshot</gui> button in the toolbar."
+msgstr ""
+"选择<guiseq><gui>远程</gui><gui>屏幕截图</gui></guiseq>，或点击工具栏上的"
+"<gui>抓拍当前远程桌面的屏幕截图</gui>按钮。"
+
+#: C/take-screenshot.page:28(item/p)
+msgid ""
+"In the <gui>Name</gui> field, enter the name you want the screenshot to be "
+"saved under."
+msgstr "在<gui>名称</gui>字段，输入屏幕截图保存的名称。"
+
+#: C/take-screenshot.page:32(item/p)
+msgid ""
+"From the <gui>Save in folder</gui> drop down list, select the folder you "
+"want the screenshot to be saved in. You can also click <gui>Browse for other "
+"folder</gui> to select one which is not in the drop down list."
+msgstr ""
+"从<gui>保存到文件夹</gui>下拉列表中，选择屏幕截图要保存的文件夹。您也可以点击"
+"<gui>浏览其他文件夹</gui>选择未在下拉列表中的文件夹。"
+
+#: C/take-screenshot.page:37(item/p)
+msgid "Click <gui>Save</gui> to save the screenshot."
+msgstr "点击<gui>保存</gui>以保存屏幕截图。"
+
+#: C/view-only.page:7(info/desc)
+msgid "Disable interaction with the remote desktop."
+msgstr "禁用与远程桌面的交互。"
+
+#: C/view-only.page:17(page/title)
+msgid "View only mode"
+msgstr "仅查看模式"
+
+#: C/view-only.page:19(page/p)
+msgid ""
+"Some protocols allow you to enable a <gui>View Only</gui> mode. This mode "
+"allows you to block all interaction with the remote."
+msgstr ""
+"某些协议允许您启用<gui>仅查看</gui>模式。该模式允许您阻断所有与远程机器的交"
+"互。"
+
+#: C/view-only.page:21(page/p)
+msgid ""
+"Choose <guiseq><gui>View</gui><gui>View Only</gui></guiseq> or click the "
+"corresponding toolbar button to enable this mode."
+msgstr ""
+"选择<guiseq><gui>查看</gui><gui>仅查看</gui></guiseq> 或点击相应的工具栏按钮"
+"启用该模式。"
