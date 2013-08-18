@@ -2,15 +2,15 @@
 # Copyright (C) 2005-2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the vinagre package.
 #
-# Matej Urbančič <mateju@svn.gnome.org>, 2007 - 2013.
+# Matej Urbančič <mateju@svn.gnome.org>, 2007-2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-06-03 12:11+0000\n"
-"PO-Revision-Date: 2013-06-03 21:17+0100\n"
+"POT-Creation-Date: 2013-08-08 19:03+0000\n"
+"PO-Revision-Date: 2013-08-18 01:32+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: sl_SI\n"
@@ -126,7 +126,7 @@ msgstr "Gostitelj:"
 msgid "_Username:"
 msgstr "_Uporabniško ime:"
 
-#: ../data/vinagre.ui.h:9 ../plugins/spice/vinagre-spice-plugin.c:295
+#: ../data/vinagre.ui.h:9 ../plugins/spice/vinagre-spice-plugin.c:310
 msgid "_Password:"
 msgstr "_Geslo:"
 
@@ -296,15 +296,15 @@ msgstr "Višina oddaljenega namizja"
 msgid "Port:"
 msgstr "Vrata:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:129
+#: ../plugins/rdp/vinagre-rdp-tab.c:139
 msgid "Error while executing xfreerdp"
 msgstr "Napaka med izvajanjem programa xfreerdp"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:130 ../vinagre/vinagre-bookmarks.c:366
+#: ../plugins/rdp/vinagre-rdp-tab.c:140 ../vinagre/vinagre-bookmarks.c:366
 #: ../vinagre/vinagre-bookmarks.c:492
 #: ../vinagre/vinagre-bookmarks-migration.c:135
 #: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
-#: ../vinagre/vinagre-connect.c:495 ../vinagre/vinagre-options.c:85
+#: ../vinagre/vinagre-connect.c:500 ../vinagre/vinagre-options.c:85
 #: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
 #: ../vinagre/vinagre-window.c:798
 msgid "Unknown error"
@@ -371,93 +371,93 @@ msgstr "Datoteka ni prava datoteka VNC: manjka skupina \"Connection\"."
 msgid "The file is not a VNC one: Missing the key \"Host\"."
 msgstr "Datoteka ni prava datoteka VNC: manjka ključ \"Host\"."
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:253
+#: ../plugins/vnc/vinagre-vnc-plugin.c:268
 msgid "VNC Options"
 msgstr "Možnosti VNC"
 
 #. View only check button
 #. View only check button - not fully ready on spice-gtk side
-#: ../plugins/vnc/vinagre-vnc-plugin.c:261
-#: ../plugins/vnc/vinagre-vnc-tab.c:624
-#: ../plugins/spice/vinagre-spice-plugin.c:222
+#: ../plugins/vnc/vinagre-vnc-plugin.c:276
+#: ../plugins/vnc/vinagre-vnc-tab.c:630
+#: ../plugins/spice/vinagre-spice-plugin.c:237
 #: ../plugins/spice/vinagre-spice-tab.c:507
 msgid "_View only"
 msgstr "Samo za _ogled"
 
 #. Scaling check button
-#: ../plugins/vnc/vinagre-vnc-plugin.c:270
-#: ../plugins/spice/vinagre-spice-plugin.c:246
+#: ../plugins/vnc/vinagre-vnc-plugin.c:285
+#: ../plugins/spice/vinagre-spice-plugin.c:261
 msgid "_Scaling"
 msgstr "Prilagajanje _velikosti"
 
 #. Keep ratio check button
-#: ../plugins/vnc/vinagre-vnc-plugin.c:284
+#: ../plugins/vnc/vinagre-vnc-plugin.c:299
 msgid "_Keep aspect ratio"
 msgstr "_Ohrani razmerje"
 
 #. JPEG Compression check button
-#: ../plugins/vnc/vinagre-vnc-plugin.c:294
+#: ../plugins/vnc/vinagre-vnc-plugin.c:309
 msgid "_Use JPEG Compression"
 msgstr "_Uporabi stiskanje JPEG"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:295
+#: ../plugins/vnc/vinagre-vnc-plugin.c:310
 msgid "This might not work on all VNC servers"
 msgstr "Možnost morda ne bo delovala na vseh vrstah strežnikov VNC"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:305
+#: ../plugins/vnc/vinagre-vnc-plugin.c:320
 msgid "Color _Depth:"
 msgstr "Barvna _globina:"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:310
+#: ../plugins/vnc/vinagre-vnc-plugin.c:325
 msgid "Use Server Settings"
 msgstr "Uporabi nastavitve strežnika"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:311
+#: ../plugins/vnc/vinagre-vnc-plugin.c:326
 msgid "True Color (24 bits)"
 msgstr "Prave barve (24 bitno)"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:312
+#: ../plugins/vnc/vinagre-vnc-plugin.c:327
 msgid "High Color (16 bits)"
 msgstr "Visoke barve (16 bitno)"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:313
+#: ../plugins/vnc/vinagre-vnc-plugin.c:328
 msgid "Low Color (8 bits)"
 msgstr "Nizke barve (8 bitno)"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:314
+#: ../plugins/vnc/vinagre-vnc-plugin.c:329
 msgid "Ultra Low Color (3 bits)"
 msgstr "Zelo nizke barve (3 bitno)"
 
 #. Translators: the whole sentence will be: Use Host <hostname> as a SSH tunnel
 #. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
-#: ../plugins/vnc/vinagre-vnc-plugin.c:328
-#: ../plugins/spice/vinagre-spice-plugin.c:257
+#: ../plugins/vnc/vinagre-vnc-plugin.c:343
+#: ../plugins/spice/vinagre-spice-plugin.c:272
 msgid "Use h_ost"
 msgstr "Uporabi _gostitelja"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:337
-#: ../plugins/spice/vinagre-spice-plugin.c:266
+#: ../plugins/vnc/vinagre-vnc-plugin.c:352
+#: ../plugins/spice/vinagre-spice-plugin.c:281
 msgid "hostname or user@hostname"
 msgstr "ime gostitelja ali uporabnik@ime-gostitelja"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:338
-#: ../plugins/spice/vinagre-spice-plugin.c:267
+#: ../plugins/vnc/vinagre-vnc-plugin.c:353
+#: ../plugins/spice/vinagre-spice-plugin.c:282
 msgid "Supply an alternative port using colon"
 msgstr "Določite vrata strežnika ločena s podpičjem"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:339
-#: ../plugins/spice/vinagre-spice-plugin.c:268
+#: ../plugins/vnc/vinagre-vnc-plugin.c:354
+#: ../plugins/spice/vinagre-spice-plugin.c:283
 msgid "For instance: joe@example.com:5022"
 msgstr "Na primer: marlinka@domena.si:5022"
 
 #. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
-#: ../plugins/vnc/vinagre-vnc-plugin.c:345
-#: ../plugins/spice/vinagre-spice-plugin.c:274
+#: ../plugins/vnc/vinagre-vnc-plugin.c:360
+#: ../plugins/spice/vinagre-spice-plugin.c:289
 msgid "as a SSH tunnel"
 msgstr "kot SSH tunel."
 
 #. Translators: this is a pattern to open *.vnc files in a open dialog.
-#: ../plugins/vnc/vinagre-vnc-plugin.c:380
+#: ../plugins/vnc/vinagre-vnc-plugin.c:395
 msgid "VNC Files"
 msgstr "Datoteke VNC"
 
@@ -469,113 +469,113 @@ msgstr "Ime namizja:"
 msgid "Dimensions:"
 msgstr "Mere:"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:296
+#: ../plugins/vnc/vinagre-vnc-tab.c:306
 #: ../plugins/spice/vinagre-spice-tab.c:252
 msgid "Error creating the SSH tunnel"
 msgstr "Napaka med ustvarjanjem SSH tunela"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:297 ../plugins/vnc/vinagre-vnc-tab.c:308
+#: ../plugins/vnc/vinagre-vnc-tab.c:307 ../plugins/vnc/vinagre-vnc-tab.c:318
 #: ../plugins/spice/vinagre-spice-tab.c:253
 #: ../plugins/spice/vinagre-spice-tab.c:265
 msgid "Unknown reason"
 msgstr "Neznan razlog"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:307
+#: ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:264
 msgid "Error connecting to host."
 msgstr "Napaka med povezovanjem z gostiteljem."
 
 #. Translators: %s is a host name or IP address; %u is a code error (number).
-#: ../plugins/vnc/vinagre-vnc-tab.c:352
+#: ../plugins/vnc/vinagre-vnc-tab.c:362
 #, c-format
 msgid "Authentication method for host %s is unsupported. (%u)"
 msgstr "Način overitve z gostiteljem %s ni podprt. (%u)"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:356
+#: ../plugins/vnc/vinagre-vnc-tab.c:366
 msgid "Authentication unsupported"
 msgstr "Overitev ni podprta"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:523 ../plugins/vnc/vinagre-vnc-tab.c:540
+#: ../plugins/vnc/vinagre-vnc-tab.c:529 ../plugins/vnc/vinagre-vnc-tab.c:546
 msgid "Authentication error"
 msgstr "Napaka med overjanjem"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:524
+#: ../plugins/vnc/vinagre-vnc-tab.c:530
 msgid "A username is required in order to access this remote desktop."
 msgstr "Za dostop do oddaljenega namizja je zahtevano uporabniško ime."
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:541
+#: ../plugins/vnc/vinagre-vnc-tab.c:547
 msgid "A password is required in order to access this remote desktop."
 msgstr "Za dostop do oddaljenega namizja je zahtevano geslo."
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:595
+#: ../plugins/vnc/vinagre-vnc-tab.c:601
 #: ../plugins/spice/vinagre-spice-tab.c:466
 msgid "S_caling"
 msgstr "Prilagajanje _velikosti"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:596
+#: ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:467
 msgid "Fits the remote screen into the current window size"
 msgstr "Prilagodi oddaljeni zaslon na velikost trenutnega okna"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:609
+#: ../plugins/vnc/vinagre-vnc-tab.c:615
 msgid "_Keep Aspect Ratio"
 msgstr "_Ohrani razmerje"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:610
+#: ../plugins/vnc/vinagre-vnc-tab.c:616
 msgid "Keeps the screen aspect ratio when using scaling"
 msgstr "Ohrani razmerje ob spreminjanju velikosti"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:625
+#: ../plugins/vnc/vinagre-vnc-tab.c:631
 #: ../plugins/spice/vinagre-spice-tab.c:508
 msgid "Does not send mouse and keyboard events"
 msgstr "Ne pošilja dejanj tipkovnice in miške"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:638
+#: ../plugins/vnc/vinagre-vnc-tab.c:644
 msgid "_Original size"
 msgstr "_Izvorna velikost"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:639
+#: ../plugins/vnc/vinagre-vnc-tab.c:645
 msgid "Adjusts the window to the remote desktop's size"
 msgstr "Prilagodi okno velikosti oddaljenega namizja"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:652
+#: ../plugins/vnc/vinagre-vnc-tab.c:658
 msgid "_Refresh Screen"
 msgstr "_Osveži zaslon"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:653
+#: ../plugins/vnc/vinagre-vnc-tab.c:659
 msgid "Requests an update of the screen"
 msgstr "Zahteva posodobitev zaslona"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:675
+#: ../plugins/vnc/vinagre-vnc-tab.c:681
 #: ../plugins/spice/vinagre-spice-tab.c:531
 msgid "_Send Ctrl-Alt-Del"
 msgstr "_Pošlji Ctrl-Alt-Del"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:676
+#: ../plugins/vnc/vinagre-vnc-tab.c:682
 #: ../plugins/spice/vinagre-spice-tab.c:532
 msgid "Sends Ctrl+Alt+Del to the remote desktop"
 msgstr "Pošlje ukaz Ctrl+Alt+Del oddaljenemu namizju"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:729 ../plugins/vnc/vinagre-vnc-tab.c:730
+#: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
 #: ../plugins/spice/vinagre-spice-tab.c:584
 #: ../plugins/spice/vinagre-spice-tab.c:585
 msgid "Scaling"
 msgstr "Prilagajanje velikosti"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:739 ../plugins/vnc/vinagre-vnc-tab.c:740
+#: ../plugins/vnc/vinagre-vnc-tab.c:745 ../plugins/vnc/vinagre-vnc-tab.c:746
 #: ../plugins/spice/vinagre-spice-tab.c:594
 #: ../plugins/spice/vinagre-spice-tab.c:595
 msgid "Read only"
 msgstr "Le za branje"
 
 #. Send Ctrl-alt-del
-#: ../plugins/vnc/vinagre-vnc-tab.c:748 ../plugins/vnc/vinagre-vnc-tab.c:750
+#: ../plugins/vnc/vinagre-vnc-tab.c:754 ../plugins/vnc/vinagre-vnc-tab.c:756
 #: ../plugins/spice/vinagre-spice-tab.c:603
 #: ../plugins/spice/vinagre-spice-tab.c:605
 msgid "Send Ctrl-Alt-Del"
 msgstr "Pošlji Ctrl-Alt-Del"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:913
+#: ../plugins/vnc/vinagre-vnc-tab.c:919
 msgid ""
 "Scaling is not supported on this installation.\n"
 "\n"
@@ -602,38 +602,38 @@ msgstr "Datoteka ni prava datoteka SPICE: manjka skupina \"povezava\"."
 msgid "The file is not a Spice one: Missing the key \"host\"."
 msgstr "Datoteka ni prava datoteka SPICE: manjka ključ \"gostitelj\"."
 
-#: ../plugins/spice/vinagre-spice-plugin.c:159
+#: ../plugins/spice/vinagre-spice-plugin.c:174
 msgid "SPICE"
 msgstr "SPICE"
 
 #. Translators: This is a description of the SPICE protocol. It appears at Connect dialog.
-#: ../plugins/spice/vinagre-spice-plugin.c:161
+#: ../plugins/spice/vinagre-spice-plugin.c:176
 msgid "Access Spice desktop server"
 msgstr "Dostop do strežnika namizija SPICE"
 
-#: ../plugins/spice/vinagre-spice-plugin.c:209
+#: ../plugins/spice/vinagre-spice-plugin.c:224
 msgid "SPICE Options"
 msgstr "Možnosti SPICE"
 
 #. Resize guest check button
-#: ../plugins/spice/vinagre-spice-plugin.c:230
+#: ../plugins/spice/vinagre-spice-plugin.c:245
 #: ../plugins/spice/vinagre-spice-tab.c:480
 msgid "_Resize guest"
 msgstr "_Prilagodi velikost okna gosta"
 
 #. Clipboard sharing check button
-#: ../plugins/spice/vinagre-spice-plugin.c:238
+#: ../plugins/spice/vinagre-spice-plugin.c:253
 #: ../plugins/spice/vinagre-spice-tab.c:493
 msgid "_Share clipboard"
 msgstr "_Souporaba odložišča"
 
 #. Translators: This is the tooltip for the password field in a SPICE connection
-#: ../plugins/spice/vinagre-spice-plugin.c:300
+#: ../plugins/spice/vinagre-spice-plugin.c:315
 msgid "Optional"
 msgstr "Možnosti"
 
 #. Translators: this is a pattern to open *.spice files in a open dialog.
-#: ../plugins/spice/vinagre-spice-plugin.c:321
+#: ../plugins/spice/vinagre-spice-plugin.c:336
 msgid "Spice Files"
 msgstr "Datoteke SPICE"
 
@@ -813,7 +813,7 @@ msgstr[2] "Datoteki, ki ju ni mogoče odpreti:"
 msgstr[3] "Datoteke, ki jih ni mogoče odpreti:"
 
 #: ../vinagre/vinagre-connect.c:90 ../vinagre/vinagre-connect.c:336
-#: ../vinagre/vinagre-connect.c:459
+#: ../vinagre/vinagre-connect.c:464
 msgid "Could not get the active protocol from the protocol list."
 msgstr "Ni mogoče pridobiti dejavnega protokola v seznamu protokolov."
 
@@ -836,7 +836,7 @@ msgstr "Protokol %s ni podprt."
 msgid "Could not open the file."
 msgstr "Ni mogoče odpreti datoteke."
 
-#: ../vinagre/vinagre-connection.c:746
+#: ../vinagre/vinagre-connection.c:748
 msgid "The file was not recognized by any of the plugins."
 msgstr "Datoteke ne ustrezna nobenemu izmed dejavnih vstavkov."
 
@@ -1048,7 +1048,7 @@ msgstr "Ni mogoče poslati potrdila istovetnosti gostitelja"
 msgid "Secure shell password: %s"
 msgstr "Geslo varne lupine: %s"
 
-#: ../vinagre/vinagre-ssh.c:618 ../vinagre/vinagre-tab.c:793
+#: ../vinagre/vinagre-ssh.c:618 ../vinagre/vinagre-tab.c:798
 msgid "Error saving the credentials on the keyring."
 msgstr "Napaka med shranjevanjem poverilnice v zbirko ključev."
 
@@ -1084,25 +1084,25 @@ msgstr "Zapusti celozaslonski način"
 msgid "Error saving recent connection."
 msgstr "Napaka med shranjevanjem nedavnih povezav"
 
-#: ../vinagre/vinagre-tab.c:778
+#: ../vinagre/vinagre-tab.c:781
 #, c-format
-msgid "Remote desktop password: %s"
-msgstr "Geslo povezave z oddaljenim namizjem: %s"
+msgid "Remote desktop password for %s"
+msgstr "Geslo za povezavo z oddaljenim namizjem %s"
 
-#: ../vinagre/vinagre-tab.c:890
+#: ../vinagre/vinagre-tab.c:897
 msgid "Could not get a screenshot of the connection."
 msgstr "Ni mogoče zajeti zaslonske slike povezave."
 
-#: ../vinagre/vinagre-tab.c:895
+#: ../vinagre/vinagre-tab.c:902
 msgid "Save Screenshot"
 msgstr "Shrani zajeto sliko"
 
-#: ../vinagre/vinagre-tab.c:909
+#: ../vinagre/vinagre-tab.c:916
 #, c-format
 msgid "Screenshot of %s at %s"
 msgstr "Zaslonska slika %s na %s"
 
-#: ../vinagre/vinagre-tab.c:963
+#: ../vinagre/vinagre-tab.c:970
 msgid "Error saving screenshot"
 msgstr "Napaka med shranjevanjem zajete slike"
 
