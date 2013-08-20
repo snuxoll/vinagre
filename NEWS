@@ -1,3 +1,35 @@
+Vinagre 3.9.90
+==============
+
+Chao-Hsiung Liao (1):
+      Updated Traditional Chinese translation(Hong Kong and Taiwan)
+
+David King (2):
+      Post-release version bump to 3.9.90
+      Update NEWS for 3.9.90 release
+
+Fran Diéguez (1):
+      Updated Galician translations
+
+Jonh Wendell (2):
+      Implement get_dimensions() virtual function for VNC
+      Implement get_dimensions() virtual function for RDP
+
+Kjartan Maraas (1):
+      Updated Norwegian bokmål translation
+
+Matej Urbančič (1):
+      Updated Slovenian translation
+
+Rafael Ferreira (1):
+      Updated Brazilian Portuguese translation
+
+Wylmer Wang (1):
+      Added Chinese simplified translation for help
+
+Yaron Shahrabani (1):
+      Updated Hebrew translation.
+
 Vinagre 3.9.5
 =============
 
