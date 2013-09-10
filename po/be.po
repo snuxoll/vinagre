@@ -1074,7 +1074,7 @@ msgid "Error saving recent connection."
 msgstr "Памылка захавання нядаўняга злучэння."
 
 #: ../vinagre/vinagre-tab.c:781
-#, fuzzy, c-format
+#, c-format
 msgid "Remote desktop password for %s"
 msgstr "Пароль да аддаленага стала %s"
 
