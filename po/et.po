@@ -6,15 +6,15 @@
 #
 # Ivar Smolin <okul linux ee>, 2008–2011.
 # Priit Laes <plaes plaes org>, 2008, 2009.
-# Mattias Põldaru <mahfiaz@gmail.com>, 2008, 2009, 2010, 2012.
+# Mattias Põldaru <mahfiaz@gmail.com>, 2008, 2009, 2010, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre MASTER\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-09-22 23:21+0000\n"
-"PO-Revision-Date: 2012-09-23 05:01+0300\n"
+"POT-Creation-Date: 2013-09-10 17:51+0000\n"
+"PO-Revision-Date: 2013-09-12 00:24+0300\n"
 "Last-Translator: Mattias Põldaru <mahfiaz@gmail.com>\n"
 "Language-Team: Estonian <gnome-et@linux.ee>\n"
 "Language: et\n"
@@ -22,6 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 msgid "Whether we should leave other clients connected"
 msgstr "Kas teised kliendid tuleb jätta ühendatuks või mitte"
@@ -217,11 +218,27 @@ msgstr ""
 "Valikuline. Tühja väärtuse korral kasutatakse sinu kasutajanime. "
 "Kasutajanime on võimalik määrata ka hostinimes kujul kasutajanimi@hostinimi."
 
+#. Host width
+msgid "_Width:"
+msgstr "_Laius:"
+
+#. Translators: This is the tooltip for the width field in a RDP connection
+msgid "Set width of the remote desktop"
+msgstr "Kaugtöölaua laius"
+
+#. Host height
+msgid "_Height:"
+msgstr "_Kõrgus:"
+
+#. Translators: This is the tooltip for the height field in a RDP connection
+msgid "Set height of the remote desktop"
+msgstr "Kaugtöölaua kõrgus"
+
 msgid "Port:"
 msgstr "Port:"
 
 msgid "Error while executing xfreerdp"
-msgstr "Viga xfreerdpi käivitamisel"
+msgstr "Viga xfreerdp käivitamisel"
 
 msgid "Unknown error"
 msgstr "Tundmatu viga"
@@ -802,8 +819,8 @@ msgid "Error saving recent connection."
 msgstr "Viga hiljutise ühenduse salvestamisel."
 
 #, c-format
-msgid "Remote desktop password: %s"
-msgstr "Kaugtöölaua parool: %s"
+msgid "Remote desktop password for %s"
+msgstr "Kaugtöölaua parool masina %s jaoks"
 
 msgid "Could not get a screenshot of the connection."
 msgstr "Ühendatud arvuti ekraanist pole võimalik ekraanipilti võtta."
