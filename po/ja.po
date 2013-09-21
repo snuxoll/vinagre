@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vinagre master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-08-22 08:59+0000\n"
-"PO-Revision-Date: 2012-08-22 22:47+0900\n"
-"Last-Translator: Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>\n"
+"POT-Creation-Date: 2013-09-18 16:37+0000\n"
+"PO-Revision-Date: 2013-09-16 16:02+0900\n"
+"Last-Translator: Nishio Futoshi <fut_nis@d3.dion.ne.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -38,7 +38,7 @@ msgstr "\"TRUE\" にすると常にタブを表示します。\"FALSE\" にす�
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:5
 msgid "Whether we should show the menu accelerators (shortcut keys)"
-msgstr "メニューのアクセラレータキー(ショートカット・キー)を表示するかどうか"
+msgstr "メニューのアクセラレータキー(ショートカットキー)を表示するかどうか"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:6
 msgid "Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. Note that if they are enabled, those keys will be intercepted by the menu and will not be sent to the remote host."
@@ -50,7 +50,7 @@ msgstr "接続ダイアログに表示する履歴の個数 (最大値)"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:8
 msgid "Specifies the maximum number of items in the host dropdown entry."
-msgstr "接続ダイアログでホスト名を入力するエントリにあるドロップ・ダウン式のコンボに並べる履歴の個数 (最大値) です。"
+msgstr "接続ダイアログでホスト名を入力するエントリにあるドロップダウン式のコンボに並べる履歴の個数 (最大値) です。"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:9
 msgid "Whether we should start the program listening for reverse connections"
@@ -63,7 +63,7 @@ msgstr "\"TRUE\" に設定するとプログラムは常にリバースコネク
 #: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
 #: ../vinagre/vinagre-main.c:182
 msgid "Remote Desktop Viewer"
-msgstr "リモートデスクトップ・ビューアー"
+msgstr "リモートデスクトップビューアー"
 
 #: ../data/vinagre.desktop.in.in.h:2 ../data/vinagre-file.desktop.in.in.h:2
 msgid "Access remote desktops"
@@ -71,11 +71,11 @@ msgstr "リモートデスクトップへアクセスします"
 
 #: ../data/vinagre.desktop.in.in.h:3
 msgid "VNC;RDP;SSH;"
-msgstr "VNC;RDP;SSH;"
+msgstr "VNC;RDP;SSH;ヴァーチャルネットワークコンピューティング;仮想ネットワークコンピューティング;遠隔操作;リモートデスクトッププロトコル;セキュアシェル;remote desktop;"
 
 #: ../data/vinagre.ui.h:1
 msgid "Vinagre is a remote desktop viewer for the GNOME desktop"
-msgstr "Vinagre は GNOME デスクトップ向けのリモートデスクトップ・ビューアーです。"
+msgstr "Vinagre は GNOME デスクトップ向けのリモートデスクトップビューアーです。"
 
 #. Add your name here to appear as a translator in the about dialog
 #: ../data/vinagre.ui.h:3
@@ -102,12 +102,12 @@ msgstr "認証が必要です"
 msgid "Host:"
 msgstr "ホスト名:"
 
-#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:105
-#: ../plugins/ssh/vinagre-ssh-plugin.c:110
+#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:111
+#: ../plugins/ssh/vinagre-ssh-plugin.c:112
 msgid "_Username:"
 msgstr "ユーザー名(_U):"
 
-#: ../data/vinagre.ui.h:9 ../plugins/spice/vinagre-spice-plugin.c:294
+#: ../data/vinagre.ui.h:9 ../plugins/spice/vinagre-spice-plugin.c:310
 msgid "_Password:"
 msgstr "パスワード(_P):"
 
@@ -215,31 +215,51 @@ msgstr "接続性"
 
 #: ../data/vinagre-mime.xml.in.h:1
 msgid "Remote Desktop (VNC) file"
-msgstr "リモート・デスクトップ (VNC) のファイル"
+msgstr "リモートデスクトップ (VNC) のファイル"
 
 #: ../data/vinagre-mime.xml.in.h:2
 msgid "Remote Desktop Connection"
-msgstr "リモート・デスクトップの接続"
+msgstr "リモートデスクトップの接続"
 
-#: ../plugins/rdp/vinagre-rdp-plugin.c:55
+#: ../plugins/rdp/vinagre-rdp-plugin.c:61
 msgid "RDP"
 msgstr "RDP"
 
 #. Translators: This is a description of the RDP protocol. It appears in the Connect dialog.
-#: ../plugins/rdp/vinagre-rdp-plugin.c:57
+#: ../plugins/rdp/vinagre-rdp-plugin.c:63
 msgid "Access MS Windows remote desktops"
 msgstr "MS Windows のリモートデスクトップへアクセスします"
 
-#: ../plugins/rdp/vinagre-rdp-plugin.c:96
+#: ../plugins/rdp/vinagre-rdp-plugin.c:104
 msgid "RDP Options"
 msgstr "RDPのオプション"
 
 #. Translators: This is the tooltip for the username field in a RDP connection
 #. Translators: This is the tooltip for the username field in a SSH connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:110
-#: ../plugins/ssh/vinagre-ssh-plugin.c:115
+#: ../plugins/rdp/vinagre-rdp-plugin.c:118
+#: ../plugins/ssh/vinagre-ssh-plugin.c:117
 msgid "Optional. If blank, your username will be used. Also, it can be supplied in the Host field above, in the form username@hostname."
 msgstr "オプションです。空欄の場合、あなたのユーザー名が使用されます。この名前はホスト名の項目でも ユーザー名@ホスト名 という形で使用されます。"
+
+#. Host width
+#: ../plugins/rdp/vinagre-rdp-plugin.c:131
+msgid "_Width:"
+msgstr "幅(_W):"
+
+#. Translators: This is the tooltip for the width field in a RDP connection
+#: ../plugins/rdp/vinagre-rdp-plugin.c:138
+msgid "Set width of the remote desktop"
+msgstr "リモートデスクトップの幅を設定します"
+
+#. Host height
+#: ../plugins/rdp/vinagre-rdp-plugin.c:147
+msgid "_Height:"
+msgstr "高さ(_H):"
+
+#. Translators: This is the tooltip for the height field in a RDP connection
+#: ../plugins/rdp/vinagre-rdp-plugin.c:154
+msgid "Set height of the remote desktop"
+msgstr "リモートデスクトップの高さを設定します"
 
 #: ../plugins/rdp/vinagre-rdp-tab.c:55 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
@@ -247,165 +267,165 @@ msgstr "オプションです。空欄の場合、あなたのユーザー名が
 msgid "Port:"
 msgstr "ポート番号:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:124
+#: ../plugins/rdp/vinagre-rdp-tab.c:139
 msgid "Error while executing xfreerdp"
 msgstr "xfreerdp を実行する際にエラーが発生しました。"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:125 ../vinagre/vinagre-bookmarks.c:366
+#: ../plugins/rdp/vinagre-rdp-tab.c:140 ../vinagre/vinagre-bookmarks.c:366
 #: ../vinagre/vinagre-bookmarks.c:492
 #: ../vinagre/vinagre-bookmarks-migration.c:135
 #: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
-#: ../vinagre/vinagre-connect.c:495 ../vinagre/vinagre-options.c:85
+#: ../vinagre/vinagre-connect.c:500 ../vinagre/vinagre-options.c:85
 #: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
 #: ../vinagre/vinagre-window.c:798
 msgid "Unknown error"
 msgstr "原因不明のエラーです"
 
-#: ../plugins/ssh/vinagre-ssh-plugin.c:59
+#: ../plugins/ssh/vinagre-ssh-plugin.c:61
 msgid "SSH"
 msgstr "SSH"
 
 #. Translators: This is a description of the SSH protocol. It appears at Connect dialog.
-#: ../plugins/ssh/vinagre-ssh-plugin.c:61
+#: ../plugins/ssh/vinagre-ssh-plugin.c:63
 msgid "Access Unix/Linux terminals"
 msgstr "UNIX/Linux の端末にアクセスします"
 
-#: ../plugins/ssh/vinagre-ssh-plugin.c:101
+#: ../plugins/ssh/vinagre-ssh-plugin.c:103
 msgid "SSH Options"
 msgstr "SSH オプション"
 
 #. Translators: 'shared' here is a VNC protocol specific flag. You can translate it, but I think it's better to let it untranslated
 #: ../plugins/vnc/vinagre-vnc-connection.c:317
-#: ../plugins/vnc/vinagre-vnc-plugin.c:199
+#: ../plugins/vnc/vinagre-vnc-plugin.c:201
 #, c-format
 msgid "Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
 msgstr "'shared' フラグの値が間違っています (0 または 1 のどちらかです): %d (無視します)"
 
 #. Translators: this is a command line option (run vinagre --help)
-#: ../plugins/vnc/vinagre-vnc-plugin.c:50
+#: ../plugins/vnc/vinagre-vnc-plugin.c:52
 msgid "Enable scaled mode"
 msgstr "画面サイズを調整可能にする"
 
 #. Translators: this is a command line option (run vinagre --help)
-#: ../plugins/vnc/vinagre-vnc-plugin.c:63
+#: ../plugins/vnc/vinagre-vnc-plugin.c:65
 msgid "VNC Options:"
 msgstr "VNC のオプション:"
 
 #. Translators: this is a command line option (run vinagre --help)
-#: ../plugins/vnc/vinagre-vnc-plugin.c:65
+#: ../plugins/vnc/vinagre-vnc-plugin.c:67
 msgid "Show VNC Options"
 msgstr "VNC のオプションを表示する"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:87
+#: ../plugins/vnc/vinagre-vnc-plugin.c:89
 msgid "VNC"
 msgstr "VNC"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:88
+#: ../plugins/vnc/vinagre-vnc-plugin.c:90
 msgid "Access Unix/Linux, Windows and other remote desktops."
 msgstr "UNIX/Linux、Windows、その他のリモートデスクトップへアクセスします。"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:145
-#: ../plugins/spice/vinagre-spice-plugin.c:100
+#: ../plugins/vnc/vinagre-vnc-plugin.c:147
+#: ../plugins/spice/vinagre-spice-plugin.c:101
 msgid "Could not parse the file."
 msgstr "ファイルを解析できませんでした"
 
 #. Translators: Do not translate "Connection". It's the name of a group in the .vnc (.ini like) file.
-#: ../plugins/vnc/vinagre-vnc-plugin.c:153
+#: ../plugins/vnc/vinagre-vnc-plugin.c:155
 msgid "The file is not a VNC one: Missing the group \"Connection\"."
 msgstr "VNC のファイルではありません: \"接続\" グループが見つかりません。"
 
 #. Translators: Do not translate "Host". It's the name of a key in the .vnc (.ini like) file.
-#: ../plugins/vnc/vinagre-vnc-plugin.c:160
+#: ../plugins/vnc/vinagre-vnc-plugin.c:162
 msgid "The file is not a VNC one: Missing the key \"Host\"."
 msgstr "VNC のファイルではありません: \"ホスト\" キーが見つかりません。"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:251
+#: ../plugins/vnc/vinagre-vnc-plugin.c:268
 msgid "VNC Options"
 msgstr "VNC のオプション"
 
 #. View only check button
 #. View only check button - not fully ready on spice-gtk side
-#: ../plugins/vnc/vinagre-vnc-plugin.c:259
-#: ../plugins/vnc/vinagre-vnc-tab.c:619
-#: ../plugins/spice/vinagre-spice-plugin.c:221
+#: ../plugins/vnc/vinagre-vnc-plugin.c:276
+#: ../plugins/vnc/vinagre-vnc-tab.c:630
+#: ../plugins/spice/vinagre-spice-plugin.c:237
 #: ../plugins/spice/vinagre-spice-tab.c:507
 msgid "_View only"
 msgstr "表示のみ(_V)"
 
 #. Scaling check button
-#: ../plugins/vnc/vinagre-vnc-plugin.c:268
-#: ../plugins/spice/vinagre-spice-plugin.c:245
+#: ../plugins/vnc/vinagre-vnc-plugin.c:285
+#: ../plugins/spice/vinagre-spice-plugin.c:261
 msgid "_Scaling"
 msgstr "画面サイズを変更する(_S)"
 
 #. Keep ratio check button
-#: ../plugins/vnc/vinagre-vnc-plugin.c:282
+#: ../plugins/vnc/vinagre-vnc-plugin.c:299
 msgid "_Keep aspect ratio"
 msgstr "アスペクト比を保つ(_K)"
 
 #. JPEG Compression check button
-#: ../plugins/vnc/vinagre-vnc-plugin.c:292
+#: ../plugins/vnc/vinagre-vnc-plugin.c:309
 msgid "_Use JPEG Compression"
 msgstr "JPEG 圧縮を使用する(_U)"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:293
+#: ../plugins/vnc/vinagre-vnc-plugin.c:310
 msgid "This might not work on all VNC servers"
 msgstr "すべての VNC サーバーで有効とは限りません"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:303
+#: ../plugins/vnc/vinagre-vnc-plugin.c:320
 msgid "Color _Depth:"
 msgstr "色深度(_D):"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:308
+#: ../plugins/vnc/vinagre-vnc-plugin.c:325
 msgid "Use Server Settings"
 msgstr "サーバー設定を使用する"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:309
+#: ../plugins/vnc/vinagre-vnc-plugin.c:326
 msgid "True Color (24 bits)"
 msgstr "True Color (24 ビット)"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:310
+#: ../plugins/vnc/vinagre-vnc-plugin.c:327
 msgid "High Color (16 bits)"
 msgstr "High Color (16 ビット)"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:311
+#: ../plugins/vnc/vinagre-vnc-plugin.c:328
 msgid "Low Color (8 bits)"
 msgstr "Low Color (8 ビット)"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:312
+#: ../plugins/vnc/vinagre-vnc-plugin.c:329
 msgid "Ultra Low Color (3 bits)"
 msgstr "Ultra Low Color (3 ビット)"
 
 #. Translators: the whole sentence will be: Use Host <hostname> as a SSH tunnel
 #. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
-#: ../plugins/vnc/vinagre-vnc-plugin.c:326
-#: ../plugins/spice/vinagre-spice-plugin.c:256
+#: ../plugins/vnc/vinagre-vnc-plugin.c:343
+#: ../plugins/spice/vinagre-spice-plugin.c:272
 msgid "Use h_ost"
 msgstr "ホスト(_O)"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:335
-#: ../plugins/spice/vinagre-spice-plugin.c:265
+#: ../plugins/vnc/vinagre-vnc-plugin.c:352
+#: ../plugins/spice/vinagre-spice-plugin.c:281
 msgid "hostname or user@hostname"
 msgstr "ホスト名 または ユーザー名@ホスト名"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:336
-#: ../plugins/spice/vinagre-spice-plugin.c:266
+#: ../plugins/vnc/vinagre-vnc-plugin.c:353
+#: ../plugins/spice/vinagre-spice-plugin.c:282
 msgid "Supply an alternative port using colon"
 msgstr "コロン(:)を使って代わりのポート番号を指定してください"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:337
-#: ../plugins/spice/vinagre-spice-plugin.c:267
+#: ../plugins/vnc/vinagre-vnc-plugin.c:354
+#: ../plugins/spice/vinagre-spice-plugin.c:283
 msgid "For instance: joe@example.com:5022"
 msgstr "例: joe@example.com:5022"
 
 #. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
-#: ../plugins/vnc/vinagre-vnc-plugin.c:343
-#: ../plugins/spice/vinagre-spice-plugin.c:273
+#: ../plugins/vnc/vinagre-vnc-plugin.c:360
+#: ../plugins/spice/vinagre-spice-plugin.c:289
 msgid "as a SSH tunnel"
 msgstr "を SSH トンネルとして利用する"
 
 #. Translators: this is a pattern to open *.vnc files in a open dialog.
-#: ../plugins/vnc/vinagre-vnc-plugin.c:378
+#: ../plugins/vnc/vinagre-vnc-plugin.c:395
 msgid "VNC Files"
 msgstr "VNC ファイル"
 
@@ -417,113 +437,113 @@ msgstr "デスクトップ名:"
 msgid "Dimensions:"
 msgstr "画面サイズ:"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:296
+#: ../plugins/vnc/vinagre-vnc-tab.c:306
 #: ../plugins/spice/vinagre-spice-tab.c:252
 msgid "Error creating the SSH tunnel"
 msgstr "SSHトンネルの作成エラー"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:297 ../plugins/vnc/vinagre-vnc-tab.c:308
+#: ../plugins/vnc/vinagre-vnc-tab.c:307 ../plugins/vnc/vinagre-vnc-tab.c:318
 #: ../plugins/spice/vinagre-spice-tab.c:253
 #: ../plugins/spice/vinagre-spice-tab.c:265
 msgid "Unknown reason"
 msgstr "原因不明です"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:307
+#: ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:264
 msgid "Error connecting to host."
 msgstr "ホストへ接続する際にエラーが発生しました。"
 
 #. Translators: %s is a host name or IP address; %u is a code error (number).
-#: ../plugins/vnc/vinagre-vnc-tab.c:352
+#: ../plugins/vnc/vinagre-vnc-tab.c:362
 #, c-format
 msgid "Authentication method for host %s is unsupported. (%u)"
 msgstr "ホスト %s に対する認証方法はサポートされていません。(%u)"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:356
+#: ../plugins/vnc/vinagre-vnc-tab.c:366
 msgid "Authentication unsupported"
 msgstr "認証方法をサポートしていません"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:518 ../plugins/vnc/vinagre-vnc-tab.c:535
+#: ../plugins/vnc/vinagre-vnc-tab.c:529 ../plugins/vnc/vinagre-vnc-tab.c:546
 msgid "Authentication error"
 msgstr "認証エラー"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:519
+#: ../plugins/vnc/vinagre-vnc-tab.c:530
 msgid "A username is required in order to access this remote desktop."
 msgstr "このリモートデスクトップへアクセスするにはユーザー名が必要です。"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:536
+#: ../plugins/vnc/vinagre-vnc-tab.c:547
 msgid "A password is required in order to access this remote desktop."
 msgstr "このリモートデスクトップへアクセスするにはパスワードが必要です。"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:590
+#: ../plugins/vnc/vinagre-vnc-tab.c:601
 #: ../plugins/spice/vinagre-spice-tab.c:466
 msgid "S_caling"
 msgstr "サイズの変更(_C)"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:591
+#: ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:467
 msgid "Fits the remote screen into the current window size"
 msgstr "リモートの画面を現在のウィンドウの大きさに合わせます"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:604
+#: ../plugins/vnc/vinagre-vnc-tab.c:615
 msgid "_Keep Aspect Ratio"
 msgstr "アスペクト比を保つ(_K)"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:605
+#: ../plugins/vnc/vinagre-vnc-tab.c:616
 msgid "Keeps the screen aspect ratio when using scaling"
 msgstr "サイズの変更の際に画面のアスペクト比を保ちます"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:620
+#: ../plugins/vnc/vinagre-vnc-tab.c:631
 #: ../plugins/spice/vinagre-spice-tab.c:508
 msgid "Does not send mouse and keyboard events"
 msgstr "マウス/キーボードのイベントを送信しない"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:633
+#: ../plugins/vnc/vinagre-vnc-tab.c:644
 msgid "_Original size"
 msgstr "元のサイズ(_O)"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:634
+#: ../plugins/vnc/vinagre-vnc-tab.c:645
 msgid "Adjusts the window to the remote desktop's size"
-msgstr "ウィンドウをリモート・デスクトップのサイズに変更します"
+msgstr "ウィンドウをリモートデスクトップのサイズに変更します"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:647
+#: ../plugins/vnc/vinagre-vnc-tab.c:658
 msgid "_Refresh Screen"
 msgstr "画面の再読み込み(_R)"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:648
+#: ../plugins/vnc/vinagre-vnc-tab.c:659
 msgid "Requests an update of the screen"
 msgstr "画面の更新を要求します"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:670
+#: ../plugins/vnc/vinagre-vnc-tab.c:681
 #: ../plugins/spice/vinagre-spice-tab.c:531
 msgid "_Send Ctrl-Alt-Del"
 msgstr "Ctrl-Alt-Del を送る(_S)"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:671
+#: ../plugins/vnc/vinagre-vnc-tab.c:682
 #: ../plugins/spice/vinagre-spice-tab.c:532
 msgid "Sends Ctrl+Alt+Del to the remote desktop"
 msgstr "リモートデスクトップへ Ctrl+Alt+Del を送信します"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:724 ../plugins/vnc/vinagre-vnc-tab.c:725
+#: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
 #: ../plugins/spice/vinagre-spice-tab.c:584
 #: ../plugins/spice/vinagre-spice-tab.c:585
 msgid "Scaling"
 msgstr "サイズ変更"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:734 ../plugins/vnc/vinagre-vnc-tab.c:735
+#: ../plugins/vnc/vinagre-vnc-tab.c:745 ../plugins/vnc/vinagre-vnc-tab.c:746
 #: ../plugins/spice/vinagre-spice-tab.c:594
 #: ../plugins/spice/vinagre-spice-tab.c:595
 msgid "Read only"
 msgstr "表示のみ"
 
 #. Send Ctrl-alt-del
-#: ../plugins/vnc/vinagre-vnc-tab.c:743 ../plugins/vnc/vinagre-vnc-tab.c:745
+#: ../plugins/vnc/vinagre-vnc-tab.c:754 ../plugins/vnc/vinagre-vnc-tab.c:756
 #: ../plugins/spice/vinagre-spice-tab.c:603
 #: ../plugins/spice/vinagre-spice-tab.c:605
 msgid "Send Ctrl-Alt-Del"
 msgstr "Ctrl-Alt-Del を送る"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:908
+#: ../plugins/vnc/vinagre-vnc-tab.c:919
 msgid ""
 "Scaling is not supported on this installation.\n"
 "\n"
@@ -540,47 +560,47 @@ msgid "Unable to find a free TCP port"
 msgstr "空いている TCP ポートが見つかりません"
 
 #. Translators: Do not translate "connection". It's the name of a group in the .spice (.ini like) file.
-#: ../plugins/spice/vinagre-spice-plugin.c:107
+#: ../plugins/spice/vinagre-spice-plugin.c:108
 msgid "The file is not a Spice one: Missing the group \"connection\"."
 msgstr "Spice のファイルではありません: \"接続\" グループが見つかりません。"
 
 #. Translators: Do not translate "host". It's the name of a key in the .spice (.ini like) file.
-#: ../plugins/spice/vinagre-spice-plugin.c:114
+#: ../plugins/spice/vinagre-spice-plugin.c:115
 msgid "The file is not a Spice one: Missing the key \"host\"."
 msgstr "Spice のファイルではありません: \"ホスト\" キーが見つかりません。"
 
-#: ../plugins/spice/vinagre-spice-plugin.c:158
+#: ../plugins/spice/vinagre-spice-plugin.c:174
 msgid "SPICE"
 msgstr "SPICE"
 
 #. Translators: This is a description of the SPICE protocol. It appears at Connect dialog.
-#: ../plugins/spice/vinagre-spice-plugin.c:160
+#: ../plugins/spice/vinagre-spice-plugin.c:176
 msgid "Access Spice desktop server"
 msgstr "Spice サーバーにアクセスします"
 
-#: ../plugins/spice/vinagre-spice-plugin.c:208
+#: ../plugins/spice/vinagre-spice-plugin.c:224
 msgid "SPICE Options"
 msgstr "SPICEのオプション"
 
 #. Resize guest check button
-#: ../plugins/spice/vinagre-spice-plugin.c:229
+#: ../plugins/spice/vinagre-spice-plugin.c:245
 #: ../plugins/spice/vinagre-spice-tab.c:480
 msgid "_Resize guest"
 msgstr "ゲストのリサイズ(_R)"
 
 #. Clipboard sharing check button
-#: ../plugins/spice/vinagre-spice-plugin.c:237
+#: ../plugins/spice/vinagre-spice-plugin.c:253
 #: ../plugins/spice/vinagre-spice-tab.c:493
 msgid "_Share clipboard"
 msgstr "クリップボードを共有(_S)"
 
 #. Translators: This is the tooltip for the password field in a SPICE connection
-#: ../plugins/spice/vinagre-spice-plugin.c:299
+#: ../plugins/spice/vinagre-spice-plugin.c:315
 msgid "Optional"
 msgstr "オプション"
 
 #. Translators: this is a pattern to open *.spice files in a open dialog.
-#: ../plugins/spice/vinagre-spice-plugin.c:320
+#: ../plugins/spice/vinagre-spice-plugin.c:336
 msgid "Spice Files"
 msgstr "Spice ファイル"
 
@@ -603,7 +623,7 @@ msgstr "ブックマークを初期化する際にエラーが発生しました
 
 #: ../vinagre/vinagre-bookmarks.c:380
 msgid "Error while initializing bookmarks: The file is not a vinagre bookmarks file"
-msgstr "ブックマークを初期化する際にエラーが発生しました: Vinagre のブックマーク・ファイルではないようです"
+msgstr "ブックマークを初期化する際にエラーが発生しました: Vinagre のブックマークファイルではないようです"
 
 #: ../vinagre/vinagre-bookmarks.c:453 ../vinagre/vinagre-bookmarks.c:460
 msgid "Error while saving bookmarks: Failed to create the XML structure"
@@ -657,7 +677,7 @@ msgstr "ブックマークを新しい形式に変換します。この操作は
 #: ../vinagre/vinagre-bookmarks-migration.c:249
 #, c-format
 msgid "Error opening old bookmarks file: %s"
-msgstr "古いブックマーク・ファイルを開く際にエラーが発生しました: %s"
+msgstr "古いブックマークファイルを開く際にエラーが発生しました: %s"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:250
 #: ../vinagre/vinagre-bookmarks-migration.c:262
@@ -666,7 +686,7 @@ msgstr "移行をキャンセルしました"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:259
 msgid "Could not remove the old bookmarks file"
-msgstr "古いブックマーク・ファイルを削除できませんでした"
+msgstr "古いブックマークファイルを削除できませんでした"
 
 #: ../vinagre/vinagre-bookmarks-tree.c:120
 msgid "Root Folder"
@@ -741,7 +761,7 @@ msgid_plural "The following files could not be opened:"
 msgstr[0] "次のファイルは開けません"
 
 #: ../vinagre/vinagre-connect.c:90 ../vinagre/vinagre-connect.c:336
-#: ../vinagre/vinagre-connect.c:459
+#: ../vinagre/vinagre-connect.c:464
 msgid "Could not get the active protocol from the protocol list."
 msgstr "プロトコル一覧から有効なプロトコルを取得できませんでした。"
 
@@ -754,24 +774,24 @@ msgstr "履歴ファイルを保存する際にエラーが発生しました: %
 msgid "Choose a Remote Desktop"
 msgstr "リモートデスクトップの選択"
 
-#: ../vinagre/vinagre-connection.c:525 ../vinagre/vinagre-tab.c:574
+#: ../vinagre/vinagre-connection.c:614 ../vinagre/vinagre-tab.c:574
 #: ../vinagre/vinagre-tube-handler.c:257
 #, c-format
 msgid "The protocol %s is not supported."
 msgstr "%s というプロトコルはサポートしていません。"
 
-#: ../vinagre/vinagre-connection.c:633
+#: ../vinagre/vinagre-connection.c:722
 msgid "Could not open the file."
 msgstr "ファイルを開けませんでした"
 
-#: ../vinagre/vinagre-connection.c:657
+#: ../vinagre/vinagre-connection.c:748
 msgid "The file was not recognized by any of the plugins."
 msgstr "そのファイルはすべてのプラグインで認識されませんでした。"
 
 #. Setup command line options
 #: ../vinagre/vinagre-main.c:91
 msgid "- Remote Desktop Viewer"
-msgstr "- リモートデスクトップ・ビューアー"
+msgstr "- リモートデスクトップビューアー"
 
 #: ../vinagre/vinagre-mdns.c:172
 #, c-format
@@ -919,7 +939,7 @@ msgid "Timed out when logging in"
 msgstr "ログイン処理がタイムアウトしました"
 
 #: ../vinagre/vinagre-ssh.c:454 ../vinagre/vinagre-ssh.c:596
-#: ../vinagre/vinagre-ssh.c:679
+#: ../vinagre/vinagre-ssh.c:692
 msgid "Permission denied"
 msgstr "認証に失敗しました"
 
@@ -966,27 +986,27 @@ msgstr "ホストの正体を確認できません"
 msgid "Secure shell password: %s"
 msgstr "セキュアシェル (SSH) のパスワード: %s"
 
-#: ../vinagre/vinagre-ssh.c:618 ../vinagre/vinagre-tab.c:793
+#: ../vinagre/vinagre-ssh.c:618 ../vinagre/vinagre-tab.c:798
 msgid "Error saving the credentials on the keyring."
 msgstr "証明書をキーリングに保存する際にエラーが発生しました。"
 
-#: ../vinagre/vinagre-ssh.c:686
+#: ../vinagre/vinagre-ssh.c:700
 msgid "Hostname not known"
 msgstr "ホスト名が不明です"
 
-#: ../vinagre/vinagre-ssh.c:693
+#: ../vinagre/vinagre-ssh.c:708
 msgid "No route to host"
 msgstr "ホストへの経路がありません"
 
-#: ../vinagre/vinagre-ssh.c:700
+#: ../vinagre/vinagre-ssh.c:716
 msgid "Connection refused by server"
 msgstr "サーバーから接続が拒否されました"
 
-#: ../vinagre/vinagre-ssh.c:707
+#: ../vinagre/vinagre-ssh.c:724
 msgid "Host key verification failed"
 msgstr "ホスト鍵認証に失敗しました"
 
-#: ../vinagre/vinagre-ssh.c:744
+#: ../vinagre/vinagre-ssh.c:764
 msgid "Unable to find a valid SSH program"
 msgstr "有効な SSH プログラムを見つけられませんでした"
 
@@ -1002,25 +1022,25 @@ msgstr "フルスクリーンの解除"
 msgid "Error saving recent connection."
 msgstr "最近開いた接続を保存する際にエラーが発生しました。"
 
-#: ../vinagre/vinagre-tab.c:778
+#: ../vinagre/vinagre-tab.c:781
 #, c-format
-msgid "Remote desktop password: %s"
-msgstr "リモートデスクトップのパスワード: %s"
+msgid "Remote desktop password for %s"
+msgstr "%s のリモートデスクトップのパスワード "
 
-#: ../vinagre/vinagre-tab.c:890
+#: ../vinagre/vinagre-tab.c:897
 msgid "Could not get a screenshot of the connection."
 msgstr "接続のスクリーンショットを取得できませんでした。"
 
-#: ../vinagre/vinagre-tab.c:895
+#: ../vinagre/vinagre-tab.c:902
 msgid "Save Screenshot"
 msgstr "スクリーンショットの保存"
 
-#: ../vinagre/vinagre-tab.c:909
+#: ../vinagre/vinagre-tab.c:916
 #, c-format
 msgid "Screenshot of %s at %s"
 msgstr "%s のスクリーンショット (%s 内)"
 
-#: ../vinagre/vinagre-tab.c:963
+#: ../vinagre/vinagre-tab.c:970
 msgid "Error saving screenshot"
 msgstr "スクリーンショットを保存する際にエラーが発生しました"
 
@@ -1037,7 +1057,7 @@ msgstr "接続を作成できません: %s"
 #: ../vinagre/vinagre-tube-handler.c:339
 #, c-format
 msgid "Impossible to accept the stream tube: %s"
-msgstr "ストリーム・チューブを受け入れることができません: %s"
+msgstr "ストリームチューブを受け入れることができません: %s"
 
 #. Translators: this is an error message when we fail to get the name of an empathy/telepathy buddy. %s will be replaced by the actual error message.
 #: ../vinagre/vinagre-tube-handler.c:477
@@ -1194,7 +1214,7 @@ msgstr "UI ファイルを読み込む際にエラーが発生しました"
 msgid "%s authentication is required"
 msgstr "%s 認証が必要です"
 
-#: ../vinagre/vinagre-utils.vala:194
+#: ../vinagre/vinagre-utils.vala:193
 msgid "Error showing help"
 msgstr "ヘルプを表示する際にエラーが発生しました。"
 
@@ -1242,7 +1262,7 @@ msgstr "ファイル %s を作成する際にエラーが発生しました: %s"
 #~ msgstr "設定"
 
 #~ msgid "This option enables menu accelerators and keyboard shortcuts. For more info on why you may want to disable them, check the documentation."
-#~ msgstr "このオプションではメニューのアクセラレータとキーボード・ショートカットを有効にします。無効になっている理由を知りたい場合はドキュメントを参照してください。"
+#~ msgstr "このオプションではメニューのアクセラレータとキーボードショートカットを有効にします。無効になっている理由を知りたい場合はドキュメントを参照してください。"
 
 #~ msgid "Which machine do you want to connect to?"
 #~ msgstr "どのマシンへ接続しますか?"
@@ -1284,7 +1304,7 @@ msgstr "ファイル %s を作成する際にエラーが発生しました: %s"
 #~ msgstr "Vinagre を起動できませんでした:"
 
 #~ msgid "Open Remote Desktop Viewer"
-#~ msgstr "リモートデスクトップ・ビューアーを開く"
+#~ msgstr "リモートデスクトップビューアーを開く"
 
 #~ msgid "Access your bookmarks"
 #~ msgstr "ブックマークにアクセスします"
@@ -1317,7 +1337,7 @@ msgstr "ファイル %s を作成する際にエラーが発生しました: %s"
 #~ msgstr "間違った操作です"
 
 #~ msgid "Data received from drag&drop operation is invalid."
-#~ msgstr "ドラッグ・アンド・ドロップで受け取ったデータが間違っています。"
+#~ msgstr "ドラッグアンドドロップで受け取ったデータが間違っています。"
 
 #~ msgid "Hide panel"
 #~ msgstr "パネルを隠す"
@@ -1326,7 +1346,7 @@ msgstr "ファイル %s を作成する際にエラーが発生しました: %s"
 #~ msgstr "近くにあるホスト"
 
 #~ msgid "Run 'vinagre --help' to see a full list of available command line options"
-#~ msgstr "コマンドライン・オプションの一覧を参照するには 'vinagre --help' を実行してください"
+#~ msgstr "コマンドラインオプションの一覧を参照するには 'vinagre --help' を実行してください"
 
 #~ msgid "Plugin %s has already registered a browser for service %s."
 #~ msgstr "プラグイン %s はサービス %s に対するブラウザーとしてすでに登録済です。"
@@ -1374,10 +1394,10 @@ msgstr "ファイル %s を作成する際にエラーが発生しました: %s"
 #~ msgstr "プラグインの選択"
 
 #~ msgid "Side _Panel"
-#~ msgstr "サイド・パネル(_P)"
+#~ msgstr "サイドパネル(_P)"
 
 #~ msgid "Show or hide the side panel"
-#~ msgstr "サイド・パネルの表示を切り替えます"
+#~ msgstr "サイドパネルの表示を切り替えます"
 
 #~ msgid "C_lose All"
 #~ msgstr "すべて閉じる(_L)"
@@ -1398,7 +1418,7 @@ msgstr "ファイル %s を作成する際にエラーが発生しました: %s"
 #~ msgstr "Vinagre のウェブサイト"
 
 #~ msgid "About menu accelerators and keyboard shortcuts"
-#~ msgstr "メニューのアクセラレータとキーボード・ショートカットについて"
+#~ msgstr "メニューのアクセラレータとキーボードショートカットについて"
 
 #~ msgid ""
 #~ "Vinagre comes with menu accelerators and keyboard shortcuts disabled by default. The reason is to avoid the keys to be intercepted by the program, and allow them to be sent to the remote machine.\n"
