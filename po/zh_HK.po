@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vinagre 3.3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-03 21:25+0800\n"
-"PO-Revision-Date: 2013-08-03 21:25+0800\n"
+"POT-Creation-Date: 2013-09-24 19:25+0800\n"
+"PO-Revision-Date: 2013-09-24 19:25+0800\n"
 "Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
 "Language: zh_TW\n"
@@ -100,11 +100,11 @@ msgstr ""
 #. This is a button label, in the authentication dialog
 #: ../data/vinagre.ui.h:5
 msgid "_Authenticate"
-msgstr "驗證(_A)"
+msgstr "核對(_A)"
 
 #: ../data/vinagre.ui.h:6
 msgid "Authentication is required"
-msgstr "需要驗證"
+msgstr "需要核對"
 
 #: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:54
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
@@ -473,15 +473,15 @@ msgstr "連線到主機時錯誤。"
 #: ../plugins/vnc/vinagre-vnc-tab.c:362
 #, c-format
 msgid "Authentication method for host %s is unsupported. (%u)"
-msgstr "不支持到主機 %s 的驗證方法。(%u)"
+msgstr "不支持到主機 %s 的核對方法。(%u)"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:366
 msgid "Authentication unsupported"
-msgstr "不支援的驗證方法"
+msgstr "不支援的核對方法"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:529 ../plugins/vnc/vinagre-vnc-tab.c:546
 msgid "Authentication error"
-msgstr "驗證錯誤"
+msgstr "核對錯誤"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:530
 msgid "A username is required in order to access this remote desktop."
@@ -857,11 +857,11 @@ msgstr "連線已關閉"
 #: ../vinagre/vinagre-notebook.c:483
 #, c-format
 msgid "Authentication for host %s has failed"
-msgstr "到主機 %s 的驗證失敗"
+msgstr "到主機 %s 的核對失敗"
 
 #: ../vinagre/vinagre-notebook.c:489
 msgid "Authentication failed"
-msgstr "驗證失敗"
+msgstr "核對失敗"
 
 #: ../vinagre/vinagre-notebook.c:537
 msgid "Connecting…"
@@ -1032,7 +1032,7 @@ msgstr "連線被伺服器拒絕"
 
 #: ../vinagre/vinagre-ssh.c:724
 msgid "Host key verification failed"
-msgstr "主機密碼匙驗證失敗"
+msgstr "主機密碼匙核對失敗"
 
 #: ../vinagre/vinagre-ssh.c:764
 msgid "Unable to find a valid SSH program"
@@ -1240,7 +1240,7 @@ msgstr "載入 UI 檔案時發生錯誤"
 #: ../vinagre/vinagre-utils.vala:112
 #, c-format
 msgid "%s authentication is required"
-msgstr "需要 %s 驗證"
+msgstr "需要 %s 核對"
 
 #: ../vinagre/vinagre-utils.vala:193
 msgid "Error showing help"
