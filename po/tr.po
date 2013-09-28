@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Vinagre\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-09-02 18:05+0000\n"
-"PO-Revision-Date: 2013-09-28 17:38+0300\n"
+"POT-Creation-Date: 2013-09-28 14:42+0000\n"
+"PO-Revision-Date: 2013-09-28 17:47+0300\n"
 "Last-Translator: Muhammet Kara <muhammetk@gmail.com>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
 "Language: tr\n"
@@ -126,7 +126,7 @@ msgstr "Kimlik denetimi gerekli"
 msgid "Host:"
 msgstr "Ana Bilgisayar:"
 
-#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:106
+#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:111
 #: ../plugins/ssh/vinagre-ssh-plugin.c:112
 msgid "_Username:"
 msgstr "K_ullanıcı Adı:"
@@ -251,22 +251,22 @@ msgstr "Uzak Masaüstü(VNC) dosyası"
 msgid "Remote Desktop Connection"
 msgstr "Uzak Masaüstü Bağlantısı"
 
-#: ../plugins/rdp/vinagre-rdp-plugin.c:56
+#: ../plugins/rdp/vinagre-rdp-plugin.c:61
 msgid "RDP"
 msgstr "RDP"
 
 #. Translators: This is a description of the RDP protocol. It appears in the Connect dialog.
-#: ../plugins/rdp/vinagre-rdp-plugin.c:58
+#: ../plugins/rdp/vinagre-rdp-plugin.c:63
 msgid "Access MS Windows remote desktops"
 msgstr "MS Windows uzak masaüstlerine erişin"
 
-#: ../plugins/rdp/vinagre-rdp-plugin.c:97
+#: ../plugins/rdp/vinagre-rdp-plugin.c:104
 msgid "RDP Options"
 msgstr "RDP Seçenekleri"
 
 #. Translators: This is the tooltip for the username field in a RDP connection
 #. Translators: This is the tooltip for the username field in a SSH connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:111
+#: ../plugins/rdp/vinagre-rdp-plugin.c:118
 #: ../plugins/ssh/vinagre-ssh-plugin.c:117
 msgid ""
 "Optional. If blank, your username will be used. Also, it can be supplied in "
@@ -275,17 +275,40 @@ msgstr ""
 "İsteğe bağlı. Eğer boşsa, kullanıcı adınız kullanılacaktır. "
 "kullaniciadi@makineadi biçiminde, yukarıdaki Makine alanına da girilebilir."
 
+#. Host width
+#: ../plugins/rdp/vinagre-rdp-plugin.c:131
+msgid "_Width:"
+msgstr "_Genişlik:"
+
+#. Translators: This is the tooltip for the width field in a RDP connection
+#: ../plugins/rdp/vinagre-rdp-plugin.c:138
+#| msgid "Connect to this remote desktop"
+msgid "Set width of the remote desktop"
+msgstr "Uzak masaüstünün genişliğini ayarlayın"
+
+#. Host height
+#: ../plugins/rdp/vinagre-rdp-plugin.c:147
+msgid "_Height:"
+msgstr "_Yükseklik:"
+
+#. Translators: This is the tooltip for the height field in a RDP connection
+#: ../plugins/rdp/vinagre-rdp-plugin.c:154
+#| msgid "Connect to this remote desktop"
+msgid "Set height of the remote desktop"
+msgstr "Uzak masaüstünün yüksekliğini ayarlayın"
+
 #: ../plugins/rdp/vinagre-rdp-tab.c:55 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:140
 msgid "Port:"
 msgstr "Port:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:134
-msgid "Error while executing rdesktop"
-msgstr "rdesktop çalıştırılırken hata oluştu."
+#: ../plugins/rdp/vinagre-rdp-tab.c:139
+#| msgid "Error while executing rdesktop"
+msgid "Error while executing xfreerdp"
+msgstr "xfreerdp yürütülürken hata oluştu"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:135 ../vinagre/vinagre-bookmarks.c:366
+#: ../plugins/rdp/vinagre-rdp-tab.c:140 ../vinagre/vinagre-bookmarks.c:366
 #: ../vinagre/vinagre-bookmarks.c:492
 #: ../vinagre/vinagre-bookmarks-migration.c:135
 #: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
@@ -803,17 +826,17 @@ msgstr "Geçmiş dosyası kaydederken hata: %s"
 msgid "Choose a Remote Desktop"
 msgstr "Uzak Masaüstü Seçin"
 
-#: ../vinagre/vinagre-connection.c:525 ../vinagre/vinagre-tab.c:574
+#: ../vinagre/vinagre-connection.c:614 ../vinagre/vinagre-tab.c:574
 #: ../vinagre/vinagre-tube-handler.c:257
 #, c-format
 msgid "The protocol %s is not supported."
 msgstr "Protokol %s desteklenmiyor"
 
-#: ../vinagre/vinagre-connection.c:633
+#: ../vinagre/vinagre-connection.c:722
 msgid "Could not open the file."
 msgstr "Dosya açılamadı."
 
-#: ../vinagre/vinagre-connection.c:659
+#: ../vinagre/vinagre-connection.c:748
 msgid "The file was not recognized by any of the plugins."
 msgstr "Dosya hiçbir eklenti tarafından tanınmadı."
 
@@ -1021,7 +1044,7 @@ msgstr "Makine kimliği onayı gönderilemedi"
 msgid "Secure shell password: %s"
 msgstr "Güvenli kabuk parolası: %s"
 
-#: ../vinagre/vinagre-ssh.c:618 ../vinagre/vinagre-tab.c:797
+#: ../vinagre/vinagre-ssh.c:618 ../vinagre/vinagre-tab.c:798
 msgid "Error saving the credentials on the keyring."
 msgstr "Anahtarlık üzerine kimlik bilgileri kaydederken hata."
 
@@ -1059,23 +1082,24 @@ msgstr "Son bağlantı kaydedilirken hata."
 
 #: ../vinagre/vinagre-tab.c:781
 #, c-format
-msgid "Remote desktop password: %s"
-msgstr "Uzak masaüstü parolası: %s"
+#| msgid "Remote desktop password: %s"
+msgid "Remote desktop password for %s"
+msgstr "%s için uzak masaüstü parolası"
 
-#: ../vinagre/vinagre-tab.c:862
+#: ../vinagre/vinagre-tab.c:897
+msgid "Could not get a screenshot of the connection."
+msgstr "Bağlantının ekran görüntüsü alınamadı."
+
+#: ../vinagre/vinagre-tab.c:902
+msgid "Save Screenshot"
+msgstr "Ekran görüntülerini kaydet"
+
+#: ../vinagre/vinagre-tab.c:916
 #, c-format
 msgid "Screenshot of %s at %s"
 msgstr "%s'nin %s'deki ekran görüntüsü"
 
-#: ../vinagre/vinagre-tab.c:918
-msgid "Could not get a screenshot of the connection."
-msgstr "Bağlantının ekran görüntüsü alınamadı."
-
-#: ../vinagre/vinagre-tab.c:923
-msgid "Save Screenshot"
-msgstr "Ekran görüntülerini kaydet"
-
-#: ../vinagre/vinagre-tab.c:982
+#: ../vinagre/vinagre-tab.c:970
 msgid "Error saving screenshot"
 msgstr "Ekran görüntüsü kaydedilirken hata."
 
@@ -1419,9 +1443,6 @@ msgstr "%s dosyası oluşturulurken hata: %s"
 
 #~ msgid "_Open bookmark"
 #~ msgstr "_Yer imini aç"
-
-#~ msgid "Connect to this remote desktop"
-#~ msgstr "Bu uzak masaüstüne bağlan"
 
 #~ msgid "_Edit bookmark"
 #~ msgstr "_Yer imini düzenle"
