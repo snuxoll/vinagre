@@ -2,14 +2,15 @@
 # Copyright © 2010 Free Software Foundation, Inc.
 # This file is distributed under the same license as the Vinagre package.
 # Joan Duran <jodufi@gmail.com>, 2007-2012.
+# Josep Sànchez <papapep@gmx.com>, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-23 01:18+0200\n"
-"PO-Revision-Date: 2012-08-29 23:20+0200\n"
-"Last-Translator: Joan Duran <jodufi@gmail.com>\n"
+"POT-Creation-Date: 2013-10-06 22:12+0200\n"
+"PO-Revision-Date: 2013-09-15 15:47+0200\n"
+"Last-Translator: Josep Sànchez <papapep@gmx.com>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "Language: ca-XV\n"
 "MIME-Version: 1.0\n"
@@ -121,12 +122,12 @@ msgstr "Cal autenticació"
 msgid "Host:"
 msgstr "Ordinador:"
 
-#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:105
-#: ../plugins/ssh/vinagre-ssh-plugin.c:110
+#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:111
+#: ../plugins/ssh/vinagre-ssh-plugin.c:112
 msgid "_Username:"
 msgstr "_Nom d'usuari:"
 
-#: ../data/vinagre.ui.h:9 ../plugins/spice/vinagre-spice-plugin.c:294
+#: ../data/vinagre.ui.h:9 ../plugins/spice/vinagre-spice-plugin.c:310
 msgid "_Password:"
 msgstr "_Contrasenya:"
 
@@ -246,23 +247,23 @@ msgstr "Fitxer d'escriptori remot (VNC)"
 msgid "Remote Desktop Connection"
 msgstr "Connexió a un escriptori remot"
 
-#: ../plugins/rdp/vinagre-rdp-plugin.c:55
+#: ../plugins/rdp/vinagre-rdp-plugin.c:61
 msgid "RDP"
 msgstr "RDP"
 
 #. Translators: This is a description of the RDP protocol. It appears in the Connect dialog.
-#: ../plugins/rdp/vinagre-rdp-plugin.c:57
+#: ../plugins/rdp/vinagre-rdp-plugin.c:63
 msgid "Access MS Windows remote desktops"
 msgstr "Accediu a escriptoris remots de MS Windows"
 
-#: ../plugins/rdp/vinagre-rdp-plugin.c:96
+#: ../plugins/rdp/vinagre-rdp-plugin.c:104
 msgid "RDP Options"
 msgstr "Opcions RDP"
 
 #. Translators: This is the tooltip for the username field in a RDP connection
 #. Translators: This is the tooltip for the username field in a SSH connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:110
-#: ../plugins/ssh/vinagre-ssh-plugin.c:115
+#: ../plugins/rdp/vinagre-rdp-plugin.c:118
+#: ../plugins/ssh/vinagre-ssh-plugin.c:117
 msgid ""
 "Optional. If blank, your username will be used. Also, it can be supplied in "
 "the Host field above, in the form username@hostname."
@@ -271,42 +272,62 @@ msgstr ""
 "pot proporcionar en el camp superior Ordinador, de la forma "
 "usuari@nomordinador."
 
+#. Host width
+#: ../plugins/rdp/vinagre-rdp-plugin.c:131
+msgid "_Width:"
+msgstr "_Amplada:"
+
+#. Translators: This is the tooltip for the width field in a RDP connection
+#: ../plugins/rdp/vinagre-rdp-plugin.c:138
+msgid "Set width of the remote desktop"
+msgstr "Defineix l'amplada de l'escriptori remot"
+
+#. Host height
+#: ../plugins/rdp/vinagre-rdp-plugin.c:147
+msgid "_Height:"
+msgstr "Al_çada:"
+
+#. Translators: This is the tooltip for the height field in a RDP connection
+#: ../plugins/rdp/vinagre-rdp-plugin.c:154
+msgid "Set height of the remote desktop"
+msgstr "Defineix l'alçada de l'escriptori remot"
+
 #: ../plugins/rdp/vinagre-rdp-tab.c:55 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:140
 msgid "Port:"
 msgstr "Port:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:124
+#: ../plugins/rdp/vinagre-rdp-tab.c:139
 msgid "Error while executing xfreerdp"
 msgstr "S'ha produït un error en executar l'xfreerdp"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:125 ../vinagre/vinagre-bookmarks.c:366
+#: ../plugins/rdp/vinagre-rdp-tab.c:140 ../vinagre/vinagre-bookmarks.c:366
 #: ../vinagre/vinagre-bookmarks.c:492
 #: ../vinagre/vinagre-bookmarks-migration.c:135
 #: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
-#: ../vinagre/vinagre-connect.c:495 ../vinagre/vinagre-options.c:85
+#: ../vinagre/vinagre-connect.c:500 ../vinagre/vinagre-options.c:85
 #: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
 #: ../vinagre/vinagre-window.c:798
 msgid "Unknown error"
 msgstr "Error desconegut"
 
-#: ../plugins/ssh/vinagre-ssh-plugin.c:59
+#: ../plugins/ssh/vinagre-ssh-plugin.c:61
 msgid "SSH"
 msgstr "SSH"
 
 #. Translators: This is a description of the SSH protocol. It appears at Connect dialog.
-#: ../plugins/ssh/vinagre-ssh-plugin.c:61
+#: ../plugins/ssh/vinagre-ssh-plugin.c:63
 msgid "Access Unix/Linux terminals"
 msgstr "Accediu a terminals UNIX/Linux"
 
-#: ../plugins/ssh/vinagre-ssh-plugin.c:101
+#: ../plugins/ssh/vinagre-ssh-plugin.c:103
 msgid "SSH Options"
 msgstr "Opcions SSH"
 
 #. Translators: 'shared' here is a VNC protocol specific flag. You can translate it, but I think it's better to let it untranslated
 #: ../plugins/vnc/vinagre-vnc-connection.c:317
-#: ../plugins/vnc/vinagre-vnc-plugin.c:199
+#: ../plugins/vnc/vinagre-vnc-plugin.c:201
 #, c-format
 msgid ""
 "Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
@@ -315,130 +336,130 @@ msgstr ""
 "S'ignorarà."
 
 #. Translators: this is a command line option (run vinagre --help)
-#: ../plugins/vnc/vinagre-vnc-plugin.c:50
+#: ../plugins/vnc/vinagre-vnc-plugin.c:52
 msgid "Enable scaled mode"
 msgstr "Habilita el mode escalat"
 
 #. Translators: this is a command line option (run vinagre --help)
-#: ../plugins/vnc/vinagre-vnc-plugin.c:63
+#: ../plugins/vnc/vinagre-vnc-plugin.c:65
 msgid "VNC Options:"
 msgstr "Opcions del VNC:"
 
 #. Translators: this is a command line option (run vinagre --help)
-#: ../plugins/vnc/vinagre-vnc-plugin.c:65
+#: ../plugins/vnc/vinagre-vnc-plugin.c:67
 msgid "Show VNC Options"
 msgstr "Mostra les opcions del VNC"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:87
+#: ../plugins/vnc/vinagre-vnc-plugin.c:89
 msgid "VNC"
 msgstr "VNC"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:88
+#: ../plugins/vnc/vinagre-vnc-plugin.c:90
 msgid "Access Unix/Linux, Windows and other remote desktops."
 msgstr "Accediu a escriptoris remots de UNIX/Linux, Windows i altres."
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:145
-#: ../plugins/spice/vinagre-spice-plugin.c:100
+#: ../plugins/vnc/vinagre-vnc-plugin.c:147
+#: ../plugins/spice/vinagre-spice-plugin.c:101
 msgid "Could not parse the file."
 msgstr "No s'ha pogut analitzar el fitxer."
 
 #. Translators: Do not translate "Connection". It's the name of a group in the .vnc (.ini like) file.
-#: ../plugins/vnc/vinagre-vnc-plugin.c:153
+#: ../plugins/vnc/vinagre-vnc-plugin.c:155
 msgid "The file is not a VNC one: Missing the group \"Connection\"."
 msgstr "El fitxer no és del VNC: manca el grup «Connection»."
 
 #. Translators: Do not translate "Host". It's the name of a key in the .vnc (.ini like) file.
-#: ../plugins/vnc/vinagre-vnc-plugin.c:160
+#: ../plugins/vnc/vinagre-vnc-plugin.c:162
 msgid "The file is not a VNC one: Missing the key \"Host\"."
 msgstr "El fitxer no és del VNC: manca la clau «Host»."
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:251
+#: ../plugins/vnc/vinagre-vnc-plugin.c:268
 msgid "VNC Options"
 msgstr "Opcions del VNC"
 
 #. View only check button
 #. View only check button - not fully ready on spice-gtk side
-#: ../plugins/vnc/vinagre-vnc-plugin.c:259
-#: ../plugins/vnc/vinagre-vnc-tab.c:619
-#: ../plugins/spice/vinagre-spice-plugin.c:221
+#: ../plugins/vnc/vinagre-vnc-plugin.c:276
+#: ../plugins/vnc/vinagre-vnc-tab.c:630
+#: ../plugins/spice/vinagre-spice-plugin.c:237
 #: ../plugins/spice/vinagre-spice-tab.c:507
 msgid "_View only"
 msgstr "Només _visualitza"
 
 #. Scaling check button
-#: ../plugins/vnc/vinagre-vnc-plugin.c:268
-#: ../plugins/spice/vinagre-spice-plugin.c:245
+#: ../plugins/vnc/vinagre-vnc-plugin.c:285
+#: ../plugins/spice/vinagre-spice-plugin.c:261
 msgid "_Scaling"
 msgstr "E_scalat"
 
 #. Keep ratio check button
-#: ../plugins/vnc/vinagre-vnc-plugin.c:282
+#: ../plugins/vnc/vinagre-vnc-plugin.c:299
 msgid "_Keep aspect ratio"
 msgstr "_Mantén la relació d'aspecte"
 
 #. JPEG Compression check button
-#: ../plugins/vnc/vinagre-vnc-plugin.c:292
+#: ../plugins/vnc/vinagre-vnc-plugin.c:309
 msgid "_Use JPEG Compression"
 msgstr "_Utilitza la compressió JPEG"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:293
+#: ../plugins/vnc/vinagre-vnc-plugin.c:310
 msgid "This might not work on all VNC servers"
 msgstr "Pot ser que això no funcione en tots els servidors VNC"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:303
+#: ../plugins/vnc/vinagre-vnc-plugin.c:320
 msgid "Color _Depth:"
 msgstr "_Profunditat de color:"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:308
+#: ../plugins/vnc/vinagre-vnc-plugin.c:325
 msgid "Use Server Settings"
 msgstr "Utilitza els paràmetres del servidor"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:309
+#: ../plugins/vnc/vinagre-vnc-plugin.c:326
 msgid "True Color (24 bits)"
 msgstr "Color autèntic (24 bits)"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:310
+#: ../plugins/vnc/vinagre-vnc-plugin.c:327
 msgid "High Color (16 bits)"
 msgstr "Color alt (16 bits)"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:311
+#: ../plugins/vnc/vinagre-vnc-plugin.c:328
 msgid "Low Color (8 bits)"
 msgstr "Color baix (8 bits)"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:312
+#: ../plugins/vnc/vinagre-vnc-plugin.c:329
 msgid "Ultra Low Color (3 bits)"
 msgstr "Color ultra baix (3 bits)"
 
 #. Translators: the whole sentence will be: Use Host <hostname> as a SSH tunnel
 #. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
-#: ../plugins/vnc/vinagre-vnc-plugin.c:326
-#: ../plugins/spice/vinagre-spice-plugin.c:256
+#: ../plugins/vnc/vinagre-vnc-plugin.c:343
+#: ../plugins/spice/vinagre-spice-plugin.c:272
 msgid "Use h_ost"
 msgstr "Utilitza l'_ordinador"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:335
-#: ../plugins/spice/vinagre-spice-plugin.c:265
+#: ../plugins/vnc/vinagre-vnc-plugin.c:352
+#: ../plugins/spice/vinagre-spice-plugin.c:281
 msgid "hostname or user@hostname"
 msgstr "nom de l'ordinador o usuari@nomordinador"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:336
-#: ../plugins/spice/vinagre-spice-plugin.c:266
+#: ../plugins/vnc/vinagre-vnc-plugin.c:353
+#: ../plugins/spice/vinagre-spice-plugin.c:282
 msgid "Supply an alternative port using colon"
 msgstr "Introduïu un port alternatiu utilitzant dos punts"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:337
-#: ../plugins/spice/vinagre-spice-plugin.c:267
+#: ../plugins/vnc/vinagre-vnc-plugin.c:354
+#: ../plugins/spice/vinagre-spice-plugin.c:283
 msgid "For instance: joe@example.com:5022"
 msgstr "Per exemple: antonia@domini.cat:5022"
 
 #. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
-#: ../plugins/vnc/vinagre-vnc-plugin.c:343
-#: ../plugins/spice/vinagre-spice-plugin.c:273
+#: ../plugins/vnc/vinagre-vnc-plugin.c:360
+#: ../plugins/spice/vinagre-spice-plugin.c:289
 msgid "as a SSH tunnel"
 msgstr "com a túnel SSH"
 
 #. Translators: this is a pattern to open *.vnc files in a open dialog.
-#: ../plugins/vnc/vinagre-vnc-plugin.c:378
+#: ../plugins/vnc/vinagre-vnc-plugin.c:395
 msgid "VNC Files"
 msgstr "Fitxers del VNC"
 
@@ -450,113 +471,113 @@ msgstr "Nom de l'escriptori:"
 msgid "Dimensions:"
 msgstr "Dimensions:"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:296
+#: ../plugins/vnc/vinagre-vnc-tab.c:306
 #: ../plugins/spice/vinagre-spice-tab.c:252
 msgid "Error creating the SSH tunnel"
 msgstr "S'ha produït un error en crear el túnel SSH"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:297 ../plugins/vnc/vinagre-vnc-tab.c:308
+#: ../plugins/vnc/vinagre-vnc-tab.c:307 ../plugins/vnc/vinagre-vnc-tab.c:318
 #: ../plugins/spice/vinagre-spice-tab.c:253
 #: ../plugins/spice/vinagre-spice-tab.c:265
 msgid "Unknown reason"
 msgstr "Raó desconeguda"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:307
+#: ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:264
 msgid "Error connecting to host."
 msgstr "S'ha produït un error en connectar-se a l'ordinador."
 
 #. Translators: %s is a host name or IP address; %u is a code error (number).
-#: ../plugins/vnc/vinagre-vnc-tab.c:352
+#: ../plugins/vnc/vinagre-vnc-tab.c:362
 #, c-format
 msgid "Authentication method for host %s is unsupported. (%u)"
 msgstr "El mètode d'autenticació per a l'ordinador %s no és compatible. (%u)"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:356
+#: ../plugins/vnc/vinagre-vnc-tab.c:366
 msgid "Authentication unsupported"
 msgstr "Autenticació no compatible"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:518 ../plugins/vnc/vinagre-vnc-tab.c:535
+#: ../plugins/vnc/vinagre-vnc-tab.c:529 ../plugins/vnc/vinagre-vnc-tab.c:546
 msgid "Authentication error"
 msgstr "Error d'autenticació"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:519
+#: ../plugins/vnc/vinagre-vnc-tab.c:530
 msgid "A username is required in order to access this remote desktop."
 msgstr "Cal un nom d'usuari per poder accedir a este escriptori remot."
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:536
+#: ../plugins/vnc/vinagre-vnc-tab.c:547
 msgid "A password is required in order to access this remote desktop."
 msgstr "Cal una contrasenya per poder accedir a este escriptori remot."
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:590
+#: ../plugins/vnc/vinagre-vnc-tab.c:601
 #: ../plugins/spice/vinagre-spice-tab.c:466
 msgid "S_caling"
 msgstr "Es_calat"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:591
+#: ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:467
 msgid "Fits the remote screen into the current window size"
 msgstr "Ajusta la pantalla remota a la mida actual de la finestra"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:604
+#: ../plugins/vnc/vinagre-vnc-tab.c:615
 msgid "_Keep Aspect Ratio"
 msgstr "_Mantén la relació d'aspecte"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:605
+#: ../plugins/vnc/vinagre-vnc-tab.c:616
 msgid "Keeps the screen aspect ratio when using scaling"
 msgstr "Mantén la relació d'aspecte de la pantalla quan s'utilitza l'escalat"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:620
+#: ../plugins/vnc/vinagre-vnc-tab.c:631
 #: ../plugins/spice/vinagre-spice-tab.c:508
 msgid "Does not send mouse and keyboard events"
 msgstr "No envia els esdeveniments del ratolí ni del teclat"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:633
+#: ../plugins/vnc/vinagre-vnc-tab.c:644
 msgid "_Original size"
 msgstr "_Mida original"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:634
+#: ../plugins/vnc/vinagre-vnc-tab.c:645
 msgid "Adjusts the window to the remote desktop's size"
 msgstr "Ajusta la finestra a la mida de l'escriptori remot"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:647
+#: ../plugins/vnc/vinagre-vnc-tab.c:658
 msgid "_Refresh Screen"
 msgstr "_Refresca la pantalla"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:648
+#: ../plugins/vnc/vinagre-vnc-tab.c:659
 msgid "Requests an update of the screen"
 msgstr "Sol·licita una actualització de la pantalla"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:670
+#: ../plugins/vnc/vinagre-vnc-tab.c:681
 #: ../plugins/spice/vinagre-spice-tab.c:531
 msgid "_Send Ctrl-Alt-Del"
 msgstr "_Envia Ctrl-Alt-Supr"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:671
+#: ../plugins/vnc/vinagre-vnc-tab.c:682
 #: ../plugins/spice/vinagre-spice-tab.c:532
 msgid "Sends Ctrl+Alt+Del to the remote desktop"
 msgstr "Envia Ctrl+Alt+Supr a l'escriptori remot"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:724 ../plugins/vnc/vinagre-vnc-tab.c:725
+#: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
 #: ../plugins/spice/vinagre-spice-tab.c:584
 #: ../plugins/spice/vinagre-spice-tab.c:585
 msgid "Scaling"
 msgstr "Escalat"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:734 ../plugins/vnc/vinagre-vnc-tab.c:735
+#: ../plugins/vnc/vinagre-vnc-tab.c:745 ../plugins/vnc/vinagre-vnc-tab.c:746
 #: ../plugins/spice/vinagre-spice-tab.c:594
 #: ../plugins/spice/vinagre-spice-tab.c:595
 msgid "Read only"
 msgstr "Només lectura"
 
 #. Send Ctrl-alt-del
-#: ../plugins/vnc/vinagre-vnc-tab.c:743 ../plugins/vnc/vinagre-vnc-tab.c:745
+#: ../plugins/vnc/vinagre-vnc-tab.c:754 ../plugins/vnc/vinagre-vnc-tab.c:756
 #: ../plugins/spice/vinagre-spice-tab.c:603
 #: ../plugins/spice/vinagre-spice-tab.c:605
 msgid "Send Ctrl-Alt-Del"
 msgstr "Envia Ctrl-Alt-Supr"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:908
+#: ../plugins/vnc/vinagre-vnc-tab.c:919
 msgid ""
 "Scaling is not supported on this installation.\n"
 "\n"
@@ -575,47 +596,47 @@ msgid "Unable to find a free TCP port"
 msgstr "No s'ha pogut trobar un port TCP lliure"
 
 #. Translators: Do not translate "connection". It's the name of a group in the .spice (.ini like) file.
-#: ../plugins/spice/vinagre-spice-plugin.c:107
+#: ../plugins/spice/vinagre-spice-plugin.c:108
 msgid "The file is not a Spice one: Missing the group \"connection\"."
 msgstr "El fitxer no és de l'SPICE: manca el grup «connection»."
 
 #. Translators: Do not translate "host". It's the name of a key in the .spice (.ini like) file.
-#: ../plugins/spice/vinagre-spice-plugin.c:114
+#: ../plugins/spice/vinagre-spice-plugin.c:115
 msgid "The file is not a Spice one: Missing the key \"host\"."
 msgstr "El fitxer no és de l'SPICE: manca la clau «host»."
 
-#: ../plugins/spice/vinagre-spice-plugin.c:158
+#: ../plugins/spice/vinagre-spice-plugin.c:174
 msgid "SPICE"
 msgstr "SPICE"
 
 #. Translators: This is a description of the SPICE protocol. It appears at Connect dialog.
-#: ../plugins/spice/vinagre-spice-plugin.c:160
+#: ../plugins/spice/vinagre-spice-plugin.c:176
 msgid "Access Spice desktop server"
 msgstr "Accés al servidor d'escriptori SPICE"
 
-#: ../plugins/spice/vinagre-spice-plugin.c:208
+#: ../plugins/spice/vinagre-spice-plugin.c:224
 msgid "SPICE Options"
 msgstr "Opcions SPICE"
 
 #. Resize guest check button
-#: ../plugins/spice/vinagre-spice-plugin.c:229
+#: ../plugins/spice/vinagre-spice-plugin.c:245
 #: ../plugins/spice/vinagre-spice-tab.c:480
 msgid "_Resize guest"
 msgstr "_Redimensiona el convidat"
 
 #. Clipboard sharing check button
-#: ../plugins/spice/vinagre-spice-plugin.c:237
+#: ../plugins/spice/vinagre-spice-plugin.c:253
 #: ../plugins/spice/vinagre-spice-tab.c:493
 msgid "_Share clipboard"
 msgstr "_Comparteix el porta-retalls"
 
 #. Translators: This is the tooltip for the password field in a SPICE connection
-#: ../plugins/spice/vinagre-spice-plugin.c:299
+#: ../plugins/spice/vinagre-spice-plugin.c:315
 msgid "Optional"
 msgstr "Opcional"
 
 #. Translators: this is a pattern to open *.spice files in a open dialog.
-#: ../plugins/spice/vinagre-spice-plugin.c:320
+#: ../plugins/spice/vinagre-spice-plugin.c:336
 msgid "Spice Files"
 msgstr "Fitxers de l'SPICE"
 
@@ -649,25 +670,25 @@ msgstr ""
 #: ../vinagre/vinagre-bookmarks.c:453 ../vinagre/vinagre-bookmarks.c:460
 msgid "Error while saving bookmarks: Failed to create the XML structure"
 msgstr ""
-"S'ha produït un error en alçar les adreces d'interés: no s'ha pogut crear "
+"S'ha produït un error en guardar les adreces d'interés: no s'ha pogut crear "
 "l'estructura XML"
 
 #: ../vinagre/vinagre-bookmarks.c:467 ../vinagre/vinagre-bookmarks.c:474
 msgid "Error while saving bookmarks: Failed to initialize the XML structure"
 msgstr ""
-"S'ha produït un error en alçar les adreces d'interés: no s'ha pogut "
+"S'ha produït un error en guardar les adreces d'interés: no s'ha pogut "
 "inicialitzar l'estructura XML"
 
 #: ../vinagre/vinagre-bookmarks.c:483
 msgid "Error while saving bookmarks: Failed to finalize the XML structure"
 msgstr ""
-"S'ha produït un error en alçar les adreces d'interés: no s'ha pogut "
+"S'ha produït un error en guardar les adreces d'interés: no s'ha pogut "
 "finalitzar l'estructura XML"
 
 #: ../vinagre/vinagre-bookmarks.c:492
 #, c-format
 msgid "Error while saving bookmarks: %s"
-msgstr "S'ha produït un error en alçar les adreces d'interés: %s"
+msgstr "S'ha produït un error en guardar les adreces d'interés: %s"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:95
 #: ../vinagre/vinagre-bookmarks-migration.c:102
@@ -786,7 +807,7 @@ msgstr "Carpeta nova"
 #: ../vinagre/vinagre-cache-prefs.c:57
 #, c-format
 msgid "Error while saving preferences: %s"
-msgstr "S'ha produït un error en alçar les preferències: %s"
+msgstr "S'ha produït un error en guardar les preferències: %s"
 
 #: ../vinagre/vinagre-commands.c:115
 msgid "Choose the file"
@@ -811,30 +832,30 @@ msgstr[0] "No s'ha pogut obrir el fitxer següent:"
 msgstr[1] "No s'han pogut obrir els fitxers següents:"
 
 #: ../vinagre/vinagre-connect.c:90 ../vinagre/vinagre-connect.c:336
-#: ../vinagre/vinagre-connect.c:459
+#: ../vinagre/vinagre-connect.c:464
 msgid "Could not get the active protocol from the protocol list."
 msgstr "No s'ha pogut obtindre el protocol actiu de la llista de protocols."
 
 #: ../vinagre/vinagre-connect.c:317
 #, c-format
 msgid "Error while saving history file: %s"
-msgstr "S'ha produït un error en alçar el fitxer de l'historial: %s"
+msgstr "S'ha produït un error en guardar el fitxer de l'historial: %s"
 
 #: ../vinagre/vinagre-connect.c:352
 msgid "Choose a Remote Desktop"
 msgstr "Trieu un escriptori remot"
 
-#: ../vinagre/vinagre-connection.c:525 ../vinagre/vinagre-tab.c:574
+#: ../vinagre/vinagre-connection.c:614 ../vinagre/vinagre-tab.c:574
 #: ../vinagre/vinagre-tube-handler.c:257
 #, c-format
 msgid "The protocol %s is not supported."
 msgstr "El protocol %s no és compatible."
 
-#: ../vinagre/vinagre-connection.c:633
+#: ../vinagre/vinagre-connection.c:722
 msgid "Could not open the file."
 msgstr "No s'ha pogut obrir el fitxer."
 
-#: ../vinagre/vinagre-connection.c:657
+#: ../vinagre/vinagre-connection.c:748
 msgid "The file was not recognized by any of the plugins."
 msgstr "Cap dels connectors ha reconegut el fitxer."
 
@@ -995,7 +1016,7 @@ msgid "Timed out when logging in"
 msgstr "S'ha superat el temps d'espera en entrar"
 
 #: ../vinagre/vinagre-ssh.c:454 ../vinagre/vinagre-ssh.c:596
-#: ../vinagre/vinagre-ssh.c:679
+#: ../vinagre/vinagre-ssh.c:692
 msgid "Permission denied"
 msgstr "S'ha denegat el permís"
 
@@ -1045,27 +1066,27 @@ msgstr "No es pot enviar la confirmació d'identitat de l'ordinador"
 msgid "Secure shell password: %s"
 msgstr "Contrasenya segura del terminal: %s"
 
-#: ../vinagre/vinagre-ssh.c:618 ../vinagre/vinagre-tab.c:793
+#: ../vinagre/vinagre-ssh.c:618 ../vinagre/vinagre-tab.c:798
 msgid "Error saving the credentials on the keyring."
-msgstr "S'ha produït un error en alçar les credencials a l'anell de claus."
+msgstr "S'ha produït un error en guardar les credencials a l'anell de claus."
 
-#: ../vinagre/vinagre-ssh.c:686
+#: ../vinagre/vinagre-ssh.c:700
 msgid "Hostname not known"
 msgstr "Nom d'ordinador no conegut"
 
-#: ../vinagre/vinagre-ssh.c:693
+#: ../vinagre/vinagre-ssh.c:708
 msgid "No route to host"
 msgstr "No hi ha cap ruta a l'ordinador"
 
-#: ../vinagre/vinagre-ssh.c:700
+#: ../vinagre/vinagre-ssh.c:716
 msgid "Connection refused by server"
 msgstr "El servidor ha rebutjat la connexió"
 
-#: ../vinagre/vinagre-ssh.c:707
+#: ../vinagre/vinagre-ssh.c:724
 msgid "Host key verification failed"
 msgstr "Ha fallat la verificació de la clau de l'ordinador"
 
-#: ../vinagre/vinagre-ssh.c:744
+#: ../vinagre/vinagre-ssh.c:764
 msgid "Unable to find a valid SSH program"
 msgstr "No s'ha pogut trobar un programa SSH vàlid"
 
@@ -1079,29 +1100,29 @@ msgstr "Ix de la pantalla completa"
 
 #: ../vinagre/vinagre-tab.c:537
 msgid "Error saving recent connection."
-msgstr "S'ha produït un error en alçar la connexió recent."
+msgstr "S'ha produït un error en guardar la connexió recent."
 
-#: ../vinagre/vinagre-tab.c:778
+#: ../vinagre/vinagre-tab.c:781
 #, c-format
-msgid "Remote desktop password: %s"
-msgstr "Contrasenya de l'escriptori remot: %s"
+msgid "Remote desktop password for %s"
+msgstr "Contrasenya de l'escriptori remot de %s"
 
-#: ../vinagre/vinagre-tab.c:890
+#: ../vinagre/vinagre-tab.c:897
 msgid "Could not get a screenshot of the connection."
 msgstr "No s'ha pogut obtindre una captura de pantalla de la connexió."
 
-#: ../vinagre/vinagre-tab.c:895
+#: ../vinagre/vinagre-tab.c:902
 msgid "Save Screenshot"
-msgstr "Alça la captura de pantalla"
+msgstr "Guarda la captura de pantalla"
 
-#: ../vinagre/vinagre-tab.c:909
+#: ../vinagre/vinagre-tab.c:916
 #, c-format
 msgid "Screenshot of %s at %s"
 msgstr "Captura de pantalla de %s a %s"
 
-#: ../vinagre/vinagre-tab.c:963
+#: ../vinagre/vinagre-tab.c:970
 msgid "Error saving screenshot"
-msgstr "S'ha produït un error en alçar la captura de pantalla"
+msgstr "S'ha produït un error en guardar la captura de pantalla"
 
 #: ../vinagre/vinagre-tube-handler.c:233
 #, c-format
@@ -1275,7 +1296,7 @@ msgstr "S'ha produït un error en carregar el fitxer d'interfície d'usuari"
 msgid "%s authentication is required"
 msgstr "Cal autenticació per a %s"
 
-#: ../vinagre/vinagre-utils.vala:194
+#: ../vinagre/vinagre-utils.vala:193
 msgid "Error showing help"
 msgstr "S'ha produït un error en mostrar l'ajuda"
 
@@ -1314,393 +1335,3 @@ msgstr "Habilita les dreceres de teclat"
 #, c-format
 msgid "Error while creating the file %s: %s"
 msgstr "S'ha produït un error en crear el fitxer %s: %s"
-
-#~ msgid "Enter a valid hostname or IP address"
-#~ msgstr "Introduïu un nom d'ordinador o adreça IP vàlida"
-
-#~ msgid "Active plugins"
-#~ msgstr "Connectors actius"
-
-#~ msgid ""
-#~ "List of active plugins. It contains the \"Location\" of the active "
-#~ "plugins. See the .vinagre-plugin file for obtaining the \"Location\" of a "
-#~ "given plugin."
-#~ msgstr ""
-#~ "Llista de connectors actius. Aquesta conté la «Ubicació» dels connectors "
-#~ "actius. Vegeu el fitxer .vinagre-plugin per obtenir la «Ubicació» d'un "
-#~ "connector donat."
-
-#~ msgid "Interface"
-#~ msgstr "Interfície"
-
-#~ msgid "Preferences"
-#~ msgstr "Preferències"
-
-#~ msgid ""
-#~ "This option enables menu accelerators and keyboard shortcuts. For more "
-#~ "info on why you may want to disable them, check the documentation."
-#~ msgstr ""
-#~ "Aquesta opció habilita els acceleradors del menú i les dreceres de "
-#~ "teclat. Per obtenir més informació sobre perquè els voldríeu desactivar, "
-#~ "consulteu la documentació."
-
-#~ msgid "Which machine do you want to connect to?"
-#~ msgstr "A quin ordinador us voleu connectar?"
-
-#~ msgid "_Always show tabs"
-#~ msgstr "_Mostra sempre les pestanyes"
-
-#~ msgid "RDP support"
-#~ msgstr "Compatibilitat per a RDP"
-
-#~ msgid "Access MS Windows machines"
-#~ msgstr "Accedeix a ordinadors Microsoft Windows."
-
-#~ msgid "SSH support"
-#~ msgstr "Compatibilitat per a SSH"
-
-#~ msgid "_Depth Color:"
-#~ msgstr "_Profunditat del color:"
-
-#~ msgid "VNC support"
-#~ msgstr "Compatibilitat per a VNC"
-
-#~ msgid "Allows reverse VNC connections"
-#~ msgstr "Permet connexions VNC inverses"
-
-#~ msgid "Reverse VNC"
-#~ msgstr "VNC invers"
-
-#~ msgid "_Reverse Connections..."
-#~ msgstr "Connexions _inverses..."
-
-#~ msgid "Spice"
-#~ msgstr "SPICE"
-
-#~ msgid "Spice support"
-#~ msgstr "Compatibilitat per a SPICE"
-
-#~ msgid ""
-#~ "Changes Instant Messenger status to busy when window toggles to "
-#~ "fullscreen (works with Empathy)"
-#~ msgstr ""
-#~ "Canvia l'estat de la missatgeria instantània a ocupat quan la finestra "
-#~ "commuta a pantalla completa (funciona amb l'Empathy)"
-
-#~ msgid "IM Status"
-#~ msgstr "Estat de la missatgeria instantània"
-
-#~ msgid "Could not communicate to Telepathy. IM Status plugin will not work."
-#~ msgstr ""
-#~ "No s'ha pogut comunicar amb el Telepathy. El connector d'estat de la "
-#~ "missatgeria instantània no funcionarà."
-
-#~ msgid "Could not run vinagre:"
-#~ msgstr "No s'ha pogut executar el Vinagre:"
-
-#~ msgid "Open Remote Desktop Viewer"
-#~ msgstr "Obre el visualitzador d'escriptoris remots"
-
-#~ msgid "Access your bookmarks"
-#~ msgstr "Accedeix a les adreces d'interès"
-
-#~ msgid "_About"
-#~ msgstr "_Quant a"
-
-#~ msgid "_New Folder"
-#~ msgstr "_Carpeta nova"
-
-#~ msgid "Create a new folder"
-#~ msgstr "Crea una carpeta nova"
-
-#~ msgid "_Open bookmark"
-#~ msgstr "_Obre una adreça d'interès"
-
-#~ msgid "Connect to this machine"
-#~ msgstr "Connecta't a aquest ordinador"
-
-#~ msgid "_Edit bookmark"
-#~ msgstr "_Edita una adreça d'interès"
-
-#~ msgid "Edit the details of selected bookmark"
-#~ msgstr "Edita els detalls de l'adreça d'interès seleccionada"
-
-#~ msgid "_Remove from bookmarks"
-#~ msgstr "_Suprimeix de les adreces d'interès"
-
-#~ msgid "Remove current selected connection from bookmarks"
-#~ msgstr "Suprimeix la connexió seleccionada de les adreces d'interès"
-
-#~ msgid "Invalid operation"
-#~ msgstr "Operació no vàlida"
-
-#~ msgid "Data received from drag&drop operation is invalid."
-#~ msgstr ""
-#~ "Les dades rebudes de l'operació d'arrossegar i deixar anar no són vàlides."
-
-#~ msgid "Hide panel"
-#~ msgstr "Oculta el quadre"
-
-#~ msgid "Hosts nearby"
-#~ msgstr "Ordinadors propers"
-
-#~ msgid "Connecting..."
-#~ msgstr "S'està connectant..."
-
-#~ msgid "Plugin Manager"
-#~ msgstr "Gestor de connectors"
-
-#~ msgid "_Machine"
-#~ msgstr "_Ordinador"
-
-#~ msgid "Edit the application preferences"
-#~ msgstr "Edita les preferències de l'aplicació"
-
-#~ msgid "_Plugins"
-#~ msgstr "_Connectors"
-
-#~ msgid "Select plugins"
-#~ msgstr "Seleccioneu els connectors"
-
-#~ msgid "Side _Panel"
-#~ msgstr "_Quadre lateral"
-
-#~ msgid "Show or hide the side panel"
-#~ msgstr "Mostra o amaga el quadre lateral"
-
-#~ msgid "C_lose All"
-#~ msgstr "_Tanca-ho tot"
-
-#~ msgid ""
-#~ "A plugin tried to open an UI file but did not succeed, with the error "
-#~ "message:"
-#~ msgstr ""
-#~ "Un connector ha intentat obrir un fitxer d'interfície d'usuari però no ho "
-#~ "ha aconseguit, el missatge d'error ha estat:"
-
-#~ msgid ""
-#~ "The program tried to open an UI file but did not succeed, with the error "
-#~ "message:"
-#~ msgstr ""
-#~ "El programa ha intentat obrir un fitxer d'interfície d'usuari però no ho "
-#~ "ha aconseguit, el missatge d'error ha estat:"
-
-#~ msgid ""
-#~ "Vinagre is free software; you can redistribute it and/or modify it under "
-#~ "the terms of the GNU General Public License as published by the Free "
-#~ "Software Foundation; either version 2 of the License, or (at your option) "
-#~ "any later version."
-#~ msgstr ""
-#~ "El Vinagre és programari lliure; el podeu redistribuir i/o modificar sota "
-#~ "els termes de la Llicència Publica General GNU publicat per la Free "
-#~ "Software Foundation; o bé la versió 2 de la llicència, o bé (si ho "
-#~ "preferiu) qualsevol versió posterior."
-
-#~ msgid ""
-#~ "Vinagre is distributed in the hope that it will be useful, but WITHOUT "
-#~ "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-#~ "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
-#~ "more details."
-#~ msgstr ""
-#~ "El Vinagre es distribueix amb l'esperança que sigui útil, però SENSE CAP "
-#~ "GARANTIA; ni tan sols la garantia implícita de COMERCIALITZACIÓ o "
-#~ "ADEQUACIÓ PER A CAP PROPÒSIT PARTICULAR. Vegeu la Llicència Publica "
-#~ "General de la GNU per a més detalls."
-
-#~ msgid ""
-#~ "You should have received a copy of the GNU General Public License along "
-#~ "with this program. If not, see <http://www.gnu.org/licenses/>."
-#~ msgstr ""
-#~ "Hauríeu d'haver rebut una còpia de la Llicència Pública General GNU "
-#~ "juntament aquest programa. En cas contrari, vegeu <http://www.gnu.org/"
-#~ "licenses/>."
-
-#~ msgid "Vinagre Website"
-#~ msgstr "Lloc web del Vinagre"
-
-#~ msgid "About menu accelerators and keyboard shortcuts"
-#~ msgstr "Sobre els acceleradors del menú i les dreceres de teclat"
-
-#~ msgid ""
-#~ "Vinagre comes with menu accelerators and keyboard shortcuts disabled by "
-#~ "default. The reason is to avoid the keys to be intercepted by the "
-#~ "program, and allow them to be sent to the remote machine.\n"
-#~ "\n"
-#~ "You can change this behavior through the preferences dialog. For more "
-#~ "information, check the documentation.\n"
-#~ "\n"
-#~ "This message will appear only once."
-#~ msgstr ""
-#~ "El Vinagre té els acceleradors del menú i les dreceres de teclat "
-#~ "desactivats per defecte. La raó és per evitar que el programa intercepti "
-#~ "les tecles i permetre que aquestes siguin enviades a l'ordinador remot.\n"
-#~ "\n"
-#~ "Podeu canviar aquest comportament mitjançant el diàleg de preferències. "
-#~ "Per obtenir més informació, consulteu la documentació.\n"
-#~ "\n"
-#~ "Aquest missatge només es mostrarà un cop."
-
-#~ msgid "The handler for \"vnc://\" URLs"
-#~ msgstr "El gestor per a URL de tipus «vnc://»"
-
-#~ msgid "Incoming VNC connection arrived but there is no active window"
-#~ msgstr ""
-#~ "Ha arribat una connexió VNC entrant però no hi ha cap finestra activa"
-
-#~ msgid "A menu to quickly access remote machines"
-#~ msgstr "Un menú per accedir ràpidament a ordinadors remots"
-
-#~ msgid "Vinagre Applet Factory"
-#~ msgstr "Fàbrica de miniaplicacions del Vinagre"
-
-#~ msgid ""
-#~ "Run 'vinagre --help' to see a full list of available command line options"
-#~ msgstr ""
-#~ "Executeu «vinagre --help» per veure una llista completa de les opcions "
-#~ "disponibles en la línia d'ordres"
-
-#~ msgid "Plugin %s has already registered a browser for service %s."
-#~ msgstr "El connector %s ja ha registrat un navegador per al servei %s."
-
-#~ msgid "Plugin"
-#~ msgstr "Connector"
-
-#~ msgid "Enabled"
-#~ msgstr "Habilitat"
-
-#~ msgid "C_onfigure"
-#~ msgstr "C_onfigura"
-
-#~ msgid "A_ctivate"
-#~ msgstr "A_ctiva"
-
-#~ msgid "Ac_tivate All"
-#~ msgstr "Ac_tiva'ls tots"
-
-#~ msgid "_Deactivate All"
-#~ msgstr "_Desactiva'ls tots"
-
-#~ msgid "_About Plugin"
-#~ msgstr "_Quant al connector"
-
-#~ msgid "C_onfigure Plugin"
-#~ msgstr "C_onfigura el connector"
-
-#~ msgid "All fields above are mandatory"
-#~ msgstr "Tots els camps de sobre són obligatoris"
-
-#~ msgid "Could not merge vinagre-ui.xml: %s"
-#~ msgstr "No s'ha pogut fusionar el vinagre-ui.xml: %s"
-
-#~ msgid "<b>Connection</b>"
-#~ msgstr "<b>Connexió</b>"
-
-#~ msgid "<b>Folder</b>"
-#~ msgstr "<b>Carpeta</b>"
-
-#~ msgid "host or host:display or host::port"
-#~ msgstr "ordinador o ordinador:pantalla o ordinador::port"
-
-#~ msgid "Supported formats"
-#~ msgstr "Formats admesos"
-
-#~ msgid "Choose a VNC Server"
-#~ msgstr "Seleccioneu un servidor de VNC"
-
-#~ msgid "Could not find the host address in the file."
-#~ msgstr "No s'ha pogut trobar l'adreça de l'ordinador al fitxer."
-
-#~ msgid "Opens a .vnc file"
-#~ msgstr "Obre un fitxer .vnc"
-
-#~ msgid "- VNC Client for GNOME"
-#~ msgstr "- Client de VNC del GNOME"
-
-#~ msgid "Minimize window"
-#~ msgstr "Minimitza la finestra"
-
-#~ msgid "_Read only"
-#~ msgstr "Només _lectura"
-
-#~ msgid "Press Ctrl+Alt to release the cursor"
-#~ msgstr "Premeu Ctrl+Alt per a alliberar el cursor"
-
-#~ msgid "<b>Editing a bookmark</b>"
-#~ msgstr "<b>Edició d'una adreça d'interès</b>"
-
-#~ msgid ""
-#~ "<b>In order to connect on this machine, a password is required. Please "
-#~ "supply it.</b>"
-#~ msgstr ""
-#~ "<b>Per connectar-se a aquest ordinador es necessita una contrasenya. "
-#~ "Introduïu-la.</b>"
-
-#~ msgid "Editing a bookmark"
-#~ msgstr "Edició d'una adreça d'interès"
-
-#~ msgid "Saving to bookmarks"
-#~ msgstr "Desant a les adreces d'interès"
-
-#~ msgid "_Bookmark name:"
-#~ msgstr "Nom de l'_adreça d'interès:"
-
-#~ msgid "Error: %s"
-#~ msgstr "Error: %s"
-
-#~ msgid "Confirm removal?"
-#~ msgstr "Confirmeu la supressió?"
-
-#~ msgid "Error while removing %s from bookmarks: %s"
-#~ msgstr "S'ha produït un error en suprimir %s de les adreces d'interès: %s"
-
-#~ msgid ""
-#~ "Scaling does not work properly on composited windows. Disable the visual "
-#~ "effects and try again."
-#~ msgstr ""
-#~ "L'escalat no funciona correctament en finestres compostes. Inhabiliteu "
-#~ "els efectes visuals i torneu-ho a provar."
-
-#~ msgid "Image"
-#~ msgstr "Imatge"
-
-#~ msgid "Name"
-#~ msgstr "Nom"
-
-#~ msgid "Hide bookmarks"
-#~ msgstr "Amaga les adreces d'interès"
-
-#~ msgid "Expected `%s' got `%s' for key %s"
-#~ msgstr "S'esperava «%s» i s'ha obtingut «%s» per a la clau %s"
-
-#~ msgid "Press Ctrl+Alt to grab the cursor"
-#~ msgstr "Premeu Ctrl+Alt per capturar el cursor"
-
-#~ msgid "Could not initialize GnomeVFS\n"
-#~ msgstr "No s'ha pogut inicialitzar el GnomeVFS\n"
-
-#~ msgid "Add to favorites"
-#~ msgstr "Afegeix-lo a preferits"
-
-#~ msgid "Favorites"
-#~ msgstr "Preferits"
-
-#~ msgid "Hide favorites"
-#~ msgstr "Amaga els preferits"
-
-#~ msgid "Vinagre"
-#~ msgstr "Vinagre"
-
-#~ msgid "_Favorites"
-#~ msgstr "_Preferits"
-
-#~ msgid "_Open favorite"
-#~ msgstr "_Obre el preferit"
-
-#~ msgid "Connect to this favorite"
-#~ msgstr "Connecta a aquest preferit"
-
-#~ msgid "_Edit favorite"
-#~ msgstr "_Edita el preferit"
-
-#~ msgid "Copy the selection"
-#~ msgstr "Copia la selecció"
