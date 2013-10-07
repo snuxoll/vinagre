@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-02-20 22:39+0100\n"
-"PO-Revision-Date: 2012-02-19 22:05+0100\n"
+"POT-Creation-Date: 2013-10-07 22:47+0200\n"
+"PO-Revision-Date: 2013-10-06 15:24+0200\n"
 "Last-Translator: Aputsiaq Niels Janussen <aj@isit.gl>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -20,40 +20,10 @@ msgstr ""
 "X-Generator: Virtaal 0.6.1\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.in.h:1
-msgid "Maximum number of history items in connect dialog"
-msgstr "Maksimalt antal historikelementer i forbindelsesdialog"
+msgid "Whether we should leave other clients connected"
+msgstr "Om vi skal lade andre klienter forblive tilsluttet"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.in.h:2
-msgid ""
-"Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. "
-"Note that if they are enabled, those keys will be intercepted by the menu "
-"and will not be sent to the remote host."
-msgstr ""
-"Sæt til \"false\" for at deaktivere menugenveje. Sæt til \"true\" for at "
-"aktivere dem. Bemærk at hvis de aktiveres, vil disse taster indfanges af "
-"menuen og vil ikke blive afsendt til den fjerne vært."
-
-#: ../data/org.gnome.Vinagre.gschema.xml.in.h:3
-msgid ""
-"Set to \"true\" to always show the tabs. Set to \"false\" to only show the "
-"tabs when there is more than one active connection."
-msgstr ""
-"Sæt til \"true\" for altid at vise fanebladende. Sæt til \"false\" for kun "
-"at vise fanebladende, når der er mere end én aktiv forbindelse."
-
-#: ../data/org.gnome.Vinagre.gschema.xml.in.h:4
-msgid ""
-"Set to \"true\" to always start the program listening for reverse "
-"connections."
-msgstr ""
-"Sæt til \"true\" for altid at starte programmet, der lytter efter omvendte "
-"forbindelser."
-
-#: ../data/org.gnome.Vinagre.gschema.xml.in.h:5
-msgid "Specifies the maximum number of items in the host dropdown entry."
-msgstr "Angiver det maksimale antal elementer i værtsrullegardin-feltet."
-
-#: ../data/org.gnome.Vinagre.gschema.xml.in.h:6
 msgid ""
 "When connecting to a host, the client can say to the server to leave other "
 "clients connected or to drop the existent connections. Set the value to true "
@@ -64,45 +34,181 @@ msgstr ""
 "eksisterende forbindelser. Sæt værdien til \"true\" for at dele skrivebord "
 "med andre klienter."
 
-#: ../data/org.gnome.Vinagre.gschema.xml.in.h:7
-msgid "Whether we should leave other clients connected"
-msgstr "Om vi skal lade andre klienter forblive tilsluttet"
-
-#: ../data/org.gnome.Vinagre.gschema.xml.in.h:8
+#: ../data/org.gnome.Vinagre.gschema.xml.in.h:3
 msgid ""
 "Whether we should show tabs even when there is only one active connection"
 msgstr "Om vi skal vise faneblade selv når der kun er én aktiv forbindelse"
 
-#: ../data/org.gnome.Vinagre.gschema.xml.in.h:9
+#: ../data/org.gnome.Vinagre.gschema.xml.in.h:4
+msgid ""
+"Set to \"true\" to always show the tabs. Set to \"false\" to only show the "
+"tabs when there is more than one active connection."
+msgstr ""
+"Sæt til \"true\" for altid at vise fanebladende. Sæt til \"false\" for kun "
+"at vise fanebladende, når der er mere end én aktiv forbindelse."
+
+#: ../data/org.gnome.Vinagre.gschema.xml.in.h:5
 msgid "Whether we should show the menu accelerators (shortcut keys)"
 msgstr "Om vi skal vise menugenvejene (genvejstaster)"
 
-#: ../data/org.gnome.Vinagre.gschema.xml.in.h:10
+#: ../data/org.gnome.Vinagre.gschema.xml.in.h:6
+msgid ""
+"Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. "
+"Note that if they are enabled, those keys will be intercepted by the menu "
+"and will not be sent to the remote host."
+msgstr ""
+"Sæt til \"false\" for at deaktivere menugenveje. Sæt til \"true\" for at "
+"aktivere dem. Bemærk at hvis de aktiveres, vil disse taster indfanges af "
+"menuen og vil ikke blive afsendt til den fjerne vært."
+
+#: ../data/org.gnome.Vinagre.gschema.xml.in.h:7
+msgid "Maximum number of history items in connect dialog"
+msgstr "Maksimalt antal historikelementer i forbindelsesdialog"
+
+#: ../data/org.gnome.Vinagre.gschema.xml.in.h:8
+msgid "Specifies the maximum number of items in the host dropdown entry."
+msgstr "Angiver det maksimale antal elementer i værtsrullegardin-feltet."
+
+#: ../data/org.gnome.Vinagre.gschema.xml.in.h:9
 msgid "Whether we should start the program listening for reverse connections"
 msgstr "Om vi skal starte programmet, der lytter efter omvendte forbindelser"
 
-#: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
-msgid "Access remote desktops"
-msgstr "Tilgå fjernskriveborde"
+#: ../data/org.gnome.Vinagre.gschema.xml.in.h:10
+msgid ""
+"Set to \"true\" to always start the program listening for reverse "
+"connections."
+msgstr ""
+"Sæt til \"true\" for altid at starte programmet, der lytter efter omvendte "
+"forbindelser."
 
-#: ../data/vinagre.desktop.in.in.h:2 ../data/vinagre-file.desktop.in.in.h:2
+#: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
 #: ../vinagre/vinagre-main.c:129
 msgid "Remote Desktop Viewer"
 msgstr "Fjernskrivebordsviser"
 
+#: ../data/vinagre.desktop.in.in.h:2 ../data/vinagre-file.desktop.in.in.h:2
+msgid "Access remote desktops"
+msgstr "Tilgå fjernskriveborde"
+
 #: ../data/vinagre.ui.h:1
+msgid "Vinagre is a remote desktop viewer for the GNOME desktop"
+msgstr "Vinagre er en fjernskrivebordsklient til GNOME-skrivebordet"
+
+#. Add your name here to appear as a translator in the about dialog
+#: ../data/vinagre.ui.h:3
+msgid "translator-credits"
+msgstr ""
+"Ask Hjorth Larsen\n"
+"\n"
+"Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
+"Mere info: http://www.dansk-gruppen.dk"
+
+#. This is a button label, in the authentication dialog
+#: ../data/vinagre.ui.h:5
+msgid "_Authenticate"
+msgstr "_Godkend"
+
+#: ../data/vinagre.ui.h:6
 msgid "Authentication is required"
 msgstr "Godkendelse påkræves"
 
-#: ../data/vinagre.ui.h:2
-msgid "Bookmark Folder"
-msgstr "Bogmærkemappe"
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:54
+#: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
+#: ../plugins/spice/vinagre-spice-tab.c:139
+msgid "Host:"
+msgstr "Vært:"
 
-#: ../data/vinagre.ui.h:3
+#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:105
+#: ../plugins/ssh/vinagre-ssh-plugin.c:110
+msgid "_Username:"
+msgstr "_Brugernavn:"
+
+#: ../data/vinagre.ui.h:9 ../plugins/spice/vinagre-spice-plugin.c:294
+msgid "_Password:"
+msgstr "_Kodeord:"
+
+#: ../data/vinagre.ui.h:10
+msgid "_Remember this credential"
+msgstr "_Husk dette akkreditiv"
+
+#: ../data/vinagre.ui.h:11
+msgid "Store the login credential in GNOME Keyring"
+msgstr "Gem logind-akkreditiverne i GNOME-nøgleringen"
+
+#: ../data/vinagre.ui.h:12
 msgid "Bookmarks"
 msgstr "Bogmærker"
 
-#: ../data/vinagre.ui.h:4
+#: ../data/vinagre.ui.h:13
+msgid "Connection"
+msgstr "Forbindelse"
+
+#. Translators: This is the name of a bookmark. It appears in the add/edit bookmark dialog.
+#: ../data/vinagre.ui.h:15
+msgid "_Name:"
+msgstr "_Navn:"
+
+#: ../data/vinagre.ui.h:16
+msgid "_Host:"
+msgstr "_Vært:"
+
+#: ../data/vinagre.ui.h:17
+msgid "Options"
+msgstr "Indstillinger"
+
+#: ../data/vinagre.ui.h:18
+msgid "_Full screen"
+msgstr "_Fuldskærm"
+
+#: ../data/vinagre.ui.h:19
+msgid "Folder"
+msgstr "Mappe"
+
+#: ../data/vinagre.ui.h:20
+msgid "Bookmark Folder"
+msgstr "Bogmærkemappe"
+
+#: ../data/vinagre.ui.h:21
+msgid "Parent Folder"
+msgstr "Ophavsmappe"
+
+#: ../data/vinagre.ui.h:22
+msgid "Connect"
+msgstr "Tilslut"
+
+#: ../data/vinagre.ui.h:23
+msgid "Choose a remote desktop to connect to"
+msgstr "Vælg et fjernskrivebord, der skal forbindes til"
+
+#: ../data/vinagre.ui.h:24
+msgid "_Protocol:"
+msgstr "_Protokol:"
+
+#: ../data/vinagre.ui.h:25
+msgid "Select a remote desktop protocol for this connection"
+msgstr "Vælg en protokol for fjernskrivebord for denne forbindelse"
+
+#: ../data/vinagre.ui.h:26
+msgid "Search for remote hosts on the network"
+msgstr "Søg efter eksterne værter på netværket"
+
+#: ../data/vinagre.ui.h:27
+msgid "Connection options"
+msgstr "Forbindelsesindstillinger"
+
+#: ../data/vinagre.ui.h:28
+msgid "_Fullscreen"
+msgstr "_Fuldskærm"
+
+#: ../data/vinagre.ui.h:29
+msgid "Enable fullscreen mode for this connection"
+msgstr "Aktiver fuldskærmstilstand for denne forbindelse"
+
+#: ../data/vinagre.ui.h:30
+msgid "Reverse Connections"
+msgstr "Omvendte forbindelser"
+
+#: ../data/vinagre.ui.h:31
 msgid ""
 "By activating reverse connections you can access remote desktops that are "
 "behind a firewall. The remote side is supposed to initiate the connection "
@@ -112,128 +218,22 @@ msgstr ""
 "befinder sig bag en firewall. Fjerncomputeren skal etablere forbindelsen med "
 "dig. Yderligere information kan findes i hjælp."
 
-#: ../data/vinagre.ui.h:5
-msgid "Choose a remote desktop to connect to"
-msgstr "Vælg et fjernskrivebord, der skal forbindes til"
-
-#: ../data/vinagre.ui.h:6
-msgid "Connect"
-msgstr "Tilslut"
-
-#: ../data/vinagre.ui.h:7
-msgid "Connection"
-msgstr "Forbindelse"
-
-#: ../data/vinagre.ui.h:8
-msgid "Connection options"
-msgstr "Forbindelsesindstillinger"
-
-#: ../data/vinagre.ui.h:9
-msgid "Connectivity"
-msgstr "Forbindelsesegenskaber"
-
-#: ../data/vinagre.ui.h:10
-msgid "Enable fullscreen mode for this connection"
-msgstr "Aktiver fuldskærmstilstand for denne forbindelse"
-
-#: ../data/vinagre.ui.h:11
-msgid "Folder"
-msgstr "Mappe"
-
-#: ../data/vinagre.ui.h:12 ../plugins/rdp/vinagre-rdp-tab.c:54
-#: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
-#: ../plugins/spice/vinagre-spice-tab.c:139
-msgid "Host:"
-msgstr "Vært:"
-
-#: ../data/vinagre.ui.h:13
-msgid "Options"
-msgstr "Indstillinger"
-
-#: ../data/vinagre.ui.h:14
-msgid "Parent Folder"
-msgstr "Ophavsmappe"
-
-#: ../data/vinagre.ui.h:15
-msgid "Reverse Connections"
-msgstr "Omvendte forbindelser"
-
-#: ../data/vinagre.ui.h:16
-msgid "Search for remote hosts on the network"
-msgstr "Søg efter eksterne værter på netværket"
-
-#: ../data/vinagre.ui.h:17
-msgid "Select a remote desktop protocol for this connection"
-msgstr "Vælg en protokol for fjernskrivebord for denne forbindelse"
-
-#: ../data/vinagre.ui.h:18
-msgid "Store the login credential in GNOME Keyring"
-msgstr "Gem logind-akkreditiverne i GNOME-nøgleringen"
-
-#: ../data/vinagre.ui.h:19
-msgid "This desktop is reachable through the following IP address(es):"
-msgstr "Denne maskine kan nås gennem følgende IP-adresse(r):"
-
-#: ../data/vinagre.ui.h:20
-msgid "Vinagre is a remote desktop viewer for the GNOME desktop"
-msgstr "Vinagre er en fjernskrivebordsklient til GNOME-skrivebordet"
-
-#. Translators: this is the reverse connection mode. "Always enabled" means it will be enabled by default in the program startup. You can see this string in the dialog Remote->Reverse connections.
-#: ../data/vinagre.ui.h:22
-msgid "_Always Enabled"
-msgstr "_Altid aktiveret"
-
-#. This is a button label, in the authentication dialog
-#: ../data/vinagre.ui.h:24
-msgid "_Authenticate"
-msgstr "_Godkend"
-
-#: ../data/vinagre.ui.h:25
+#: ../data/vinagre.ui.h:32
 msgid "_Enable Reverse Connections"
 msgstr "_Aktivér omvendte forbindelser"
 
-#: ../data/vinagre.ui.h:26
-msgid "_Full screen"
-msgstr "_Fuldskærm"
+#. Translators: this is the reverse connection mode. "Always enabled" means it will be enabled by default in the program startup. You can see this string in the dialog Remote->Reverse connections.
+#: ../data/vinagre.ui.h:34
+msgid "_Always Enabled"
+msgstr "_Altid aktiveret"
 
-#: ../data/vinagre.ui.h:27
-msgid "_Fullscreen"
-msgstr "_Fuldskærm"
+#: ../data/vinagre.ui.h:35
+msgid "This desktop is reachable through the following IP address(es):"
+msgstr "Denne maskine kan nås gennem følgende IP-adresse(r):"
 
-#: ../data/vinagre.ui.h:28
-msgid "_Host:"
-msgstr "_Vært:"
-
-#. Translators: This is the name of a bookmark. It appears in the add/edit bookmark dialog.
-#: ../data/vinagre.ui.h:30
-msgid "_Name:"
-msgstr "_Navn:"
-
-#: ../data/vinagre.ui.h:31 ../plugins/spice/vinagre-spice-plugin.c:294
-msgid "_Password:"
-msgstr "_Kodeord:"
-
-#: ../data/vinagre.ui.h:32
-msgid "_Protocol:"
-msgstr "_Protokol:"
-
-#: ../data/vinagre.ui.h:33
-msgid "_Remember this credential"
-msgstr "_Husk dette akkreditiv"
-
-#: ../data/vinagre.ui.h:34 ../plugins/rdp/vinagre-rdp-plugin.c:105
-#: ../plugins/ssh/vinagre-ssh-plugin.c:110
-msgid "_Username:"
-msgstr "_Brugernavn:"
-
-#. Add your name here to appear as a translator in the about dialog
 #: ../data/vinagre.ui.h:36
-msgid "translator-credits"
-msgstr ""
-"Ask Hjorth Larsen\n"
-"\n"
-"Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
-"Mere info: http://www.dansk-gruppen.dk"
+msgid "Connectivity"
+msgstr "Forbindelsesegenskaber"
 
 #: ../data/vinagre-mime.xml.in.h:1
 msgid "Remote Desktop (VNC) file"
@@ -425,8 +425,8 @@ msgstr "Angiv en alternativ port ved brug af kolon"
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:337
 #: ../plugins/spice/vinagre-spice-plugin.c:267
-msgid "For instance: joe@domain.com:5022"
-msgstr "F.eks: jens@domæne.com:5022"
+msgid "For instance: joe@example.com:5022"
+msgstr "F.eks: jens@eksempel.com:5022"
 
 #. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
 #: ../plugins/vnc/vinagre-vnc-plugin.c:343
