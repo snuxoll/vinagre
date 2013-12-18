@@ -6,23 +6,24 @@
 # Alexander Saprykin <xelfium@gmail.com>, 2010.
 # Yuri Kozlov <yuray@komyakino.ru>, 2010, 2011.
 # Yuri Myasoedov <omerta13@yandex.ru>, 2012.
+# Stas Solovey <whats_up@tut.by>, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-09-06 08:09+0000\n"
-"PO-Revision-Date: 2013-09-07 00:57+0600\n"
-"Last-Translator: Dmitriy S. Seregin <dseregin@59.ru>\n"
-"Language-Team: русский <gnome-cyr@gnome.org>\n"
+"POT-Creation-Date: 2013-10-24 14:34+0000\n"
+"PO-Revision-Date: 2013-11-22 02:16+0300\n"
+"Last-Translator: Stas Solovey <whats_up@tut.by>\n"
+"Language-Team: Русский <gnome-cyr@gnome.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.7\n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"X-Generator: Gtranslator 2.91.6\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
 msgid "Whether we should leave other clients connected"
@@ -101,15 +102,17 @@ msgstr "VNC;RDP;SSH;"
 
 #: ../data/vinagre.ui.h:1
 msgid "Vinagre is a remote desktop viewer for the GNOME desktop"
-msgstr "Vinagre — клиент удалённых рабочих столов для среды GNOME"
+msgstr "Vinagre — клиент удалённых рабочих столов среды GNOME"
 
 #. Add your name here to appear as a translator in the about dialog
 #: ../data/vinagre.ui.h:3
 msgid "translator-credits"
 msgstr ""
-"Leonid Kanter <leon@asplinux.ru>\n"
-"Алексей Гультяев <hokum83@gmail.com>\n"
-"Alexander Saprykin <xelfium@gmail.com>, 2010"
+" Leonid Kanter <leon@asplinux.ru>, 2008, 2009, 2010.\n"
+" Alexander Saprykin <xelfium@gmail.com>, 2010.\n"
+" Yuri Kozlov <yuray@komyakino.ru>, 2010, 2011.\n"
+" Yuri Myasoedov <omerta13@yandex.ru>, 2012.\n"
+" Stas Solovey <whats_up@tut.by>, 2013."
 
 #. This is a button label, in the authentication dialog
 #: ../data/vinagre.ui.h:5
@@ -174,7 +177,7 @@ msgstr "Папка"
 
 #: ../data/vinagre.ui.h:20
 msgid "Bookmark Folder"
-msgstr "Папка для закладок"
+msgstr "Папка закладок"
 
 #: ../data/vinagre.ui.h:21
 msgid "Parent Folder"
@@ -206,7 +209,7 @@ msgstr "Параметры подключения"
 
 #: ../data/vinagre.ui.h:28
 msgid "_Fullscreen"
-msgstr "Развернуть на _полный экран"
+msgstr "_Полноэкранный режим"
 
 #: ../data/vinagre.ui.h:29
 msgid "Enable fullscreen mode for this connection"
@@ -223,7 +226,7 @@ msgid ""
 "with you. For further information, read the help."
 msgstr ""
 "Включив обратные подключения, можно получить доступ к удалённым рабочим "
-"столам за брандмауэром. Удалённая сторона должна сама инициировать "
+"столам за межсетевым экраном. Удалённая сторона должна сама инициировать "
 "подключение. Для более подробной информации смотрите справку."
 
 #: ../data/vinagre.ui.h:32
@@ -1143,10 +1146,11 @@ msgstr "%s просит подключиться к его рабочему ст
 msgid "Desktop sharing invitation"
 msgstr "Приглашение на доступ к рабочему столу"
 
+# первая кнопка главного меню, перевод как "удаленный" тут не к месту.
 #. Toplevel
 #: ../vinagre/vinagre-ui.h:33
 msgid "_Remote"
-msgstr "_Удалённый"
+msgstr "_Подключения"
 
 #: ../vinagre/vinagre-ui.h:34
 msgid "_Edit"
@@ -1188,7 +1192,7 @@ msgstr "Выйти из программы"
 #. Help menu
 #: ../vinagre/vinagre-ui.h:51
 msgid "_Contents"
-msgstr "_Содержание"
+msgstr "_Руководство"
 
 #: ../vinagre/vinagre-ui.h:52
 msgid "Open the Vinagre manual"
@@ -1196,7 +1200,7 @@ msgstr "Открыть руководство по Vinagre"
 
 #: ../vinagre/vinagre-ui.h:54
 msgid "About this application"
-msgstr "Об этом приложении"
+msgstr "Информация о приложении"
 
 #: ../vinagre/vinagre-ui.h:59
 msgid "_Keyboard shortcuts"
