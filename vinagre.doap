@@ -10,7 +10,7 @@
   Virtual Network Computing (VNC) to remotely control another desktop.
   Additional protocols, such as RDP and SSH, are also supported.
   </description>
-  <homepage rdf:resource="http://projects.gnome.org/vinagre/" />
+  <homepage rdf:resource="https://wiki.gnome.org/Apps/Vinagre" />
   <download-page rdf:resource="http://download.gnome.org/sources/vinagre/" />
   <bug-database rdf:resource="https://bugzilla.gnome.org/browse.cgi?product=vinagre" />
 
