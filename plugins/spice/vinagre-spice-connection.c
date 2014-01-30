@@ -359,7 +359,7 @@ vinagre_spice_connection_class_init (VinagreSpiceConnectionClass *klass)
 							 G_PARAM_CONSTRUCT |
 							 G_PARAM_STATIC_STRINGS));
   g_object_class_install_property (object_class,
-				   PROP_RESIZE_GUEST,
+				   PROP_AUTO_CLIPBOARD,
 				   g_param_spec_boolean ("auto-clipboard",
 							 "Auto clipboard",
 							 "Whether clipboard sharing is automatic",
