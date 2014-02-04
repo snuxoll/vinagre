@@ -1,3 +1,45 @@
+Vinagre 3.11.5
+==============
+
+Andika Triwidada (1):
+      Added Indonesian translation of vinagre help
+
+Arash Mousavi (1):
+      L10N: Updated Persian translations
+
+Carles Ferrando (1):
+      [l10n] Updated Catalan (Valencian) translation
+
+Chao-Hsiung Liao (1):
+      Updated Traditional Chinese translation(Hong Kong and Taiwan)
+
+Cole Robinson (1):
+      Fix Spice plugin auto-clipboard property enum
+
+David King (3):
+      Post-release version bump to 3.11.1
+      Update FSF postal address, bug 721561
+      Fix Latvian help translation markup
+
+Dimitris Spingos (1):
+      Updated Greek translation
+
+Muhammet Kara (2):
+      [l10n]Updated Turkish translation
+      [l10n]Updated Turkish translation
+
+Rūdolfs Mazurs (1):
+      Updated Latvian translation
+
+Stas Solovey (1):
+      Updated Russian translation
+
+Tong Hui (1):
+      Update Chinese simplified translation
+
+William Jon McCann (1):
+      Update project homepage url
+
 Vinagre 3.10.0
 ==============
 
