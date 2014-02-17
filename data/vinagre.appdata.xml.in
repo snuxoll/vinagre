@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2014 David King <amigadave@amigadave.com> -->
+<application>
+    <id type="desktop">vinagre.desktop</id>
+    <licence>CC0</licence>
+<!-- Both taken from the desktop file.
+    <name>Remote Desktop Viewer</name>
+    <summary></summary>
+-->
+    <description>
+        <_p>Vinagre shows remote Windows, Mac OS X and Linux desktops.</_p>
+        <_p>It uses the VNC, RDP and SPICE protocols, and can even be used to
+        connect to SSH servers.</_p>
+    </description>
+    <url type="homepage">https://wiki.gnome.org/Apps/Vinagre</url>
+    <screenshots>
+        <screenshot type="default">http://amigadave.com/temp/vinagre-default.png</screenshot>
+    </screenshots>
+    <updatecontact>amigadave@amigadave.com</updatecontact>
+    <project_group>GNOME</project_group>
+</application>

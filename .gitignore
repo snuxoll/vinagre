@@ -16,6 +16,8 @@ Makefile.in
 /configure
 /data/org.freedesktop.Telepathy.Client.Vinagre.service
 /data/org.gnome.Vinagre.gschema.valid
+/data/vinagre.appdata.valid
+/data/vinagre.appdata.xml
 /data/vinagre-file.desktop
 /data/vinagre-file.desktop.in
 /data/vinagre-mime.xml
@@ -55,6 +57,7 @@ Makefile.in
 /po/quot.sed
 /po/stamp-it
 /po/*.gmo
+/po/vinagre.pot
 /stamp-h1
 /vinagre/*.o
 /vinagre/.deps

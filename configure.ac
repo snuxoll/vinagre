@@ -218,6 +218,8 @@ YELP_HELP_INIT
 
 GLIB_GSETTINGS
 
+APPDATA_XML
+
 AC_CONFIG_FILES([
 Makefile
 data/vinagre.desktop.in
