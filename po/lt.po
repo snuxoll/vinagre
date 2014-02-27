@@ -5,15 +5,15 @@
 # Žygimantas Beručka <zygis@gnome.org>, 2010.
 # Rimas Kudelis <rq@akl.lt>, 2010.
 # Algimantas Margevičius <gymka@mail.ru>, 2011.
-# Aurimas Černius <aurisc4@gmail.com>, 2013.
+# Aurimas Černius <aurisc4@gmail.com>, 2013, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-08-04 02:09+0000\n"
-"PO-Revision-Date: 2013-08-27 23:18+0300\n"
+"POT-Creation-Date: 2014-02-27 11:47+0000\n"
+"PO-Revision-Date: 2014-02-27 23:26+0200\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -87,6 +87,18 @@ msgid ""
 msgstr ""
 "Nustatykite į teigiamą, jei norite, kad programa visada klausytųsi "
 "atvirkštinių ryšių."
+
+#: ../data/vinagre.appdata.xml.in.h:1
+msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
+msgstr "Vinagre rodo nutolusius Windows, Max OS X bei Linux darbastalius."
+
+#: ../data/vinagre.appdata.xml.in.h:2
+msgid ""
+"It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
+"SSH servers."
+msgstr ""
+"Ji naudoja VNC, RDP ir SPICE protokolus bei gali būti naudojama "
+"prisijungimui prie SSH serverių."
 
 #: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
 #: ../vinagre/vinagre-main.c:182
@@ -284,7 +296,6 @@ msgstr "_Plotis:"
 
 #. Translators: This is the tooltip for the width field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:138
-#| msgid "Connect to a remote desktop"
 msgid "Set width of the remote desktop"
 msgstr "Nustatyti nutolusio darbastalio plotį"
 
@@ -295,7 +306,6 @@ msgstr "_Aukštis:"
 
 #. Translators: This is the tooltip for the height field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:154
-#| msgid "Connect to a remote desktop"
 msgid "Set height of the remote desktop"
 msgstr "Nustatyti nutolusio darbastalio aukštį"
 
@@ -1089,7 +1099,6 @@ msgstr "Klaida įrašant neseną prisijungimą."
 
 #: ../vinagre/vinagre-tab.c:781
 #, c-format
-#| msgid "Remote desktop password: %s"
 msgid "Remote desktop password for %s"
 msgstr "Nutolusio darbastalio %s slaptažodis"
 
@@ -1319,4 +1328,3 @@ msgstr "Įjungti sparčiuosius klavišus"
 #, c-format
 msgid "Error while creating the file %s: %s"
 msgstr "Klaida kuriant failą %s: %s"
-
