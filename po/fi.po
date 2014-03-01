@@ -4,15 +4,15 @@
 #
 # Ilkka Tuohela <hile@iki.fi>, 2007-2009.
 # Tommi Vainikainen <thv@iki.fi>, 2009-2011.
-# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2012, 2013.
+# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2012, 2013, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-09-03 16:43+0000\n"
-"PO-Revision-Date: 2013-09-03 22:50+0300\n"
+"POT-Creation-Date: 2014-02-24 11:48+0000\n"
+"PO-Revision-Date: 2014-02-24 22:13+0200\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
 "Language-Team: suomi <gnome-fi-laatu@lists.sourceforge.net>\n"
 "Language: fi\n"
@@ -83,6 +83,20 @@ msgid ""
 "connections."
 msgstr ""
 "Aseta todeksi jos haluat aina käynnistää vastayhteyksien kuunteluohjelman."
+
+#: ../data/vinagre.appdata.xml.in.h:1
+msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
+msgstr ""
+"Vinagren avulla yhdistät Windowsilla, Mac OS X:llä ja Linuxilla toimiviin "
+"etätyöpöytiin."
+
+#: ../data/vinagre.appdata.xml.in.h:2
+msgid ""
+"It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
+"SSH servers."
+msgstr ""
+"Se käyttää VNC-, RDP- ja SPICE-protokollia, ja voit ottaa yhteyden jopa SSH-"
+"palvelimiin."
 
 #: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
 #: ../vinagre/vinagre-main.c:182
@@ -290,7 +304,6 @@ msgstr "_Leveys:"
 
 #. Translators: This is the tooltip for the width field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:138
-#| msgid "Connect to a remote desktop"
 msgid "Set width of the remote desktop"
 msgstr "Aseta etätyöpöydän leveys"
 
@@ -301,7 +314,6 @@ msgstr "_Korkeus:"
 
 #. Translators: This is the tooltip for the height field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:154
-#| msgid "Connect to a remote desktop"
 msgid "Set height of the remote desktop"
 msgstr "Aseta etätyöpöydän korkeus"
 
@@ -1094,7 +1106,6 @@ msgstr "Virhe tallennettaessa äskettäistä yhteyttä."
 
 #: ../vinagre/vinagre-tab.c:781
 #, c-format
-#| msgid "Remote desktop password: %s"
 msgid "Remote desktop password for %s"
 msgstr "Etätyöpöydän salasana: %s"
 
