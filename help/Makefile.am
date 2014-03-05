@@ -12,6 +12,7 @@ HELP_FILES = \
 	fullscreen.page \
 	index.page \
 	introduction.page \
+	legal.xml \
 	keyboard-shortcuts.page \
 	scaling.page \
 	take-screenshot.page \
