@@ -1,32 +1,32 @@
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
       type="guide"
       id="introduction">
 
   <info>
     <link type="guide" xref="index"/>
 
-    <revision version="0.2" pkgversion="3.8" date="2013-03-23" status="final"/>
+    <revision pkgversion="3.8" date="2013-03-23" status="final"/>
+    <revision pkgversion="3.12" date="2014-03-05" status="final"/>
 
     <credit type="author">
       <name>Ekaterina Gerasimova</name>
-      <email>kittykat3756@googlemail.com</email>
+      <email its:translate="no">kittykat3756@googlemail.com</email>
     </credit>
 
-    <license>
-      <p>Creative Commons Share Alike 3.0</p>
-    </license>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
-    <desc>Introduction to the <app>Vinagre</app> remote desktop viewer.</desc>
+    <desc>Introduction to <app>Remote Desktop Viewer</app>.</desc>
   </info>
 
   <title>Introduction</title>
 
-  <p><app>Vinagre</app> is a remote desktop viewer application for GNOME for
-  accessing other machines using Virtual Network Computing (VNC) and other
-  protocols. It can be used to control and interact with another computer or to
-  just view the desktop.</p>
+  <p><app>Remote Desktop Viewer</app> is a remote desktop viewer application
+  for GNOME for accessing other machines using Virtual Network Computing (VNC)
+  and other protocols. It can be used to control and interact with another
+  computer or to just view the desktop.</p>
 
-  <p><app>Vinagre</app> provides the following features:</p>
+  <p><app>Remote Desktop Viewer</app> provides the following features:</p>
   <list>
     <item><p>connect to several machines at the same time</p></item>
     <item><p>store recent connections and bookmark them</p></item>
@@ -34,9 +34,9 @@
   </list>
 
   <figure>
-    <title>Vinagre in action</title>
+    <title>Remote Desktop Viewer in action</title>
     <media type="image" mime="image/png" src="figures/vinagre-connected.png" width="825">
-      <p>Vinagre running in GNOME 3, connected to a machine running GNOME 2</p>
+      <p>Remote Desktop Viewer running in GNOME 3, connected to a machine running GNOME 2</p>
     </media>
   </figure>
 

@@ -1,22 +1,23 @@
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
       type="guide"
       id="keyboard-shortcuts">
 
   <info>
     <link type="guide" xref="index#options"/>
 
-    <revision version="0.2" pkgversion="3.8" date="2013-03-23" status="final"/>
+    <revision pkgversion="3.8" date="2013-03-23" status="final"/>
+    <revision pkgversion="3.12" date="2014-03-05" status="final"/>
 
     <credit type="author">
       <name>Ekaterina Gerasimova</name>
-      <email>kittykat3756@googlemail.com</email>
+      <email its:translate="no">kittykat3756@googlemail.com</email>
     </credit>
 
-    <license>
-      <p>Creative Commons Share Alike 3.0</p>
-    </license>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
-    <desc>Disable the sending of keyboard shortcuts to the remote machine.</desc>
+    <desc>Disable the sending of keyboard shortcuts to the remote
+    machine.</desc>
   </info>
 
   <title>Keyboard shortcuts</title>
@@ -27,11 +28,11 @@
 
   <p>Enabling this option allows the use of keyboard shortcuts (like
   <keyseq><key>Ctrl</key><key>N</key></keyseq>), menu accelerators (such as
-  <keyseq><key>Alt</key><key>M</key></keyseq>) and mnemonics, with
-  <app>Vinagre</app>. This means that <app>Vinagre</app> will catch those key
-  combinations instead of sending them to the remote machine. This option is
-  disabled by default because most of the time, you will be interacting with
-  the computer to which you are connected.</p>
+  <keyseq><key>Alt</key><key>M</key></keyseq>) and mnemonics, with <app>Remote
+  Desktop Viewer</app>. This means that <app>Remote Desktop Viewer</app> will
+  catch those key combinations instead of sending them to the remote machine.
+  This option is disabled by default because most of the time, you will be
+  interacting with the computer to which you are connected.</p>
 
   <note>
     <p>When the <gui>Keyboard shortcuts</gui> option is disabled,
