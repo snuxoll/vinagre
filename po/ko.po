@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the vinagre package.
 #
 # Namhyung Kim <namhyung@gmail.com>, 2007.
-# Changwoo Ryu <cwryu@debian.org>, 2008-2013.
+# Changwoo Ryu <cwryu@debian.org>, 2008-2014.
 #
 # 새로 번역하시는 분은 아래 translator-credits에 추가하세요.
 #
@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-09-03 16:43+0000\n"
-"PO-Revision-Date: 2013-09-14 21:17+0900\n"
+"POT-Creation-Date: 2014-03-06 11:50+0000\n"
+"PO-Revision-Date: 2014-03-07 00:57+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
 "Language: Korean\n"
@@ -83,6 +83,16 @@ msgid ""
 "Set to \"true\" to always start the program listening for reverse "
 "connections."
 msgstr "참이면 거꾸로 연결을 받아들이는 프로그램을 항상 시작합니다."
+
+#: ../data/vinagre.appdata.xml.in.h:1
+msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
+msgstr "비나그레에서는 원격에 있는 윈도우, 맥오에스X, 리눅스 데스크톱을 볼 수 있습니다."
+
+#: ../data/vinagre.appdata.xml.in.h:2
+msgid ""
+"It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
+"SSH servers."
+msgstr "VNC, RDP, SPICE 프로토콜을 사용하고, SSH 서버에 연결할 때도 사용할 수 있습니다."
 
 #: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
 #: ../vinagre/vinagre-main.c:182
