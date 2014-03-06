@@ -1126,7 +1126,6 @@ Jonh Wendell &lt;jwendell@gnome.org&gt;</property>
       </object>
     </child>
     <action-widgets>
-      <action-widget response="-11">connect_help</action-widget>
       <action-widget response="-6">button1</action-widget>
       <action-widget response="-5">connect_button</action-widget>
     </action-widgets>

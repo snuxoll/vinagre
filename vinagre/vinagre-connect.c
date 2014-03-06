@@ -49,6 +49,7 @@ typedef struct {
   GtkWidget *fullscreen_check;
   GtkWidget *plugin_box;
   GtkWidget *connect_button;
+  GtkWidget *help_button;
 } VinagreConnectDialog;
 
 enum {
@@ -319,6 +320,13 @@ save_history (GtkWidget *combo) {
   }
 }
 
+static void
+vinagre_connect_help_button_cb (GtkButton            *button,
+				VinagreConnectDialog *dialog)
+{
+  vinagre_utils_show_help (GTK_WINDOW(dialog->dialog), "connect");
+}
+
 #ifdef VINAGRE_HAVE_AVAHI
 static void
 vinagre_connect_find_button_cb (GtkButton            *button,
@@ -420,11 +428,17 @@ vinagre_connect (VinagreWindow *window)
   dialog.fullscreen_check = GTK_WIDGET (gtk_builder_get_object (dialog.xml, "fullscreen_check"));
   dialog.plugin_box = GTK_WIDGET (gtk_builder_get_object (dialog.xml, "plugin_options_connect_vbox"));
   dialog.connect_button = GTK_WIDGET (gtk_builder_get_object (dialog.xml, "connect_button"));
+  dialog.help_button = GTK_WIDGET (gtk_builder_get_object (dialog.xml, "connect_help"));
 
   setup_protocol (&dialog);
   setup_combo (&dialog);
   gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (dialog.fullscreen_check),
 				vinagre_cache_prefs_get_boolean ("connection", "fullscreen", FALSE));
+
+  g_signal_connect (dialog.help_button,
+		    "clicked",
+		    G_CALLBACK (vinagre_connect_help_button_cb),
+		    &dialog);
 
 #ifdef VINAGRE_HAVE_AVAHI
   g_signal_connect (dialog.find_button,
@@ -439,11 +453,7 @@ vinagre_connect (VinagreWindow *window)
   gtk_widget_show_all (dialog.dialog);
   result = gtk_dialog_run (GTK_DIALOG (dialog.dialog));
 
-  if (result == GTK_RESPONSE_HELP)
-    {
-      vinagre_utils_show_help (GTK_WINDOW (window), "connect");
-    }
-  else if (result == GTK_RESPONSE_OK)
+  if (result == GTK_RESPONSE_OK)
     {
       gchar *host = NULL, *error_msg = NULL, *protocol = NULL, *actual_host;
       gint port;
