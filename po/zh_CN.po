@@ -14,9 +14,9 @@ msgstr ""
 "Project-Id-Version: vinagre master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-12-19 16:51+0000\n"
-"PO-Revision-Date: 2013-12-28 02:01+0800\n"
-"Last-Translator: Tong Hui <tonghuix@gmail.com>\n"
+"POT-Creation-Date: 2014-03-08 11:50+0000\n"
+"PO-Revision-Date: 2014-03-08 21:21+0800\n"
+"Last-Translator: Wylmer Wang <wantinghard@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -81,6 +81,16 @@ msgid ""
 "connections."
 msgstr "如果为“true”(真)，则总是以监听反向连接的方式启动本程序。"
 
+#: ../data/vinagre.appdata.xml.in.h:1
+msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
+msgstr "Vinagre 用来显示远程 Windows、Mac OS X 和 Linux 桌面。"
+
+#: ../data/vinagre.appdata.xml.in.h:2
+msgid ""
+"It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
+"SSH servers."
+msgstr "它使用 VNC、RDP 和 SPICE 协议，甚至可以用来连接 SSH 服务器。"
+
 #: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
 #: ../vinagre/vinagre-main.c:182
 msgid "Remote Desktop Viewer"
@@ -92,7 +102,7 @@ msgstr "访问远程桌面"
 
 #: ../data/vinagre.desktop.in.in.h:3
 msgid "VNC;RDP;SSH;"
-msgstr "VNC;RDP;SSH;"
+msgstr "VNC;RDP;SSH;远程;加密;遥控;"
 
 #: ../data/vinagre.ui.h:1
 msgid "Vinagre is a remote desktop viewer for the GNOME desktop"
@@ -308,7 +318,7 @@ msgstr "执行 xfreerdp 出错"
 #: ../vinagre/vinagre-bookmarks.c:492
 #: ../vinagre/vinagre-bookmarks-migration.c:135
 #: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
-#: ../vinagre/vinagre-connect.c:500 ../vinagre/vinagre-options.c:85
+#: ../vinagre/vinagre-connect.c:510 ../vinagre/vinagre-options.c:85
 #: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
 #: ../vinagre/vinagre-window.c:798
 msgid "Unknown error"
@@ -801,17 +811,17 @@ msgid "The following file could not be opened:"
 msgid_plural "The following files could not be opened:"
 msgstr[0] "无法打开下列文件："
 
-#: ../vinagre/vinagre-connect.c:90 ../vinagre/vinagre-connect.c:336
-#: ../vinagre/vinagre-connect.c:464
+#: ../vinagre/vinagre-connect.c:91 ../vinagre/vinagre-connect.c:344
+#: ../vinagre/vinagre-connect.c:474
 msgid "Could not get the active protocol from the protocol list."
 msgstr "无法从协议列表中获取已激活了的协议。"
 
-#: ../vinagre/vinagre-connect.c:317
+#: ../vinagre/vinagre-connect.c:318
 #, c-format
 msgid "Error while saving history file: %s"
 msgstr "保存历史文件时出错：%s"
 
-#: ../vinagre/vinagre-connect.c:352
+#: ../vinagre/vinagre-connect.c:360
 msgid "Choose a Remote Desktop"
 msgstr "选择一个远程桌面"
 
