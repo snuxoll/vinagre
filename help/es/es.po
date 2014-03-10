@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the vinagre package.
 # 
 # Jorge González <jorgegonz@svn.gnome.org>, 2011., 2011.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre master\n"
-"POT-Creation-Date: 2013-03-24 01:55+0000\n"
-"PO-Revision-Date: 2013-03-25 16:35+0100\n"
+"POT-Creation-Date: 2014-03-09 23:51+0000\n"
+"PO-Revision-Date: 2014-03-10 13:02+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -17,65 +17,52 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-
-#: C/index.page:5(page/title)
-msgid "Vinagre Help"
-msgstr "Ayuda de Vinagre"
-
-#: C/index.page:8(section/title)
-msgid "Connecting to other computers using VNC"
-msgstr "Conectarse a otros equipos usando VNC"
-
-#: C/index.page:12(section/title)
-msgid "Using Vinagre's options and features"
-msgstr "Usar las opciones y características de Vinagre"
+"X-Generator: Gtranslator 2.91.5\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2013\n"
+"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2014\n"
 "Jorge González <jorgegonz@svn.gnome.org>, 2011-2012"
 
-#: C/connect.page:7(info/title)
+#. (itstool) path: info/title
+#: C/connect.page:8
 msgctxt "sort"
 msgid "1"
 msgstr "1"
 
-#: C/connect.page:12(credit/name) C/connect-file.page:13(credit/name)
-#: C/connect-reverse.page:13(credit/name) C/fullscreen.page:11(credit/name)
-#: C/introduction.page:11(credit/name)
-#: C/keyboard-shortcuts.page:11(credit/name) C/scaling.page:11(credit/name)
-#: C/take-screenshot.page:11(credit/name) C/view-only.page:11(credit/name)
+#. (itstool) path: credit/name
+#: C/connect.page:14 C/connect-file.page:13 C/connect-reverse.page:15
+#: C/fullscreen.page:11 C/introduction.page:13 C/keyboard-shortcuts.page:13
+#: C/scaling.page:11 C/take-screenshot.page:13 C/view-only.page:11
 msgid "Ekaterina Gerasimova"
 msgstr "Ekaterina Gerasimova"
 
-#: C/connect.page:17(license/p) C/connect-file.page:18(license/p)
-#: C/connect-reverse.page:18(license/p) C/fullscreen.page:16(license/p)
-#: C/introduction.page:16(license/p) C/keyboard-shortcuts.page:16(license/p)
-#: C/scaling.page:16(license/p) C/take-screenshot.page:16(license/p)
-#: C/view-only.page:16(license/p)
-msgid "Creative Commons Share Alike 3.0"
-msgstr "Creative Commons Compartir Igual 3.0"
-
-#: C/connect.page:20(info/desc)
-#| msgid "Establish a connection to another computer on your local network."
+#. (itstool) path: info/desc
+#: C/connect.page:20
 msgid "Connect to another computer on your local network."
 msgstr "Conectarse a otro equipo en su red local."
 
-#: C/connect.page:23(page/title)
+#. (itstool) path: page/title
+#: C/connect.page:23
 msgid "Establish a connection"
 msgstr "Establecer una conexión"
 
-#: C/connect.page:25(page/p)
+#. (itstool) path: page/p
+#: C/connect.page:25
+#| msgid ""
+#| "You can connect to other computers on your local network using "
+#| "<app>Vinagre</app>."
 msgid ""
-"You can connect to other computers on your local network using <app>Vinagre</"
-"app>."
+"You can connect to other computers on your local network using <app>Remote "
+"Desktop Viewer</app>."
 msgstr ""
-"Puede conectarse con otros equipos en su red local usando <app>Vinagre</app>."
+"Puede conectarse con otros equipos en su red local usando el <app>Visor de "
+"escritorios remotos</app>."
 
-#: C/connect.page:30(item/p)
-#| msgid "Choose <guiseq><gui>Remote</gui><gui>Connect</gui></guiseq>."
+#. (itstool) path: item/p
+#: C/connect.page:30
 msgid ""
 "Select <guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem"
 "\">Connect</gui></guiseq>."
@@ -83,17 +70,15 @@ msgstr ""
 "Elija <guiseq><gui style=\"menu\">Remoto</gui> <gui style=\"menuitem"
 "\">Conectar</gui></guiseq>."
 
-#: C/connect.page:34(item/p)
+#. (itstool) path: item/p
+#: C/connect.page:34
 msgid ""
 "Choose the <gui>Protocol</gui> and the <gui>Host</gui> for the connection."
 msgstr ""
 "Elija el <gui>Protocolo</gui> y el <gui>Equipo</gui>. para la conexión."
 
-#: C/connect.page:37(note/p)
-#| msgid ""
-#| "Some protocols allow you to see all available computers on your local "
-#| "network by clicking the <gui>Find</gui> button. Without <app>Avahi</app> "
-#| "support, this button will not be displayed."
+#. (itstool) path: note/p
+#: C/connect.page:37
 msgid ""
 "Some protocols allow you to see all available computers on your local "
 "network by clicking the <gui style=\"button\">Find</gui> button. This "
@@ -103,10 +88,8 @@ msgstr ""
 "local pulsando el botón <gui style=\"button\">Buscar</gui>. No se mostrará "
 "este botón si no tiene soporte <app>Avahi</app>."
 
-#: C/connect.page:44(item/p)
-#| msgid ""
-#| "Select the options which you want enabled when the connection is made. "
-#| "Options will vary depending on the protocol you use."
+#. (itstool) path: item/p
+#: C/connect.page:44
 msgid ""
 "Select the options which you want enabled when the connection is made. "
 "Options will vary depending on the protocol that you use."
@@ -114,12 +97,13 @@ msgstr ""
 "Seleccione las opciones que quiere tener activadas cuando se realiza la "
 "conexión. Las opciones variarán dependiendo del protocolo que use."
 
-#: C/connect.page:48(item/p)
-#| msgid "Click the <gui>Connect</gui> button."
+#. (itstool) path: item/p
+#: C/connect.page:48
 msgid "Click the <gui style=\"button\">Connect</gui> button."
 msgstr "Pulse el botón <gui style=\"button\">Conectar</gui>."
 
-#: C/connect.page:49(item/p)
+#. (itstool) path: item/p
+#: C/connect.page:49
 msgid ""
 "At this point, the remote desktop may need to confirm the connection. If "
 "this is the case, the viewer may remain black until the connection is "
@@ -129,30 +113,30 @@ msgstr ""
 "Si es el caso, el visor permanecerá en negro hasta que se confirme la "
 "conexión."
 
-#: C/connect.page:53(note/p)
+#. (itstool) path: note/p
+#: C/connect.page:53
 #| msgid ""
 #| "Some computers may require a secure connection: an authentication dialog "
 #| "will be displayed, asking for the credentials. The type of credentials "
-#| "depend on the remote host, it may be a password and a username. If you "
+#| "depend on the remote host; it may be a password and a username. If you "
 #| "select <gui>Remember this credential</gui>, <app>Vinagre</app> will store "
 #| "the information using <app>GNOME Keyring</app>."
 msgid ""
 "Some computers may require a secure connection: an authentication dialog "
 "will be displayed, asking for the credentials. The type of credentials "
 "depend on the remote host; it may be a password and a username. If you "
-"select <gui>Remember this credential</gui>, <app>Vinagre</app> will store "
-"the information using <app>GNOME Keyring</app>."
+"select <gui>Remember this credential</gui>, <app>Remote Desktop Viewer</app> "
+"will store the information using <app>GNOME Keyring</app>."
 msgstr ""
 "Algunos equipos requieren una conexión segura: se mostrará un diálogo de "
 "autenticación solicitando las credenciales. El tipo de credenciales depende "
 "del equipo remoto, pueden ser usuario y contraseña. Si selecciona "
-"<gui>Recordar estas credenciales</gui> <app>Vinagre</app> almacenará la "
-"información usando el <app>Depósito de claves de GNOME</app>."
+"<gui>Recordar estas credenciales</gui> el <app>Visor de escritorios remotos</"
+"app> almacenará la información usando el <app>Depósito de claves de GNOME</"
+"app>."
 
-#: C/connect.page:63(page/p)
-#| msgid ""
-#| "If the connection has been used previously, you can also access it "
-#| "through <guiseq><gui>Remote</gui><gui>Recent Connections</gui></guiseq>."
+#. (itstool) path: page/p
+#: C/connect.page:63
 msgid ""
 "If the connection has been used previously, you can also access it through "
 "<guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem\">Recent "
@@ -162,10 +146,8 @@ msgstr ""
 "ella a través de <guiseq><gui style=\"menu\">Remoto</gui> <gui style="
 "\"menuitem\">Conexiones recientes</gui></guiseq>."
 
-#: C/connect.page:67(page/p)
-#| msgid ""
-#| "To close a connection, choose <guiseq><gui>Remote</gui> <gui>Close</gui></"
-#| "guiseq> or click the <gui>Close</gui> button."
+#. (itstool) path: page/p
+#: C/connect.page:67
 msgid ""
 "To close a connection, choose <guiseq><gui style=\"menu\">Remote</gui> <gui "
 "style=\"menuitem\">Close</gui></guiseq> or click the <gui style=\"button"
@@ -175,24 +157,30 @@ msgstr ""
 "<gui style=\"menuitem\">Cerrar</gui></guiseq> o pulse el botón <gui style="
 "\"button\">Cerrar</gui>."
 
-#: C/connect-file.page:8(info/title)
+#. (itstool) path: info/title
+#: C/connect-file.page:8
 msgctxt "sort"
 msgid "2"
 msgstr "2"
 
-#: C/connect-file.page:21(info/desc)
+#. (itstool) path: license/p
+#: C/connect-file.page:18 C/fullscreen.page:16 C/scaling.page:16
+#: C/view-only.page:16
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Creative Commons Compartir Igual 3.0"
+
+#. (itstool) path: info/desc
+#: C/connect-file.page:21
 msgid "Use a remote connection file to connect to a remote machine."
 msgstr "Usar un archivo de conexión remota para conectar con un equipo remoto."
 
-#: C/connect-file.page:24(page/title)
-#| msgid "Connect with a .vnc file"
+#. (itstool) path: page/title
+#: C/connect-file.page:24
 msgid "Connect using a <file>.vnc</file> file"
 msgstr "Conectar usando un archivo <file>.vnc</file>"
 
-#: C/connect-file.page:26(page/p)
-#| msgid ""
-#| "Some hosts distribute remote connection files (generally ending with "
-#| "suffix <file>.vnc</file>) instead of using a host address and port."
+#. (itstool) path: page/p
+#: C/connect-file.page:26
 msgid ""
 "Some hosts distribute <em>remote connection files</em>, that generally end "
 "with the suffix <file>.vnc</file>, instead of using a host address and port."
@@ -201,8 +189,8 @@ msgstr ""
 "(generalmente acaban con el sufijo <file>.vnc</file> en lugar de usar una "
 "dirección y puerto del servidor."
 
-#: C/connect-file.page:32(item/p)
-#| msgid "Choose <guiseq><gui>Remote</gui> <gui>Open</gui></guiseq>."
+#. (itstool) path: item/p
+#: C/connect-file.page:32
 msgid ""
 "Select <guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem"
 "\">Open</gui></guiseq>."
@@ -210,30 +198,31 @@ msgstr ""
 "Elija <guiseq><gui style=\"menu\">Remoto</gui> <gui style=\"menuitem"
 "\">Abrir</gui></guiseq>."
 
-#: C/connect-file.page:36(item/p)
+#. (itstool) path: item/p
+#: C/connect-file.page:36
 msgid "Select the file you want to open."
 msgstr "Seleccione el archivo que quiere abrir."
 
-#: C/connect-file.page:39(item/p)
-#| msgid "Click the <gui>Open</gui> button."
+#. (itstool) path: item/p
+#: C/connect-file.page:39
 msgid "Click the <gui style=\"button\">Open</gui> button."
 msgstr "Pulse el botón <gui style=\"button\">Open</gui>."
 
-#: C/connect-file.page:44(note/p)
-#| msgid ""
-#| "You can also double-click on a remote connection file in <app>Nautilus</"
-#| "app> to open it with <app>Vinagre</app>."
+#. (itstool) path: note/p
+#: C/connect-file.page:44
 msgid "You can also open a remote connection file from <app>Files</app>."
 msgstr ""
 "También puede pulsar dos veces sobre un archivo de conexión remota en "
 "<app>Archivos</app>."
 
-#: C/connect-reverse.page:8(info/title)
+#. (itstool) path: info/title
+#: C/connect-reverse.page:9
 msgctxt "sort"
 msgid "3"
 msgstr "3"
 
-#: C/connect-reverse.page:21(info/desc)
+#. (itstool) path: info/desc
+#: C/connect-reverse.page:21
 msgid ""
 "Connect to computers not on your local network: bypassing firewall "
 "restrictions on remote host."
@@ -241,18 +230,13 @@ msgstr ""
 "Conectarse con equipos que no están en su red local: evitando las "
 "restricciones del cortafuegos en el equipo remoto."
 
-#: C/connect-reverse.page:24(page/title)
-#| msgid "Reverse Connections…"
+#. (itstool) path: page/title
+#: C/connect-reverse.page:25
 msgid "<gui>Reverse Connections…</gui>"
 msgstr "<gui>Conexiones inversas…</gui>"
 
-#: C/connect-reverse.page:26(page/p)
-#| msgid ""
-#| "A reverse connection is usually used to bypass firewall restrictions on "
-#| "open ports. A firewall usually blocks open ports, but does not block "
-#| "outgoing traffic. In a normal forward connection, a client connects to a "
-#| "server through the server's open port, but in the case of a reverse "
-#| "connection, the client opens the port that the server connects to."
+#. (itstool) path: page/p
+#: C/connect-reverse.page:27
 msgid ""
 "A reverse connection is usually used to bypass firewall restrictions on open "
 "ports. A firewall usually blocks open ports, but does not block outgoing "
@@ -267,13 +251,13 @@ msgstr ""
 "puerto abierto del servidor, pero en el caso de una conexión inversa, el "
 "cliente abre un puerto al que se conecta el servidor."
 
-#: C/connect-reverse.page:33(section/title)
+#. (itstool) path: section/title
+#: C/connect-reverse.page:34
 msgid "Enabling reverse connections"
 msgstr "Activar conexiones inversas"
 
-#: C/connect-reverse.page:37(item/p)
-#| msgid ""
-#| "Open <guiseq><gui>Remote</gui><gui>Reverse Connections...</gui> </guiseq>."
+#. (itstool) path: item/p
+#: C/connect-reverse.page:38
 msgid ""
 "Select <guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem"
 "\">Reverse Connections…</gui></guiseq>."
@@ -281,20 +265,18 @@ msgstr ""
 "Abra <guiseq><gui style=\"menu\">Remoto</gui> <gui style=\"menuitem"
 "\">Conexiones inversas…</gui></guiseq>."
 
-#: C/connect-reverse.page:41(item/p)
-#| msgid "Select <gui>Enable Reverse Connections</gui>."
+#. (itstool) path: item/p
+#: C/connect-reverse.page:42
 msgid "Check <gui>Enable Reverse Connections</gui>."
 msgstr "Seleccione <gui>Activar conexiones inversas</gui>"
 
-#: C/connect-reverse.page:48(section/title)
+#. (itstool) path: section/title
+#: C/connect-reverse.page:49
 msgid "Access a computer behind a firewall"
 msgstr "Acceder a un equipo detrás de un cortafuegos"
 
-#: C/connect-reverse.page:50(section/p)
-#| msgid ""
-#| "The remote computer needs to connect to your machine using your IP "
-#| "address and port number, which are in the <gui>Reverse Connections...</"
-#| "gui> dialog, under <gui>Connectivity</gui>."
+#. (itstool) path: section/p
+#: C/connect-reverse.page:51
 msgid ""
 "The remote machine needs to connect to your machine using your <em>IP "
 "address</em> and port number, which can be found in the <gui>Reverse "
@@ -304,12 +286,8 @@ msgstr ""
 "número de puerto, que están en el diálogo <gui>Conexiones inversas...</gui>, "
 "bajo <gui>Conectividad</gui>."
 
-#: C/connect-reverse.page:55(note/p)
-#| msgid ""
-#| "Currently, <app>Vino</app>, the GNOME VNC server, does not support "
-#| "reverse connections (also known as \"listen mode\"). Some other "
-#| "applications, such as <app>UltraVNC</app>, <app>RealVNC</app> and "
-#| "<app>TightVNC</app>, do have support for reverse connections."
+#. (itstool) path: note/p
+#: C/connect-reverse.page:56
 msgid ""
 "Currently, <app>Vino</app>, the GNOME VNC server, does not support reverse "
 "connections which are also known as \"listen mode\". Some other "
@@ -321,15 +299,20 @@ msgstr ""
 "tales como <app>UltraVNC</app>, <app>RealVNC</app> y <app>TightVNC</app> "
 "tienen soporte para conexiones inversas."
 
-#: C/connect-reverse.page:61(section/p)
+#. (itstool) path: section/p
+#: C/connect-reverse.page:62
+#| msgid ""
+#| "Once the remote computer connects to your machine, <app>Vinagre</app> "
+#| "will establish the reverse connection."
 msgid ""
-"Once the remote computer connects to your machine, <app>Vinagre</app> will "
-"establish the reverse connection."
+"Once the remote computer connects to your machine, <app>Remote Desktop "
+"Viewer</app> will establish the reverse connection."
 msgstr ""
-"Una vez que el equipo remoto se conecta con su equipo, <app>Vinagre</app> "
-"establecerá la conexión inversa."
+"Una vez que el equipo remoto se conecta con su equipo, el <app>Visor de "
+"escritorios remotos</app> establecerá la conexión inversa."
 
-#: C/connect-reverse.page:64(section/p)
+#. (itstool) path: section/p
+#: C/connect-reverse.page:65
 msgid ""
 "When connecting to a machine which is not on your local network, you will "
 "need to provide your externally visible IP address and port number to the "
@@ -338,15 +321,18 @@ msgstr ""
 "Al conectarse a otra máquina que no está en su red local, deberá "
 "proporcionar su IP externa y el número de puerto hacia el servidor remoto."
 
-#: C/fullscreen.page:19(info/desc)
+#. (itstool) path: info/desc
+#: C/fullscreen.page:19
 msgid "View the remote desktop in fullscreen mode."
 msgstr "Ver el escritorio remoto a pantalla completa."
 
-#: C/fullscreen.page:22(page/title)
+#. (itstool) path: page/title
+#: C/fullscreen.page:22
 msgid "Fullscreen mode"
 msgstr "Modo a pantalla completa"
 
-#: C/fullscreen.page:24(page/p)
+#. (itstool) path: page/p
+#: C/fullscreen.page:24
 msgid ""
 "Fullscreen mode can be useful if viewing a desktop which is the same size or "
 "larger than yours."
@@ -354,11 +340,8 @@ msgstr ""
 "El modo a pantalla completa puede ser útil si está viendo un escritorio que "
 "tiene un tamaño igual o mayor que el suyo."
 
-#: C/fullscreen.page:29(item/p)
-#| msgid ""
-#| "Choose <guiseq><gui>View</gui><gui>Fullscreen</gui></guiseq>, or press "
-#| "the corresponding toolbar button, to view the display area in fullscreen "
-#| "mode."
+#. (itstool) path: item/p
+#: C/fullscreen.page:29
 msgid ""
 "Choose <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
 "\">Fullscreen</gui></guiseq>, or press the corresponding toolbar button, to "
@@ -369,11 +352,8 @@ msgstr ""
 "completa</gui></guiseq> o pulse el botón correspondiente en la barra de "
 "herramientas."
 
-#: C/fullscreen.page:37(note/p)
-#| msgid ""
-#| "While in fullscreen mode, move the mouse to the top-center of the screen "
-#| "to display a hidden toolbar, which has a <gui>Leave Fullscreen</gui> "
-#| "button, <gui>Disconnect</gui> and other options."
+#. (itstool) path: note/p
+#: C/fullscreen.page:37
 msgid ""
 "While in fullscreen mode, move the mouse to the top-center of the screen to "
 "display a hidden toolbar, which has <gui style=\"button\">Leave Fullscreen</"
@@ -384,11 +364,38 @@ msgstr ""
 "oculta que tiene los botones <gui style=\"button\">Abandonar pantalla "
 "completa</gui>, <gui style=\"button\">Desconectar</gui> y otras opciones."
 
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "text"
+msgid "Remote Desktop Viewer help"
+msgstr "Ayuda del visor de escritorios remotos"
+
+#. (itstool) path: info/desc
+#: C/index.page:12
+msgid "Learn how to connect remotely to other desktops."
+msgstr "Aprenda cómo conectarse en remoto a otros escritorios."
+
+#. (itstool) path: page/title
+#: C/index.page:15
+msgid "<_:media-1/> Remote Desktop Viewer"
+msgstr "<_:media-1/> Visor de escritorios remotos"
+
+#. (itstool) path: section/title
+#: C/index.page:21
+msgid "Connecting to other computers using VNC"
+msgstr "Conectarse a otros equipos usando VNC"
+
+#. (itstool) path: section/title
+#: C/index.page:25
+msgid "Features and options"
+msgstr "Características y opciones"
+
+#. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/introduction.page:38(media)
+#: C/introduction.page:38
 msgctxt "_"
 msgid ""
 "external ref='figures/vinagre-connected.png' "
@@ -397,71 +404,98 @@ msgstr ""
 "external ref='figures/vinagre-connected.png' "
 "md5='abef2af863dbd4659703bcc09bb89d1a'"
 
-#: C/introduction.page:19(info/desc)
-msgid "Introduction to the <app>Vinagre</app> remote desktop viewer."
-msgstr "Introducción al visor de escritorios remotos <app>Vinagre</app>."
+#. (itstool) path: info/desc
+#: C/introduction.page:19
+#| msgid "Introduction to the <app>Vinagre</app> remote desktop viewer."
+msgid "Introduction to <app>Remote Desktop Viewer</app>."
+msgstr "Introducción al <app>Visor de escritorios remotos</app>."
 
-#: C/introduction.page:22(page/title)
+#. (itstool) path: page/title
+#: C/introduction.page:22
 msgid "Introduction"
 msgstr "Introducción"
 
-#: C/introduction.page:24(page/p)
+#. (itstool) path: page/p
+#: C/introduction.page:24
 #| msgid ""
-#| "<app>Vinagre</app> is a remote desktop viewer application for the GNOME "
-#| "desktop which uses Virtual Network Computing (VNC), and other protocols, "
-#| "to remotely control another computer."
+#| "<app>Vinagre</app> is a remote desktop viewer application for GNOME for "
+#| "accessing other machines using Virtual Network Computing (VNC) and other "
+#| "protocols. It can be used to control and interact with another computer "
+#| "or to just view the desktop."
 msgid ""
-"<app>Vinagre</app> is a remote desktop viewer application for GNOME for "
-"accessing other machines using Virtual Network Computing (VNC) and other "
-"protocols. It can be used to control and interact with another computer or "
-"to just view the desktop."
+"<app>Remote Desktop Viewer</app> is a remote desktop viewer application for "
+"GNOME for accessing other machines using Virtual Network Computing (VNC) and "
+"other protocols. It can be used to control and interact with another "
+"computer or to just view the desktop."
 msgstr ""
-"<app>Vinagre</app> es una aplicación para ver escritorios remotos para el "
-"Escritorio GNOME que usa «Virtual Network Computing» (VNC) y otros protocolos "
-"para conectarse de forma remota con otros equipos. Se puede usar para "
-"controlar e interactuar con otros equipos o simplemente para ver el "
-"escritorio."
+"El <app>Visor de escritorios remotos</app> es una aplicación para ver "
+"escritorios remotos para el Escritorio GNOME que usa «Virtual Network "
+"Computing» (VNC) y otros protocolos para conectarse de forma remota con "
+"otros equipos. Se puede usar para controlar e interactuar con otros equipos "
+"o simplemente para ver el escritorio."
 
-#: C/introduction.page:29(page/p)
-msgid "<app>Vinagre</app> provides the following features:"
-msgstr "<app>Vinagre</app> proporciona las siguientes características:"
+#. (itstool) path: page/p
+#: C/introduction.page:29
+#| msgid "<app>Vinagre</app> provides the following features:"
+msgid "<app>Remote Desktop Viewer</app> provides the following features:"
+msgstr ""
+"El <app>Visor de escritorios remotos</app> proporciona las siguientes "
+"características:"
 
-#: C/introduction.page:31(item/p)
+#. (itstool) path: item/p
+#: C/introduction.page:31
 msgid "connect to several machines at the same time"
 msgstr "conectarse con diversos equipos a la vez"
 
-#: C/introduction.page:32(item/p)
-#| msgid "store recent connections and allows them to be bookmarked"
+#. (itstool) path: item/p
+#: C/introduction.page:32
 msgid "store recent connections and bookmark them"
 msgstr "almacenar conexiones recientes y poder añadirlas a los marcadores"
 
-#: C/introduction.page:33(item/p)
-#| msgid "browse local network for machines"
+#. (itstool) path: item/p
+#: C/introduction.page:33
 msgid "browse the local network for other machines"
 msgstr "examinar la red local en busca de máquinas"
 
-#: C/introduction.page:37(figure/title)
-#| msgid "<em>Vinagre in action</em>"
-msgid "Vinagre in action"
-msgstr "Vinagre en acción"
+#. (itstool) path: figure/title
+#: C/introduction.page:37
+#| msgid "Screenshot of Vinagre in action"
+msgid "Remote Desktop Viewer in action"
+msgstr "El visor de escritorios remotos en acción"
 
-#: C/introduction.page:39(media/p)
-msgid "Vinagre running in GNOME 3, connected to a machine running GNOME 2"
+#. (itstool) path: media/p
+#: C/introduction.page:39
+#| msgid "Vinagre running in GNOME 3, connected to a machine running GNOME 2"
+msgid ""
+"Remote Desktop Viewer running in GNOME 3, connected to a machine running "
+"GNOME 2"
 msgstr ""
-"Vinagre ejecutándose en GNOME 3, conectado a una máquina ejecutando GNOME 2."
+"El visor de escritorios remotos ejecutándose en GNOME 3, conectado a una "
+"máquina ejecutando GNOME 2."
 
-#: C/keyboard-shortcuts.page:19(info/desc)
+#. (itstool) path: p/link
+#: C/legal.xml:5
+#| msgid "Creative Commons Share Alike 3.0"
+msgid "Creative Commons Attribution-ShareAlike 3.0 Unported License"
+msgstr "Creative Commons de Atribución-Compartir Igual 3.0 sin soporte"
+
+#. (itstool) path: license/p
+#: C/legal.xml:4
+msgid "This work is licensed under a <_:link-1/>."
+msgstr "Este trabajo está licenciado bajo la <_:link-1/>."
+
+#. (itstool) path: info/desc
+#: C/keyboard-shortcuts.page:19
 msgid "Disable the sending of keyboard shortcuts to the remote machine."
 msgstr "Desactivar el envío de atajos de teclado a la máquina remota."
 
-#: C/keyboard-shortcuts.page:22(page/title)
+#. (itstool) path: page/title
+#: C/keyboard-shortcuts.page:23
 msgid "Keyboard shortcuts"
 msgstr "Atajos de teclado"
 
-#: C/keyboard-shortcuts.page:24(page/p)
-#| msgid ""
-#| "You can enable or disable keyboard shortcuts by clicking "
-#| "<guiseq><gui>View</gui><gui>Keyboard shortcuts</gui></guiseq>."
+#. (itstool) path: page/p
+#: C/keyboard-shortcuts.page:25
 msgid ""
 "You can enable or disable keyboard shortcuts by selecting <guiseq><gui style="
 "\"menu\">View</gui> <gui style=\"menuitem\">Keyboard shortcuts</gui></"
@@ -470,39 +504,36 @@ msgstr ""
 "Puede activar o desactivar los atajos de teclado pulsando <guiseq><gui style="
 "\"menu\">Ver</gui> <gui style=\"menuitem\">Atajos de teclado</gui></guiseq>."
 
-#: C/keyboard-shortcuts.page:28(page/p)
+#. (itstool) path: page/p
+#: C/keyboard-shortcuts.page:29
 #| msgid ""
 #| "Enabling this option allows the use of keyboard shortcuts (like "
-#| "<keyseq><key>Ctrl</key><key>D</key></keyseq>), menu accelerators and "
-#| "mnemonics (such as <keyseq><key>Alt</key><key>M</key></keyseq>), with "
+#| "<keyseq><key>Ctrl</key><key>N</key></keyseq>), menu accelerators (such as "
+#| "<keyseq><key>Alt</key><key>M</key></keyseq>) and mnemonics, with "
 #| "<app>Vinagre</app>. This means that <app>Vinagre</app> will catch those "
 #| "key combinations instead of sending them to the remote machine. This "
 #| "option is disabled by default because most of the time, you will be "
-#| "interacting with the computer which you have connected to."
+#| "interacting with the computer to which you are connected."
 msgid ""
 "Enabling this option allows the use of keyboard shortcuts (like "
 "<keyseq><key>Ctrl</key><key>N</key></keyseq>), menu accelerators (such as "
-"<keyseq><key>Alt</key><key>M</key></keyseq>) and mnemonics, with "
-"<app>Vinagre</app>. This means that <app>Vinagre</app> will catch those key "
-"combinations instead of sending them to the remote machine. This option is "
-"disabled by default because most of the time, you will be interacting with "
-"the computer to which you are connected."
+"<keyseq><key>Alt</key><key>M</key></keyseq>) and mnemonics, with <app>Remote "
+"Desktop Viewer</app>. This means that <app>Remote Desktop Viewer</app> will "
+"catch those key combinations instead of sending them to the remote machine. "
+"This option is disabled by default because most of the time, you will be "
+"interacting with the computer to which you are connected."
 msgstr ""
 "Activar esta opción le permite usar atajos de teclado, como "
 "<keyseq><key>Ctrl</key><key>N</key></keyseq>, aceleradores de menú y "
-"mnemónicos, como <keyseq><key>Alt</key><key>M</key></keyseq>, con "
-"<app>Vinagre</app>. Esto significa que <app>Vinagre</app> interceptará todas "
-"esas combinaciones en lugar de enviarlas a la máquina remota. Esta opción "
-"está desactivada de forma predeterminada, ya que la mayoría del tiempo "
-"estará interactuando con el equipo al que se ha conectado."
+"mnemónicos, como <keyseq><key>Alt</key><key>M</key></keyseq>, con el "
+"<app>Visor de escritorios remotos</app>. Esto significa que <app>Vinagre</"
+"app> interceptará todas esas combinaciones en lugar de enviarlas a la "
+"máquina remota. Esta opción está desactivada de forma predeterminada, ya que "
+"la mayoría del tiempo estará interactuando con el equipo al que se ha "
+"conectado."
 
-#: C/keyboard-shortcuts.page:37(note/p)
-#| msgid ""
-#| "When the <gui>Keyboard shortcuts</gui> option is disabled, "
-#| "<keyseq><key>Ctrl</key><key>Alt</key> <key>Delete</key></keyseq> is the "
-#| "only key combination which will not be sent to the remote desktop. Choose "
-#| "<guiseq><gui>Remote</gui><gui>Send Ctrl-Alt-Delete</gui></guiseq>, or use "
-#| "the corresponding toolbar button, to send this key combination."
+#. (itstool) path: note/p
+#: C/keyboard-shortcuts.page:38
 msgid ""
 "When the <gui>Keyboard shortcuts</gui> option is disabled, "
 "<keyseq><key>Ctrl</key><key>Alt</key><key>Delete</key></keyseq> is the only "
@@ -518,15 +549,18 @@ msgstr ""
 "gui><gui style=\"menuitem\">Enviar Ctrl-Alt-Supr</gui></guiseq>, o use el "
 "botón correspondiente en la barra de herramientas."
 
-#: C/scaling.page:19(info/desc)
+#. (itstool) path: info/desc
+#: C/scaling.page:19
 msgid "Scale the remote desktop to fit the display area."
 msgstr "Escalar el escritorio remoto para que se ajuste al área mostrado."
 
-#: C/scaling.page:22(page/title)
+#. (itstool) path: page/title
+#: C/scaling.page:22
 msgid "Scale the remote desktop"
 msgstr "Escalar el escritorio remoto"
 
-#: C/scaling.page:24(page/p)
+#. (itstool) path: page/p
+#: C/scaling.page:24
 msgid ""
 "Some protocols have an option to scale the remote desktop to fit your "
 "display area."
@@ -534,10 +568,8 @@ msgstr ""
 "Algunos protocolos tienen una opción para escalar los escritorios remotos y "
 "que se ajusten al área de su pantalla."
 
-#: C/scaling.page:29(item/p)
-#| msgid ""
-#| "Choose <guiseq><gui>View</gui><gui>Scaling</gui></guiseq>, or click the "
-#| "<gui>Scaling</gui> toolbar button."
+#. (itstool) path: item/p
+#: C/scaling.page:29
 msgid ""
 "Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
 "\">Scaling</gui></guiseq>, or click the <gui>Scaling</gui> toolbar button."
@@ -546,12 +578,8 @@ msgstr ""
 "\">Escalado</gui></guiseq> o pulse el botón <gui>Escalado</gui> en la barra "
 "de herramientas."
 
-#: C/scaling.page:34(item/p)
-#| msgid ""
-#| "Select <guiseq><gui>View</gui><gui>Keep Aspect Ratio</gui></guiseq> if "
-#| "you want to constrain the aspect ratio of the remote desktop inside the "
-#| "display area, or deselect the option to stretch the remote desktop to "
-#| "fill the available space."
+#. (itstool) path: item/p
+#: C/scaling.page:34
 msgid ""
 "Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem\">Keep "
 "Aspect Ratio</gui></guiseq> if you want to constrain the aspect ratio of the "
@@ -563,35 +591,38 @@ msgstr ""
 "aspecto del escritorio remoto dentro del área de su pantalla, o deseleccione "
 "la opción para ajustar el escritorio remoto y llenar el área disponible."
 
-#: C/scaling.page:40(note/p)
+#. (itstool) path: note/p
+#: C/scaling.page:40
 msgid ""
 "This option can be toggled only if <gui>Scaling</gui> has already been "
 "enabled."
 msgstr "Esta opción se puede cambiar si <gui>Escalado</gui> ya se ha activado."
 
-#: C/take-screenshot.page:19(info/desc)
+#. (itstool) path: info/desc
+#: C/take-screenshot.page:19
 msgid "Take a screenshot of a remote desktop."
 msgstr "Tomar una captura de pantalla de un escritorio remoto."
 
-#: C/take-screenshot.page:22(page/title)
+#. (itstool) path: page/title
+#: C/take-screenshot.page:22
 msgid "Take a screenshot"
 msgstr "Tomar una captura de pantalla"
 
-#: C/take-screenshot.page:24(page/p)
+#. (itstool) path: page/p
+#: C/take-screenshot.page:24
 #| msgid ""
-#| "You can take screenshots of only the desktop you have connected to by "
+#| "You can take screenshots of only the desktop that you are connected to by "
 #| "using the tool provided by <app>Vinagre</app>."
 msgid ""
 "You can take screenshots of only the desktop that you are connected to by "
-"using the tool provided by <app>Vinagre</app>."
+"using the tool provided by <app>Remote Desktop Viewer</app>."
 msgstr ""
 "Solo puede capturar la pantalla de los escritorios a los que está conectado "
-"usando la herramienta proporcionada por <app>Vinagre</app>."
+"usando la herramienta proporcionada por el <app>Visor de escritorios "
+"remotos</app>."
 
-#: C/take-screenshot.page:29(item/p)
-#| msgid ""
-#| "Choose <guiseq><gui>Remote</gui><gui>Take screenshot</gui></guiseq>, or "
-#| "click the <gui>Take Screenshot</gui> button in the toolbar."
+#. (itstool) path: item/p
+#: C/take-screenshot.page:29
 msgid ""
 "Select <guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem\">Take "
 "screenshot</gui></guiseq>, or click the <gui>Take Screenshot</gui> button in "
@@ -601,10 +632,8 @@ msgstr ""
 "\">Capturar pantalla</gui></guiseq> o pulse el botón <gui>Capturar pantalla</"
 "gui> en la barra de herramientas."
 
-#: C/take-screenshot.page:34(item/p)
-#| msgid ""
-#| "In the <gui>Name</gui> field, enter the name you want the screenshot to "
-#| "be saved under."
+#. (itstool) path: item/p
+#: C/take-screenshot.page:34
 msgid ""
 "In the <gui>Name</gui> field, enter the filename that you want the "
 "screenshot to be saved under."
@@ -612,11 +641,8 @@ msgstr ""
 "En el campo <gui>Nombre</gui> introduzca el nombre con el que quiere que se "
 "guarde la captura de pantalla."
 
-#: C/take-screenshot.page:38(item/p)
-#| msgid ""
-#| "From the <gui>Save in folder</gui> drop down list, select the folder you "
-#| "want the screenshot to be saved in. You can also click <gui>Browse for "
-#| "other folder</gui> to select one which is not in the drop down list."
+#. (itstool) path: item/p
+#: C/take-screenshot.page:38
 msgid ""
 "From the <gui>Save in folder</gui> drop down list, select the folder that "
 "you want the screenshot to be saved in. You can also click <gui>Browse for "
@@ -627,26 +653,25 @@ msgstr ""
 "<gui>Examinar otra carpeta</gui> para seleccionar una que no esté en la "
 "lista desplegable."
 
-#: C/take-screenshot.page:44(item/p)
-#| msgid "Click <gui>Save</gui> to save the screenshot."
+#. (itstool) path: item/p
+#: C/take-screenshot.page:44
 msgid "Click <gui style=\"button\">Save</gui> to save the screenshot."
 msgstr ""
 "Pulse <gui style=\"button\">Guardar</gui> para guardar la captura de "
 "pantalla."
 
-#: C/view-only.page:19(info/desc)
+#. (itstool) path: info/desc
+#: C/view-only.page:19
 msgid "Disable interaction with the remote desktop."
 msgstr "Desactivar la interacción con el escritorio remoto."
 
-#: C/view-only.page:22(page/title)
-#| msgid "View only mode"
+#. (itstool) path: page/title
+#: C/view-only.page:22
 msgid "View-only mode"
 msgstr "Modo de sólo visión"
 
-#: C/view-only.page:24(page/p)
-#| msgid ""
-#| "Some protocols allow you to enable a <gui>View Only</gui> mode. This mode "
-#| "allows you to block all interaction with the remote."
+#. (itstool) path: page/p
+#: C/view-only.page:24
 msgid ""
 "Some protocols allow you to enable a <gui>View Only</gui> mode. This mode "
 "allows you to disable all interaction with the remote."
@@ -654,10 +679,8 @@ msgstr ""
 "Algunos protocolos le permiten activar un modo <gui>Sólo visión</gui>. Este "
 "modo le permite bloquear toda interacción en el escritorio remoto."
 
-#: C/view-only.page:26(page/p)
-#| msgid ""
-#| "Choose <guiseq><gui>View</gui><gui>View Only</gui></guiseq> or click the "
-#| "corresponding toolbar button to enable this mode."
+#. (itstool) path: page/p
+#: C/view-only.page:26
 msgid ""
 "Choose <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem\">View "
 "Only</gui></guiseq> or click the corresponding toolbar button to enable this "
@@ -666,6 +689,16 @@ msgstr ""
 "Para activar este modo, elija <guiseq><gui style=\"menu\">Ver</gui> <gui "
 "style=\"menuitem\">Sólo visión</gui></guiseq> o pulse en el correspondiente "
 "botón en la barra de herramientas."
+
+#~ msgid "Vinagre Help"
+#~ msgstr "Ayuda de Vinagre"
+
+#~ msgid "Using Vinagre's options and features"
+#~ msgstr "Usar las opciones y características de Vinagre"
+
+#~| msgid "<em>Vinagre in action</em>"
+#~ msgid "Vinagre in action"
+#~ msgstr "Vinagre en acción"
 
 #~ msgctxt "_"
 #~ msgid ""
@@ -706,10 +739,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Puede usar <app>Vinagre</app> para controlar otro equipo e interactuar "
 #~ "con su escritorio."
-
-#~| msgid "Vinagre in action"
-#~ msgid "Screenshot of Vinagre in action"
-#~ msgstr "Captura de pantalla de Vinagre en acción"
 
 #~ msgctxt "_"
 #~ msgid ""
