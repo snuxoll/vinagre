@@ -1,76 +1,60 @@
 # Czech translation of vinagre help.
 # This file is distributed under the same license as the vinagre help.
-#
-# Marek Černocký <marek@manet.cz>, 2013.
+# Marek Černocký <marek@manet.cz>, 2013, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre\n"
-"POT-Creation-Date: 2013-07-11 19:57+0000\n"
-"PO-Revision-Date: 2013-07-18 06:19+0200\n"
+"POT-Creation-Date: 2014-03-11 11:52+0000\n"
+"PO-Revision-Date: 2014-03-11 21:31+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Gtranslator 2.91.6\n"
 
-#: C/index.page:5(page/title)
-msgid "Vinagre Help"
-msgstr "Nápověda k aplikaci Vinagre"
-
-#: C/index.page:8(section/title)
-msgid "Connecting to other computers using VNC"
-msgstr "Připojení k jiným počítačům pomocí VNC"
-
-#: C/index.page:12(section/title)
-msgid "Using Vinagre's options and features"
-msgstr "Používání voleb a funkcí aplikace Vinagre"
-
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr "Marek Černocký <marek@manet.cz>, 2013"
 
-#: C/connect.page:7(info/title)
+#. (itstool) path: info/title
+#: C/connect.page:8
 msgctxt "sort"
 msgid "1"
 msgstr "1"
 
-#: C/connect.page:12(credit/name) C/connect-file.page:13(credit/name)
-#: C/connect-reverse.page:13(credit/name) C/fullscreen.page:11(credit/name)
-#: C/introduction.page:11(credit/name)
-#: C/keyboard-shortcuts.page:11(credit/name) C/scaling.page:11(credit/name)
-#: C/take-screenshot.page:11(credit/name) C/view-only.page:11(credit/name)
+#. (itstool) path: credit/name
+#: C/connect.page:14 C/connect-file.page:13 C/connect-reverse.page:15
+#: C/fullscreen.page:11 C/introduction.page:13 C/keyboard-shortcuts.page:13
+#: C/scaling.page:11 C/take-screenshot.page:13 C/view-only.page:11
 msgid "Ekaterina Gerasimova"
 msgstr "Ekaterina Gerasimova"
 
-#: C/connect.page:17(license/p) C/connect-file.page:18(license/p)
-#: C/connect-reverse.page:18(license/p) C/fullscreen.page:16(license/p)
-#: C/introduction.page:16(license/p) C/keyboard-shortcuts.page:16(license/p)
-#: C/scaling.page:16(license/p) C/take-screenshot.page:16(license/p)
-#: C/view-only.page:16(license/p)
-msgid "Creative Commons Share Alike 3.0"
-msgstr "Creative Commons Share Alike 3.0"
-
-#: C/connect.page:20(info/desc)
+#. (itstool) path: info/desc
+#: C/connect.page:20
 msgid "Connect to another computer on your local network."
 msgstr "Připojte se k jinému počítači ve své místní síti."
 
-#: C/connect.page:23(page/title)
+#. (itstool) path: page/title
+#: C/connect.page:23
 msgid "Establish a connection"
 msgstr "Jak ustavit spojení"
 
-#: C/connect.page:25(page/p)
+#. (itstool) path: page/p
+#: C/connect.page:25
 msgid ""
-"You can connect to other computers on your local network using <app>Vinagre</"
-"app>."
+"You can connect to other computers on your local network using <app>Remote "
+"Desktop Viewer</app>."
 msgstr ""
-"Pomocí <app>Vinagre</app> se můžete připojit k ostatním počítačům ve své "
-"místní síti."
+"Pomocí <app>Prohlížeče vzdálené plochy</app> se můžete připojit k ostatním "
+"počítačům ve své místní síti."
 
-#: C/connect.page:30(item/p)
+#. (itstool) path: item/p
+#: C/connect.page:30
 msgid ""
 "Select <guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem"
 "\">Connect</gui></guiseq>."
@@ -78,12 +62,14 @@ msgstr ""
 "Vyberte <guiseq><gui style=\"menu\">Vzdálené</gui> <gui style=\"menuitem"
 "\">Připojit</gui></guiseq>."
 
-#: C/connect.page:34(item/p)
+#. (itstool) path: item/p
+#: C/connect.page:34
 msgid ""
 "Choose the <gui>Protocol</gui> and the <gui>Host</gui> for the connection."
 msgstr "Vyberte <gui>Protokol</gui> a <gui>Počítač</gui> pro připojení."
 
-#: C/connect.page:37(note/p)
+#. (itstool) path: note/p
+#: C/connect.page:37
 msgid ""
 "Some protocols allow you to see all available computers on your local "
 "network by clicking the <gui style=\"button\">Find</gui> button. This "
@@ -94,7 +80,8 @@ msgstr ""
 "tlačítko se ale nezobrazí, pokud nemáte nainstalovánu podporu <app>Avahi</"
 "app>."
 
-#: C/connect.page:44(item/p)
+#. (itstool) path: item/p
+#: C/connect.page:44
 msgid ""
 "Select the options which you want enabled when the connection is made. "
 "Options will vary depending on the protocol that you use."
@@ -102,11 +89,13 @@ msgstr ""
 "Vyberte volby, které chcete použít při vytváření spojení. Volby se liší v "
 "závislosti na použitém protokolu."
 
-#: C/connect.page:48(item/p)
+#. (itstool) path: item/p
+#: C/connect.page:48
 msgid "Click the <gui style=\"button\">Connect</gui> button."
 msgstr "Klikněte na tlačítko <gui style=\"button\">Připojit</gui>."
 
-#: C/connect.page:49(item/p)
+#. (itstool) path: item/p
+#: C/connect.page:49
 msgid ""
 "At this point, the remote desktop may need to confirm the connection. If "
 "this is the case, the viewer may remain black until the connection is "
@@ -116,20 +105,23 @@ msgstr ""
 "případě může prohlížeč zobrazovat černou plochu tak dlouho, dokud není "
 "připojení schváleno."
 
-#: C/connect.page:53(note/p)
+#. (itstool) path: note/p
+#: C/connect.page:53
 msgid ""
 "Some computers may require a secure connection: an authentication dialog "
 "will be displayed, asking for the credentials. The type of credentials "
 "depend on the remote host; it may be a password and a username. If you "
-"select <gui>Remember this credential</gui>, <app>Vinagre</app> will store "
-"the information using <app>GNOME Keyring</app>."
+"select <gui>Remember this credential</gui>, <app>Remote Desktop Viewer</app> "
+"will store the information using <app>GNOME Keyring</app>."
 msgstr ""
 "Některé počítače mohou mít zabezpečení připojení: zobrazí se dialogové okno "
 "s dotazem na vaše pověření. Typ pověření závisí na vzdáleném počítači, může "
 "to být například jméno a heslo. Když vyberete <gui>Zapamatovat si pověření</"
-"gui>, uloží <app>Vinagre</app> informace do <app>Klíčenky GNOME</app>."
+"gui>, uloží <app>Prohlížeč vzdálené plochy</app> informace do <app>Klíčenky "
+"GNOME</app>."
 
-#: C/connect.page:63(page/p)
+#. (itstool) path: page/p
+#: C/connect.page:63
 msgid ""
 "If the connection has been used previously, you can also access it through "
 "<guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem\">Recent "
@@ -139,7 +131,8 @@ msgstr ""
 "<guiseq><gui style=\"menu\">Vzdálené</gui> <gui style=\"menuitem\">Nedávná "
 "připojení</gui></guiseq>."
 
-#: C/connect.page:67(page/p)
+#. (itstool) path: page/p
+#: C/connect.page:67
 msgid ""
 "To close a connection, choose <guiseq><gui style=\"menu\">Remote</gui> <gui "
 "style=\"menuitem\">Close</gui></guiseq> or click the <gui style=\"button"
@@ -149,22 +142,32 @@ msgstr ""
 "style=\"menuitem\">Odpojit</gui></guiseq> nebo klikněte na tlačítko <gui "
 "style=\"button\">Odpojit</gui>."
 
-#: C/connect-file.page:8(info/title)
+#. (itstool) path: info/title
+#: C/connect-file.page:8
 msgctxt "sort"
 msgid "2"
 msgstr "2"
 
-#: C/connect-file.page:21(info/desc)
+#. (itstool) path: license/p
+#: C/connect-file.page:18 C/fullscreen.page:16 C/scaling.page:16
+#: C/view-only.page:16
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Creative Commons Share Alike 3.0"
+
+#. (itstool) path: info/desc
+#: C/connect-file.page:21
 msgid "Use a remote connection file to connect to a remote machine."
 msgstr ""
 "Použijte k připojení ke vzdálenému počítači soubor s definicí vzdáleného "
 "připojení."
 
-#: C/connect-file.page:24(page/title)
+#. (itstool) path: page/title
+#: C/connect-file.page:24
 msgid "Connect using a <file>.vnc</file> file"
 msgstr "Jak se připojit pomocí souboru <file>.vnc</file>"
 
-#: C/connect-file.page:26(page/p)
+#. (itstool) path: page/p
+#: C/connect-file.page:26
 msgid ""
 "Some hosts distribute <em>remote connection files</em>, that generally end "
 "with the suffix <file>.vnc</file>, instead of using a host address and port."
@@ -172,7 +175,8 @@ msgstr ""
 "Někteří hostitelé dávají na místo adresy a portu k dispozici <em>soubory s "
 "definicí vzdáleného připojení</em>, obvykle s příponou <file>.vnc</file>."
 
-#: C/connect-file.page:32(item/p)
+#. (itstool) path: item/p
+#: C/connect-file.page:32
 msgid ""
 "Select <guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem"
 "\">Open</gui></guiseq>."
@@ -180,26 +184,31 @@ msgstr ""
 "Vyberte <guiseq><gui style=\"menu\">Vzdálené</gui> <gui style=\"menuitem"
 "\">Otevřít</gui></guiseq>."
 
-#: C/connect-file.page:36(item/p)
+#. (itstool) path: item/p
+#: C/connect-file.page:36
 msgid "Select the file you want to open."
 msgstr "Vyberte soubor, který chcete otevřít."
 
-#: C/connect-file.page:39(item/p)
+#. (itstool) path: item/p
+#: C/connect-file.page:39
 msgid "Click the <gui style=\"button\">Open</gui> button."
 msgstr "Klikněte na tlačítko <gui style=\"button\">Otevřít</gui>."
 
-#: C/connect-file.page:44(note/p)
+#. (itstool) path: note/p
+#: C/connect-file.page:44
 msgid "You can also open a remote connection file from <app>Files</app>."
 msgstr ""
 "Soubor s definicí vzdáleného připojení můžete otevřít také z apliace "
 "<app>Soubory</app>."
 
-#: C/connect-reverse.page:8(info/title)
+#. (itstool) path: info/title
+#: C/connect-reverse.page:9
 msgctxt "sort"
 msgid "3"
 msgstr "3"
 
-#: C/connect-reverse.page:21(info/desc)
+#. (itstool) path: info/desc
+#: C/connect-reverse.page:21
 msgid ""
 "Connect to computers not on your local network: bypassing firewall "
 "restrictions on remote host."
@@ -207,11 +216,13 @@ msgstr ""
 "Připojte se k počítačům mimo svou místní síť: obejděte omezení firewallu na "
 "vzdáleném počítači."
 
-#: C/connect-reverse.page:24(page/title)
+#. (itstool) path: page/title
+#: C/connect-reverse.page:25
 msgid "<gui>Reverse Connections…</gui>"
 msgstr "<gui>Zpětná připojení…</gui>"
 
-#: C/connect-reverse.page:26(page/p)
+#. (itstool) path: page/p
+#: C/connect-reverse.page:27
 msgid ""
 "A reverse connection is usually used to bypass firewall restrictions on open "
 "ports. A firewall usually blocks open ports, but does not block outgoing "
@@ -224,11 +235,13 @@ msgstr ""
 "provoz. Při běžném připojení se klient spojí se serverem přes otevřený port, "
 "kdežto při zpětné připojení otevře port klient a připojí se k němu server."
 
-#: C/connect-reverse.page:33(section/title)
+#. (itstool) path: section/title
+#: C/connect-reverse.page:34
 msgid "Enabling reverse connections"
 msgstr "Povolení zpětného připojení"
 
-#: C/connect-reverse.page:37(item/p)
+#. (itstool) path: item/p
+#: C/connect-reverse.page:38
 msgid ""
 "Select <guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem"
 "\">Reverse Connections…</gui></guiseq>."
@@ -236,15 +249,18 @@ msgstr ""
 "Vyberte <guiseq><gui style=\"menu\">Vzdálené</gui> <gui style=\"menuitem"
 "\">Zpětná připojení…</gui></guiseq>."
 
-#: C/connect-reverse.page:41(item/p)
+#. (itstool) path: item/p
+#: C/connect-reverse.page:42
 msgid "Check <gui>Enable Reverse Connections</gui>."
 msgstr "Zaškrtněte <gui>Povolit zpětná připojení</gui>."
 
-#: C/connect-reverse.page:48(section/title)
+#. (itstool) path: section/title
+#: C/connect-reverse.page:49
 msgid "Access a computer behind a firewall"
 msgstr "Přístup k počítači za firewallem"
 
-#: C/connect-reverse.page:50(section/p)
+#. (itstool) path: section/p
+#: C/connect-reverse.page:51
 msgid ""
 "The remote machine needs to connect to your machine using your <em>IP "
 "address</em> and port number, which can be found in the <gui>Reverse "
@@ -254,7 +270,8 @@ msgstr ""
 "počítače a číslo portu. Obojí naleznete v dialogovém okně <gui>Zpětná "
 "připojení…</gui> pod položkou <gui>Připojení</gui>."
 
-#: C/connect-reverse.page:55(note/p)
+#. (itstool) path: note/p
+#: C/connect-reverse.page:56
 msgid ""
 "Currently, <app>Vino</app>, the GNOME VNC server, does not support reverse "
 "connections which are also known as \"listen mode\". Some other "
@@ -266,15 +283,17 @@ msgstr ""
 "<app>UltraVNC</app>, <app>RealVNC</app> a <app>TightVNC</app>, podporu pro "
 "zpětná připojení mají."
 
-#: C/connect-reverse.page:61(section/p)
+#. (itstool) path: section/p
+#: C/connect-reverse.page:62
 msgid ""
-"Once the remote computer connects to your machine, <app>Vinagre</app> will "
-"establish the reverse connection."
+"Once the remote computer connects to your machine, <app>Remote Desktop "
+"Viewer</app> will establish the reverse connection."
 msgstr ""
-"Jakmile se vzdálený počítač připojí k vašemu počítači, <app>Vinagre</app> "
-"ustaví zpětné připojení."
+"Jakmile se vzdálený počítač připojí k vašemu počítači, <app>Prohlížeč "
+"vzdálené plochy</app> ustaví zpětné připojení."
 
-#: C/connect-reverse.page:64(section/p)
+#. (itstool) path: section/p
+#: C/connect-reverse.page:65
 msgid ""
 "When connecting to a machine which is not on your local network, you will "
 "need to provide your externally visible IP address and port number to the "
@@ -284,15 +303,18 @@ msgstr ""
 "vzdálenému serveru poskytnou svoji veřejně viditelnou IP adresu a číslo "
 "portu."
 
-#: C/fullscreen.page:19(info/desc)
+#. (itstool) path: info/desc
+#: C/fullscreen.page:19
 msgid "View the remote desktop in fullscreen mode."
 msgstr "Zobrazte si vzdálenou plochu v režimu celé obrazovky."
 
-#: C/fullscreen.page:22(page/title)
+#. (itstool) path: page/title
+#: C/fullscreen.page:22
 msgid "Fullscreen mode"
 msgstr "Režim celé obrazovky"
 
-#: C/fullscreen.page:24(page/p)
+#. (itstool) path: page/p
+#: C/fullscreen.page:24
 msgid ""
 "Fullscreen mode can be useful if viewing a desktop which is the same size or "
 "larger than yours."
@@ -300,7 +322,8 @@ msgstr ""
 "Režim obrazovky se vám může hodit, když se má zobrazit plocha, která má "
 "stejnou velikost nebo je větší, než ta vaše."
 
-#: C/fullscreen.page:29(item/p)
+#. (itstool) path: item/p
+#: C/fullscreen.page:29
 msgid ""
 "Choose <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
 "\">Fullscreen</gui></guiseq>, or press the corresponding toolbar button, to "
@@ -310,7 +333,8 @@ msgstr ""
 "\">Zobrazit</gui> <gui style=\"menuitem\">Celá obrazovka</gui></guiseq> nebo "
 "zmáčkněte příslušné tlačítko na nástrojové liště."
 
-#: C/fullscreen.page:37(note/p)
+#. (itstool) path: note/p
+#: C/fullscreen.page:37
 msgid ""
 "While in fullscreen mode, move the mouse to the top-center of the screen to "
 "display a hidden toolbar, which has <gui style=\"button\">Leave Fullscreen</"
@@ -321,11 +345,38 @@ msgstr ""
 "<gui style=\"button\">Opustit celou obrazovku</gui>, <gui style=\"button"
 "\">Odpojit</gui> a další."
 
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "text"
+msgid "Remote Desktop Viewer help"
+msgstr "Nápověda k Prohlížeči vzdálené plochy"
+
+#. (itstool) path: info/desc
+#: C/index.page:12
+msgid "Learn how to connect remotely to other desktops."
+msgstr "Naučte se, jak se vzdáleně připojit k jiným pracovním plochám."
+
+#. (itstool) path: page/title
+#: C/index.page:15
+msgid "<_:media-1/> Remote Desktop Viewer"
+msgstr "<_:media-1/> Prohlížeč vzdálené plochy"
+
+#. (itstool) path: section/title
+#: C/index.page:21
+msgid "Connecting to other computers using VNC"
+msgstr "Připojení k jiným počítačům pomocí VNC"
+
+#. (itstool) path: section/title
+#: C/index.page:25
+msgid "Features and options"
+msgstr "Funkce a volby"
+
+#. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/introduction.page:38(media)
+#: C/introduction.page:38
 msgctxt "_"
 msgid ""
 "external ref='figures/vinagre-connected.png' "
@@ -334,59 +385,86 @@ msgstr ""
 "external ref='figures/vinagre-connected.png' "
 "md5='abef2af863dbd4659703bcc09bb89d1a'"
 
-#: C/introduction.page:19(info/desc)
-msgid "Introduction to the <app>Vinagre</app> remote desktop viewer."
-msgstr "Úvod k prohlížeči vzdálené plochy <app>Vinagre</app>."
+#. (itstool) path: info/desc
+#: C/introduction.page:19
+msgid "Introduction to <app>Remote Desktop Viewer</app>."
+msgstr "Úvod do <app>Prohlížeče vzdálené plochy</app>."
 
-#: C/introduction.page:22(page/title)
+#. (itstool) path: page/title
+#: C/introduction.page:22
 msgid "Introduction"
 msgstr "Úvod"
 
-#: C/introduction.page:24(page/p)
+#. (itstool) path: page/p
+#: C/introduction.page:24
 msgid ""
-"<app>Vinagre</app> is a remote desktop viewer application for GNOME for "
-"accessing other machines using Virtual Network Computing (VNC) and other "
-"protocols. It can be used to control and interact with another computer or "
-"to just view the desktop."
+"<app>Remote Desktop Viewer</app> is a remote desktop viewer application for "
+"GNOME for accessing other machines using Virtual Network Computing (VNC) and "
+"other protocols. It can be used to control and interact with another "
+"computer or to just view the desktop."
 msgstr ""
-"<app>Vinagre</app> je aplikace GNOME sloužící k zobrazení vzdálené plochy. "
-"Pro přístup k ostatním počítačům používá VNC (Virtual Network Computing) a "
-"další obdobné protokoly. Můžete ji použít jak k ovládání a interakci s jiným "
-"počítačem, tak jen k prostému zobrazení jeho plochy."
+"<app>Prohlížeč vzdálené plochy</app> je aplikace GNOME sloužící k zobrazení "
+"vzdálené plochy. Pro přístup k ostatním počítačům používá VNC (Virtual "
+"Network Computing) a další obdobné protokoly. Můžete ji použít jak k "
+"ovládání a interakci s jiným počítačem, tak jen k prostému zobrazení jeho "
+"plochy."
 
-#: C/introduction.page:29(page/p)
-msgid "<app>Vinagre</app> provides the following features:"
-msgstr "<app>Vinagre</app> poskytuje následující funkce:"
+#. (itstool) path: page/p
+#: C/introduction.page:29
+msgid "<app>Remote Desktop Viewer</app> provides the following features:"
+msgstr "<app>Prohlížeč vzdálené plochy</app> poskytuje následující funkce:"
 
-#: C/introduction.page:31(item/p)
+#. (itstool) path: item/p
+#: C/introduction.page:31
 msgid "connect to several machines at the same time"
 msgstr "připojení k několika počítačům naráz"
 
-#: C/introduction.page:32(item/p)
+#. (itstool) path: item/p
+#: C/introduction.page:32
 msgid "store recent connections and bookmark them"
 msgstr "ukládání nedávných připojení a záložek k nim"
 
-#: C/introduction.page:33(item/p)
+#. (itstool) path: item/p
+#: C/introduction.page:33
 msgid "browse the local network for other machines"
 msgstr "procházení místní sítě pro vyhledání počítačů"
 
-#: C/introduction.page:37(figure/title)
-msgid "Vinagre in action"
-msgstr "Vinagre v provozu"
+#. (itstool) path: figure/title
+#: C/introduction.page:37
+msgid "Remote Desktop Viewer in action"
+msgstr "Prohlížeč vzdálené plochy v činnosti"
 
-#: C/introduction.page:39(media/p)
-msgid "Vinagre running in GNOME 3, connected to a machine running GNOME 2"
-msgstr "Vinagre běžící v GNOME 3 a připojený k počítači provozujícímu GNOME 2"
+#. (itstool) path: media/p
+#: C/introduction.page:39
+msgid ""
+"Remote Desktop Viewer running in GNOME 3, connected to a machine running "
+"GNOME 2"
+msgstr ""
+"Prohlížeč vzdálené plochy běžící v GNOME 3 a připojený k počítači "
+"provozujícímu GNOME 2"
 
-#: C/keyboard-shortcuts.page:19(info/desc)
+#. (itstool) path: p/link
+#: C/legal.xml:5
+msgid "Creative Commons Attribution-ShareAlike 3.0 Unported License"
+msgstr "Creative Commons Attribution-ShareAlike 3.0 Unported License"
+
+#. (itstool) path: license/p
+#: C/legal.xml:4
+msgid "This work is licensed under a <_:link-1/>."
+msgstr "Tato práce je licencována pod <_:link-1/>."
+
+#. (itstool) path: info/desc
+#: C/keyboard-shortcuts.page:19
 msgid "Disable the sending of keyboard shortcuts to the remote machine."
 msgstr "Zakažte odesílání klávesových zkratek na vzdálený počítač."
 
-#: C/keyboard-shortcuts.page:22(page/title)
+#. (itstool) path: page/title
+#: C/keyboard-shortcuts.page:23
 msgid "Keyboard shortcuts"
 msgstr "Kávesové zkratky"
 
-#: C/keyboard-shortcuts.page:24(page/p)
+#. (itstool) path: page/p
+#: C/keyboard-shortcuts.page:25
 msgid ""
 "You can enable or disable keyboard shortcuts by selecting <guiseq><gui style="
 "\"menu\">View</gui> <gui style=\"menuitem\">Keyboard shortcuts</gui></"
@@ -395,25 +473,28 @@ msgstr ""
 "Povolit či zakázat klávesové zkratky můžete výběrem <guiseq><gui style=\"menu"
 "\">Zobrazit</gui> <gui style=\"menuitem\">Klávesové zkratky</gui></guiseq>."
 
-#: C/keyboard-shortcuts.page:28(page/p)
+#. (itstool) path: page/p
+#: C/keyboard-shortcuts.page:29
 msgid ""
 "Enabling this option allows the use of keyboard shortcuts (like "
 "<keyseq><key>Ctrl</key><key>N</key></keyseq>), menu accelerators (such as "
-"<keyseq><key>Alt</key><key>M</key></keyseq>) and mnemonics, with "
-"<app>Vinagre</app>. This means that <app>Vinagre</app> will catch those key "
-"combinations instead of sending them to the remote machine. This option is "
-"disabled by default because most of the time, you will be interacting with "
-"the computer to which you are connected."
+"<keyseq><key>Alt</key><key>M</key></keyseq>) and mnemonics, with <app>Remote "
+"Desktop Viewer</app>. This means that <app>Remote Desktop Viewer</app> will "
+"catch those key combinations instead of sending them to the remote machine. "
+"This option is disabled by default because most of the time, you will be "
+"interacting with the computer to which you are connected."
 msgstr ""
-"Povolením této volby budete moci ve <app>Vinagre</app> používat klávesové "
-"zkratky (jako <keyseq><key>Ctrl</key><key>N</key></keyseq>), mnemotechnické "
-"zkratky a horké klávesy nabídek (jako <keyseq><key>Alt</key><key>M</key></"
-"keyseq>). Prakticky to znamená, že aplikace <app>Vinagre</app> si bude tyto "
-"kombinace kláves ochytávat, místo aby je posílala vzdálenému počítači. Ve "
-"výchozím stavu je tato volby zakázaná, protože většinu času stejně budete "
-"trávit interakcí s počítačem, ke kterému se připojíte."
+"Povolením této volby budete moci v <app>Prohlížeči vzdálené plochy</app> "
+"používat klávesové zkratky (jako <keyseq><key>Ctrl</key><key>N</key></"
+"keyseq>), mnemotechnické zkratky a horké klávesy nabídek (jako "
+"<keyseq><key>Alt</key><key>M</key></keyseq>). Prakticky to znamená, že "
+"aplikace <app>Prohlížeč vzdálené plochy</app> si bude tyto kombinace kláves "
+"odchytávat, místo aby je posílala vzdálenému počítači. Ve výchozím stavu je "
+"tato volby zakázaná, protože většinu času stejně budete trávit interakcí s "
+"počítačem, ke kterému se připojíte."
 
-#: C/keyboard-shortcuts.page:37(note/p)
+#. (itstool) path: note/p
+#: C/keyboard-shortcuts.page:38
 msgid ""
 "When the <gui>Keyboard shortcuts</gui> option is disabled, "
 "<keyseq><key>Ctrl</key><key>Alt</key><key>Delete</key></keyseq> is the only "
@@ -429,15 +510,18 @@ msgstr ""
 "Ctrl+Alt+Del</gui></guiseq> nebo použijte odpovídající tlačítko na "
 "nástrojové liště."
 
-#: C/scaling.page:19(info/desc)
+#. (itstool) path: info/desc
+#: C/scaling.page:19
 msgid "Scale the remote desktop to fit the display area."
 msgstr "Přizpůsobte si velikost vzdálené plochy velikosti svého displeje."
 
-#: C/scaling.page:22(page/title)
+#. (itstool) path: page/title
+#: C/scaling.page:22
 msgid "Scale the remote desktop"
 msgstr "Jak vzdálenou plochu škálovat"
 
-#: C/scaling.page:24(page/p)
+#. (itstool) path: page/p
+#: C/scaling.page:24
 msgid ""
 "Some protocols have an option to scale the remote desktop to fit your "
 "display area."
@@ -445,7 +529,8 @@ msgstr ""
 "Některé protokoly mají volbu, která přizpůsobí velikost vzdálené plochy "
 "velikosti vaší zobrazovací plochy."
 
-#: C/scaling.page:29(item/p)
+#. (itstool) path: item/p
+#: C/scaling.page:29
 msgid ""
 "Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
 "\">Scaling</gui></guiseq>, or click the <gui>Scaling</gui> toolbar button."
@@ -454,7 +539,8 @@ msgstr ""
 "\">Škálování</gui></guiseq> nebo klikněte na tlačítko <gui>Škálování</gui> "
 "na nástrojové liště."
 
-#: C/scaling.page:34(item/p)
+#. (itstool) path: item/p
+#: C/scaling.page:34
 msgid ""
 "Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem\">Keep "
 "Aspect Ratio</gui></guiseq> if you want to constrain the aspect ratio of the "
@@ -466,30 +552,36 @@ msgstr ""
 "\"menuitem\">Zachovat poměr stran</gui></guiseq>. Vypnutím této volby se "
 "vzdálená plocha roztáhne tak, aby vyplnila veškeré dostupné místo."
 
-#: C/scaling.page:40(note/p)
+#. (itstool) path: note/p
+#: C/scaling.page:40
 msgid ""
 "This option can be toggled only if <gui>Scaling</gui> has already been "
 "enabled."
 msgstr ""
 "Tuto volbu lze přepnout jen když bylo <gui>Škálování</gui> před tím povoleno."
 
-#: C/take-screenshot.page:19(info/desc)
+#. (itstool) path: info/desc
+#: C/take-screenshot.page:19
 msgid "Take a screenshot of a remote desktop."
 msgstr "Pořiďte snímek obrazovky se vzdálenou plochou."
 
-#: C/take-screenshot.page:22(page/title)
+#. (itstool) path: page/title
+#: C/take-screenshot.page:22
 msgid "Take a screenshot"
 msgstr "Jak pořídit snímek obrazovky"
 
-#: C/take-screenshot.page:24(page/p)
+#. (itstool) path: page/p
+#: C/take-screenshot.page:24
 msgid ""
 "You can take screenshots of only the desktop that you are connected to by "
-"using the tool provided by <app>Vinagre</app>."
+"using the tool provided by <app>Remote Desktop Viewer</app>."
 msgstr ""
-"Díky nástroji poskytovanému v aplikaci <app>Vinagre</app> můžete pořídit "
-"snímek obrazovky zahrnující jen plochu, ke které jste připojeni."
+"Díky nástroji poskytovanému v aplikaci <app>Prohlížeč vzdálené plochy</app> "
+"můžete pořídit snímek obrazovky zahrnující jen plochu, ke které jste "
+"připojeni."
 
-#: C/take-screenshot.page:29(item/p)
+#. (itstool) path: item/p
+#: C/take-screenshot.page:29
 msgid ""
 "Select <guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem\">Take "
 "screenshot</gui></guiseq>, or click the <gui>Take Screenshot</gui> button in "
@@ -499,7 +591,8 @@ msgstr ""
 "\">Pořídit snímek obrazovky</gui></guiseq> nebo klikněte na tlačítko "
 "<gui>Pořídit snímek obrazovky</gui> na nástrojové liště."
 
-#: C/take-screenshot.page:34(item/p)
+#. (itstool) path: item/p
+#: C/take-screenshot.page:34
 msgid ""
 "In the <gui>Name</gui> field, enter the filename that you want the "
 "screenshot to be saved under."
@@ -507,7 +600,8 @@ msgstr ""
 "Do políčka <gui>Název</gui> zadejte název souboru, do kterého chcete snímek "
 "uložit."
 
-#: C/take-screenshot.page:38(item/p)
+#. (itstool) path: item/p
+#: C/take-screenshot.page:38
 msgid ""
 "From the <gui>Save in folder</gui> drop down list, select the folder that "
 "you want the screenshot to be saved in. You can also click <gui>Browse for "
@@ -517,20 +611,24 @@ msgstr ""
 "chcete snímek uložit. Pokud požadovaná složka není v seznamu, můžete "
 "kliknout na <gui>Procházet další složky</gui>."
 
-#: C/take-screenshot.page:44(item/p)
+#. (itstool) path: item/p
+#: C/take-screenshot.page:44
 msgid "Click <gui style=\"button\">Save</gui> to save the screenshot."
 msgstr ""
 "Kliknutím na <gui style=\"button\">Uložit</gui> snímek obrazovky uložíte."
 
-#: C/view-only.page:19(info/desc)
+#. (itstool) path: info/desc
+#: C/view-only.page:19
 msgid "Disable interaction with the remote desktop."
 msgstr "Zakažte interakci se vzdálenou plochou."
 
-#: C/view-only.page:22(page/title)
+#. (itstool) path: page/title
+#: C/view-only.page:22
 msgid "View-only mode"
 msgstr "Režim „jen zobrazení“"
 
-#: C/view-only.page:24(page/p)
+#. (itstool) path: page/p
+#: C/view-only.page:24
 msgid ""
 "Some protocols allow you to enable a <gui>View Only</gui> mode. This mode "
 "allows you to disable all interaction with the remote."
@@ -538,7 +636,8 @@ msgstr ""
 "Některé protokoly umožňují zapnout režim <gui>Jen zobrazení</gui>. V tomto "
 "režimu se zakáže veškerá interakce se vzdáleným počítačem."
 
-#: C/view-only.page:26(page/p)
+#. (itstool) path: page/p
+#: C/view-only.page:26
 msgid ""
 "Choose <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem\">View "
 "Only</gui></guiseq> or click the corresponding toolbar button to enable this "
@@ -547,3 +646,12 @@ msgstr ""
 "Pro zapnutí tohoto režimu zvolte <guiseq><gui style=\"menu\">Zobrazit</gui> "
 "<gui style=\"menuitem\">Jen zobrazit</gui></guiseq> nebo klikněte na "
 "odpovídající tlačítko na nástrojové liště."
+
+#~ msgid "Vinagre Help"
+#~ msgstr "Nápověda k aplikaci Vinagre"
+
+#~ msgid "Using Vinagre's options and features"
+#~ msgstr "Používání voleb a funkcí aplikace Vinagre"
+
+#~ msgid "Vinagre in action"
+#~ msgstr "Vinagre v provozu"
