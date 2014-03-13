@@ -6,22 +6,24 @@
 # Nathan-J. Hirschauer <nathanhirschauer@verfriemelt.org>, 2009.
 # Christian Kirbach <Christian.Kirbach@gmail.com>, 2009, 2010, 2012.
 # Jochen Skulj <jochen@jochenskulj.de>, 2009.
-# Wolfgang Stöggl <c72578@yahoo.de>, 2009, 2010, 2012.
+# Wolfgang Stöggl <c72578@yahoo.de>, 2009, 2010, 2012, 2014.
 # Jakob Kramer <jakob.kramer@gmx.de>, 2010.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-07 19:49+0200\n"
-"PO-Revision-Date: 2013-09-07 19:50+0100\n"
-"Last-Translator: Christian Kirbach <christian.kirbach@gmail.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=vinagre&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-03-13 00:04+0000\n"
+"PO-Revision-Date: 2014-03-13 12:11+0100\n"
+"Last-Translator: Wolfgang Stoeggl <c72578@yahoo.de>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.6.4\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
 msgid "Whether we should leave other clients connected"
@@ -90,6 +92,19 @@ msgid ""
 msgstr ""
 "Falls dieser Schlüssel »WAHR« ist, wird das Programm immer so gestartet, "
 "dass es auf umgekehrte Verbindungen horcht."
+
+#: ../data/vinagre.appdata.xml.in.h:1
+msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
+msgstr ""
+"Vinagre zeigt entfernte Arbeitsflächen von Windows, Mac OS X und Linux an."
+
+#: ../data/vinagre.appdata.xml.in.h:2
+msgid ""
+"It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
+"SSH servers."
+msgstr ""
+"Es verwendet die Protokolle VNC, RDP sowie SPICE und kann sogar zur "
+"Verbindung mit SSH-Servern eingesetzt werden."
 
 #: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
 #: ../vinagre/vinagre-main.c:182
@@ -320,7 +335,7 @@ msgstr "Fehler beim Ausführen von xfreerdp"
 #: ../vinagre/vinagre-bookmarks.c:492
 #: ../vinagre/vinagre-bookmarks-migration.c:135
 #: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
-#: ../vinagre/vinagre-connect.c:500 ../vinagre/vinagre-options.c:85
+#: ../vinagre/vinagre-connect.c:510 ../vinagre/vinagre-options.c:85
 #: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
 #: ../vinagre/vinagre-window.c:798
 msgid "Unknown error"
@@ -843,17 +858,17 @@ msgid_plural "The following files could not be opened:"
 msgstr[0] "Die folgende Datei konnte nicht geöffnet werden:"
 msgstr[1] "Die folgenden Dateien konnten nicht geöffnet werden:"
 
-#: ../vinagre/vinagre-connect.c:90 ../vinagre/vinagre-connect.c:336
-#: ../vinagre/vinagre-connect.c:464
+#: ../vinagre/vinagre-connect.c:91 ../vinagre/vinagre-connect.c:344
+#: ../vinagre/vinagre-connect.c:474
 msgid "Could not get the active protocol from the protocol list."
 msgstr "Aktives Protokoll konnte nicht aus der Protokollliste erhalten werden."
 
-#: ../vinagre/vinagre-connect.c:317
+#: ../vinagre/vinagre-connect.c:318
 #, c-format
 msgid "Error while saving history file: %s"
 msgstr "Fehler beim Speichern der Chronik-Datei: %s"
 
-#: ../vinagre/vinagre-connect.c:352
+#: ../vinagre/vinagre-connect.c:360
 msgid "Choose a Remote Desktop"
 msgstr "Wählen Sie einen entfernten Bildschirm"
 
