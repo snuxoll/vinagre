@@ -13,17 +13,17 @@ msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-10-24 14:34+0000\n"
-"PO-Revision-Date: 2013-11-22 02:16+0300\n"
-"Last-Translator: Stas Solovey <whats_up@tut.by>\n"
+"POT-Creation-Date: 2014-03-13 23:54+0000\n"
+"PO-Revision-Date: 2014-03-14 09:00+0300\n"
+"Last-Translator: Yuri Myasoedov <omerta13@yandex.ru>\n"
 "Language-Team: Русский <gnome-cyr@gnome.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
 msgid "Whether we should leave other clients connected"
@@ -87,6 +87,18 @@ msgid ""
 msgstr ""
 "Установите флажок, чтобы программа всегда ожидала обратные подключения."
 
+#: ../data/vinagre.appdata.xml.in.h:1
+msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
+msgstr "Vinagre показывает удалённые рабочие столы Windows, Mac OS X и Linux."
+
+#: ../data/vinagre.appdata.xml.in.h:2
+msgid ""
+"It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
+"SSH servers."
+msgstr ""
+"Vinagre использует протоколы VNC, RDP и SPICE, его также можно использовать "
+"для подключения к серверам по SSH."
+
 #: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
 #: ../vinagre/vinagre-main.c:182
 msgid "Remote Desktop Viewer"
@@ -108,11 +120,11 @@ msgstr "Vinagre — клиент удалённых рабочих столов 
 #: ../data/vinagre.ui.h:3
 msgid "translator-credits"
 msgstr ""
-" Leonid Kanter <leon@asplinux.ru>, 2008, 2009, 2010.\n"
-" Alexander Saprykin <xelfium@gmail.com>, 2010.\n"
-" Yuri Kozlov <yuray@komyakino.ru>, 2010, 2011.\n"
-" Yuri Myasoedov <omerta13@yandex.ru>, 2012.\n"
-" Stas Solovey <whats_up@tut.by>, 2013."
+"Leonid Kanter <leon@asplinux.ru>, 2008, 2009, 2010.\n"
+"Alexander Saprykin <xelfium@gmail.com>, 2010.\n"
+"Yuri Kozlov <yuray@komyakino.ru>, 2010, 2011.\n"
+"Yuri Myasoedov <omerta13@yandex.ru>, 2012.\n"
+"Stas Solovey <whats_up@tut.by>, 2013."
 
 #. This is a button label, in the authentication dialog
 #: ../data/vinagre.ui.h:5
@@ -313,7 +325,7 @@ msgstr "Ошибка запуска xfreerdp"
 #: ../vinagre/vinagre-bookmarks.c:492
 #: ../vinagre/vinagre-bookmarks-migration.c:135
 #: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
-#: ../vinagre/vinagre-connect.c:500 ../vinagre/vinagre-options.c:85
+#: ../vinagre/vinagre-connect.c:510 ../vinagre/vinagre-options.c:85
 #: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
 #: ../vinagre/vinagre-window.c:798
 msgid "Unknown error"
@@ -819,17 +831,17 @@ msgstr[0] "Следующий файл не может быть открыт:"
 msgstr[1] "Следующие файлы не могут быть открыты:"
 msgstr[2] "Следующие файлы не могут быть открыты:"
 
-#: ../vinagre/vinagre-connect.c:90 ../vinagre/vinagre-connect.c:336
-#: ../vinagre/vinagre-connect.c:464
+#: ../vinagre/vinagre-connect.c:91 ../vinagre/vinagre-connect.c:344
+#: ../vinagre/vinagre-connect.c:474
 msgid "Could not get the active protocol from the protocol list."
 msgstr "Не удалось получить активный протокол из списка протоколов."
 
-#: ../vinagre/vinagre-connect.c:317
+#: ../vinagre/vinagre-connect.c:318
 #, c-format
 msgid "Error while saving history file: %s"
 msgstr "Произошла ошибка во время сохранения файла истории: %s"
 
-#: ../vinagre/vinagre-connect.c:352
+#: ../vinagre/vinagre-connect.c:360
 msgid "Choose a Remote Desktop"
 msgstr "Выберите удалённый рабочий стол"
 
