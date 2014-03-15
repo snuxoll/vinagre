@@ -1,10 +1,10 @@
 # French translation of vinagre.
-# Copyright (C) 2007-2012 Free Software Foundation, Inc.
+# Copyright (C) 2007-2014 Free Software Foundation, Inc.
 # This file is distributed under the same license as the vinagre package.
 #
 # Robert-André Mauchin <zebob.m@pengzone.org>, 2007.
 # Stéphane Raimbault <stephane.raimbault@gmail.com>, 2007-2008.
-# Claude Paroz <claude@2xlibre.net>, 2007-2012.
+# Claude Paroz <claude@2xlibre.net>, 2007-2014.
 # Frédéric Péters <fpeters@0d.be>, 2008.
 # Laurent Coudeur <laurentc@iol.ie>, 2009.
 # Pablo Martin-Gomez <pablo.martin-gomez@laposte.net>, 2009.
@@ -14,11 +14,11 @@ msgstr ""
 "Project-Id-Version: vinagre HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-09-03 16:43+0000\n"
-"PO-Revision-Date: 2013-09-03 22:56+0200\n"
+"POT-Creation-Date: 2014-03-14 23:47+0000\n"
+"PO-Revision-Date: 2014-03-15 10:03+0100\n"
 "Last-Translator: Claude Paroz <claude@2xlibre.net>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
-"Language: \n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -90,6 +90,18 @@ msgid ""
 msgstr ""
 "Définir à « true » pour que le programme démarre toujours en écoutant les "
 "connexions inverses."
+
+#: ../data/vinagre.appdata.xml.in.h:1
+msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
+msgstr "Vinagre affiche des bureaux à distance, sous Windows, Mac OS X ou Linux."
+
+#: ../data/vinagre.appdata.xml.in.h:2
+msgid ""
+"It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
+"SSH servers."
+msgstr ""
+"Il utilise les protocoles VNC, RDP et SPICE et peut même être utilisé pour se "
+"connecter à des serveurs SSH."
 
 #: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
 #: ../vinagre/vinagre-main.c:182
@@ -319,7 +331,7 @@ msgstr "Erreur lors du lancement de xfreerdp"
 #: ../vinagre/vinagre-bookmarks.c:492
 #: ../vinagre/vinagre-bookmarks-migration.c:135
 #: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
-#: ../vinagre/vinagre-connect.c:500 ../vinagre/vinagre-options.c:85
+#: ../vinagre/vinagre-connect.c:510 ../vinagre/vinagre-options.c:85
 #: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
 #: ../vinagre/vinagre-window.c:798
 msgid "Unknown error"
@@ -843,17 +855,17 @@ msgid_plural "The following files could not be opened:"
 msgstr[0] "Impossible d'ouvrir ce fichier :"
 msgstr[1] "Impossible d'ouvrir ces fichiers :"
 
-#: ../vinagre/vinagre-connect.c:90 ../vinagre/vinagre-connect.c:336
-#: ../vinagre/vinagre-connect.c:464
+#: ../vinagre/vinagre-connect.c:91 ../vinagre/vinagre-connect.c:344
+#: ../vinagre/vinagre-connect.c:474
 msgid "Could not get the active protocol from the protocol list."
 msgstr "Impossible de trouver le protocole actuel dans la liste de protocoles."
 
-#: ../vinagre/vinagre-connect.c:317
+#: ../vinagre/vinagre-connect.c:318
 #, c-format
 msgid "Error while saving history file: %s"
 msgstr "Impossible d'enregistrer le fichier d'historique : %s"
 
-#: ../vinagre/vinagre-connect.c:352
+#: ../vinagre/vinagre-connect.c:360
 msgid "Choose a Remote Desktop"
 msgstr "Choisir un bureau distant"
 
