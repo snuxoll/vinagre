@@ -9,9 +9,9 @@ msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-09-14 21:31+0000\n"
-"PO-Revision-Date: 2013-09-15 15:47+0200\n"
-"Last-Translator: Josep Sànchez <papapep@gmx.com>\n"
+"POT-Creation-Date: 2014-03-06 12:36+0000\n"
+"PO-Revision-Date: 2014-03-04 07:07+0100\n"
+"Last-Translator: Pau Iranzo <paugnu@gmail.com>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -84,6 +84,19 @@ msgid ""
 msgstr ""
 "Establiu a «true» (cert) per iniciar sempre el programa escoltant per a "
 "connexions inverses."
+
+#: ../data/vinagre.appdata.xml.in.h:1
+msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
+msgstr ""
+"El Vinagre mostra escriptoris remots de Windows, de Mac OS X i de Linux."
+
+#: ../data/vinagre.appdata.xml.in.h:2
+msgid ""
+"It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
+"SSH servers."
+msgstr ""
+"Utilitza els protocols VNC, RDP i SPICE i es pot fer servir per connectar-se "
+"a servidors SSH."
 
 #: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
 #: ../vinagre/vinagre-main.c:182
@@ -307,7 +320,7 @@ msgstr "S'ha produït un error en executar l'xfreerdp"
 #: ../vinagre/vinagre-bookmarks.c:492
 #: ../vinagre/vinagre-bookmarks-migration.c:135
 #: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
-#: ../vinagre/vinagre-connect.c:500 ../vinagre/vinagre-options.c:85
+#: ../vinagre/vinagre-connect.c:510 ../vinagre/vinagre-options.c:85
 #: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
 #: ../vinagre/vinagre-window.c:798
 msgid "Unknown error"
@@ -832,17 +845,17 @@ msgid_plural "The following files could not be opened:"
 msgstr[0] "No s'ha pogut obrir el fitxer següent:"
 msgstr[1] "No s'han pogut obrir els fitxers següents:"
 
-#: ../vinagre/vinagre-connect.c:90 ../vinagre/vinagre-connect.c:336
-#: ../vinagre/vinagre-connect.c:464
+#: ../vinagre/vinagre-connect.c:91 ../vinagre/vinagre-connect.c:344
+#: ../vinagre/vinagre-connect.c:474
 msgid "Could not get the active protocol from the protocol list."
 msgstr "No s'ha pogut obtenir el protocol actiu de la llista de protocols."
 
-#: ../vinagre/vinagre-connect.c:317
+#: ../vinagre/vinagre-connect.c:318
 #, c-format
 msgid "Error while saving history file: %s"
 msgstr "S'ha produït un error en desar el fitxer de l'historial: %s"
 
-#: ../vinagre/vinagre-connect.c:352
+#: ../vinagre/vinagre-connect.c:360
 msgid "Choose a Remote Desktop"
 msgstr "Trieu un escriptori remot"
 
