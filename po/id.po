@@ -2,16 +2,17 @@
 #
 # Nana Suryana <nana@suryana.or.id>, 2010.
 # Dirgita <dirgitadevina@yahoo.co.id>, 2010, 2011, 2012.
-# Andika Triwidada <andika@gmail.com>, 2011, 2012, 2013.
+# Andika Triwidada <andika@gmail.com>, 2011, 2012, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-09-03 16:43+0000\n"
-"PO-Revision-Date: 2013-09-09 22:33+0700\n"
+"POT-Creation-Date: 2014-03-16 23:49+0000\n"
+"PO-Revision-Date: 2014-03-17 12:33+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <gnome@i15n.org>\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -81,6 +82,18 @@ msgstr ""
 "Set ke \"true\" untuk selalu menjalankan program yang mendengarkan untuk "
 "koneksi berlawanan."
 
+#: ../data/vinagre.appdata.xml.in.h:1
+msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
+msgstr "Vinagre menampilkan desktop Windows, Mac OS X, dan Linux jarak jauh."
+
+#: ../data/vinagre.appdata.xml.in.h:2
+msgid ""
+"It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
+"SSH servers."
+msgstr ""
+"Ini memakai protokol VNC, RDP, dan SPICE, dan bahkan bisa dipakai untuk "
+"menyambung ke server SSH."
+
 #: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
 #: ../vinagre/vinagre-main.c:182
 msgid "Remote Desktop Viewer"
@@ -104,7 +117,7 @@ msgid "translator-credits"
 msgstr ""
 "Nana Suryana <nana@suryana.or.id>, 2010.\n"
 "Dirgita <dirgitadevina@yahoo.co.id>, 2010, 2011, 2012.\n"
-"Andika Triwidada <andika@gmail.com>, 2011, 2012, 2013."
+"Andika Triwidada <andika@gmail.com>, 2011, 2012, 2013, 2014."
 
 #. This is a button label, in the authentication dialog
 #: ../data/vinagre.ui.h:5
@@ -304,7 +317,7 @@ msgstr "Galat saat menjalankan xfreerdp"
 #: ../vinagre/vinagre-bookmarks.c:492
 #: ../vinagre/vinagre-bookmarks-migration.c:135
 #: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
-#: ../vinagre/vinagre-connect.c:500 ../vinagre/vinagre-options.c:85
+#: ../vinagre/vinagre-connect.c:510 ../vinagre/vinagre-options.c:85
 #: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
 #: ../vinagre/vinagre-window.c:798
 msgid "Unknown error"
@@ -813,17 +826,17 @@ msgid "The following file could not be opened:"
 msgid_plural "The following files could not be opened:"
 msgstr[0] "Berkas berikut tidak dapat dibuka:"
 
-#: ../vinagre/vinagre-connect.c:90 ../vinagre/vinagre-connect.c:336
-#: ../vinagre/vinagre-connect.c:464
+#: ../vinagre/vinagre-connect.c:91 ../vinagre/vinagre-connect.c:344
+#: ../vinagre/vinagre-connect.c:474
 msgid "Could not get the active protocol from the protocol list."
 msgstr "Tidak dapat memperoleh protokol aktif dari daftar protokol."
 
-#: ../vinagre/vinagre-connect.c:317
+#: ../vinagre/vinagre-connect.c:318
 #, c-format
 msgid "Error while saving history file: %s"
 msgstr "Galat saat menyimpan berkas riwayat: %s"
 
-#: ../vinagre/vinagre-connect.c:352
+#: ../vinagre/vinagre-connect.c:360
 msgid "Choose a Remote Desktop"
 msgstr "Pilih suatu Desktop Jauh"
 
