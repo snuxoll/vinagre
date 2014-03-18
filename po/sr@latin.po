@@ -1,18 +1,18 @@
 # Serbian translation of vinagre
-# Courtesy of Prevod.org team (http://prevod.org/) -- 2008—2012.
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2008—2014.
 # Translation updated on 2008-04-22 by cp6linux team (http://cp6linux.org/)
 # This file is distributed under the same license as the vinagre package.
 # Maintainer: Dušan Živojnov <calvin@verat.net>
 # Translated on 2010-08-28 by: Branko Kokanović <branko.kokanovic@gmail.com>
 # Miloš Popović <gpopac@gmail.com>, 2010, 2011.
-# Miroslav Nikolić <miroslavnikolic@rocketmail.com>, 2011, 2012, 2013.
+# Miroslav Nikolić <miroslavnikolic@rocketmail.com>, 2011—2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=vinagr"
 "e&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-09-03 16:43+0000\n"
-"PO-Revision-Date: 2013-09-06 10:04+0200\n"
+"POT-Creation-Date: 2014-03-18 11:52+0000\n"
+"PO-Revision-Date: 2014-03-18 21:33+0200\n"
 "Last-Translator: Miroslav Nikolić <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <gnom@prevod.org>\n"
 "Language: sr\n"
@@ -61,7 +61,7 @@ msgid ""
 "and will not be sent to the remote host."
 msgstr ""
 "Poništite izbor da isključite prečice izbornika. Štiklirajte kućicu da ih "
-"uključite. Znajte da ako su uključene, izbornik će prigrabiti te kombinacije "
+"uključite. Znajte da ako su uključene, izbornik će presresti te kombinacije "
 "tastera i neće ih poslati udaljenoj površi."
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:7
@@ -83,6 +83,18 @@ msgid ""
 msgstr ""
 "Ako je uključeno, program će odmah po pokretanju slušati za obrnute veze."
 
+#: ../data/vinagre.appdata.xml.in.h:1
+msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
+msgstr "Vinagre prikazuje udaljene radne površi Vindouza, Mek OS-a i Linuksa."
+
+#: ../data/vinagre.appdata.xml.in.h:2
+msgid ""
+"It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
+"SSH servers."
+msgstr ""
+"Koristi VNC, RDP i SPAJS protokole, a može čak biti korišćen za povezivanje "
+"na srvere bezbedne školjke."
+
 #: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
 #: ../vinagre/vinagre-main.c:182
 msgid "Remote Desktop Viewer"
@@ -98,17 +110,18 @@ msgstr "VNC;RDP:SSH;"
 
 #: ../data/vinagre.ui.h:1
 msgid "Vinagre is a remote desktop viewer for the GNOME desktop"
-msgstr "Vinager je Gnomov pregledač udaljenih radnih površina"
+msgstr "Vinagre je Gnomov pregledač udaljenih radnih površina"
 
 #. Add your name here to appear as a translator in the about dialog
 #: ../data/vinagre.ui.h:3
 msgid "translator-credits"
 msgstr ""
-"Marko Uskoković <marko.uskokovic@cp6linux.org>\n"
-"Goran Rakić <grakic@devbase.net>\n"
+"Marko Uskoković  <marko.uskokovic@cp6linux.org>\n"
+"Goran Rakić      <grakic@devbase.net>\n"
 "Branko Kokanović <branko.kokanovic@gmail.com>\n"
+"Miroslav Nikolić <miroslavnikolic@rocketmail.com>\n"
 "\n"
-"Prevod.org — prevod na srpski jezik."
+"http://prevod.org — prevod na srpski jezik"
 
 #. This is a button label, in the authentication dialog
 #: ../data/vinagre.ui.h:5
@@ -281,7 +294,6 @@ msgstr "_Širina:"
 
 #. Translators: This is the tooltip for the width field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:138
-#| msgid "Connect to a remote desktop"
 msgid "Set width of the remote desktop"
 msgstr "Podesite širinu udaljenog računara"
 
@@ -292,7 +304,6 @@ msgstr "_Visina:"
 
 #. Translators: This is the tooltip for the height field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:154
-#| msgid "Connect to a remote desktop"
 msgid "Set height of the remote desktop"
 msgstr "Podesite visinu udaljenog računara"
 
@@ -300,7 +311,7 @@ msgstr "Podesite visinu udaljenog računara"
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:140
 msgid "Port:"
-msgstr "Port:"
+msgstr "Priključnik:"
 
 #: ../plugins/rdp/vinagre-rdp-tab.c:139
 msgid "Error while executing xfreerdp"
@@ -310,7 +321,7 @@ msgstr "Greška pri pokretanju programa rdesktop"
 #: ../vinagre/vinagre-bookmarks.c:492
 #: ../vinagre/vinagre-bookmarks-migration.c:135
 #: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
-#: ../vinagre/vinagre-connect.c:500 ../vinagre/vinagre-options.c:85
+#: ../vinagre/vinagre-connect.c:510 ../vinagre/vinagre-options.c:85
 #: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
 #: ../vinagre/vinagre-window.c:798
 msgid "Unknown error"
@@ -318,16 +329,16 @@ msgstr "Nepoznata greška"
 
 #: ../plugins/ssh/vinagre-ssh-plugin.c:61
 msgid "SSH"
-msgstr "SSH"
+msgstr "Bezbedna školjka"
 
 #. Translators: This is a description of the SSH protocol. It appears at Connect dialog.
 #: ../plugins/ssh/vinagre-ssh-plugin.c:63
 msgid "Access Unix/Linux terminals"
-msgstr "Pristup Uniks/Linuks terminalima"
+msgstr "Pristup terminalima Uniksa/Linuksa"
 
 #: ../plugins/ssh/vinagre-ssh-plugin.c:103
 msgid "SSH Options"
-msgstr "SSH opcije"
+msgstr "Opcije bezbedne školjke"
 
 #. Translators: 'shared' here is a VNC protocol specific flag. You can translate it, but I think it's better to let it untranslated
 #: ../plugins/vnc/vinagre-vnc-connection.c:317
@@ -447,7 +458,7 @@ msgstr "„domaćin“ ili „korisnik@domaćin“"
 #: ../plugins/vnc/vinagre-vnc-plugin.c:353
 #: ../plugins/spice/vinagre-spice-plugin.c:282
 msgid "Supply an alternative port using colon"
-msgstr "Navedite alternativni port koristeći dve tačke"
+msgstr "Navedite alternativni priključnik koristeći dve tačke"
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:354
 #: ../plugins/spice/vinagre-spice-plugin.c:283
@@ -458,7 +469,7 @@ msgstr "Na primer: pera@primer.com:5022"
 #: ../plugins/vnc/vinagre-vnc-plugin.c:360
 #: ../plugins/spice/vinagre-spice-plugin.c:289
 msgid "as a SSH tunnel"
-msgstr "kao SSH tunel"
+msgstr "kao tunel bezbedne školjke"
 
 #. Translators: this is a pattern to open *.vnc files in a open dialog.
 #: ../plugins/vnc/vinagre-vnc-plugin.c:395
@@ -476,7 +487,7 @@ msgstr "Dimenzije:"
 #: ../plugins/vnc/vinagre-vnc-tab.c:306
 #: ../plugins/spice/vinagre-spice-tab.c:252
 msgid "Error creating the SSH tunnel"
-msgstr "Greška stvaranja SSH tunela"
+msgstr "Greška stvaranja tunela bezbedne školjke"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:307 ../plugins/vnc/vinagre-vnc-tab.c:318
 #: ../plugins/spice/vinagre-spice-tab.c:253
@@ -553,12 +564,12 @@ msgstr "Zahtevajte ažuriranje ekrana"
 #: ../plugins/vnc/vinagre-vnc-tab.c:681
 #: ../plugins/spice/vinagre-spice-tab.c:531
 msgid "_Send Ctrl-Alt-Del"
-msgstr "_Pošalji „Ctrl-Alt-Del“"
+msgstr "_Pošalji „Ktrl-Alt-Del“"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:682
 #: ../plugins/spice/vinagre-spice-tab.c:532
 msgid "Sends Ctrl+Alt+Del to the remote desktop"
-msgstr "Pošaljite „Ctrl+Alt+Del“ udaljenom računaru"
+msgstr "Pošaljite „Ktrl+Alt+Del“ udaljenom računaru"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
 #: ../plugins/spice/vinagre-spice-tab.c:584
@@ -577,7 +588,7 @@ msgstr "Samo čitanje"
 #: ../plugins/spice/vinagre-spice-tab.c:603
 #: ../plugins/spice/vinagre-spice-tab.c:605
 msgid "Send Ctrl-Alt-Del"
-msgstr "Pošalji „Ctrl-Alt-Del“"
+msgstr "Pošalji „Ktrl-Alt-Del“"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:919
 msgid ""
@@ -595,7 +606,7 @@ msgstr ""
 #: ../plugins/spice/vinagre-spice-tunnel.c:103
 #, c-format
 msgid "Unable to find a free TCP port"
-msgstr "Ne mogu da nađen slobodan TCP port"
+msgstr "Ne mogu da nađen slobodan TCP priključnik"
 
 #. Translators: Do not translate "connection". It's the name of a group in the .spice (.ini like) file.
 #: ../plugins/spice/vinagre-spice-plugin.c:108
@@ -823,17 +834,17 @@ msgstr[1] "Ne mogu da otvorim sledeće datoteke:"
 msgstr[2] "Ne mogu da otvorim sledeće datoteke:"
 msgstr[3] "Ne mogu da otvorim sledeću datoteku:"
 
-#: ../vinagre/vinagre-connect.c:90 ../vinagre/vinagre-connect.c:336
-#: ../vinagre/vinagre-connect.c:464
+#: ../vinagre/vinagre-connect.c:91 ../vinagre/vinagre-connect.c:344
+#: ../vinagre/vinagre-connect.c:474
 msgid "Could not get the active protocol from the protocol list."
 msgstr "Ne mogu da dobavim aktivni protokol iz spiska protokola."
 
-#: ../vinagre/vinagre-connect.c:317
+#: ../vinagre/vinagre-connect.c:318
 #, c-format
 msgid "Error while saving history file: %s"
 msgstr "Greška prilikom čuvanja istorijata: %s"
 
-#: ../vinagre/vinagre-connect.c:352
+#: ../vinagre/vinagre-connect.c:360
 msgid "Choose a Remote Desktop"
 msgstr "Izaberite udaljenu radnu površ"
 
@@ -941,7 +952,7 @@ msgstr "Prikazuje pomoć"
 #. Translators: this is a command line option (run vinagre --help)
 #: ../vinagre/vinagre-options.c:53
 msgid "[server:port]"
-msgstr "[server:port]"
+msgstr "[server:priključnik]"
 
 #: ../vinagre/vinagre-options.c:127
 #, c-format
@@ -977,7 +988,7 @@ msgstr ""
 #: ../vinagre/vinagre-reverse-vnc-listener-dialog.c:175
 #, c-format
 msgid "On the port %d"
-msgstr "Na portu %d"
+msgstr "Na priključniku %d"
 
 #: ../vinagre/vinagre-reverse-vnc-listener.c:212
 msgid "Error activating reverse connections"
@@ -988,8 +999,8 @@ msgid ""
 "The program could not find any available TCP ports starting at 5500. Is "
 "there any other running program consuming all your TCP ports?"
 msgstr ""
-"Program nije mogao da nađe slobodne TCP portove počevši od 5500. Da li "
-"postoji još neki program koji je zauzeo sve vaše TCP portove?"
+"Program nije mogao da nađe slobodne TCP priključnike počevši od 5500. Da li "
+"postoji još neki program koji je zauzeo sve vaše TCP priključnike?"
 
 #: ../vinagre/vinagre-ssh.c:115
 msgid "Timed out when logging into SSH host"
@@ -1097,7 +1108,6 @@ msgstr "Greška čuvanja nedavnih veza."
 
 #: ../vinagre/vinagre-tab.c:781
 #, c-format
-#| msgid "Remote desktop password: %s"
 msgid "Remote desktop password for %s"
 msgstr "Lozinka udaljene radne površi za „%s“"
 
@@ -1327,4 +1337,4 @@ msgstr "Uključuje prečice tastature"
 #: ../vinagre/vinagre-window.c:792 ../vinagre/vinagre-window.c:798
 #, c-format
 msgid "Error while creating the file %s: %s"
-msgstr "Greška prilikom pravljenja datoteke %s: %s"
+msgstr "Greška prilikom pravljenja datoteke „%s“: %s"
