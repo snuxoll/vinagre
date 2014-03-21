@@ -145,7 +145,7 @@ msgid ""
 msgstr ""
 "Para fechar uma conexão, selecione <guiseq><gui style=\"menu\">Remota</"
 "gui><gui style=\"menuitem\">Fechar</gui></guiseq> ou clique no botão "
-"<gui style=\"button>Fechar</gui>."
+"<gui style=\"button\">Fechar</gui>."
 
 #. (itstool) path: info/title
 #: C/connect-file.page:8
