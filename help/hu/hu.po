@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the vinagre package.
 #
 # n0m4dm4n <n0m4dm4n at gmail dot com>, 2011.
-# Gabor Kelemen <kelemeng at gnome dot hu>, 2011, 2012, 2013.
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2011, 2012, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre master\n"
-"POT-Creation-Date: 2013-03-23 21:52+0000\n"
-"PO-Revision-Date: 2013-03-24 02:53+0100\n"
+"POT-Creation-Date: 2014-03-19 11:51+0000\n"
+"PO-Revision-Date: 2014-03-22 12:11+0100\n"
 "Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
-"Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
+"Language-Team: Hungarian <openscope at googlegroups dot com>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,98 +18,79 @@ msgstr ""
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 1.4\n"
 
-#: C/index.page:5(page/title)
-msgid "Vinagre Help"
-msgstr "A Vinagre súgója"
-
-#: C/index.page:8(section/title)
-msgid "Connecting to other computers using VNC"
-msgstr "Kapcsolódás más számítógépekhez VNC használatával"
-
-#: C/index.page:12(section/title)
-msgid "Using Vinagre's options and features"
-msgstr "A Vinagre beállításai és szolgáltatásai"
-
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Kelemen Gábor <kelemeng at gnome dot hu>, 2011, 2012, 2013.\n"
+"Kelemen Gábor <kelemeng at gnome dot hu>, 2011, 2012, 2013, 2014.\n"
 "n0m4dm4n <n0m4dm4n at gmail dot com>, 2011."
 
-#: C/connect.page:7(info/title)
+#. (itstool) path: info/title
+#: C/connect.page:8
 msgctxt "sort"
 msgid "1"
 msgstr "1"
 
-#: C/connect.page:12(credit/name) C/connect-file.page:13(credit/name)
-#: C/connect-reverse.page:13(credit/name) C/fullscreen.page:11(credit/name)
-#: C/introduction.page:11(credit/name)
-#: C/keyboard-shortcuts.page:11(credit/name) C/scaling.page:11(credit/name)
-#: C/take-screenshot.page:11(credit/name) C/view-only.page:11(credit/name)
+#. (itstool) path: credit/name
+#: C/connect.page:14 C/connect-file.page:13 C/connect-reverse.page:15
+#: C/fullscreen.page:11 C/introduction.page:13 C/keyboard-shortcuts.page:13
+#: C/scaling.page:11 C/take-screenshot.page:13 C/view-only.page:11
 msgid "Ekaterina Gerasimova"
 msgstr "Ekaterina Gerasimova"
 
-#: C/connect.page:17(license/p) C/connect-file.page:18(license/p)
-#: C/connect-reverse.page:18(license/p) C/fullscreen.page:16(license/p)
-#: C/introduction.page:16(license/p) C/keyboard-shortcuts.page:16(license/p)
-#: C/scaling.page:16(license/p) C/take-screenshot.page:16(license/p)
-#: C/view-only.page:16(license/p)
-msgid "Creative Commons Share Alike 3.0"
-msgstr "Creative Commons Share Alike 3.0 Így add tovább!"
-
-#: C/connect.page:20(info/desc)
-#| msgid "Establish a connection to another computer on your local network."
+#. (itstool) path: info/desc
+#: C/connect.page:20
 msgid "Connect to another computer on your local network."
 msgstr "Kapcsolódás másik számítógéphez a helyi hálózaton."
 
-#: C/connect.page:23(page/title)
+#. (itstool) path: page/title
+#: C/connect.page:23
 msgid "Establish a connection"
 msgstr "Kapcsolat létrehozása"
 
-#: C/connect.page:25(page/p)
+#. (itstool) path: page/p
+#: C/connect.page:25
+#| msgid ""
+#| "You can connect to other computers on your local network using "
+#| "<app>Vinagre</app>."
 msgid ""
-"You can connect to other computers on your local network using <app>Vinagre</"
-"app>."
+"You can connect to other computers on your local network using <app>Remote "
+"Desktop Viewer</app>."
 msgstr ""
-"A <app>Vinagre</app> segítségével csatlakozhat a helyi hálózat más "
+"A <app>Távoli asztalok megjelenítése</app> segítségével csatlakozhat a helyi "
+"hálózat más "
 "számítógépeihez."
 
-#: C/connect.page:30(item/p)
-#| msgid "Choose <guiseq><gui>Remote</gui><gui>Connect</gui></guiseq>."
+#. (itstool) path: item/p
+#: C/connect.page:30
 msgid ""
 "Select <guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem"
 "\">Connect</gui></guiseq>."
 msgstr ""
-"Válassza a <guiseq><gui style=\"menu\">Távoli</gui> <gui style=\"menuitem\">"
-"Kapcsolódás</gui></guiseq> menüpontot."
+"Válassza a <guiseq><gui style=\"menu\">Távoli</gui> <gui style=\"menuitem"
+"\">Kapcsolódás</gui></guiseq> menüpontot."
 
-#: C/connect.page:34(item/p)
+#. (itstool) path: item/p
+#: C/connect.page:34
 msgid ""
 "Choose the <gui>Protocol</gui> and the <gui>Host</gui> for the connection."
 msgstr ""
 "Válasszon a <gui>Protokoll</gui> listából, és töltse ki a <gui>Gép</gui> "
 "mezőt a kapcsolódáshoz."
 
-#: C/connect.page:37(note/p)
-#| msgid ""
-#| "Some protocols allow you to see all available computers on your local "
-#| "network by clicking the <gui>Find</gui> button. Without <app>Avahi</app> "
-#| "support, this button will not be displayed."
+#. (itstool) path: note/p
+#: C/connect.page:37
 msgid ""
 "Some protocols allow you to see all available computers on your local "
 "network by clicking the <gui style=\"button\">Find</gui> button. This "
 "buttons will not be displayed if you do not have <app>Avahi</app> support."
 msgstr ""
 "Néhány protokoll lehetővé teszi a helyi hálózaton elérhető összes számítógép "
-"megjelenítését a <gui style=\"button\">Keresés</gui> gombra kattintva. Az <"
-"app>Avahi</app> "
-"támogatás nélkül ez a gomb nem jelenik meg."
+"megjelenítését a <gui style=\"button\">Keresés</gui> gombra kattintva. Az "
+"<app>Avahi</app> támogatás nélkül ez a gomb nem jelenik meg."
 
-#: C/connect.page:44(item/p)
-#| msgid ""
-#| "Select the options which you want enabled when the connection is made. "
-#| "Options will vary depending on the protocol you use."
+#. (itstool) path: item/p
+#: C/connect.page:44
 msgid ""
 "Select the options which you want enabled when the connection is made. "
 "Options will vary depending on the protocol that you use."
@@ -117,12 +98,13 @@ msgstr ""
 "Válasszon a kapcsolat létrehozásához használandó beállítások közül, ezek a "
 "használt protokoll függvényében változnak."
 
-#: C/connect.page:48(item/p)
-#| msgid "Click the <gui>Connect</gui> button."
+#. (itstool) path: item/p
+#: C/connect.page:48
 msgid "Click the <gui style=\"button\">Connect</gui> button."
 msgstr "Nyomja meg a <gui style=\"button\">Kapcsolódás</gui> gombot."
 
-#: C/connect.page:49(item/p)
+#. (itstool) path: item/p
+#: C/connect.page:49
 msgid ""
 "At this point, the remote desktop may need to confirm the connection. If "
 "this is the case, the viewer may remain black until the connection is "
@@ -132,111 +114,114 @@ msgstr ""
 "kapcsolódást. Ebben az esetben a megjelenítő fekete maradhat, amíg a "
 "jóváhagyása nem érkezik meg."
 
-#: C/connect.page:53(note/p)
+#. (itstool) path: note/p
+#: C/connect.page:53
 #| msgid ""
 #| "Some computers may require a secure connection: an authentication dialog "
 #| "will be displayed, asking for the credentials. The type of credentials "
-#| "depend on the remote host, it may be a password and a username. If you "
+#| "depend on the remote host; it may be a password and a username. If you "
 #| "select <gui>Remember this credential</gui>, <app>Vinagre</app> will store "
 #| "the information using <app>GNOME Keyring</app>."
 msgid ""
 "Some computers may require a secure connection: an authentication dialog "
 "will be displayed, asking for the credentials. The type of credentials "
 "depend on the remote host; it may be a password and a username. If you "
-"select <gui>Remember this credential</gui>, <app>Vinagre</app> will store "
-"the information using <app>GNOME Keyring</app>."
+"select <gui>Remember this credential</gui>, <app>Remote Desktop Viewer</app> "
+"will store the information using <app>GNOME Keyring</app>."
 msgstr ""
 "Bizonyos kapcsolatoknál hitelesítés szükséges, ekkor megjelenik egy "
 "párbeszédablak. Itt meg kell adnia a belépéshez szükséges adatokat, ezek a "
 "távoli géptől függően például felhasználónév és jelszó lehetnek. Ha bejelöli "
 "az <gui>Emlékezzen a hitelesítési adatokra</gui> négyzetet, akkor a "
-"<app>Vinagre</app> elmenti azt a kulcstartójára."
+"<app>Távoli asztalok megjelenítése</app> elmenti azt a kulcstartójára."
 
-#: C/connect.page:63(page/p)
-#| msgid ""
-#| "If the connection has been used previously, you can also access it "
-#| "through <guiseq><gui>Remote</gui><gui>Recent Connections</gui></guiseq>."
+#. (itstool) path: page/p
+#: C/connect.page:63
 msgid ""
 "If the connection has been used previously, you can also access it through "
 "<guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem\">Recent "
 "Connections</gui></guiseq>."
 msgstr ""
-"A régebben használt kapcsolatok elérhetők a <guiseq><gui style=\"menu\">"
-"Távoli</gui> <gui style=\"menuitem\">Legutóbbi kapcsolatok</gui></guiseq> "
+"A régebben használt kapcsolatok elérhetők a <guiseq><gui style=\"menu"
+"\">Távoli</gui> <gui style=\"menuitem\">Legutóbbi kapcsolatok</gui></guiseq> "
 "menüpontban."
 
-#: C/connect.page:67(page/p)
-#| msgid ""
-#| "To close a connection, choose <guiseq><gui>Remote</gui> <gui>Close</gui></"
-#| "guiseq> or click the <gui>Close</gui> button."
+#. (itstool) path: page/p
+#: C/connect.page:67
 msgid ""
 "To close a connection, choose <guiseq><gui style=\"menu\">Remote</gui> <gui "
 "style=\"menuitem\">Close</gui></guiseq> or click the <gui style=\"button"
 "\">Close</gui> button."
 msgstr ""
-"A kapcsolat bezárásához válassza a <guiseq><gui style=\"menu\">Távoli</gui> <"
-"gui style=\"menuitem\">Bezárás</gui></guiseq> menüpontot, vagy nyomja meg a <"
-"gui style=\"button\">Bezárás</gui> gombot."
+"A kapcsolat bezárásához válassza a <guiseq><gui style=\"menu\">Távoli</gui> "
+"<gui style=\"menuitem\">Bezárás</gui></guiseq> menüpontot, vagy nyomja meg a "
+"<gui style=\"button\">Bezárás</gui> gombot."
 
-#: C/connect-file.page:8(info/title)
+#. (itstool) path: info/title
+#: C/connect-file.page:8
 msgctxt "sort"
 msgid "2"
 msgstr "2"
 
-#: C/connect-file.page:21(info/desc)
+#. (itstool) path: license/p
+#: C/connect-file.page:18 C/fullscreen.page:16 C/scaling.page:16
+#: C/view-only.page:16
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Creative Commons Share Alike 3.0 Így add tovább!"
+
+#. (itstool) path: info/desc
+#: C/connect-file.page:21
 msgid "Use a remote connection file to connect to a remote machine."
 msgstr "Távolikapcsolat-fájl használata a távoli géphez kapcsolódáshoz."
 
-#: C/connect-file.page:24(page/title)
-#| msgid "Connect with a .vnc file"
+#. (itstool) path: page/title
+#: C/connect-file.page:24
 msgid "Connect using a <file>.vnc</file> file"
 msgstr "Kapcsolódás <file>.vnc</file> fájllal"
 
-#: C/connect-file.page:26(page/p)
-#| msgid ""
-#| "Some hosts distribute remote connection files (generally ending with "
-#| "suffix <file>.vnc</file>) instead of using a host address and port."
+#. (itstool) path: page/p
+#: C/connect-file.page:26
 msgid ""
 "Some hosts distribute <em>remote connection files</em>, that generally end "
 "with the suffix <file>.vnc</file>, instead of using a host address and port."
 msgstr ""
-"Bizonyos kiszolgálók <em>kapcsolati fájlokat</em> terjesztenek (ezek <file>"
-".vnc</"
-"file> kiterjesztésűek), amelyek az IP-cím és portszám megadása helyett "
+"Bizonyos kiszolgálók <em>kapcsolati fájlokat</em> terjesztenek (ezek <file>."
+"vnc</file> kiterjesztésűek), amelyek az IP-cím és portszám megadása helyett "
 "használhatók."
 
-#: C/connect-file.page:32(item/p)
-#| msgid "Choose <guiseq><gui>Remote</gui> <gui>Open</gui></guiseq>."
+#. (itstool) path: item/p
+#: C/connect-file.page:32
 msgid ""
 "Select <guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem"
 "\">Open</gui></guiseq>."
 msgstr ""
-"Válassza a <guiseq><gui style=\"menu\">Távoli</gui> <gui style=\"menuitem\">"
-"Megnyitás</gui></guiseq> menüpontot."
+"Válassza a <guiseq><gui style=\"menu\">Távoli</gui> <gui style=\"menuitem"
+"\">Megnyitás</gui></guiseq> menüpontot."
 
-#: C/connect-file.page:36(item/p)
+#. (itstool) path: item/p
+#: C/connect-file.page:36
 msgid "Select the file you want to open."
 msgstr "Válassza ki a megnyitni kívánt fájlt."
 
-#: C/connect-file.page:39(item/p)
-#| msgid "Click the <gui>Open</gui> button."
+#. (itstool) path: item/p
+#: C/connect-file.page:39
 msgid "Click the <gui style=\"button\">Open</gui> button."
 msgstr "Kattintson a <gui style=\"button\">Megnyitás</gui> gombra."
 
-#: C/connect-file.page:44(note/p)
-#| msgid ""
-#| "You can also double-click on a remote connection file in <app>Nautilus</"
-#| "app> to open it with <app>Vinagre</app>."
+#. (itstool) path: note/p
+#: C/connect-file.page:44
 msgid "You can also open a remote connection file from <app>Files</app>."
 msgstr ""
 "A távolikapcsolat-fájlt megnyithatja a <app>Fájlok</app> alkalmazásból is."
 
-#: C/connect-reverse.page:8(info/title)
+#. (itstool) path: info/title
+#: C/connect-reverse.page:9
 msgctxt "sort"
 msgid "3"
 msgstr "3"
 
-#: C/connect-reverse.page:21(info/desc)
+#. (itstool) path: info/desc
+#: C/connect-reverse.page:21
 msgid ""
 "Connect to computers not on your local network: bypassing firewall "
 "restrictions on remote host."
@@ -244,18 +229,13 @@ msgstr ""
 "Csatlakozás nem helyi hálózaton lévő számítógépekhez: tűzfalkorlátozások "
 "megkerülése a távoli számítógépen."
 
-#: C/connect-reverse.page:24(page/title)
-#| msgid "Reverse Connections…"
+#. (itstool) path: page/title
+#: C/connect-reverse.page:25
 msgid "<gui>Reverse Connections…</gui>"
 msgstr "<gui>Fordított kapcsolatok</gui>"
 
-#: C/connect-reverse.page:26(page/p)
-#| msgid ""
-#| "A reverse connection is usually used to bypass firewall restrictions on "
-#| "open ports. A firewall usually blocks open ports, but does not block "
-#| "outgoing traffic. In a normal forward connection, a client connects to a "
-#| "server through the server's open port, but in the case of a reverse "
-#| "connection, the client opens the port that the server connects to."
+#. (itstool) path: page/p
+#: C/connect-reverse.page:27
 msgid ""
 "A reverse connection is usually used to bypass firewall restrictions on open "
 "ports. A firewall usually blocks open ports, but does not block outgoing "
@@ -269,52 +249,43 @@ msgstr ""
 "kiszolgáló egyik nyitott portjához. Fordított kapcsolat esetén azonban a "
 "kliens nyit meg egy portot, hogy a kiszolgáló kapcsolódni tudjon hozzá."
 
-#: C/connect-reverse.page:33(section/title)
+#. (itstool) path: section/title
+#: C/connect-reverse.page:34
 msgid "Enabling reverse connections"
 msgstr "Fordított kapcsolatok engedélyezése"
 
-#: C/connect-reverse.page:37(item/p)
-#| msgid ""
-#| "Open <guiseq><gui>Remote</gui><gui>Reverse Connections...</gui> </guiseq>."
+#. (itstool) path: item/p
+#: C/connect-reverse.page:38
 msgid ""
 "Select <guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem"
 "\">Reverse Connections…</gui></guiseq>."
 msgstr ""
-"Válassza a <guiseq><gui style=\"menu\">Távoli</gui> <gui style=\"menuitem\">"
-"Fordított kapcsolatok</gui></guiseq> "
-"menüpontot."
+"Válassza a <guiseq><gui style=\"menu\">Távoli</gui> <gui style=\"menuitem"
+"\">Fordított kapcsolatok</gui></guiseq> menüpontot."
 
-#: C/connect-reverse.page:41(item/p)
-#| msgid "Select <gui>Enable Reverse Connections</gui>."
+#. (itstool) path: item/p
+#: C/connect-reverse.page:42
 msgid "Check <gui>Enable Reverse Connections</gui>."
 msgstr "Jelölje be a <gui>Fordított kapcsolatok engedélyezése</gui> négyzetet."
 
-#: C/connect-reverse.page:48(section/title)
+#. (itstool) path: section/title
+#: C/connect-reverse.page:49
 msgid "Access a computer behind a firewall"
 msgstr "Tűzfal mögötti számítógép elérése"
 
-#: C/connect-reverse.page:50(section/p)
-#| msgid ""
-#| "The remote computer needs to connect to your machine using your IP "
-#| "address and port number, which are in the <gui>Reverse Connections...</"
-#| "gui> dialog, under <gui>Connectivity</gui>."
+#. (itstool) path: section/p
+#: C/connect-reverse.page:51
 msgid ""
 "The remote machine needs to connect to your machine using your <em>IP "
 "address</em> and port number, which can be found in the <gui>Reverse "
 "Connections…</gui> dialog, under <gui>Connectivity</gui>."
 msgstr ""
 "A távoli számítógépnek az Ön gépéhez kapcsolódáshoz a <gui>Fordított "
-"kapcsolatok</"
-"gui> ablak <gui>Összekapcsolhatóság</gui> mezőjében megtalálható <em>"
-"IP-címet</em> és "
-"portszámot kell használnia."
+"kapcsolatok</gui> ablak <gui>Összekapcsolhatóság</gui> mezőjében "
+"megtalálható <em>IP-címet</em> és portszámot kell használnia."
 
-#: C/connect-reverse.page:55(note/p)
-#| msgid ""
-#| "Currently, <app>Vino</app>, the GNOME VNC server, does not support "
-#| "reverse connections (also known as \"listen mode\"). Some other "
-#| "applications, such as <app>UltraVNC</app>, <app>RealVNC</app> and "
-#| "<app>TightVNC</app>, do have support for reverse connections."
+#. (itstool) path: note/p
+#: C/connect-reverse.page:56
 msgid ""
 "Currently, <app>Vino</app>, the GNOME VNC server, does not support reverse "
 "connections which are also known as \"listen mode\". Some other "
@@ -325,15 +296,21 @@ msgstr ""
 "fordított kapcsolatokat. Más alkalmazások, például az <app>UltraVNC</app>, "
 "<app>RealVNC</app> és <app>TightVNC</app> azonban igen."
 
-#: C/connect-reverse.page:61(section/p)
+#. (itstool) path: section/p
+#: C/connect-reverse.page:62
+#| msgid ""
+#| "Once the remote computer connects to your machine, <app>Vinagre</app> "
+#| "will establish the reverse connection."
 msgid ""
-"Once the remote computer connects to your machine, <app>Vinagre</app> will "
-"establish the reverse connection."
+"Once the remote computer connects to your machine, <app>Remote Desktop "
+"Viewer</app> will establish the reverse connection."
 msgstr ""
-"Amikor egy távoli számítógép az Önéhez csatlakozik, a <app>Vinagre</app> "
+"Amikor egy távoli számítógép az Önéhez csatlakozik, a <app>Távoli asztalok "
+"megjelenítése</app> "
 "létrehozza a fordított kapcsolatot."
 
-#: C/connect-reverse.page:64(section/p)
+#. (itstool) path: section/p
+#: C/connect-reverse.page:65
 msgid ""
 "When connecting to a machine which is not on your local network, you will "
 "need to provide your externally visible IP address and port number to the "
@@ -342,15 +319,18 @@ msgstr ""
 "Ha nem a helyi hálózaton lévő géphez csatlakozik, akkor meg kell adnia a "
 "külső IP-címet és a portszámot."
 
-#: C/fullscreen.page:19(info/desc)
+#. (itstool) path: info/desc
+#: C/fullscreen.page:19
 msgid "View the remote desktop in fullscreen mode."
 msgstr "Távoli asztal megtekintése teljes képernyős módban."
 
-#: C/fullscreen.page:22(page/title)
+#. (itstool) path: page/title
+#: C/fullscreen.page:22
 msgid "Fullscreen mode"
 msgstr "Teljes képernyős mód"
 
-#: C/fullscreen.page:24(page/p)
+#. (itstool) path: page/p
+#: C/fullscreen.page:24
 msgid ""
 "Fullscreen mode can be useful if viewing a desktop which is the same size or "
 "larger than yours."
@@ -358,27 +338,19 @@ msgstr ""
 "A teljes képernyős mód akkor lehet hasznos, ha az Önével azonos vagy attól "
 "nagyobb méretű asztalt jelenít meg."
 
-#: C/fullscreen.page:29(item/p)
-#| msgid ""
-#| "Choose <guiseq><gui>View</gui><gui>Fullscreen</gui></guiseq>, or press "
-#| "the corresponding toolbar button, to view the display area in fullscreen "
-#| "mode."
+#. (itstool) path: item/p
+#: C/fullscreen.page:29
 msgid ""
 "Choose <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
 "\">Fullscreen</gui></guiseq>, or press the corresponding toolbar button, to "
 "view the display area in fullscreen mode."
 msgstr ""
-"A teljes képernyős módba váltáshoz válassza a <guiseq><gui style=\"menu\">"
-"Nézet</"
-"gui> <gui style=\"menuitem\">Teljes képernyő</gui></guiseq> menüpontot, vagy "
-"kattintson a "
-"megfelelő gombra az eszköztáron."
+"A teljes képernyős módba váltáshoz válassza a <guiseq><gui style=\"menu"
+"\">Nézet</gui> <gui style=\"menuitem\">Teljes képernyő</gui></guiseq> "
+"menüpontot, vagy kattintson a megfelelő gombra az eszköztáron."
 
-#: C/fullscreen.page:37(note/p)
-#| msgid ""
-#| "While in fullscreen mode, move the mouse to the top-center of the screen "
-#| "to display a hidden toolbar, which has a <gui>Leave Fullscreen</gui> "
-#| "button, <gui>Disconnect</gui> and other options."
+#. (itstool) path: note/p
+#: C/fullscreen.page:37
 msgid ""
 "While in fullscreen mode, move the mouse to the top-center of the screen to "
 "display a hidden toolbar, which has <gui style=\"button\">Leave Fullscreen</"
@@ -387,14 +359,41 @@ msgstr ""
 "Teljes képernyős módban mozgassa az egérmutatót a képernyő tetejének "
 "közepére, ekkor láthatóvá válik a rejtett menüsáv, ahol többek közt "
 "megtalálható a <gui style=\"button\">Teljes képernyő elhagyása</gui> gomb és "
-"a <gui style=\"button\">Kapcsolat "
-"bezárása</gui> gomb."
+"a <gui style=\"button\">Kapcsolat bezárása</gui> gomb."
 
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "text"
+msgid "Remote Desktop Viewer help"
+msgstr "Távoli asztalok megjelenítése súgó"
+
+#. (itstool) path: info/desc
+#: C/index.page:12
+msgid "Learn how to connect remotely to other desktops."
+msgstr ""
+"Ismerje meg, hogyan kapcsolódhat más számítógépek asztali környezeteihez."
+
+#. (itstool) path: page/title
+#: C/index.page:15
+msgid "<_:media-1/> Remote Desktop Viewer"
+msgstr "<_:media-1/> Távoli asztalok megjelenítése"
+
+#. (itstool) path: section/title
+#: C/index.page:21
+msgid "Connecting to other computers using VNC"
+msgstr "Kapcsolódás más számítógépekhez VNC használatával"
+
+#. (itstool) path: section/title
+#: C/index.page:25
+msgid "Features and options"
+msgstr "Funkciók és beállítások"
+
+#. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/introduction.page:38(media)
+#: C/introduction.page:38
 msgctxt "_"
 msgid ""
 "external ref='figures/vinagre-connected.png' "
@@ -403,110 +402,138 @@ msgstr ""
 "external ref='figures/vinagre-connected.png' "
 "md5='abef2af863dbd4659703bcc09bb89d1a'"
 
-#: C/introduction.page:19(info/desc)
-msgid "Introduction to the <app>Vinagre</app> remote desktop viewer."
-msgstr "A <app>Vinagre</app> távoliasztal-megjelenítő bemutatása."
+#. (itstool) path: info/desc
+#: C/introduction.page:19
+#| msgid "Introduction to the <app>Vinagre</app> remote desktop viewer."
+msgid "Introduction to <app>Remote Desktop Viewer</app>."
+msgstr "A <app>Távoli asztalok megjelenítése</app> bemutatása."
 
-#: C/introduction.page:22(page/title)
+#. (itstool) path: page/title
+#: C/introduction.page:22
 msgid "Introduction"
 msgstr "Ismertető"
 
-#: C/introduction.page:24(page/p)
+#. (itstool) path: page/p
+#: C/introduction.page:24
 #| msgid ""
-#| "<app>Vinagre</app> is a remote desktop viewer application for the GNOME "
-#| "desktop which uses Virtual Network Computing (VNC), and other protocols, "
-#| "to remotely control another computer."
+#| "<app>Vinagre</app> is a remote desktop viewer application for GNOME for "
+#| "accessing other machines using Virtual Network Computing (VNC) and other "
+#| "protocols. It can be used to control and interact with another computer "
+#| "or to just view the desktop."
 msgid ""
-"<app>Vinagre</app> is a remote desktop viewer application for GNOME for "
-"accessing other machines using Virtual Network Computing (VNC) and other "
-"protocols. It can be used to control and interact with another computer or "
-"to just view the desktop."
+"<app>Remote Desktop Viewer</app> is a remote desktop viewer application for "
+"GNOME for accessing other machines using Virtual Network Computing (VNC) and "
+"other protocols. It can be used to control and interact with another "
+"computer or to just view the desktop."
 msgstr ""
-"A <app>Vinagre</app> egy távoliasztal-megjelenítő alkalmazás a GNOME "
+"A <app>Távoli asztalok megjelenítése</app> egy távoliasztal-megjelenítő "
+"alkalmazás a GNOME "
 "környezethez, amely VNC-vel és más protokollokkal használható más "
 "számítógépek távoli vezérlésére, vagy csupán az asztaluk megjelenítésére."
 
-#: C/introduction.page:29(page/p)
-msgid "<app>Vinagre</app> provides the following features:"
-msgstr "A <app>Vinagre</app> a következő szolgáltatásokat nyújtja:"
+#. (itstool) path: page/p
+#: C/introduction.page:29
+#| msgid "<app>Vinagre</app> provides the following features:"
+msgid "<app>Remote Desktop Viewer</app> provides the following features:"
+msgstr ""
+"A <app>Távoli asztalok megjelenítése</app> a következő szolgáltatásokat "
+"nyújtja:"
 
-#: C/introduction.page:31(item/p)
+#. (itstool) path: item/p
+#: C/introduction.page:31
 msgid "connect to several machines at the same time"
 msgstr "kapcsolódás egyszerre több géphez"
 
-#: C/introduction.page:32(item/p)
-#| msgid "store recent connections and allows them to be bookmarked"
+#. (itstool) path: item/p
+#: C/introduction.page:32
 msgid "store recent connections and bookmark them"
 msgstr "legutóbbi kapcsolatok tárolása könyvjelzőként"
 
-#: C/introduction.page:33(item/p)
-#| msgid "browse local network for machines"
+#. (itstool) path: item/p
+#: C/introduction.page:33
 msgid "browse the local network for other machines"
 msgstr "helyi hálózaton levő számítógépek tallózása"
 
-#: C/introduction.page:37(figure/title)
-#| msgid "<em>Vinagre in action</em>"
-msgid "Vinagre in action"
-msgstr "A Vinagre használat közben"
+#. (itstool) path: figure/title
+#: C/introduction.page:37
+#| msgid "Screenshot of Vinagre in action"
+msgid "Remote Desktop Viewer in action"
+msgstr ""
+"Képernyőkép a Távoli asztalok megjelenítése alkalmazásról használat közben"
 
-#: C/introduction.page:39(media/p)
-msgid "Vinagre running in GNOME 3, connected to a machine running GNOME 2"
-msgstr "A GNOME 3 alatt futó Vinagre egy GNOME 2-t futtató géphez kapcsolódva"
+#. (itstool) path: media/p
+#: C/introduction.page:39
+#| msgid "Vinagre running in GNOME 3, connected to a machine running GNOME 2"
+msgid ""
+"Remote Desktop Viewer running in GNOME 3, connected to a machine running "
+"GNOME 2"
+msgstr ""
+"A GNOME 3 alatt futó Távoli asztalok megjelenítése alkalmazás egy GNOME 2-t "
+"futtató géphez kapcsolódva"
 
-#: C/keyboard-shortcuts.page:19(info/desc)
+#. (itstool) path: p/link
+#: C/legal.xml:5
+#| msgid "Creative Commons Share Alike 3.0"
+msgid "Creative Commons Attribution-ShareAlike 3.0 Unported License"
+msgstr "Creative Commons Attribution-ShareAlike 3.0 Unported License"
+
+#. (itstool) path: license/p
+#: C/legal.xml:4
+msgid "This work is licensed under a <_:link-1/>."
+msgstr "Ez a munka a <_:link-1/> feltételei szerint használható."
+
+#. (itstool) path: info/desc
+#: C/keyboard-shortcuts.page:19
 msgid "Disable the sending of keyboard shortcuts to the remote machine."
 msgstr "Gyorsbillentyűk távoli gépre küldésének letiltása."
 
-#: C/keyboard-shortcuts.page:22(page/title)
+#. (itstool) path: page/title
+#: C/keyboard-shortcuts.page:23
 msgid "Keyboard shortcuts"
 msgstr "Gyorsbillentyűk"
 
-#: C/keyboard-shortcuts.page:24(page/p)
-#| msgid ""
-#| "You can enable or disable keyboard shortcuts by clicking "
-#| "<guiseq><gui>View</gui><gui>Keyboard shortcuts</gui></guiseq>."
+#. (itstool) path: page/p
+#: C/keyboard-shortcuts.page:25
 msgid ""
 "You can enable or disable keyboard shortcuts by selecting <guiseq><gui style="
 "\"menu\">View</gui> <gui style=\"menuitem\">Keyboard shortcuts</gui></"
 "guiseq>."
 msgstr ""
-"A gyorsbillentyűket a <guiseq><gui style=\"menu\">Nézet</gui> <gui "
-"style=\"menuitem\">Gyorsbillentyűk</gui></"
-"guiseq> menüpont kiválasztásával engedélyezheti vagy tilthatja le."
+"A gyorsbillentyűket a <guiseq><gui style=\"menu\">Nézet</gui> <gui style="
+"\"menuitem\">Gyorsbillentyűk</gui></guiseq> menüpont kiválasztásával "
+"engedélyezheti vagy tilthatja le."
 
-#: C/keyboard-shortcuts.page:28(page/p)
+#. (itstool) path: page/p
+#: C/keyboard-shortcuts.page:29
 #| msgid ""
 #| "Enabling this option allows the use of keyboard shortcuts (like "
-#| "<keyseq><key>Ctrl</key><key>D</key></keyseq>), menu accelerators and "
-#| "mnemonics (such as <keyseq><key>Alt</key><key>M</key></keyseq>), with "
+#| "<keyseq><key>Ctrl</key><key>N</key></keyseq>), menu accelerators (such as "
+#| "<keyseq><key>Alt</key><key>M</key></keyseq>) and mnemonics, with "
 #| "<app>Vinagre</app>. This means that <app>Vinagre</app> will catch those "
 #| "key combinations instead of sending them to the remote machine. This "
 #| "option is disabled by default because most of the time, you will be "
-#| "interacting with the computer which you have connected to."
+#| "interacting with the computer to which you are connected."
 msgid ""
 "Enabling this option allows the use of keyboard shortcuts (like "
 "<keyseq><key>Ctrl</key><key>N</key></keyseq>), menu accelerators (such as "
-"<keyseq><key>Alt</key><key>M</key></keyseq>) and mnemonics, with "
-"<app>Vinagre</app>. This means that <app>Vinagre</app> will catch those key "
-"combinations instead of sending them to the remote machine. This option is "
-"disabled by default because most of the time, you will be interacting with "
-"the computer to which you are connected."
+"<keyseq><key>Alt</key><key>M</key></keyseq>) and mnemonics, with <app>Remote "
+"Desktop Viewer</app>. This means that <app>Remote Desktop Viewer</app> will "
+"catch those key combinations instead of sending them to the remote machine. "
+"This option is disabled by default because most of the time, you will be "
+"interacting with the computer to which you are connected."
 msgstr ""
 "Ezen beállítás kiválasztása lehetővé teszi a gyorsbillentyűk (mint a "
 "<keyseq><key>Ctrl</key><key>N</key></keyseq>) és a hívóbetűk (mint az "
-"<keyseq><key>Alt</key><key>M</key></keyseq>) használatát a <app>Vinagre</"
-"app> programban. Ekkor a kombinációkat a <app>Vinagre</app> nem küldi el a "
+"<keyseq><key>Alt</key><key>M</key></keyseq>) használatát a <app>Távoli "
+"asztalok megjelenítése</"
+"app> programban. Ekkor a kombinációkat a <app>Távoli asztalok megjelenítése<"
+"/app> nem küldi el a "
 "távoli számítógépnek, hanem elfogja. Ez a beállítás alapesetben ki van "
 "kapcsolva, mert a legtöbb esetben a csatlakoztatott távoli számítógép "
 "irányítására van szükség."
 
-#: C/keyboard-shortcuts.page:37(note/p)
-#| msgid ""
-#| "When the <gui>Keyboard shortcuts</gui> option is disabled, "
-#| "<keyseq><key>Ctrl</key><key>Alt</key> <key>Delete</key></keyseq> is the "
-#| "only key combination which will not be sent to the remote desktop. Choose "
-#| "<guiseq><gui>Remote</gui><gui>Send Ctrl-Alt-Delete</gui></guiseq>, or use "
-#| "the corresponding toolbar button, to send this key combination."
+#. (itstool) path: note/p
+#: C/keyboard-shortcuts.page:38
 msgid ""
 "When the <gui>Keyboard shortcuts</gui> option is disabled, "
 "<keyseq><key>Ctrl</key><key>Alt</key><key>Delete</key></keyseq> is the only "
@@ -518,19 +545,21 @@ msgstr ""
 "Ha a <gui>Gyorsbillentyűk</gui> le vannak tiltva, akkor a <keyseq><key>Ctrl</"
 "key><key>Alt</key><key>Delete</key></keyseq> az egyetlen kombináció, amely "
 "nem használható a távoli számítógépen. Az elküldéséhez válassza a "
-"<guiseq><gui style=\"menu\">Távoli</gui> <gui style=\"menuitem\">Ctrl-Alt-Del "
-"küldése</gui></guiseq> menüpontot, "
-"vagy az eszköztár megfelelő gombját."
+"<guiseq><gui style=\"menu\">Távoli</gui> <gui style=\"menuitem\">Ctrl-Alt-"
+"Del küldése</gui></guiseq> menüpontot, vagy az eszköztár megfelelő gombját."
 
-#: C/scaling.page:19(info/desc)
+#. (itstool) path: info/desc
+#: C/scaling.page:19
 msgid "Scale the remote desktop to fit the display area."
 msgstr "Távoli asztal felbontásának beállítása a képernyő kitöltésére."
 
-#: C/scaling.page:22(page/title)
+#. (itstool) path: page/title
+#: C/scaling.page:22
 msgid "Scale the remote desktop"
 msgstr "Távoli asztal felbontásának beállítása"
 
-#: C/scaling.page:24(page/p)
+#. (itstool) path: page/p
+#: C/scaling.page:24
 msgid ""
 "Some protocols have an option to scale the remote desktop to fit your "
 "display area."
@@ -538,37 +567,31 @@ msgstr ""
 "Bizonyos kapcsolattípusoknál a távoli asztal felbontása a megjelenítési "
 "területhez igazítható."
 
-#: C/scaling.page:29(item/p)
-#| msgid ""
-#| "Choose <guiseq><gui>View</gui><gui>Scaling</gui></guiseq>, or click the "
-#| "<gui>Scaling</gui> toolbar button."
+#. (itstool) path: item/p
+#: C/scaling.page:29
 msgid ""
 "Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
 "\">Scaling</gui></guiseq>, or click the <gui>Scaling</gui> toolbar button."
 msgstr ""
-"Válassza a <guiseq><gui style=\"menu\">Nézet</gui> <gui style=\"menuitem\">"
-"Méretezés</gui></guiseq> menüpontot, "
-"vagy kattintson a <gui>Méretezés</gui> gombra az eszköztáron."
+"Válassza a <guiseq><gui style=\"menu\">Nézet</gui> <gui style=\"menuitem"
+"\">Méretezés</gui></guiseq> menüpontot, vagy kattintson a <gui>Méretezés</"
+"gui> gombra az eszköztáron."
 
-#: C/scaling.page:34(item/p)
-#| msgid ""
-#| "Select <guiseq><gui>View</gui><gui>Keep Aspect Ratio</gui></guiseq> if "
-#| "you want to constrain the aspect ratio of the remote desktop inside the "
-#| "display area, or deselect the option to stretch the remote desktop to "
-#| "fill the available space."
+#. (itstool) path: item/p
+#: C/scaling.page:34
 msgid ""
 "Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem\">Keep "
 "Aspect Ratio</gui></guiseq> if you want to constrain the aspect ratio of the "
 "remote desktop inside the display area, or deselect the option to stretch "
 "the remote desktop to fill the available space."
 msgstr ""
-"Válassza a <guiseq><gui style=\"menu\">Nézet</gui> <gui style=\"menuitem\">"
-"Méretarány megtartása</gui></guiseq> "
-"menüpontot, ekkor a távoli asztal képe megtartja eredeti méretarányait, vagy "
-"kapcsolja ki ezt a beállítást, ekkor a távoli asztal képe kitölti a teljes "
-"rendelkezésre álló helyet."
+"Válassza a <guiseq><gui style=\"menu\">Nézet</gui> <gui style=\"menuitem"
+"\">Méretarány megtartása</gui></guiseq> menüpontot, ekkor a távoli asztal "
+"képe megtartja eredeti méretarányait, vagy kapcsolja ki ezt a beállítást, "
+"ekkor a távoli asztal képe kitölti a teljes rendelkezésre álló helyet."
 
-#: C/scaling.page:40(note/p)
+#. (itstool) path: note/p
+#: C/scaling.page:40
 msgid ""
 "This option can be toggled only if <gui>Scaling</gui> has already been "
 "enabled."
@@ -576,53 +599,49 @@ msgstr ""
 "Ez a beállítás csak akkor érhető el, ha a <gui>Méretezés</gui> engedélyezve "
 "van."
 
-#: C/take-screenshot.page:19(info/desc)
+#. (itstool) path: info/desc
+#: C/take-screenshot.page:19
 msgid "Take a screenshot of a remote desktop."
 msgstr "Képernyőkép készítése a távoli asztalról."
 
-#: C/take-screenshot.page:22(page/title)
+#. (itstool) path: page/title
+#: C/take-screenshot.page:22
 msgid "Take a screenshot"
 msgstr "Képernyőkép készítése"
 
-#: C/take-screenshot.page:24(page/p)
+#. (itstool) path: page/p
+#: C/take-screenshot.page:24
 #| msgid ""
-#| "You can take screenshots of only the desktop you have connected to by "
+#| "You can take screenshots of only the desktop that you are connected to by "
 #| "using the tool provided by <app>Vinagre</app>."
 msgid ""
 "You can take screenshots of only the desktop that you are connected to by "
-"using the tool provided by <app>Vinagre</app>."
+"using the tool provided by <app>Remote Desktop Viewer</app>."
 msgstr ""
-"A <app>Vinagre</app> által biztosított eszközzel csak a csatlakoztatott "
+"A <app>Távoli asztalok megjelenítése</app> által biztosított eszközzel csak a "
+"csatlakoztatott "
 "asztalról készíthet képernyőképeket."
 
-#: C/take-screenshot.page:29(item/p)
-#| msgid ""
-#| "Choose <guiseq><gui>Remote</gui><gui>Take screenshot</gui></guiseq>, or "
-#| "click the <gui>Take Screenshot</gui> button in the toolbar."
+#. (itstool) path: item/p
+#: C/take-screenshot.page:29
 msgid ""
 "Select <guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem\">Take "
 "screenshot</gui></guiseq>, or click the <gui>Take Screenshot</gui> button in "
 "the toolbar."
 msgstr ""
-"Válassza a <guiseq><gui style=\"menu\">Távoli</gui> <gui style=\"menuitem\">"
-"Képernyőkép készítése</gui></guiseq> "
-"menüpontot, vagy kattintson a <gui>Képernyőkép készítése</gui> gombra az "
-"eszköztáron."
+"Válassza a <guiseq><gui style=\"menu\">Távoli</gui> <gui style=\"menuitem"
+"\">Képernyőkép készítése</gui></guiseq> menüpontot, vagy kattintson a "
+"<gui>Képernyőkép készítése</gui> gombra az eszköztáron."
 
-#: C/take-screenshot.page:34(item/p)
-#| msgid ""
-#| "In the <gui>Name</gui> field, enter the name you want the screenshot to "
-#| "be saved under."
+#. (itstool) path: item/p
+#: C/take-screenshot.page:34
 msgid ""
 "In the <gui>Name</gui> field, enter the filename that you want the "
 "screenshot to be saved under."
 msgstr "A <gui>Név</gui> mezőben adja meg a mentendő képernyőkép fájlnevét."
 
-#: C/take-screenshot.page:38(item/p)
-#| msgid ""
-#| "From the <gui>Save in folder</gui> drop down list, select the folder you "
-#| "want the screenshot to be saved in. You can also click <gui>Browse for "
-#| "other folder</gui> to select one which is not in the drop down list."
+#. (itstool) path: item/p
+#: C/take-screenshot.page:38
 msgid ""
 "From the <gui>Save in folder</gui> drop down list, select the folder that "
 "you want the screenshot to be saved in. You can also click <gui>Browse for "
@@ -632,25 +651,24 @@ msgstr ""
 "Ha nem találja a kívánt mappát, akkor kattintson az <gui>Egyéb mappák "
 "böngészése</gui> elemre, és válassza ki a kívánt mappát."
 
-#: C/take-screenshot.page:44(item/p)
-#| msgid "Click <gui>Save</gui> to save the screenshot."
+#. (itstool) path: item/p
+#: C/take-screenshot.page:44
 msgid "Click <gui style=\"button\">Save</gui> to save the screenshot."
 msgstr ""
 "Kattintson a <gui style=\"button\">Mentés</gui> gombra a kép elmentéséhez."
 
-#: C/view-only.page:19(info/desc)
+#. (itstool) path: info/desc
+#: C/view-only.page:19
 msgid "Disable interaction with the remote desktop."
 msgstr "A távoli asztal irányításának letiltása."
 
-#: C/view-only.page:22(page/title)
-#| msgid "View only mode"
+#. (itstool) path: page/title
+#: C/view-only.page:22
 msgid "View-only mode"
 msgstr "Csak megtekintés mód"
 
-#: C/view-only.page:24(page/p)
-#| msgid ""
-#| "Some protocols allow you to enable a <gui>View Only</gui> mode. This mode "
-#| "allows you to block all interaction with the remote."
+#. (itstool) path: page/p
+#: C/view-only.page:24
 msgid ""
 "Some protocols allow you to enable a <gui>View Only</gui> mode. This mode "
 "allows you to disable all interaction with the remote."
@@ -658,18 +676,26 @@ msgstr ""
 "Egyes kapcsolattípusoknál engedélyezhető a <gui>Csak megtekintés</gui> mód. "
 "Ebben a módban teljesen letilthatja a távoli asztal használatát."
 
-#: C/view-only.page:26(page/p)
-#| msgid ""
-#| "Choose <guiseq><gui>View</gui><gui>View Only</gui></guiseq> or click the "
-#| "corresponding toolbar button to enable this mode."
+#. (itstool) path: page/p
+#: C/view-only.page:26
 msgid ""
 "Choose <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem\">View "
 "Only</gui></guiseq> or click the corresponding toolbar button to enable this "
 "mode."
 msgstr ""
-"Válassza a <guiseq><gui style=\"menu\">Nézet</gui> <gui style=\"menuitem\">"
-"Csak megtekintés</gui></guiseq> "
-"menüpontot, vagy kattintson az eszköztár megfelelő gombjára."
+"Válassza a <guiseq><gui style=\"menu\">Nézet</gui> <gui style=\"menuitem"
+"\">Csak megtekintés</gui></guiseq> menüpontot, vagy kattintson az eszköztár "
+"megfelelő gombjára."
+
+#~ msgid "Vinagre Help"
+#~ msgstr "A Vinagre súgója"
+
+#~ msgid "Using Vinagre's options and features"
+#~ msgstr "A Vinagre beállításai és szolgáltatásai"
+
+#~| msgid "<em>Vinagre in action</em>"
+#~ msgid "Vinagre in action"
+#~ msgstr "A Vinagre használat közben"
 
 #~| msgid ""
 #~| "@@image: 'figures/vinagre-connect-dialog.png'; "
@@ -719,10 +745,6 @@ msgstr ""
 #~ msgstr ""
 #~ "A <app>Vinagre</app> használható egy másik számítógép irányítására és "
 #~ "asztalának vezérlésére."
-
-#~| msgid "Vinagre in action"
-#~ msgid "Screenshot of Vinagre in action"
-#~ msgstr "Képernyőkép a Vinagreról használat közben"
 
 #~| msgid ""
 #~| "@@image: 'figures/vinagre-reverse-connections.png'; "
