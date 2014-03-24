@@ -3,7 +3,7 @@
 HELP_ID = vinagre
 
 HELP_MEDIA = \
-	preferences-desktop-remote-desktop.png \
+	figures/preferences-desktop-remote-desktop.png \
 	figures/vinagre-connected.png
 
 HELP_FILES = \
