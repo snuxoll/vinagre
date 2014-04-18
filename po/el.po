@@ -12,18 +12,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre.HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=vinagr"
-"e&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-10-14 14:26+0000\n"
-"PO-Revision-Date: 2013-10-24 17:31+0300\n"
-"Last-Translator: Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=vinagre&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-04-18 11:45+0000\n"
+"PO-Revision-Date: 2014-04-18 20:42+0200\n"
+"Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
 "Language-Team: team@gnome.gr\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
+"X-Generator: Poedit 1.6.4\n"
 "X-Project-Style: gnome\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
@@ -96,10 +96,24 @@ msgstr ""
 "Ορίστε την τιμή ως \"αληθής\" για να εκκινείτε πάντα το πρόγραμμα ακρόασης "
 "για τις αντίστροφες συνδέσεις."
 
+#: ../data/vinagre.appdata.xml.in.h:1
+msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
+msgstr ""
+"Το Vinagre δείχνει απομακρυσμένες επιφάνειες εργασίας Windows, Mac OS X και "
+"GNU/Linux."
+
+#: ../data/vinagre.appdata.xml.in.h:2
+msgid ""
+"It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
+"SSH servers."
+msgstr ""
+"Χρησιμοποιεί τα πρωτόκολλα VNC, RDP και SPICE, και μπορεί ακόμη και να "
+"χρησιμοποιηθεί για σύνδεση με διακομιστές SSH."
+
 #: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
 #: ../vinagre/vinagre-main.c:182
 msgid "Remote Desktop Viewer"
-msgstr "Σύνδεση απομακρυσμένης επιφ. εργασίας"
+msgstr "Πρόγραμμα εμφάνισης απομακρυσμένης επιφάνειας εργασίας"
 
 #: ../data/vinagre.desktop.in.in.h:2 ../data/vinagre-file.desktop.in.in.h:2
 msgid "Access remote desktops"
@@ -127,6 +141,7 @@ msgstr ""
 " Σωτηρία Τζιούρη <sotitz@gmail.com>\n"
 " Τζένη Πετούμενου <epetoumenou@gmail.com>\n"
 " Τουρνάρης Παύλος-Πέτρος <p.tournaris@gmail.com>\n"
+" Μαρία Θουκυδίδου <marablack3@gmail.com>\n"
 "\n"
 "Για περισσότερα δείτε http://www.gnome.gr/"
 
@@ -307,7 +322,6 @@ msgstr "_Πλάτος:"
 
 #. Translators: This is the tooltip for the width field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:138
-#| msgid "Connect to a remote desktop"
 msgid "Set width of the remote desktop"
 msgstr "Ορισμός πλάτους στην απομακρυσμένη επιφάνεια εργασίας"
 
@@ -318,7 +332,6 @@ msgstr "Ύ_ψος:"
 
 #. Translators: This is the tooltip for the height field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:154
-#| msgid "Connect to a remote desktop"
 msgid "Set height of the remote desktop"
 msgstr "Ορισμός ύψους στην απομακρυσμένη επιφάνεια εργασίας"
 
@@ -336,7 +349,7 @@ msgstr "Σφάλμα κατά την εκτέλεση του xfreerdp"
 #: ../vinagre/vinagre-bookmarks.c:492
 #: ../vinagre/vinagre-bookmarks-migration.c:135
 #: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
-#: ../vinagre/vinagre-connect.c:500 ../vinagre/vinagre-options.c:85
+#: ../vinagre/vinagre-connect.c:510 ../vinagre/vinagre-options.c:85
 #: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
 #: ../vinagre/vinagre-window.c:798
 msgid "Unknown error"
@@ -861,17 +874,17 @@ msgid_plural "The following files could not be opened:"
 msgstr[0] "Το αρχείο δεν μπόρεσε να προσπελαστεί:"
 msgstr[1] "Τα αρχεία αυτά δεν μπόρεσαν να προσπελαστούν:"
 
-#: ../vinagre/vinagre-connect.c:90 ../vinagre/vinagre-connect.c:336
-#: ../vinagre/vinagre-connect.c:464
+#: ../vinagre/vinagre-connect.c:91 ../vinagre/vinagre-connect.c:344
+#: ../vinagre/vinagre-connect.c:474
 msgid "Could not get the active protocol from the protocol list."
 msgstr "Αδύνατη η λήψη του ενεργού πρωτοκόλλου από την λίστα πρωτοκόλλων."
 
-#: ../vinagre/vinagre-connect.c:317
+#: ../vinagre/vinagre-connect.c:318
 #, c-format
 msgid "Error while saving history file: %s"
 msgstr "Σφάλμα κατά την αποθήκευση του αρχείου ιστορικού: %s"
 
-#: ../vinagre/vinagre-connect.c:352
+#: ../vinagre/vinagre-connect.c:360
 msgid "Choose a Remote Desktop"
 msgstr "Επιλέξτε μια απομακρυσμένη επιφάνεια εργασίας"
 
@@ -1134,7 +1147,6 @@ msgstr "Σφάλμα κατά την αποθήκευση της πρόσφατ�
 
 #: ../vinagre/vinagre-tab.c:781
 #, c-format
-#| msgid "Remote desktop password: %s"
 msgid "Remote desktop password for %s"
 msgstr "Κωδικός απομακρυσμένης επιφάνειας εργασίας %s"
 
