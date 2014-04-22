@@ -1,23 +1,23 @@
 # This file is distributed under the same license as the vinagre package.
 #
 # Nana Suryana <nana@suryana.or.id>, 2010.
-# Dirgita <dirgitadevina@yahoo.co.id>, 2010, 2011, 2012.
+# Dirgita <dirgitadevina@yahoo.co.id>, 2010, 2011, 2012, 2014.
 # Andika Triwidada <andika@gmail.com>, 2011, 2012, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-03-16 23:49+0000\n"
-"PO-Revision-Date: 2014-03-17 12:33+0700\n"
-"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
-"Language-Team: Indonesian <gnome@i15n.org>\n"
+"POT-Creation-Date: 2014-04-05 11:26+0000\n"
+"PO-Revision-Date: 2014-04-09 05:31+0700\n"
+"Last-Translator: Dirgita <dirgitadevina@yahoo.co.id>\n"
+"Language-Team: Indonesian <gnome-l10n-id@googlegroups.com>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
 msgid "Whether we should leave other clients connected"
@@ -372,7 +372,7 @@ msgstr "Akses Unix/Linux, Windows dan desktop jauh lainnya."
 #: ../plugins/vnc/vinagre-vnc-plugin.c:147
 #: ../plugins/spice/vinagre-spice-plugin.c:101
 msgid "Could not parse the file."
-msgstr "Tidak dapat menguraikan berkas."
+msgstr "Tak dapat menguraikan berkas."
 
 #. Translators: Do not translate "Connection". It's the name of a group in the .vnc (.ini like) file.
 #: ../plugins/vnc/vinagre-vnc-plugin.c:155
@@ -541,7 +541,7 @@ msgstr "Menjaga rasio aspek layar ketika menggunakan skala"
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
 #: ../plugins/spice/vinagre-spice-tab.c:508
 msgid "Does not send mouse and keyboard events"
-msgstr "Tidak mengirimkan aktifitas mouse dan keyboard"
+msgstr "Tak mengirimkan aktifitas mouse dan keyboard"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:644
 msgid "_Original size"
@@ -604,7 +604,7 @@ msgstr ""
 #: ../plugins/spice/vinagre-spice-tunnel.c:103
 #, c-format
 msgid "Unable to find a free TCP port"
-msgstr "Tidak dapat menemukan port TCP bebas"
+msgstr "Tak menemukan port TCP bebas"
 
 #. Translators: Do not translate "connection". It's the name of a group in the .spice (.ini like) file.
 #: ../plugins/spice/vinagre-spice-plugin.c:108
@@ -745,7 +745,7 @@ msgstr "Migrasi dibatalkan"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:259
 msgid "Could not remove the old bookmarks file"
-msgstr "Tidak dapat menghapus berkas penanda alamat lama"
+msgstr "Tak dapat menghapus berkas penanda alamat lama"
 
 #: ../vinagre/vinagre-bookmarks-tree.c:120
 msgid "Root Folder"
@@ -811,14 +811,14 @@ msgstr "Pilih berkas"
 
 #: ../vinagre/vinagre-commands.c:139
 msgid "There are no supported files"
-msgstr "Tidak ada berkas yang didukung"
+msgstr "Tak ada berkas yang didukung"
 
 #: ../vinagre/vinagre-commands.c:140
 msgid ""
 "None of the active plugins support this action. Activate some plugins and "
 "try again."
 msgstr ""
-"Tidak ada pengaya aktif yang mendukung aksi ini. Aktifkan beberapa pengaya "
+"Tak ada pengaya aktif yang mendukung aksi ini. Aktifkan beberapa pengaya "
 "dan coba lagi."
 
 #: ../vinagre/vinagre-commands.c:174
@@ -829,7 +829,7 @@ msgstr[0] "Berkas berikut tidak dapat dibuka:"
 #: ../vinagre/vinagre-connect.c:91 ../vinagre/vinagre-connect.c:344
 #: ../vinagre/vinagre-connect.c:474
 msgid "Could not get the active protocol from the protocol list."
-msgstr "Tidak dapat memperoleh protokol aktif dari daftar protokol."
+msgstr "Tak dapat memperoleh protokol aktif dari daftar protokol."
 
 #: ../vinagre/vinagre-connect.c:318
 #, c-format
@@ -848,7 +848,7 @@ msgstr "Protokol %s tidak didukung."
 
 #: ../vinagre/vinagre-connection.c:722
 msgid "Could not open the file."
-msgstr "Tidak dapat membuka berkas."
+msgstr "Tak dapat membuka berkas."
 
 #: ../vinagre/vinagre-connection.c:748
 msgid "The file was not recognized by any of the plugins."
@@ -958,7 +958,7 @@ msgstr[0] "Kesalahan berikut muncul:"
 
 #: ../vinagre/vinagre-prefs.c:83
 msgid "Cannot initialize preferences manager."
-msgstr "Tidak dapat menginisialisasi manajer preferensi."
+msgstr "Tak dapat menginisialisasi manajer preferensi."
 
 #: ../vinagre/vinagre-reverse-vnc-listener-dialog.c:103
 msgid "IPv4:"
@@ -997,12 +997,12 @@ msgstr "Timeout saat login ke host SSH"
 
 #: ../vinagre/vinagre-ssh.c:191
 msgid "Unable to spawn ssh program"
-msgstr "Tidak dapat melakukan spawn program ssh"
+msgstr "Tak dapat melakukan spawn program ssh"
 
 #: ../vinagre/vinagre-ssh.c:208
 #, c-format
 msgid "Unable to spawn ssh program: %s"
-msgstr "Tidak dapat untuk spawn program ssh: %s"
+msgstr "Tak dapat untuk spawn program ssh: %s"
 
 #: ../vinagre/vinagre-ssh.c:424
 msgid "Timed out when logging in"
@@ -1019,7 +1019,7 @@ msgstr "Dialog sandi dibatalkan"
 
 #: ../vinagre/vinagre-ssh.c:530
 msgid "Could not send password"
-msgstr "Tidak dapat mengirim sandi"
+msgstr "Tak dapat mengirim sandi"
 
 #: ../vinagre/vinagre-ssh.c:538
 msgid "Log In Anyway"
@@ -1050,7 +1050,7 @@ msgstr "Dialog log masuk dibatalkan"
 
 #: ../vinagre/vinagre-ssh.c:586
 msgid "Can't send host identity confirmation"
-msgstr "Tidak dapat mengirim konfirmasi Identitas host"
+msgstr "Tak dapat mengirim konfirmasi Identitas host"
 
 #. Login succeed, save password in keyring
 #: ../vinagre/vinagre-ssh.c:605
@@ -1068,7 +1068,7 @@ msgstr "Hostname tidak diketahui"
 
 #: ../vinagre/vinagre-ssh.c:708
 msgid "No route to host"
-msgstr "rute Tidak untuk host"
+msgstr "rute Tak untuk host"
 
 #: ../vinagre/vinagre-ssh.c:716
 msgid "Connection refused by server"
@@ -1080,7 +1080,7 @@ msgstr "Host tombol gagal verifikasi"
 
 #: ../vinagre/vinagre-ssh.c:764
 msgid "Unable to find a valid SSH program"
-msgstr "Tidak dapat menemukan program SSH yang valid"
+msgstr "Tak menemukan program SSH yang valid"
 
 #: ../vinagre/vinagre-tab.c:354
 msgid "Disconnect"
@@ -1101,7 +1101,7 @@ msgstr "Sandi desktop remote bagi %s"
 
 #: ../vinagre/vinagre-tab.c:897
 msgid "Could not get a screenshot of the connection."
-msgstr "Tidak bisa mendapatkan cuplikan layar dari koneksi."
+msgstr "Tak dapat mendapatkan cuplikan layar dari koneksi."
 
 #: ../vinagre/vinagre-tab.c:902
 msgid "Save Screenshot"
@@ -1293,7 +1293,7 @@ msgstr "Galat sewaktu menampilkan bantuan"
 #: ../vinagre/vinagre-window.c:390
 #, c-format
 msgid "Could not merge UI XML file: %s"
-msgstr "Tidak dapat menggabungkan berkas UI XML: %s"
+msgstr "Tak dapat menggabungkan berkas UI XML: %s"
 
 #: ../vinagre/vinagre-window.c:421
 msgid "_Recent Connections"
@@ -1325,3 +1325,5 @@ msgstr "Aktifkan pintasan"
 #, c-format
 msgid "Error while creating the file %s: %s"
 msgstr "Kesalahan saat membuat berkas %s: %s"
+
+
