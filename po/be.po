@@ -1,12 +1,13 @@
 # Kasia Bondarava <kasia.bondarava@gmail.com>, 2012.
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-09-03 16:43+0000\n"
+"POT-Creation-Date: 2014-05-04 10:37+0000\n"
 "PO-Revision-Date: 2012-09-07 18:01+0300\n"
-"Last-Translator: Kasia Bondarava <kasia.bondarava@gmail.com>\n"
+"Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
@@ -77,6 +78,17 @@ msgid ""
 msgstr ""
 "Настаўце як \"праўда\", каб праграма заўсёды чакала зваротныя злучэнні пры "
 "запуску."
+
+#: ../data/vinagre.appdata.xml.in.h:1
+msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
+msgstr "Vinagre паказвае аддаленыя сеансы Windows, Mac OS X ды Linux."
+
+#: ../data/vinagre.appdata.xml.in.h:2
+msgid ""
+"It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
+"SSH servers."
+msgstr ""
+"Праграма выкарыстоўвае пратаколы VNC, RDP і SPICE, а нават дазваляе злучацца з серверамі праз SSH."
 
 #: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
 #: ../vinagre/vinagre-main.c:182
@@ -299,7 +311,7 @@ msgstr "Памылка запуску xfreerdp"
 #: ../vinagre/vinagre-bookmarks.c:492
 #: ../vinagre/vinagre-bookmarks-migration.c:135
 #: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
-#: ../vinagre/vinagre-connect.c:500 ../vinagre/vinagre-options.c:85
+#: ../vinagre/vinagre-connect.c:510 ../vinagre/vinagre-options.c:85
 #: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
 #: ../vinagre/vinagre-window.c:798
 msgid "Unknown error"
@@ -801,17 +813,17 @@ msgstr[0] "Немагчыма адкрыць наступны файл:"
 msgstr[1] "Немагчыма адкрыць наступныя файлы:"
 msgstr[2] "Немагчыма адкрыць наступныя файлы:"
 
-#: ../vinagre/vinagre-connect.c:90 ../vinagre/vinagre-connect.c:336
-#: ../vinagre/vinagre-connect.c:464
+#: ../vinagre/vinagre-connect.c:91 ../vinagre/vinagre-connect.c:344
+#: ../vinagre/vinagre-connect.c:474
 msgid "Could not get the active protocol from the protocol list."
 msgstr "Немагчыма атрымаць значэнне актыўнага пратакола са спіса пратаколаў."
 
-#: ../vinagre/vinagre-connect.c:317
+#: ../vinagre/vinagre-connect.c:318
 #, c-format
 msgid "Error while saving history file: %s"
 msgstr "Памылка запісу файла гісторыі: %s"
 
-#: ../vinagre/vinagre-connect.c:352
+#: ../vinagre/vinagre-connect.c:360
 msgid "Choose a Remote Desktop"
 msgstr "Выбар аддаленага стала"
 
