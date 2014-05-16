@@ -91,16 +91,17 @@ vinagre_ssh_tab_constructed (GObject *object)
   arg[i++] = g_strdup (vinagre_connection_get_host (conn));
   arg[i++] = NULL;
 
-  vte_terminal_fork_command_full (VTE_TERMINAL (ssh_tab->priv->vte),
-				  0,
-				  NULL,
-				  arg,
-				  NULL,
-				  G_SPAWN_SEARCH_PATH,
-				  NULL,
-				  NULL,
-				  NULL,
-				  NULL);
+  vte_terminal_spawn_sync (VTE_TERMINAL (ssh_tab->priv->vte),
+                           0,
+                           NULL,
+                           arg,
+                           NULL,
+                           G_SPAWN_SEARCH_PATH,
+                           NULL,
+                           NULL,
+                           NULL,
+                           NULL,
+                           NULL);
   g_strfreev (arg);
   gtk_widget_show_all (GTK_WIDGET (ssh_tab));
 
@@ -123,7 +124,7 @@ vinagre_ssh_tab_class_init (VinagreSshTabClass *klass)
 }
 
 static void
-ssh_disconnected_cb (VteTerminal *ssh, VinagreSshTab *tab)
+ssh_disconnected_cb (VteTerminal *ssh, gint exit_code, VinagreSshTab *tab)
 {
   g_signal_emit_by_name (G_OBJECT (tab), "tab-disconnected");
 }

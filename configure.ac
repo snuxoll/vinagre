@@ -36,7 +36,7 @@ GTK_VNC_DEPS="gtk-vnc-2.0 >= 0.4.3"
 XML2_DEPS="libxml-2.0 >= 2.6.31"
 
 # Whether to enable support for SSH.
-SSH_DEPS="vte-2.90 >= 0.20 $XML2_DEPS"
+SSH_DEPS="vte-2.91 >= 0.20 $XML2_DEPS"
 
 AC_ARG_ENABLE([ssh],
   [AS_HELP_STRING([--disable-ssh],
