@@ -1,3 +1,28 @@
+Vinagre 3.13.2
+==============
+
+Anders Jonsson (1):
+      Updated Swedish translation
+
+Carles Ferrando (1):
+      [l10n] Updated Catalan (Valencian) translation
+
+Debarshi Ray (1):
+      Port to vte-2.91 API
+
+Ihar Hrachyshka (1):
+      Updated Belarusian translation.
+
+Matej Urbančič (1):
+      Updated Slovenian translation
+
+Matthias Clasen (1):
+      Drop gnome-icon-theme dependency
+
+marablack3 (2):
+      Updated Greek translation
+      Updated Greek translation
+
 Vinagre 3.12.0
 ==============
 
