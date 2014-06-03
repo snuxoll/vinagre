@@ -4,15 +4,15 @@
 #
 # Baris Cicek <baris@teamforce.name.tr>, 2008, 2009, 2011.
 # Emin Tufan <etcetin@gmail.com>, 2013.
-# Muhammet Kara <muhammetk@gmail.com>, 2011, 2012, 2013.
+# Muhammet Kara <muhammetk@gmail.com>, 2011, 2012, 2013, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Vinagre\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-09-28 14:42+0000\n"
-"PO-Revision-Date: 2013-09-28 17:47+0300\n"
+"POT-Creation-Date: 2014-06-03 10:36+0000\n"
+"PO-Revision-Date: 2014-06-04 02:12+0200\n"
 "Last-Translator: Muhammet Kara <muhammetk@gmail.com>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
 "Language: tr\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"X-Generator: Poedit 1.6.5\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
 msgid "Whether we should leave other clients connected"
@@ -86,6 +86,18 @@ msgid ""
 msgstr ""
 "Programın her açılışında tersine bağlantıları dinlemesi için \"doğru\" "
 "olarak ayarlayın."
+
+#: ../data/vinagre.appdata.xml.in.h:1
+msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
+msgstr "Vinagre uzak Windows, Mac OS X ve Linux masaüstlerini gösterir."
+
+#: ../data/vinagre.appdata.xml.in.h:2
+msgid ""
+"It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
+"SSH servers."
+msgstr ""
+"VNC, RDP ve SPICE iletişim kurallarını kullanır ve SSH sunucularına "
+"bağlanmak için bile kullanılabilir."
 
 #: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
 #: ../vinagre/vinagre-main.c:182
@@ -282,7 +294,6 @@ msgstr "_Genişlik:"
 
 #. Translators: This is the tooltip for the width field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:138
-#| msgid "Connect to this remote desktop"
 msgid "Set width of the remote desktop"
 msgstr "Uzak masaüstünün genişliğini ayarlayın"
 
@@ -293,7 +304,6 @@ msgstr "_Yükseklik:"
 
 #. Translators: This is the tooltip for the height field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:154
-#| msgid "Connect to this remote desktop"
 msgid "Set height of the remote desktop"
 msgstr "Uzak masaüstünün yüksekliğini ayarlayın"
 
@@ -304,7 +314,6 @@ msgid "Port:"
 msgstr "Port:"
 
 #: ../plugins/rdp/vinagre-rdp-tab.c:139
-#| msgid "Error while executing rdesktop"
 msgid "Error while executing xfreerdp"
 msgstr "xfreerdp yürütülürken hata oluştu"
 
@@ -312,7 +321,7 @@ msgstr "xfreerdp yürütülürken hata oluştu"
 #: ../vinagre/vinagre-bookmarks.c:492
 #: ../vinagre/vinagre-bookmarks-migration.c:135
 #: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
-#: ../vinagre/vinagre-connect.c:500 ../vinagre/vinagre-options.c:85
+#: ../vinagre/vinagre-connect.c:510 ../vinagre/vinagre-options.c:85
 #: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
 #: ../vinagre/vinagre-window.c:798
 msgid "Unknown error"
@@ -812,17 +821,17 @@ msgid "The following file could not be opened:"
 msgid_plural "The following files could not be opened:"
 msgstr[0] "Aşağıdaki dosya açılamadı."
 
-#: ../vinagre/vinagre-connect.c:90 ../vinagre/vinagre-connect.c:336
-#: ../vinagre/vinagre-connect.c:464
+#: ../vinagre/vinagre-connect.c:91 ../vinagre/vinagre-connect.c:344
+#: ../vinagre/vinagre-connect.c:474
 msgid "Could not get the active protocol from the protocol list."
 msgstr "İletişim kuralları listesinden etkin iletişim kuralı alınamadı."
 
-#: ../vinagre/vinagre-connect.c:317
+#: ../vinagre/vinagre-connect.c:318
 #, c-format
 msgid "Error while saving history file: %s"
 msgstr "Geçmiş dosyası kaydederken hata: %s"
 
-#: ../vinagre/vinagre-connect.c:352
+#: ../vinagre/vinagre-connect.c:360
 msgid "Choose a Remote Desktop"
 msgstr "Uzak Masaüstü Seçin"
 
@@ -1082,7 +1091,6 @@ msgstr "Son bağlantı kaydedilirken hata."
 
 #: ../vinagre/vinagre-tab.c:781
 #, c-format
-#| msgid "Remote desktop password: %s"
 msgid "Remote desktop password for %s"
 msgstr "%s için uzak masaüstü parolası"
 
