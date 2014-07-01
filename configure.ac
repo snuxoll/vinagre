@@ -58,14 +58,16 @@ AS_IF([test "x$have_ssh" = "xyes"],
 AM_CONDITIONAL([VINAGRE_ENABLE_SSH], [test "x$have_ssh" = "xyes"])
 
 # Whether to enable support for RDP.
-RDP_DEPS="$XML2_DEPS"
+RDP_DEPS="freerdp x11"
 AC_ARG_ENABLE([rdp],
   [AS_HELP_STRING([--disable-rdp],
     [Disable Remote Desktop Protocol (RDP) support])])
 
 AS_IF([test "x$enable_rdp" != "xno"],
   [PKG_CHECK_EXISTS([$RDP_DEPS],
-    [have_rdp=yes],
+    [have_rdp=yes
+     PKG_CHECK_EXISTS(freerdp >= 1.1,
+       [AC_DEFINE([HAVE_FREERDP_1_1], [1], [FreeRDP is of version 1.1 or newer])], [])],
     [have_rdp=no])],
   [have_rdp=no])
 
@@ -73,7 +75,7 @@ AS_IF([test "x$have_rdp" = "xyes"],
   [AC_DEFINE([VINAGRE_ENABLE_RDP], [], [Build with RDP support])],
   [RDP_DEPS=""
     AS_IF([test "x$enable_rdp" = "xyes"],
-      [AC_MSG_ERROR([RDP support requested by required dependencies not found])])])
+      [AC_MSG_ERROR([RDP support requested but required dependencies not found])])])
 
 AM_CONDITIONAL([VINAGRE_ENABLE_RDP], [test "x$have_rdp" = "xyes"])
 
@@ -164,7 +166,7 @@ AS_IF([test "x$have_telepathy" = "xyes"],
 AM_CONDITIONAL([VINAGRE_HAVE_TELEPATHY_GLIB], [test "x$have_telepathy" = "xyes"])
 
 # Check required libraries
-PKG_CHECK_MODULES([VINAGRE], [$GLIB_DEPS $GTHREAD_DEPS $GTK_DEPS libsecret-1 $XML2_DEPS $AVAHI_DEPS $TELEPATHY_GLIB_DEPS $SSH_DEPS])
+PKG_CHECK_MODULES([VINAGRE], [$GLIB_DEPS $GTHREAD_DEPS $GTK_DEPS libsecret-1 $XML2_DEPS $AVAHI_DEPS $TELEPATHY_GLIB_DEPS $SSH_DEPS $RDP_DEPS])
 
 PKG_CHECK_MODULES([VNC], [$GTK_VNC_DEPS $GTK_DEPS $XML2_DEPS])
 
