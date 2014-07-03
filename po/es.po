@@ -10,16 +10,16 @@ msgstr ""
 "Project-Id-Version: vinagre.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-02-17 12:18+0000\n"
-"PO-Revision-Date: 2014-02-17 16:32+0100\n"
+"POT-Creation-Date: 2014-07-02 22:43+0000\n"
+"PO-Revision-Date: 2014-07-03 12:56+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: Español <gnome-es-list@gnome.org>\n"
+"Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 2.91.5\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Gtranslator 2.91.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
 msgid "Whether we should leave other clients connected"
@@ -134,7 +134,7 @@ msgstr "_Autenticar"
 msgid "Authentication is required"
 msgstr "Se necesita autenticación"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:54
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:120
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
 #: ../plugins/spice/vinagre-spice-tab.c:139
 msgid "Host:"
@@ -150,89 +150,93 @@ msgid "_Password:"
 msgstr "_Contraseña:"
 
 #: ../data/vinagre.ui.h:10
+msgid "_Domain:"
+msgstr "_Dominio:"
+
+#: ../data/vinagre.ui.h:11
 msgid "_Remember this credential"
 msgstr "_Recordar estas credenciales"
 
-#: ../data/vinagre.ui.h:11
+#: ../data/vinagre.ui.h:12
 msgid "Store the login credential in GNOME Keyring"
 msgstr ""
 "Guardar las credenciales de inicio de sesión en el depósito de claves de "
 "GNOME."
 
-#: ../data/vinagre.ui.h:12
+#: ../data/vinagre.ui.h:13
 msgid "Bookmarks"
 msgstr "Marcadores"
 
-#: ../data/vinagre.ui.h:13
+#: ../data/vinagre.ui.h:14
 msgid "Connection"
 msgstr "Conexión"
 
 #. Translators: This is the name of a bookmark. It appears in the add/edit bookmark dialog.
-#: ../data/vinagre.ui.h:15
+#: ../data/vinagre.ui.h:16
 msgid "_Name:"
 msgstr "_Nombre:"
 
-#: ../data/vinagre.ui.h:16
+#: ../data/vinagre.ui.h:17
 msgid "_Host:"
 msgstr "_Equipo:"
 
-#: ../data/vinagre.ui.h:17
+#: ../data/vinagre.ui.h:18
 msgid "Options"
 msgstr "Opciones"
 
-#: ../data/vinagre.ui.h:18
+#: ../data/vinagre.ui.h:19
 msgid "_Full screen"
 msgstr "_Pantalla completa"
 
-#: ../data/vinagre.ui.h:19
+#: ../data/vinagre.ui.h:20
 msgid "Folder"
 msgstr "Carpeta"
 
-#: ../data/vinagre.ui.h:20
+#: ../data/vinagre.ui.h:21
 msgid "Bookmark Folder"
 msgstr "Carpeta «Marcadores»"
 
-#: ../data/vinagre.ui.h:21
+#: ../data/vinagre.ui.h:22
 msgid "Parent Folder"
 msgstr "Carpeta padre"
 
-#: ../data/vinagre.ui.h:22
+#: ../data/vinagre.ui.h:23
 msgid "Connect"
 msgstr "Conectar"
 
-#: ../data/vinagre.ui.h:23
+#: ../data/vinagre.ui.h:24
 msgid "Choose a remote desktop to connect to"
 msgstr "Elegir un escritorio remoto al que conectarse"
 
-#: ../data/vinagre.ui.h:24
+#: ../data/vinagre.ui.h:25
 msgid "_Protocol:"
 msgstr "_Protocolo:"
 
-#: ../data/vinagre.ui.h:25
+#: ../data/vinagre.ui.h:26
 msgid "Select a remote desktop protocol for this connection"
 msgstr "Seleccionar un protocolo de escritorio remoto para esta conexión"
 
-#: ../data/vinagre.ui.h:26
+#: ../data/vinagre.ui.h:27
 msgid "Search for remote hosts on the network"
 msgstr "Buscar equipos remotos en la red"
 
-#: ../data/vinagre.ui.h:27
+#: ../data/vinagre.ui.h:28
 msgid "Connection options"
 msgstr "Opciones de conexión"
 
-#: ../data/vinagre.ui.h:28
+#: ../data/vinagre.ui.h:29
 msgid "_Fullscreen"
 msgstr "_Pantalla completa"
 
-#: ../data/vinagre.ui.h:29
+#: ../data/vinagre.ui.h:30
 msgid "Enable fullscreen mode for this connection"
 msgstr "Activar el modo a pantalla completa para esta conexión"
 
-#: ../data/vinagre.ui.h:30
+#: ../data/vinagre.ui.h:31
 msgid "Reverse Connections"
 msgstr "Conexiones inversas"
 
-#: ../data/vinagre.ui.h:31
+#: ../data/vinagre.ui.h:32
 msgid ""
 "By activating reverse connections you can access remote desktops that are "
 "behind a firewall. The remote side is supposed to initiate the connection "
@@ -242,20 +246,20 @@ msgstr ""
 "están detrás de un cortafuegos. Se supone que la parte remota iniciará la "
 "conexión con usted. Para obtener más información consulte la ayuda."
 
-#: ../data/vinagre.ui.h:32
+#: ../data/vinagre.ui.h:33
 msgid "_Enable Reverse Connections"
 msgstr "Activar conexiones in_versas"
 
 #. Translators: this is the reverse connection mode. "Always enabled" means it will be enabled by default in the program startup. You can see this string in the dialog Remote->Reverse connections.
-#: ../data/vinagre.ui.h:34
+#: ../data/vinagre.ui.h:35
 msgid "_Always Enabled"
 msgstr "_Siempre activado"
 
-#: ../data/vinagre.ui.h:35
+#: ../data/vinagre.ui.h:36
 msgid "This desktop is reachable through the following IP address(es):"
 msgstr "Se puede llegar a esta máquina a través de la(s) siguiente(s) IP:"
 
-#: ../data/vinagre.ui.h:36
+#: ../data/vinagre.ui.h:37
 msgid "Connectivity"
 msgstr "Conectividad"
 
@@ -312,25 +316,16 @@ msgstr "A_ltura:"
 msgid "Set height of the remote desktop"
 msgstr "Establecer la altura del escritorio remoto"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:55 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:121 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:140
 msgid "Port:"
 msgstr "Puerto:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:139
-msgid "Error while executing xfreerdp"
-msgstr "Error al ejecutar xfreerdp"
-
-#: ../plugins/rdp/vinagre-rdp-tab.c:140 ../vinagre/vinagre-bookmarks.c:366
-#: ../vinagre/vinagre-bookmarks.c:492
-#: ../vinagre/vinagre-bookmarks-migration.c:135
-#: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
-#: ../vinagre/vinagre-connect.c:500 ../vinagre/vinagre-options.c:85
-#: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
-#: ../vinagre/vinagre-window.c:798
-msgid "Unknown error"
-msgstr "Error desconocido"
+#: ../plugins/rdp/vinagre-rdp-tab.c:885 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/spice/vinagre-spice-tab.c:264
+msgid "Error connecting to host."
+msgstr "Error al conectar con el equipo."
 
 #: ../plugins/ssh/vinagre-ssh-plugin.c:61
 msgid "SSH"
@@ -502,11 +497,6 @@ msgstr "Error al crear el túnel SSH"
 msgid "Unknown reason"
 msgstr "Razón desconocida"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:317
-#: ../plugins/spice/vinagre-spice-tab.c:264
-msgid "Error connecting to host."
-msgstr "Error al conectar con el equipo."
-
 #. Translators: %s is a host name or IP address; %u is a code error (number).
 #: ../plugins/vnc/vinagre-vnc-tab.c:362
 #, c-format
@@ -674,6 +664,15 @@ msgstr ""
 msgid "Error while initializing bookmarks: %s"
 msgstr "Error al inicializar los marcadores: %s"
 
+#: ../vinagre/vinagre-bookmarks.c:366 ../vinagre/vinagre-bookmarks.c:492
+#: ../vinagre/vinagre-bookmarks-migration.c:135
+#: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
+#: ../vinagre/vinagre-connect.c:510 ../vinagre/vinagre-options.c:85
+#: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
+#: ../vinagre/vinagre-window.c:798
+msgid "Unknown error"
+msgstr "Error desconocido"
+
 #: ../vinagre/vinagre-bookmarks.c:373
 msgid "Error while initializing bookmarks: The file seems to be empty"
 msgstr "Error al inicializar los marcadores: El archivo parece estar vacío"
@@ -835,17 +834,17 @@ msgid_plural "The following files could not be opened:"
 msgstr[0] "No se pudo abrir el siguiente archivo:"
 msgstr[1] "No se pudieron abrir los siguientes archivos:"
 
-#: ../vinagre/vinagre-connect.c:90 ../vinagre/vinagre-connect.c:336
-#: ../vinagre/vinagre-connect.c:464
+#: ../vinagre/vinagre-connect.c:91 ../vinagre/vinagre-connect.c:344
+#: ../vinagre/vinagre-connect.c:474
 msgid "Could not get the active protocol from the protocol list."
 msgstr "No se pudo obtener el protocolo activo de la lista de protocolos."
 
-#: ../vinagre/vinagre-connect.c:317
+#: ../vinagre/vinagre-connect.c:318
 #, c-format
 msgid "Error while saving history file: %s"
 msgstr "Error al guardar el archivo de histórico: %s"
 
-#: ../vinagre/vinagre-connect.c:352
+#: ../vinagre/vinagre-connect.c:360
 msgid "Choose a Remote Desktop"
 msgstr "Elegir un escritorio remoto"
 
@@ -1338,6 +1337,9 @@ msgstr "Activar atajos"
 #, c-format
 msgid "Error while creating the file %s: %s"
 msgstr "Error al crear el archivo %s: %s"
+
+#~ msgid "Error while executing xfreerdp"
+#~ msgstr "Error al ejecutar xfreerdp"
 
 #~ msgid "Enter a valid hostname or IP address"
 #~ msgstr "Introduzca un nombre de equipo o una dirección IP válidos"
