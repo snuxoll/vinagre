@@ -3,7 +3,8 @@ SUBDIRS = help po
 
 DISTCHECK_CONFIGURE_FLAGS = \
 	--enable-appdata-validate \
-	--enable-compile-warnings=maximum
+	--enable-compile-warnings=maximum \
+	--enable-rdp
 
 vinagre_vinagre_CPPFLAGS = \
 	-I$(top_builddir) \
