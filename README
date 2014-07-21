@@ -16,7 +16,7 @@ You need the development packages of the following libraries:
 * gtk+-3.0
 * glib-2.0
 * libsecret
-* gtk-vnc (http://live.gnome.org/gtk-vnc)
+* gtk-vnc (https://wiki.gnome.org/Projects/gtk-vnc)
 * libxml-2.0
 
 For version information, see configure.ac.
@@ -25,9 +25,10 @@ Optional support for external libraries can be enabled with the configure
 script. Relevant libraries include:
 
 * avahi-gobject and avahi-ui-gtk3
+* freerdp
 * telepathy-glib
 * spice-client-gtk-3.0
-* vte-2.90
+* vte-2.91
 
 Notes:
 
