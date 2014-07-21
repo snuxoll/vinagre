@@ -1,3 +1,26 @@
+Vinagre 3.13.4
+==============
+
+Daniel Mustieles (1):
+      Updated Spanish translation
+
+David King (3):
+      Update README
+      Enable RDP support during distcheck
+      Fix some language in tooltip strings
+
+Enrico Nicoletto (1):
+      Updated Brazilian Portuguese translation
+
+Fran Diéguez (1):
+      Updated Galician translations
+
+Marek Kasik (1):
+      Use FreeRDP API in RDP plugin
+
+Muhammet Kara (1):
+      Updated Turkish translation
+
 Vinagre 3.13.2
 ==============
 
