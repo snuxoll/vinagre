@@ -464,7 +464,7 @@ create_connected_actions (VinagreSpiceTab *tab)
   a->paths[2] = NULL;
   a->action = GTK_ACTION (gtk_toggle_action_new ("SPICEViewScaling",
 						 _("S_caling"),
-						 _("Fits the remote screen into the current window size"),
+						 _("Fit the remote screen into the current window size"),
 						 "zoom-fit-best"));
   gtk_action_set_icon_name (a->action, "zoom-fit-best");
   g_signal_connect (a->action, "activate", G_CALLBACK (view_scaling_cb), tab);
@@ -505,7 +505,7 @@ create_connected_actions (VinagreSpiceTab *tab)
   a->paths[2] = NULL;
   a->action = GTK_ACTION (gtk_toggle_action_new ("SPICEViewViewOnly",
 						 _("_View only"),
-						 _("Does not send mouse and keyboard events"),
+						 _("Do not send mouse and keyboard events"),
 						 "emblem-readonly"));
   gtk_action_set_icon_name (a->action, "emblem-readonly");
   g_signal_connect (a->action, "activate", G_CALLBACK (view_viewonly_cb), tab);
@@ -529,7 +529,7 @@ create_initialized_actions (VinagreSpiceTab *tab)
   a->paths[2] = NULL;
   a->action = gtk_action_new ("SPICERemoteSendCtrlAltDel",
 			      _("_Send Ctrl-Alt-Del"),
-			      _("Sends Ctrl+Alt+Del to the remote desktop"),
+			      _("Send Ctrl+Alt+Del to the remote desktop"),
 			      "preferences-desktop-keyboard-shortcuts");
   gtk_action_set_is_important (a->action, TRUE);
   gtk_action_set_icon_name (a->action, "preferences-desktop-keyboard-shortcuts");
@@ -602,7 +602,7 @@ setup_toolbar (VinagreSpiceTab *spice_tab)
   /* Send Ctrl-alt-del */
   button = GTK_WIDGET (gtk_tool_button_new (NULL, _("Send Ctrl-Alt-Del")));
   gtk_tool_button_set_icon_name (GTK_TOOL_BUTTON (button), "preferences-desktop-keyboard-shortcuts");
-  gtk_tool_item_set_tooltip_text (GTK_TOOL_ITEM (button), _("Send Ctrl-Alt-Del"));
+  gtk_tool_item_set_tooltip_text (GTK_TOOL_ITEM (button), _("Send Ctrl+Alt+Del to the remote desktop"));
   g_signal_connect (button, "clicked", G_CALLBACK (cad_button_clicked), spice_tab);
   gtk_widget_show (GTK_WIDGET (button));
   gtk_toolbar_insert (GTK_TOOLBAR (toolbar), GTK_TOOL_ITEM (button), -1);

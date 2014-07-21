@@ -599,7 +599,7 @@ create_connected_actions (VinagreVncTab *tab)
   a->paths[2] = NULL;
   a->action = GTK_ACTION (gtk_toggle_action_new ("VNCViewScaling",
 						 _("S_caling"),
-						 _("Fits the remote screen into the current window size"),
+						 _("Fit the remote screen into the current window size"),
 						 "zoom-fit-best"));
   gtk_action_set_icon_name (a->action, "zoom-fit-best");
   g_signal_connect (a->action, "activate", G_CALLBACK (view_scaling_cb), tab);
@@ -613,7 +613,7 @@ create_connected_actions (VinagreVncTab *tab)
   a->paths[1] = NULL;
   a->action = GTK_ACTION (gtk_toggle_action_new ("VNCViewKeepRatio",
 						 _("_Keep Aspect Ratio"),
-						 _("Keeps the screen aspect ratio when using scaling"),
+						 _("Keep the screen aspect ratio when using scaling"),
 						 NULL));
   gtk_action_set_sensitive (a->action, FALSE);
   g_signal_connect (a->action, "activate", G_CALLBACK (view_keep_ratio_cb), tab);
@@ -628,7 +628,7 @@ create_connected_actions (VinagreVncTab *tab)
   a->paths[2] = NULL;
   a->action = GTK_ACTION (gtk_toggle_action_new ("VNCViewViewOnly",
 						 _("_View only"),
-						 _("Does not send mouse and keyboard events"),
+						 _("Do not send mouse and keyboard events"),
 						 "emblem-readonly"));
   gtk_action_set_icon_name (a->action, "emblem-readonly");
   g_signal_connect (a->action, "activate", G_CALLBACK (view_viewonly_cb), tab);
@@ -642,7 +642,7 @@ create_connected_actions (VinagreVncTab *tab)
   a->paths[1] = NULL;
   a->action = gtk_action_new ("VNCViewOriginalSize",
 			      _("_Original size"),
-			      _("Adjusts the window to the remote desktop's size"),
+			      _("Adjust the window to the size of the remote desktop"),
 			      "zoom-original");
   gtk_action_set_icon_name (a->action, "zoom-original");
   g_signal_connect (a->action, "activate", G_CALLBACK (view_original_size_cb), tab);
@@ -679,7 +679,7 @@ create_initialized_actions (VinagreVncTab *tab)
   a->paths[2] = NULL;
   a->action = gtk_action_new ("VNCRemoteSendCtrlAltDel",
 			      _("_Send Ctrl-Alt-Del"),
-			      _("Sends Ctrl+Alt+Del to the remote desktop"),
+			      _("Send Ctrl+Alt+Del to the remote desktop"),
 			      "preferences-desktop-keyboard-shortcuts");
   gtk_action_set_is_important (a->action, TRUE);
   gtk_action_set_icon_name (a->action, "preferences-desktop-keyboard-shortcuts");
@@ -753,7 +753,7 @@ setup_toolbar (VinagreVncTab *vnc_tab)
   /* Send Ctrl-alt-del */
   button = GTK_WIDGET (gtk_tool_button_new (NULL, _("Send Ctrl-Alt-Del")));
   gtk_tool_button_set_icon_name (GTK_TOOL_BUTTON (button), "preferences-desktop-keyboard-shortcuts");
-  gtk_tool_item_set_tooltip_text (GTK_TOOL_ITEM (button), _("Send Ctrl-Alt-Del"));
+  gtk_tool_item_set_tooltip_text (GTK_TOOL_ITEM (button), _("Send Ctrl+Alt+Del to the remote desktop"));
   g_signal_connect (button, "clicked", G_CALLBACK (cad_button_clicked), vnc_tab);
   gtk_widget_show (GTK_WIDGET (button));
   gtk_toolbar_insert (GTK_TOOLBAR (toolbar), GTK_TOOL_ITEM (button), -1);
