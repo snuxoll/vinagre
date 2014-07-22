@@ -731,6 +731,93 @@ frdp_authenticate (freerdp  *instance,
     }
 }
 
+static BOOL
+frdp_certificate_verify (freerdp *instance,
+                         char    *subject,
+                         char    *issuer,
+                         char    *fingerprint)
+{
+  VinagreTab *tab = VINAGRE_TAB (((frdpContext *) instance->context)->rdp_tab);
+  GtkBuilder *builder;
+  GtkWidget  *dialog;
+  GtkWidget  *widget;
+  gint        response;
+
+  builder = vinagre_utils_get_builder ();
+
+  dialog = GTK_WIDGET (gtk_builder_get_object (builder, "certificate_dialog"));
+  gtk_window_set_transient_for ((GtkWindow *) dialog, GTK_WINDOW (vinagre_tab_get_window (tab)));
+
+  widget = GTK_WIDGET (gtk_builder_get_object (builder, "certificate_subject"));
+  gtk_label_set_text (GTK_LABEL (widget), subject);
+
+  widget = GTK_WIDGET (gtk_builder_get_object (builder, "certificate_issuer"));
+  gtk_label_set_text (GTK_LABEL (widget), issuer);
+
+  widget = GTK_WIDGET (gtk_builder_get_object (builder, "certificate_fingerprint"));
+  gtk_label_set_text (GTK_LABEL (widget), fingerprint);
+
+
+  response = gtk_dialog_run (GTK_DIALOG (dialog));
+  gtk_widget_hide (dialog);
+
+
+  return response == GTK_RESPONSE_YES;
+}
+
+
+#if HAVE_FREERDP_1_1
+static BOOL
+frdp_changed_certificate_verify (freerdp *instance,
+                                 char    *subject,
+                                 char    *issuer,
+                                 char    *new_fingerprint,
+                                 char    *old_fingerprint)
+{
+  VinagreTab *tab = VINAGRE_TAB (((frdpContext *) instance->context)->rdp_tab);
+  GtkBuilder *builder;
+  GtkWidget  *dialog;
+  GtkWidget  *widget;
+  GtkWidget  *label;
+  gint        response;
+
+  builder = vinagre_utils_get_builder ();
+
+  dialog = GTK_WIDGET (gtk_builder_get_object (builder, "certificate_changed_dialog"));
+  gtk_window_set_transient_for ((GtkWindow *) dialog, GTK_WINDOW (vinagre_tab_get_window (tab)));
+
+  widget = GTK_WIDGET (gtk_builder_get_object (builder, "certificate_changed_subject"));
+  gtk_label_set_text (GTK_LABEL (widget), subject);
+
+  widget = GTK_WIDGET (gtk_builder_get_object (builder, "certificate_changed_issuer"));
+  gtk_label_set_text (GTK_LABEL (widget), issuer);
+
+  widget = GTK_WIDGET (gtk_builder_get_object (builder, "certificate_changed_new_fingerprint"));
+  gtk_label_set_text (GTK_LABEL (widget), new_fingerprint);
+
+  widget = GTK_WIDGET (gtk_builder_get_object (builder, "certificate_changed_old_fingerprint"));
+  label = GTK_WIDGET (gtk_builder_get_object (builder, "certificate_changed_old_fingerprint_label"));
+  if (old_fingerprint != NULL && old_fingerprint[0] != '\0')
+    {
+      gtk_label_set_text (GTK_LABEL (widget), old_fingerprint);
+      gtk_widget_show (widget);
+      gtk_widget_show (label);
+    }
+  else
+    {
+      gtk_widget_hide (widget);
+      gtk_widget_hide (label);
+    }
+
+
+  response = gtk_dialog_run (GTK_DIALOG (dialog));
+  gtk_widget_hide (dialog);
+
+
+  return response == GTK_RESPONSE_YES;
+}
+#endif
+
 static void
 open_freerdp (VinagreRdpTab *rdp_tab)
 {
@@ -760,6 +847,10 @@ open_freerdp (VinagreRdpTab *rdp_tab)
   priv->freerdp_session->PreConnect = frdp_pre_connect;
   priv->freerdp_session->PostConnect = frdp_post_connect;
   priv->freerdp_session->Authenticate = frdp_authenticate;
+  priv->freerdp_session->VerifyCertificate = frdp_certificate_verify;
+#if HAVE_FREERDP_1_1
+  priv->freerdp_session->VerifyChangedCertificate = frdp_changed_certificate_verify;
+#endif
 
 #if HAVE_FREERDP_1_1
   priv->freerdp_session->ContextSize = sizeof (frdpContext);
