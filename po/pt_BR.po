@@ -16,9 +16,9 @@ msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-07-14 10:43+0000\n"
-"PO-Revision-Date: 2014-07-14 13:40-0300\n"
-"Last-Translator: Enrico Nicoletto <liverig@gmail.com>\n"
+"POT-Creation-Date: 2014-07-27 22:50+0000\n"
+"PO-Revision-Date: 2014-07-28 03:27-0300\n"
+"Last-Translator: Rafael Ferreira <rafael.f.f1@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -204,42 +204,87 @@ msgid "Parent Folder"
 msgstr "Pasta pai"
 
 #: ../data/vinagre.ui.h:23
+msgid "Certificate Verification"
+msgstr "Verificação de certificado"
+
+#: ../data/vinagre.ui.h:24
+msgid ""
+"The remote host has changed its certificate.\n"
+"Do you trust the new certificate?"
+msgstr ""
+"A máquina remota mudou seu certificado.\n"
+"Você confia no novo certificado?"
+
+#. Subject of the certificate.
+#: ../data/vinagre.ui.h:27
+msgid "Subject:"
+msgstr "Sujeito:"
+
+#. Issuer of the certificate.
+#: ../data/vinagre.ui.h:29
+msgid "Issuer:"
+msgstr "Emissor:"
+
+#. Fingerprint of the new certificate.
+#: ../data/vinagre.ui.h:31
+msgid "New fingerprint:"
+msgstr "Nova impressão digital:"
+
+#. Fingerprint of the old certificate.
+#: ../data/vinagre.ui.h:33
+msgid "Old fingerprint:"
+msgstr "Impressão digital antiga:"
+
+#: ../data/vinagre.ui.h:34
+msgid ""
+"The below certificate could not be verified.\n"
+"Do you trust the certificate?"
+msgstr ""
+"O certificado abaixo não pôde ser verificado.\n"
+"Você confia no certificado?"
+
+#. Fingerprint of the certificate.
+#: ../data/vinagre.ui.h:37
+msgid "Fingerprint:"
+msgstr "Impressão digital:"
+
+#: ../data/vinagre.ui.h:38
 msgid "Connect"
 msgstr "Conectar"
 
-#: ../data/vinagre.ui.h:24
+#: ../data/vinagre.ui.h:39
 msgid "Choose a remote desktop to connect to"
 msgstr "Escolha uma área de trabalho remota para conectar"
 
-#: ../data/vinagre.ui.h:25
+#: ../data/vinagre.ui.h:40
 msgid "_Protocol:"
 msgstr "_Protocolo:"
 
-#: ../data/vinagre.ui.h:26
+#: ../data/vinagre.ui.h:41
 msgid "Select a remote desktop protocol for this connection"
 msgstr "Selecionar um protocolo de área de trabalho remota para esta conexão"
 
-#: ../data/vinagre.ui.h:27
+#: ../data/vinagre.ui.h:42
 msgid "Search for remote hosts on the network"
 msgstr "Pesquisar por uma máquina remota na rede"
 
-#: ../data/vinagre.ui.h:28
+#: ../data/vinagre.ui.h:43
 msgid "Connection options"
 msgstr "Opções de conexão"
 
-#: ../data/vinagre.ui.h:29
+#: ../data/vinagre.ui.h:44
 msgid "_Fullscreen"
 msgstr "_Tela cheia"
 
-#: ../data/vinagre.ui.h:30
+#: ../data/vinagre.ui.h:45
 msgid "Enable fullscreen mode for this connection"
 msgstr "Habilitar modo tela cheia para esta conexão"
 
-#: ../data/vinagre.ui.h:31
+#: ../data/vinagre.ui.h:46
 msgid "Reverse Connections"
 msgstr "Conexões reversas"
 
-#: ../data/vinagre.ui.h:32
+#: ../data/vinagre.ui.h:47
 msgid ""
 "By activating reverse connections you can access remote desktops that are "
 "behind a firewall. The remote side is supposed to initiate the connection "
@@ -249,22 +294,22 @@ msgstr ""
 "que estão resguardadas por um firewall. O lado remoto é quem inicia a "
 "conexão com a sua máquina. Para mais informações, consulte a documentação."
 
-#: ../data/vinagre.ui.h:33
+#: ../data/vinagre.ui.h:48
 msgid "_Enable Reverse Connections"
 msgstr "_Ativar conexões reversas"
 
 #. Translators: this is the reverse connection mode. "Always enabled" means it will be enabled by default in the program startup. You can see this string in the dialog Remote->Reverse connections.
-#: ../data/vinagre.ui.h:35
+#: ../data/vinagre.ui.h:50
 msgid "_Always Enabled"
 msgstr "_Sempre ativada"
 
-#: ../data/vinagre.ui.h:36
+#: ../data/vinagre.ui.h:51
 msgid "This desktop is reachable through the following IP address(es):"
 msgstr ""
 "Esta área de trabalho pode ser alcançada através do(s) seguinte(s) "
 "endereço(s) IP:"
 
-#: ../data/vinagre.ui.h:37
+#: ../data/vinagre.ui.h:52
 msgid "Connectivity"
 msgstr "Conectividade"
 
@@ -326,7 +371,7 @@ msgstr "Define a altura da área de trabalho remota"
 msgid "Port:"
 msgstr "Porta:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:885 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:976 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:264
 msgid "Error connecting to host."
 msgstr "Erro ao conectar à máquina."
@@ -531,7 +576,7 @@ msgstr "Es_calonamento"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:467
-msgid "Fits the remote screen into the current window size"
+msgid "Fit the remote screen into the current window size"
 msgstr "Ajusta a tela remota dentro do tamanho da janela atual"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:615
@@ -539,12 +584,12 @@ msgid "_Keep Aspect Ratio"
 msgstr "_Manter proporção"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:616
-msgid "Keeps the screen aspect ratio when using scaling"
+msgid "Keep the screen aspect ratio when using scaling"
 msgstr "Mantém a proporcionalidade da tela ao usar o escalonamento"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
 #: ../plugins/spice/vinagre-spice-tab.c:508
-msgid "Does not send mouse and keyboard events"
+msgid "Do not send mouse and keyboard events"
 msgstr "Não enviar eventos de mouse e teclado"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:644
@@ -552,7 +597,7 @@ msgid "_Original size"
 msgstr "Tamanho _original"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:645
-msgid "Adjusts the window to the remote desktop's size"
+msgid "Adjust the window to the size of the remote desktop"
 msgstr "Ajusta a janela para o tamanho da área de trabalho remota"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:658
@@ -568,9 +613,10 @@ msgstr "Solicita uma atualização da tela"
 msgid "_Send Ctrl-Alt-Del"
 msgstr "_Enviar Ctrl-Alt-Del"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:682
+#: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
 #: ../plugins/spice/vinagre-spice-tab.c:532
-msgid "Sends Ctrl+Alt+Del to the remote desktop"
+#: ../plugins/spice/vinagre-spice-tab.c:605
+msgid "Send Ctrl+Alt+Del to the remote desktop"
 msgstr "Envia Ctrl+Alt+Del para a área de trabalho remota"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
@@ -586,9 +632,8 @@ msgid "Read only"
 msgstr "Apenas leitura"
 
 #. Send Ctrl-alt-del
-#: ../plugins/vnc/vinagre-vnc-tab.c:754 ../plugins/vnc/vinagre-vnc-tab.c:756
+#: ../plugins/vnc/vinagre-vnc-tab.c:754
 #: ../plugins/spice/vinagre-spice-tab.c:603
-#: ../plugins/spice/vinagre-spice-tab.c:605
 msgid "Send Ctrl-Alt-Del"
 msgstr "Enviar Ctrl-Alt-Del"
 
