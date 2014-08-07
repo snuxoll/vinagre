@@ -5,12 +5,14 @@
 #
 # Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2008, 2009, 2010, 2011.
 # Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2012, 2013, 2014.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: eu_to_be_translate\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-22 21:09+0100\n"
-"PO-Revision-Date: 2014-03-22 21:11+0100\n"
+"Project-Id-Version: vinagre master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=vinagre&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-08-07 15:49+0200\n"
+"PO-Revision-Date: 2014-08-05 18:06+0200\n"
 "Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
 "Language-Team: Basque <librezale@librezale.org>\n"
 "Language: eu\n"
@@ -132,7 +134,7 @@ msgstr "_Autentifikatu"
 msgid "Authentication is required"
 msgstr "Autentifikatu egin behar da"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:54
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:120
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
 #: ../plugins/spice/vinagre-spice-tab.c:139
 msgid "Host:"
@@ -148,87 +150,136 @@ msgid "_Password:"
 msgstr "_Pasahitza:"
 
 #: ../data/vinagre.ui.h:10
+msgid "_Domain:"
+msgstr "_Domeinua:"
+
+#: ../data/vinagre.ui.h:11
 msgid "_Remember this credential"
 msgstr "_Gogoratu kredentzial hau"
 
-#: ../data/vinagre.ui.h:11
+#: ../data/vinagre.ui.h:12
 msgid "Store the login credential in GNOME Keyring"
 msgstr "Gorde saio-hasierako kredentziala GNOMEren gako-sortan"
 
-#: ../data/vinagre.ui.h:12
+#: ../data/vinagre.ui.h:13
 msgid "Bookmarks"
 msgstr "Laster-markak"
 
-#: ../data/vinagre.ui.h:13
+#: ../data/vinagre.ui.h:14
 msgid "Connection"
 msgstr "Konexioa"
 
 #. Translators: This is the name of a bookmark. It appears in the add/edit bookmark dialog.
-#: ../data/vinagre.ui.h:15
+#: ../data/vinagre.ui.h:16
 msgid "_Name:"
 msgstr "_Izena:"
 
-#: ../data/vinagre.ui.h:16
+#: ../data/vinagre.ui.h:17
 msgid "_Host:"
 msgstr "_Ostalaria:"
 
-#: ../data/vinagre.ui.h:17
+#: ../data/vinagre.ui.h:18
 msgid "Options"
 msgstr "Aukerak"
 
-#: ../data/vinagre.ui.h:18
+#: ../data/vinagre.ui.h:19
 msgid "_Full screen"
 msgstr "_Pantaila osoa"
 
-#: ../data/vinagre.ui.h:19
+#: ../data/vinagre.ui.h:20
 msgid "Folder"
 msgstr "Karpeta"
 
-#: ../data/vinagre.ui.h:20
+#: ../data/vinagre.ui.h:21
 msgid "Bookmark Folder"
 msgstr "Laster-marken karpeta"
 
-#: ../data/vinagre.ui.h:21
+#: ../data/vinagre.ui.h:22
 msgid "Parent Folder"
 msgstr "Karpeta gurasoa"
 
-#: ../data/vinagre.ui.h:22
+#: ../data/vinagre.ui.h:23
+msgid "Certificate Verification"
+msgstr "Ziurtagiriaren egiaztapena"
+
+#: ../data/vinagre.ui.h:24
+msgid ""
+"The remote host has changed its certificate.\n"
+"Do you trust the new certificate?"
+msgstr ""
+"Urruneko ostalariak bere ziurtagiria aldatu du.\n"
+"Ziurtagiri berriaz fidatzen zara?"
+
+#. Subject of the certificate.
+#: ../data/vinagre.ui.h:27
+msgid "Subject:"
+msgstr "Gaia:"
+
+#. Issuer of the certificate.
+#: ../data/vinagre.ui.h:29
+msgid "Issuer:"
+msgstr "Jaulkitzailea:"
+
+#. Fingerprint of the new certificate.
+#: ../data/vinagre.ui.h:31
+msgid "New fingerprint:"
+msgstr "Hatz-marka berria:"
+
+#. Fingerprint of the old certificate.
+#: ../data/vinagre.ui.h:33
+msgid "Old fingerprint:"
+msgstr "Hatz-marka zaharra:"
+
+#: ../data/vinagre.ui.h:34
+msgid ""
+"The below certificate could not be verified.\n"
+"Do you trust the certificate?"
+msgstr ""
+"Ezin izan da azpiko ziurtagiria egiaztatu.\n"
+"Ziurtagiriaz fidatzen zara?"
+
+#. Fingerprint of the certificate.
+#: ../data/vinagre.ui.h:37
+msgid "Fingerprint:"
+msgstr "Hatz-marka:"
+
+#: ../data/vinagre.ui.h:38
 msgid "Connect"
 msgstr "Konektatu"
 
-#: ../data/vinagre.ui.h:23
+#: ../data/vinagre.ui.h:39
 msgid "Choose a remote desktop to connect to"
 msgstr "Aukeratu urruneko mahaigaina harekin konektatzeko"
 
-#: ../data/vinagre.ui.h:24
+#: ../data/vinagre.ui.h:40
 msgid "_Protocol:"
 msgstr "_Protokoloa:"
 
-#: ../data/vinagre.ui.h:25
+#: ../data/vinagre.ui.h:41
 msgid "Select a remote desktop protocol for this connection"
 msgstr "Hautatu konexio honen urruneko mahaigaineko protokoloa"
 
-#: ../data/vinagre.ui.h:26
+#: ../data/vinagre.ui.h:42
 msgid "Search for remote hosts on the network"
 msgstr "Bilatu urruneko ostalariak sarean"
 
-#: ../data/vinagre.ui.h:27
+#: ../data/vinagre.ui.h:43
 msgid "Connection options"
 msgstr "Konexioaren aukerak"
 
-#: ../data/vinagre.ui.h:28
+#: ../data/vinagre.ui.h:44
 msgid "_Fullscreen"
 msgstr "_Pantaila osoa"
 
-#: ../data/vinagre.ui.h:29
+#: ../data/vinagre.ui.h:45
 msgid "Enable fullscreen mode for this connection"
 msgstr "Gaitu pantaila osoko modua konexio honentzako"
 
-#: ../data/vinagre.ui.h:30
+#: ../data/vinagre.ui.h:46
 msgid "Reverse Connections"
 msgstr "Alderantzizko konexioak"
 
-#: ../data/vinagre.ui.h:31
+#: ../data/vinagre.ui.h:47
 msgid ""
 "By activating reverse connections you can access remote desktops that are "
 "behind a firewall. The remote side is supposed to initiate the connection "
@@ -238,20 +289,20 @@ msgstr ""
 "mahaigainak atzi ditzakezu. Suposatzen da urruneko aldeak hasten duela "
 "konexioa zurekin. Informazio gehiagorako, begiratu laguntza."
 
-#: ../data/vinagre.ui.h:32
+#: ../data/vinagre.ui.h:48
 msgid "_Enable Reverse Connections"
 msgstr "_Gaitu alderantzizko konexioak"
 
 #. Translators: this is the reverse connection mode. "Always enabled" means it will be enabled by default in the program startup. You can see this string in the dialog Remote->Reverse connections.
-#: ../data/vinagre.ui.h:34
+#: ../data/vinagre.ui.h:50
 msgid "_Always Enabled"
 msgstr "_Beti gaituta"
 
-#: ../data/vinagre.ui.h:35
+#: ../data/vinagre.ui.h:51
 msgid "This desktop is reachable through the following IP address(es):"
 msgstr "Mahaigain hau honako IP helbideetatik atzi daiteke:"
 
-#: ../data/vinagre.ui.h:36
+#: ../data/vinagre.ui.h:52
 msgid "Connectivity"
 msgstr "Konektibitatea"
 
@@ -308,25 +359,16 @@ msgstr "_Altuera:"
 msgid "Set height of the remote desktop"
 msgstr "Ezarri urruneko mahaigainaren altuera"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:55 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:121 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:140
 msgid "Port:"
 msgstr "Ataka:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:139
-msgid "Error while executing xfreerdp"
-msgstr "Errorea xfreerdp exekutatzean"
-
-#: ../plugins/rdp/vinagre-rdp-tab.c:140 ../vinagre/vinagre-bookmarks.c:366
-#: ../vinagre/vinagre-bookmarks.c:492
-#: ../vinagre/vinagre-bookmarks-migration.c:135
-#: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
-#: ../vinagre/vinagre-connect.c:510 ../vinagre/vinagre-options.c:85
-#: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
-#: ../vinagre/vinagre-window.c:798
-msgid "Unknown error"
-msgstr "Errore ezezaguna"
+#: ../plugins/rdp/vinagre-rdp-tab.c:976 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/spice/vinagre-spice-tab.c:264
+msgid "Error connecting to host."
+msgstr "Errorea ostalariarekin konektatzean"
 
 #: ../plugins/ssh/vinagre-ssh-plugin.c:61
 msgid "SSH"
@@ -498,11 +540,6 @@ msgstr "Errorea SSH tunela sortzean"
 msgid "Unknown reason"
 msgstr "Errore ezezaguna"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:317
-#: ../plugins/spice/vinagre-spice-tab.c:264
-msgid "Error connecting to host."
-msgstr "Errorea ostalariarekin konektatzean"
-
 #. Translators: %s is a host name or IP address; %u is a code error (number).
 #: ../plugins/vnc/vinagre-vnc-tab.c:362
 #, c-format
@@ -532,7 +569,7 @@ msgstr "E_skalatzea"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:467
-msgid "Fits the remote screen into the current window size"
+msgid "Fit the remote screen into the current window size"
 msgstr "Doitu urruneko pantaila uneko leihoaren tamainara"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:615
@@ -540,12 +577,12 @@ msgid "_Keep Aspect Ratio"
 msgstr "_Mantendu aspektu-erlazioa"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:616
-msgid "Keeps the screen aspect ratio when using scaling"
-msgstr "Pantailaren aspektuaren erlazioa mantentzen du eskalatzean."
+msgid "Keep the screen aspect ratio when using scaling"
+msgstr "Mantendu pantailaren aspektu-erlazioa eskalatzean"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
 #: ../plugins/spice/vinagre-spice-tab.c:508
-msgid "Does not send mouse and keyboard events"
+msgid "Do not send mouse and keyboard events"
 msgstr "Ez bidali sagu eta teklatuaren gertaerarik"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:644
@@ -553,8 +590,8 @@ msgid "_Original size"
 msgstr "_Jatorrizko tamaina"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:645
-msgid "Adjusts the window to the remote desktop's size"
-msgstr "Leihoa doitzen du urruneko mahaigainaren tamainara"
+msgid "Adjust the window to the size of the remote desktop"
+msgstr "Doitu leihoa urruneko mahaigainaren tamainara"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:658
 msgid "_Refresh Screen"
@@ -569,9 +606,10 @@ msgstr "Pantaila eguneratzea eskatzen du"
 msgid "_Send Ctrl-Alt-Del"
 msgstr "_Bidali Ktrl+Alt+Ezab"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:682
+#: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
 #: ../plugins/spice/vinagre-spice-tab.c:532
-msgid "Sends Ctrl+Alt+Del to the remote desktop"
+#: ../plugins/spice/vinagre-spice-tab.c:605
+msgid "Send Ctrl+Alt+Del to the remote desktop"
 msgstr "Bidali Ktrl+Alt+Ezab urruneko mahaigainera"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
@@ -587,9 +625,8 @@ msgid "Read only"
 msgstr "Irakurtzeko soilik"
 
 #. Send Ctrl-alt-del
-#: ../plugins/vnc/vinagre-vnc-tab.c:754 ../plugins/vnc/vinagre-vnc-tab.c:756
+#: ../plugins/vnc/vinagre-vnc-tab.c:754
 #: ../plugins/spice/vinagre-spice-tab.c:603
-#: ../plugins/spice/vinagre-spice-tab.c:605
 msgid "Send Ctrl-Alt-Del"
 msgstr "Bidali Ktrl+Alt+Ezab"
 
@@ -669,6 +706,15 @@ msgstr "Partekatu automatikoki arbela bezero eta gonbidatuaren artean"
 #, c-format
 msgid "Error while initializing bookmarks: %s"
 msgstr "Errorea laster-markak hasieratzean: %s"
+
+#: ../vinagre/vinagre-bookmarks.c:366 ../vinagre/vinagre-bookmarks.c:492
+#: ../vinagre/vinagre-bookmarks-migration.c:135
+#: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
+#: ../vinagre/vinagre-connect.c:510 ../vinagre/vinagre-options.c:85
+#: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
+#: ../vinagre/vinagre-window.c:798
+msgid "Unknown error"
+msgstr "Errore ezezaguna"
 
 #: ../vinagre/vinagre-bookmarks.c:373
 msgid "Error while initializing bookmarks: The file seems to be empty"
@@ -1334,6 +1380,9 @@ msgstr "Gaitu lasterbideak"
 #, c-format
 msgid "Error while creating the file %s: %s"
 msgstr "Errorea %s fitxategia sortzean: %s"
+
+#~ msgid "Error while executing xfreerdp"
+#~ msgstr "Errorea xfreerdp exekutatzean"
 
 #~ msgid "Enter a valid hostname or IP address"
 #~ msgstr "Sartu baliozko ostalari-izena edo IP helbidea"
