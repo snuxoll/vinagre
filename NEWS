@@ -1,3 +1,38 @@
+Vinagre 3.13.90
+===============
+
+Aurimas Černius (1):
+      Updated Lithuanian translation
+
+Daniel Mustieles (2):
+      Updated Spanish translation
+      Updated Spanish translation
+
+David King (2):
+      Avoid yes-no buttons in certificate dialogs
+      Update metadata_license in AppData description
+
+Inaki Larranaga Murgoitio (1):
+      Updated Basque language
+
+Kjartan Maraas (1):
+      Updated Norwegian bokmål translation.
+
+MarMav (1):
+      Updated Greek translation
+
+Marek Kasik (1):
+      Request RDP certificate verification if needed
+
+Olav Vitters (1):
+      doap category apps
+
+Piotr Drąg (1):
+      doap: add <programming-language>
+
+Rafael Ferreira (1):
+      Updated Brazilian Portuguese translation
+
 Vinagre 3.13.4
 ==============
 
