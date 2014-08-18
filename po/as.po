@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Amitakhya Phukan <aphukan@fedoraproject.org>, 2009.
-# Nilamdyuti Goswami <ngoswami@redhat.com>, 2011, 2012, 2013.
+# Nilamdyuti Goswami <ngoswami@redhat.com>, 2011, 2012, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre.HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-09-03 16:43+0000\n"
-"PO-Revision-Date: 2013-09-12 17:50+0530\n"
+"POT-Creation-Date: 2014-08-18 11:16+0000\n"
+"PO-Revision-Date: 2014-08-18 20:42+0530\n"
 "Last-Translator: Nilamdyuti Goswami <ngoswami@redhat.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
 "Language: en_US\n"
@@ -82,6 +82,19 @@ msgid ""
 msgstr ""
 "প্ৰগ্ৰামক সদায় উলোটা সংযোগসমূহ শুনাকৈ আৰম্ভ কৰাৰ বাবে \"true\" লে সংহতি কৰক।"
 
+#: ../data/vinagre.appdata.xml.in.h:1
+msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
+msgstr "Vinagre এ দূৰৱৰ্তী Windows, Mac OS X আৰু Linux ডেস্কটপসমূহ দেখুৱায়।"
+
+#: ../data/vinagre.appdata.xml.in.h:2
+msgid ""
+"It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
+"SSH servers."
+msgstr ""
+"ই VNC, RDP আৰু SPICE প্ৰটোকলসমূহ ব্যৱহাৰ কৰে, আৰু SSH চাৰ্ভাৰসমূহৰ সৈতে সংযোগ "
+"কৰিবলে ব্যৱহাৰ "
+"কৰিব পাৰি।"
+
 #: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
 #: ../vinagre/vinagre-main.c:182
 msgid "Remote Desktop Viewer"
@@ -116,7 +129,7 @@ msgstr "পৰিচয় প্ৰমাণ (_A)"
 msgid "Authentication is required"
 msgstr "প্ৰমাণীকৰণ প্ৰয়োজনীয়"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:54
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:120
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
 #: ../plugins/spice/vinagre-spice-tab.c:139
 msgid "Host:"
@@ -129,90 +142,140 @@ msgstr "ব্যৱহাৰকাৰীৰ নাম (_U):"
 
 #: ../data/vinagre.ui.h:9 ../plugins/spice/vinagre-spice-plugin.c:310
 msgid "_Password:"
-msgstr "পাছৱাৰ্ড (_P):"
+msgstr "পাছৱৰ্ড (_P):"
 
 #: ../data/vinagre.ui.h:10
+msgid "_Domain:"
+msgstr "ডমেইন (_D):"
+
+#: ../data/vinagre.ui.h:11
 msgid "_Remember this credential"
 msgstr "এই পৰিচয় মনত ৰাখক (_R)"
 
-#: ../data/vinagre.ui.h:11
+#: ../data/vinagre.ui.h:12
 msgid "Store the login credential in GNOME Keyring"
 msgstr "লগিন তথ্য GNOME Keyring ত সংৰক্ষণ কৰক"
 
-#: ../data/vinagre.ui.h:12
+#: ../data/vinagre.ui.h:13
 msgid "Bookmarks"
 msgstr "পত্ৰচিহ্নসমূহ"
 
-#: ../data/vinagre.ui.h:13
+#: ../data/vinagre.ui.h:14
 msgid "Connection"
 msgstr "সংযোগ"
 
 #. Translators: This is the name of a bookmark. It appears in the add/edit bookmark dialog.
-#: ../data/vinagre.ui.h:15
+#: ../data/vinagre.ui.h:16
 msgid "_Name:"
 msgstr "নাম (_N):"
 
-#: ../data/vinagre.ui.h:16
+#: ../data/vinagre.ui.h:17
 msgid "_Host:"
 msgstr "হস্ট (_H):"
 
-#: ../data/vinagre.ui.h:17
+#: ../data/vinagre.ui.h:18
 msgid "Options"
 msgstr "বিকল্পসমূহ"
 
-#: ../data/vinagre.ui.h:18
+#: ../data/vinagre.ui.h:19
 msgid "_Full screen"
 msgstr "পূৰ্ণপৰ্দা (_F)"
 
-#: ../data/vinagre.ui.h:19
+#: ../data/vinagre.ui.h:20
 msgid "Folder"
 msgstr "ফোল্ডাৰ"
 
-#: ../data/vinagre.ui.h:20
+#: ../data/vinagre.ui.h:21
 msgid "Bookmark Folder"
 msgstr "পত্ৰচিহ্ন ফোল্ডাৰ"
 
-#: ../data/vinagre.ui.h:21
+#: ../data/vinagre.ui.h:22
 msgid "Parent Folder"
 msgstr "উপধায়ক ফোল্ডাৰ"
 
-#: ../data/vinagre.ui.h:22
+#: ../data/vinagre.ui.h:23
+msgid "Certificate Verification"
+msgstr "প্ৰমাণপত্ৰ সত্যাপন"
+
+#: ../data/vinagre.ui.h:24
+msgid ""
+"The remote host has changed its certificate.\n"
+"Do you trust the new certificate?"
+msgstr ""
+"দূৰৱৰ্তী হস্টে তাৰ প্ৰমাণপত্ৰ পৰিবৰ্তন কৰিছে।\n"
+"আপুনি নতুন প্ৰমাণপত্ৰক ভৰষা কৰে নে?"
+
+#. Subject of the certificate.
+#: ../data/vinagre.ui.h:27
+msgid "Subject:"
+msgstr "বিষয়:"
+
+#. Issuer of the certificate.
+#: ../data/vinagre.ui.h:29
+msgid "Issuer:"
+msgstr "প্ৰেৰক:"
+
+#. Fingerprint of the new certificate.
+#: ../data/vinagre.ui.h:31
+msgid "New fingerprint:"
+msgstr "নতুন ফিংগাৰপ্ৰিন্ট:"
+
+#. Fingerprint of the old certificate.
+#: ../data/vinagre.ui.h:33
+msgid "Old fingerprint:"
+msgstr "পুৰনি ফিংগাৰপ্ৰিন্ট:"
+
+#: ../data/vinagre.ui.h:34
+msgid ""
+"The below certificate could not be verified.\n"
+"Do you trust the certificate?"
+msgstr ""
+"তলত দিয়া প্ৰমাণপত্ৰক সত্যাপন কৰিব পৰা নগল।\n"
+"আপুনি প্ৰমাণপত্ৰক ভৰষা কৰে নে?"
+
+#. Fingerprint of the certificate.
+#: ../data/vinagre.ui.h:37
+msgid "Fingerprint:"
+msgstr "ফিংগাৰপ্ৰিন্ট:"
+
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:751
+#: ../plugins/rdp/vinagre-rdp-tab.c:792
 msgid "Connect"
 msgstr "সংযোগ কৰক"
 
-#: ../data/vinagre.ui.h:23
+#: ../data/vinagre.ui.h:39
 msgid "Choose a remote desktop to connect to"
 msgstr "সংযোগ কৰিবলে দূৰবৰ্তী এটা ডেস্কটপ বাছক"
 
-#: ../data/vinagre.ui.h:24
+#: ../data/vinagre.ui.h:40
 msgid "_Protocol:"
 msgstr "প্ৰটোকল (_P):"
 
-#: ../data/vinagre.ui.h:25
+#: ../data/vinagre.ui.h:41
 msgid "Select a remote desktop protocol for this connection"
 msgstr "এই সংযোগৰ বাবে এটা দূৰৱৰ্তী ডেস্কটপ প্ৰটোকল বাছক"
 
-#: ../data/vinagre.ui.h:26
+#: ../data/vinagre.ui.h:42
 msgid "Search for remote hosts on the network"
-msgstr "নেটৱাৰ্কত দূৰৱৰ্তী হস্টসমূহৰ বাবে সন্ধান কৰক"
+msgstr "নেটৱৰ্কত দূৰৱৰ্তী হস্টসমূহৰ বাবে সন্ধান কৰক"
 
-#: ../data/vinagre.ui.h:27
+#: ../data/vinagre.ui.h:43
 msgid "Connection options"
 msgstr "সংযোগ বিকল্পসমূহ"
 
-#: ../data/vinagre.ui.h:28
+#: ../data/vinagre.ui.h:44
 msgid "_Fullscreen"
 msgstr "পূৰ্ণপৰ্দা (_F)"
 
-#: ../data/vinagre.ui.h:29
+#: ../data/vinagre.ui.h:45
 msgid "Enable fullscreen mode for this connection"
 msgstr "এই সংযোগৰ বাবে সম্পূৰ্ণ পৰ্দা অৱস্থা সামৰ্থবান কৰক"
 
-#: ../data/vinagre.ui.h:30
+#: ../data/vinagre.ui.h:46
 msgid "Reverse Connections"
 msgstr "উলোটা সংযোগসমূহ"
 
-#: ../data/vinagre.ui.h:31
+#: ../data/vinagre.ui.h:47
 msgid ""
 "By activating reverse connections you can access remote desktops that are "
 "behind a firewall. The remote side is supposed to initiate the connection "
@@ -224,20 +287,20 @@ msgstr ""
 "তথ্যৰ "
 "বাবে, সহায় পঢ়ক।"
 
-#: ../data/vinagre.ui.h:32
+#: ../data/vinagre.ui.h:48
 msgid "_Enable Reverse Connections"
 msgstr "উলোটা সংযোগসমূহ সামৰ্থবান কৰক (_E)"
 
 #. Translators: this is the reverse connection mode. "Always enabled" means it will be enabled by default in the program startup. You can see this string in the dialog Remote->Reverse connections.
-#: ../data/vinagre.ui.h:34
+#: ../data/vinagre.ui.h:50
 msgid "_Always Enabled"
 msgstr "সদায় সামৰ্থবান (_A)"
 
-#: ../data/vinagre.ui.h:35
+#: ../data/vinagre.ui.h:51
 msgid "This desktop is reachable through the following IP address(es):"
 msgstr "এই ডেস্কটপ নিম্নলিখিত IP ঠিকনা(সমূহ) ৰে প্ৰাপ্ত কৰিব পাৰি:"
 
-#: ../data/vinagre.ui.h:36
+#: ../data/vinagre.ui.h:52
 msgid "Connectivity"
 msgstr "সংযোগ"
 
@@ -281,7 +344,6 @@ msgstr "প্ৰস্থ (_W):"
 
 #. Translators: This is the tooltip for the width field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:138
-#| msgid "Connect to a remote desktop"
 msgid "Set width of the remote desktop"
 msgstr "দূৰৱৰ্তী ডেস্কটপৰ প্ৰস্থ সংহতি কৰক"
 
@@ -292,29 +354,24 @@ msgstr "উচ্চতা (_H):"
 
 #. Translators: This is the tooltip for the height field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:154
-#| msgid "Connect to a remote desktop"
 msgid "Set height of the remote desktop"
 msgstr "দূৰৱৰ্তী ডেস্কটপৰ উচ্চতা সংহতি কৰক"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:55 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:121 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:140
 msgid "Port:"
 msgstr "পৰ্ট:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:139
-msgid "Error while executing xfreerdp"
-msgstr "xfreerdp প্ৰেৰণ কৰোতে ত্ৰুটি"
+#: ../plugins/rdp/vinagre-rdp-tab.c:750 ../plugins/rdp/vinagre-rdp-tab.c:791
+#| msgid "Cancel Login"
+msgid "_Cancel"
+msgstr "বাতিল কৰক (_C)"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:140 ../vinagre/vinagre-bookmarks.c:366
-#: ../vinagre/vinagre-bookmarks.c:492
-#: ../vinagre/vinagre-bookmarks-migration.c:135
-#: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
-#: ../vinagre/vinagre-connect.c:500 ../vinagre/vinagre-options.c:85
-#: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
-#: ../vinagre/vinagre-window.c:798
-msgid "Unknown error"
-msgstr "অজ্ঞাত ত্ৰুটি"
+#: ../plugins/rdp/vinagre-rdp-tab.c:982 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/spice/vinagre-spice-tab.c:264
+msgid "Error connecting to host."
+msgstr "হস্টৰ সৈতে সংযোগ স্থাপনত ত্ৰুটি হৈছে"
 
 #: ../plugins/ssh/vinagre-ssh-plugin.c:61
 msgid "SSH"
@@ -371,12 +428,12 @@ msgstr "ফাইল বিশ্লেষণ কৰিবলৈ ব্যৰ্
 #. Translators: Do not translate "Connection". It's the name of a group in the .vnc (.ini like) file.
 #: ../plugins/vnc/vinagre-vnc-plugin.c:155
 msgid "The file is not a VNC one: Missing the group \"Connection\"."
-msgstr "ফাইলটো এটা VNC ফাইল নহয়: \"Connection\" দল সন্ধানহিন।"
+msgstr "ফাইলটো এটা VNC ফাইল নহয়: \"Connection\" দল সন্ধানহীন।"
 
 #. Translators: Do not translate "Host". It's the name of a key in the .vnc (.ini like) file.
 #: ../plugins/vnc/vinagre-vnc-plugin.c:162
 msgid "The file is not a VNC one: Missing the key \"Host\"."
-msgstr "ফাইলটো এটা VNC ফাইল নহয়: \"Host\" কি' সন্ধানহিন।"
+msgstr "ফাইলটো এটা VNC ফাইল নহয়: \"Host\" কি' সন্ধানহীন।"
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:268
 msgid "VNC Options"
@@ -487,11 +544,6 @@ msgstr "SSH টানেল সৃষ্টি কৰোতে ত্ৰুট�
 msgid "Unknown reason"
 msgstr "অজ্ঞাত কাৰণ"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:317
-#: ../plugins/spice/vinagre-spice-tab.c:264
-msgid "Error connecting to host."
-msgstr "হস্টৰ সৈতে সংযোগ স্থাপনত ত্ৰুটি হৈছে"
-
 #. Translators: %s is a host name or IP address; %u is a code error (number).
 #: ../plugins/vnc/vinagre-vnc-tab.c:362
 #, c-format
@@ -512,7 +564,7 @@ msgstr "এই দূৰৱৰ্তী ডেস্কটপ অভিগম �
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:547
 msgid "A password is required in order to access this remote desktop."
-msgstr "এই দূৰৱৰ্তী ডেস্কটপ অভিগম কৰাৰ বাবে এটা পাছৱাৰ্ডৰ প্ৰয়োজন"
+msgstr "এই দূৰৱৰ্তী ডেস্কটপ অভিগম কৰাৰ বাবে এটা পাছৱৰ্ডৰ প্ৰয়োজন"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:601
 #: ../plugins/spice/vinagre-spice-tab.c:466
@@ -521,29 +573,33 @@ msgstr "স্কেইলিং (_c)"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:467
-msgid "Fits the remote screen into the current window size"
-msgstr "দূৰবৰ্তী পৰ্দা বৰ্তমান উইন্ডোৰ মাপ অনুযায়ী নিৰ্ধাৰণ কৰে"
+#| msgid "Fits the remote screen into the current window size"
+msgid "Fit the remote screen into the current window size"
+msgstr "বৰ্তমান উইন্ডো আকাৰত দূৰৱৰ্তী পৰ্দাক খাপ খুৱাওক"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:615
 msgid "_Keep Aspect Ratio"
 msgstr "দিশৰ অনুপাত ৰাখক (_K)"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:616
-msgid "Keeps the screen aspect ratio when using scaling"
-msgstr "স্কেইলিং ব্যৱহাৰ কৰোতে পৰ্দা দিশ অনুপাত ৰখা হয়"
+#| msgid "Keeps the screen aspect ratio when using scaling"
+msgid "Keep the screen aspect ratio when using scaling"
+msgstr "স্কেইলিং ব্যৱহাৰ কৰোতে পৰ্দা আপেক্ষিক অনুপাত ৰাখক"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
 #: ../plugins/spice/vinagre-spice-tab.c:508
-msgid "Does not send mouse and keyboard events"
-msgstr "মাউছ আৰু কিবৰ্ডৰ পৰা উৎপন্ন ঘটনা পঠিওৱা নহব"
+#| msgid "Does not send mouse and keyboard events"
+msgid "Do not send mouse and keyboard events"
+msgstr "মাউছ আৰু কিবৰ্ড ঘটনাসমূহ নপঠাব"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:644
 msgid "_Original size"
 msgstr "প্ৰকৃত আকাৰ (_O)"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:645
-msgid "Adjusts the window to the remote desktop's size"
-msgstr "দূৰবৰ্তী ডেস্কটপৰ মাপ অনুযায়ী উইন্ডোৰ স্কেইলিং কৰিবলৈ ব্যৱহৃত হয়"
+#| msgid "Adjusts the window to the remote desktop's size"
+msgid "Adjust the window to the size of the remote desktop"
+msgstr "দূৰবৰ্তী ডেস্কটপৰ আকাৰ অনুযায়ী উইন্ডোক সমন্বয় কৰক"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:658
 msgid "_Refresh Screen"
@@ -558,10 +614,12 @@ msgstr "পৰ্দাৰ এটা আপডেইট অনুৰোধ ক�
 msgid "_Send Ctrl-Alt-Del"
 msgstr "Ctrl-Alt-Del পঠাওক (_S)"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:682
+#: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
 #: ../plugins/spice/vinagre-spice-tab.c:532
-msgid "Sends Ctrl+Alt+Del to the remote desktop"
-msgstr "দূৰবৰ্তী ডেস্কটপলে Ctrl+Alt+Del পঠিওৱা হয়"
+#: ../plugins/spice/vinagre-spice-tab.c:605
+#| msgid "Sends Ctrl+Alt+Del to the remote desktop"
+msgid "Send Ctrl+Alt+Del to the remote desktop"
+msgstr "দূৰবৰ্তী ডেস্কটপলৈ Ctrl+Alt+Del পঠাওক"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
 #: ../plugins/spice/vinagre-spice-tab.c:584
@@ -576,9 +634,8 @@ msgid "Read only"
 msgstr "কেৱল পাঠযোগ্য"
 
 #. Send Ctrl-alt-del
-#: ../plugins/vnc/vinagre-vnc-tab.c:754 ../plugins/vnc/vinagre-vnc-tab.c:756
+#: ../plugins/vnc/vinagre-vnc-tab.c:754
 #: ../plugins/spice/vinagre-spice-tab.c:603
-#: ../plugins/spice/vinagre-spice-tab.c:605
 msgid "Send Ctrl-Alt-Del"
 msgstr "Ctrl-Alt-Del পঠাওক"
 
@@ -604,12 +661,12 @@ msgstr "এটা মুক্ত TCP পৰ্ট বিচাৰি পাব�
 #. Translators: Do not translate "connection". It's the name of a group in the .spice (.ini like) file.
 #: ../plugins/spice/vinagre-spice-plugin.c:108
 msgid "The file is not a Spice one: Missing the group \"connection\"."
-msgstr "ফাইলটো এটা Spice নহয়: দল \"সংযোগ\" সন্ধানহিন।"
+msgstr "ফাইলটো এটা Spice নহয়: দল \"সংযোগ\" সন্ধানহীন।"
 
 #. Translators: Do not translate "host". It's the name of a key in the .spice (.ini like) file.
 #: ../plugins/spice/vinagre-spice-plugin.c:115
 msgid "The file is not a Spice one: Missing the key \"host\"."
-msgstr "ফাইলটো এটা Spice নহয়: কি' \"হস্ট\" সন্ধানহিন।"
+msgstr "ফাইলটো এটা Spice নহয়: কি' \"হস্ট\" সন্ধানহীন।"
 
 #: ../plugins/spice/vinagre-spice-plugin.c:174
 msgid "SPICE"
@@ -658,6 +715,15 @@ msgstr "ক্লাএন্ট আৰু অতিথিৰ মাজত স�
 #, c-format
 msgid "Error while initializing bookmarks: %s"
 msgstr "পত্ৰচিহ্ন আৰম্ভ কৰিবলৈ ত্ৰুটি হৈছে: %s"
+
+#: ../vinagre/vinagre-bookmarks.c:366 ../vinagre/vinagre-bookmarks.c:492
+#: ../vinagre/vinagre-bookmarks-migration.c:135
+#: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
+#: ../vinagre/vinagre-connect.c:510 ../vinagre/vinagre-options.c:85
+#: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
+#: ../vinagre/vinagre-window.c:798
+msgid "Unknown error"
+msgstr "অজ্ঞাত ত্ৰুটি"
 
 #: ../vinagre/vinagre-bookmarks.c:373
 msgid "Error while initializing bookmarks: The file seems to be empty"
@@ -816,17 +882,17 @@ msgid_plural "The following files could not be opened:"
 msgstr[0] "নিম্নলিখিত ফাইল খোলা নাযায়:"
 msgstr[1] "নিম্নলিখিত ফাইলসমূহ খোলা নাযায়:"
 
-#: ../vinagre/vinagre-connect.c:90 ../vinagre/vinagre-connect.c:336
-#: ../vinagre/vinagre-connect.c:464
+#: ../vinagre/vinagre-connect.c:91 ../vinagre/vinagre-connect.c:344
+#: ../vinagre/vinagre-connect.c:474
 msgid "Could not get the active protocol from the protocol list."
 msgstr "প্ৰটোকল তালিকাৰ পৰা সক্ৰিয় প্ৰটোকল পোৱা নাযায়।"
 
-#: ../vinagre/vinagre-connect.c:317
+#: ../vinagre/vinagre-connect.c:318
 #, c-format
 msgid "Error while saving history file: %s"
 msgstr "পূৰ্ববৰ্তী তথ্যৰ ফাইল সংৰক্ষণ কৰিবলৈ সমস্যা: %s"
 
-#: ../vinagre/vinagre-connect.c:352
+#: ../vinagre/vinagre-connect.c:360
 msgid "Choose a Remote Desktop"
 msgstr "এটা দূৰবৰ্তী ডেস্কটপ বাছক"
 
@@ -1007,11 +1073,11 @@ msgstr "অনুমতি নাকচ কৰা হৈছে"
 
 #: ../vinagre/vinagre-ssh.c:513
 msgid "Password dialog canceled"
-msgstr "পাছৱাৰ্ড ডাইলগ বাতিল কৰা হৈছে"
+msgstr "পাছৱৰ্ড ডাইলগ বাতিল কৰা হৈছে"
 
 #: ../vinagre/vinagre-ssh.c:530
 msgid "Could not send password"
-msgstr "পাছৱাৰ্ড পঠাব পৰা নগল"
+msgstr "পাছৱৰ্ড পঠাব পৰা নগল"
 
 #: ../vinagre/vinagre-ssh.c:538
 msgid "Log In Anyway"
@@ -1048,7 +1114,7 @@ msgstr "হস্ট পৰিচয় সুনিশ্চিতকৰণ পঠ
 #: ../vinagre/vinagre-ssh.c:605
 #, c-format
 msgid "Secure shell password: %s"
-msgstr "সুৰক্ষিত শ্বেল পাছৱাৰ্ড: %s"
+msgstr "সুৰক্ষিত শ্বেল পাছৱৰ্ড: %s"
 
 #: ../vinagre/vinagre-ssh.c:618 ../vinagre/vinagre-tab.c:798
 msgid "Error saving the credentials on the keyring."
@@ -1088,9 +1154,8 @@ msgstr "বৰ্তমান সংযোগ সংৰক্ষণত ত্ৰ
 
 #: ../vinagre/vinagre-tab.c:781
 #, c-format
-#| msgid "Remote desktop password: %s"
 msgid "Remote desktop password for %s"
-msgstr "%s ৰ বাবে দূৰৱৰ্তী ডেস্কটপ পাছৱাৰ্ড"
+msgstr "%s ৰ বাবে দূৰৱৰ্তী ডেস্কটপ পাছৱৰ্ড"
 
 #: ../vinagre/vinagre-tab.c:897
 msgid "Could not get a screenshot of the connection."
@@ -1103,7 +1168,7 @@ msgstr "স্ক্ৰিনশ্বট সংৰক্ষণ কৰক"
 #: ../vinagre/vinagre-tab.c:916
 #, c-format
 msgid "Screenshot of %s at %s"
-msgstr "%s ত %s ৰ স্ক্ৰিনশ্বট"
+msgstr "%s ৰ স্ক্ৰিনশ্বট, %s ত"
 
 #: ../vinagre/vinagre-tab.c:970
 msgid "Error saving screenshot"
@@ -1319,6 +1384,9 @@ msgstr "চৰ্টকাটসমূহ সামৰ্থবান কৰক"
 #, c-format
 msgid "Error while creating the file %s: %s"
 msgstr "ফাইল %s সৃষ্টি কৰোতে ত্ৰুটি: %s"
+
+#~ msgid "Error while executing xfreerdp"
+#~ msgstr "xfreerdp প্ৰেৰণ কৰোতে ত্ৰুটি"
 
 #~ msgid "Enter a valid hostname or IP address"
 #~ msgstr "এটা বৈধ হস্টনাম অথবা IP ঠিকনা সোমাওক"
