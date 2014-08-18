@@ -852,7 +852,6 @@ Jonh Wendell &lt;jwendell@gnome.org&gt;</property>
     <property name="destroy_with_parent">True</property>
     <property name="type_hint">dialog</property>
     <property name="message_type">warning</property>
-    <property name="buttons">yes-no</property>
     <property name="text" translatable="yes">Certificate Verification</property>
     <property name="secondary_text" translatable="yes">The remote host has changed its certificate.
 Do you trust the new certificate?</property>
@@ -1020,7 +1019,6 @@ Do you trust the new certificate?</property>
     <property name="destroy_with_parent">True</property>
     <property name="type_hint">dialog</property>
     <property name="message_type">question</property>
-    <property name="buttons">yes-no</property>
     <property name="text" translatable="yes">Certificate Verification</property>
     <property name="secondary_text" translatable="yes">The below certificate could not be verified.
 Do you trust the certificate?</property>

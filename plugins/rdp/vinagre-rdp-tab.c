@@ -747,6 +747,9 @@ frdp_certificate_verify (freerdp *instance,
 
   dialog = GTK_WIDGET (gtk_builder_get_object (builder, "certificate_dialog"));
   gtk_window_set_transient_for ((GtkWindow *) dialog, GTK_WINDOW (vinagre_tab_get_window (tab)));
+  gtk_dialog_add_buttons (GTK_DIALOG (dialog), _("_Cancel"), GTK_RESPONSE_NO,
+                          _("Connect"), GTK_RESPONSE_YES, NULL);
+  gtk_dialog_set_default_response (GTK_DIALOG (dialog), GTK_RESPONSE_YES);
 
   widget = GTK_WIDGET (gtk_builder_get_object (builder, "certificate_subject"));
   gtk_label_set_text (GTK_LABEL (widget), subject);
@@ -785,6 +788,9 @@ frdp_changed_certificate_verify (freerdp *instance,
 
   dialog = GTK_WIDGET (gtk_builder_get_object (builder, "certificate_changed_dialog"));
   gtk_window_set_transient_for ((GtkWindow *) dialog, GTK_WINDOW (vinagre_tab_get_window (tab)));
+  gtk_dialog_add_buttons (GTK_DIALOG (dialog), _("_Cancel"), GTK_RESPONSE_NO,
+                          _("Connect"), GTK_RESPONSE_YES, NULL);
+  gtk_dialog_set_default_response (GTK_DIALOG (dialog), GTK_RESPONSE_YES);
 
   widget = GTK_WIDGET (gtk_builder_get_object (builder, "certificate_changed_subject"));
   gtk_label_set_text (GTK_LABEL (widget), subject);
