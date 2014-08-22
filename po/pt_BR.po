@@ -16,9 +16,9 @@ msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-07-27 22:50+0000\n"
-"PO-Revision-Date: 2014-07-28 03:27-0300\n"
-"Last-Translator: Rafael Ferreira <rafael.f.f1@gmail.com>\n"
+"POT-Creation-Date: 2014-08-22 10:48+0000\n"
+"PO-Revision-Date: 2014-08-22 08:10-0300\n"
+"Last-Translator: Enrico Nicoletto <liverig@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -248,7 +248,8 @@ msgstr ""
 msgid "Fingerprint:"
 msgstr "Impressão digital:"
 
-#: ../data/vinagre.ui.h:38
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:751
+#: ../plugins/rdp/vinagre-rdp-tab.c:792
 msgid "Connect"
 msgstr "Conectar"
 
@@ -371,7 +372,12 @@ msgstr "Define a altura da área de trabalho remota"
 msgid "Port:"
 msgstr "Porta:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:976 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:750 ../plugins/rdp/vinagre-rdp-tab.c:791
+#| msgid "Cancel Login"
+msgid "_Cancel"
+msgstr "_Cancelar"
+
+#: ../plugins/rdp/vinagre-rdp-tab.c:982 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:264
 msgid "Error connecting to host."
 msgstr "Erro ao conectar à máquina."
