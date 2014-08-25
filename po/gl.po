@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vinagre-master-po-gl-26618\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-01 18:06+0200\n"
-"PO-Revision-Date: 2014-07-01 18:06+0200\n"
+"POT-Creation-Date: 2014-08-25 22:22+0200\n"
+"PO-Revision-Date: 2014-08-25 22:24+0200\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: gnome-l10n-gl@gnome.org\n"
 "Language: gl\n"
@@ -131,8 +131,8 @@ msgstr ""
 "Fran Dieguez <frandieguez@gnome.org>, 2012-2014.\n"
 "Leandro Regueiro <leandro.regueiro@gmail.com>, 2012.\n"
 "Antón Méixome <meixome@certima.net>, 2010.\n"
-"Mancomún - Centro de Referencia e Servizos de Software Libre "
-"<g11n@mancomun.org>, 2009.\n"
+"Mancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun."
+"org>, 2009.\n"
 "Antón Méixome <meixome@mancomun.org>, 2009.\n"
 "Suso Baleato <suso.baleato@xunta.es>, 2009.\n"
 "Ignacio Casal Quinteiro <icq@gnome.org>, 2007, 2008."
@@ -211,42 +211,88 @@ msgid "Parent Folder"
 msgstr "Cartafol pai"
 
 #: ../data/vinagre.ui.h:23
+msgid "Certificate Verification"
+msgstr "Verificación de certificado"
+
+#: ../data/vinagre.ui.h:24
+msgid ""
+"The remote host has changed its certificate.\n"
+"Do you trust the new certificate?"
+msgstr ""
+"O equipo remoto cambiou o seu certificado.\n"
+"Confía no novo certificado?"
+
+#. Subject of the certificate.
+#: ../data/vinagre.ui.h:27
+msgid "Subject:"
+msgstr "Asunto:"
+
+#. Issuer of the certificate.
+#: ../data/vinagre.ui.h:29
+msgid "Issuer:"
+msgstr "Emisor:"
+
+#. Fingerprint of the new certificate.
+#: ../data/vinagre.ui.h:31
+msgid "New fingerprint:"
+msgstr "Nova impresión dixital:"
+
+#. Fingerprint of the old certificate.
+#: ../data/vinagre.ui.h:33
+msgid "Old fingerprint:"
+msgstr "Impresión dixital antiga:"
+
+#: ../data/vinagre.ui.h:34
+msgid ""
+"The below certificate could not be verified.\n"
+"Do you trust the certificate?"
+msgstr ""
+"O certificado de embaixo non puido verificarse.\n"
+"Confía no certificado?"
+
+#. Fingerprint of the certificate.
+#: ../data/vinagre.ui.h:37
+msgid "Fingerprint:"
+msgstr "Impresión dixital:"
+
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:751
+#: ../plugins/rdp/vinagre-rdp-tab.c:792
 msgid "Connect"
 msgstr "Conectar"
 
-#: ../data/vinagre.ui.h:24
+#: ../data/vinagre.ui.h:39
 msgid "Choose a remote desktop to connect to"
 msgstr "Escolla un escritorio remoto ao que conectarse"
 
-#: ../data/vinagre.ui.h:25
+#: ../data/vinagre.ui.h:40
 msgid "_Protocol:"
 msgstr "_Protocolo:"
 
-#: ../data/vinagre.ui.h:26
+#: ../data/vinagre.ui.h:41
 msgid "Select a remote desktop protocol for this connection"
 msgstr "Seleccionar un protocolo de escritorio remoto para esta conexión"
 
-#: ../data/vinagre.ui.h:27
+#: ../data/vinagre.ui.h:42
 msgid "Search for remote hosts on the network"
 msgstr "Buscar equipos remotos na rede"
 
-#: ../data/vinagre.ui.h:28
+#: ../data/vinagre.ui.h:43
 msgid "Connection options"
 msgstr "Opcións de conexión"
 
-#: ../data/vinagre.ui.h:29
+#: ../data/vinagre.ui.h:44
 msgid "_Fullscreen"
 msgstr "_Pantalla completa"
 
-#: ../data/vinagre.ui.h:30
+#: ../data/vinagre.ui.h:45
 msgid "Enable fullscreen mode for this connection"
 msgstr "Activar o modo a pantalla completa para esta conexión"
 
-#: ../data/vinagre.ui.h:31
+#: ../data/vinagre.ui.h:46
 msgid "Reverse Connections"
 msgstr "Conexións inversas"
 
-#: ../data/vinagre.ui.h:32
+#: ../data/vinagre.ui.h:47
 msgid ""
 "By activating reverse connections you can access remote desktops that are "
 "behind a firewall. The remote side is supposed to initiate the connection "
@@ -256,20 +302,20 @@ msgstr ""
 "dunha devasa. Suponse que a parte remota iniciará a conexión con vostede. "
 "Para máis información consulte a axuda."
 
-#: ../data/vinagre.ui.h:33
+#: ../data/vinagre.ui.h:48
 msgid "_Enable Reverse Connections"
 msgstr "Activar conexións _inversas"
 
 #. Translators: this is the reverse connection mode. "Always enabled" means it will be enabled by default in the program startup. You can see this string in the dialog Remote->Reverse connections.
-#: ../data/vinagre.ui.h:35
+#: ../data/vinagre.ui.h:50
 msgid "_Always Enabled"
 msgstr "_Sempre activado"
 
-#: ../data/vinagre.ui.h:36
+#: ../data/vinagre.ui.h:51
 msgid "This desktop is reachable through the following IP address(es):"
 msgstr "Pódese chegar a esta máquina a través da(s) seguinte(s) IP:"
 
-#: ../data/vinagre.ui.h:37
+#: ../data/vinagre.ui.h:52
 msgid "Connectivity"
 msgstr "Conectividade"
 
@@ -332,7 +378,11 @@ msgstr "Estabelece o alto do escritorio remoto"
 msgid "Port:"
 msgstr "Porto:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:885 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:750 ../plugins/rdp/vinagre-rdp-tab.c:791
+msgid "_Cancel"
+msgstr "_Cancelar"
+
+#: ../plugins/rdp/vinagre-rdp-tab.c:982 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:264
 msgid "Error connecting to host."
 msgstr "Produciuse un erro ao conectar co host."
@@ -536,28 +586,28 @@ msgstr "E_scalar"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:467
-msgid "Fits the remote screen into the current window size"
-msgstr "Axustar a pantalla remota ao tamaño da xanela actual"
+msgid "Fit the remote screen into the current window size"
+msgstr "Axustar a pantalla remota ao tamaño actual da xanela"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:615
 msgid "_Keep Aspect Ratio"
 msgstr "_Manter a proporción de aspecto"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:616
-msgid "Keeps the screen aspect ratio when using scaling"
+msgid "Keep the screen aspect ratio when using scaling"
 msgstr "Manter a proporción de aspecto na pantalla cando se usa o escalado"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
 #: ../plugins/spice/vinagre-spice-tab.c:508
-msgid "Does not send mouse and keyboard events"
-msgstr "Desactiva o rato e os eventos de teclado"
+msgid "Do not send mouse and keyboard events"
+msgstr "Non enviar os eventos do rato e do teclado"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:644
 msgid "_Original size"
 msgstr "Tamaño _orixinal"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:645
-msgid "Adjusts the window to the remote desktop's size"
+msgid "Adjust the window to the size of the remote desktop"
 msgstr "Axustar a xanela ao tamaño do escritorio remoto"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:658
@@ -573,9 +623,10 @@ msgstr "Solicita unha actualización de pantalla"
 msgid "_Send Ctrl-Alt-Del"
 msgstr "_Enviar Ctrl-Alt-Supr"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:682
+#: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
 #: ../plugins/spice/vinagre-spice-tab.c:532
-msgid "Sends Ctrl+Alt+Del to the remote desktop"
+#: ../plugins/spice/vinagre-spice-tab.c:605
+msgid "Send Ctrl+Alt+Del to the remote desktop"
 msgstr "Enviar Ctrl+Alt+Supr ao escritorio remoto"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
@@ -591,9 +642,8 @@ msgid "Read only"
 msgstr "Só de lectura"
 
 #. Send Ctrl-alt-del
-#: ../plugins/vnc/vinagre-vnc-tab.c:754 ../plugins/vnc/vinagre-vnc-tab.c:756
+#: ../plugins/vnc/vinagre-vnc-tab.c:754
 #: ../plugins/spice/vinagre-spice-tab.c:603
-#: ../plugins/spice/vinagre-spice-tab.c:605
 msgid "Send Ctrl-Alt-Del"
 msgstr "Enviar Ctrl-Alt-Supr"
 
