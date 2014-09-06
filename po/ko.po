@@ -8,15 +8,14 @@
 #
 # 주의:
 # - 이 프로그램의 이름인 Vinagre는 "비나그레"로 음역. (식초의 스페인어 단어)
-# - Instance Messanger - "메신저"로 번역
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-03-06 11:50+0000\n"
-"PO-Revision-Date: 2014-03-07 00:57+0900\n"
+"POT-Creation-Date: 2014-09-05 22:53+0000\n"
+"PO-Revision-Date: 2014-09-06 16:44+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
 "Language: Korean\n"
@@ -86,13 +85,17 @@ msgstr "참이면 거꾸로 연결을 받아들이는 프로그램을 항상 시
 
 #: ../data/vinagre.appdata.xml.in.h:1
 msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
-msgstr "비나그레에서는 원격에 있는 윈도우, 맥오에스X, 리눅스 데스크톱을 볼 수 있습니다."
+msgstr ""
+"비나그레에서는 원격에 있는 윈도우, 맥오에스X, 리눅스 데스크톱을 볼 수 있습니"
+"다."
 
 #: ../data/vinagre.appdata.xml.in.h:2
 msgid ""
 "It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
 "SSH servers."
-msgstr "VNC, RDP, SPICE 프로토콜을 사용하고, SSH 서버에 연결할 때도 사용할 수 있습니다."
+msgstr ""
+"VNC, RDP, SPICE 프로토콜을 사용하고, SSH 서버에 연결할 때도 사용할 수 있습니"
+"다."
 
 #: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
 #: ../vinagre/vinagre-main.c:182
@@ -127,7 +130,7 @@ msgstr "인증(_A)"
 msgid "Authentication is required"
 msgstr "인증이 필요합니다"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:54
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:120
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
 #: ../plugins/spice/vinagre-spice-tab.c:139
 msgid "Host:"
@@ -143,87 +146,137 @@ msgid "_Password:"
 msgstr "암호(_P):"
 
 #: ../data/vinagre.ui.h:10
+msgid "_Domain:"
+msgstr "도메인(_D):"
+
+#: ../data/vinagre.ui.h:11
 msgid "_Remember this credential"
 msgstr "이 암호를 기억(_R)"
 
-#: ../data/vinagre.ui.h:11
+#: ../data/vinagre.ui.h:12
 msgid "Store the login credential in GNOME Keyring"
 msgstr "그놈 키 모음에 로그인 암호 저장"
 
-#: ../data/vinagre.ui.h:12
+#: ../data/vinagre.ui.h:13
 msgid "Bookmarks"
 msgstr "책갈피"
 
-#: ../data/vinagre.ui.h:13
+#: ../data/vinagre.ui.h:14
 msgid "Connection"
 msgstr "연결"
 
 #. Translators: This is the name of a bookmark. It appears in the add/edit bookmark dialog.
-#: ../data/vinagre.ui.h:15
+#: ../data/vinagre.ui.h:16
 msgid "_Name:"
 msgstr "이름(_N):"
 
-#: ../data/vinagre.ui.h:16
+#: ../data/vinagre.ui.h:17
 msgid "_Host:"
 msgstr "호스트(_H):"
 
-#: ../data/vinagre.ui.h:17
+#: ../data/vinagre.ui.h:18
 msgid "Options"
 msgstr "옵션"
 
-#: ../data/vinagre.ui.h:18
+#: ../data/vinagre.ui.h:19
 msgid "_Full screen"
 msgstr "전체 화면(_F)"
 
-#: ../data/vinagre.ui.h:19
+#: ../data/vinagre.ui.h:20
 msgid "Folder"
 msgstr "폴더"
 
-#: ../data/vinagre.ui.h:20
+#: ../data/vinagre.ui.h:21
 msgid "Bookmark Folder"
 msgstr "책갈피 폴더"
 
-#: ../data/vinagre.ui.h:21
+#: ../data/vinagre.ui.h:22
 msgid "Parent Folder"
 msgstr "상위 폴더"
 
-#: ../data/vinagre.ui.h:22
+#: ../data/vinagre.ui.h:23
+msgid "Certificate Verification"
+msgstr "인증서 확인"
+
+#: ../data/vinagre.ui.h:24
+msgid ""
+"The remote host has changed its certificate.\n"
+"Do you trust the new certificate?"
+msgstr ""
+"원격 호스트가 인증서를 바꿨습니다.\n"
+"새 인증서를 신뢰하시겠습니까?"
+
+#. Subject of the certificate.
+#: ../data/vinagre.ui.h:27
+msgid "Subject:"
+msgstr "제목:"
+
+#. Issuer of the certificate.
+#: ../data/vinagre.ui.h:29
+msgid "Issuer:"
+msgstr "발급자:"
+
+#. Fingerprint of the new certificate.
+#: ../data/vinagre.ui.h:31
+msgid "New fingerprint:"
+msgstr "새 핑거프린트:"
+
+#. Fingerprint of the old certificate.
+#: ../data/vinagre.ui.h:33
+msgid "Old fingerprint:"
+msgstr "과거 핑거프린트:"
+
+#: ../data/vinagre.ui.h:34
+msgid ""
+"The below certificate could not be verified.\n"
+"Do you trust the certificate?"
+msgstr ""
+"아래 인증서를 확인할 수 없습니다.\n"
+"그래도 인증서를 신뢰하시겠습니까?"
+
+#. Fingerprint of the certificate.
+#: ../data/vinagre.ui.h:37
+msgid "Fingerprint:"
+msgstr "핑거프린트:"
+
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:751
+#: ../plugins/rdp/vinagre-rdp-tab.c:792
 msgid "Connect"
 msgstr "연결"
 
-#: ../data/vinagre.ui.h:23
+#: ../data/vinagre.ui.h:39
 msgid "Choose a remote desktop to connect to"
 msgstr "연결할 원격 데스크톱 선택"
 
-#: ../data/vinagre.ui.h:24
+#: ../data/vinagre.ui.h:40
 msgid "_Protocol:"
 msgstr "프로토콜(_P):"
 
-#: ../data/vinagre.ui.h:25
+#: ../data/vinagre.ui.h:41
 msgid "Select a remote desktop protocol for this connection"
 msgstr "이 연결의 원격 데스크톱 프로토콜 선택"
 
-#: ../data/vinagre.ui.h:26
+#: ../data/vinagre.ui.h:42
 msgid "Search for remote hosts on the network"
 msgstr "네트워크에서 원격 호스트 검색"
 
-#: ../data/vinagre.ui.h:27
+#: ../data/vinagre.ui.h:43
 msgid "Connection options"
 msgstr "연결 옵션"
 
-#: ../data/vinagre.ui.h:28
+#: ../data/vinagre.ui.h:44
 msgid "_Fullscreen"
 msgstr "전체 화면(_F)"
 
-#: ../data/vinagre.ui.h:29
+#: ../data/vinagre.ui.h:45
 msgid "Enable fullscreen mode for this connection"
 msgstr "이 연결에 전체화면 모드 사용"
 
-#: ../data/vinagre.ui.h:30
+#: ../data/vinagre.ui.h:46
 msgid "Reverse Connections"
 msgstr "거꾸로 연결"
 
-#: ../data/vinagre.ui.h:31
+#: ../data/vinagre.ui.h:47
 msgid ""
 "By activating reverse connections you can access remote desktops that are "
 "behind a firewall. The remote side is supposed to initiate the connection "
@@ -233,20 +286,20 @@ msgstr ""
 "격 컴퓨터 쪽에서 이 쪽으로 연결을 시도합니다. 자세한 설명은 도움말을 보십시"
 "오."
 
-#: ../data/vinagre.ui.h:32
+#: ../data/vinagre.ui.h:48
 msgid "_Enable Reverse Connections"
 msgstr "거꾸로 연결 사용(_E)"
 
 #. Translators: this is the reverse connection mode. "Always enabled" means it will be enabled by default in the program startup. You can see this string in the dialog Remote->Reverse connections.
-#: ../data/vinagre.ui.h:34
+#: ../data/vinagre.ui.h:50
 msgid "_Always Enabled"
 msgstr "항상 사용(_A)"
 
-#: ../data/vinagre.ui.h:35
+#: ../data/vinagre.ui.h:51
 msgid "This desktop is reachable through the following IP address(es):"
 msgstr "이 데스크톱은 다음 IP 주소를 통해 연결할 수 있습니다:"
 
-#: ../data/vinagre.ui.h:36
+#: ../data/vinagre.ui.h:52
 msgid "Connectivity"
 msgstr "연결"
 
@@ -302,25 +355,20 @@ msgstr "높이(_H):"
 msgid "Set height of the remote desktop"
 msgstr "원격 데스크톱의 높이를 지정합니다"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:55 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:121 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:140
 msgid "Port:"
 msgstr "포트:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:139
-msgid "Error while executing xfreerdp"
-msgstr "xfreerdp 실행에 오류"
+#: ../plugins/rdp/vinagre-rdp-tab.c:750 ../plugins/rdp/vinagre-rdp-tab.c:791
+msgid "_Cancel"
+msgstr "취소(_C)"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:140 ../vinagre/vinagre-bookmarks.c:366
-#: ../vinagre/vinagre-bookmarks.c:492
-#: ../vinagre/vinagre-bookmarks-migration.c:135
-#: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
-#: ../vinagre/vinagre-connect.c:500 ../vinagre/vinagre-options.c:85
-#: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
-#: ../vinagre/vinagre-window.c:798
-msgid "Unknown error"
-msgstr "알 수 없는 오류"
+#: ../plugins/rdp/vinagre-rdp-tab.c:982 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/spice/vinagre-spice-tab.c:264
+msgid "Error connecting to host."
+msgstr "호스트에 연결하는 중 오류."
 
 #: ../plugins/ssh/vinagre-ssh-plugin.c:61
 msgid "SSH"
@@ -493,11 +541,6 @@ msgstr "SSH 터널을 만드는데 오류가 발생했습니다"
 msgid "Unknown reason"
 msgstr "알 수 없는 이유"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:317
-#: ../plugins/spice/vinagre-spice-tab.c:264
-msgid "Error connecting to host."
-msgstr "호스트에 연결하는 중 오류."
-
 #. Translators: %s is a host name or IP address; %u is a code error (number).
 #: ../plugins/vnc/vinagre-vnc-tab.c:362
 #, c-format
@@ -527,7 +570,7 @@ msgstr "크기 조정(_C)"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:467
-msgid "Fits the remote screen into the current window size"
+msgid "Fit the remote screen into the current window size"
 msgstr "원격 화면을 현재 창 크기에 맞춥니다"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:615
@@ -535,12 +578,12 @@ msgid "_Keep Aspect Ratio"
 msgstr "가로 세로 비율 유지(_K)"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:616
-msgid "Keeps the screen aspect ratio when using scaling"
+msgid "Keep the screen aspect ratio when using scaling"
 msgstr "화면 크기를 조절할 때 가로 세로 비율을 유지합니다"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
 #: ../plugins/spice/vinagre-spice-tab.c:508
-msgid "Does not send mouse and keyboard events"
+msgid "Do not send mouse and keyboard events"
 msgstr "마우스와 키보드 이벤트를 보내지 않습니다"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:644
@@ -548,7 +591,7 @@ msgid "_Original size"
 msgstr "원래 크기(_O)"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:645
-msgid "Adjusts the window to the remote desktop's size"
+msgid "Adjust the window to the size of the remote desktop"
 msgstr "창의 크기를 원격 데스크톱의 크기에 맞게 조절합니다"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:658
@@ -564,9 +607,10 @@ msgstr "화면 업데이트를 요청합니다"
 msgid "_Send Ctrl-Alt-Del"
 msgstr "Ctrl-Alt-Del 보내기(_S)"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:682
+#: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
 #: ../plugins/spice/vinagre-spice-tab.c:532
-msgid "Sends Ctrl+Alt+Del to the remote desktop"
+#: ../plugins/spice/vinagre-spice-tab.c:605
+msgid "Send Ctrl+Alt+Del to the remote desktop"
 msgstr "원격 데스크톱에 Ctrl+Alt+Del 키를 보냅니다"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
@@ -582,9 +626,8 @@ msgid "Read only"
 msgstr "읽기 전용"
 
 #. Send Ctrl-alt-del
-#: ../plugins/vnc/vinagre-vnc-tab.c:754 ../plugins/vnc/vinagre-vnc-tab.c:756
+#: ../plugins/vnc/vinagre-vnc-tab.c:754
 #: ../plugins/spice/vinagre-spice-tab.c:603
-#: ../plugins/spice/vinagre-spice-tab.c:605
 msgid "Send Ctrl-Alt-Del"
 msgstr "Ctrl-Alt-Del 보내기"
 
@@ -662,6 +705,15 @@ msgstr "클라이언트와 게스트 사이에 클립보드를 공유합니다"
 #, c-format
 msgid "Error while initializing bookmarks: %s"
 msgstr "책갈피를 초기화하는 중 오류: %s"
+
+#: ../vinagre/vinagre-bookmarks.c:366 ../vinagre/vinagre-bookmarks.c:492
+#: ../vinagre/vinagre-bookmarks-migration.c:135
+#: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
+#: ../vinagre/vinagre-connect.c:510 ../vinagre/vinagre-options.c:85
+#: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
+#: ../vinagre/vinagre-window.c:798
+msgid "Unknown error"
+msgstr "알 수 없는 오류"
 
 #: ../vinagre/vinagre-bookmarks.c:373
 msgid "Error while initializing bookmarks: The file seems to be empty"
@@ -815,17 +867,17 @@ msgid "The following file could not be opened:"
 msgid_plural "The following files could not be opened:"
 msgstr[0] "다음 파일은 열 수 없습니다:"
 
-#: ../vinagre/vinagre-connect.c:90 ../vinagre/vinagre-connect.c:336
-#: ../vinagre/vinagre-connect.c:464
+#: ../vinagre/vinagre-connect.c:91 ../vinagre/vinagre-connect.c:344
+#: ../vinagre/vinagre-connect.c:474
 msgid "Could not get the active protocol from the protocol list."
 msgstr "프로토콜 목록에서 사용 중인 프로토콜을 가져올 수 없습니다."
 
-#: ../vinagre/vinagre-connect.c:317
+#: ../vinagre/vinagre-connect.c:318
 #, c-format
 msgid "Error while saving history file: %s"
 msgstr "기록 파일을 저장하는 중 오류: %s"
 
-#: ../vinagre/vinagre-connect.c:352
+#: ../vinagre/vinagre-connect.c:360
 msgid "Choose a Remote Desktop"
 msgstr "원격 데스크톱 선택"
 
@@ -1027,11 +1079,10 @@ msgid ""
 "The identity sent by the remote host is %s. If you want to be absolutely "
 "sure it is safe to continue, contact the system administrator."
 msgstr ""
-"원격 호스트의 (%s) 신원을 알 수 없습니다.\n"
+"원격 호스트의(%s) 신원을 알 수 없습니다.\n"
 "컴퓨터에 맨 처음 연결할 때 이렇게 나타납니다.\n"
 "\n"
-"원격 호스트가 보낸 신원은 %s 입니다. 정말로 계속해도 안전하다고 확신한다면, "
-"시스템 관리자에게 문의하십시오."
+"원격 호스트가 보낸 신원은 %s 입니다. 정말로 계속해도 안전하다고 확신한다면, 시스템 관리자에게 문의하십시오."
 
 #: ../vinagre/vinagre-ssh.c:565
 msgid "Login dialog canceled"
