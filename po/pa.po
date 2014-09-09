@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: vinagre.HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-03-19 11:51+0000\n"
-"PO-Revision-Date: 2014-03-19 13:36-0500\n"
+"POT-Creation-Date: 2014-09-08 22:50+0000\n"
+"PO-Revision-Date: 2014-09-08 22:27-0500\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
 "Language: pa\n"
@@ -95,8 +95,8 @@ msgid ""
 "SSH servers."
 msgstr ""
 "ਇਹ VNC, RDP, ਅਤੇ SPICE ਪ੍ਰੋਟੋਕਾਲ ਵਰਤਦਾ ਹੈ ਅਤੇ SSH ਸਰਵਰਾਂ ਨਾਲ ਵੀ ਕੁਨੈਕਟ ਹੋਣ ਲਈ "
-"ਵਰਤਿਆ "
-"ਜਾ ਸਕਦਾ ਹੈ।"
+"ਵਰਤਿਆ ਜਾ "
+"ਸਕਦਾ ਹੈ।"
 
 #: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
 #: ../vinagre/vinagre-main.c:182
@@ -119,7 +119,7 @@ msgstr "ਵੀਨਾਗਰੇ ਗਨੋਮ ਡੈਸਕਟਾਪ ਲਈ ਰਿ�
 #: ../data/vinagre.ui.h:3
 msgid "translator-credits"
 msgstr ""
-"ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ <aalam@users.sf.net> ੨੦੦੬-੨੦੧੦\n"
+"ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ <aalam@users.sf.net> ੨੦੦੬-੨੦੧੪\n"
 "P(unjabi) O(pen) S(ource) T(eam)"
 
 #. This is a button label, in the authentication dialog
@@ -131,7 +131,7 @@ msgstr "ਪਰਮਾਣਕਿਤਾ(_A)"
 msgid "Authentication is required"
 msgstr "ਪਰਮਾਣਕਿਤਾ ਦੀ ਲੋੜ ਹੈ"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:54
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:120
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
 #: ../plugins/spice/vinagre-spice-tab.c:139
 msgid "Host:"
@@ -147,87 +147,137 @@ msgid "_Password:"
 msgstr "ਪਾਸਵਰਡ(_P):."
 
 #: ../data/vinagre.ui.h:10
+msgid "_Domain:"
+msgstr "ਡੋਮੇਨ(_D):"
+
+#: ../data/vinagre.ui.h:11
 msgid "_Remember this credential"
 msgstr "ਇਹ ਸਨਦ ਯਾਦ ਰੱਖੋ(_R)"
 
-#: ../data/vinagre.ui.h:11
-msgid "Store the login credential in GNOME Keyring"
-msgstr "ਲਾਗਇਨ ਸਨਦ (credential) ਗਨੋਮ ਕੀਰਿੰਗ ਵਿੱਚ ਸੰਭਾਲੋ"
-
 #: ../data/vinagre.ui.h:12
+msgid "Store the login credential in GNOME Keyring"
+msgstr "ਲਾਗਇਨ ਸਨਦ ਗਨੋਮ ਕੀਰਿੰਗ ਵਿੱਚ ਸੰਭਾਲੋ"
+
+#: ../data/vinagre.ui.h:13
 msgid "Bookmarks"
 msgstr "ਬੁੱਕਮਾਰਕ"
 
-#: ../data/vinagre.ui.h:13
+#: ../data/vinagre.ui.h:14
 msgid "Connection"
 msgstr "ਕੁਨੈਕਸ਼ਨ"
 
 #. Translators: This is the name of a bookmark. It appears in the add/edit bookmark dialog.
-#: ../data/vinagre.ui.h:15
+#: ../data/vinagre.ui.h:16
 msgid "_Name:"
 msgstr "ਨਾਂ(_N):"
 
-#: ../data/vinagre.ui.h:16
+#: ../data/vinagre.ui.h:17
 msgid "_Host:"
 msgstr "ਹੋਸਟ(_H):"
 
-#: ../data/vinagre.ui.h:17
+#: ../data/vinagre.ui.h:18
 msgid "Options"
 msgstr "ਚੋਣਾਂ"
 
-#: ../data/vinagre.ui.h:18
+#: ../data/vinagre.ui.h:19
 msgid "_Full screen"
 msgstr "ਪੂਰੀ ਸਕਰੀਨ(_F)"
 
-#: ../data/vinagre.ui.h:19
+#: ../data/vinagre.ui.h:20
 msgid "Folder"
 msgstr "ਫੋਲਡਰ"
 
-#: ../data/vinagre.ui.h:20
+#: ../data/vinagre.ui.h:21
 msgid "Bookmark Folder"
 msgstr "ਫੋਲਡਰ ਬੁੱਕਮਾਰਕ ਕਰੋ"
 
-#: ../data/vinagre.ui.h:21
+#: ../data/vinagre.ui.h:22
 msgid "Parent Folder"
 msgstr "ਮੁੱਢਲਾ ਫੋਲਡਰ"
 
-#: ../data/vinagre.ui.h:22
+#: ../data/vinagre.ui.h:23
+msgid "Certificate Verification"
+msgstr "ਸਰਟੀਫਿਕੇਟ ਪੜਤਾਲ"
+
+#: ../data/vinagre.ui.h:24
+msgid ""
+"The remote host has changed its certificate.\n"
+"Do you trust the new certificate?"
+msgstr ""
+"ਰਿਮੋਟ ਹੋਸਟ ਨੇ ਇਹ ਸਰਟੀਫਿਕੇਟ ਬਦਲਿਆ ਹੈ।\n"
+"ਕੀ ਤੁਸੀਂ ਨਵੇਂ ਸਰਟੀਫਿਕੇਟ ਉੱਤੇ ਭਰੋਸਾ ਕਰਦੇ ਹੋ?"
+
+#. Subject of the certificate.
+#: ../data/vinagre.ui.h:27
+msgid "Subject:"
+msgstr "ਵਿਸ਼ਾ:"
+
+#. Issuer of the certificate.
+#: ../data/vinagre.ui.h:29
+msgid "Issuer:"
+msgstr "ਜਾਰੀ-ਕਰਤਾ:"
+
+#. Fingerprint of the new certificate.
+#: ../data/vinagre.ui.h:31
+msgid "New fingerprint:"
+msgstr "ਨਵਾਂ ਫਿੰਗਰ-ਪਰਿੰਟ:"
+
+#. Fingerprint of the old certificate.
+#: ../data/vinagre.ui.h:33
+msgid "Old fingerprint:"
+msgstr "ਪੁਰਾਣਾ ਫਿੰਗਰ-ਪਰਿੰਟ:"
+
+#: ../data/vinagre.ui.h:34
+msgid ""
+"The below certificate could not be verified.\n"
+"Do you trust the certificate?"
+msgstr ""
+"ਹੇਠ ਦਿੱਤੇ ਸਰਟੀਫਿਕੇਟ ਦੀ ਪੜਤਾਲ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ।\n"
+"ਕੀ ਤੁਸੀਂ ਸਰਟੀਫਿਕੇਟ ਉੱਤੇ ਭਰੋਸਾ ਕਰਦੇ ਹੋ?"
+
+#. Fingerprint of the certificate.
+#: ../data/vinagre.ui.h:37
+msgid "Fingerprint:"
+msgstr "ਫਿੰਗਰ-ਪਰਿੰਟ:"
+
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:751
+#: ../plugins/rdp/vinagre-rdp-tab.c:792
 msgid "Connect"
 msgstr "ਕੁਨੈਕਟ ਕਰੋ"
 
-#: ../data/vinagre.ui.h:23
+#: ../data/vinagre.ui.h:39
 msgid "Choose a remote desktop to connect to"
 msgstr "ਕੁਨੈਕਟ ਕਰਨ ਲਈ ਰਿਮੋਟ ਡੈਸਕਟਾਪ ਚੁਣੋ"
 
-#: ../data/vinagre.ui.h:24
+#: ../data/vinagre.ui.h:40
 msgid "_Protocol:"
 msgstr "ਪਰੋਟੋਕਾਲ(_P):"
 
-#: ../data/vinagre.ui.h:25
+#: ../data/vinagre.ui.h:41
 msgid "Select a remote desktop protocol for this connection"
 msgstr "ਇਹ ਕੁਨੈਕਸ਼ਨ ਲਈ ਰਿਮੋਟ ਡੈਸਕਟਾਪ ਪਰੋਟੋਕਾਲ ਚੁਣੋ"
 
-#: ../data/vinagre.ui.h:26
+#: ../data/vinagre.ui.h:42
 msgid "Search for remote hosts on the network"
 msgstr "ਨੈੱਟਵਰਕ ਉੱਤੇ ਰਿਮੋਟ ਹੋਸਟ ਲਈ ਲੱਭੋ"
 
-#: ../data/vinagre.ui.h:27
+#: ../data/vinagre.ui.h:43
 msgid "Connection options"
 msgstr "ਕੁਨੈਕਸ਼ਨ ਚੋਣਾਂ"
 
-#: ../data/vinagre.ui.h:28
+#: ../data/vinagre.ui.h:44
 msgid "_Fullscreen"
 msgstr "ਪੂਰੀ ਸਕਰੀਨ(_F)"
 
-#: ../data/vinagre.ui.h:29
+#: ../data/vinagre.ui.h:45
 msgid "Enable fullscreen mode for this connection"
 msgstr "ਇਹ ਕੁਨੈਕਸ਼ਨ ਲਈ ਪੂਰੀ ਸਕਰੀਨ ਮੋਡ ਚਾਲੂ"
 
-#: ../data/vinagre.ui.h:30
+#: ../data/vinagre.ui.h:46
 msgid "Reverse Connections"
 msgstr "ਉਲਟ ਕੁਨੈਕਸ਼ਨ"
 
-#: ../data/vinagre.ui.h:31
+#: ../data/vinagre.ui.h:47
 msgid ""
 "By activating reverse connections you can access remote desktops that are "
 "behind a firewall. The remote side is supposed to initiate the connection "
@@ -237,20 +287,20 @@ msgstr ""
 "ਹੋ। ਰਿਮੋਟ ਸਾਈਟ ਵਲੋਂ "
 "ਤੁਹਾਡੇ ਨਾਲ ਕੁਨੈਕਸ਼ਨ ਦੀ ਸ਼ੁਰੂ ਕੀਤੀ ਮੰਨੀ ਜਾਵੇਗੀ। ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ ਮੱਦਦ ਵੇਖੋ।"
 
-#: ../data/vinagre.ui.h:32
+#: ../data/vinagre.ui.h:48
 msgid "_Enable Reverse Connections"
 msgstr "ਉਲਟ ਕੁਨੈਕਸ਼ਨ ਚਾਲੂ(_E)"
 
 #. Translators: this is the reverse connection mode. "Always enabled" means it will be enabled by default in the program startup. You can see this string in the dialog Remote->Reverse connections.
-#: ../data/vinagre.ui.h:34
+#: ../data/vinagre.ui.h:50
 msgid "_Always Enabled"
 msgstr "ਹਮੇਸ਼ਾ ਚਾਲੂ(_A)"
 
-#: ../data/vinagre.ui.h:35
+#: ../data/vinagre.ui.h:51
 msgid "This desktop is reachable through the following IP address(es):"
 msgstr "ਇਹ ਡੈਸਕਟਾਪ ਅੱਗੇ ਦਿੱਤੇ IP ਐਡਰੈੱਸ ਰਾਹੀਂ ਵਰਤੋਂ ਯੋਗ ਹੈ:"
 
-#: ../data/vinagre.ui.h:36
+#: ../data/vinagre.ui.h:52
 msgid "Connectivity"
 msgstr "ਕੁਨੈਕਟਵਿਟੀ"
 
@@ -307,25 +357,21 @@ msgstr "ਉਚਾਈ(_H):"
 msgid "Set height of the remote desktop"
 msgstr " ਰਿਮੋਟ ਡੈਸਕਟਾਪ ਦੀ ਉਚਾਈ ਸੈੱਟ ਕਰੋ"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:55 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:121 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:140
 msgid "Port:"
 msgstr "ਪੋਰਟ:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:139
-msgid "Error while executing xfreerdp"
-msgstr "xfreerdp ਚਲਾਉਣ ਦੌਰਾਨ ਗਲਤੀ"
+#: ../plugins/rdp/vinagre-rdp-tab.c:750 ../plugins/rdp/vinagre-rdp-tab.c:791
+#| msgid "Cancel Login"
+msgid "_Cancel"
+msgstr "ਰੱਦ ਕਰੋ(_C)"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:140 ../vinagre/vinagre-bookmarks.c:366
-#: ../vinagre/vinagre-bookmarks.c:492
-#: ../vinagre/vinagre-bookmarks-migration.c:135
-#: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
-#: ../vinagre/vinagre-connect.c:510 ../vinagre/vinagre-options.c:85
-#: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
-#: ../vinagre/vinagre-window.c:798
-msgid "Unknown error"
-msgstr "ਅਣਜਾਣ ਗਲਤੀ"
+#: ../plugins/rdp/vinagre-rdp-tab.c:982 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/spice/vinagre-spice-tab.c:264
+msgid "Error connecting to host."
+msgstr "ਹੋਸਟ ਨਾਲ ਕੁਨੈਕਟ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ ਹੈ।"
 
 #: ../plugins/ssh/vinagre-ssh-plugin.c:61
 msgid "SSH"
@@ -497,11 +543,6 @@ msgstr "SSH ਟਨਲ ਬਣਾਉਣ ਦੌਰਾਨ ਗਲਤੀ"
 msgid "Unknown reason"
 msgstr "ਅਣਜਾਣ ਕਾਰਨ"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:317
-#: ../plugins/spice/vinagre-spice-tab.c:264
-msgid "Error connecting to host."
-msgstr "ਹੋਸਟ ਨਾਲ ਕੁਨੈਕਟ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ ਹੈ।"
-
 #. Translators: %s is a host name or IP address; %u is a code error (number).
 #: ../plugins/vnc/vinagre-vnc-tab.c:362
 #, c-format
@@ -531,7 +572,8 @@ msgstr "ਸਕੇਲਿੰਗ(_c)"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:467
-msgid "Fits the remote screen into the current window size"
+#| msgid "Fits the remote screen into the current window size"
+msgid "Fit the remote screen into the current window size"
 msgstr "ਰਿਮੋਟ ਸਕਰੀਨ ਨੂੰ ਮੌਜੂਦਾ ਵਿੰਡੋ ਦੇ ਆਕਾਰ ਵਿੱਚ ਫਿੱਟ ਕਰੋ"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:615
@@ -539,12 +581,14 @@ msgid "_Keep Aspect Ratio"
 msgstr "ਆਕਾਰ ਅਨੁਪਾਤ ਰੱਖੋ(_K)"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:616
-msgid "Keeps the screen aspect ratio when using scaling"
+#| msgid "Keeps the screen aspect ratio when using scaling"
+msgid "Keep the screen aspect ratio when using scaling"
 msgstr "ਜਦੋਂ ਸਕੇਲ ਕਰਨਾ ਹੋਵੇ ਤਾਂ ਸਕਰੀਨ ਆਕਾਰ ਅਨੁਪਾਤ ਰੱਖੋ"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
 #: ../plugins/spice/vinagre-spice-tab.c:508
-msgid "Does not send mouse and keyboard events"
+#| msgid "Does not send mouse and keyboard events"
+msgid "Do not send mouse and keyboard events"
 msgstr "ਮਾਊਂਸ ਅਤੇ ਕੀਬੋਰਡ ਈਵੈਂਟ ਨਾ ਭੇਜੋ"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:644
@@ -552,7 +596,8 @@ msgid "_Original size"
 msgstr "ਅਸਲੀ ਆਕਾਰ(_O)"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:645
-msgid "Adjusts the window to the remote desktop's size"
+#| msgid "Adjusts the window to the remote desktop's size"
+msgid "Adjust the window to the size of the remote desktop"
 msgstr "ਵਿੰਡੋ ਨੂੰ ਰਿਮੋਟ ਡੈਸਕਟਾਪ ਦੇ ਸਾਈਜ਼ ਮੁਤਾਬਕ ਅਡਜੱਸਟ ਕਰੋ"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:658
@@ -568,9 +613,11 @@ msgstr "ਸਕਰੀਨ ਅੱਪਡੇਟ ਕਰਨ ਦੀ ਮੰਗ"
 msgid "_Send Ctrl-Alt-Del"
 msgstr "Ctrl-Alt-Del ਭੇਜੋ(_S)"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:682
+#: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
 #: ../plugins/spice/vinagre-spice-tab.c:532
-msgid "Sends Ctrl+Alt+Del to the remote desktop"
+#: ../plugins/spice/vinagre-spice-tab.c:605
+#| msgid "Sends Ctrl+Alt+Del to the remote desktop"
+msgid "Send Ctrl+Alt+Del to the remote desktop"
 msgstr "ਰਿਮੋਟ ਡੈਸਕਟਾਪ ਨੂੰ Ctrl+Alt+Del ਭੇਜੋ"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
@@ -586,9 +633,8 @@ msgid "Read only"
 msgstr "ਕੇਵਲ ਪੜ੍ਹਨ ਲਈ"
 
 #. Send Ctrl-alt-del
-#: ../plugins/vnc/vinagre-vnc-tab.c:754 ../plugins/vnc/vinagre-vnc-tab.c:756
+#: ../plugins/vnc/vinagre-vnc-tab.c:754
 #: ../plugins/spice/vinagre-spice-tab.c:603
-#: ../plugins/spice/vinagre-spice-tab.c:605
 msgid "Send Ctrl-Alt-Del"
 msgstr "Ctrl-Alt-Del ਭੇਜੋ"
 
@@ -666,6 +712,15 @@ msgstr "ਕਲਿੱਪਬੋਰਡ ਆਟੋਮੈਟਿਕ ਹੀ ਕਲਾਇ
 #, c-format
 msgid "Error while initializing bookmarks: %s"
 msgstr "ਬੁੱਕਮਾਰਕ ਸ਼ੁਰੂ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ: %s"
+
+#: ../vinagre/vinagre-bookmarks.c:366 ../vinagre/vinagre-bookmarks.c:492
+#: ../vinagre/vinagre-bookmarks-migration.c:135
+#: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
+#: ../vinagre/vinagre-connect.c:510 ../vinagre/vinagre-options.c:85
+#: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
+#: ../vinagre/vinagre-window.c:798
+msgid "Unknown error"
+msgstr "ਅਣਜਾਣ ਗਲਤੀ"
 
 #: ../vinagre/vinagre-bookmarks.c:373
 msgid "Error while initializing bookmarks: The file seems to be empty"
@@ -1325,6 +1380,9 @@ msgstr "ਸ਼ਾਰਟਕੱਟ ਚਾਲੂ ਕਰੋ"
 #, c-format
 msgid "Error while creating the file %s: %s"
 msgstr "ਫਾਇਲ %s ਬਣਾਉਣ ਦੌਰਾਨ ਗਲਤੀ: %s"
+
+#~ msgid "Error while executing xfreerdp"
+#~ msgstr "xfreerdp ਚਲਾਉਣ ਦੌਰਾਨ ਗਲਤੀ"
 
 #~ msgid "Enter a valid hostname or IP address"
 #~ msgstr "ਠੀਕ ਹੋਸਟ ਨਾਂ ਜਾਂ IP ਐਡਰੈਸ ਦਿਉ"
