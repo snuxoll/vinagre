@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-07-25 10:48+0000\n"
-"PO-Revision-Date: 2014-07-25 23:55+0300\n"
+"POT-Creation-Date: 2014-09-10 10:51+0000\n"
+"PO-Revision-Date: 2014-09-10 19:43+0300\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -242,7 +242,8 @@ msgstr ""
 msgid "Fingerprint:"
 msgstr "Piršo atspaudas:"
 
-#: ../data/vinagre.ui.h:38
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:751
+#: ../plugins/rdp/vinagre-rdp-tab.c:792
 msgid "Connect"
 msgstr "Prisijungti"
 
@@ -364,7 +365,12 @@ msgstr "Nustatyti nutolusio darbastalio aukštį"
 msgid "Port:"
 msgstr "Prievadas:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:976 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:750 ../plugins/rdp/vinagre-rdp-tab.c:791
+#| msgid "Cancel Login"
+msgid "_Cancel"
+msgstr "_Atsisakyti"
+
+#: ../plugins/rdp/vinagre-rdp-tab.c:982 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:264
 msgid "Error connecting to host."
 msgstr "Klaida jungiantis prie kompiuterio."
@@ -568,7 +574,6 @@ msgstr "_Mastelis"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:467
-#| msgid "Fits the remote screen into the current window size"
 msgid "Fit the remote screen into the current window size"
 msgstr "Pritaiko nutolusį ekraną prie esamo lango dydžio"
 
@@ -577,13 +582,11 @@ msgid "_Keep Aspect Ratio"
 msgstr "_Išsaugoti proporciją"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:616
-#| msgid "Keeps the screen aspect ratio when using scaling"
 msgid "Keep the screen aspect ratio when using scaling"
 msgstr "Keičiant mastelį išsaugo ekrano proporciją"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
 #: ../plugins/spice/vinagre-spice-tab.c:508
-#| msgid "Does not send mouse and keyboard events"
 msgid "Do not send mouse and keyboard events"
 msgstr "Nesiųsti pelės ir klaviatūros įvykių"
 
@@ -592,7 +595,6 @@ msgid "_Original size"
 msgstr "_Pradinis dydis"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:645
-#| msgid "Adjusts the window to the remote desktop's size"
 msgid "Adjust the window to the size of the remote desktop"
 msgstr "Priderinti langą prie nuotolinio darbastalio dydžio"
 
@@ -612,7 +614,6 @@ msgstr "_Siųsti Ctrl-Alt-Del"
 #: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
 #: ../plugins/spice/vinagre-spice-tab.c:532
 #: ../plugins/spice/vinagre-spice-tab.c:605
-#| msgid "Sends Ctrl+Alt+Del to the remote desktop"
 msgid "Send Ctrl+Alt+Del to the remote desktop"
 msgstr "Siųsti Vald+Alt+Trinti į nuotolinį kompiuterį"
 
@@ -1377,4 +1378,3 @@ msgstr "Įjungti sparčiuosius klavišus"
 #, c-format
 msgid "Error while creating the file %s: %s"
 msgstr "Klaida kuriant failą %s: %s"
-
