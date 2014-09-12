@@ -2,7 +2,7 @@ ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 SUBDIRS = help po
 
 DISTCHECK_CONFIGURE_FLAGS = \
-	--enable-appdata-validate \
+	--enable-appstream-util \
 	--enable-compile-warnings=maximum \
 	--enable-rdp
 
@@ -256,9 +256,9 @@ nodist_desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 mimedir = $(datadir)/mime/packages
 nodist_mime_DATA = data/vinagre-mime.xml
 
-@APPDATA_XML_RULES@
-appdata_in_files = data/vinagre.appdata.xml.in
-appdata_XML = $(appdata_in_files:.appdata.xml.in=.appdata.xml)
+@APPSTREAM_XML_RULES@
+appstream_in_files = data/vinagre.appdata.xml.in
+appstream_XML = $(appstream_in_files:.appdata.xml.in=.appdata.xml)
 
 gsettings_SCHEMAS = data/org.gnome.Vinagre.gschema.xml
 
@@ -296,7 +296,7 @@ dist-changelog:
 	else rm -f .ChangeLog.tmp; exit 1; fi
 
 dist_noinst_DATA = \
-	$(appdata_in_files) \
+	$(appstream_in_files) \
 	$(noinst_vinagreh_headers) \
 	$(vinagre_vala_sources) \
 	vinagre/vinagre-vala.h \
@@ -314,7 +314,7 @@ dist_noinst_DATA = \
 	vinagre.doap
 
 CLEANFILES = \
-	$(appdata_XML) \
+	$(appstream_XML) \
 	$(nodist_desktop_DATA) \
 	$(nodist_mime_DATA) \
 	$(nodist_pkgconfig_DATA) \
