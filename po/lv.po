@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-03-06 11:50+0000\n"
-"PO-Revision-Date: 2014-03-07 22:58+0200\n"
+"POT-Creation-Date: 2014-09-27 23:03+0000\n"
+"PO-Revision-Date: 2014-09-28 16:05+0300\n"
 "Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
 "Language: lv\n"
@@ -134,7 +134,7 @@ msgstr "_Autentificēties"
 msgid "Authentication is required"
 msgstr "Nepieciešama autentifikācija"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:54
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:120
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
 #: ../plugins/spice/vinagre-spice-tab.c:139
 msgid "Host:"
@@ -150,87 +150,137 @@ msgid "_Password:"
 msgstr "_Parole:"
 
 #: ../data/vinagre.ui.h:10
+msgid "_Domain:"
+msgstr "_Domēns:"
+
+#: ../data/vinagre.ui.h:11
 msgid "_Remember this credential"
 msgstr "Atce_rēties šo akreditāciju"
 
-#: ../data/vinagre.ui.h:11
+#: ../data/vinagre.ui.h:12
 msgid "Store the login credential in GNOME Keyring"
 msgstr "Saglabāt akreditācijas datus GNOME atslēgu saišķī."
 
-#: ../data/vinagre.ui.h:12
+#: ../data/vinagre.ui.h:13
 msgid "Bookmarks"
 msgstr "Grāmatzīmes"
 
-#: ../data/vinagre.ui.h:13
+#: ../data/vinagre.ui.h:14
 msgid "Connection"
 msgstr "Savienojums"
 
 #. Translators: This is the name of a bookmark. It appears in the add/edit bookmark dialog.
-#: ../data/vinagre.ui.h:15
+#: ../data/vinagre.ui.h:16
 msgid "_Name:"
 msgstr "_Nosaukums:"
 
-#: ../data/vinagre.ui.h:16
+#: ../data/vinagre.ui.h:17
 msgid "_Host:"
 msgstr "_Adrese:"
 
-#: ../data/vinagre.ui.h:17
+#: ../data/vinagre.ui.h:18
 msgid "Options"
 msgstr "Opcijas"
 
-#: ../data/vinagre.ui.h:18
+#: ../data/vinagre.ui.h:19
 msgid "_Full screen"
 msgstr "_Pilnais ekrāns"
 
-#: ../data/vinagre.ui.h:19
+#: ../data/vinagre.ui.h:20
 msgid "Folder"
 msgstr "Mape"
 
-#: ../data/vinagre.ui.h:20
+#: ../data/vinagre.ui.h:21
 msgid "Bookmark Folder"
 msgstr "Grāmatzīmju mape"
 
-#: ../data/vinagre.ui.h:21
+#: ../data/vinagre.ui.h:22
 msgid "Parent Folder"
 msgstr "Pamatmape"
 
-#: ../data/vinagre.ui.h:22
+#: ../data/vinagre.ui.h:23
+msgid "Certificate Verification"
+msgstr "Sertifikāta pārbaude"
+
+#: ../data/vinagre.ui.h:24
+msgid ""
+"The remote host has changed its certificate.\n"
+"Do you trust the new certificate?"
+msgstr ""
+"Attālinātais serveris ir mainījis savu sertifikātu.\n"
+"Vai jūs uzticaties jaunajam sertifikātam?"
+
+#. Subject of the certificate.
+#: ../data/vinagre.ui.h:27
+msgid "Subject:"
+msgstr "Subjekts:"
+
+#. Issuer of the certificate.
+#: ../data/vinagre.ui.h:29
+msgid "Issuer:"
+msgstr "Izdevējs:"
+
+#. Fingerprint of the new certificate.
+#: ../data/vinagre.ui.h:31
+msgid "New fingerprint:"
+msgstr "Jaunais nospiedums:"
+
+#. Fingerprint of the old certificate.
+#: ../data/vinagre.ui.h:33
+msgid "Old fingerprint:"
+msgstr "Vecais nospiedums:"
+
+#: ../data/vinagre.ui.h:34
+msgid ""
+"The below certificate could not be verified.\n"
+"Do you trust the certificate?"
+msgstr ""
+"Zemāk norādīto sertifikātu nevar pārbaudīt.\n"
+"Vai jūs uzticaties sertifikātam?"
+
+#. Fingerprint of the certificate.
+#: ../data/vinagre.ui.h:37
+msgid "Fingerprint:"
+msgstr "Ciparnospiedums:"
+
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:751
+#: ../plugins/rdp/vinagre-rdp-tab.c:792
 msgid "Connect"
 msgstr "Savienot"
 
-#: ../data/vinagre.ui.h:23
+#: ../data/vinagre.ui.h:39
 msgid "Choose a remote desktop to connect to"
 msgstr "Izvēlieties attālināto darbvirsmu, ar ko savienoties"
 
-#: ../data/vinagre.ui.h:24
+#: ../data/vinagre.ui.h:40
 msgid "_Protocol:"
 msgstr "Pr_otokols:"
 
-#: ../data/vinagre.ui.h:25
+#: ../data/vinagre.ui.h:41
 msgid "Select a remote desktop protocol for this connection"
 msgstr "Meklēt attālinātas darbvirsmas protokolu šim savienojumam"
 
-#: ../data/vinagre.ui.h:26
+#: ../data/vinagre.ui.h:42
 msgid "Search for remote hosts on the network"
 msgstr "Meklēt attālinātu datoru tīklā"
 
-#: ../data/vinagre.ui.h:27
+#: ../data/vinagre.ui.h:43
 msgid "Connection options"
 msgstr "Savienojuma opcijas"
 
-#: ../data/vinagre.ui.h:28
+#: ../data/vinagre.ui.h:44
 msgid "_Fullscreen"
 msgstr "_Pilnekrāns"
 
-#: ../data/vinagre.ui.h:29
+#: ../data/vinagre.ui.h:45
 msgid "Enable fullscreen mode for this connection"
 msgstr "Aktivēt pilnekrānu šim savienojuma režīmam"
 
-#: ../data/vinagre.ui.h:30
+#: ../data/vinagre.ui.h:46
 msgid "Reverse Connections"
 msgstr "Apgrieztie savienojumi"
 
-#: ../data/vinagre.ui.h:31
+#: ../data/vinagre.ui.h:47
 msgid ""
 "By activating reverse connections you can access remote desktops that are "
 "behind a firewall. The remote side is supposed to initiate the connection "
@@ -241,20 +291,20 @@ msgstr ""
 "savienojumu ar jums. Lai noskaidrotu vairāk, aplūkojiet Vinagre palīdzības "
 "dokumentāciju."
 
-#: ../data/vinagre.ui.h:32
+#: ../data/vinagre.ui.h:48
 msgid "_Enable Reverse Connections"
 msgstr "_Aktivēt apgrieztos savienojumus"
 
 #. Translators: this is the reverse connection mode. "Always enabled" means it will be enabled by default in the program startup. You can see this string in the dialog Remote->Reverse connections.
-#: ../data/vinagre.ui.h:34
+#: ../data/vinagre.ui.h:50
 msgid "_Always Enabled"
 msgstr "_Vienmēr aktivēts"
 
-#: ../data/vinagre.ui.h:35
+#: ../data/vinagre.ui.h:51
 msgid "This desktop is reachable through the following IP address(es):"
 msgstr "Šī darbvirsma ir sasniedzama, izmantojot sekojošu IP adresi(-es):"
 
-#: ../data/vinagre.ui.h:36
+#: ../data/vinagre.ui.h:52
 msgid "Connectivity"
 msgstr "Savienojamība"
 
@@ -310,25 +360,21 @@ msgstr "_Augstums:"
 msgid "Set height of the remote desktop"
 msgstr "Iestatīt attālinātās darbvirsmas augstumu"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:55 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:121 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:140
 msgid "Port:"
 msgstr "Ports:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:139
-msgid "Error while executing xfreerdp"
-msgstr "Kļūda, izpildot xfreerdp"
+#: ../plugins/rdp/vinagre-rdp-tab.c:750 ../plugins/rdp/vinagre-rdp-tab.c:791
+#| msgid "Cancel Login"
+msgid "_Cancel"
+msgstr "At_celt"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:140 ../vinagre/vinagre-bookmarks.c:366
-#: ../vinagre/vinagre-bookmarks.c:492
-#: ../vinagre/vinagre-bookmarks-migration.c:135
-#: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
-#: ../vinagre/vinagre-connect.c:500 ../vinagre/vinagre-options.c:85
-#: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
-#: ../vinagre/vinagre-window.c:798
-msgid "Unknown error"
-msgstr "Nezināma kļūda"
+#: ../plugins/rdp/vinagre-rdp-tab.c:982 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/spice/vinagre-spice-tab.c:264
+msgid "Error connecting to host."
+msgstr "Kļūda, pieslēdzoties datoram."
 
 #: ../plugins/ssh/vinagre-ssh-plugin.c:61
 msgid "SSH"
@@ -499,11 +545,6 @@ msgstr "Kļūda, izveidojot SSH tuneli"
 msgid "Unknown reason"
 msgstr "Nezināms iemesls"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:317
-#: ../plugins/spice/vinagre-spice-tab.c:264
-msgid "Error connecting to host."
-msgstr "Kļūda, pieslēdzoties datoram."
-
 #. Translators: %s is a host name or IP address; %u is a code error (number).
 #: ../plugins/vnc/vinagre-vnc-tab.c:362
 #, c-format
@@ -534,29 +575,33 @@ msgstr "Mē_rogošana"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:467
-msgid "Fits the remote screen into the current window size"
-msgstr "Piemēro attālināto ekrānu loga pašreizējam izmēram"
+#| msgid "Fits the remote screen into the current window size"
+msgid "Fit the remote screen into the current window size"
+msgstr "Piemērot attālināto ekrānu loga pašreizējam izmēram"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:615
 msgid "_Keep Aspect Ratio"
 msgstr "_Paturēt malu attiecību"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:616
-msgid "Keeps the screen aspect ratio when using scaling"
-msgstr "Patur ekrāna malu attiecību mainot mērogojumu"
+#| msgid "Keeps the screen aspect ratio when using scaling"
+msgid "Keep the screen aspect ratio when using scaling"
+msgstr "Paturēt ekrāna malu attiecību mainot mērogu"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
 #: ../plugins/spice/vinagre-spice-tab.c:508
-msgid "Does not send mouse and keyboard events"
-msgstr "Nesūtīt peles un klaviatūras ievadu"
+#| msgid "Does not send mouse and keyboard events"
+msgid "Do not send mouse and keyboard events"
+msgstr "Nesūtīt peles un tastatūras ievadi"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:644
 msgid "_Original size"
 msgstr "_Oriģinālais izmērs"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:645
-msgid "Adjusts the window to the remote desktop's size"
-msgstr "Pielāgo logu attālinātās darbvirsmas izmēram"
+#| msgid "Adjusts the window to the remote desktop's size"
+msgid "Adjust the window to the size of the remote desktop"
+msgstr "Pielāgot loga izmēru attālinātās darbvirsmas izmēram"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:658
 msgid "_Refresh Screen"
@@ -571,10 +616,12 @@ msgstr "Pieprasa ekrāna atjauninājumu"
 msgid "_Send Ctrl-Alt-Del"
 msgstr "No_sūtīt Ctrl-Alt-Del"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:682
+#: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
 #: ../plugins/spice/vinagre-spice-tab.c:532
-msgid "Sends Ctrl+Alt+Del to the remote desktop"
-msgstr "Nosūta Ctrl+Alt+Del uz attālināto darbvirsmu"
+#: ../plugins/spice/vinagre-spice-tab.c:605
+#| msgid "Sends Ctrl+Alt+Del to the remote desktop"
+msgid "Send Ctrl+Alt+Del to the remote desktop"
+msgstr "Nosūtīt Ctrl+Alt+Del uz attālināto darbvirsmu"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
 #: ../plugins/spice/vinagre-spice-tab.c:584
@@ -589,9 +636,8 @@ msgid "Read only"
 msgstr "Tikai skatāms"
 
 #. Send Ctrl-alt-del
-#: ../plugins/vnc/vinagre-vnc-tab.c:754 ../plugins/vnc/vinagre-vnc-tab.c:756
+#: ../plugins/vnc/vinagre-vnc-tab.c:754
 #: ../plugins/spice/vinagre-spice-tab.c:603
-#: ../plugins/spice/vinagre-spice-tab.c:605
 msgid "Send Ctrl-Alt-Del"
 msgstr "Nosūtīt Ctrl-Alt-Del"
 
@@ -670,6 +716,15 @@ msgstr "Automātiski koplietot starpliktuvi starp klientu un viesi"
 #, c-format
 msgid "Error while initializing bookmarks: %s"
 msgstr "Kļūda, inicializējot grāmatzīmes: %s"
+
+#: ../vinagre/vinagre-bookmarks.c:366 ../vinagre/vinagre-bookmarks.c:492
+#: ../vinagre/vinagre-bookmarks-migration.c:135
+#: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
+#: ../vinagre/vinagre-connect.c:510 ../vinagre/vinagre-options.c:85
+#: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
+#: ../vinagre/vinagre-window.c:798
+msgid "Unknown error"
+msgstr "Nezināma kļūda"
 
 #: ../vinagre/vinagre-bookmarks.c:373
 msgid "Error while initializing bookmarks: The file seems to be empty"
@@ -828,17 +883,17 @@ msgstr[0] "Nevar atvērt sekojošu datni:"
 msgstr[1] "Nevar atvērt sekojošās datnes:"
 msgstr[2] "Nevar atvērt sekojošo datņu:"
 
-#: ../vinagre/vinagre-connect.c:90 ../vinagre/vinagre-connect.c:336
-#: ../vinagre/vinagre-connect.c:464
+#: ../vinagre/vinagre-connect.c:91 ../vinagre/vinagre-connect.c:344
+#: ../vinagre/vinagre-connect.c:474
 msgid "Could not get the active protocol from the protocol list."
 msgstr "Nevarēja iegūt aktīvo protokolu no protokolu saraksta."
 
-#: ../vinagre/vinagre-connect.c:317
+#: ../vinagre/vinagre-connect.c:318
 #, c-format
 msgid "Error while saving history file: %s"
 msgstr "Kļūda, saglabājot vēstures datni — %s"
 
-#: ../vinagre/vinagre-connect.c:352
+#: ../vinagre/vinagre-connect.c:360
 msgid "Choose a Remote Desktop"
 msgstr "Izvēlieties attālināto darbvirsmu"
 
@@ -1331,6 +1386,9 @@ msgstr "Aktivēt īsceļus"
 #, c-format
 msgid "Error while creating the file %s: %s"
 msgstr "Kļūda, izveidojot datni %s — %s"
+
+#~ msgid "Error while executing xfreerdp"
+#~ msgstr "Kļūda, izpildot xfreerdp"
 
 #~ msgid "Enter a valid hostname or IP address"
 #~ msgstr "Ievadiet derīgu datora nosaukumu vai IP adresi"
