@@ -66,6 +66,12 @@ impl_get_public_description (VinagreProtocol *plugin)
   return result;
 }
 
+static const gchar *
+impl_get_mdns_service (VinagreProtocol *plugin)
+{
+  return "_rdp._tcp";
+}
+
 static VinagreConnection *
 impl_new_connection (VinagreProtocol *plugin)
 {
@@ -168,6 +174,7 @@ vinagre_rdp_protocol_iface_init (VinagreProtocolInterface *iface)
   iface->get_protocol  = impl_get_protocol;
   iface->get_public_description  = impl_get_public_description;
   iface->new_connection = impl_new_connection;
+  iface->get_mdns_service  = impl_get_mdns_service;
   iface->new_tab = impl_new_tab;
   iface->get_default_port = impl_get_default_port;
   iface->get_connect_widget = impl_get_connect_widget;
