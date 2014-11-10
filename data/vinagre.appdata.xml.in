@@ -3,10 +3,9 @@
 <application>
     <id type="desktop">vinagre.desktop</id>
     <metadata_license>CC0-1.0</metadata_license>
-<!-- Both taken from the desktop file.
-    <name>Remote Desktop Viewer</name>
-    <summary></summary>
--->
+<!-- Both taken from the desktop file. -->
+    <_name>Remote Desktop Viewer</_name>
+    <_summary>Access remote desktops</_summary>
     <description>
         <_p>Vinagre shows remote Windows, Mac OS X and Linux desktops.</_p>
         <_p>It uses the VNC, RDP and SPICE protocols, and can even be used to
