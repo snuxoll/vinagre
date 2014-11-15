@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-09-06 10:49+0000\n"
+"POT-Creation-Date: 2014-11-07 11:53+0000\n"
 "PO-Revision-Date: 2014-09-06 20:06+0300\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
 "Language-Team: suomi <gnome-fi-laatu@lists.sourceforge.net>\n"
@@ -123,7 +123,7 @@ msgstr ""
 "Timo Jyrinki, 2009.\n"
 "Jiri Grönroos, 2012, 2013.\n"
 "\n"
-"http://www.gnome.fi/\n"
+"https://l10n.gnome.org/teams/fi/\n"
 "\n"
 "Launchpad Contributions:\n"
 "  Jarkko Kultamies https://launchpad.net/~jarkko-kultamies\n"
@@ -148,7 +148,7 @@ msgstr "Todentaminen vaaditaan"
 msgid "Host:"
 msgstr "Verkkonimi:"
 
-#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:111
+#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:117
 #: ../plugins/ssh/vinagre-ssh-plugin.c:112
 msgid "_Username:"
 msgstr "_Käyttäjänimi:"
@@ -332,13 +332,13 @@ msgstr "RDP"
 msgid "Access MS Windows remote desktops"
 msgstr "Käytä MS Windows -etätyöpöytiä"
 
-#: ../plugins/rdp/vinagre-rdp-plugin.c:104
+#: ../plugins/rdp/vinagre-rdp-plugin.c:110
 msgid "RDP Options"
 msgstr "RDP-asetukset"
 
 #. Translators: This is the tooltip for the username field in a RDP connection
 #. Translators: This is the tooltip for the username field in a SSH connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:118
+#: ../plugins/rdp/vinagre-rdp-plugin.c:124
 #: ../plugins/ssh/vinagre-ssh-plugin.c:117
 msgid ""
 "Optional. If blank, your username will be used. Also, it can be supplied in "
@@ -348,22 +348,22 @@ msgstr ""
 "antaa yllä olevaan Isäntä-kenttään muodossa käyttäjänimi@isäntänimi."
 
 #. Host width
-#: ../plugins/rdp/vinagre-rdp-plugin.c:131
+#: ../plugins/rdp/vinagre-rdp-plugin.c:137
 msgid "_Width:"
 msgstr "_Leveys:"
 
 #. Translators: This is the tooltip for the width field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:138
+#: ../plugins/rdp/vinagre-rdp-plugin.c:144
 msgid "Set width of the remote desktop"
 msgstr "Aseta etätyöpöydän leveys"
 
 #. Host height
-#: ../plugins/rdp/vinagre-rdp-plugin.c:147
+#: ../plugins/rdp/vinagre-rdp-plugin.c:153
 msgid "_Height:"
 msgstr "_Korkeus:"
 
 #. Translators: This is the tooltip for the height field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:154
+#: ../plugins/rdp/vinagre-rdp-plugin.c:160
 msgid "Set height of the remote desktop"
 msgstr "Aseta etätyöpöydän korkeus"
 
@@ -374,7 +374,6 @@ msgid "Port:"
 msgstr "Portti:"
 
 #: ../plugins/rdp/vinagre-rdp-tab.c:750 ../plugins/rdp/vinagre-rdp-tab.c:791
-#| msgid "Cancel Login"
 msgid "_Cancel"
 msgstr "_Peru"
 
@@ -580,7 +579,6 @@ msgstr "_Sovitus"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:467
-#| msgid "Fits the remote screen into the current window size"
 msgid "Fit the remote screen into the current window size"
 msgstr "Sovita etätyöpöydän koko nykyisen ikkunan kokoon"
 
@@ -589,13 +587,11 @@ msgid "_Keep Aspect Ratio"
 msgstr "_Säilytä kuvasuhde"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:616
-#| msgid "Keeps the screen aspect ratio when using scaling"
 msgid "Keep the screen aspect ratio when using scaling"
 msgstr "Säilytä näytön kuvasuhde skaalatessa"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
 #: ../plugins/spice/vinagre-spice-tab.c:508
-#| msgid "Does not send mouse and keyboard events"
 msgid "Do not send mouse and keyboard events"
 msgstr "Älä lähetä hiiri- ja näppäimistötapahtumia"
 
@@ -604,7 +600,6 @@ msgid "_Original size"
 msgstr "Alkuperäinen k_oko"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:645
-#| msgid "Adjusts the window to the remote desktop's size"
 msgid "Adjust the window to the size of the remote desktop"
 msgstr "Sovita ikkuna etätyöpöydän kokoon"
 
@@ -624,7 +619,6 @@ msgstr "_Lähetä Ctrl-Alt-Del"
 #: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
 #: ../plugins/spice/vinagre-spice-tab.c:532
 #: ../plugins/spice/vinagre-spice-tab.c:605
-#| msgid "Sends Ctrl+Alt+Del to the remote desktop"
 msgid "Send Ctrl+Alt+Del to the remote desktop"
 msgstr "Lähetä Ctrl+Alt+Del etätyöpöydälle"
 
