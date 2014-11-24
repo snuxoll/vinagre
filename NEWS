@@ -1,3 +1,33 @@
+Vinagre 3.15.2
+==============
+
+Alexander Tsoy (1):
+      Remove bashism from configure.ac
+
+David King (1):
+      Add name and summary elements to AppData
+
+Krishnababu Krothapalli (1):
+      Updated Telugu translation
+
+Marek Kasik (1):
+      Detect RDP hosts via Avahi
+
+Rajesh Ranjan (1):
+      Updated Hindi translation
+
+Rūdolfs Mazurs (1):
+      Updated Latvian translation
+
+Saibal Ray (1):
+      Updated Bengali (India) translation
+
+Timo Jyrinki (1):
+      Change Finnish translation team web page to l10n.gnome.org
+
+Tong Hui (1):
+      update zh_CN translation
+
 Vinagre 3.14.0
 ==============
 

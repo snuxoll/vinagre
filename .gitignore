@@ -26,6 +26,7 @@ Makefile.in
 /help/*/*.mo
 /help/*/*.page
 /help/*/*.stamp
+/help/*/legal.xml
 !/help/C
 /intltool-extract.in
 /intltool-merge.in
