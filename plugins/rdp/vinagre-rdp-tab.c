@@ -27,7 +27,6 @@
 #include <freerdp/api.h>
 #include <freerdp/types.h>
 #include <freerdp/freerdp.h>
-#include <freerdp/utils/event.h>
 #include <freerdp/gdi/gdi.h>
 #if HAVE_FREERDP_1_1
 #include <freerdp/locale/keyboard.h>
@@ -363,7 +362,15 @@ frdp_post_connect (freerdp *instance)
   rdpGdi               *gdi;
   int                   stride;
 
-  gdi_init (instance, CLRBUF_24BPP, NULL);
+  gdi_init (instance,
+#if defined(FREERDP_VERSION_MAJOR) && defined(FREERDP_VERSION_MINOR) && \
+    !(FREERDP_VERSION_MAJOR > 1 || (FREERDP_VERSION_MAJOR == 1 && \
+    FREERDP_VERSION_MINOR >= 2))
+                    CLRBUF_24BPP,
+#else
+                    CLRBUF_32BPP,
+#endif
+                    NULL);
   gdi = instance->context->gdi;
 
   instance->update->BeginPaint = frdp_begin_paint;
