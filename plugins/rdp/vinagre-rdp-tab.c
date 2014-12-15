@@ -121,6 +121,13 @@ rdp_tab_get_tooltip (VinagreTab *tab)
 }
 
 static void
+free_frdpEvent (gpointer event,
+                G_GNUC_UNUSED gpointer user_data)
+{
+    g_free (event);
+}
+
+static void
 vinagre_rdp_tab_dispose (GObject *object)
 {
   VinagreRdpTab        *rdp_tab = VINAGRE_RDP_TAB (object);
@@ -137,10 +144,8 @@ vinagre_rdp_tab_dispose (GObject *object)
 
   if (priv->events)
     {
-      while (!g_queue_is_empty (priv->events))
-        g_free ((frdpEvent *) g_queue_pop_head (priv->events));
-
-      g_queue_free (priv->events);
+      g_queue_foreach (priv->events, free_frdpEvent, NULL);
+      g_clear_pointer (&priv->events, g_queue_free);
     }
 
   if (priv->update_id > 0)
