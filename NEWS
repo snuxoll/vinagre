@@ -1,3 +1,18 @@
+Vinagre 3.15.3
+==============
+
+Daniel Șerbănescu (1):
+      Updated Romanian Translation
+
+David King (1):
+      Fix freeing of RDP events during dispose
+
+Jean-Philippe Menil (1):
+      Fix RDP initialization with recent FreeRDP
+
+Muhammet Kara (1):
+      Updated Turkish translation
+
 Vinagre 3.15.2
 ==============
 
