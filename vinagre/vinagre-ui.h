@@ -57,7 +57,7 @@ static const GtkActionEntry vinagre_always_sensitive_entries[] =
 static const GtkToggleActionEntry vinagre_always_sensitive_toggle_entries[] =
 {
   { "ViewKeyboardShortcuts", NULL, N_("_Keyboard shortcuts"), NULL,
-    N_("Enable keyboard shurtcuts"), NULL, FALSE },
+    N_("Enable keyboard shortcuts"), NULL, FALSE },
 
   { "ViewToolbar", NULL, N_("_Toolbar"), NULL,
     N_("Show or hide the toolbar"),
