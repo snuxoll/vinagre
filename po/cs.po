@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2014-08-22 22:47+0000\n"
-"PO-Revision-Date: 2014-08-23 11:40+0200\n"
+"PO-Revision-Date: 2014-12-26 08:16+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -96,7 +96,7 @@ msgstr ""
 msgid ""
 "It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
 "SSH servers."
-msgstr "Používá protokoly VNC, RDP a SPICE a umí se připojit i serverům SSH."
+msgstr "Používá protokoly VNC, RDP a SPICE a umí se připojit i k serverům SSH."
 
 #: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
 #: ../vinagre/vinagre-main.c:182
@@ -768,7 +768,7 @@ msgstr "Chyba při migraci záložek: Zásuvný modul pro VNC není aktivován"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:216
 msgid "Failed to create the directory"
-msgstr "Chyba při vytváření adresáře"
+msgstr "Chyba při vytváření složky"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:241
 msgid ""
