@@ -6,24 +6,24 @@
 # Alexander Saprykin <xelfium@gmail.com>, 2010.
 # Yuri Kozlov <yuray@komyakino.ru>, 2010, 2011.
 # Yuri Myasoedov <ymyasoedov@yandex.ru>, 2012-2014.
-# Stas Solovey <whats_up@tut.by>, 2013.
+# Stas Solovey <whats_up@tut.by>, 2012, 2013, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-09-06 22:54+0000\n"
-"PO-Revision-Date: 2014-09-07 10:58+0300\n"
-"Last-Translator: Yuri Myasoedov <omerta13@yandex.ru>\n"
+"POT-Creation-Date: 2014-12-30 11:59+0000\n"
+"PO-Revision-Date: 2014-12-31 02:56+0300\n"
+"Last-Translator: Stas Solovey <whats_up@tut.by>\n"
 "Language-Team: Русский <gnome-cyr@gnome.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.4\n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"X-Generator: Gtranslator 2.91.6\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
 msgid "Whether we should leave other clients connected"
@@ -87,26 +87,28 @@ msgid ""
 msgstr ""
 "Установите флажок, чтобы программа всегда ожидала обратные подключения."
 
-#: ../data/vinagre.appdata.xml.in.h:1
+#. Both taken from the desktop file.
+#: ../data/vinagre.appdata.xml.in.h:2 ../data/vinagre.desktop.in.in.h:1
+#: ../data/vinagre-file.desktop.in.in.h:1 ../vinagre/vinagre-main.c:182
+msgid "Remote Desktop Viewer"
+msgstr "Просмотр удалённых рабочих столов"
+
+#: ../data/vinagre.appdata.xml.in.h:3 ../data/vinagre.desktop.in.in.h:2
+#: ../data/vinagre-file.desktop.in.in.h:2
+msgid "Access remote desktops"
+msgstr "Доступ к удалённым рабочим столам"
+
+#: ../data/vinagre.appdata.xml.in.h:4
 msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
 msgstr "Vinagre показывает удалённые рабочие столы Windows, Mac OS X и Linux."
 
-#: ../data/vinagre.appdata.xml.in.h:2
+#: ../data/vinagre.appdata.xml.in.h:5
 msgid ""
 "It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
 "SSH servers."
 msgstr ""
 "Vinagre использует протоколы VNC, RDP и SPICE, его также можно использовать "
 "для подключения к серверам по SSH."
-
-#: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
-#: ../vinagre/vinagre-main.c:182
-msgid "Remote Desktop Viewer"
-msgstr "Просмотр удалённых рабочих столов"
-
-#: ../data/vinagre.desktop.in.in.h:2 ../data/vinagre-file.desktop.in.in.h:2
-msgid "Access remote desktops"
-msgstr "Доступ к удалённым рабочим столам"
 
 #: ../data/vinagre.desktop.in.in.h:3
 msgid "VNC;RDP;SSH;"
@@ -124,7 +126,7 @@ msgstr ""
 "Alexander Saprykin <xelfium@gmail.com>, 2010.\n"
 "Yuri Kozlov <yuray@komyakino.ru>, 2010, 2011.\n"
 "Yuri Myasoedov <omerta13@yandex.ru>, 2012.\n"
-"Stas Solovey <whats_up@tut.by>, 2013."
+"Stas Solovey <whats_up@tut.by>, 2012, 2013, 2014."
 
 #. This is a button label, in the authentication dialog
 #: ../data/vinagre.ui.h:5
@@ -135,13 +137,13 @@ msgstr "_Аутентификация"
 msgid "Authentication is required"
 msgstr "Требуется аутентификация"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:120
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:119
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
 #: ../plugins/spice/vinagre-spice-tab.c:139
 msgid "Host:"
 msgstr "Узел:"
 
-#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:111
+#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:117
 #: ../plugins/ssh/vinagre-ssh-plugin.c:112
 msgid "_Username:"
 msgstr "_Имя пользователя:"
@@ -244,8 +246,8 @@ msgstr ""
 msgid "Fingerprint:"
 msgstr "Отпечаток:"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:751
-#: ../plugins/rdp/vinagre-rdp-tab.c:792
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:763
+#: ../plugins/rdp/vinagre-rdp-tab.c:804
 msgid "Connect"
 msgstr "Подключиться"
 
@@ -325,13 +327,13 @@ msgstr "RDP"
 msgid "Access MS Windows remote desktops"
 msgstr "Доступ к удалённым рабочим столам MS Windows"
 
-#: ../plugins/rdp/vinagre-rdp-plugin.c:104
+#: ../plugins/rdp/vinagre-rdp-plugin.c:110
 msgid "RDP Options"
 msgstr "Параметры RDP"
 
 #. Translators: This is the tooltip for the username field in a RDP connection
 #. Translators: This is the tooltip for the username field in a SSH connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:118
+#: ../plugins/rdp/vinagre-rdp-plugin.c:124
 #: ../plugins/ssh/vinagre-ssh-plugin.c:117
 msgid ""
 "Optional. If blank, your username will be used. Also, it can be supplied in "
@@ -342,37 +344,36 @@ msgstr ""
 "поле «Узел» выше."
 
 #. Host width
-#: ../plugins/rdp/vinagre-rdp-plugin.c:131
+#: ../plugins/rdp/vinagre-rdp-plugin.c:137
 msgid "_Width:"
 msgstr "_Ширина:"
 
 #. Translators: This is the tooltip for the width field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:138
+#: ../plugins/rdp/vinagre-rdp-plugin.c:144
 msgid "Set width of the remote desktop"
 msgstr "Установить ширину удалённого рабочего стола"
 
 #. Host height
-#: ../plugins/rdp/vinagre-rdp-plugin.c:147
+#: ../plugins/rdp/vinagre-rdp-plugin.c:153
 msgid "_Height:"
 msgstr "_Высота:"
 
 #. Translators: This is the tooltip for the height field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:154
+#: ../plugins/rdp/vinagre-rdp-plugin.c:160
 msgid "Set height of the remote desktop"
 msgstr "Установить высоту удалённого рабочего стола"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:121 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:120 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:140
 msgid "Port:"
 msgstr "Порт:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:750 ../plugins/rdp/vinagre-rdp-tab.c:791
-#| msgid "Cancel Login"
+#: ../plugins/rdp/vinagre-rdp-tab.c:762 ../plugins/rdp/vinagre-rdp-tab.c:803
 msgid "_Cancel"
 msgstr "_Отмена"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:982 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:994 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:264
 msgid "Error connecting to host."
 msgstr "Ошибка подключения к узлу."
@@ -577,7 +578,6 @@ msgstr "_Масштабировать"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:467
-#| msgid "Fits the remote screen into the current window size"
 msgid "Fit the remote screen into the current window size"
 msgstr "Подогнать удалённый экран под размеры текущего окна"
 
@@ -586,13 +586,11 @@ msgid "_Keep Aspect Ratio"
 msgstr "Сохранять _пропорции"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:616
-#| msgid "Keeps the screen aspect ratio when using scaling"
 msgid "Keep the screen aspect ratio when using scaling"
 msgstr "Сохранять пропорции при масштабировании"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
 #: ../plugins/spice/vinagre-spice-tab.c:508
-#| msgid "Does not send mouse and keyboard events"
 msgid "Do not send mouse and keyboard events"
 msgstr "Не посылать события мыши и клавиатуры"
 
@@ -601,7 +599,6 @@ msgid "_Original size"
 msgstr "_Исходный размер"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:645
-#| msgid "Adjusts the window to the remote desktop's size"
 msgid "Adjust the window to the size of the remote desktop"
 msgstr "Установить размер окна равным размеру удалённого рабочего стола"
 
@@ -621,7 +618,6 @@ msgstr "_Послать Ctrl-Alt-Del"
 #: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
 #: ../plugins/spice/vinagre-spice-tab.c:532
 #: ../plugins/spice/vinagre-spice-tab.c:605
-#| msgid "Sends Ctrl+Alt+Del to the remote desktop"
 msgid "Send Ctrl+Alt+Del to the remote desktop"
 msgstr "Послать Ctrl+Alt+Del удалённому рабочему столу"
 
@@ -1254,7 +1250,7 @@ msgstr "Настроить входящие подключения VNC"
 
 #: ../vinagre/vinagre-ui.h:48
 msgid "Quit the program"
-msgstr "Выйти из программы"
+msgstr "Завершить"
 
 #. Help menu
 #: ../vinagre/vinagre-ui.h:51
@@ -1274,8 +1270,9 @@ msgid "_Keyboard shortcuts"
 msgstr "_Клавиатурные сокращения"
 
 #: ../vinagre/vinagre-ui.h:60
-msgid "Enable keyboard shurtcuts"
-msgstr "Разрешить клавиатурные сокращения"
+#| msgid "Enable keyboard shurtcuts"
+msgid "Enable keyboard shortcuts"
+msgstr "Включить клавиатурные сокращения"
 
 #: ../vinagre/vinagre-ui.h:62
 msgid "_Toolbar"
