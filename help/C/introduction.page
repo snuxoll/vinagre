@@ -35,8 +35,9 @@
 
   <figure>
     <title>Remote Desktop Viewer in action</title>
-    <media type="image" mime="image/png" src="figures/vinagre-connected.png" width="825">
-      <p>Remote Desktop Viewer running in GNOME 3, connected to a machine running GNOME 2</p>
+    <media type="image" mime="image/png" src="figures/vinagre-connected.png" width="725">
+      <p>Remote Desktop Viewer running in GNOME 3, connected to a machine
+      running GNOME 2</p>
     </media>
   </figure>
 
