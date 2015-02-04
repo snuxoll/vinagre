@@ -3,27 +3,27 @@
 # This file is distributed under the same license as the vinagre package.
 # 
 # Jorge González <jorgegonz@svn.gnome.org>, 2011., 2011.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre master\n"
-"POT-Creation-Date: 2014-03-09 23:51+0000\n"
-"PO-Revision-Date: 2014-03-10 13:02+0100\n"
+"POT-Creation-Date: 2015-02-04 00:04+0000\n"
+"PO-Revision-Date: 2015-02-04 12:30+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: Español <gnome-es-list@gnome.org>\n"
+"Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Generator: Gtranslator 2.91.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.6\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2014\n"
+"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2015\n"
 "Jorge González <jorgegonz@svn.gnome.org>, 2011-2012"
 
 #. (itstool) path: info/title
@@ -51,9 +51,6 @@ msgstr "Establecer una conexión"
 
 #. (itstool) path: page/p
 #: C/connect.page:25
-#| msgid ""
-#| "You can connect to other computers on your local network using "
-#| "<app>Vinagre</app>."
 msgid ""
 "You can connect to other computers on your local network using <app>Remote "
 "Desktop Viewer</app>."
@@ -115,12 +112,6 @@ msgstr ""
 
 #. (itstool) path: note/p
 #: C/connect.page:53
-#| msgid ""
-#| "Some computers may require a secure connection: an authentication dialog "
-#| "will be displayed, asking for the credentials. The type of credentials "
-#| "depend on the remote host; it may be a password and a username. If you "
-#| "select <gui>Remember this credential</gui>, <app>Vinagre</app> will store "
-#| "the information using <app>GNOME Keyring</app>."
 msgid ""
 "Some computers may require a secure connection: an authentication dialog "
 "will be displayed, asking for the credentials. The type of credentials "
@@ -301,9 +292,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/connect-reverse.page:62
-#| msgid ""
-#| "Once the remote computer connects to your machine, <app>Vinagre</app> "
-#| "will establish the reverse connection."
 msgid ""
 "Once the remote computer connects to your machine, <app>Remote Desktop "
 "Viewer</app> will establish the reverse connection."
@@ -396,17 +384,20 @@ msgstr "Características y opciones"
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/introduction.page:38
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/vinagre-connected.png' "
+#| "md5='abef2af863dbd4659703bcc09bb89d1a'"
 msgctxt "_"
 msgid ""
 "external ref='figures/vinagre-connected.png' "
-"md5='abef2af863dbd4659703bcc09bb89d1a'"
+"md5='5cff8a4a5f43719b8ffa209b7c0ca1f4'"
 msgstr ""
 "external ref='figures/vinagre-connected.png' "
-"md5='abef2af863dbd4659703bcc09bb89d1a'"
+"md5='5cff8a4a5f43719b8ffa209b7c0ca1f4'"
 
 #. (itstool) path: info/desc
 #: C/introduction.page:19
-#| msgid "Introduction to the <app>Vinagre</app> remote desktop viewer."
 msgid "Introduction to <app>Remote Desktop Viewer</app>."
 msgstr "Introducción al <app>Visor de escritorios remotos</app>."
 
@@ -417,11 +408,6 @@ msgstr "Introducción"
 
 #. (itstool) path: page/p
 #: C/introduction.page:24
-#| msgid ""
-#| "<app>Vinagre</app> is a remote desktop viewer application for GNOME for "
-#| "accessing other machines using Virtual Network Computing (VNC) and other "
-#| "protocols. It can be used to control and interact with another computer "
-#| "or to just view the desktop."
 msgid ""
 "<app>Remote Desktop Viewer</app> is a remote desktop viewer application for "
 "GNOME for accessing other machines using Virtual Network Computing (VNC) and "
@@ -436,7 +422,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/introduction.page:29
-#| msgid "<app>Vinagre</app> provides the following features:"
 msgid "<app>Remote Desktop Viewer</app> provides the following features:"
 msgstr ""
 "El <app>Visor de escritorios remotos</app> proporciona las siguientes "
@@ -459,13 +444,11 @@ msgstr "examinar la red local en busca de máquinas"
 
 #. (itstool) path: figure/title
 #: C/introduction.page:37
-#| msgid "Screenshot of Vinagre in action"
 msgid "Remote Desktop Viewer in action"
 msgstr "El visor de escritorios remotos en acción"
 
 #. (itstool) path: media/p
 #: C/introduction.page:39
-#| msgid "Vinagre running in GNOME 3, connected to a machine running GNOME 2"
 msgid ""
 "Remote Desktop Viewer running in GNOME 3, connected to a machine running "
 "GNOME 2"
@@ -475,7 +458,6 @@ msgstr ""
 
 #. (itstool) path: p/link
 #: C/legal.xml:5
-#| msgid "Creative Commons Share Alike 3.0"
 msgid "Creative Commons Attribution-ShareAlike 3.0 Unported License"
 msgstr "Creative Commons de Atribución-Compartir Igual 3.0 sin soporte"
 
@@ -506,14 +488,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/keyboard-shortcuts.page:29
-#| msgid ""
-#| "Enabling this option allows the use of keyboard shortcuts (like "
-#| "<keyseq><key>Ctrl</key><key>N</key></keyseq>), menu accelerators (such as "
-#| "<keyseq><key>Alt</key><key>M</key></keyseq>) and mnemonics, with "
-#| "<app>Vinagre</app>. This means that <app>Vinagre</app> will catch those "
-#| "key combinations instead of sending them to the remote machine. This "
-#| "option is disabled by default because most of the time, you will be "
-#| "interacting with the computer to which you are connected."
 msgid ""
 "Enabling this option allows the use of keyboard shortcuts (like "
 "<keyseq><key>Ctrl</key><key>N</key></keyseq>), menu accelerators (such as "
@@ -610,9 +584,6 @@ msgstr "Tomar una captura de pantalla"
 
 #. (itstool) path: page/p
 #: C/take-screenshot.page:24
-#| msgid ""
-#| "You can take screenshots of only the desktop that you are connected to by "
-#| "using the tool provided by <app>Vinagre</app>."
 msgid ""
 "You can take screenshots of only the desktop that you are connected to by "
 "using the tool provided by <app>Remote Desktop Viewer</app>."
