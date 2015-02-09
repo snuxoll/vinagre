@@ -1,14 +1,14 @@
 # Norwegian bokmål translation of vinagre.
 # Copyright (C) 2004, Red Hat, Inc.
 # This file is distributed under the same license as the vino package.
-# Kjartan Maraas <kmaraas@gnome.org>, 2004-2013.
+# Kjartan Maraas <kmaraas@gnome.org>, 2004-2015.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: vinagre 3.13.x\n"
+"Project-Id-Version: vinagre 3.15.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-23 12:05+0200\n"
-"PO-Revision-Date: 2014-08-23 12:05+0200\n"
+"POT-Creation-Date: 2015-02-09 22:48+0100\n"
+"PO-Revision-Date: 2015-02-09 22:50+0100\n"
 "Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
 "Language-Team: Norwegian bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: \n"
@@ -68,24 +68,26 @@ msgid ""
 "connections."
 msgstr ""
 
-#: ../data/vinagre.appdata.xml.in.h:1
-msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
-msgstr ""
-
-#: ../data/vinagre.appdata.xml.in.h:2
-msgid ""
-"It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
-"SSH servers."
-msgstr ""
-
-#: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
-#: ../vinagre/vinagre-main.c:182
+#. Both taken from the desktop file.
+#: ../data/vinagre.appdata.xml.in.h:2 ../data/vinagre.desktop.in.in.h:1
+#: ../data/vinagre-file.desktop.in.in.h:1 ../vinagre/vinagre-main.c:182
 msgid "Remote Desktop Viewer"
 msgstr "Visning av eksternt skrivebord"
 
-#: ../data/vinagre.desktop.in.in.h:2 ../data/vinagre-file.desktop.in.in.h:2
+#: ../data/vinagre.appdata.xml.in.h:3 ../data/vinagre.desktop.in.in.h:2
+#: ../data/vinagre-file.desktop.in.in.h:2
 msgid "Access remote desktops"
 msgstr "Bruk eksternt skrivebord"
+
+#: ../data/vinagre.appdata.xml.in.h:4
+msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
+msgstr "Vinagre viser eksterne skrivebord på Windows, Mac OS X og Linux."
+
+#: ../data/vinagre.appdata.xml.in.h:5
+msgid ""
+"It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
+"SSH servers."
+msgstr "Det bruker VNC-, RDP- og SPICE-protokollene, og kan til og med brukes til å koble til SSH-tjenere."
 
 #: ../data/vinagre.desktop.in.in.h:3
 msgid "VNC;RDP;SSH;"
@@ -113,13 +115,13 @@ msgstr "_Autentiser"
 msgid "Authentication is required"
 msgstr "Autentisering kreves"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:120
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:119
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
 #: ../plugins/spice/vinagre-spice-tab.c:139
 msgid "Host:"
 msgstr "Vert:"
 
-#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:111
+#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:117
 #: ../plugins/ssh/vinagre-ssh-plugin.c:112
 msgid "_Username:"
 msgstr "Br_ukernavn:"
@@ -222,8 +224,8 @@ msgstr ""
 msgid "Fingerprint:"
 msgstr "Fingeravtrykk:"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:751
-#: ../plugins/rdp/vinagre-rdp-tab.c:792
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:763
+#: ../plugins/rdp/vinagre-rdp-tab.c:804
 msgid "Connect"
 msgstr "Koble til"
 
@@ -304,13 +306,13 @@ msgstr "RDP"
 msgid "Access MS Windows remote desktops"
 msgstr "Få tilgang til eksterne skrivebord med MS Windows"
 
-#: ../plugins/rdp/vinagre-rdp-plugin.c:104
+#: ../plugins/rdp/vinagre-rdp-plugin.c:110
 msgid "RDP Options"
 msgstr "Alternativer for RDP"
 
 #. Translators: This is the tooltip for the username field in a RDP connection
 #. Translators: This is the tooltip for the username field in a SSH connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:118
+#: ../plugins/rdp/vinagre-rdp-plugin.c:124
 #: ../plugins/ssh/vinagre-ssh-plugin.c:117
 msgid ""
 "Optional. If blank, your username will be used. Also, it can be supplied in "
@@ -320,36 +322,36 @@ msgstr ""
 "Vert-feltet over på formen brukernavn@vertsnavn."
 
 #. Host width
-#: ../plugins/rdp/vinagre-rdp-plugin.c:131
+#: ../plugins/rdp/vinagre-rdp-plugin.c:137
 msgid "_Width:"
 msgstr "_Bredde:"
 
 #. Translators: This is the tooltip for the width field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:138
+#: ../plugins/rdp/vinagre-rdp-plugin.c:144
 msgid "Set width of the remote desktop"
 msgstr "Sett bredde på eksternt skrivebord"
 
 #. Host height
-#: ../plugins/rdp/vinagre-rdp-plugin.c:147
+#: ../plugins/rdp/vinagre-rdp-plugin.c:153
 msgid "_Height:"
 msgstr "_Høyde:"
 
 #. Translators: This is the tooltip for the height field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:154
+#: ../plugins/rdp/vinagre-rdp-plugin.c:160
 msgid "Set height of the remote desktop"
 msgstr "Sett høyde på eksternt skrivebord"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:121 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:120 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:140
 msgid "Port:"
 msgstr "Port:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:750 ../plugins/rdp/vinagre-rdp-tab.c:791
+#: ../plugins/rdp/vinagre-rdp-tab.c:762 ../plugins/rdp/vinagre-rdp-tab.c:803
 msgid "_Cancel"
 msgstr "A_vbryt"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:982 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:994 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:264
 msgid "Error connecting to host."
 msgstr "Feil ved tilkobling til verten."
@@ -1244,7 +1246,7 @@ msgid "_Keyboard shortcuts"
 msgstr "_Tastatursnarveier"
 
 #: ../vinagre/vinagre-ui.h:60
-msgid "Enable keyboard shurtcuts"
+msgid "Enable keyboard shortcuts"
 msgstr "Slå på tastatursnarveier"
 
 #: ../vinagre/vinagre-ui.h:62
