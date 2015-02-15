@@ -4,19 +4,20 @@
 #
 # n0m4dm4n <n0m4dm4n at gmail dot com>, 2011.
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2011, 2012, 2013, 2014.
+# Balázs Úr <urbalazs at gmail dot com>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre master\n"
-"POT-Creation-Date: 2014-03-19 11:51+0000\n"
-"PO-Revision-Date: 2014-03-22 12:11+0100\n"
-"Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
+"POT-Creation-Date: 2015-02-15 12:07+0000\n"
+"PO-Revision-Date: 2015-02-15 14:31+0100\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian <openscope at googlegroups dot com>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.2\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -50,16 +51,12 @@ msgstr "Kapcsolat létrehozása"
 
 #. (itstool) path: page/p
 #: C/connect.page:25
-#| msgid ""
-#| "You can connect to other computers on your local network using "
-#| "<app>Vinagre</app>."
 msgid ""
 "You can connect to other computers on your local network using <app>Remote "
 "Desktop Viewer</app>."
 msgstr ""
 "A <app>Távoli asztalok megjelenítése</app> segítségével csatlakozhat a helyi "
-"hálózat más "
-"számítógépeihez."
+"hálózat más számítógépeihez."
 
 #. (itstool) path: item/p
 #: C/connect.page:30
@@ -116,12 +113,6 @@ msgstr ""
 
 #. (itstool) path: note/p
 #: C/connect.page:53
-#| msgid ""
-#| "Some computers may require a secure connection: an authentication dialog "
-#| "will be displayed, asking for the credentials. The type of credentials "
-#| "depend on the remote host; it may be a password and a username. If you "
-#| "select <gui>Remember this credential</gui>, <app>Vinagre</app> will store "
-#| "the information using <app>GNOME Keyring</app>."
 msgid ""
 "Some computers may require a secure connection: an authentication dialog "
 "will be displayed, asking for the credentials. The type of credentials "
@@ -298,16 +289,12 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/connect-reverse.page:62
-#| msgid ""
-#| "Once the remote computer connects to your machine, <app>Vinagre</app> "
-#| "will establish the reverse connection."
 msgid ""
 "Once the remote computer connects to your machine, <app>Remote Desktop "
 "Viewer</app> will establish the reverse connection."
 msgstr ""
 "Amikor egy távoli számítógép az Önéhez csatlakozik, a <app>Távoli asztalok "
-"megjelenítése</app> "
-"létrehozza a fordított kapcsolatot."
+"megjelenítése</app> létrehozza a fordított kapcsolatot."
 
 #. (itstool) path: section/p
 #: C/connect-reverse.page:65
@@ -394,17 +381,20 @@ msgstr "Funkciók és beállítások"
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/introduction.page:38
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/vinagre-connected.png' "
+#| "md5='abef2af863dbd4659703bcc09bb89d1a'"
 msgctxt "_"
 msgid ""
 "external ref='figures/vinagre-connected.png' "
-"md5='abef2af863dbd4659703bcc09bb89d1a'"
+"md5='5cff8a4a5f43719b8ffa209b7c0ca1f4'"
 msgstr ""
 "external ref='figures/vinagre-connected.png' "
-"md5='abef2af863dbd4659703bcc09bb89d1a'"
+"md5='5cff8a4a5f43719b8ffa209b7c0ca1f4'"
 
 #. (itstool) path: info/desc
 #: C/introduction.page:19
-#| msgid "Introduction to the <app>Vinagre</app> remote desktop viewer."
 msgid "Introduction to <app>Remote Desktop Viewer</app>."
 msgstr "A <app>Távoli asztalok megjelenítése</app> bemutatása."
 
@@ -415,11 +405,6 @@ msgstr "Ismertető"
 
 #. (itstool) path: page/p
 #: C/introduction.page:24
-#| msgid ""
-#| "<app>Vinagre</app> is a remote desktop viewer application for GNOME for "
-#| "accessing other machines using Virtual Network Computing (VNC) and other "
-#| "protocols. It can be used to control and interact with another computer "
-#| "or to just view the desktop."
 msgid ""
 "<app>Remote Desktop Viewer</app> is a remote desktop viewer application for "
 "GNOME for accessing other machines using Virtual Network Computing (VNC) and "
@@ -427,13 +412,12 @@ msgid ""
 "computer or to just view the desktop."
 msgstr ""
 "A <app>Távoli asztalok megjelenítése</app> egy távoliasztal-megjelenítő "
-"alkalmazás a GNOME "
-"környezethez, amely VNC-vel és más protokollokkal használható más "
-"számítógépek távoli vezérlésére, vagy csupán az asztaluk megjelenítésére."
+"alkalmazás a GNOME környezethez, amely VNC-vel és más protokollokkal "
+"használható más számítógépek távoli vezérlésére, vagy csupán az asztaluk "
+"megjelenítésére."
 
 #. (itstool) path: page/p
 #: C/introduction.page:29
-#| msgid "<app>Vinagre</app> provides the following features:"
 msgid "<app>Remote Desktop Viewer</app> provides the following features:"
 msgstr ""
 "A <app>Távoli asztalok megjelenítése</app> a következő szolgáltatásokat "
@@ -456,14 +440,12 @@ msgstr "helyi hálózaton levő számítógépek tallózása"
 
 #. (itstool) path: figure/title
 #: C/introduction.page:37
-#| msgid "Screenshot of Vinagre in action"
 msgid "Remote Desktop Viewer in action"
 msgstr ""
 "Képernyőkép a Távoli asztalok megjelenítése alkalmazásról használat közben"
 
 #. (itstool) path: media/p
 #: C/introduction.page:39
-#| msgid "Vinagre running in GNOME 3, connected to a machine running GNOME 2"
 msgid ""
 "Remote Desktop Viewer running in GNOME 3, connected to a machine running "
 "GNOME 2"
@@ -473,7 +455,6 @@ msgstr ""
 
 #. (itstool) path: p/link
 #: C/legal.xml:5
-#| msgid "Creative Commons Share Alike 3.0"
 msgid "Creative Commons Attribution-ShareAlike 3.0 Unported License"
 msgstr "Creative Commons Attribution-ShareAlike 3.0 Unported License"
 
@@ -505,14 +486,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/keyboard-shortcuts.page:29
-#| msgid ""
-#| "Enabling this option allows the use of keyboard shortcuts (like "
-#| "<keyseq><key>Ctrl</key><key>N</key></keyseq>), menu accelerators (such as "
-#| "<keyseq><key>Alt</key><key>M</key></keyseq>) and mnemonics, with "
-#| "<app>Vinagre</app>. This means that <app>Vinagre</app> will catch those "
-#| "key combinations instead of sending them to the remote machine. This "
-#| "option is disabled by default because most of the time, you will be "
-#| "interacting with the computer to which you are connected."
 msgid ""
 "Enabling this option allows the use of keyboard shortcuts (like "
 "<keyseq><key>Ctrl</key><key>N</key></keyseq>), menu accelerators (such as "
@@ -525,12 +498,10 @@ msgstr ""
 "Ezen beállítás kiválasztása lehetővé teszi a gyorsbillentyűk (mint a "
 "<keyseq><key>Ctrl</key><key>N</key></keyseq>) és a hívóbetűk (mint az "
 "<keyseq><key>Alt</key><key>M</key></keyseq>) használatát a <app>Távoli "
-"asztalok megjelenítése</"
-"app> programban. Ekkor a kombinációkat a <app>Távoli asztalok megjelenítése<"
-"/app> nem küldi el a "
-"távoli számítógépnek, hanem elfogja. Ez a beállítás alapesetben ki van "
-"kapcsolva, mert a legtöbb esetben a csatlakoztatott távoli számítógép "
-"irányítására van szükség."
+"asztalok megjelenítése</app> programban. Ekkor a kombinációkat a <app>Távoli "
+"asztalok megjelenítése</app> nem küldi el a távoli számítógépnek, hanem "
+"elfogja. Ez a beállítás alapesetben ki van kapcsolva, mert a legtöbb esetben "
+"a csatlakoztatott távoli számítógép irányítására van szükség."
 
 #. (itstool) path: note/p
 #: C/keyboard-shortcuts.page:38
@@ -611,16 +582,12 @@ msgstr "Képernyőkép készítése"
 
 #. (itstool) path: page/p
 #: C/take-screenshot.page:24
-#| msgid ""
-#| "You can take screenshots of only the desktop that you are connected to by "
-#| "using the tool provided by <app>Vinagre</app>."
 msgid ""
 "You can take screenshots of only the desktop that you are connected to by "
 "using the tool provided by <app>Remote Desktop Viewer</app>."
 msgstr ""
-"A <app>Távoli asztalok megjelenítése</app> által biztosított eszközzel csak a "
-"csatlakoztatott "
-"asztalról készíthet képernyőképeket."
+"A <app>Távoli asztalok megjelenítése</app> által biztosított eszközzel csak "
+"a csatlakoztatott asztalról készíthet képernyőképeket."
 
 #. (itstool) path: item/p
 #: C/take-screenshot.page:29
