@@ -1,24 +1,24 @@
 # Swedish translation for vinagre.
-# Copyright © 2007-2012, 2014 Free Software Foundation, Inc.
+# Copyright © 2007-2012, 2014, 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the vinagre package.
 # Daniel Nylander <po@danielnylander.se>, 2007, 2008, 2009, 2010, 2011, 2012.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2014.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2014, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-09-03 10:52+0000\n"
-"PO-Revision-Date: 2014-09-05 23:39+0100\n"
-"Last-Translator: Mattias Eriksson <snaggen@gmail.com>\n"
+"POT-Creation-Date: 2015-01-25 12:02+0000\n"
+"PO-Revision-Date: 2015-01-25 17:25+0100\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.7.3\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
 msgid "Whether we should leave other clients connected"
@@ -83,26 +83,28 @@ msgstr ""
 "Ställ in till \"true\" för att alltid starta programlyssnaren för omvända "
 "anslutningar."
 
-#: ../data/vinagre.appdata.xml.in.h:1
+#. Both taken from the desktop file.
+#: ../data/vinagre.appdata.xml.in.h:2 ../data/vinagre.desktop.in.in.h:1
+#: ../data/vinagre-file.desktop.in.in.h:1 ../vinagre/vinagre-main.c:182
+msgid "Remote Desktop Viewer"
+msgstr "Fjärrskrivbordsklient"
+
+#: ../data/vinagre.appdata.xml.in.h:3 ../data/vinagre.desktop.in.in.h:2
+#: ../data/vinagre-file.desktop.in.in.h:2
+msgid "Access remote desktops"
+msgstr "Få åtkomst till fjärrskrivbord"
+
+#: ../data/vinagre.appdata.xml.in.h:4
 msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
 msgstr "Vinagre visar fjärrskrivbord för Windows, Mac OS X och Linux."
 
-#: ../data/vinagre.appdata.xml.in.h:2
+#: ../data/vinagre.appdata.xml.in.h:5
 msgid ""
 "It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
 "SSH servers."
 msgstr ""
 "Det använder protokollen VNC, RDP och SPICE, och kan även användas för att "
 "ansluta till SSH-servrar."
-
-#: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
-#: ../vinagre/vinagre-main.c:182
-msgid "Remote Desktop Viewer"
-msgstr "Fjärrskrivbordsklient"
-
-#: ../data/vinagre.desktop.in.in.h:2 ../data/vinagre-file.desktop.in.in.h:2
-msgid "Access remote desktops"
-msgstr "Få åtkomst till fjärrskrivbord"
 
 #: ../data/vinagre.desktop.in.in.h:3
 msgid "VNC;RDP;SSH;"
@@ -131,13 +133,13 @@ msgstr "_Autentisera"
 msgid "Authentication is required"
 msgstr "Autentisering krävs"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:120
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:119
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
 #: ../plugins/spice/vinagre-spice-tab.c:139
 msgid "Host:"
 msgstr "Värd:"
 
-#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:111
+#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:117
 #: ../plugins/ssh/vinagre-ssh-plugin.c:112
 msgid "_Username:"
 msgstr "_Användarnamn:"
@@ -240,8 +242,8 @@ msgstr ""
 msgid "Fingerprint:"
 msgstr "Fingeravtryck:"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:751
-#: ../plugins/rdp/vinagre-rdp-tab.c:792
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:763
+#: ../plugins/rdp/vinagre-rdp-tab.c:804
 msgid "Connect"
 msgstr "Anslut"
 
@@ -321,13 +323,13 @@ msgstr "RDP"
 msgid "Access MS Windows remote desktops"
 msgstr "Få åtkomst till fjärrskrivbord (MS Windows)"
 
-#: ../plugins/rdp/vinagre-rdp-plugin.c:104
+#: ../plugins/rdp/vinagre-rdp-plugin.c:110
 msgid "RDP Options"
 msgstr "RDP-alternativ"
 
 #. Translators: This is the tooltip for the username field in a RDP connection
 #. Translators: This is the tooltip for the username field in a SSH connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:118
+#: ../plugins/rdp/vinagre-rdp-plugin.c:124
 #: ../plugins/ssh/vinagre-ssh-plugin.c:117
 msgid ""
 "Optional. If blank, your username will be used. Also, it can be supplied in "
@@ -337,36 +339,36 @@ msgstr ""
 "Det kan även anges i fältet Värd ovan, i formatet användarnamn@värdnamn."
 
 #. Host width
-#: ../plugins/rdp/vinagre-rdp-plugin.c:131
+#: ../plugins/rdp/vinagre-rdp-plugin.c:137
 msgid "_Width:"
 msgstr "_Bredd:"
 
 #. Translators: This is the tooltip for the width field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:138
+#: ../plugins/rdp/vinagre-rdp-plugin.c:144
 msgid "Set width of the remote desktop"
 msgstr "Ange bredden på fjärrskrivbordet"
 
 #. Host height
-#: ../plugins/rdp/vinagre-rdp-plugin.c:147
+#: ../plugins/rdp/vinagre-rdp-plugin.c:153
 msgid "_Height:"
 msgstr "Hö_jd:"
 
 #. Translators: This is the tooltip for the height field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:154
+#: ../plugins/rdp/vinagre-rdp-plugin.c:160
 msgid "Set height of the remote desktop"
 msgstr "Ange höjden på fjärrskrivbordet"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:121 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:120 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:140
 msgid "Port:"
 msgstr "Port:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:750 ../plugins/rdp/vinagre-rdp-tab.c:791
+#: ../plugins/rdp/vinagre-rdp-tab.c:762 ../plugins/rdp/vinagre-rdp-tab.c:803
 msgid "_Cancel"
 msgstr "_Avbryt"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:982 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:994 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:264
 msgid "Error connecting to host."
 msgstr "Fel vid anslutning till värden."
@@ -1266,7 +1268,7 @@ msgid "_Keyboard shortcuts"
 msgstr "Tan_gentbordsgenvägar"
 
 #: ../vinagre/vinagre-ui.h:60
-msgid "Enable keyboard shurtcuts"
+msgid "Enable keyboard shortcuts"
 msgstr "Aktivera tangentbordsgenvägar"
 
 #: ../vinagre/vinagre-ui.h:62
@@ -1380,429 +1382,3 @@ msgstr "Aktivera genvägar"
 #, c-format
 msgid "Error while creating the file %s: %s"
 msgstr "Fel vid försök att skapa filen %s: %s"
-
-#~ msgid "Error while executing xfreerdp"
-#~ msgstr "Fel vid körning av xfreerdp"
-
-#~ msgid "Enter a valid hostname or IP address"
-#~ msgstr "Ange ett giltigt värdnamn eller IP-adress"
-
-#~ msgid "Always show tabs in the remote desktop display area"
-#~ msgstr "Visa alltid flikar i fjärrskrivbordets visningsområde"
-
-#~ msgid ""
-#~ "Enables menu accelerators and keyboard shortcuts. For more info on why "
-#~ "you may want to disable them, check the documentation"
-#~ msgstr ""
-#~ "Detta alternativ aktiverar menysnabbtangenter och tangentbordsgenvägar. "
-#~ "Läs dokumentationen för mer information om varför du kanske vill "
-#~ "inaktivera dem."
-
-#~ msgid "Interface"
-#~ msgstr "Gränssnitt"
-
-#~ msgid "Preferences"
-#~ msgstr "Inställningar"
-
-#~ msgid ""
-#~ "This option enables menu accelerators and keyboard shortcuts. For more "
-#~ "info on why you may want to disable them, check the documentation."
-#~ msgstr ""
-#~ "Detta alternativ aktiverar menytangenter och tangentbordsgenvägar. Läs "
-#~ "dokumentationen för mer information om varför du kanske vill inaktivera "
-#~ "dem."
-
-#~ msgid "_Always show tabs"
-#~ msgstr "Visa _alltid flikar"
-
-#~ msgid "Connecting..."
-#~ msgstr "Ansluter..."
-
-#~ msgid "Edit the application preferences"
-#~ msgstr "Redigera programmets inställningar"
-
-#~ msgid "About menu accelerators and keyboard shortcuts"
-#~ msgstr "Om menytangenter och tangentbordsgenvägar"
-
-#~ msgid ""
-#~ "Vinagre comes with menu accelerators and keyboard shortcuts disabled by "
-#~ "default. The reason is to avoid the keys from being intercepted by the "
-#~ "program, and allow them to be sent to the remote desktop.\n"
-#~ "\n"
-#~ "You can change this behavior through the preferences dialog. For more "
-#~ "information, check the documentation.\n"
-#~ "\n"
-#~ "This message will appear only once."
-#~ msgstr ""
-#~ "Vinagre levereras som standard med inaktiverade menysnabbtangenter och "
-#~ "tangentbordsgenvägar. Anledningen är att undvika att tangenterna fångas "
-#~ "av programmet och tillåta att de skickas till fjärrskrivbordet.\n"
-#~ "\n"
-#~ "Du kan ändra detta beteende genom inställningsdialogen. Läs "
-#~ "dokumentationen för mer information.\n"
-#~ "\n"
-#~ "Detta meddelande kommer inte att visas igen."
-
-#~ msgid "_About"
-#~ msgstr "_Om"
-
-#~ msgid "Active plugins"
-#~ msgstr "Aktiva insticksmoduler"
-
-#~ msgid ""
-#~ "List of active plugins. It contains the \"Location\" of the active "
-#~ "plugins. See the .vinagre-plugin file for obtaining the \"Location\" of a "
-#~ "given plugin."
-#~ msgstr ""
-#~ "Lista över aktiva insticksmoduler. Den innehåller \"Plats\" för de aktiva "
-#~ "insticksmodulerna. Se filen .vinagre-plugin för att ta reda på \"Plats\" "
-#~ "för en angiven insticksmodul."
-
-#~ msgid "Which machine do you want to connect to?"
-#~ msgstr "Vilken dator vill du ansluta till?"
-
-#~ msgid "RDP support"
-#~ msgstr "RDP-stöd"
-
-#~ msgid "Access MS Windows machines"
-#~ msgstr "Kom åt MS Windows-datorer"
-
-#~ msgid "SSH support"
-#~ msgstr "SSH-stöd"
-
-#~ msgid "_Depth Color:"
-#~ msgstr "Färg_djup:"
-
-#~ msgid "VNC support"
-#~ msgstr "VNC-stöd"
-
-#~ msgid "Allows reverse VNC connections"
-#~ msgstr "Tillåter omvända VNC-anslutningar"
-
-#~ msgid "Reverse VNC"
-#~ msgstr "Omvänd VNC"
-
-#~ msgid "_Reverse Connections..."
-#~ msgstr "_Omvända anslutningar..."
-
-#~ msgid "Spice"
-#~ msgstr "Spice"
-
-#~ msgid "Spice support"
-#~ msgstr "Spice-stöd"
-
-#~ msgid ""
-#~ "Changes Instant Messenger status to busy when window toggles to "
-#~ "fullscreen (works with Empathy)"
-#~ msgstr ""
-#~ "Ändrar IM-status (chatt) till upptagen när fönstret växlas till helskärm "
-#~ "(endast med Empathy)"
-
-#~ msgid "IM Status"
-#~ msgstr "IM-status"
-
-#~ msgid "Could not communicate to Telepathy. IM Status plugin will not work."
-#~ msgstr ""
-#~ "Kunde inte kommunicera med Telepathy. Insticksmodulen IM-status kommer "
-#~ "inte att fungera."
-
-#~ msgid "A menu to quickly access remote machines"
-#~ msgstr "En meny för att snabbt komma åt fjärrdatorer"
-
-#~ msgid "Vinagre Applet Factory"
-#~ msgstr "Panelprogramsfabrik för Vinagre"
-
-#~ msgid "Could not run vinagre:"
-#~ msgstr "Kunde inte köra vinagre:"
-
-#~ msgid "Open Remote Desktop Viewer"
-#~ msgstr "Öppna fjärrskrivbordsklient"
-
-#~ msgid "Access your bookmarks"
-#~ msgstr "Kom åt dina bokmärken"
-
-#~ msgid "_New Folder"
-#~ msgstr "_Ny mapp"
-
-#~ msgid "Create a new folder"
-#~ msgstr "Skapa en ny mapp"
-
-#~ msgid "_Open bookmark"
-#~ msgstr "_Öppna bokmärke"
-
-#~ msgid "Connect to this machine"
-#~ msgstr "Anslut till denna dator"
-
-#~ msgid "_Edit bookmark"
-#~ msgstr "R_edigera bokmärke"
-
-#~ msgid "Edit the details of selected bookmark"
-#~ msgstr "Redigera detaljerna för markerat bokmärke"
-
-#~ msgid "_Remove from bookmarks"
-#~ msgstr "_Ta bort från bokmärken"
-
-#~ msgid "Remove current selected connection from bookmarks"
-#~ msgstr "Ta bort aktuellt markerad anslutning från bokmärken"
-
-#~ msgid "Invalid operation"
-#~ msgstr "Ogiltig åtgärd"
-
-#~ msgid "Data received from drag&drop operation is invalid."
-#~ msgstr "Data som togs emot från dra&släpp-åtgärd är ogiltig."
-
-#~ msgid "Hide panel"
-#~ msgstr "Dölj panel"
-
-#~ msgid "Hosts nearby"
-#~ msgstr "Närliggande värdar"
-
-#~ msgid "Plugin Manager"
-#~ msgstr "Instickshanterare"
-
-#~ msgid "_Machine"
-#~ msgstr "_Dator"
-
-#~ msgid "_Plugins"
-#~ msgstr "I_nsticksmoduler"
-
-#~ msgid "Select plugins"
-#~ msgstr "Välj insticksmoduler"
-
-#~ msgid "Side _Panel"
-#~ msgstr "Sido_panel"
-
-#~ msgid "Show or hide the side panel"
-#~ msgstr "Visa eller dölj sidopanelen"
-
-#~ msgid "C_lose All"
-#~ msgstr "S_täng alla"
-
-#~ msgid ""
-#~ "A plugin tried to open an UI file but did not succeed, with the error "
-#~ "message:"
-#~ msgstr ""
-#~ "En insticksmodul försökte öppna ett användargränssnitt men lyckades inte. "
-#~ "Felmeddelande:"
-
-#~ msgid ""
-#~ "The program tried to open an UI file but did not succeed, with the error "
-#~ "message:"
-#~ msgstr ""
-#~ "Programmet försökte att öppna ett användargränssnitt men lyckades inte. "
-#~ "Felmeddelande:"
-
-#~ msgid ""
-#~ "Vinagre is free software; you can redistribute it and/or modify it under "
-#~ "the terms of the GNU General Public License as published by the Free "
-#~ "Software Foundation; either version 2 of the License, or (at your option) "
-#~ "any later version."
-#~ msgstr ""
-#~ "Vinagre är fri programvara. Du kan distribuera det och/eller modifiera "
-#~ "det under villkoren i GNU General Public License, publicerad av Free "
-#~ "Software Foundation, antingen version 2 eller (om du så vill) någon "
-#~ "senare version."
-
-#~ msgid ""
-#~ "Vinagre is distributed in the hope that it will be useful, but WITHOUT "
-#~ "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-#~ "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
-#~ "more details."
-#~ msgstr ""
-#~ "Vinagre distribueras i hopp om att det ska vara användbart, men UTAN "
-#~ "NÅGON SOM HELST GARANTI, även utan underförstådd garanti om SÄLJBARHET "
-#~ "eller LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU General Public "
-#~ "License för ytterligare information."
-
-#~ msgid ""
-#~ "You should have received a copy of the GNU General Public License along "
-#~ "with this program. If not, see <http://www.gnu.org/licenses/>."
-#~ msgstr ""
-#~ "Du bör ha fått en kopia av GNU General Public License tillsammans med "
-#~ "detta program. Om inte, se <http://www.gnu.org/licenses/>."
-
-#~ msgid "Vinagre Website"
-#~ msgstr "Webbplats för Vinagre"
-
-#~ msgid "The handler for \"vnc://\" URLs"
-#~ msgstr "Hanteraren för url:er av typen \"vnc://\""
-
-#~ msgid "Incoming VNC connection arrived but there is no active window"
-#~ msgstr "Inkommande VNC-anslutning kom men det finns inget aktivt fönster"
-
-#~ msgid ""
-#~ "Run 'vinagre --help' to see a full list of available command line options"
-#~ msgstr ""
-#~ "Kör \"vinagre --help\" för att se en fullständig lista över tillgängliga "
-#~ "kommandoradsflaggor"
-
-#~ msgid "Plugin %s has already registered a browser for service %s."
-#~ msgstr ""
-#~ "Insticksmodulen %s har redan registrerat en bläddrare för tjänsten %s."
-
-#~ msgid "Plugin"
-#~ msgstr "Insticksmodul"
-
-#~ msgid "Enabled"
-#~ msgstr "Aktiverad"
-
-#~ msgid "C_onfigure"
-#~ msgstr "K_onfigurera"
-
-#~ msgid "A_ctivate"
-#~ msgstr "A_ktivera"
-
-#~ msgid "Ac_tivate All"
-#~ msgstr "Ak_tivera alla"
-
-#~ msgid "_Deactivate All"
-#~ msgstr "_Inaktivera alla"
-
-#~ msgid "_About Plugin"
-#~ msgstr "_Om insticksmodulen"
-
-#~ msgid "C_onfigure Plugin"
-#~ msgstr "K_onfigurera insticksmodulen"
-
-#~ msgid "All fields above are mandatory"
-#~ msgstr "Alla fält ovan är obligatoriska"
-
-#~ msgid "Failed to request name: %s"
-#~ msgstr "Misslyckades med att begära namnet: %s"
-
-#~ msgid "No error given"
-#~ msgstr "Inget fel angavs"
-
-#~ msgid "Could not merge vinagre-ui.xml: %s"
-#~ msgstr "Kunde inte sammanfoga vinagre-ui.xml: %s"
-
-#~ msgid "<small>(Protocol: <i>%s</i>)</small>"
-#~ msgstr "<small>(Protokoll: <i>%s</i>)</small>"
-
-#~ msgid "Minimize window"
-#~ msgstr "Minimera fönster"
-
-#~ msgid "Supported formats"
-#~ msgstr "Format som stöds"
-
-#~ msgid "<b>Connection</b>"
-#~ msgstr "<b>Anslutning</b>"
-
-#~ msgid "<b>Folder</b>"
-#~ msgstr "<b>Mapp</b>"
-
-#~ msgid "host or host:display or host::port"
-#~ msgstr "värd eller värd:display eller värd::port"
-
-#~ msgid "Choose a VNC Server"
-#~ msgstr "Välj en VNC-server"
-
-#~ msgid "Could not find the host address in the file."
-#~ msgstr "Kunde inte hitta värdadressen i filen."
-
-#~ msgid "Opens a .vnc file"
-#~ msgstr "Öppnar en .vnc-fil"
-
-#~ msgid "- VNC Client for GNOME"
-#~ msgstr "- VNC-klient för GNOME"
-
-#~ msgid "_Read only"
-#~ msgstr "S_krivskyddad"
-
-#~ msgid "Press Ctrl+Alt to release the cursor"
-#~ msgstr "Tryck på Ctrl+Alt för att släppa muspekaren"
-
-#~ msgid "<b>Editing a bookmark</b>"
-#~ msgstr "<b>Redigering av bokmärke</b>"
-
-#~ msgid ""
-#~ "<b>In order to connect on this machine, a password is required. Please "
-#~ "supply it.</b>"
-#~ msgstr ""
-#~ "<b>Ett lösenord krävs för att kunna ansluta till denna dator. Ange "
-#~ "lösenordet.</b>"
-
-#~ msgid "Editing a bookmark"
-#~ msgstr "Redigerar ett bokmärke"
-
-#~ msgid "Saving to bookmarks"
-#~ msgstr "Sparar till bokmärken"
-
-#~ msgid "_Bookmark name:"
-#~ msgstr "_Bokmärkesnamn:"
-
-#~ msgid "Error: %s"
-#~ msgstr "Fel: %s"
-
-#~ msgid "Confirm removal?"
-#~ msgstr "Bekräfta borttagning?"
-
-#~ msgid "Error while removing %s from bookmarks: %s"
-#~ msgstr "Fel vid borttagning av %s från bokmärken: %s"
-
-#~ msgid ""
-#~ "Scaling does not work properly on composited windows. Disable the visual "
-#~ "effects and try again."
-#~ msgstr ""
-#~ "Skalning fungerar inte korrekt på kompositerade fönster. Inaktivera de "
-#~ "visuella effekterna och försök igen."
-
-#~ msgid "Expected `%s' got `%s' for key %s"
-#~ msgstr "Förväntade \"%s\", fick \"%s\" för nyckeln %s"
-
-#~ msgid "Press Ctrl+Alt to grab the cursor"
-#~ msgstr "Tryck på Ctrl+Alt för att fånga muspekaren"
-
-#~ msgid "Image"
-#~ msgstr "Bild"
-
-#~ msgid "Name"
-#~ msgstr "Namn"
-
-#~ msgid "Hide bookmarks"
-#~ msgstr "Dölj bokmärken"
-
-#~ msgid "Could not initialize GnomeVFS\n"
-#~ msgstr "Kunde inte initiera GnomeVFS\n"
-
-#~ msgid "Add to favorites"
-#~ msgstr "Lägg till i favoriter"
-
-#~ msgid "Favorites"
-#~ msgstr "Favoriter"
-
-#~ msgid "Hide favorites"
-#~ msgstr "Dölj favoriter"
-
-#~ msgid "Vinagre"
-#~ msgstr "Vinagre"
-
-#~ msgid "_Favorites"
-#~ msgstr "_Favoriter"
-
-#~ msgid "_Open favorite"
-#~ msgstr "_Öppna favorit"
-
-#~ msgid "Connect to this favorite"
-#~ msgstr "Anslut till den här favoriten"
-
-#~ msgid "_Edit favorite"
-#~ msgstr "R_edigera favorit"
-
-#~ msgid "Copy the selection"
-#~ msgstr "Kopiera markeringen"
-
-#~ msgid "  "
-#~ msgstr "  "
-
-#~ msgid "gtk-cancel"
-#~ msgstr "Avbryt"
-
-#~ msgid "gtk-find"
-#~ msgstr "Sök"
-
-#~ msgid "gtk-ok"
-#~ msgstr "OK"
-
-#~ msgid "gtk-save"
-#~ msgstr "Spara"
