@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vinagre 3.15.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-09 22:48+0100\n"
-"PO-Revision-Date: 2015-02-09 22:50+0100\n"
-"Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
+"POT-Creation-Date: 2015-02-16 18:14+0100\n"
+"PO-Revision-Date: 2015-02-10 14:07+0100\n"
+"Last-Translator: Åka Sikrom <a4NOSPAMPLEASETHANKYOU@hush.com>\n"
 "Language-Team: Norwegian bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -27,21 +27,26 @@ msgid ""
 "clients connected or to drop the existent connections. Set the value to true "
 "to share the desktop with the other clients."
 msgstr ""
+"En klient som kobler til en vert kan enten be verten om å la eventuelle "
+"andre klienter forbli tilkoblet eller bryte alle pågående tilkoblinger. Bruk "
+"positiv verdi («true») her for å dele skrivebordet med andre klienter."
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:3
 msgid ""
 "Whether we should show tabs even when there is only one active connection"
-msgstr ""
+msgstr "Om faner skal vises selv når det bare finnes én tilkobling"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:4
 msgid ""
 "Set to \"true\" to always show the tabs. Set to \"false\" to only show the "
 "tabs when there is more than one active connection."
 msgstr ""
+"Bruk positiv verdi («true») for å alltid vise faner. Bruk negativ verdi "
+"(«false») for å bare vise fanene når det finnes flere enn én tilkobling."
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:5
 msgid "Whether we should show the menu accelerators (shortcut keys)"
-msgstr ""
+msgstr "Om menysnarveier skal vises"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:6
 msgid ""
@@ -49,6 +54,9 @@ msgid ""
 "Note that if they are enabled, those keys will be intercepted by the menu "
 "and will not be sent to the remote host."
 msgstr ""
+"Bruk negativ verdi («false») for å slå av menysnarveier. Bruk positiv verdi "
+"(«true») for å slå dem på. Merk at disse knappetrykkene sendes til menyen, "
+"og at ekstern vert ikke mottar dem."
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:7
 msgid "Maximum number of history items in connect dialog"
@@ -60,13 +68,15 @@ msgstr "Oppgir maksimalt antall oppføringer i vertsoppføringen."
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:9
 msgid "Whether we should start the program listening for reverse connections"
-msgstr ""
+msgstr "Om programmet skal lytte etter omvendte tilkoblinger ved oppstart"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:10
 msgid ""
 "Set to \"true\" to always start the program listening for reverse "
 "connections."
 msgstr ""
+"Bruk positiv verdi («true») for å la programmet lytte etter omvendte "
+"tilkoblinger ved oppstart."
 
 #. Both taken from the desktop file.
 #: ../data/vinagre.appdata.xml.in.h:2 ../data/vinagre.desktop.in.in.h:1
@@ -87,7 +97,9 @@ msgstr "Vinagre viser eksterne skrivebord på Windows, Mac OS X og Linux."
 msgid ""
 "It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
 "SSH servers."
-msgstr "Det bruker VNC-, RDP- og SPICE-protokollene, og kan til og med brukes til å koble til SSH-tjenere."
+msgstr ""
+"Det bruker VNC-, RDP- og SPICE-protokollene, og kan til og med brukes til å "
+"koble til SSH-tjenere."
 
 #: ../data/vinagre.desktop.in.in.h:3
 msgid "VNC;RDP;SSH;"
@@ -104,7 +116,8 @@ msgstr ""
 msgid "translator-credits"
 msgstr ""
 "Kjartan Maraas <kmaraas@gnome.org>\n"
-"Espen Stefansen <libbe AT stefansen DOT net>"
+"Espen Stefansen <libbe AT stefansen DOT net>\n"
+"Åka Sikrom <a4NOSPAMPLEASETHANKYOU at hush dått com>"
 
 #. This is a button label, in the authentication dialog
 #: ../data/vinagre.ui.h:5
@@ -140,7 +153,7 @@ msgstr "_Husk dette passordet"
 
 #: ../data/vinagre.ui.h:12
 msgid "Store the login credential in GNOME Keyring"
-msgstr "Lagre av autentiseringsinformasjon i GNOME-nøkkelring"
+msgstr "Lagre autentiseringsinformasjon i GNOME-nøkkelring"
 
 #: ../data/vinagre.ui.h:13
 msgid "Bookmarks"
@@ -181,7 +194,7 @@ msgstr "Opphavsmappe"
 
 #: ../data/vinagre.ui.h:23
 msgid "Certificate Verification"
-msgstr "Verifisering av sertifikat"
+msgstr "Bekreftelse av sertifikat"
 
 #: ../data/vinagre.ui.h:24
 msgid ""
@@ -216,7 +229,7 @@ msgid ""
 "The below certificate could not be verified.\n"
 "Do you trust the certificate?"
 msgstr ""
-"Sertifikatet under kunne ikke verifiseres.\n"
+"Sertifikatet kunne ikke bekreftes.\n"
 "Stoler du på sertifikatet?"
 
 #. Fingerprint of the certificate.
@@ -268,9 +281,9 @@ msgid ""
 "behind a firewall. The remote side is supposed to initiate the connection "
 "with you. For further information, read the help."
 msgstr ""
-"Ved å aktivere omvendte tilkoblinger kan du få tilgang til eksterne "
-"skrivebord som befinner seg bak en brannmur. Ekstern side skal initiere "
-"tilkoblingen med deg. Se hjelpfilen for mer informasjon."
+"Ved å slå på omvendte tilkoblinger kan du få tilgang til eksterne skrivebord "
+"som befinner seg bak en brannmur. Ekstern side skal initiere tilkoblingen "
+"med deg. Se hjelpfilen for mer informasjon."
 
 #: ../data/vinagre.ui.h:48
 msgid "_Enable Reverse Connections"
@@ -318,8 +331,8 @@ msgid ""
 "Optional. If blank, your username will be used. Also, it can be supplied in "
 "the Host field above, in the form username@hostname."
 msgstr ""
-"Valgfri. Hvis denne er tom vil ditt brukernavn brukes. Kan også oppgis i "
-"Vert-feltet over på formen brukernavn@vertsnavn."
+"Valgfri. Hvis denne er tom, brukes gjeldende brukernavn. Kan også oppgis i "
+"Vert-feltet ovenfor i formatet brukernavn@vertsnavn."
 
 #. Host width
 #: ../plugins/rdp/vinagre-rdp-plugin.c:137
@@ -405,7 +418,7 @@ msgstr "Tilgang til Unix/Linux, Windows og andre maskiner."
 #: ../plugins/vnc/vinagre-vnc-plugin.c:147
 #: ../plugins/spice/vinagre-spice-plugin.c:101
 msgid "Could not parse the file."
-msgstr "Kunne ikke lese filen."
+msgstr "Klarte ikke å lese filen."
 
 #. Translators: Do not translate "Connection". It's the name of a group in the .vnc (.ini like) file.
 #: ../plugins/vnc/vinagre-vnc-plugin.c:155
@@ -530,11 +543,11 @@ msgstr "Ukjent årsak"
 #: ../plugins/vnc/vinagre-vnc-tab.c:362
 #, c-format
 msgid "Authentication method for host %s is unsupported. (%u)"
-msgstr "Autentiseringsmetoden mot vert %s er ikke støttet. (%u)"
+msgstr "Autentiseringsmetoden mot vert %s støttes ikke. (%u)"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:366
 msgid "Authentication unsupported"
-msgstr "Autentisering er ikke støttet"
+msgstr "Autentisering støttes ikke"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:529 ../plugins/vnc/vinagre-vnc-tab.c:546
 msgid "Authentication error"
@@ -623,16 +636,16 @@ msgid ""
 "Read the README file (shipped with Vinagre) in order to know how to enable "
 "this feature."
 msgstr ""
-"Skalering er ikke støttet på denne installasjonen.\n"
+"Skalering støttes ikke på denne installasjonen.\n"
 "\n"
-"Les filen README, som distribueres med Vinagre, for å finne ut hvordan du "
-"aktiverer denne funksjonen."
+"Les filen README - som distribueres med Vinagre - for å finne ut hvordan du "
+"slår på denne funksjonen."
 
 #: ../plugins/vnc/vinagre-vnc-tunnel.c:97
 #: ../plugins/spice/vinagre-spice-tunnel.c:103
 #, c-format
 msgid "Unable to find a free TCP port"
-msgstr "Kan ikke finne en ledig TCP-port"
+msgstr "Fant ingen ledig TCP-port"
 
 #. Translators: Do not translate "connection". It's the name of a group in the .spice (.ini like) file.
 #: ../plugins/spice/vinagre-spice-plugin.c:108
@@ -779,7 +792,7 @@ msgstr "Migrering avbrutt"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:259
 msgid "Could not remove the old bookmarks file"
-msgstr "Kunne ikke fjerne den gamle bokmerkefilen"
+msgstr "Klarte ikke å fjerne gammel bokmerkefil"
 
 #: ../vinagre/vinagre-bookmarks-tree.c:120
 msgid "Root Folder"
@@ -787,18 +800,18 @@ msgstr "Rotmappe"
 
 #: ../vinagre/vinagre-bookmarks-ui.c:78
 msgid "Invalid name for this folder"
-msgstr "Ugyldig navn på denne mappen"
+msgstr "Ugyldig mappenavn"
 
 #: ../vinagre/vinagre-bookmarks-ui.c:88 ../vinagre/vinagre-bookmarks-ui.c:200
 #, c-format
 msgid ""
 "The name \"%s\" is already used in this folder. Please use a different name."
-msgstr "Navnet «%s» er allerede brukt i denne mappen. Velg et annet navn."
+msgstr "Navnet «%s» er brukes allerede i denne mappen. Velg et annet navn."
 
 #: ../vinagre/vinagre-bookmarks-ui.c:89 ../vinagre/vinagre-bookmarks-ui.c:190
 #: ../vinagre/vinagre-bookmarks-ui.c:201
 msgid "Invalid name for this item"
-msgstr "Ugyldig navn for denne oppføringen"
+msgstr "Ugyldig oppføringsnavn"
 
 #. Translators: %s is a protocol name, like VNC or SSH
 #: ../vinagre/vinagre-bookmarks-ui.c:168
@@ -814,19 +827,19 @@ msgstr "Er du sikker på at du ønsker å fjerne %s fra bokmerkene?"
 
 #: ../vinagre/vinagre-bookmarks-ui.c:312
 msgid "Remove Folder?"
-msgstr "Fjern mappen?"
+msgstr "Vil du fjerne mappen?"
 
 #: ../vinagre/vinagre-bookmarks-ui.c:313
 msgid "Note that all its subfolders and bookmarks will be removed as well."
-msgstr "Merk at alle undermapper og bokmerker vil bli fjernet også."
+msgstr "Merk: alle undermapper og bokmerker blir også fjernet."
 
 #: ../vinagre/vinagre-bookmarks-ui.c:318
 msgid "Remove Item?"
-msgstr "Fjern oppføring?"
+msgstr "Vil du fjerne oppføringen?"
 
 #: ../vinagre/vinagre-bookmarks-ui.c:335
 msgid "Error removing bookmark: Entry not found"
-msgstr "Feil under fjerning av bokmerke: Oppføring ikke funnet"
+msgstr "Feil under fjerning av bokmerke: fant ikke oppføring"
 
 #: ../vinagre/vinagre-bookmarks-ui.c:352
 msgid "New Folder"
@@ -856,13 +869,13 @@ msgstr ""
 #: ../vinagre/vinagre-commands.c:174
 msgid "The following file could not be opened:"
 msgid_plural "The following files could not be opened:"
-msgstr[0] "Følgende fil kunne ikke bli åpnet:"
-msgstr[1] "Følgende filer kunne ikke bli åpnet:"
+msgstr[0] "Klarte ikke å åpne følgende fil:"
+msgstr[1] "Klarte ikke å åpne følgende filer:"
 
 #: ../vinagre/vinagre-connect.c:91 ../vinagre/vinagre-connect.c:344
 #: ../vinagre/vinagre-connect.c:474
 msgid "Could not get the active protocol from the protocol list."
-msgstr "Kunne ikke hente aktiv protokoll fra listen med protokoller."
+msgstr "Klarte ikke å hente aktiv protokoll fra protokolliste."
 
 #: ../vinagre/vinagre-connect.c:318
 #, c-format
@@ -877,11 +890,11 @@ msgstr "Velg et eksternt skrivebord"
 #: ../vinagre/vinagre-tube-handler.c:257
 #, c-format
 msgid "The protocol %s is not supported."
-msgstr "Protokoll %s er ikke støttet."
+msgstr "Protokollen %s støttes ikke."
 
 #: ../vinagre/vinagre-connection.c:722
 msgid "Could not open the file."
-msgstr "Kunne ikke åpne filen."
+msgstr "Klarte ikke å åpne filen."
 
 #: ../vinagre/vinagre-connection.c:748
 msgid "The file was not recognized by any of the plugins."
@@ -932,11 +945,11 @@ msgstr "Tilkobling lukket"
 #: ../vinagre/vinagre-notebook.c:483
 #, c-format
 msgid "Authentication for host %s has failed"
-msgstr "Autentisering for vert %s feilet"
+msgstr "Autentisering for vert %s mislyktes"
 
 #: ../vinagre/vinagre-notebook.c:489
 msgid "Authentication failed"
-msgstr "Autentisering feilet"
+msgstr "Autentisering mislyktes"
 
 #: ../vinagre/vinagre-notebook.c:537
 msgid "Connecting…"
@@ -982,7 +995,7 @@ msgstr "[tjener:port]"
 #: ../vinagre/vinagre-options.c:127
 #, c-format
 msgid "Invalid argument %s for --geometry"
-msgstr "Ugyldig argument %s for --geometry"
+msgstr "Argumentet %s er ugyldig for «--geometry»"
 
 #: ../vinagre/vinagre-options.c:145
 msgid "The following error has occurred:"
@@ -992,7 +1005,7 @@ msgstr[1] "Følgende feil oppsto:"
 
 #: ../vinagre/vinagre-prefs.c:83
 msgid "Cannot initialize preferences manager."
-msgstr "Kan ikke starte opp innstillingshåndtereren."
+msgstr "Klarte ikke å starte opp oppsettsbehandler."
 
 #: ../vinagre/vinagre-reverse-vnc-listener-dialog.c:103
 msgid "IPv4:"
@@ -1031,12 +1044,12 @@ msgstr "Tidsavbrutt ved innlogging på SSH-vert"
 
 #: ../vinagre/vinagre-ssh.c:191
 msgid "Unable to spawn ssh program"
-msgstr "Kan ikke starte ssh-program"
+msgstr "Klarte ikke å starte ssh-program"
 
 #: ../vinagre/vinagre-ssh.c:208
 #, c-format
 msgid "Unable to spawn ssh program: %s"
-msgstr "Kan ikke starte ssh-program: %s"
+msgstr "Klarte ikke å starte ssh-program. %s"
 
 #: ../vinagre/vinagre-ssh.c:424
 msgid "Timed out when logging in"
@@ -1053,7 +1066,7 @@ msgstr "Passorddialog avbrutt"
 
 #: ../vinagre/vinagre-ssh.c:530
 msgid "Could not send password"
-msgstr "Kunne ikke sende passord"
+msgstr "Klarte ikke å sende passord"
 
 #: ../vinagre/vinagre-ssh.c:538
 msgid "Log In Anyway"
@@ -1072,12 +1085,12 @@ msgid ""
 "The identity sent by the remote host is %s. If you want to be absolutely "
 "sure it is safe to continue, contact the system administrator."
 msgstr ""
-"Ekstern datamaskins (%s) identitet er ukjent.\n"
+"Identiteten på ekstern vert (%s) er ukjent.\n"
 "Dette skjer når du logger på en datamaskin første gang.\n"
 "\n"
-"Identiteten den eksterne datamaskinen sendte er %s. Hvis du vil være "
-"absolutt sikker på at det er sikkert å fortsette kan du kontakte "
-"systemadministrator."
+"Identiteten den eksterne datamaskinen sendte er %s. Kontakt "
+"systemadministrator hvis du vil være helt sikker på at det er trygt å "
+"fortsette."
 
 #: ../vinagre/vinagre-ssh.c:565
 msgid "Login dialog canceled"
@@ -1085,7 +1098,7 @@ msgstr "Innloggingsdialog avbrutt"
 
 #: ../vinagre/vinagre-ssh.c:586
 msgid "Can't send host identity confirmation"
-msgstr "Kan ikke sende bekreftelse på vertsidentitet"
+msgstr "Klarte ikke å sende bekreftelse på vertsidentitet"
 
 #. Login succeed, save password in keyring
 #: ../vinagre/vinagre-ssh.c:605
@@ -1099,7 +1112,7 @@ msgstr "Feil under lagring av autentiseringsinformasjon på nøkkelringen."
 
 #: ../vinagre/vinagre-ssh.c:700
 msgid "Hostname not known"
-msgstr "Vertsnavn ikke kjent"
+msgstr "Ukjent vertsnavn"
 
 #: ../vinagre/vinagre-ssh.c:708
 msgid "No route to host"
@@ -1111,11 +1124,11 @@ msgstr "Tilkobling nektet av tjener"
 
 #: ../vinagre/vinagre-ssh.c:724
 msgid "Host key verification failed"
-msgstr "Verifisering av vertsnøkkel feilet"
+msgstr "Bekreftelse av vertsnøkkel mislyktes"
 
 #: ../vinagre/vinagre-ssh.c:764
 msgid "Unable to find a valid SSH program"
-msgstr "Kan ikke finne et gyldig SSH-program"
+msgstr "Fant intet gyldig SSH-program"
 
 #: ../vinagre/vinagre-tab.c:354
 msgid "Disconnect"
@@ -1136,7 +1149,7 @@ msgstr "Passord for eksternt skrivebord for %s"
 
 #: ../vinagre/vinagre-tab.c:897
 msgid "Could not get a screenshot of the connection."
-msgstr "Kunne ikke ta et skjermbilde av tilkoblingen."
+msgstr "Klarte ikke å ta skjermbilde av tilkoblingen."
 
 #: ../vinagre/vinagre-tab.c:902
 msgid "Save Screenshot"
@@ -1149,7 +1162,7 @@ msgstr "Skjermbilde av %s på %s"
 
 #: ../vinagre/vinagre-tab.c:970
 msgid "Error saving screenshot"
-msgstr "Feil under lagring av skjermdump"
+msgstr "Feil under lagring av skjermbilde"
 
 #: ../vinagre/vinagre-tube-handler.c:233
 #, c-format
@@ -1164,18 +1177,18 @@ msgstr "Klarte ikke å lage tilkoblingen: %s"
 #: ../vinagre/vinagre-tube-handler.c:339
 #, c-format
 msgid "Impossible to accept the stream tube: %s"
-msgstr "Kan ikke godta rør for strøm: %s"
+msgstr "Dette strømrøret kan ikke godtas: %s"
 
 #. Translators: this is an error message when we fail to get the name of an empathy/telepathy buddy. %s will be replaced by the actual error message.
 #: ../vinagre/vinagre-tube-handler.c:477
 #, c-format
 msgid "Impossible to get the contact name: %s"
-msgstr "Kan ikke hente navn på kontakt: %s"
+msgstr "Klarte ikke å hente navn på kontakt: %s"
 
 #: ../vinagre/vinagre-tube-handler.c:514
 #, c-format
 msgid "Impossible to get the avatar: %s"
-msgstr "Kan ikke hente personbilde: %s"
+msgstr "Klarte ikke å hente personbilde: %s"
 
 #: ../vinagre/vinagre-tube-handler.c:535
 #, c-format
@@ -1184,7 +1197,7 @@ msgstr "%s vil dele skrivebordet sitt med deg."
 
 #: ../vinagre/vinagre-tube-handler.c:540
 msgid "Desktop sharing invitation"
-msgstr "Invitasjon til delt skrivebord"
+msgstr "Invitasjon til skrivebordsdeling"
 
 #. Toplevel
 #: ../vinagre/vinagre-ui.h:33
@@ -1255,7 +1268,7 @@ msgstr "_Verktøylinje"
 
 #: ../vinagre/vinagre-ui.h:63
 msgid "Show or hide the toolbar"
-msgstr "Vis eller skjul verktøylinjen"
+msgstr "Vis eller skjul verktøylinje"
 
 #: ../vinagre/vinagre-ui.h:66
 msgid "_Statusbar"
@@ -1263,7 +1276,7 @@ msgstr "_Statuslinje"
 
 #: ../vinagre/vinagre-ui.h:67
 msgid "Show or hide the statusbar"
-msgstr "Vis eller skjul statuslinjen"
+msgstr "Vis eller skjul statuslinje"
 
 #: ../vinagre/vinagre-ui.h:75
 msgid "Disconnect the current connection"
@@ -1301,19 +1314,21 @@ msgstr "Vis gjeldende eksternt skrivebord i fullskjerm"
 
 #: ../vinagre/vinagre-utils.vala:40
 msgid "An error occurred"
-msgstr "En feil oppsto"
+msgstr "Det oppstod en feil"
 
 #: ../vinagre/vinagre-utils.vala:84
 msgid "Vinagre failed to open a UI file, with the error message:"
-msgstr "Vinagre klarte ikke å åpne en brukergrensesnittfil, med feilmelding:"
+msgstr ""
+"Vinagre forsøkte å åpne en brukergrensesnitt-fil, men fikk følgende "
+"feilmelding:"
 
 #: ../vinagre/vinagre-utils.vala:85
 msgid "Please check your installation."
-msgstr "Vennligst sjekk installasjonen."
+msgstr "Kontroller installasjonen."
 
 #: ../vinagre/vinagre-utils.vala:89
 msgid "Error loading UI file"
-msgstr "Feil under lasting av fil for brukergrensesnitt"
+msgstr "Feil under åpning av brukergrensesnitt-fil"
 
 #. Translators: %s is a protocol, like VNC or SSH
 #: ../vinagre/vinagre-utils.vala:112
@@ -1328,11 +1343,11 @@ msgstr "Feil under visning av hjelp"
 #: ../vinagre/vinagre-window.c:390
 #, c-format
 msgid "Could not merge UI XML file: %s"
-msgstr "Kunne ikke flette XML-fil for brukergrensesnitt: %s"
+msgstr "Klarte ikke å flette XML-fil for brukergrensesnitt: %s"
 
 #: ../vinagre/vinagre-window.c:421
 msgid "_Recent Connections"
-msgstr "_Siste tilkoblinger"
+msgstr "_Nylige tilkoblinger"
 
 #. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
 #: ../vinagre/vinagre-window.c:579
@@ -1350,7 +1365,7 @@ msgstr ""
 "Vinagre slår av tastatursnarveier som forvalgt, slik at alle "
 "tastatursnarveier blir sendt til eksternt skrivebord.\n"
 "\n"
-"Denne meldingen vil kun vises en gang."
+"Denne meldingen blir bare vist én gang."
 
 #: ../vinagre/vinagre-window.c:779
 msgid "Enable shortcuts"
