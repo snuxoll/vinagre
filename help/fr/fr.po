@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre help\n"
-"POT-Creation-Date: 2014-03-16 11:47+0000\n"
+"POT-Creation-Date: 2015-02-19 00:14+0000\n"
 "PO-Revision-Date: 2014-03-16 18:15+0100\n"
 "Last-Translator: Marc-André Lureau <marcandre.lureau@gmail.com>\n"
 "Language-Team: French < GNOME French Team <gnomefr@traduc.org>>\n"
@@ -391,10 +391,8 @@ msgstr "Fonctionnalités et options"
 msgctxt "_"
 msgid ""
 "external ref='figures/vinagre-connected.png' "
-"md5='abef2af863dbd4659703bcc09bb89d1a'"
+"md5='5cff8a4a5f43719b8ffa209b7c0ca1f4'"
 msgstr ""
-"external ref='figures/vinagre-connected.png' "
-"md5='abef2af863dbd4659703bcc09bb89d1a'"
 
 #. (itstool) path: info/desc
 #: C/introduction.page:19
