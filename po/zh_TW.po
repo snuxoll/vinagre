@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: vinagre 3.3.4\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-08-20 22:46+0000\n"
-"PO-Revision-Date: 2014-08-21 12:52+0800\n"
+"POT-Creation-Date: 2015-02-20 12:13+0000\n"
+"PO-Revision-Date: 2015-02-20 23:03+0800\n"
 "Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.6.5\n"
+"X-Generator: Poedit 1.7.4\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
 msgid "Whether we should leave other clients connected"
@@ -78,24 +78,26 @@ msgid ""
 "connections."
 msgstr "設定為「true」則啟動程式時永遠會聽取反向連線。"
 
-#: ../data/vinagre.appdata.xml.in.h:1
+#. Both taken from the desktop file.
+#: ../data/vinagre.appdata.xml.in.h:2 ../data/vinagre.desktop.in.in.h:1
+#: ../data/vinagre-file.desktop.in.in.h:1 ../vinagre/vinagre-main.c:182
+msgid "Remote Desktop Viewer"
+msgstr "遠端桌面檢視器"
+
+#: ../data/vinagre.appdata.xml.in.h:3 ../data/vinagre.desktop.in.in.h:2
+#: ../data/vinagre-file.desktop.in.in.h:2
+msgid "Access remote desktops"
+msgstr "存取遠端桌面"
+
+#: ../data/vinagre.appdata.xml.in.h:4
 msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
 msgstr "Vinagre 可以顯示遠端的 Windows、Mac OS X 和 Linux 桌面。"
 
-#: ../data/vinagre.appdata.xml.in.h:2
+#: ../data/vinagre.appdata.xml.in.h:5
 msgid ""
 "It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
 "SSH servers."
 msgstr "它使用 VNC、RDP 與 SPICE 協定，甚至可以用來連線到 SSH 伺服器。"
-
-#: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
-#: ../vinagre/vinagre-main.c:182
-msgid "Remote Desktop Viewer"
-msgstr "遠端桌面檢視器"
-
-#: ../data/vinagre.desktop.in.in.h:2 ../data/vinagre-file.desktop.in.in.h:2
-msgid "Access remote desktops"
-msgstr "存取遠端桌面"
 
 #: ../data/vinagre.desktop.in.in.h:3
 msgid "VNC;RDP;SSH;"
@@ -123,13 +125,13 @@ msgstr "核對(_A)"
 msgid "Authentication is required"
 msgstr "需要核對"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:120
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:119
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
 #: ../plugins/spice/vinagre-spice-tab.c:139
 msgid "Host:"
 msgstr "主機："
 
-#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:111
+#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:117
 #: ../plugins/ssh/vinagre-ssh-plugin.c:112
 msgid "_Username:"
 msgstr "使用者名稱(_U):"
@@ -232,8 +234,8 @@ msgstr ""
 msgid "Fingerprint:"
 msgstr "數位指紋："
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:751
-#: ../plugins/rdp/vinagre-rdp-tab.c:792
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:763
+#: ../plugins/rdp/vinagre-rdp-tab.c:804
 msgid "Connect"
 msgstr "連線"
 
@@ -312,13 +314,13 @@ msgstr "RDP"
 msgid "Access MS Windows remote desktops"
 msgstr "存取 MS Windows 遠端桌面"
 
-#: ../plugins/rdp/vinagre-rdp-plugin.c:104
+#: ../plugins/rdp/vinagre-rdp-plugin.c:110
 msgid "RDP Options"
 msgstr "RDP 選項"
 
 #. Translators: This is the tooltip for the username field in a RDP connection
 #. Translators: This is the tooltip for the username field in a SSH connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:118
+#: ../plugins/rdp/vinagre-rdp-plugin.c:124
 #: ../plugins/ssh/vinagre-ssh-plugin.c:117
 msgid ""
 "Optional. If blank, your username will be used. Also, it can be supplied in "
@@ -328,37 +330,36 @@ msgstr ""
 "位中指定，格式為 使用者名稱@主機名稱。"
 
 #. Host width
-#: ../plugins/rdp/vinagre-rdp-plugin.c:131
+#: ../plugins/rdp/vinagre-rdp-plugin.c:137
 msgid "_Width:"
 msgstr "寬度(_W):"
 
 #. Translators: This is the tooltip for the width field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:138
+#: ../plugins/rdp/vinagre-rdp-plugin.c:144
 msgid "Set width of the remote desktop"
 msgstr "設定這個遠端桌面的寬度"
 
 #. Host height
-#: ../plugins/rdp/vinagre-rdp-plugin.c:147
+#: ../plugins/rdp/vinagre-rdp-plugin.c:153
 msgid "_Height:"
 msgstr "高度(_H):"
 
 #. Translators: This is the tooltip for the height field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:154
+#: ../plugins/rdp/vinagre-rdp-plugin.c:160
 msgid "Set height of the remote desktop"
 msgstr "設定這個遠端桌面的高度"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:121 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:120 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:140
 msgid "Port:"
 msgstr "連接埠:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:750 ../plugins/rdp/vinagre-rdp-tab.c:791
-#| msgid "Cancel Login"
+#: ../plugins/rdp/vinagre-rdp-tab.c:762 ../plugins/rdp/vinagre-rdp-tab.c:803
 msgid "_Cancel"
 msgstr "取消(_C)"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:982 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:994 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:264
 msgid "Error connecting to host."
 msgstr "連線到主機時錯誤。"
@@ -560,7 +561,6 @@ msgstr "縮放(_C)"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:467
-#| msgid "Fits the remote screen into the current window size"
 msgid "Fit the remote screen into the current window size"
 msgstr "讓遠端螢幕能符合目前的視窗大小"
 
@@ -569,13 +569,11 @@ msgid "_Keep Aspect Ratio"
 msgstr "保持長寬比(_K)"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:616
-#| msgid "Keeps the screen aspect ratio when using scaling"
 msgid "Keep the screen aspect ratio when using scaling"
 msgstr "使用縮放時保持螢幕長寬比"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
 #: ../plugins/spice/vinagre-spice-tab.c:508
-#| msgid "Does not send mouse and keyboard events"
 msgid "Do not send mouse and keyboard events"
 msgstr "不要送出滑鼠與鍵盤事件"
 
@@ -584,7 +582,6 @@ msgid "_Original size"
 msgstr "原始大小(_O)"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:645
-#| msgid "Adjusts the window to the remote desktop's size"
 msgid "Adjust the window to the size of the remote desktop"
 msgstr "將視窗調整為遠端桌面的大小"
 
@@ -604,7 +601,6 @@ msgstr "傳送 Ctrl-Alt-Del(_S)"
 #: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
 #: ../plugins/spice/vinagre-spice-tab.c:532
 #: ../plugins/spice/vinagre-spice-tab.c:605
-#| msgid "Sends Ctrl+Alt+Del to the remote desktop"
 msgid "Send Ctrl+Alt+Del to the remote desktop"
 msgstr "傳送 Ctrl+Alt+Del 到遠端桌面"
 
@@ -1245,7 +1241,7 @@ msgid "_Keyboard shortcuts"
 msgstr "鍵盤捷徑鍵(_K)"
 
 #: ../vinagre/vinagre-ui.h:60
-msgid "Enable keyboard shurtcuts"
+msgid "Enable keyboard shortcuts"
 msgstr "啟用鍵盤捷徑鍵"
 
 #: ../vinagre/vinagre-ui.h:62
