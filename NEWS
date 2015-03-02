@@ -1,3 +1,77 @@
+Vinagre 3.15.91
+===============
+
+Alexandre Franke (2):
+      Updated French translation
+      Updated French translation
+
+Anders Jonsson (2):
+      Fix a typo
+      Updated Swedish translation
+
+Andika Triwidada (1):
+      Updated Indonesian translation
+
+Balázs Úr (2):
+      Updated Hungarian translation
+      Updated Hungarian translation
+
+Baurzhan Muftakhidinov (1):
+      Updated Kazakh translation
+
+Chao-Hsiung Liao (1):
+      Updated Chinese (Taiwan) translation
+
+Daniel Korostil (1):
+      Updated Ukrainian translation
+
+Daniel Mustieles (2):
+      Updated Spanish translation
+      Updated Spanish translation
+
+David King (2):
+      Remove some translated figures
+      Fix distcheck with Automake 1.15
+
+Dušan Kazik (1):
+      Updated Slovak translation
+
+Efstathios Iosifidis (2):
+      Updated Greek translation
+      Updated Greek translation
+
+Ekaterina Gerasimova (1):
+      Update screenshot in help for 3.16
+
+Fran Dieguez (1):
+      Updated Galician translations
+
+Inaki Larranaga Murgoitio (1):
+      Updated Basque language
+
+Kjartan Maraas (2):
+      Updated Norwegian bokmål translation.
+      Updated Norwegian bokmål translation from Åka Sikrom.
+
+Marek Černocký (4):
+      Fixed Czech translation
+      Updated Czech translation
+      Updated Czech translation
+      Updated Czech translation
+
+Matej Urbančič (2):
+      Updated Slovenian translation
+      Updated Slovenian translation
+
+Petr Kovar (1):
+      Fix #700353
+
+Rafael Ferreira (1):
+      Updated Brazilian Portuguese translation
+
+Stas Solovey (1):
+      Updated Russian translation
+
 Vinagre 3.15.3
 ==============
 
