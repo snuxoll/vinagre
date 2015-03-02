@@ -1,5 +1,7 @@
 data/vinagre.desktop.in
 data/vinagre-file.desktop.in
+sub/data/vinagre.desktop.in
+sub/data/vinagre-file.desktop.in
 data/vinagre-mime.xml.in
 data/vinagre.schemas.in
 vinagre/vinagre-utils.c
