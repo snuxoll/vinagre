@@ -4,7 +4,7 @@ HELP_ID = vinagre
 
 HELP_MEDIA = \
 	figures/preferences-desktop-remote-desktop.png \
-	figures/vinagre-connected.png
+	figures/vinagre-connected-3-16.png
 
 HELP_FILES = \
 	connect.page \

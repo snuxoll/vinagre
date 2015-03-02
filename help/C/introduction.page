@@ -8,6 +8,7 @@
 
     <revision pkgversion="3.8" date="2013-03-23" status="final"/>
     <revision pkgversion="3.12" date="2014-03-05" status="final"/>
+    <revision pkgversion="3.16" date="2015-03-02" status="final"/>
 
     <credit type="author">
       <name>Ekaterina Gerasimova</name>
@@ -35,7 +36,7 @@
 
   <figure>
     <title>Remote Desktop Viewer in action</title>
-    <media type="image" mime="image/png" src="figures/vinagre-connected.png" width="725">
+    <media type="image" mime="image/png" src="figures/vinagre-connected-3-16.png">
       <p>Remote Desktop Viewer running in GNOME 3, connected to a machine
       running GNOME 2</p>
     </media>
