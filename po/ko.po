@@ -1,8 +1,10 @@
+# -*- compile-command: "ko-po-check ko.po" -*-
+#
 # Korean translation of vinagre.
 # This file is distributed under the same license as the vinagre package.
 #
 # Namhyung Kim <namhyung@gmail.com>, 2007.
-# Changwoo Ryu <cwryu@debian.org>, 2008-2014.
+# Changwoo Ryu <cwryu@debian.org>, 2008-2015.
 #
 # 새로 번역하시는 분은 아래 translator-credits에 추가하세요.
 #
@@ -14,8 +16,8 @@ msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-09-05 22:53+0000\n"
-"PO-Revision-Date: 2014-09-06 16:44+0900\n"
+"POT-Creation-Date: 2015-03-07 12:13+0000\n"
+"PO-Revision-Date: 2015-03-08 02:38+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
 "Language: Korean\n"
@@ -83,28 +85,30 @@ msgid ""
 "connections."
 msgstr "참이면 거꾸로 연결을 받아들이는 프로그램을 항상 시작합니다."
 
-#: ../data/vinagre.appdata.xml.in.h:1
+#. Both taken from the desktop file.
+#: ../data/vinagre.appdata.xml.in.h:2 ../data/vinagre.desktop.in.in.h:1
+#: ../data/vinagre-file.desktop.in.in.h:1 ../vinagre/vinagre-main.c:182
+msgid "Remote Desktop Viewer"
+msgstr "원격 데스크톱 보기"
+
+#: ../data/vinagre.appdata.xml.in.h:3 ../data/vinagre.desktop.in.in.h:2
+#: ../data/vinagre-file.desktop.in.in.h:2
+msgid "Access remote desktops"
+msgstr "원격 데스크톱 접속"
+
+#: ../data/vinagre.appdata.xml.in.h:4
 msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
 msgstr ""
 "비나그레에서는 원격에 있는 윈도우, 맥오에스X, 리눅스 데스크톱을 볼 수 있습니"
 "다."
 
-#: ../data/vinagre.appdata.xml.in.h:2
+#: ../data/vinagre.appdata.xml.in.h:5
 msgid ""
 "It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
 "SSH servers."
 msgstr ""
 "VNC, RDP, SPICE 프로토콜을 사용하고, SSH 서버에 연결할 때도 사용할 수 있습니"
 "다."
-
-#: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
-#: ../vinagre/vinagre-main.c:182
-msgid "Remote Desktop Viewer"
-msgstr "원격 데스크톱 보기"
-
-#: ../data/vinagre.desktop.in.in.h:2 ../data/vinagre-file.desktop.in.in.h:2
-msgid "Access remote desktops"
-msgstr "원격 데스크톱 접속"
 
 #: ../data/vinagre.desktop.in.in.h:3
 msgid "VNC;RDP;SSH;"
@@ -130,13 +134,13 @@ msgstr "인증(_A)"
 msgid "Authentication is required"
 msgstr "인증이 필요합니다"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:120
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:119
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
 #: ../plugins/spice/vinagre-spice-tab.c:139
 msgid "Host:"
 msgstr "호스트:"
 
-#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:111
+#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:117
 #: ../plugins/ssh/vinagre-ssh-plugin.c:112
 msgid "_Username:"
 msgstr "사용자 이름(_U):"
@@ -239,8 +243,8 @@ msgstr ""
 msgid "Fingerprint:"
 msgstr "핑거프린트:"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:751
-#: ../plugins/rdp/vinagre-rdp-tab.c:792
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:763
+#: ../plugins/rdp/vinagre-rdp-tab.c:804
 msgid "Connect"
 msgstr "연결"
 
@@ -320,13 +324,13 @@ msgstr "RDP"
 msgid "Access MS Windows remote desktops"
 msgstr "MS 원격 데스크톱 접속"
 
-#: ../plugins/rdp/vinagre-rdp-plugin.c:104
+#: ../plugins/rdp/vinagre-rdp-plugin.c:110
 msgid "RDP Options"
 msgstr "RDP 옵션"
 
 #. Translators: This is the tooltip for the username field in a RDP connection
 #. Translators: This is the tooltip for the username field in a SSH connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:118
+#: ../plugins/rdp/vinagre-rdp-plugin.c:124
 #: ../plugins/ssh/vinagre-ssh-plugin.c:117
 msgid ""
 "Optional. If blank, your username will be used. Also, it can be supplied in "
@@ -336,36 +340,36 @@ msgstr ""
 "이름@호스트이름 형식으로 쓸 수도 있습니다."
 
 #. Host width
-#: ../plugins/rdp/vinagre-rdp-plugin.c:131
+#: ../plugins/rdp/vinagre-rdp-plugin.c:137
 msgid "_Width:"
 msgstr "너비(_W):"
 
 #. Translators: This is the tooltip for the width field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:138
+#: ../plugins/rdp/vinagre-rdp-plugin.c:144
 msgid "Set width of the remote desktop"
 msgstr "원격 데스크톱의 너비를 지정합니다"
 
 #. Host height
-#: ../plugins/rdp/vinagre-rdp-plugin.c:147
+#: ../plugins/rdp/vinagre-rdp-plugin.c:153
 msgid "_Height:"
 msgstr "높이(_H):"
 
 #. Translators: This is the tooltip for the height field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:154
+#: ../plugins/rdp/vinagre-rdp-plugin.c:160
 msgid "Set height of the remote desktop"
 msgstr "원격 데스크톱의 높이를 지정합니다"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:121 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:120 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:140
 msgid "Port:"
 msgstr "포트:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:750 ../plugins/rdp/vinagre-rdp-tab.c:791
+#: ../plugins/rdp/vinagre-rdp-tab.c:762 ../plugins/rdp/vinagre-rdp-tab.c:803
 msgid "_Cancel"
 msgstr "취소(_C)"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:982 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:994 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:264
 msgid "Error connecting to host."
 msgstr "호스트에 연결하는 중 오류."
@@ -1082,7 +1086,8 @@ msgstr ""
 "원격 호스트의(%s) 신원을 알 수 없습니다.\n"
 "컴퓨터에 맨 처음 연결할 때 이렇게 나타납니다.\n"
 "\n"
-"원격 호스트가 보낸 신원은 %s 입니다. 정말로 계속해도 안전하다고 확신한다면, 시스템 관리자에게 문의하십시오."
+"원격 호스트가 보낸 신원은 %s 입니다. 정말로 계속해도 안전하다고 확신한다면, "
+"시스템 관리자에게 문의하십시오."
 
 #: ../vinagre/vinagre-ssh.c:565
 msgid "Login dialog canceled"
@@ -1251,7 +1256,7 @@ msgid "_Keyboard shortcuts"
 msgstr "키보드 바로 가기(_K)"
 
 #: ../vinagre/vinagre-ui.h:60
-msgid "Enable keyboard shurtcuts"
+msgid "Enable keyboard shortcuts"
 msgstr "키보드 바로 가기 사용"
 
 #: ../vinagre/vinagre-ui.h:62
