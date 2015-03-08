@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-01-25 12:02+0000\n"
+"POT-Creation-Date: 2015-02-26 12:24+0000\n"
 "PO-Revision-Date: 2015-01-25 17:25+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -1273,11 +1273,11 @@ msgstr "Aktivera tangentbordsgenvägar"
 
 #: ../vinagre/vinagre-ui.h:62
 msgid "_Toolbar"
-msgstr "_Verktygsrad"
+msgstr "_Verktygsfält"
 
 #: ../vinagre/vinagre-ui.h:63
 msgid "Show or hide the toolbar"
-msgstr "Visa eller dölj verktygsraden"
+msgstr "Visa eller dölj verktygsfältet"
 
 #: ../vinagre/vinagre-ui.h:66
 msgid "_Statusbar"
