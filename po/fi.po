@@ -4,15 +4,15 @@
 #
 # Ilkka Tuohela <hile@iki.fi>, 2007-2009.
 # Tommi Vainikainen <thv@iki.fi>, 2009-2011.
-# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2012, 2013, 2014.
+# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2012, 2013, 2014, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-09-06 10:49+0000\n"
-"PO-Revision-Date: 2014-09-06 20:06+0300\n"
+"POT-Creation-Date: 2015-03-03 12:13+0000\n"
+"PO-Revision-Date: 2015-03-03 20:40+0200\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
 "Language-Team: suomi <gnome-fi-laatu@lists.sourceforge.net>\n"
 "Language: fi\n"
@@ -84,28 +84,30 @@ msgid ""
 msgstr ""
 "Aseta todeksi jos haluat aina käynnistää vastayhteyksien kuunteluohjelman."
 
-#: ../data/vinagre.appdata.xml.in.h:1
+#. Both taken from the desktop file.
+#: ../data/vinagre.appdata.xml.in.h:2 ../data/vinagre.desktop.in.in.h:1
+#: ../data/vinagre-file.desktop.in.in.h:1 ../vinagre/vinagre-main.c:182
+msgid "Remote Desktop Viewer"
+msgstr "Etätyöpöytien käyttö"
+
+#: ../data/vinagre.appdata.xml.in.h:3 ../data/vinagre.desktop.in.in.h:2
+#: ../data/vinagre-file.desktop.in.in.h:2
+msgid "Access remote desktops"
+msgstr "Käytä etätyöpöytiä"
+
+#: ../data/vinagre.appdata.xml.in.h:4
 msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
 msgstr ""
 "Vinagren avulla yhdistät Windowsilla, Mac OS X:llä ja Linuxilla toimiviin "
 "etätyöpöytiin."
 
-#: ../data/vinagre.appdata.xml.in.h:2
+#: ../data/vinagre.appdata.xml.in.h:5
 msgid ""
 "It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
 "SSH servers."
 msgstr ""
 "Se käyttää VNC-, RDP- ja SPICE-protokollia, ja voit ottaa yhteyden jopa SSH-"
 "palvelimiin."
-
-#: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
-#: ../vinagre/vinagre-main.c:182
-msgid "Remote Desktop Viewer"
-msgstr "Etätyöpöytien käyttö"
-
-#: ../data/vinagre.desktop.in.in.h:2 ../data/vinagre-file.desktop.in.in.h:2
-msgid "Access remote desktops"
-msgstr "Käytä etätyöpöytiä"
 
 #: ../data/vinagre.desktop.in.in.h:3
 msgid "VNC;RDP;SSH;"
@@ -142,13 +144,13 @@ msgstr "Todenna"
 msgid "Authentication is required"
 msgstr "Todentaminen vaaditaan"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:120
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:119
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
 #: ../plugins/spice/vinagre-spice-tab.c:139
 msgid "Host:"
 msgstr "Verkkonimi:"
 
-#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:111
+#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:117
 #: ../plugins/ssh/vinagre-ssh-plugin.c:112
 msgid "_Username:"
 msgstr "_Käyttäjänimi:"
@@ -251,8 +253,8 @@ msgstr ""
 msgid "Fingerprint:"
 msgstr "Sormenjälki:"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:751
-#: ../plugins/rdp/vinagre-rdp-tab.c:792
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:763
+#: ../plugins/rdp/vinagre-rdp-tab.c:804
 msgid "Connect"
 msgstr "Yhdistä"
 
@@ -332,13 +334,13 @@ msgstr "RDP"
 msgid "Access MS Windows remote desktops"
 msgstr "Käytä MS Windows -etätyöpöytiä"
 
-#: ../plugins/rdp/vinagre-rdp-plugin.c:104
+#: ../plugins/rdp/vinagre-rdp-plugin.c:110
 msgid "RDP Options"
 msgstr "RDP-asetukset"
 
 #. Translators: This is the tooltip for the username field in a RDP connection
 #. Translators: This is the tooltip for the username field in a SSH connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:118
+#: ../plugins/rdp/vinagre-rdp-plugin.c:124
 #: ../plugins/ssh/vinagre-ssh-plugin.c:117
 msgid ""
 "Optional. If blank, your username will be used. Also, it can be supplied in "
@@ -348,37 +350,36 @@ msgstr ""
 "antaa yllä olevaan Isäntä-kenttään muodossa käyttäjänimi@isäntänimi."
 
 #. Host width
-#: ../plugins/rdp/vinagre-rdp-plugin.c:131
+#: ../plugins/rdp/vinagre-rdp-plugin.c:137
 msgid "_Width:"
 msgstr "_Leveys:"
 
 #. Translators: This is the tooltip for the width field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:138
+#: ../plugins/rdp/vinagre-rdp-plugin.c:144
 msgid "Set width of the remote desktop"
 msgstr "Aseta etätyöpöydän leveys"
 
 #. Host height
-#: ../plugins/rdp/vinagre-rdp-plugin.c:147
+#: ../plugins/rdp/vinagre-rdp-plugin.c:153
 msgid "_Height:"
 msgstr "_Korkeus:"
 
 #. Translators: This is the tooltip for the height field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:154
+#: ../plugins/rdp/vinagre-rdp-plugin.c:160
 msgid "Set height of the remote desktop"
 msgstr "Aseta etätyöpöydän korkeus"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:121 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:120 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:140
 msgid "Port:"
 msgstr "Portti:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:750 ../plugins/rdp/vinagre-rdp-tab.c:791
-#| msgid "Cancel Login"
+#: ../plugins/rdp/vinagre-rdp-tab.c:762 ../plugins/rdp/vinagre-rdp-tab.c:803
 msgid "_Cancel"
 msgstr "_Peru"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:982 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:994 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:264
 msgid "Error connecting to host."
 msgstr "Virhe yhdistettäessä tietokoneeseen."
@@ -580,7 +581,6 @@ msgstr "_Sovitus"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:467
-#| msgid "Fits the remote screen into the current window size"
 msgid "Fit the remote screen into the current window size"
 msgstr "Sovita etätyöpöydän koko nykyisen ikkunan kokoon"
 
@@ -589,13 +589,11 @@ msgid "_Keep Aspect Ratio"
 msgstr "_Säilytä kuvasuhde"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:616
-#| msgid "Keeps the screen aspect ratio when using scaling"
 msgid "Keep the screen aspect ratio when using scaling"
 msgstr "Säilytä näytön kuvasuhde skaalatessa"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
 #: ../plugins/spice/vinagre-spice-tab.c:508
-#| msgid "Does not send mouse and keyboard events"
 msgid "Do not send mouse and keyboard events"
 msgstr "Älä lähetä hiiri- ja näppäimistötapahtumia"
 
@@ -604,7 +602,6 @@ msgid "_Original size"
 msgstr "Alkuperäinen k_oko"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:645
-#| msgid "Adjusts the window to the remote desktop's size"
 msgid "Adjust the window to the size of the remote desktop"
 msgstr "Sovita ikkuna etätyöpöydän kokoon"
 
@@ -624,7 +621,6 @@ msgstr "_Lähetä Ctrl-Alt-Del"
 #: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
 #: ../plugins/spice/vinagre-spice-tab.c:532
 #: ../plugins/spice/vinagre-spice-tab.c:605
-#| msgid "Sends Ctrl+Alt+Del to the remote desktop"
 msgid "Send Ctrl+Alt+Del to the remote desktop"
 msgstr "Lähetä Ctrl+Alt+Del etätyöpöydälle"
 
@@ -1276,7 +1272,8 @@ msgid "_Keyboard shortcuts"
 msgstr "_Pikanäppäimet"
 
 #: ../vinagre/vinagre-ui.h:60
-msgid "Enable keyboard shurtcuts"
+#| msgid "Enable keyboard shurtcuts"
+msgid "Enable keyboard shortcuts"
 msgstr "Ota pikanäppäimet käyttöön"
 
 #: ../vinagre/vinagre-ui.h:62
