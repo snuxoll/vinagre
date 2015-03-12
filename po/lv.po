@@ -7,14 +7,14 @@
 # Peteris Krisjanis <pecisk@gmail.com>, 2010, 2011.
 # Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2010.
 # Rudolfs <rudolfs.mazurs@gmail.com>, 2011.
-# Rūdofls Mazurs <rudolfs.mazurs@gmail.com>, 2011, 2012, 2013, 2014.
+# Rūdofls Mazurs <rudolfs.mazurs@gmail.com>, 2011, 2012, 2013, 2014, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-09-27 23:03+0000\n"
-"PO-Revision-Date: 2014-09-28 16:05+0300\n"
+"POT-Creation-Date: 2015-03-08 12:14+0000\n"
+"PO-Revision-Date: 2015-03-12 21:45+0200\n"
 "Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
 "Language: lv\n"
@@ -88,26 +88,28 @@ msgstr ""
 "Iestatiet uz \"true\", lai vienmēr startētu programmu ar atgriezenisko "
 "savienojumu klausīšanos."
 
-#: ../data/vinagre.appdata.xml.in.h:1
+#. Both taken from the desktop file.
+#: ../data/vinagre.appdata.xml.in.h:2 ../data/vinagre.desktop.in.in.h:1
+#: ../data/vinagre-file.desktop.in.in.h:1 ../vinagre/vinagre-main.c:182
+msgid "Remote Desktop Viewer"
+msgstr "Attālinātās darbvirsmas pārlūks"
+
+#: ../data/vinagre.appdata.xml.in.h:3 ../data/vinagre.desktop.in.in.h:2
+#: ../data/vinagre-file.desktop.in.in.h:2
+msgid "Access remote desktops"
+msgstr "Piekļūt attālinātajām darbvirsmām"
+
+#: ../data/vinagre.appdata.xml.in.h:4
 msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
 msgstr "Vinagre rāda attālinātās Windows, Mac OS X un Linux darbvirsmas."
 
-#: ../data/vinagre.appdata.xml.in.h:2
+#: ../data/vinagre.appdata.xml.in.h:5
 msgid ""
 "It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
 "SSH servers."
 msgstr ""
 "Tas izmanto VNC, RDP un SPICE protokolus, un to var izmantot pat lai "
 "savienotos ar SSH serveriem."
-
-#: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
-#: ../vinagre/vinagre-main.c:182
-msgid "Remote Desktop Viewer"
-msgstr "Attālinātās darbvirsmas pārlūks"
-
-#: ../data/vinagre.desktop.in.in.h:2 ../data/vinagre-file.desktop.in.in.h:2
-msgid "Access remote desktops"
-msgstr "Piekļūt attālinātajām darbvirsmām"
 
 #: ../data/vinagre.desktop.in.in.h:3
 msgid "VNC;RDP;SSH;"
@@ -134,13 +136,13 @@ msgstr "_Autentificēties"
 msgid "Authentication is required"
 msgstr "Nepieciešama autentifikācija"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:120
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:119
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
 #: ../plugins/spice/vinagre-spice-tab.c:139
 msgid "Host:"
 msgstr "Adrese:"
 
-#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:111
+#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:117
 #: ../plugins/ssh/vinagre-ssh-plugin.c:112
 msgid "_Username:"
 msgstr "_Lietotājvārds:"
@@ -243,8 +245,8 @@ msgstr ""
 msgid "Fingerprint:"
 msgstr "Ciparnospiedums:"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:751
-#: ../plugins/rdp/vinagre-rdp-tab.c:792
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:763
+#: ../plugins/rdp/vinagre-rdp-tab.c:804
 msgid "Connect"
 msgstr "Savienot"
 
@@ -325,13 +327,13 @@ msgstr "RDP"
 msgid "Access MS Windows remote desktops"
 msgstr "Piekļūt MS Windows attālinātajām darbvirsmām"
 
-#: ../plugins/rdp/vinagre-rdp-plugin.c:104
+#: ../plugins/rdp/vinagre-rdp-plugin.c:110
 msgid "RDP Options"
 msgstr "RDP opcijas"
 
 #. Translators: This is the tooltip for the username field in a RDP connection
 #. Translators: This is the tooltip for the username field in a SSH connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:118
+#: ../plugins/rdp/vinagre-rdp-plugin.c:124
 #: ../plugins/ssh/vinagre-ssh-plugin.c:117
 msgid ""
 "Optional. If blank, your username will be used. Also, it can be supplied in "
@@ -341,37 +343,36 @@ msgstr ""
 "padots datora laukā augstāk, formā lietotājvārds@saimniekdators."
 
 #. Host width
-#: ../plugins/rdp/vinagre-rdp-plugin.c:131
+#: ../plugins/rdp/vinagre-rdp-plugin.c:137
 msgid "_Width:"
 msgstr "_Platums:"
 
 #. Translators: This is the tooltip for the width field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:138
+#: ../plugins/rdp/vinagre-rdp-plugin.c:144
 msgid "Set width of the remote desktop"
 msgstr "Iestatīt attālinātās darbvirsmas platumu"
 
 #. Host height
-#: ../plugins/rdp/vinagre-rdp-plugin.c:147
+#: ../plugins/rdp/vinagre-rdp-plugin.c:153
 msgid "_Height:"
 msgstr "_Augstums:"
 
 #. Translators: This is the tooltip for the height field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:154
+#: ../plugins/rdp/vinagre-rdp-plugin.c:160
 msgid "Set height of the remote desktop"
 msgstr "Iestatīt attālinātās darbvirsmas augstumu"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:121 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:120 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:140
 msgid "Port:"
 msgstr "Ports:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:750 ../plugins/rdp/vinagre-rdp-tab.c:791
-#| msgid "Cancel Login"
+#: ../plugins/rdp/vinagre-rdp-tab.c:762 ../plugins/rdp/vinagre-rdp-tab.c:803
 msgid "_Cancel"
 msgstr "At_celt"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:982 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:994 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:264
 msgid "Error connecting to host."
 msgstr "Kļūda, pieslēdzoties datoram."
@@ -575,7 +576,6 @@ msgstr "Mē_rogošana"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:467
-#| msgid "Fits the remote screen into the current window size"
 msgid "Fit the remote screen into the current window size"
 msgstr "Piemērot attālināto ekrānu loga pašreizējam izmēram"
 
@@ -584,13 +584,11 @@ msgid "_Keep Aspect Ratio"
 msgstr "_Paturēt malu attiecību"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:616
-#| msgid "Keeps the screen aspect ratio when using scaling"
 msgid "Keep the screen aspect ratio when using scaling"
 msgstr "Paturēt ekrāna malu attiecību mainot mērogu"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
 #: ../plugins/spice/vinagre-spice-tab.c:508
-#| msgid "Does not send mouse and keyboard events"
 msgid "Do not send mouse and keyboard events"
 msgstr "Nesūtīt peles un tastatūras ievadi"
 
@@ -599,7 +597,6 @@ msgid "_Original size"
 msgstr "_Oriģinālais izmērs"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:645
-#| msgid "Adjusts the window to the remote desktop's size"
 msgid "Adjust the window to the size of the remote desktop"
 msgstr "Pielāgot loga izmēru attālinātās darbvirsmas izmēram"
 
@@ -619,7 +616,6 @@ msgstr "No_sūtīt Ctrl-Alt-Del"
 #: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
 #: ../plugins/spice/vinagre-spice-tab.c:532
 #: ../plugins/spice/vinagre-spice-tab.c:605
-#| msgid "Sends Ctrl+Alt+Del to the remote desktop"
 msgid "Send Ctrl+Alt+Del to the remote desktop"
 msgstr "Nosūtīt Ctrl+Alt+Del uz attālināto darbvirsmu"
 
@@ -1272,7 +1268,8 @@ msgid "_Keyboard shortcuts"
 msgstr "_Tastatūras īsceļus"
 
 #: ../vinagre/vinagre-ui.h:60
-msgid "Enable keyboard shurtcuts"
+#| msgid "Enable keyboard shurtcuts"
+msgid "Enable keyboard shortcuts"
 msgstr "Aktivēt tastatūras saīsnes"
 
 #: ../vinagre/vinagre-ui.h:62
