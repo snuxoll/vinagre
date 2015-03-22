@@ -4,17 +4,17 @@
 #
 # Baris Cicek <baris@teamforce.name.tr>, 2008, 2009, 2011.
 # Emin Tufan <etcetin@gmail.com>, 2013.
-# Muhammet Kara <muhammetk@gmail.com>, 2011, 2012, 2013, 2014.
+# Muhammet Kara <muhammetk@gmail.com>, 2011, 2012, 2013, 2014, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Vinagre\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-12-14 11:58+0000\n"
-"PO-Revision-Date: 2014-12-14 17:26+0200\n"
+"POT-Creation-Date: 2015-03-22 12:13+0000\n"
+"PO-Revision-Date: 2015-03-22 16:10+0200\n"
 "Last-Translator: Muhammet Kara <muhammetk@gmail.com>\n"
-"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
+"Language-Team: Turkish <gnome-turk@gnome.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -123,7 +123,7 @@ msgstr "Vinagre, GNOME masaüstü için bir uzak masaüstü görüntüleyicisidi
 msgid "translator-credits"
 msgstr ""
 "Barış Çiçek <baris@teamforce.name.tr>\n"
-"Muhammet Kara <muhammet.k@gmail.com>"
+"Muhammet Kara <muhammetk@gmail.com>"
 
 #. This is a button label, in the authentication dialog
 #: ../data/vinagre.ui.h:5
@@ -243,8 +243,8 @@ msgstr ""
 msgid "Fingerprint:"
 msgstr "Parmak izi:"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:758
-#: ../plugins/rdp/vinagre-rdp-tab.c:799
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:763
+#: ../plugins/rdp/vinagre-rdp-tab.c:804
 msgid "Connect"
 msgstr "Bağlan"
 
@@ -365,12 +365,11 @@ msgstr "Uzak masaüstünün yüksekliğini ayarlayın"
 msgid "Port:"
 msgstr "Port:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:757 ../plugins/rdp/vinagre-rdp-tab.c:798
-#| msgid "Cancel Login"
+#: ../plugins/rdp/vinagre-rdp-tab.c:762 ../plugins/rdp/vinagre-rdp-tab.c:803
 msgid "_Cancel"
 msgstr "_Vazgeç"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:989 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:994 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:264
 msgid "Error connecting to host."
 msgstr "Ana bilgisayara bağlanırken hata."
@@ -573,7 +572,6 @@ msgstr "_Ölçekleme"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:467
-#| msgid "Fits the remote screen into the current window size"
 msgid "Fit the remote screen into the current window size"
 msgstr "Uzaktaki ekranı mevcut pencere boyutuna sığdır"
 
@@ -582,13 +580,11 @@ msgid "_Keep Aspect Ratio"
 msgstr "En-Boy Oranını _Koru"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:616
-#| msgid "Keeps the screen aspect ratio when using scaling"
 msgid "Keep the screen aspect ratio when using scaling"
 msgstr "Ölçeklendirme kullanırken ekranın en-boy oranını koru"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
 #: ../plugins/spice/vinagre-spice-tab.c:508
-#| msgid "Does not send mouse and keyboard events"
 msgid "Do not send mouse and keyboard events"
 msgstr "Fare ve klavye olaylarını gönderme"
 
@@ -597,7 +593,6 @@ msgid "_Original size"
 msgstr "Özgün b_oyut"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:645
-#| msgid "Adjusts the window to the remote desktop's size"
 msgid "Adjust the window to the size of the remote desktop"
 msgstr "Pencereyi uzaktaki masaüstünün boyutuna ayarla"
 
@@ -617,7 +612,6 @@ msgstr "Ctrl-Alt-Del _Gönder"
 #: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
 #: ../plugins/spice/vinagre-spice-tab.c:532
 #: ../plugins/spice/vinagre-spice-tab.c:605
-#| msgid "Sends Ctrl+Alt+Del to the remote desktop"
 msgid "Send Ctrl+Alt+Del to the remote desktop"
 msgstr "Uzaktaki masaüstüne Ctrl+Alt+Del gönder"
 
@@ -1263,7 +1257,8 @@ msgid "_Keyboard shortcuts"
 msgstr "_Klavye kısayolları"
 
 #: ../vinagre/vinagre-ui.h:60
-msgid "Enable keyboard shurtcuts"
+#| msgid "Enable keyboard shurtcuts"
+msgid "Enable keyboard shortcuts"
 msgstr "Klavye kısayollarını etkinleştir"
 
 #: ../vinagre/vinagre-ui.h:62
