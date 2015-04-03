@@ -36,6 +36,9 @@
 
 #define VINAGRE_SPICE_TAB_GET_PRIVATE(object)(G_TYPE_INSTANCE_GET_PRIVATE ((object), VINAGRE_TYPE_SPICE_TAB, VinagreSpiceTabPrivate))
 
+/* From spice-protocol.h */
+#define SPICE_MAX_PASSWORD_LENGTH 60
+
 typedef struct _VinagreSpiceDisplay
 {
   GtkWidget  *display;
@@ -299,7 +302,7 @@ spice_main_channel_event_cb(SpiceChannel *channel, SpiceChannelEvent event,
 				       name,
 				       FALSE,
 				       TRUE,
-				       8,
+				       SPICE_MAX_PASSWORD_LENGTH,
 				       NULL,
 				       &password,
 				       &save_in_keyring))
