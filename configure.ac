@@ -102,7 +102,7 @@ AS_IF([test "x$have_spice" = "xyes"],
 AM_CONDITIONAL([VINAGRE_ENABLE_SPICE], [test "x$have_spice" = "xyes"])
 
 # Checks for header files. See vinagre/pyt_open.c for usage.
-AC_CHECK_HEADERS([ifaddrs.h sys/un.h stropts.h termios.h utmp.h])
+AC_CHECK_HEADERS([ifaddrs.h sys/un.h stropts.h termios.h util.h utmp.h])
 
 # Internationalization.
 AC_SUBST([GETTEXT_PACKAGE], [$PACKAGE_TARNAME])

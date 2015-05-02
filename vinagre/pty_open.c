@@ -43,6 +43,7 @@
 
 #define _XOPEN_SOURCE
 #define _GNU_SOURCE
+#define _BSD_SOURCE
 
 #include "config.h"
 #include <sys/types.h>
