@@ -5,13 +5,13 @@
 # Automatically generated, 2007.
 # Usama Akkad <uak@aya.sy>, 2008.
 # Osama Khalid <osamak.wfm@gmail.com>, 2009.
-# Khaled Hosny <khaledhosny@eglug.org>, 2009, 2010, 2011, 2013.
+# Khaled Hosny <khaledhosny@eglug.org>, 2009, 2010, 2011, 2013, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-22 10:22+0200\n"
-"PO-Revision-Date: 2013-09-22 10:25+0200\n"
+"POT-Creation-Date: 2015-05-08 21:23+0200\n"
+"PO-Revision-Date: 2015-05-08 21:27+0200\n"
 "Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
 "Language: ar\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Virtaal 0.7.1-rc1\n"
+"X-Generator: Virtaal 0.7.1\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
 msgid "Whether we should leave other clients connected"
@@ -81,14 +81,26 @@ msgid ""
 "connections."
 msgstr ""
 
-#: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
-#: ../vinagre/vinagre-main.c:182
+#. Both taken from the desktop file.
+#: ../data/vinagre.appdata.xml.in.h:2 ../data/vinagre.desktop.in.in.h:1
+#: ../data/vinagre-file.desktop.in.in.h:1 ../vinagre/vinagre-main.c:182
 msgid "Remote Desktop Viewer"
 msgstr "عارض سطوح مكتب بعيدة"
 
-#: ../data/vinagre.desktop.in.in.h:2 ../data/vinagre-file.desktop.in.in.h:2
+#: ../data/vinagre.appdata.xml.in.h:3 ../data/vinagre.desktop.in.in.h:2
+#: ../data/vinagre-file.desktop.in.in.h:2
 msgid "Access remote desktops"
 msgstr "اتصل بسطح مكتب بعيد"
+
+#: ../data/vinagre.appdata.xml.in.h:4
+msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
+msgstr ""
+
+#: ../data/vinagre.appdata.xml.in.h:5
+msgid ""
+"It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
+"SSH servers."
+msgstr ""
 
 #: ../data/vinagre.desktop.in.in.h:3
 msgid "VNC;RDP;SSH;"
@@ -116,13 +128,13 @@ msgstr "ا_ستوثق"
 msgid "Authentication is required"
 msgstr "الاستيثاق مطلوب"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:54
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:119
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
-#: ../plugins/spice/vinagre-spice-tab.c:139
+#: ../plugins/spice/vinagre-spice-tab.c:142
 msgid "Host:"
 msgstr "المستضيف:"
 
-#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:111
+#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:117
 #: ../plugins/ssh/vinagre-ssh-plugin.c:112
 msgid "_Username:"
 msgstr "اسم ال_مستخدم:"
@@ -132,87 +144,137 @@ msgid "_Password:"
 msgstr "_كلمة السر:"
 
 #: ../data/vinagre.ui.h:10
+msgid "_Domain:"
+msgstr "ال_نطاق:"
+
+#: ../data/vinagre.ui.h:11
 msgid "_Remember this credential"
 msgstr "_تذكّر هذا الاعتماد"
 
-#: ../data/vinagre.ui.h:11
+#: ../data/vinagre.ui.h:12
 msgid "Store the login credential in GNOME Keyring"
 msgstr "احفظ اعتمادات الولوج في حلقة مفاتيح جنوم"
 
-#: ../data/vinagre.ui.h:12
+#: ../data/vinagre.ui.h:13
 msgid "Bookmarks"
 msgstr "العلامات"
 
-#: ../data/vinagre.ui.h:13
+#: ../data/vinagre.ui.h:14
 msgid "Connection"
 msgstr "الاتصال"
 
 #. Translators: This is the name of a bookmark. It appears in the add/edit bookmark dialog.
-#: ../data/vinagre.ui.h:15
+#: ../data/vinagre.ui.h:16
 msgid "_Name:"
 msgstr "الا_سم:"
 
-#: ../data/vinagre.ui.h:16
+#: ../data/vinagre.ui.h:17
 msgid "_Host:"
 msgstr "الم_ضيف:"
 
-#: ../data/vinagre.ui.h:17
+#: ../data/vinagre.ui.h:18
 msgid "Options"
 msgstr "الخيارات"
 
-#: ../data/vinagre.ui.h:18
+#: ../data/vinagre.ui.h:19
 msgid "_Full screen"
 msgstr "_ملء الشاشة"
 
-#: ../data/vinagre.ui.h:19
+#: ../data/vinagre.ui.h:20
 msgid "Folder"
 msgstr "المجلد"
 
-#: ../data/vinagre.ui.h:20
+#: ../data/vinagre.ui.h:21
 msgid "Bookmark Folder"
 msgstr "مجلد العلامات"
 
-#: ../data/vinagre.ui.h:21
+#: ../data/vinagre.ui.h:22
 msgid "Parent Folder"
 msgstr "المجلد الأم"
 
-#: ../data/vinagre.ui.h:22
+#: ../data/vinagre.ui.h:23
+msgid "Certificate Verification"
+msgstr "التحقّق من الشهادة"
+
+#: ../data/vinagre.ui.h:24
+msgid ""
+"The remote host has changed its certificate.\n"
+"Do you trust the new certificate?"
+msgstr ""
+"غيّر المستضيف البعيد شهادته.\n"
+"هل تثق في الشهادة الجديدة؟"
+
+#. Subject of the certificate.
+#: ../data/vinagre.ui.h:27
+msgid "Subject:"
+msgstr "الموضوع:"
+
+#. Issuer of the certificate.
+#: ../data/vinagre.ui.h:29
+msgid "Issuer:"
+msgstr "المُصدِر:"
+
+#. Fingerprint of the new certificate.
+#: ../data/vinagre.ui.h:31
+msgid "New fingerprint:"
+msgstr "البصمة الجديدة:"
+
+#. Fingerprint of the old certificate.
+#: ../data/vinagre.ui.h:33
+msgid "Old fingerprint:"
+msgstr "البصمة القديمة:"
+
+#: ../data/vinagre.ui.h:34
+msgid ""
+"The below certificate could not be verified.\n"
+"Do you trust the certificate?"
+msgstr ""
+"تعذّر التحقق من هذه الشهادة.\n"
+"هل تثق بها؟"
+
+#. Fingerprint of the certificate.
+#: ../data/vinagre.ui.h:37
+msgid "Fingerprint:"
+msgstr "البصمة:"
+
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:763
+#: ../plugins/rdp/vinagre-rdp-tab.c:804
 msgid "Connect"
 msgstr "اتصل"
 
-#: ../data/vinagre.ui.h:23
+#: ../data/vinagre.ui.h:39
 msgid "Choose a remote desktop to connect to"
 msgstr "اختر سطح مكتب بعيد للاتصال به"
 
-#: ../data/vinagre.ui.h:24
+#: ../data/vinagre.ui.h:40
 msgid "_Protocol:"
 msgstr "البرو_توكول:"
 
-#: ../data/vinagre.ui.h:25
+#: ../data/vinagre.ui.h:41
 msgid "Select a remote desktop protocol for this connection"
 msgstr "اختر بروتوكول سطح مكتب بعيد لهذا الاتصال"
 
-#: ../data/vinagre.ui.h:26
+#: ../data/vinagre.ui.h:42
 msgid "Search for remote hosts on the network"
 msgstr "ابحث عن المستضيفين البعيدين على الشبكة"
 
-#: ../data/vinagre.ui.h:27
+#: ../data/vinagre.ui.h:43
 msgid "Connection options"
 msgstr "خيارات الاتصال"
 
-#: ../data/vinagre.ui.h:28
+#: ../data/vinagre.ui.h:44
 msgid "_Fullscreen"
 msgstr "ملء ال_شاشة"
 
-#: ../data/vinagre.ui.h:29
+#: ../data/vinagre.ui.h:45
 msgid "Enable fullscreen mode for this connection"
 msgstr "فعّل وضع ملء الشاشة لهذا الاتصال"
 
-#: ../data/vinagre.ui.h:30
+#: ../data/vinagre.ui.h:46
 msgid "Reverse Connections"
 msgstr "اعكس الاتّصالات"
 
-#: ../data/vinagre.ui.h:31
+#: ../data/vinagre.ui.h:47
 msgid ""
 "By activating reverse connections you can access remote desktops that are "
 "behind a firewall. The remote side is supposed to initiate the connection "
@@ -221,20 +283,20 @@ msgstr ""
 "بتفعيل عكس الاتصالات تستطيع الوصول إلى أسطح المكتب خلف جدران النار. على "
 "الجانب البعيد أن ينشئ الاتصال معك. راجع المساعدة لمزيد من المعلومات."
 
-#: ../data/vinagre.ui.h:32
+#: ../data/vinagre.ui.h:48
 msgid "_Enable Reverse Connections"
 msgstr "_فعّل عكس الاتّصالات"
 
 #. Translators: this is the reverse connection mode. "Always enabled" means it will be enabled by default in the program startup. You can see this string in the dialog Remote->Reverse connections.
-#: ../data/vinagre.ui.h:34
+#: ../data/vinagre.ui.h:50
 msgid "_Always Enabled"
 msgstr "مفعّل _دائما"
 
-#: ../data/vinagre.ui.h:35
+#: ../data/vinagre.ui.h:51
 msgid "This desktop is reachable through the following IP address(es):"
 msgstr "يمكن الوصول إلى سطح المكتب هذا عبر عنوان الإنترنت:"
 
-#: ../data/vinagre.ui.h:36
+#: ../data/vinagre.ui.h:52
 msgid "Connectivity"
 msgstr "الموصولية"
 
@@ -255,13 +317,13 @@ msgstr "RDP"
 msgid "Access MS Windows remote desktops"
 msgstr "اتصل بسطح مكتب وندوز بعيد"
 
-#: ../plugins/rdp/vinagre-rdp-plugin.c:104
+#: ../plugins/rdp/vinagre-rdp-plugin.c:110
 msgid "RDP Options"
 msgstr "خيارات RDP"
 
 #. Translators: This is the tooltip for the username field in a RDP connection
 #. Translators: This is the tooltip for the username field in a SSH connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:118
+#: ../plugins/rdp/vinagre-rdp-plugin.c:124
 #: ../plugins/ssh/vinagre-ssh-plugin.c:117
 msgid ""
 "Optional. If blank, your username will be used. Also, it can be supplied in "
@@ -271,44 +333,39 @@ msgstr ""
 "خانة المستضيف أعلاه، على الشكل username@hostname."
 
 #. Host width
-#: ../plugins/rdp/vinagre-rdp-plugin.c:131
+#: ../plugins/rdp/vinagre-rdp-plugin.c:137
 msgid "_Width:"
 msgstr "ال_عرض:"
 
 #. Translators: This is the tooltip for the width field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:138
+#: ../plugins/rdp/vinagre-rdp-plugin.c:144
 msgid "Set width of the remote desktop"
 msgstr "اضبط عرض سطح المكتب البعيد"
 
 #. Host height
-#: ../plugins/rdp/vinagre-rdp-plugin.c:147
+#: ../plugins/rdp/vinagre-rdp-plugin.c:153
 msgid "_Height:"
 msgstr "الار_تفاع:"
 
 #. Translators: This is the tooltip for the height field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:154
+#: ../plugins/rdp/vinagre-rdp-plugin.c:160
 msgid "Set height of the remote desktop"
 msgstr "اضبط ارتفاع سطح المكتب البعيد"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:55 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:120 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
-#: ../plugins/spice/vinagre-spice-tab.c:140
+#: ../plugins/spice/vinagre-spice-tab.c:143
 msgid "Port:"
 msgstr "المنفذ:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:139
-msgid "Error while executing xfreerdp"
-msgstr "خطأ أثناء تنفيذ xfreerdp"
+#: ../plugins/rdp/vinagre-rdp-tab.c:762 ../plugins/rdp/vinagre-rdp-tab.c:803
+msgid "_Cancel"
+msgstr "أ_لغِ"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:140 ../vinagre/vinagre-bookmarks.c:366
-#: ../vinagre/vinagre-bookmarks.c:492
-#: ../vinagre/vinagre-bookmarks-migration.c:135
-#: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
-#: ../vinagre/vinagre-connect.c:500 ../vinagre/vinagre-options.c:85
-#: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
-#: ../vinagre/vinagre-window.c:798
-msgid "Unknown error"
-msgstr "خطأ مجهول"
+#: ../plugins/rdp/vinagre-rdp-tab.c:994 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/spice/vinagre-spice-tab.c:267
+msgid "Error connecting to host."
+msgstr "خطأ في الاتصال بالمستضيف."
 
 #: ../plugins/ssh/vinagre-ssh-plugin.c:61
 msgid "SSH"
@@ -378,7 +435,7 @@ msgstr "خيارات VNC"
 #: ../plugins/vnc/vinagre-vnc-plugin.c:276
 #: ../plugins/vnc/vinagre-vnc-tab.c:630
 #: ../plugins/spice/vinagre-spice-plugin.c:237
-#: ../plugins/spice/vinagre-spice-tab.c:507
+#: ../plugins/spice/vinagre-spice-tab.c:510
 msgid "_View only"
 msgstr "ا_عرض فقط"
 
@@ -468,20 +525,15 @@ msgid "Dimensions:"
 msgstr "الأبعاد:"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:306
-#: ../plugins/spice/vinagre-spice-tab.c:252
+#: ../plugins/spice/vinagre-spice-tab.c:255
 msgid "Error creating the SSH tunnel"
 msgstr "خطأ أثناء إنشاء نفق SSH"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:307 ../plugins/vnc/vinagre-vnc-tab.c:318
-#: ../plugins/spice/vinagre-spice-tab.c:253
-#: ../plugins/spice/vinagre-spice-tab.c:265
+#: ../plugins/spice/vinagre-spice-tab.c:256
+#: ../plugins/spice/vinagre-spice-tab.c:268
 msgid "Unknown reason"
 msgstr "سبب مجهول"
-
-#: ../plugins/vnc/vinagre-vnc-tab.c:317
-#: ../plugins/spice/vinagre-spice-tab.c:264
-msgid "Error connecting to host."
-msgstr "خطأ في الاتصال بالمستضيف."
 
 #. Translators: %s is a host name or IP address; %u is a code error (number).
 #: ../plugins/vnc/vinagre-vnc-tab.c:362
@@ -506,13 +558,13 @@ msgid "A password is required in order to access this remote desktop."
 msgstr "تحتاج لكلمة سر للوصول إلى سطح المكتب البعيد هذا."
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:601
-#: ../plugins/spice/vinagre-spice-tab.c:466
+#: ../plugins/spice/vinagre-spice-tab.c:469
 msgid "S_caling"
 msgstr "الم_قياس"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:602
-#: ../plugins/spice/vinagre-spice-tab.c:467
-msgid "Fits the remote screen into the current window size"
+#: ../plugins/spice/vinagre-spice-tab.c:470
+msgid "Fit the remote screen into the current window size"
 msgstr "لائم حجم شاشة الجهة المتصل بها مع حجم النافذة الحالية"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:615
@@ -520,21 +572,21 @@ msgid "_Keep Aspect Ratio"
 msgstr "_حافظ على نسبة الهيئة"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:616
-msgid "Keeps the screen aspect ratio when using scaling"
+msgid "Keep the screen aspect ratio when using scaling"
 msgstr "حافظ على النسبة بين أبعاد الشاشة عند التحجيم"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
-#: ../plugins/spice/vinagre-spice-tab.c:508
-msgid "Does not send mouse and keyboard events"
-msgstr "لا يستخدم أحداث الفأرة ولوحة المفاتيح"
+#: ../plugins/spice/vinagre-spice-tab.c:511
+msgid "Do not send mouse and keyboard events"
+msgstr "لا ترسل أحداث الفأرة و لوحة المفاتيح"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:644
 msgid "_Original size"
 msgstr "الحجم الأ_صلي"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:645
-msgid "Adjusts the window to the remote desktop's size"
-msgstr "يسوي حجم نافذة سطح المكتب البعيد"
+msgid "Adjust the window to the size of the remote desktop"
+msgstr "اضبط حجم نافذة على حجم سطح المكتب البعيد"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:658
 msgid "_Refresh Screen"
@@ -545,31 +597,31 @@ msgid "Requests an update of the screen"
 msgstr "يطلب تحديثا للشاشة"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:681
-#: ../plugins/spice/vinagre-spice-tab.c:531
+#: ../plugins/spice/vinagre-spice-tab.c:534
 msgid "_Send Ctrl-Alt-Del"
 msgstr "أر_سل Ctrl-Alt-Del"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:682
-#: ../plugins/spice/vinagre-spice-tab.c:532
-msgid "Sends Ctrl+Alt+Del to the remote desktop"
-msgstr "يُرسل Ctrl+Alt+Del لسطح المكتب البعيد"
+#: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
+#: ../plugins/spice/vinagre-spice-tab.c:535
+#: ../plugins/spice/vinagre-spice-tab.c:608
+msgid "Send Ctrl+Alt+Del to the remote desktop"
+msgstr "أرسل Ctrl+Alt+Del لسطح المكتب البعيد"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
-#: ../plugins/spice/vinagre-spice-tab.c:584
-#: ../plugins/spice/vinagre-spice-tab.c:585
+#: ../plugins/spice/vinagre-spice-tab.c:587
+#: ../plugins/spice/vinagre-spice-tab.c:588
 msgid "Scaling"
 msgstr "القياس"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:745 ../plugins/vnc/vinagre-vnc-tab.c:746
-#: ../plugins/spice/vinagre-spice-tab.c:594
-#: ../plugins/spice/vinagre-spice-tab.c:595
+#: ../plugins/spice/vinagre-spice-tab.c:597
+#: ../plugins/spice/vinagre-spice-tab.c:598
 msgid "Read only"
 msgstr "قراءة فقط"
 
 #. Send Ctrl-alt-del
-#: ../plugins/vnc/vinagre-vnc-tab.c:754 ../plugins/vnc/vinagre-vnc-tab.c:756
-#: ../plugins/spice/vinagre-spice-tab.c:603
-#: ../plugins/spice/vinagre-spice-tab.c:605
+#: ../plugins/vnc/vinagre-vnc-tab.c:754
+#: ../plugins/spice/vinagre-spice-tab.c:606
 msgid "Send Ctrl-Alt-Del"
 msgstr "أرسل Ctrl-Alt-Del"
 
@@ -615,13 +667,13 @@ msgstr "خيارات Spice"
 
 #. Resize guest check button
 #: ../plugins/spice/vinagre-spice-plugin.c:245
-#: ../plugins/spice/vinagre-spice-tab.c:480
+#: ../plugins/spice/vinagre-spice-tab.c:483
 msgid "_Resize guest"
 msgstr "غيّر _حجم الضيف"
 
 #. Clipboard sharing check button
 #: ../plugins/spice/vinagre-spice-plugin.c:253
-#: ../plugins/spice/vinagre-spice-tab.c:493
+#: ../plugins/spice/vinagre-spice-tab.c:496
 msgid "_Share clipboard"
 msgstr "_شارك الحافظة"
 
@@ -635,11 +687,11 @@ msgstr "اختياري"
 msgid "Spice Files"
 msgstr "ملفات Spice"
 
-#: ../plugins/spice/vinagre-spice-tab.c:481
+#: ../plugins/spice/vinagre-spice-tab.c:484
 msgid "Resize the screen guest to best fit"
 msgstr "غيّر حجم شاشة الضيف لتناسب أفضل"
 
-#: ../plugins/spice/vinagre-spice-tab.c:494
+#: ../plugins/spice/vinagre-spice-tab.c:497
 msgid "Automatically share clipboard between client and guest"
 msgstr "شارك الحافظة تلقائيا بين العميل و الضيف"
 
@@ -647,6 +699,15 @@ msgstr "شارك الحافظة تلقائيا بين العميل و الضي�
 #, c-format
 msgid "Error while initializing bookmarks: %s"
 msgstr "خطأ في ابتداء العلامات: %s"
+
+#: ../vinagre/vinagre-bookmarks.c:366 ../vinagre/vinagre-bookmarks.c:492
+#: ../vinagre/vinagre-bookmarks-migration.c:135
+#: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
+#: ../vinagre/vinagre-connect.c:510 ../vinagre/vinagre-options.c:85
+#: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
+#: ../vinagre/vinagre-window.c:798
+msgid "Unknown error"
+msgstr "خطأ مجهول"
 
 #: ../vinagre/vinagre-bookmarks.c:373
 msgid "Error while initializing bookmarks: The file seems to be empty"
@@ -806,17 +867,17 @@ msgstr[3] "لا يمكن فتح هذه الملفات"
 msgstr[4] "لا يمكن فتح هذه الملفات"
 msgstr[5] "لا يمكن فتح هذه الملفات"
 
-#: ../vinagre/vinagre-connect.c:90 ../vinagre/vinagre-connect.c:336
-#: ../vinagre/vinagre-connect.c:464
+#: ../vinagre/vinagre-connect.c:91 ../vinagre/vinagre-connect.c:344
+#: ../vinagre/vinagre-connect.c:474
 msgid "Could not get the active protocol from the protocol list."
 msgstr "تعذّر جلب البروتوكول النشط من قائمة البروتوكولات."
 
-#: ../vinagre/vinagre-connect.c:317
+#: ../vinagre/vinagre-connect.c:318
 #, c-format
 msgid "Error while saving history file: %s"
 msgstr "خطأ في حفظ ملف التاريخ: %s"
 
-#: ../vinagre/vinagre-connect.c:352
+#: ../vinagre/vinagre-connect.c:360
 msgid "Choose a Remote Desktop"
 msgstr "اختر سطح مكتب بعيد"
 
@@ -1194,8 +1255,8 @@ msgid "_Keyboard shortcuts"
 msgstr "ا_ختصارات لوحة المفاتيح"
 
 #: ../vinagre/vinagre-ui.h:60
-msgid "Enable keyboard shurtcuts"
-msgstr "فعّل باختصارات لوحة المفاتيح"
+msgid "Enable keyboard shortcuts"
+msgstr "فعّل اختصارات لوحة المفاتيح"
 
 #: ../vinagre/vinagre-ui.h:62
 msgid "_Toolbar"
@@ -1308,6 +1369,9 @@ msgstr "فعّل الاختصارات"
 #, c-format
 msgid "Error while creating the file %s: %s"
 msgstr "خطأ أثناء إنشاء الملف %s: ‏%s"
+
+#~ msgid "Error while executing xfreerdp"
+#~ msgstr "خطأ أثناء تنفيذ xfreerdp"
 
 #~ msgid "_About"
 #~ msgstr "_عن"
