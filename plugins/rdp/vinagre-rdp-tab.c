@@ -887,7 +887,6 @@ open_freerdp (VinagreRdpTab *rdp_tab)
   settings->RdpSecurity = TRUE;
   settings->TlsSecurity = TRUE;
   settings->NlaSecurity = TRUE;
-  settings->DisableEncryption = FALSE;
   settings->EncryptionMethods = ENCRYPTION_METHOD_40BIT | ENCRYPTION_METHOD_128BIT | ENCRYPTION_METHOD_FIPS;
   settings->EncryptionLevel = ENCRYPTION_LEVEL_CLIENT_COMPATIBLE;
 #else
@@ -897,6 +896,12 @@ open_freerdp (VinagreRdpTab *rdp_tab)
   settings->encryption = true;
   settings->encryption_method = ENCRYPTION_METHOD_40BIT | ENCRYPTION_METHOD_128BIT | ENCRYPTION_METHOD_FIPS;
   settings->encryption_level = ENCRYPTION_LEVEL_CLIENT_COMPATIBLE;
+#endif
+#include <freerdp/version.h>
+#if (FREERDP_VERSION_MAJOR == 1 && FREERDP_VERSION_MINOR >= 2 && FREERDP_VERSION_REVISION >= 1)
+  settings->UseRdpSecurityLayer = FALSE;
+#else
+  settings->DisableEncryption = FALSE;
 #endif
 
   /* Set display size */
