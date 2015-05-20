@@ -372,7 +372,7 @@ vinagre_connect_find_button_cb (GtkButton            *button,
   if (gtk_dialog_run(GTK_DIALOG(d)) == GTK_RESPONSE_ACCEPT)
     {
       gchar *tmp;
-      AvahiAddress *address;
+      const AvahiAddress *address;
       char a[AVAHI_ADDRESS_STR_MAX];
 
       address = aui_service_dialog_get_address (AUI_SERVICE_DIALOG (d));
