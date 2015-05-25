@@ -1,3 +1,24 @@
+Vinagre 3.17.2
+==============
+
+Antoine Jacoutot (1):
+      BSD: fix a couple of implicit declarations
+
+David King (1):
+      Trivial const-correctness fix
+
+Hajime Taira (1):
+      l10n: Update Japanese translation
+
+Khaled Hosny (1):
+      Update Arabic translation
+
+Mike DePaulo (1):
+      Change SPICE passwords limited to 60 characters
+
+Nick Andrade (1):
+      Fix building against newer FreeRDP versions
+
 Vinagre 3.16.0
 ==============
 
