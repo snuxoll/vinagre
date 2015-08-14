@@ -85,6 +85,8 @@ gboolean	vinagre_window_is_fullscreen		(VinagreWindow         *window);
 
 void		vinagre_window_toggle_fullscreen	(VinagreWindow *window);
 
+void		vinagre_window_minimize			(VinagreWindow *window);
+
 void		vinagre_window_merge_tab_ui (VinagreWindow	*window);
 
 GList 		*vinagre_window_get_connections		(VinagreWindow *window);

@@ -331,6 +331,13 @@ close_button_clicked (GtkToolButton *button,
 }
 
 static void
+minimize_button_clicked (GtkToolButton *button,
+                         VinagreTab    *tab)
+{
+  vinagre_window_minimize (tab->priv->window);
+}
+
+static void
 fullscreen_button_clicked (GtkToolButton *button,
 			   VinagreTab    *tab)
 {
@@ -355,6 +362,15 @@ setup_layout (VinagreTab *tab)
   gtk_widget_show (GTK_WIDGET (button));
   gtk_toolbar_insert (GTK_TOOLBAR (tab->priv->toolbar), GTK_TOOL_ITEM (button), 0);
   g_signal_connect (button, "clicked", G_CALLBACK (close_button_clicked), tab);
+
+  /* Minimize window */
+  button = GTK_WIDGET (gtk_tool_button_new (NULL, NULL));
+  gtk_tool_button_set_icon_name (GTK_TOOL_BUTTON (button), "window-minimize-symbolic");
+  /* Translators: Pressing this button will minimize Vinagre */
+  gtk_tool_item_set_tooltip_text (GTK_TOOL_ITEM (button), _("Minimize window"));
+  gtk_widget_show (button);
+  gtk_toolbar_insert (GTK_TOOLBAR (tab->priv->toolbar), GTK_TOOL_ITEM (button), 0);
+  g_signal_connect (button, "clicked", G_CALLBACK (minimize_button_clicked), tab);
 
   /* Connection name/menu */
   str = vinagre_connection_get_best_name (tab->priv->conn);

@@ -934,6 +934,12 @@ vinagre_window_toggle_fullscreen (VinagreWindow *window)
     gtk_window_fullscreen (GTK_WINDOW (window));
 }
 
+void
+vinagre_window_minimize (VinagreWindow *window)
+{
+  gtk_window_iconify (GTK_WINDOW (window));
+}
+
 /**
  * vinagre_window_get_statusbar:
  * @window: A window
