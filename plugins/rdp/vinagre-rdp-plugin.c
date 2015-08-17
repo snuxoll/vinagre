@@ -102,6 +102,7 @@ impl_get_connect_widget (VinagreProtocol *plugin, VinagreConnection *conn)
 {
   GtkWidget *grid, *label, *u_entry, *spin_button;
   gchar     *str;
+  gint       width, height;
 
   grid = gtk_grid_new ();
   gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
@@ -146,6 +147,10 @@ impl_get_connect_widget (VinagreProtocol *plugin, VinagreConnection *conn)
   g_object_set_data (G_OBJECT (grid), "width_spin_button", spin_button);
   gtk_grid_attach (GTK_GRID (grid), spin_button, 1, 2, 1, 1);
   gtk_label_set_mnemonic_widget (GTK_LABEL (label), spin_button);
+  width = VINAGRE_IS_CONNECTION (conn) ?
+          vinagre_connection_get_width (conn) :
+          vinagre_cache_prefs_get_integer  ("rdp-connection", "width", DEFAULT_WIDTH);
+  gtk_spin_button_set_value (GTK_SPIN_BUTTON (spin_button), width);
   gtk_entry_set_activates_default (GTK_ENTRY (spin_button), TRUE);
 
 
@@ -162,6 +167,10 @@ impl_get_connect_widget (VinagreProtocol *plugin, VinagreConnection *conn)
   g_object_set_data (G_OBJECT (grid), "height_spin_button", spin_button);
   gtk_grid_attach (GTK_GRID (grid), spin_button, 1, 3, 1, 1);
   gtk_label_set_mnemonic_widget (GTK_LABEL (label), spin_button);
+  height = VINAGRE_IS_CONNECTION (conn) ?
+           vinagre_connection_get_height (conn) :
+           vinagre_cache_prefs_get_integer  ("rdp-connection", "height", DEFAULT_HEIGHT);
+  gtk_spin_button_set_value (GTK_SPIN_BUTTON (spin_button), height);
   gtk_entry_set_activates_default (GTK_ENTRY (spin_button), TRUE);
 
 
