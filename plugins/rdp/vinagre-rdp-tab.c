@@ -532,8 +532,8 @@ frdp_button_pressed (GtkWidget      *widget,
     {
       frdp_event->flags |= event->type == GDK_BUTTON_PRESS ? PTR_FLAGS_DOWN : 0;
 
-      frdp_event->x = event->x;
-      frdp_event->y = event->y;
+      frdp_event->x = event->x < 0.0 ? 0.0 : event->x;
+      frdp_event->y = event->y < 0.0 ? 0.0 : event->y;
 
       g_queue_push_tail (priv->events, frdp_event);
     }
@@ -599,8 +599,8 @@ frdp_scroll (GtkWidget      *widget,
 
   if (frdp_event->flags != 0)
     {
-      frdp_event->x = event->x;
-      frdp_event->y = event->y;
+      frdp_event->x = event->x < 0.0 ? 0.0 : event->x;
+      frdp_event->y = event->y < 0.0 ? 0.0 : event->y;
 
       g_queue_push_tail (priv->events, frdp_event);
     }
@@ -625,8 +625,8 @@ frdp_mouse_moved (GtkWidget      *widget,
 
   frdp_event->type = FRDP_EVENT_TYPE_BUTTON;
   frdp_event->flags = PTR_FLAGS_MOVE;
-  frdp_event->x = event->x;
-  frdp_event->y = event->y;
+  frdp_event->x = event->x < 0.0 ? 0.0 : event->x;
+  frdp_event->y = event->y < 0.0 ? 0.0 : event->y;
 
   g_queue_push_tail (priv->events, frdp_event);
 
