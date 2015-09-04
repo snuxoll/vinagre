@@ -153,6 +153,8 @@ vinagre_vinagre_SOURCES += \
 	plugins/rdp/vinagre-rdp-plugin.c \
 	plugins/rdp/vinagre-rdp-connection.c \
 	plugins/rdp/vinagre-rdp-tab.c
+
+vinagre_vinagre_LDADD += -lm
 endif
 
 if VINAGRE_ENABLE_SPICE

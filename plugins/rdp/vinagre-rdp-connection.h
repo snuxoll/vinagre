@@ -51,7 +51,11 @@ struct _VinagreRdpConnection
 
 GType vinagre_rdp_connection_get_type (void) G_GNUC_CONST;
 
-VinagreConnection*  vinagre_rdp_connection_new (void);
+VinagreConnection*  vinagre_rdp_connection_new         (void);
+
+gboolean            vinagre_rdp_connection_get_scaling (VinagreRdpConnection *conn);
+void                vinagre_rdp_connection_set_scaling (VinagreRdpConnection *conn,
+                                                        gboolean              scaling);
 
 G_END_DECLS
 
