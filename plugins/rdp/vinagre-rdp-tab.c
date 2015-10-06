@@ -1152,6 +1152,9 @@ open_freerdp (VinagreRdpTab *rdp_tab)
   freerdp_kbd_init (GDK_DISPLAY_XDISPLAY (gdk_display_get_default ()), KBD_US);
 #endif
 
+  /* Allow font smoothing by default */
+  settings->AllowFontSmoothing = TRUE;
+
   /* Setup display for FreeRDP session */
   priv->display = gtk_drawing_area_new ();
   if (priv->display)
