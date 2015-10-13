@@ -1,3 +1,15 @@
+Vinagre 3.18.1
+==============
+
+Emīls Piņķis (1):
+      Enabled font smoothing by default in RDP plugin
+
+Manuel Bachmann (1):
+      Accept IPv6 addresses
+
+Trần Ngọc Quân (1):
+      Updated Vietnamese translation
+
 Vinagre 3.18.0
 ==============
 
