@@ -582,7 +582,6 @@ vinagre_connection_split_string (const gchar *uri,
   gchar **server, **url;
   gint    lport;
   gchar  *lhost;
-  gboolean is_ipv6;
   gchar   ipv6_host[255] = {0,};
   VinagreProtocol *ext;
 
@@ -618,11 +617,6 @@ vinagre_connection_split_string (const gchar *uri,
       g_strfreev (url);
       return FALSE;
     }
-
-  is_ipv6 = g_strstr_len (lhost, -1, ":") != NULL;
-
-  if (is_ipv6)
-    lhost = g_strconcat ("[", lhost, "]", NULL);
 
   if (lhost[0] == '[')
     {
