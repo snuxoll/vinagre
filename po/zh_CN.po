@@ -6,24 +6,24 @@
 # Aron Xu <aronxu@gnome.org>, 2010.
 # liu zhen <liuzhen1191@gmail.com>, 2011.#
 # EL8LatSPQ <el8latspq@hotmail.com>, 2012.
-# YunQiang Su <wzssyqa@gmail.com>, 2010, 2011, 2012.
 # Tong Hui <tonghuix@gmail.com>, 2013, 2014.
+# YunQiang Su <wzssyqa@gmail.com>, 2010, 2011, 2012, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-08-18 11:16+0000\n"
-"PO-Revision-Date: 2014-09-24 23:02+0800\n"
+"POT-Creation-Date: 2015-11-04 02:48+0000\n"
+"PO-Revision-Date: 2015-11-04 16:44+0800\n"
 "Last-Translator: YunQiang Su <wzssyqa@gmail.com>\n"
-"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language-Team: 汉语 <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.6.9\n"
+"X-Generator: Gtranslator 2.91.7\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
 msgid "Whether we should leave other clients connected"
@@ -81,24 +81,26 @@ msgid ""
 "connections."
 msgstr "如果为“true”(真)，则总是以监听反向连接的方式启动本程序。"
 
-#: ../data/vinagre.appdata.xml.in.h:1
+#. Both taken from the desktop file.
+#: ../data/vinagre.appdata.xml.in.h:2 ../data/vinagre.desktop.in.in.h:1
+#: ../data/vinagre-file.desktop.in.in.h:1 ../vinagre/vinagre-main.c:182
+msgid "Remote Desktop Viewer"
+msgstr "远程桌面查看器"
+
+#: ../data/vinagre.appdata.xml.in.h:3 ../data/vinagre.desktop.in.in.h:2
+#: ../data/vinagre-file.desktop.in.in.h:2
+msgid "Access remote desktops"
+msgstr "访问远程桌面"
+
+#: ../data/vinagre.appdata.xml.in.h:4
 msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
 msgstr "Vinagre 用来显示远程 Windows、Mac OS X 和 Linux 桌面。"
 
-#: ../data/vinagre.appdata.xml.in.h:2
+#: ../data/vinagre.appdata.xml.in.h:5
 msgid ""
 "It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
 "SSH servers."
 msgstr "它使用 VNC、RDP 和 SPICE 协议，甚至可以用来连接 SSH 服务器。"
-
-#: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
-#: ../vinagre/vinagre-main.c:182
-msgid "Remote Desktop Viewer"
-msgstr "远程桌面查看器"
-
-#: ../data/vinagre.desktop.in.in.h:2 ../data/vinagre-file.desktop.in.in.h:2
-msgid "Access remote desktops"
-msgstr "访问远程桌面"
 
 #: ../data/vinagre.desktop.in.in.h:3
 msgid "VNC;RDP;SSH;"
@@ -131,13 +133,13 @@ msgstr "认证(_A)"
 msgid "Authentication is required"
 msgstr "需要认证"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:120
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:132
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
-#: ../plugins/spice/vinagre-spice-tab.c:139
+#: ../plugins/spice/vinagre-spice-tab.c:142
 msgid "Host:"
 msgstr "主机："
 
-#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:111
+#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:130
 #: ../plugins/ssh/vinagre-ssh-plugin.c:112
 msgid "_Username:"
 msgstr "用户名(_N)："
@@ -236,8 +238,8 @@ msgstr "以下证书不能验证通过。你是否相信此证书？"
 msgid "Fingerprint:"
 msgstr "指纹："
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:751
-#: ../plugins/rdp/vinagre-rdp-tab.c:792
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:972
+#: ../plugins/rdp/vinagre-rdp-tab.c:1013
 msgid "Connect"
 msgstr "连接"
 
@@ -316,13 +318,20 @@ msgstr "RDP"
 msgid "Access MS Windows remote desktops"
 msgstr "访问微软 Windows 远程桌面"
 
-#: ../plugins/rdp/vinagre-rdp-plugin.c:104
+#: ../plugins/rdp/vinagre-rdp-plugin.c:111
 msgid "RDP Options"
 msgstr "RDP 选项"
 
+#. Scaling check button
+#: ../plugins/rdp/vinagre-rdp-plugin.c:120
+#: ../plugins/vnc/vinagre-vnc-plugin.c:285
+#: ../plugins/spice/vinagre-spice-plugin.c:261
+msgid "_Scaling"
+msgstr "缩放(_S)"
+
 #. Translators: This is the tooltip for the username field in a RDP connection
 #. Translators: This is the tooltip for the username field in a SSH connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:118
+#: ../plugins/rdp/vinagre-rdp-plugin.c:137
 #: ../plugins/ssh/vinagre-ssh-plugin.c:117
 msgid ""
 "Optional. If blank, your username will be used. Also, it can be supplied in "
@@ -332,37 +341,54 @@ msgstr ""
 "格式提供。"
 
 #. Host width
-#: ../plugins/rdp/vinagre-rdp-plugin.c:131
+#: ../plugins/rdp/vinagre-rdp-plugin.c:150
 msgid "_Width:"
 msgstr "宽度(_W)："
 
 #. Translators: This is the tooltip for the width field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:138
+#: ../plugins/rdp/vinagre-rdp-plugin.c:157
 msgid "Set width of the remote desktop"
 msgstr "设置远程桌面的宽度"
 
 #. Host height
-#: ../plugins/rdp/vinagre-rdp-plugin.c:147
+#: ../plugins/rdp/vinagre-rdp-plugin.c:170
 msgid "_Height:"
 msgstr "高度(_H)："
 
 #. Translators: This is the tooltip for the height field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:154
+#: ../plugins/rdp/vinagre-rdp-plugin.c:177
 msgid "Set height of the remote desktop"
 msgstr "设置远程桌面的高度"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:121 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:133 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
-#: ../plugins/spice/vinagre-spice-tab.c:140
+#: ../plugins/spice/vinagre-spice-tab.c:143
 msgid "Port:"
 msgstr "端口："
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:750 ../plugins/rdp/vinagre-rdp-tab.c:791
+#: ../plugins/rdp/vinagre-rdp-tab.c:281 ../plugins/vnc/vinagre-vnc-tab.c:601
+#: ../plugins/spice/vinagre-spice-tab.c:469
+msgid "S_caling"
+msgstr "缩放(_C)"
+
+#: ../plugins/rdp/vinagre-rdp-tab.c:282 ../plugins/vnc/vinagre-vnc-tab.c:602
+#: ../plugins/spice/vinagre-spice-tab.c:470
+msgid "Fit the remote screen into the current window size"
+msgstr "使远程屏幕适应当前窗口大小"
+
+#: ../plugins/rdp/vinagre-rdp-tab.c:355 ../plugins/rdp/vinagre-rdp-tab.c:356
+#: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
+#: ../plugins/spice/vinagre-spice-tab.c:587
+#: ../plugins/spice/vinagre-spice-tab.c:588
+msgid "Scaling"
+msgstr "缩放"
+
+#: ../plugins/rdp/vinagre-rdp-tab.c:971 ../plugins/rdp/vinagre-rdp-tab.c:1012
 msgid "_Cancel"
 msgstr "取消(_C)"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:982 ../plugins/vnc/vinagre-vnc-tab.c:317
-#: ../plugins/spice/vinagre-spice-tab.c:264
+#: ../plugins/rdp/vinagre-rdp-tab.c:1212 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/spice/vinagre-spice-tab.c:267
 msgid "Error connecting to host."
 msgstr "连接到主机出错。"
 
@@ -431,18 +457,11 @@ msgstr "VNC 选项"
 
 #. View only check button
 #. View only check button - not fully ready on spice-gtk side
-#: ../plugins/vnc/vinagre-vnc-plugin.c:276
-#: ../plugins/vnc/vinagre-vnc-tab.c:630
+#: ../plugins/vnc/vinagre-vnc-plugin.c:276 ../plugins/vnc/vinagre-vnc-tab.c:630
 #: ../plugins/spice/vinagre-spice-plugin.c:237
-#: ../plugins/spice/vinagre-spice-tab.c:507
+#: ../plugins/spice/vinagre-spice-tab.c:510
 msgid "_View only"
 msgstr "仅查看(_V)"
-
-#. Scaling check button
-#: ../plugins/vnc/vinagre-vnc-plugin.c:285
-#: ../plugins/spice/vinagre-spice-plugin.c:261
-msgid "_Scaling"
-msgstr "缩放(_S)"
 
 #. Keep ratio check button
 #: ../plugins/vnc/vinagre-vnc-plugin.c:299
@@ -524,13 +543,13 @@ msgid "Dimensions:"
 msgstr "维度："
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:306
-#: ../plugins/spice/vinagre-spice-tab.c:252
+#: ../plugins/spice/vinagre-spice-tab.c:255
 msgid "Error creating the SSH tunnel"
 msgstr "创建 SSH 隧道出错"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:307 ../plugins/vnc/vinagre-vnc-tab.c:318
-#: ../plugins/spice/vinagre-spice-tab.c:253
-#: ../plugins/spice/vinagre-spice-tab.c:265
+#: ../plugins/spice/vinagre-spice-tab.c:256
+#: ../plugins/spice/vinagre-spice-tab.c:268
 msgid "Unknown reason"
 msgstr "未知原因"
 
@@ -556,16 +575,6 @@ msgstr "要访问这个远程桌面必须提供用户名。"
 msgid "A password is required in order to access this remote desktop."
 msgstr "要访问这个远程桌面必须提供密码。"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:601
-#: ../plugins/spice/vinagre-spice-tab.c:466
-msgid "S_caling"
-msgstr "缩放(_C)"
-
-#: ../plugins/vnc/vinagre-vnc-tab.c:602
-#: ../plugins/spice/vinagre-spice-tab.c:467
-msgid "Fit the remote screen into the current window size"
-msgstr "使远程屏幕适应当前窗口大小"
-
 #: ../plugins/vnc/vinagre-vnc-tab.c:615
 msgid "_Keep Aspect Ratio"
 msgstr "保持宽高比(_K)"
@@ -575,7 +584,7 @@ msgid "Keep the screen aspect ratio when using scaling"
 msgstr "使用缩放时，保持屏幕的宽高比"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
-#: ../plugins/spice/vinagre-spice-tab.c:508
+#: ../plugins/spice/vinagre-spice-tab.c:511
 msgid "Do not send mouse and keyboard events"
 msgstr "不发送鼠标和键盘事件"
 
@@ -596,31 +605,25 @@ msgid "Requests an update of the screen"
 msgstr "要求更新屏幕"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:681
-#: ../plugins/spice/vinagre-spice-tab.c:531
+#: ../plugins/spice/vinagre-spice-tab.c:534
 msgid "_Send Ctrl-Alt-Del"
 msgstr "发送 Ctrl+Alt+Del (_S)"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
-#: ../plugins/spice/vinagre-spice-tab.c:532
-#: ../plugins/spice/vinagre-spice-tab.c:605
+#: ../plugins/spice/vinagre-spice-tab.c:535
+#: ../plugins/spice/vinagre-spice-tab.c:608
 msgid "Send Ctrl+Alt+Del to the remote desktop"
 msgstr "向远程桌面发送 Ctrl+Alt+Del"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
-#: ../plugins/spice/vinagre-spice-tab.c:584
-#: ../plugins/spice/vinagre-spice-tab.c:585
-msgid "Scaling"
-msgstr "缩放"
-
 #: ../plugins/vnc/vinagre-vnc-tab.c:745 ../plugins/vnc/vinagre-vnc-tab.c:746
-#: ../plugins/spice/vinagre-spice-tab.c:594
-#: ../plugins/spice/vinagre-spice-tab.c:595
+#: ../plugins/spice/vinagre-spice-tab.c:597
+#: ../plugins/spice/vinagre-spice-tab.c:598
 msgid "Read only"
 msgstr "只读"
 
 #. Send Ctrl-alt-del
 #: ../plugins/vnc/vinagre-vnc-tab.c:754
-#: ../plugins/spice/vinagre-spice-tab.c:603
+#: ../plugins/spice/vinagre-spice-tab.c:606
 msgid "Send Ctrl-Alt-Del"
 msgstr "发送 Ctrl+Alt+Del"
 
@@ -666,13 +669,13 @@ msgstr "SPICE 选项"
 
 #. Resize guest check button
 #: ../plugins/spice/vinagre-spice-plugin.c:245
-#: ../plugins/spice/vinagre-spice-tab.c:480
+#: ../plugins/spice/vinagre-spice-tab.c:483
 msgid "_Resize guest"
 msgstr "重设受控端大小(_R)"
 
 #. Clipboard sharing check button
 #: ../plugins/spice/vinagre-spice-plugin.c:253
-#: ../plugins/spice/vinagre-spice-tab.c:493
+#: ../plugins/spice/vinagre-spice-tab.c:496
 msgid "_Share clipboard"
 msgstr "共享剪贴板(_S)"
 
@@ -686,11 +689,11 @@ msgstr "选项"
 msgid "Spice Files"
 msgstr "Spice 文件"
 
-#: ../plugins/spice/vinagre-spice-tab.c:481
+#: ../plugins/spice/vinagre-spice-tab.c:484
 msgid "Resize the screen guest to best fit"
 msgstr "调整屏幕到最适合受控端"
 
-#: ../plugins/spice/vinagre-spice-tab.c:494
+#: ../plugins/spice/vinagre-spice-tab.c:497
 msgid "Automatically share clipboard between client and guest"
 msgstr "受控端与访客之间自动共享剪贴板"
 
@@ -1242,8 +1245,8 @@ msgid "_Keyboard shortcuts"
 msgstr "键盘快捷键(_K)"
 
 #: ../vinagre/vinagre-ui.h:60
-msgid "Enable keyboard shurtcuts"
-msgstr "允许键盘快捷键"
+msgid "Enable keyboard shortcuts"
+msgstr "启用键盘快捷键"
 
 #: ../vinagre/vinagre-ui.h:62
 msgid "_Toolbar"
