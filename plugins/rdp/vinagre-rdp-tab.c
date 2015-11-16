@@ -1108,7 +1108,7 @@ open_freerdp (VinagreRdpTab *rdp_tab)
   settings->encryption_level = ENCRYPTION_LEVEL_CLIENT_COMPATIBLE;
 #endif
 #include <freerdp/version.h>
-#if (FREERDP_VERSION_MAJOR == 1 && FREERDP_VERSION_MINOR >= 2 && FREERDP_VERSION_REVISION >= 1)
+#if (FREERDP_VERSION_MAJOR == 1 && FREERDP_VERSION_MINOR >= 2 && FREERDP_VERSION_REVISION >= 1) || (FREERDP_VERSION_MAJOR == 2)
   settings->UseRdpSecurityLayer = FALSE;
 #else
   settings->DisableEncryption = FALSE;
