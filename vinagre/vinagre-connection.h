@@ -72,6 +72,10 @@ gint		    vinagre_connection_get_port		(VinagreConnection *conn);
 void		    vinagre_connection_set_port		(VinagreConnection *conn,
 							 gint port);
 
+const gchar*	    vinagre_connection_get_domain	(VinagreConnection *conn);
+void		    vinagre_connection_set_domain	(VinagreConnection *conn,
+							 const gchar *domain);
+
 const gchar*	    vinagre_connection_get_username	(VinagreConnection *conn);
 void		    vinagre_connection_set_username	(VinagreConnection *conn,
 							 const gchar *username);

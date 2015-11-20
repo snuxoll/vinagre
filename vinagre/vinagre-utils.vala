@@ -95,9 +95,13 @@ namespace Vinagre.Utils {
     public bool request_credential (Window     parent,
                                     string     protocol,
                                     string     host,
+                                    string?    default_domain,
+                                    string?    default_username,
+                                    bool       need_domain,
                                     bool       need_username,
                                     bool       need_password,
                                     int        password_limit,
+                                    out string domain,
                                     out string username,
                                     out string password,
                                     out bool   save_in_keyring)
@@ -116,6 +120,7 @@ namespace Vinagre.Utils {
 
         var password_label = xml.get_object ("password_label") as Label;
         var username_label = xml.get_object ("username_label") as Label;
+        var domain_label = xml.get_object ("domain_label") as Label;
         var save_credential_check = xml.get_object ("save_credential_check")
                                     as CheckButton;
 
@@ -124,8 +129,29 @@ namespace Vinagre.Utils {
                                           IconSize.BUTTON);
         ok_button.image = image;
 
+        var domain_entry = xml.get_object ("domain_entry") as Entry;
         var username_entry = xml.get_object ("username_entry") as Entry;
         var password_entry = xml.get_object ("password_entry") as Entry;
+
+        domain_entry.changed.connect (() => {
+            var enabled = true;
+
+            if (username_entry.visible)
+                enabled = enabled && username_entry.text_length > 0;
+
+            if (password_entry.visible)
+                enabled = enabled && password_entry.text_length > 0;
+
+            ok_button.sensitive = enabled;
+        });
+
+        if (!need_domain) {
+            domain_label.hide ();
+            domain_entry.hide ();
+        } else {
+            if (default_domain != null)
+                domain_entry.set_text (default_domain);
+        }
 
         username_entry.changed.connect (() => {
             var enabled = true;
@@ -142,6 +168,11 @@ namespace Vinagre.Utils {
         if (!need_username) {
             username_label.hide ();
             username_entry.hide ();
+        } else {
+            if (default_username != null) {
+                username_entry.set_text (default_username);
+                password_entry.grab_focus ();
+            }
         }
 
         password_entry.changed.connect (() => {
@@ -165,6 +196,9 @@ namespace Vinagre.Utils {
 
         var result = password_dialog.run ();
         if (result == ResponseType.OK) {
+            if (domain_entry.text_length > 0)
+                domain = domain_entry.text;
+
             if (username_entry.text_length > 0)
                 username = username_entry.text;
 

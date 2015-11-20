@@ -502,8 +502,8 @@ handle_login (GtkWindow *parent,
 	      gboolean res;
 
 	      full_host = g_strjoin ("@", user, host, NULL);
-	      res = vinagre_utils_request_credential (parent, "SSH", full_host,
-		  FALSE, TRUE, 0, NULL, &password, &save_in_keyring);
+	      res = vinagre_utils_request_credential (parent, "SSH", full_host, NULL, NULL,
+		  FALSE, FALSE, TRUE, 0, NULL, NULL, &password, &save_in_keyring);
 	      g_free (full_host);
               if (!res)
                 {

@@ -39,6 +39,7 @@ struct _VinagreConnectionPrivate
   gchar *protocol;
   gchar *host;
   gint   port;
+  gchar *domain;
   gchar *username;
   gchar *password;
   gchar *name;
@@ -53,6 +54,7 @@ enum
   PROP_PROTOCOL,
   PROP_HOST,
   PROP_PORT,
+  PROP_DOMAIN,
   PROP_USERNAME,
   PROP_PASSWORD,
   PROP_NAME,
@@ -75,6 +77,7 @@ vinagre_connection_init (VinagreConnection *conn)
   conn->priv->port = 0;
   conn->priv->password = NULL;
   conn->priv->username = NULL;
+  conn->priv->domain = NULL;
   conn->priv->name = NULL;
   conn->priv->fullscreen = FALSE;
   conn->priv->width = DEFAULT_WIDTH;
@@ -88,6 +91,7 @@ vinagre_connection_finalize (GObject *object)
 
   g_free (conn->priv->protocol);
   g_free (conn->priv->host);
+  g_free (conn->priv->domain);
   g_free (conn->priv->username);
   g_free (conn->priv->password);
   g_free (conn->priv->name);
@@ -116,6 +120,10 @@ vinagre_connection_set_property (GObject *object, guint prop_id, const GValue *v
 
       case PROP_PORT:
 	vinagre_connection_set_port (conn, g_value_get_int (value));
+	break;
+
+      case PROP_DOMAIN:
+	vinagre_connection_set_domain (conn, g_value_get_string (value));
 	break;
 
       case PROP_USERNAME:
@@ -172,6 +180,10 @@ vinagre_connection_get_property (GObject *object, guint prop_id, GValue *value, 
 	g_value_set_int (value, conn->priv->port);
 	break;
 
+      case PROP_DOMAIN:
+	g_value_set_string (value, conn->priv->domain);
+	break;
+
       case PROP_USERNAME:
 	g_value_set_string (value, conn->priv->username);
 	break;
@@ -214,6 +226,7 @@ default_fill_writer (VinagreConnection *conn, xmlTextWriter *writer)
   xmlTextWriterWriteElement (writer, BAD_CAST "name", BAD_CAST conn->priv->name);
   xmlTextWriterWriteElement (writer, BAD_CAST "host", BAD_CAST conn->priv->host);
   xmlTextWriterWriteElement (writer, BAD_CAST "username", BAD_CAST (conn->priv->username ? conn->priv->username : ""));
+  xmlTextWriterWriteElement (writer, BAD_CAST "domain", BAD_CAST (conn->priv->domain ? conn->priv->domain : ""));
   xmlTextWriterWriteFormatElement (writer, BAD_CAST "port", "%d", conn->priv->port);
   xmlTextWriterWriteFormatElement (writer, BAD_CAST "fullscreen", "%d", conn->priv->fullscreen);
   xmlTextWriterWriteFormatElement (writer, BAD_CAST "width", "%d", conn->priv->width);
@@ -236,6 +249,8 @@ default_parse_item (VinagreConnection *conn, xmlNode *root)
 	vinagre_connection_set_name (conn, (const gchar *)s_value);
       else if (!xmlStrcmp(curr->name, BAD_CAST "username"))
 	vinagre_connection_set_username (conn, (const gchar *)s_value);
+      else if (!xmlStrcmp(curr->name, BAD_CAST "domain"))
+	vinagre_connection_set_domain (conn, (const gchar *)s_value);
       else if (!xmlStrcmp(curr->name, BAD_CAST "port"))
 	vinagre_connection_set_port (conn, atoi ((const char *)s_value));
       else if (!xmlStrcmp(curr->name, BAD_CAST "fullscreen"))
@@ -320,6 +335,18 @@ vinagre_connection_class_init (VinagreConnectionClass *klass)
                                                       G_PARAM_STATIC_NICK |
                                                       G_PARAM_STATIC_NAME |
                                                       G_PARAM_STATIC_BLURB));
+
+  g_object_class_install_property (object_class,
+                                   PROP_DOMAIN,
+                                   g_param_spec_string ("domain",
+                                                        "domain",
+                                                        "domain (if any) necessary for complete this connection",
+                                                        NULL,
+                                                        G_PARAM_READWRITE |
+                                                        G_PARAM_CONSTRUCT |
+                                                        G_PARAM_STATIC_NICK |
+                                                        G_PARAM_STATIC_NAME |
+                                                        G_PARAM_STATIC_BLURB));
 
   g_object_class_install_property (object_class,
                                    PROP_USERNAME,
@@ -457,6 +484,23 @@ vinagre_connection_get_port (VinagreConnection *conn)
   g_return_val_if_fail (VINAGRE_IS_CONNECTION (conn), 0);
 
   return conn->priv->port;
+}
+
+void
+vinagre_connection_set_domain (VinagreConnection *conn,
+			       const gchar *domain)
+{
+  g_return_if_fail (VINAGRE_IS_CONNECTION (conn));
+
+  g_free (conn->priv->domain);
+  conn->priv->domain = g_strdup (domain);
+}
+const gchar *
+vinagre_connection_get_domain (VinagreConnection *conn)
+{
+  g_return_val_if_fail (VINAGRE_IS_CONNECTION (conn), NULL);
+
+  return conn->priv->domain;
 }
 
 void

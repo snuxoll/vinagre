@@ -502,13 +502,13 @@ vnc_authentication_cb (VncDisplay *vnc, GValueArray *credList, VinagreVncTab *vn
 
   if (need_password || need_username)
     {
-      vinagre_tab_find_credentials_in_keyring (tab, &username, &password);
+      vinagre_tab_find_credentials_in_keyring (tab, NULL, &username, &password);
 
       if ( (need_username && !username) || (need_password && !password) )
 	{
 	  host = vinagre_connection_get_best_name (conn);
-	  if (!vinagre_utils_request_credential (window, "VNC", host,
-	     need_username, need_password, 8, &username, &password,
+	  if (!vinagre_utils_request_credential (window, "VNC", host, NULL, NULL,
+	     FALSE, need_username, need_password, 8, NULL, &username, &password,
 	     &save_in_keyring))
 	    {
 	      vinagre_tab_remove_from_notebook (tab);

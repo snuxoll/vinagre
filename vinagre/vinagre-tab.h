@@ -127,6 +127,7 @@ const gchar		*vinagre_tab_get_icon_name	(VinagreTab *tab);
 void			vinagre_tab_set_save_credentials	(VinagreTab *tab, gboolean value);
 void			vinagre_tab_save_credentials_in_keyring (VinagreTab *tab);
 gboolean		vinagre_tab_find_credentials_in_keyring	(VinagreTab *tab,
+								 gchar **domain,
 								 gchar **username,
 								 gchar **password);
 void			vinagre_tab_remove_credentials_from_keyring (VinagreTab *tab);
