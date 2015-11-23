@@ -127,9 +127,25 @@ rdp_parse_item (VinagreConnection *conn, xmlNode *root)
 static void
 rdp_parse_options_widget (VinagreConnection *conn, GtkWidget *widget)
 {
-  GtkWidget *u_entry, *spin_button, *scaling_button;
-  gboolean   scaling;
-  guint      width, height;
+  const gchar *text;
+  GtkWidget   *u_entry, *d_entry, *spin_button, *scaling_button;
+  gboolean     scaling;
+  guint        width, height;
+
+  d_entry = g_object_get_data (G_OBJECT (widget), "domain_entry");
+  if (!d_entry)
+    {
+      g_warning ("Wrong widget passed to rdp_parse_options_widget()");
+      return;
+    }
+
+  text = gtk_entry_get_text (GTK_ENTRY (d_entry));
+  vinagre_cache_prefs_set_string  ("rdp-connection", "domain", text);
+
+  g_object_set (conn,
+		"domain", text != NULL && *text != '\0' ? text : NULL,
+		NULL);
+
 
   u_entry = g_object_get_data (G_OBJECT (widget), "username_entry");
   if (!u_entry)

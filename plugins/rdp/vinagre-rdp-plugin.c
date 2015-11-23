@@ -100,7 +100,7 @@ vinagre_rdp_plugin_init (VinagreRdpPlugin *plugin)
 static GtkWidget *
 impl_get_connect_widget (VinagreProtocol *plugin, VinagreConnection *conn)
 {
-  GtkWidget *grid, *label, *u_entry, *spin_button, *check;
+  GtkWidget *grid, *label, *u_entry, *d_entry, *spin_button, *check;
   gchar     *str;
   gint       width, height;
 
@@ -146,10 +146,29 @@ impl_get_connect_widget (VinagreProtocol *plugin, VinagreConnection *conn)
   g_free (str);
 
 
+  label = gtk_label_new_with_mnemonic (_("_Domain:"));
+  gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+  gtk_grid_attach (GTK_GRID (grid), label, 0, 3, 1, 1);
+  gtk_widget_set_margin_left (label, 12);
+
+  d_entry = gtk_entry_new ();
+  /* Translators: This is the tooltip for the domain field in a RDP connection */
+  gtk_widget_set_tooltip_text (d_entry, _("Optional."));
+  g_object_set_data (G_OBJECT (grid), "domain_entry", d_entry);
+  gtk_grid_attach (GTK_GRID (grid), d_entry, 1, 3, 1, 1);
+  gtk_label_set_mnemonic_widget (GTK_LABEL (label), d_entry);
+  str = g_strdup (VINAGRE_IS_CONNECTION (conn) ?
+		  vinagre_connection_get_domain (conn) :
+		  vinagre_cache_prefs_get_string  ("rdp-connection", "domain", ""));
+  gtk_entry_set_text (GTK_ENTRY (d_entry), str);
+  gtk_entry_set_activates_default (GTK_ENTRY (d_entry), TRUE);
+  g_free (str);
+
+
   /* Host width */
   label = gtk_label_new_with_mnemonic (_("_Width:"));
   gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
-  gtk_grid_attach (GTK_GRID (grid), label, 0, 3, 1, 1);
+  gtk_grid_attach (GTK_GRID (grid), label, 0, 4, 1, 1);
   gtk_widget_set_margin_left (label, 12);
 
   spin_button = gtk_spin_button_new_with_range (MIN_SIZE, MAX_SIZE, 1);
@@ -157,7 +176,7 @@ impl_get_connect_widget (VinagreProtocol *plugin, VinagreConnection *conn)
   gtk_widget_set_tooltip_text (spin_button, _("Set width of the remote desktop"));
   gtk_spin_button_set_value (GTK_SPIN_BUTTON (spin_button), DEFAULT_WIDTH);
   g_object_set_data (G_OBJECT (grid), "width_spin_button", spin_button);
-  gtk_grid_attach (GTK_GRID (grid), spin_button, 1, 3, 1, 1);
+  gtk_grid_attach (GTK_GRID (grid), spin_button, 1, 4, 1, 1);
   gtk_label_set_mnemonic_widget (GTK_LABEL (label), spin_button);
   width = VINAGRE_IS_CONNECTION (conn) ?
           vinagre_connection_get_width (conn) :
@@ -169,7 +188,7 @@ impl_get_connect_widget (VinagreProtocol *plugin, VinagreConnection *conn)
   /* Host height */
   label = gtk_label_new_with_mnemonic (_("_Height:"));
   gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
-  gtk_grid_attach (GTK_GRID (grid), label, 0, 4, 1, 1);
+  gtk_grid_attach (GTK_GRID (grid), label, 0, 5, 1, 1);
   gtk_widget_set_margin_left (label, 12);
 
   spin_button = gtk_spin_button_new_with_range (MIN_SIZE, MAX_SIZE, 1);
@@ -177,7 +196,7 @@ impl_get_connect_widget (VinagreProtocol *plugin, VinagreConnection *conn)
   gtk_widget_set_tooltip_text (spin_button, _("Set height of the remote desktop"));
   gtk_spin_button_set_value (GTK_SPIN_BUTTON (spin_button), DEFAULT_HEIGHT);
   g_object_set_data (G_OBJECT (grid), "height_spin_button", spin_button);
-  gtk_grid_attach (GTK_GRID (grid), spin_button, 1, 4, 1, 1);
+  gtk_grid_attach (GTK_GRID (grid), spin_button, 1, 5, 1, 1);
   gtk_label_set_mnemonic_widget (GTK_LABEL (label), spin_button);
   height = VINAGRE_IS_CONNECTION (conn) ?
            vinagre_connection_get_height (conn) :
