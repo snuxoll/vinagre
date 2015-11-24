@@ -1,3 +1,36 @@
+Vinagre 3.19.2
+==============
+
+David King (2):
+      Revert "Accept IPv6 addresses"
+      Fix build against recent versions of FreeRDP
+
+Efstathios Iosifidis (1):
+      Updated Greek translation
+
+Emīls Piņķis (1):
+      Enabled font smoothing by default in RDP plugin
+
+Jiri Grönroos (1):
+      Updated Finnish translation
+
+Manuel Bachmann (1):
+      Accept IPv6 addresses
+
+Marek Kasik (3):
+      Add minimize button to the fullscreen toolbar
+      Handle domain when looking for credentials
+      Store credentials for RDP
+
+Sveinn í Felli (1):
+      Added Icelandic translation
+
+Trần Ngọc Quân (1):
+      Updated Vietnamese translation
+
+YunQiang Su (1):
+      update zh_CN translation
+
 Vinagre 3.18.0
 ==============
 
