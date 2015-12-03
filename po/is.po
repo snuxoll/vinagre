@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-11-02 02:42+0000\n"
-"PO-Revision-Date: 2015-11-02 14:24+0000\n"
+"POT-Creation-Date: 2015-12-03 02:53+0000\n"
+"PO-Revision-Date: 2015-12-03 10:02+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
@@ -73,7 +73,7 @@ msgstr ""
 #: ../data/vinagre.appdata.xml.in.h:2 ../data/vinagre.desktop.in.in.h:1
 #: ../data/vinagre-file.desktop.in.in.h:1 ../vinagre/vinagre-main.c:182
 msgid "Remote Desktop Viewer"
-msgstr "Fjartengdar tölvur"
+msgstr "Skoða fjartengdar tölvur"
 
 #: ../data/vinagre.appdata.xml.in.h:3 ../data/vinagre.desktop.in.in.h:2
 #: ../data/vinagre-file.desktop.in.in.h:2
@@ -82,17 +82,19 @@ msgstr "Tengjast fjartengdum tölvum"
 
 #: ../data/vinagre.appdata.xml.in.h:4
 msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
-msgstr ""
+msgstr "Vinagre sýnir fjartengd skjáborð á Windows, Mac OS X og Linux vélum."
 
 #: ../data/vinagre.appdata.xml.in.h:5
 msgid ""
 "It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
 "SSH servers."
 msgstr ""
+"Það notar VNC, RDP og SPICE samskiptamáta, og má jafnvel nota til að tengjast "
+"SSH-þjónum."
 
 #: ../data/vinagre.desktop.in.in.h:3
 msgid "VNC;RDP;SSH;"
-msgstr ""
+msgstr "VNC;RDP;SSH;"
 
 #: ../data/vinagre.ui.h:1
 msgid "Vinagre is a remote desktop viewer for the GNOME desktop"
@@ -104,8 +106,8 @@ msgstr ""
 #: ../data/vinagre.ui.h:3
 msgid "translator-credits"
 msgstr ""
-"Anna Jonna Ármannsdóttir, annajonna@gmail.com 2009."
-"Sveinn í Felli, sv1@fellsnet.is"
+"Anna Jonna Ármannsdóttir, annajonna@gmail.com 2009.Sveinn í Felli, "
+"sv1@fellsnet.is"
 
 #. This is a button label, in the authentication dialog
 #: ../data/vinagre.ui.h:5
@@ -114,7 +116,7 @@ msgstr "_Heimila"
 
 #: ../data/vinagre.ui.h:6
 msgid "Authentication is required"
-msgstr ""
+msgstr "Auðkenningar er krafist"
 
 #: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:132
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
@@ -137,11 +139,11 @@ msgstr "_Lén:"
 
 #: ../data/vinagre.ui.h:11
 msgid "_Remember this credential"
-msgstr ""
+msgstr "Muna þessi auð_kenni"
 
 #: ../data/vinagre.ui.h:12
 msgid "Store the login credential in GNOME Keyring"
-msgstr ""
+msgstr "Geyma innskráningarauðkennin í Gnome lyklastjóranum (keyring)"
 
 #: ../data/vinagre.ui.h:13
 msgid "Bookmarks"
@@ -174,7 +176,7 @@ msgstr "Mappa"
 
 #: ../data/vinagre.ui.h:21
 msgid "Bookmark Folder"
-msgstr ""
+msgstr "Bókamerkjamappa"
 
 #: ../data/vinagre.ui.h:22
 msgid "Parent Folder"
@@ -189,6 +191,8 @@ msgid ""
 "The remote host has changed its certificate.\n"
 "Do you trust the new certificate?"
 msgstr ""
+"Fjartengda vélin hefur skipt um skilríki.\n"
+"Geturðu treyst nýja skilríkinu?"
 
 #. Subject of the certificate.
 #: ../data/vinagre.ui.h:27
@@ -203,18 +207,20 @@ msgstr "Útgefandi:"
 #. Fingerprint of the new certificate.
 #: ../data/vinagre.ui.h:31
 msgid "New fingerprint:"
-msgstr ""
+msgstr "Nýtt fingrafar:"
 
 #. Fingerprint of the old certificate.
 #: ../data/vinagre.ui.h:33
 msgid "Old fingerprint:"
-msgstr ""
+msgstr "Eldra fingrafar:"
 
 #: ../data/vinagre.ui.h:34
 msgid ""
 "The below certificate could not be verified.\n"
 "Do you trust the certificate?"
 msgstr ""
+"Ekki var hægt að sannreyna skilríkið hér fyrir neðan.\n"
+"Geturðu treyst skilríkinu?"
 
 #. Fingerprint of the certificate.
 #: ../data/vinagre.ui.h:37
@@ -228,7 +234,7 @@ msgstr "Tengjast"
 
 #: ../data/vinagre.ui.h:39
 msgid "Choose a remote desktop to connect to"
-msgstr ""
+msgstr "Veldu fjarlægt skjáborð til að tengjast"
 
 #: ../data/vinagre.ui.h:40
 msgid "_Protocol:"
@@ -236,11 +242,11 @@ msgstr "_Samskiptaregla:"
 
 #: ../data/vinagre.ui.h:41
 msgid "Select a remote desktop protocol for this connection"
-msgstr ""
+msgstr "Veldu samskiptamáta fyrir skjáborðsmiðlun á þessari tengingu"
 
 #: ../data/vinagre.ui.h:42
 msgid "Search for remote hosts on the network"
-msgstr ""
+msgstr "Leita að fjartengdum vélum á netinu"
 
 #: ../data/vinagre.ui.h:43
 msgid "Connection options"
@@ -252,11 +258,11 @@ msgstr "_Fylla skjáinn"
 
 #: ../data/vinagre.ui.h:45
 msgid "Enable fullscreen mode for this connection"
-msgstr ""
+msgstr "Virkja skjáfylliham fyrir þessa tengingu"
 
 #: ../data/vinagre.ui.h:46
 msgid "Reverse Connections"
-msgstr ""
+msgstr "Snúa við tengingum"
 
 #: ../data/vinagre.ui.h:47
 msgid ""
@@ -267,24 +273,25 @@ msgstr ""
 
 #: ../data/vinagre.ui.h:48
 msgid "_Enable Reverse Connections"
-msgstr ""
+msgstr "_Virkja viðsnúning á tengingum"
 
 #. Translators: this is the reverse connection mode. "Always enabled" means it will be enabled by default in the program startup. You can see this string in the dialog Remote->Reverse connections.
 #: ../data/vinagre.ui.h:50
 msgid "_Always Enabled"
-msgstr ""
+msgstr "_Alltaf virkt"
 
 #: ../data/vinagre.ui.h:51
 msgid "This desktop is reachable through the following IP address(es):"
 msgstr ""
+"Þetta skjáborð er hægt að nálgast í gegnum eftirfarandi IP-vistfang/vistföng:"
 
 #: ../data/vinagre.ui.h:52
 msgid "Connectivity"
-msgstr ""
+msgstr "Tengingar"
 
 #: ../data/vinagre-mime.xml.in.h:1
 msgid "Remote Desktop (VNC) file"
-msgstr ""
+msgstr "Fjaraðgangsskrá (VNC)"
 
 #: ../data/vinagre-mime.xml.in.h:2
 msgid "Remote Desktop Connection"
@@ -297,11 +304,11 @@ msgstr "RDP"
 #. Translators: This is a description of the RDP protocol. It appears in the Connect dialog.
 #: ../plugins/rdp/vinagre-rdp-plugin.c:63
 msgid "Access MS Windows remote desktops"
-msgstr ""
+msgstr "Tengjast fjartengdum MS Windows tölvum"
 
 #: ../plugins/rdp/vinagre-rdp-plugin.c:111
 msgid "RDP Options"
-msgstr ""
+msgstr "Valkostir RDP"
 
 #. Scaling check button
 #: ../plugins/rdp/vinagre-rdp-plugin.c:120
@@ -327,7 +334,7 @@ msgstr "_Breidd:"
 #. Translators: This is the tooltip for the width field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:157
 msgid "Set width of the remote desktop"
-msgstr ""
+msgstr "Stilltu breidd fjartengda skjáborðsins"
 
 #. Host height
 #: ../plugins/rdp/vinagre-rdp-plugin.c:170
@@ -337,7 +344,7 @@ msgstr "_Hæð:"
 #. Translators: This is the tooltip for the height field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:177
 msgid "Set height of the remote desktop"
-msgstr ""
+msgstr "Stilltu hæð fjartengda skjáborðsins"
 
 #: ../plugins/rdp/vinagre-rdp-tab.c:133 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
@@ -353,14 +360,14 @@ msgstr "S_kölun"
 #: ../plugins/rdp/vinagre-rdp-tab.c:282 ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:470
 msgid "Fit the remote screen into the current window size"
-msgstr ""
+msgstr "Kvarða fjartengda skjáborðið til að passa við gluggastærð"
 
 #: ../plugins/rdp/vinagre-rdp-tab.c:355 ../plugins/rdp/vinagre-rdp-tab.c:356
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
 #: ../plugins/spice/vinagre-spice-tab.c:587
 #: ../plugins/spice/vinagre-spice-tab.c:588
 msgid "Scaling"
-msgstr "Skölun"
+msgstr "Kvörðun"
 
 #: ../plugins/rdp/vinagre-rdp-tab.c:971 ../plugins/rdp/vinagre-rdp-tab.c:1012
 msgid "_Cancel"
@@ -369,7 +376,7 @@ msgstr "_Hætta við"
 #: ../plugins/rdp/vinagre-rdp-tab.c:1212 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:267
 msgid "Error connecting to host."
-msgstr ""
+msgstr "Villa í tengingu við vél."
 
 #: ../plugins/ssh/vinagre-ssh-plugin.c:61
 msgid "SSH"
@@ -382,7 +389,7 @@ msgstr "Tengjast Unix/Linux útstöðvum"
 
 #: ../plugins/ssh/vinagre-ssh-plugin.c:103
 msgid "SSH Options"
-msgstr ""
+msgstr "Valkostir SSH"
 
 #. Translators: 'shared' here is a VNC protocol specific flag. You can translate it, but I think it's better to let it untranslated
 #: ../plugins/vnc/vinagre-vnc-connection.c:317
@@ -391,11 +398,12 @@ msgstr ""
 msgid ""
 "Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
 msgstr ""
+"Villugildi fyrir 'deilt' flagg: %d. Það ætti að vera 0 eða 1. Hunsa það."
 
 #. Translators: this is a command line option (run vinagre --help)
 #: ../plugins/vnc/vinagre-vnc-plugin.c:52
 msgid "Enable scaled mode"
-msgstr ""
+msgstr "Virkja kvarðaðan ham"
 
 #. Translators: this is a command line option (run vinagre --help)
 #: ../plugins/vnc/vinagre-vnc-plugin.c:65
@@ -413,22 +421,22 @@ msgstr "VNC"
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:90
 msgid "Access Unix/Linux, Windows and other remote desktops."
-msgstr ""
+msgstr "Tengjast við Unix/Linux, Windows og aðrar fjartengdar vélar."
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:147
 #: ../plugins/spice/vinagre-spice-plugin.c:101
 msgid "Could not parse the file."
-msgstr ""
+msgstr "Ekki tókst að þátta skrána."
 
 #. Translators: Do not translate "Connection". It's the name of a group in the .vnc (.ini like) file.
 #: ../plugins/vnc/vinagre-vnc-plugin.c:155
 msgid "The file is not a VNC one: Missing the group \"Connection\"."
-msgstr ""
+msgstr "Þetta er ekki VNC-skrá: Vantar hópinn \"Tenging\""
 
 #. Translators: Do not translate "Host". It's the name of a key in the .vnc (.ini like) file.
 #: ../plugins/vnc/vinagre-vnc-plugin.c:162
 msgid "The file is not a VNC one: Missing the key \"Host\"."
-msgstr ""
+msgstr "Þetta er ekki VNC-skrá: Vantar hópinn \"Vél\""
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:268
 msgid "VNC Options"
@@ -454,7 +462,7 @@ msgstr "Nota _JPEG þjöppun"
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:310
 msgid "This might not work on all VNC servers"
-msgstr ""
+msgstr "Ekki er víst að þetta virki á öllum VNC-miðlurum"
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:320
 msgid "Color _Depth:"
@@ -485,17 +493,17 @@ msgstr "Últraláglita (3 bita)"
 #: ../plugins/vnc/vinagre-vnc-plugin.c:343
 #: ../plugins/spice/vinagre-spice-plugin.c:272
 msgid "Use h_ost"
-msgstr ""
+msgstr "_Nota vél"
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:352
 #: ../plugins/spice/vinagre-spice-plugin.c:281
 msgid "hostname or user@hostname"
-msgstr ""
+msgstr "vélarheiti eða notandi@vélarheiti"
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:353
 #: ../plugins/spice/vinagre-spice-plugin.c:282
 msgid "Supply an alternative port using colon"
-msgstr ""
+msgstr "Gefðu upp aðra gátt með því að setja tvípunkt á milli"
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:354
 #: ../plugins/spice/vinagre-spice-plugin.c:283
@@ -506,7 +514,7 @@ msgstr "Til dæmis: kalli@kakofonia.is:5022"
 #: ../plugins/vnc/vinagre-vnc-plugin.c:360
 #: ../plugins/spice/vinagre-spice-plugin.c:289
 msgid "as a SSH tunnel"
-msgstr ""
+msgstr "sem SSH göng (tunnel)"
 
 #. Translators: this is a pattern to open *.vnc files in a open dialog.
 #: ../plugins/vnc/vinagre-vnc-plugin.c:395
@@ -515,16 +523,16 @@ msgstr "VNC skrár"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:148
 msgid "Desktop Name:"
-msgstr ""
+msgstr "Heiti skjáborðs:"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:151
 msgid "Dimensions:"
-msgstr "Hlutföll:"
+msgstr "Stærðarhlutföll:"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:306
 #: ../plugins/spice/vinagre-spice-tab.c:255
 msgid "Error creating the SSH tunnel"
-msgstr ""
+msgstr "Villa kom upp við gerð SSH-ganga"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:307 ../plugins/vnc/vinagre-vnc-tab.c:318
 #: ../plugins/spice/vinagre-spice-tab.c:256
@@ -536,63 +544,64 @@ msgstr "Óþekkt ástæða"
 #: ../plugins/vnc/vinagre-vnc-tab.c:362
 #, c-format
 msgid "Authentication method for host %s is unsupported. (%u)"
-msgstr ""
+msgstr "Auðkenningaraðferðin fyrir vélina %s er ekki studd. (%u)"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:366
 msgid "Authentication unsupported"
-msgstr ""
+msgstr "Auðkenning studd"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:529 ../plugins/vnc/vinagre-vnc-tab.c:546
 msgid "Authentication error"
-msgstr "Auðkennisvilla"
+msgstr "Auðkenningarvilla"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:530
 msgid "A username is required in order to access this remote desktop."
 msgstr ""
+"Notandanafns er krafist til að fá aðgang að þessu fjartengda skjáborði."
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:547
 msgid "A password is required in order to access this remote desktop."
-msgstr ""
+msgstr "Lykilorðs er krafist til að fá aðgang að þessu fjartengda skjáborði."
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:615
 msgid "_Keep Aspect Ratio"
-msgstr ""
+msgstr "_Halda stærðarhlutföllum"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:616
 msgid "Keep the screen aspect ratio when using scaling"
-msgstr ""
+msgstr "Halda stærðarhlutföllum skjás þegar kvörðun er notuð"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
 #: ../plugins/spice/vinagre-spice-tab.c:511
 msgid "Do not send mouse and keyboard events"
-msgstr ""
+msgstr "Ekki senda músar- og lyklaborðsatburði"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:644
 msgid "_Original size"
-msgstr "_Upphafleg stærð"
+msgstr "_Upprunaleg stærð"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:645
 msgid "Adjust the window to the size of the remote desktop"
-msgstr ""
+msgstr "Laga stærð gluggans að stærð fjartengda skjáborðsins"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:658
 msgid "_Refresh Screen"
-msgstr ""
+msgstr "Endu_rteikna skjá"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:659
 msgid "Requests an update of the screen"
-msgstr ""
+msgstr "Biðja um uppfærslu á skjánum"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:681
 #: ../plugins/spice/vinagre-spice-tab.c:534
 msgid "_Send Ctrl-Alt-Del"
-msgstr ""
+msgstr "_Senda Ctrl-Alt-Del"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
 #: ../plugins/spice/vinagre-spice-tab.c:535
 #: ../plugins/spice/vinagre-spice-tab.c:608
 msgid "Send Ctrl+Alt+Del to the remote desktop"
-msgstr ""
+msgstr "Senda Ctrl+Alt+Del til fjartengda skjáborðsins"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:745 ../plugins/vnc/vinagre-vnc-tab.c:746
 #: ../plugins/spice/vinagre-spice-tab.c:597
@@ -618,7 +627,7 @@ msgstr ""
 #: ../plugins/spice/vinagre-spice-tunnel.c:103
 #, c-format
 msgid "Unable to find a free TCP port"
-msgstr ""
+msgstr "Get ekki fundið lausa TCP-gátt"
 
 #. Translators: Do not translate "connection". It's the name of a group in the .spice (.ini like) file.
 #: ../plugins/spice/vinagre-spice-plugin.c:108
@@ -632,16 +641,16 @@ msgstr ""
 
 #: ../plugins/spice/vinagre-spice-plugin.c:174
 msgid "SPICE"
-msgstr ""
+msgstr "SPICE"
 
 #. Translators: This is a description of the SPICE protocol. It appears at Connect dialog.
 #: ../plugins/spice/vinagre-spice-plugin.c:176
 msgid "Access Spice desktop server"
-msgstr ""
+msgstr "Tengjast Spice skjáborðsmiðlara"
 
 #: ../plugins/spice/vinagre-spice-plugin.c:224
 msgid "SPICE Options"
-msgstr ""
+msgstr "Valkostir SPICE"
 
 #. Resize guest check button
 #: ../plugins/spice/vinagre-spice-plugin.c:245
@@ -653,7 +662,7 @@ msgstr ""
 #: ../plugins/spice/vinagre-spice-plugin.c:253
 #: ../plugins/spice/vinagre-spice-tab.c:496
 msgid "_Share clipboard"
-msgstr ""
+msgstr "_Deila klippispjaldi"
 
 #. Translators: This is the tooltip for the password field in a SPICE connection
 #: ../plugins/spice/vinagre-spice-plugin.c:315
@@ -663,7 +672,7 @@ msgstr "Valfrjálst"
 #. Translators: this is a pattern to open *.spice files in a open dialog.
 #: ../plugins/spice/vinagre-spice-plugin.c:336
 msgid "Spice Files"
-msgstr ""
+msgstr "Spice skrár"
 
 #: ../plugins/spice/vinagre-spice-tab.c:484
 msgid "Resize the screen guest to best fit"
@@ -676,10 +685,9 @@ msgstr ""
 #: ../vinagre/vinagre-bookmarks.c:366
 #, c-format
 msgid "Error while initializing bookmarks: %s"
-msgstr ""
+msgstr "Villa við frumstillingu bókamerkja: %s"
 
 #: ../vinagre/vinagre-bookmarks.c:366 ../vinagre/vinagre-bookmarks.c:492
-#, fuzzy
 #: ../vinagre/vinagre-bookmarks-migration.c:135
 #: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
 #: ../vinagre/vinagre-connect.c:510 ../vinagre/vinagre-options.c:85
@@ -712,7 +720,7 @@ msgstr ""
 #: ../vinagre/vinagre-bookmarks.c:492
 #, c-format
 msgid "Error while saving bookmarks: %s"
-msgstr ""
+msgstr "Villa við að vista bókamerki: %s"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:95
 #: ../vinagre/vinagre-bookmarks-migration.c:102
@@ -732,16 +740,15 @@ msgstr ""
 #: ../vinagre/vinagre-bookmarks-migration.c:216
 #, c-format
 msgid "Error while migrating bookmarks: %s"
-msgstr ""
+msgstr "Villa við að yfirfæra bókamerki: %s"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:164
 msgid "Error while migrating bookmarks: VNC plugin is not activated"
 msgstr ""
 
 #: ../vinagre/vinagre-bookmarks-migration.c:216
-#, fuzzy
 msgid "Failed to create the directory"
-msgstr "Ekki tókst að búa til möppu"
+msgstr "Ekki tókst að búa til möppuna"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:241
 msgid ""
@@ -752,25 +759,24 @@ msgstr ""
 #: ../vinagre/vinagre-bookmarks-migration.c:249
 #, c-format
 msgid "Error opening old bookmarks file: %s"
-msgstr ""
+msgstr "Villa við að opna gömlu bókamerkjaskrána: %s"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:250
 #: ../vinagre/vinagre-bookmarks-migration.c:262
 msgid "Migration cancelled"
-msgstr ""
+msgstr "Hætt við yfirfærslu"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:259
 msgid "Could not remove the old bookmarks file"
 msgstr ""
 
 #: ../vinagre/vinagre-bookmarks-tree.c:120
-#, fuzzy
 msgid "Root Folder"
-msgstr "Rótarmappa"
+msgstr "Grunnmappa"
 
 #: ../vinagre/vinagre-bookmarks-ui.c:78
 msgid "Invalid name for this folder"
-msgstr ""
+msgstr "Ógilt nafn á þessari möppu"
 
 #: ../vinagre/vinagre-bookmarks-ui.c:88 ../vinagre/vinagre-bookmarks-ui.c:200
 #, c-format
@@ -783,13 +789,13 @@ msgstr ""
 #: ../vinagre/vinagre-bookmarks-ui.c:89 ../vinagre/vinagre-bookmarks-ui.c:190
 #: ../vinagre/vinagre-bookmarks-ui.c:201
 msgid "Invalid name for this item"
-msgstr ""
+msgstr "Ógilt nafn á þessu atriði"
 
 #. Translators: %s is a protocol name, like VNC or SSH
 #: ../vinagre/vinagre-bookmarks-ui.c:168
 #, c-format
 msgid "(Protocol: %s)"
-msgstr ""
+msgstr "(samskiptamáti: %s)"
 
 #. Translators: %s is a bookmark entry name
 #: ../vinagre/vinagre-bookmarks-ui.c:306
@@ -807,14 +813,13 @@ msgstr ""
 
 #: ../vinagre/vinagre-bookmarks-ui.c:318
 msgid "Remove Item?"
-msgstr ""
+msgstr "Fjarlægja atriði?"
 
 #: ../vinagre/vinagre-bookmarks-ui.c:335
 msgid "Error removing bookmark: Entry not found"
 msgstr ""
 
 #: ../vinagre/vinagre-bookmarks-ui.c:352
-#, fuzzy
 msgid "New Folder"
 msgstr "Ný mappa"
 
@@ -855,7 +860,7 @@ msgstr ""
 
 #: ../vinagre/vinagre-connect.c:360
 msgid "Choose a Remote Desktop"
-msgstr ""
+msgstr "Veldu fjartengt skjáborð"
 
 #: ../vinagre/vinagre-connection.c:614 ../vinagre/vinagre-tab.c:574
 #: ../vinagre/vinagre-tube-handler.c:257
@@ -874,7 +879,7 @@ msgstr ""
 #. Setup command line options
 #: ../vinagre/vinagre-main.c:91
 msgid "- Remote Desktop Viewer"
-msgstr ""
+msgstr "- Skoða fjartengdar tölvur"
 
 #: ../vinagre/vinagre-mdns.c:172
 #, c-format
@@ -906,10 +911,9 @@ msgstr ""
 #: ../vinagre/vinagre-notebook.c:462
 #, c-format
 msgid "Connection to host %s was closed."
-msgstr ""
+msgstr "Tengingu við vélina %s var lokað."
 
 #: ../vinagre/vinagre-notebook.c:464
-#, fuzzy
 msgid "Connection closed"
 msgstr "Tengingu lokað"
 
@@ -920,18 +924,16 @@ msgid "Authentication for host %s has failed"
 msgstr ""
 
 #: ../vinagre/vinagre-notebook.c:489
-#, fuzzy
 msgid "Authentication failed"
 msgstr "Auðkenning mistókst"
 
 #: ../vinagre/vinagre-notebook.c:537
-#, fuzzy
 msgid "Connecting…"
 msgstr "Tengist…"
 
 #: ../vinagre/vinagre-notebook.c:559
 msgid "Close connection"
-msgstr ""
+msgstr "Loka tengingu"
 
 #. Translators: this is a command line option (run vinagre --help)
 #: ../vinagre/vinagre-options.c:33
@@ -954,19 +956,17 @@ msgid "Open a file recognized by Vinagre"
 msgstr ""
 
 #: ../vinagre/vinagre-options.c:45
-#, fuzzy
 msgid "filename"
 msgstr "skráarheiti"
 
 #: ../vinagre/vinagre-options.c:48
-#, fuzzy
 msgid "Show help"
-msgstr "Sýna hjálp"
+msgstr "Birta hjálp"
 
 #. Translators: this is a command line option (run vinagre --help)
 #: ../vinagre/vinagre-options.c:53
 msgid "[server:port]"
-msgstr ""
+msgstr "[miðlari:gátt]"
 
 #: ../vinagre/vinagre-options.c:127
 #, c-format
@@ -976,8 +976,8 @@ msgstr ""
 #: ../vinagre/vinagre-options.c:145
 msgid "The following error has occurred:"
 msgid_plural "The following errors have occurred:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Eftirfarandi villa kom upp:"
+msgstr[1] "Eftirfarandi villur komu upp:"
 
 #: ../vinagre/vinagre-prefs.c:83
 msgid "Cannot initialize preferences manager."
@@ -985,7 +985,7 @@ msgstr ""
 
 #: ../vinagre/vinagre-reverse-vnc-listener-dialog.c:103
 msgid "IPv4:"
-msgstr ""
+msgstr "IPv4:"
 
 #: ../vinagre/vinagre-reverse-vnc-listener-dialog.c:115
 msgid ""
@@ -993,11 +993,14 @@ msgid ""
 "\n"
 "IPv6:"
 msgstr ""
+"\n"
+"\n"
+"IPv6:"
 
 #: ../vinagre/vinagre-reverse-vnc-listener-dialog.c:175
 #, c-format
 msgid "On the port %d"
-msgstr ""
+msgstr "Á gáttinni %d"
 
 #: ../vinagre/vinagre-reverse-vnc-listener.c:212
 msgid "Error activating reverse connections"
@@ -1014,41 +1017,36 @@ msgid "Timed out when logging into SSH host"
 msgstr ""
 
 #: ../vinagre/vinagre-ssh.c:191
-#, fuzzy
 msgid "Unable to spawn ssh program"
 msgstr "Gat ekki opnað SSH-forrit"
 
 #: ../vinagre/vinagre-ssh.c:208
-#, fuzzy, c-format
+#, c-format
 msgid "Unable to spawn ssh program: %s"
 msgstr "Gat ekki opnað SSH-forrit: %s"
 
 #: ../vinagre/vinagre-ssh.c:424
-#, fuzzy
 msgid "Timed out when logging in"
-msgstr "Féll á tíma þegar átti að skrá inn"
+msgstr "Féll á tíma við innskráningu"
 
 #: ../vinagre/vinagre-ssh.c:454 ../vinagre/vinagre-ssh.c:596
-#, fuzzy
 #: ../vinagre/vinagre-ssh.c:692
 msgid "Permission denied"
 msgstr "Aðgangi hafnað"
 
 #: ../vinagre/vinagre-ssh.c:513
 msgid "Password dialog canceled"
-msgstr ""
+msgstr "Hætt við að spyrja um lykilorð"
 
 #: ../vinagre/vinagre-ssh.c:530
 msgid "Could not send password"
-msgstr ""
+msgstr "Tókst ekki að senda lykilorð"
 
 #: ../vinagre/vinagre-ssh.c:538
-#, fuzzy
 msgid "Log In Anyway"
-msgstr "Skrá sig samt"
+msgstr "Skrá sig samt inn"
 
 #: ../vinagre/vinagre-ssh.c:538
-#, fuzzy
 msgid "Cancel Login"
 msgstr "Hætta við innskráningu"
 
@@ -1074,7 +1072,7 @@ msgstr ""
 #: ../vinagre/vinagre-ssh.c:605
 #, c-format
 msgid "Secure shell password: %s"
-msgstr ""
+msgstr "Lykilorð í öruggri skel: %s"
 
 #: ../vinagre/vinagre-ssh.c:618 ../vinagre/vinagre-tab.c:798
 msgid "Error saving the credentials on the keyring."
@@ -1082,34 +1080,31 @@ msgstr ""
 
 #: ../vinagre/vinagre-ssh.c:700
 msgid "Hostname not known"
-msgstr ""
+msgstr "Vélarheiti ekki þekkt"
 
 #: ../vinagre/vinagre-ssh.c:708
 msgid "No route to host"
-msgstr ""
+msgstr "Engin leið fannst að vél"
 
 #: ../vinagre/vinagre-ssh.c:716
 msgid "Connection refused by server"
-msgstr ""
+msgstr "Tengingu hafnað af miðlara"
 
 #: ../vinagre/vinagre-ssh.c:724
-#, fuzzy
 msgid "Host key verification failed"
-msgstr "Sannreyning vélarlykils brást"
+msgstr "Sannvottun vélarlykils brást"
 
 #: ../vinagre/vinagre-ssh.c:764
 msgid "Unable to find a valid SSH program"
-msgstr ""
+msgstr "Gat ekki fundið gilt SSH-forrit"
 
 #: ../vinagre/vinagre-tab.c:354
-#, fuzzy
 msgid "Disconnect"
 msgstr "Aftengjast"
 
 #: ../vinagre/vinagre-tab.c:375
-#, fuzzy
 msgid "Leave fullscreen"
-msgstr "Fara úr heilskjá"
+msgstr "Hætta í skjáfylli"
 
 #: ../vinagre/vinagre-tab.c:537
 msgid "Error saving recent connection."
@@ -1125,18 +1120,17 @@ msgid "Could not get a screenshot of the connection."
 msgstr ""
 
 #: ../vinagre/vinagre-tab.c:902
-#, fuzzy
 msgid "Save Screenshot"
-msgstr "Vista skjámynd:"
+msgstr "Vista skjámynd"
 
 #: ../vinagre/vinagre-tab.c:916
 #, c-format
 msgid "Screenshot of %s at %s"
-msgstr ""
+msgstr "Skjámynd af %s á %s"
 
 #: ../vinagre/vinagre-tab.c:970
 msgid "Error saving screenshot"
-msgstr ""
+msgstr "Villa við að vista skjámynd"
 
 #: ../vinagre/vinagre-tube-handler.c:233
 #, c-format
@@ -1171,26 +1165,22 @@ msgstr ""
 
 #: ../vinagre/vinagre-tube-handler.c:540
 msgid "Desktop sharing invitation"
-msgstr ""
+msgstr "Boð um skjáborðsmiðlun"
 
 #. Toplevel
 #: ../vinagre/vinagre-ui.h:33
-#, fuzzy
 msgid "_Remote"
 msgstr "Fja_rtengt"
 
 #: ../vinagre/vinagre-ui.h:34
-#, fuzzy
 msgid "_Edit"
 msgstr "Br_eyta"
 
 #: ../vinagre/vinagre-ui.h:35
-#, fuzzy
 msgid "_View"
 msgstr "S_koða"
 
 #: ../vinagre/vinagre-ui.h:36
-#, fuzzy
 msgid "_Bookmarks"
 msgstr "_Bókamerki"
 
@@ -1200,7 +1190,7 @@ msgstr "_Hjálp"
 
 #: ../vinagre/vinagre-ui.h:41
 msgid "Connect to a remote desktop"
-msgstr ""
+msgstr "Tengjast fjartengdu skjáborði"
 
 #: ../vinagre/vinagre-ui.h:43
 msgid "Open a .VNC file"
@@ -1209,7 +1199,7 @@ msgstr "Opna .VNC skrá"
 #. Translators: "Reverse" here is an adjective, not a verb.
 #: ../vinagre/vinagre-ui.h:45
 msgid "_Reverse Connections…"
-msgstr ""
+msgstr "S_núa við tengingum…"
 
 #: ../vinagre/vinagre-ui.h:45
 msgid "Configure incoming VNC connections"
@@ -1221,25 +1211,22 @@ msgstr "Hætta í forritinu"
 
 #. Help menu
 #: ../vinagre/vinagre-ui.h:51
-#, fuzzy
 msgid "_Contents"
 msgstr "_Innihald"
 
 #: ../vinagre/vinagre-ui.h:52
 msgid "Open the Vinagre manual"
-msgstr ""
+msgstr "Opna Vinagre handbókina"
 
 #: ../vinagre/vinagre-ui.h:54
-#, fuzzy
 msgid "About this application"
 msgstr "Um þetta forrit"
 
 #: ../vinagre/vinagre-ui.h:59
 msgid "_Keyboard shortcuts"
-msgstr ""
+msgstr "Flýtily_klar"
 
 #: ../vinagre/vinagre-ui.h:60
-#, fuzzy
 msgid "Enable keyboard shortcuts"
 msgstr "Virkja flýtileiðir á lyklaborði"
 
@@ -1248,46 +1235,42 @@ msgid "_Toolbar"
 msgstr "_Tækjaslá"
 
 #: ../vinagre/vinagre-ui.h:63
-#, fuzzy
 msgid "Show or hide the toolbar"
-msgstr "Sýna eða fela tækjastikuna"
+msgstr "Sýna eða fela verkfærastikuna"
 
 #: ../vinagre/vinagre-ui.h:66
 msgid "_Statusbar"
 msgstr "_Stöðuslá"
 
 #: ../vinagre/vinagre-ui.h:67
-#, fuzzy
 msgid "Show or hide the statusbar"
 msgstr "Sýna eða fela stöðustikuna"
 
 #: ../vinagre/vinagre-ui.h:75
 msgid "Disconnect the current connection"
-msgstr ""
+msgstr "Aftengja núverandi tengingu"
 
 #: ../vinagre/vinagre-ui.h:76
 msgid "Disconnect All"
-msgstr ""
+msgstr "Aftengja allt"
 
 #: ../vinagre/vinagre-ui.h:77
 msgid "Disconnect all connections"
-msgstr ""
+msgstr "Aftengja allar tengingar"
 
 #. Bookmarks menu
 #: ../vinagre/vinagre-ui.h:80
-#, fuzzy
 msgid "_Add Bookmark"
 msgstr "Bæt_a við bókamerki"
 
 #: ../vinagre/vinagre-ui.h:81
 msgid "Add the current connection to your bookmarks"
-msgstr ""
+msgstr "Setja núverandi tengingu í bókamerki"
 
 #. Remote menu
 #: ../vinagre/vinagre-ui.h:88
-#, fuzzy
 msgid "_Take Screenshot"
-msgstr "_Vista skjáskot"
+msgstr "_Taka skjámynd"
 
 #: ../vinagre/vinagre-ui.h:89
 msgid "Take a screenshot of the current remote desktop"
@@ -1298,7 +1281,6 @@ msgid "View the current remote desktop in fullscreen mode"
 msgstr ""
 
 #: ../vinagre/vinagre-utils.vala:40
-#, fuzzy
 msgid "An error occurred"
 msgstr "Villa kom upp"
 
@@ -1307,23 +1289,22 @@ msgid "Vinagre failed to open a UI file, with the error message:"
 msgstr ""
 
 #: ../vinagre/vinagre-utils.vala:85
-#, fuzzy
 msgid "Please check your installation."
 msgstr "Athugaðu uppsetninguna þína."
 
 #: ../vinagre/vinagre-utils.vala:89
 msgid "Error loading UI file"
-msgstr ""
+msgstr "Villa við að hlaða inn UI-skrá"
 
 #. Translators: %s is a protocol, like VNC or SSH
 #: ../vinagre/vinagre-utils.vala:112
 #, c-format
 msgid "%s authentication is required"
-msgstr ""
+msgstr "Auðkenningar er krafist fyrir %s"
 
 #: ../vinagre/vinagre-utils.vala:193
 msgid "Error showing help"
-msgstr ""
+msgstr "Villa við birtingu hjálpar"
 
 #: ../vinagre/vinagre-window.c:390
 #, c-format
@@ -1332,7 +1313,7 @@ msgstr ""
 
 #: ../vinagre/vinagre-window.c:421
 msgid "_Recent Connections"
-msgstr ""
+msgstr "_Nýlegar tengingar"
 
 #. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
 #: ../vinagre/vinagre-window.c:579
@@ -1350,10 +1331,10 @@ msgstr ""
 
 #: ../vinagre/vinagre-window.c:779
 msgid "Enable shortcuts"
-msgstr ""
+msgstr "Virkja flýtilykla"
 
 #: ../vinagre/vinagre-window.c:792 ../vinagre/vinagre-window.c:798
 #, c-format
 msgid "Error while creating the file %s: %s"
-msgstr ""
+msgstr "Villa kom upp við að búa til skrána %s: %s"
 
