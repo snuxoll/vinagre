@@ -5,15 +5,15 @@
 # Žygimantas Beručka <zygis@gnome.org>, 2010.
 # Rimas Kudelis <rq@akl.lt>, 2010.
 # Algimantas Margevičius <gymka@mail.ru>, 2011.
-# Aurimas Černius <aurisc4@gmail.com>, 2013, 2014, 2015.
+# Aurimas Černius <aurisc4@gmail.com>, 2013, 2014, 2015, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-12-17 15:06+0000\n"
-"PO-Revision-Date: 2015-12-17 22:44+0200\n"
+"POT-Creation-Date: 2016-01-05 03:05+0000\n"
+"PO-Revision-Date: 2016-01-10 17:38+0200\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
 "%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Gtranslator 2.91.7\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
 msgid "Whether we should leave other clients connected"
@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Jungiantis prie serverio, klientas gali paprašyti atjungti kitus klientus "
 "arba palikti juos prijungtus.  Nustatykite „ŧrue“, jei norite dalintis "
-"darbastalį su kitais klientais."
+"darbalaukiu su kitais klientais."
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:3
 msgid ""
@@ -92,16 +92,16 @@ msgstr ""
 #: ../data/vinagre.appdata.xml.in.h:2 ../data/vinagre.desktop.in.in.h:1
 #: ../data/vinagre-file.desktop.in.in.h:1 ../vinagre/vinagre-main.c:182
 msgid "Remote Desktop Viewer"
-msgstr "Nutolusių darbastalių rodymo programa"
+msgstr "Nutolusių darbalaukių rodymo programa"
 
 #: ../data/vinagre.appdata.xml.in.h:3 ../data/vinagre.desktop.in.in.h:2
 #: ../data/vinagre-file.desktop.in.in.h:2
 msgid "Access remote desktops"
-msgstr "Junkitės prie nutolusių darbastalių"
+msgstr "Junkitės prie nutolusių darbalaukių"
 
 #: ../data/vinagre.appdata.xml.in.h:4
 msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
-msgstr "Vinagre rodo nutolusius Windows, Max OS X bei Linux darbastalius."
+msgstr "Vinagre rodo nutolusius Windows, Max OS X bei Linux darbalaukius."
 
 #: ../data/vinagre.appdata.xml.in.h:5
 msgid ""
@@ -117,7 +117,7 @@ msgstr "VNC;RDP;SSH;"
 
 #: ../data/vinagre.ui.h:1
 msgid "Vinagre is a remote desktop viewer for the GNOME desktop"
-msgstr "Vinagre yra nutolusių darbastalių rodymo programa GNOME aplinkai"
+msgstr "Vinagre yra nutolusių darbalaukių rodymo programa GNOME aplinkai"
 
 #. Add your name here to appear as a translator in the about dialog
 #: ../data/vinagre.ui.h:3
@@ -181,7 +181,7 @@ msgstr "_Kompiuteris:"
 
 #: ../data/vinagre.ui.h:18
 msgid "Options"
-msgstr "Parinktys"
+msgstr "Parametrai"
 
 #: ../data/vinagre.ui.h:19
 msgid "_Full screen"
@@ -251,7 +251,7 @@ msgstr "Prisijungti"
 
 #: ../data/vinagre.ui.h:39
 msgid "Choose a remote desktop to connect to"
-msgstr "Pasirinkite nutolusį darbastalį"
+msgstr "Pasirinkite nutolusį darbalaukį"
 
 #: ../data/vinagre.ui.h:40
 msgid "_Protocol:"
@@ -259,7 +259,7 @@ msgstr "_Protokolas:"
 
 #: ../data/vinagre.ui.h:41
 msgid "Select a remote desktop protocol for this connection"
-msgstr "Pasirinkite nutolusio darbastalio protokolą šiam ryšiui"
+msgstr "Pasirinkite nutolusio darbalaukio protokolą šiam ryšiui"
 
 #: ../data/vinagre.ui.h:42
 msgid "Search for remote hosts on the network"
@@ -267,7 +267,7 @@ msgstr "Ieškoti nutolusių kompiuterių tinkle"
 
 #: ../data/vinagre.ui.h:43
 msgid "Connection options"
-msgstr "Ryšio parinktys"
+msgstr "Ryšio parametrai"
 
 #: ../data/vinagre.ui.h:44
 msgid "_Fullscreen"
@@ -302,7 +302,7 @@ msgstr "_Visada įjungta"
 
 #: ../data/vinagre.ui.h:51
 msgid "This desktop is reachable through the following IP address(es):"
-msgstr "Šį darbastalį galima pasiekti šiuo (-iais) IP adresu (-ais):"
+msgstr "Šį darbalaukį galima pasiekti šiuo (-iais) IP adresu (-ais):"
 
 #: ../data/vinagre.ui.h:52
 msgid "Connectivity"
@@ -310,11 +310,11 @@ msgstr "Ryšiai"
 
 #: ../data/vinagre-mime.xml.in.h:1
 msgid "Remote Desktop (VNC) file"
-msgstr "Nutolusio darbastalio (VNC) failas"
+msgstr "Nutolusio darbalaukio (VNC) failas"
 
 #: ../data/vinagre-mime.xml.in.h:2
 msgid "Remote Desktop Connection"
-msgstr "Prisijungimas prie nutolusio darbastalio"
+msgstr "Prisijungimas prie nutolusio darbalaukio"
 
 #: ../plugins/rdp/vinagre-rdp-plugin.c:61
 msgid "RDP"
@@ -323,11 +323,11 @@ msgstr "RDP"
 #. Translators: This is a description of the RDP protocol. It appears in the Connect dialog.
 #: ../plugins/rdp/vinagre-rdp-plugin.c:63
 msgid "Access MS Windows remote desktops"
-msgstr "Junkitės prie nutolusių MS Windows darbastalių"
+msgstr "Junkitės prie nutolusių MS Windows darbalaukių"
 
 #: ../plugins/rdp/vinagre-rdp-plugin.c:111
 msgid "RDP Options"
-msgstr "RDP parinktys"
+msgstr "RDP parametrai"
 
 #. Scaling check button
 #: ../plugins/rdp/vinagre-rdp-plugin.c:120
@@ -361,7 +361,7 @@ msgstr "_Plotis:"
 #. Translators: This is the tooltip for the width field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:176
 msgid "Set width of the remote desktop"
-msgstr "Nustatyti nutolusio darbastalio plotį"
+msgstr "Nustatyti nutolusio darbalaukio plotį"
 
 #. Host height
 #: ../plugins/rdp/vinagre-rdp-plugin.c:189
@@ -371,7 +371,7 @@ msgstr "_Aukštis:"
 #. Translators: This is the tooltip for the height field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:196
 msgid "Set height of the remote desktop"
-msgstr "Nustatyti nutolusio darbastalio aukštį"
+msgstr "Nustatyti nutolusio darbalaukio aukštį"
 
 #: ../plugins/rdp/vinagre-rdp-tab.c:135 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
@@ -416,7 +416,7 @@ msgstr "Prisijungti prie Unix/Linux terminalų"
 
 #: ../plugins/ssh/vinagre-ssh-plugin.c:103
 msgid "SSH Options"
-msgstr "SSH parinktys"
+msgstr "SSH parametrai"
 
 #. Translators: 'shared' here is a VNC protocol specific flag. You can translate it, but I think it's better to let it untranslated
 #: ../plugins/vnc/vinagre-vnc-connection.c:317
@@ -436,12 +436,12 @@ msgstr "Įjungti mastelio keitimo veikseną"
 #. Translators: this is a command line option (run vinagre --help)
 #: ../plugins/vnc/vinagre-vnc-plugin.c:65
 msgid "VNC Options:"
-msgstr "VNC parinktys:"
+msgstr "VNC parametrai:"
 
 #. Translators: this is a command line option (run vinagre --help)
 #: ../plugins/vnc/vinagre-vnc-plugin.c:67
 msgid "Show VNC Options"
-msgstr "Rodyti VNC parinktis"
+msgstr "Rodyti VNC parametrus"
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:89
 msgid "VNC"
@@ -449,7 +449,7 @@ msgstr "VNC"
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:90
 msgid "Access Unix/Linux, Windows and other remote desktops."
-msgstr "Prisijungti prie Unix/Linux, Windows ir kitų darbastalių."
+msgstr "Prisijungti prie Unix/Linux, Windows ir kitų darbalaukių."
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:147
 #: ../plugins/spice/vinagre-spice-plugin.c:101
@@ -468,7 +468,7 @@ msgstr "Tai ne VNC failas: nėra rakto „Host“."
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:268
 msgid "VNC Options"
-msgstr "VNC parinktys"
+msgstr "VNC parametrai"
 
 #. View only check button
 #. View only check button - not fully ready on spice-gtk side
@@ -498,7 +498,7 @@ msgstr "Spalvų _gylis:"
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:325
 msgid "Use Server Settings"
-msgstr "Naudoti serverio parametrus"
+msgstr "Naudoti serverio nustatymus"
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:326
 msgid "True Color (24 bits)"
@@ -551,7 +551,7 @@ msgstr "VNC failai"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:148
 msgid "Desktop Name:"
-msgstr "Darbastalio pavadinimas:"
+msgstr "Darbalaukio pavadinimas:"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:151
 msgid "Dimensions:"
@@ -609,7 +609,7 @@ msgstr "_Pradinis dydis"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:645
 msgid "Adjust the window to the size of the remote desktop"
-msgstr "Priderinti langą prie nuotolinio darbastalio dydžio"
+msgstr "Priderinti langą prie nuotolinio darbalaukio dydžio"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:658
 msgid "_Refresh Screen"
@@ -677,11 +677,11 @@ msgstr "SPICE"
 #. Translators: This is a description of the SPICE protocol. It appears at Connect dialog.
 #: ../plugins/spice/vinagre-spice-plugin.c:176
 msgid "Access Spice desktop server"
-msgstr "Junkitės prie Spice darbastalių serverio"
+msgstr "Junkitės prie Spice darbalaukių serverio"
 
 #: ../plugins/spice/vinagre-spice-plugin.c:224
 msgid "SPICE Options"
-msgstr "SPICE parinktys"
+msgstr "SPICE parametrai"
 
 #. Resize guest check button
 #: ../plugins/spice/vinagre-spice-plugin.c:245
@@ -859,7 +859,7 @@ msgstr "Naujas aplankas"
 #: ../vinagre/vinagre-cache-prefs.c:57
 #, c-format
 msgid "Error while saving preferences: %s"
-msgstr "Klaida įrašant nustatymus: %s"
+msgstr "Klaida įrašant nuostatas: %s"
 
 #: ../vinagre/vinagre-commands.c:115
 msgid "Choose the file"
@@ -896,7 +896,7 @@ msgstr "Klaida įrašant retrospektyvos failą: %s"
 
 #: ../vinagre/vinagre-connect.c:360
 msgid "Choose a Remote Desktop"
-msgstr "Pasirinkite nutolusį darbastalį"
+msgstr "Pasirinkite nutolusį darbalaukį"
 
 #: ../vinagre/vinagre-connection.c:658 ../vinagre/vinagre-tab.c:590
 #: ../vinagre/vinagre-tube-handler.c:257
@@ -915,7 +915,7 @@ msgstr "Failo neatpažino joks įskiepis."
 #. Setup command line options
 #: ../vinagre/vinagre-main.c:91
 msgid "- Remote Desktop Viewer"
-msgstr "– Nutolusių darbastalių rodymo programa"
+msgstr "– Nutolusių darbalaukių rodymo programa"
 
 #: ../vinagre/vinagre-mdns.c:172
 #, c-format
@@ -979,7 +979,7 @@ msgstr "Nurodykite pagrindinio Vinagre lango geometriją"
 #. Translators: this is a command line option (run vinagre --help)
 #: ../vinagre/vinagre-options.c:37
 msgid "Open Vinagre in fullscreen mode"
-msgstr "Atverti Vinagre viso ekrano veiksena"
+msgstr "Atverti Vinagre viso ekrano veiksenoje"
 
 #. Translators: this is a command line option (run vinagre --help)
 #: ../vinagre/vinagre-options.c:41
@@ -1018,7 +1018,7 @@ msgstr[2] "Įvyko klaidos:"
 
 #: ../vinagre/vinagre-prefs.c:83
 msgid "Cannot initialize preferences manager."
-msgstr "Nepavyko inicializuoti nustatymų valdyklės."
+msgstr "Nepavyko inicijuoti nuostatų tvarkytuvės."
 
 #: ../vinagre/vinagre-reverse-vnc-listener-dialog.c:103
 msgid "IPv4:"
@@ -1162,7 +1162,7 @@ msgstr "Klaida įrašant neseną prisijungimą."
 #: ../vinagre/vinagre-tab.c:844
 #, c-format
 msgid "Remote desktop password for %s"
-msgstr "Nutolusio darbastalio %s slaptažodis"
+msgstr "Nutolusio darbalaukio %s slaptažodis"
 
 #: ../vinagre/vinagre-tab.c:961
 msgid "Could not get a screenshot of the connection."
@@ -1210,11 +1210,11 @@ msgstr "Nepavyko gauti avataro: %s"
 #: ../vinagre/vinagre-tube-handler.c:535
 #, c-format
 msgid "%s wants to share their desktop with you."
-msgstr "%s nori su jumis pasidalinti savo darbastaliu."
+msgstr "%s nori su jumis pasidalinti savo darbalaukiu."
 
 #: ../vinagre/vinagre-tube-handler.c:540
 msgid "Desktop sharing invitation"
-msgstr "Darbastalio dalijimosi kvietimas"
+msgstr "Darbalaukio dalijimosi kvietimas"
 
 #. Toplevel
 #: ../vinagre/vinagre-ui.h:33
@@ -1239,7 +1239,7 @@ msgstr "_Žinynas"
 
 #: ../vinagre/vinagre-ui.h:41
 msgid "Connect to a remote desktop"
-msgstr "Prisijungti prie nutolusio darbastalio"
+msgstr "Prisijungti prie nutolusio darbalaukio"
 
 #: ../vinagre/vinagre-ui.h:43
 msgid "Open a .VNC file"
@@ -1323,11 +1323,11 @@ msgstr "Padaryti ekrano _nuotrauką"
 
 #: ../vinagre/vinagre-ui.h:89
 msgid "Take a screenshot of the current remote desktop"
-msgstr "Padaryti aktyvaus nutolusio darbastalio ekrano nuotrauką"
+msgstr "Padaryti aktyvaus nutolusio darbalaukio ekrano nuotrauką"
 
 #: ../vinagre/vinagre-ui.h:93
 msgid "View the current remote desktop in fullscreen mode"
-msgstr "Rodyti dabartinį nutolusį darbastalį visame ekrane"
+msgstr "Rodyti dabartinį nutolusį darbalaukį visame ekrane"
 
 #: ../vinagre/vinagre-utils.vala:40
 msgid "An error occurred"
@@ -1378,7 +1378,7 @@ msgid ""
 "This message will appear only once."
 msgstr ""
 "Vinagre numatytai išjungia sparčiuosius klavišus, kad bet kokie spartieji "
-"klavišai būtų siunčiami į nutolusį darbastalį.\n"
+"klavišai būtų siunčiami į nutolusį darbalaukį.\n"
 "\n"
 "Šis pranešimas rodomas tik kartą."
 
