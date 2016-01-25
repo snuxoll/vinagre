@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2014 David King <amigadave@amigadave.com> -->
-<application>
-    <id type="desktop">vinagre.desktop</id>
-    <metadata_license>CC0-1.0</metadata_license>
-<!-- Both taken from the desktop file. -->
-    <_name>Remote Desktop Viewer</_name>
-    <_summary>Access remote desktops</_summary>
-    <description>
-        <_p>Vinagre shows remote Windows, Mac OS X and Linux desktops.</_p>
-        <_p>It uses the VNC, RDP and SPICE protocols, and can even be used to
+<component type="desktop">
+  <id>vinagre.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0+</project_license>
+
+  <!-- Both taken from the desktop file. -->
+  <_name>Remote Desktop Viewer</_name>
+  <_summary>Access remote desktops</_summary>
+  <description>
+    <_p>Vinagre shows remote Windows, Mac OS X and Linux desktops.</_p>
+    <_p>It uses the VNC, RDP and SPICE protocols, and can even be used to
         connect to SSH servers.</_p>
-    </description>
-    <url type="homepage">https://wiki.gnome.org/Apps/Vinagre</url>
-    <screenshots>
-        <screenshot type="default">http://amigadave.com/temp/vinagre-default.png</screenshot>
-    </screenshots>
-    <updatecontact>amigadave@amigadave.com</updatecontact>
-    <project_group>GNOME</project_group>
-</application>
+  </description>
+  <url type="homepage">https://wiki.gnome.org/Apps/Vinagre</url>
+  <url type="bugtracker">https://bugzilla.gnome.org/enter_bug.cgi?product=vinagre</url>
+  <url type="donation">http://www.gnome.org/friends/</url>
+  <url type="help">https://help.gnome.org/users/vinagre/stable/</url>
+  <screenshots>
+    <screenshot type="default">
+      <image>http://amigadave.com/temp/vinagre-default.png</image>
+      <_caption><!-- Describe this screenshot in less than ~10 words --></_caption>
+    </screenshot>
+  </screenshots>
+  <update_contact>amigadave@amigadave.com</update_contact>
+  <project_group>GNOME</project_group>
+  <translation type="gettext"> vinagre</translation>
+</component>
