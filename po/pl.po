@@ -5,15 +5,15 @@
 # gnomepl@aviary.pl
 # -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 # Tomasz Dominikowski <dominikowski@gmail.com>, 2007-2009.
-# Piotr Drąg <piotrdrag@gmail.com>, 2010-2015.
+# Piotr Drąg <piotrdrag@gmail.com>, 2010-2016.
 # Paweł Żołnowski <pawel@zolnowski.name>, 2014.
-# Aviary.pl <gnomepl@aviary.pl>, 2007-2015.
+# Aviary.pl <gnomepl@aviary.pl>, 2007-2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-25 13:20+0200\n"
-"PO-Revision-Date: 2015-08-25 13:21+0200\n"
+"POT-Creation-Date: 2016-02-06 16:01+0100\n"
+"PO-Revision-Date: 2016-02-06 16:02+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -128,9 +128,9 @@ msgstr "Vinagre to przeglądarka zdalnych pulpitów dla środowiska GNOME"
 msgid "translator-credits"
 msgstr ""
 "Tomasz Dominikowski <dominikowski@gmail.com>, 2007-2009\n"
-"Piotr Drąg <piotrdrag@gmail.com>, 2010-2015\n"
+"Piotr Drąg <piotrdrag@gmail.com>, 2010-2016\n"
 "Paweł Żołnowski <pawel@zolnowski.name>, 2014\n"
-"Aviary.pl <gnomepl@aviary.pl>, 2007-2015"
+"Aviary.pl <gnomepl@aviary.pl>, 2007-2016"
 
 #. This is a button label, in the authentication dialog
 #: ../data/vinagre.ui.h:5
@@ -141,13 +141,13 @@ msgstr "_Uwierzytelnij"
 msgid "Authentication is required"
 msgstr "Wymagane jest uwierzytelnienie"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:119
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:134
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
 #: ../plugins/spice/vinagre-spice-tab.c:142
 msgid "Host:"
 msgstr "Komputer:"
 
-#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:118
+#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:130
 #: ../plugins/ssh/vinagre-ssh-plugin.c:112
 msgid "_Username:"
 msgstr "_Nazwa użytkownika:"
@@ -156,7 +156,7 @@ msgstr "_Nazwa użytkownika:"
 msgid "_Password:"
 msgstr "_Hasło:"
 
-#: ../data/vinagre.ui.h:10
+#: ../data/vinagre.ui.h:10 ../plugins/rdp/vinagre-rdp-plugin.c:149
 msgid "_Domain:"
 msgstr "_Domena:"
 
@@ -250,8 +250,8 @@ msgstr ""
 msgid "Fingerprint:"
 msgstr "Odcisk palca:"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:763
-#: ../plugins/rdp/vinagre-rdp-tab.c:804
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:937
+#: ../plugins/rdp/vinagre-rdp-tab.c:978
 msgid "Connect"
 msgstr "Połącz"
 
@@ -335,9 +335,16 @@ msgstr "Dostęp do zdalnych pulpitów systemu MS Windows"
 msgid "RDP Options"
 msgstr "Opcje RDP"
 
+#. Scaling check button
+#: ../plugins/rdp/vinagre-rdp-plugin.c:120
+#: ../plugins/vnc/vinagre-vnc-plugin.c:285
+#: ../plugins/spice/vinagre-spice-plugin.c:261
+msgid "_Scaling"
+msgstr "_Skalowanie"
+
 #. Translators: This is the tooltip for the username field in a RDP connection
 #. Translators: This is the tooltip for the username field in a SSH connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:125
+#: ../plugins/rdp/vinagre-rdp-plugin.c:137
 #: ../plugins/ssh/vinagre-ssh-plugin.c:117
 msgid ""
 "Optional. If blank, your username will be used. Also, it can be supplied in "
@@ -347,37 +354,59 @@ msgstr ""
 "bieżącego użytkownika. Nazwa użytkownika może także zostać podana w polu "
 "Komputer powyżej, w formie nazwa-użytkownika@nazwa-komputera."
 
+#. Translators: This is the tooltip for the domain field in a RDP connection
+#: ../plugins/rdp/vinagre-rdp-plugin.c:156
+msgid "Optional."
+msgstr "Opcjonalne."
+
 #. Host width
-#: ../plugins/rdp/vinagre-rdp-plugin.c:138
+#: ../plugins/rdp/vinagre-rdp-plugin.c:169
 msgid "_Width:"
 msgstr "_Szerokość:"
 
 #. Translators: This is the tooltip for the width field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:145
+#: ../plugins/rdp/vinagre-rdp-plugin.c:176
 msgid "Set width of the remote desktop"
 msgstr "Ustawia szerokość zdalnego pulpitu"
 
 #. Host height
-#: ../plugins/rdp/vinagre-rdp-plugin.c:158
+#: ../plugins/rdp/vinagre-rdp-plugin.c:189
 msgid "_Height:"
 msgstr "_Wysokość:"
 
 #. Translators: This is the tooltip for the height field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:165
+#: ../plugins/rdp/vinagre-rdp-plugin.c:196
 msgid "Set height of the remote desktop"
 msgstr "Ustawia wysokość zdalnego pulpitu"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:120 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:135 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:143
 msgid "Port:"
 msgstr "Port:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:762 ../plugins/rdp/vinagre-rdp-tab.c:803
+#: ../plugins/rdp/vinagre-rdp-tab.c:283 ../plugins/vnc/vinagre-vnc-tab.c:601
+#: ../plugins/spice/vinagre-spice-tab.c:473
+msgid "S_caling"
+msgstr "S_kalowanie"
+
+#: ../plugins/rdp/vinagre-rdp-tab.c:284 ../plugins/vnc/vinagre-vnc-tab.c:602
+#: ../plugins/spice/vinagre-spice-tab.c:474
+msgid "Fit the remote screen into the current window size"
+msgstr "Dopasowuje zdalny ekran do bieżącego rozmiaru okna"
+
+#: ../plugins/rdp/vinagre-rdp-tab.c:357 ../plugins/rdp/vinagre-rdp-tab.c:358
+#: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
+#: ../plugins/spice/vinagre-spice-tab.c:591
+#: ../plugins/spice/vinagre-spice-tab.c:592
+msgid "Scaling"
+msgstr "Skalowanie"
+
+#: ../plugins/rdp/vinagre-rdp-tab.c:936 ../plugins/rdp/vinagre-rdp-tab.c:977
 msgid "_Cancel"
 msgstr "_Anuluj"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:999 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:1212 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:267
 msgid "Error connecting to host."
 msgstr "Błąd podczas łączenia z komputerem."
@@ -448,18 +477,11 @@ msgstr "Opcje VNC"
 
 #. View only check button
 #. View only check button - not fully ready on spice-gtk side
-#: ../plugins/vnc/vinagre-vnc-plugin.c:276
-#: ../plugins/vnc/vinagre-vnc-tab.c:630
+#: ../plugins/vnc/vinagre-vnc-plugin.c:276 ../plugins/vnc/vinagre-vnc-tab.c:630
 #: ../plugins/spice/vinagre-spice-plugin.c:237
-#: ../plugins/spice/vinagre-spice-tab.c:510
+#: ../plugins/spice/vinagre-spice-tab.c:514
 msgid "_View only"
 msgstr "_Tylko podgląd"
-
-#. Scaling check button
-#: ../plugins/vnc/vinagre-vnc-plugin.c:285
-#: ../plugins/spice/vinagre-spice-plugin.c:261
-msgid "_Scaling"
-msgstr "_Skalowanie"
 
 #. Keep ratio check button
 #: ../plugins/vnc/vinagre-vnc-plugin.c:299
@@ -576,16 +598,6 @@ msgid "A password is required in order to access this remote desktop."
 msgstr ""
 "Wymagane jest podanie hasła, aby uzyskać dostęp do tego zdalnego pulpitu."
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:601
-#: ../plugins/spice/vinagre-spice-tab.c:469
-msgid "S_caling"
-msgstr "S_kalowanie"
-
-#: ../plugins/vnc/vinagre-vnc-tab.c:602
-#: ../plugins/spice/vinagre-spice-tab.c:470
-msgid "Fit the remote screen into the current window size"
-msgstr "Dopasowuje zdalny ekran do bieżącego rozmiaru okna"
-
 #: ../plugins/vnc/vinagre-vnc-tab.c:615
 msgid "_Keep Aspect Ratio"
 msgstr "Utrzy_mywanie proporcji obrazu"
@@ -595,7 +607,7 @@ msgid "Keep the screen aspect ratio when using scaling"
 msgstr "Utrzymuje proporcje obrazu podczas skalowania"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
-#: ../plugins/spice/vinagre-spice-tab.c:511
+#: ../plugins/spice/vinagre-spice-tab.c:515
 msgid "Do not send mouse and keyboard events"
 msgstr "Nie przesyła zdarzeń myszy i klawiatury"
 
@@ -616,31 +628,25 @@ msgid "Requests an update of the screen"
 msgstr "Wysyła żądanie odświeżenia ekranu"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:681
-#: ../plugins/spice/vinagre-spice-tab.c:534
+#: ../plugins/spice/vinagre-spice-tab.c:538
 msgid "_Send Ctrl-Alt-Del"
 msgstr "_Wyślij Ctrl-Alt-Del"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
-#: ../plugins/spice/vinagre-spice-tab.c:535
-#: ../plugins/spice/vinagre-spice-tab.c:608
+#: ../plugins/spice/vinagre-spice-tab.c:539
+#: ../plugins/spice/vinagre-spice-tab.c:612
 msgid "Send Ctrl+Alt+Del to the remote desktop"
 msgstr "Wysyła Ctrl+Alt+Del do zdalnego pulpitu"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
-#: ../plugins/spice/vinagre-spice-tab.c:587
-#: ../plugins/spice/vinagre-spice-tab.c:588
-msgid "Scaling"
-msgstr "Skalowanie"
-
 #: ../plugins/vnc/vinagre-vnc-tab.c:745 ../plugins/vnc/vinagre-vnc-tab.c:746
-#: ../plugins/spice/vinagre-spice-tab.c:597
-#: ../plugins/spice/vinagre-spice-tab.c:598
+#: ../plugins/spice/vinagre-spice-tab.c:601
+#: ../plugins/spice/vinagre-spice-tab.c:602
 msgid "Read only"
 msgstr "Tylko do odczytu"
 
 #. Send Ctrl-alt-del
 #: ../plugins/vnc/vinagre-vnc-tab.c:754
-#: ../plugins/spice/vinagre-spice-tab.c:606
+#: ../plugins/spice/vinagre-spice-tab.c:610
 msgid "Send Ctrl-Alt-Del"
 msgstr "Wyślij Ctrl-Alt-Del"
 
@@ -687,13 +693,13 @@ msgstr "Opcje Spice"
 
 #. Resize guest check button
 #: ../plugins/spice/vinagre-spice-plugin.c:245
-#: ../plugins/spice/vinagre-spice-tab.c:483
+#: ../plugins/spice/vinagre-spice-tab.c:487
 msgid "_Resize guest"
 msgstr "Zmień _rozmiar gościa"
 
 #. Clipboard sharing check button
 #: ../plugins/spice/vinagre-spice-plugin.c:253
-#: ../plugins/spice/vinagre-spice-tab.c:496
+#: ../plugins/spice/vinagre-spice-tab.c:500
 msgid "_Share clipboard"
 msgstr "Współdziel _schowek"
 
@@ -707,11 +713,11 @@ msgstr "Opcjonalne"
 msgid "Spice Files"
 msgstr "Pliki Spice"
 
-#: ../plugins/spice/vinagre-spice-tab.c:484
+#: ../plugins/spice/vinagre-spice-tab.c:488
 msgid "Resize the screen guest to best fit"
 msgstr "Zmienia rozmiar ekranu gościa w celu najlepszego dopasowania"
 
-#: ../plugins/spice/vinagre-spice-tab.c:497
+#: ../plugins/spice/vinagre-spice-tab.c:501
 msgid "Automatically share clipboard between client and guest"
 msgstr "Automatycznie współdzieli schowek między klientem a gościem"
 
@@ -913,17 +919,17 @@ msgstr "Błąd podczas zapisywania pliku historii: %s"
 msgid "Choose a Remote Desktop"
 msgstr "Wybór zdalnego pulpitu"
 
-#: ../vinagre/vinagre-connection.c:614 ../vinagre/vinagre-tab.c:574
+#: ../vinagre/vinagre-connection.c:658 ../vinagre/vinagre-tab.c:590
 #: ../vinagre/vinagre-tube-handler.c:257
 #, c-format
 msgid "The protocol %s is not supported."
 msgstr "Protokół %s nie jest obsługiwany."
 
-#: ../vinagre/vinagre-connection.c:722
+#: ../vinagre/vinagre-connection.c:766
 msgid "Could not open the file."
 msgstr "Nie można otworzyć pliku."
 
-#: ../vinagre/vinagre-connection.c:748
+#: ../vinagre/vinagre-connection.c:792
 msgid "The file was not recognized by any of the plugins."
 msgstr "Plik nie został rozpoznany przez żadną z wtyczek."
 
@@ -1134,7 +1140,7 @@ msgstr "Nie można wysłać potwierdzenia tożsamości komputera"
 msgid "Secure shell password: %s"
 msgstr "Hasło powłoki SSH: %s"
 
-#: ../vinagre/vinagre-ssh.c:618 ../vinagre/vinagre-tab.c:798
+#: ../vinagre/vinagre-ssh.c:618 ../vinagre/vinagre-tab.c:860
 msgid "Error saving the credentials on the keyring."
 msgstr "Błąd podczas zapisywania danych uwierzytelniania w bazie kluczy."
 
@@ -1158,37 +1164,42 @@ msgstr "Weryfikacja klucza komputera się nie powiodła"
 msgid "Unable to find a valid SSH program"
 msgstr "Nie można odnaleźć prawidłowego programu SSH"
 
-#: ../vinagre/vinagre-tab.c:354
+#: ../vinagre/vinagre-tab.c:361
 msgid "Disconnect"
-msgstr "Rozłącz"
+msgstr "Rozłącza"
 
-#: ../vinagre/vinagre-tab.c:375
+#. Translators: Pressing this button will minimize Vinagre
+#: ../vinagre/vinagre-tab.c:370
+msgid "Minimize window"
+msgstr "Minimalizuje okno"
+
+#: ../vinagre/vinagre-tab.c:391
 msgid "Leave fullscreen"
-msgstr "Opuść pełny ekran"
+msgstr "Opuszcza pełny ekran"
 
-#: ../vinagre/vinagre-tab.c:537
+#: ../vinagre/vinagre-tab.c:553
 msgid "Error saving recent connection."
 msgstr "Błąd podczas zapisywania ostatniego połączenia."
 
-#: ../vinagre/vinagre-tab.c:781
+#: ../vinagre/vinagre-tab.c:844
 #, c-format
 msgid "Remote desktop password for %s"
 msgstr "Hasło zdalnego pulpitu dla %s"
 
-#: ../vinagre/vinagre-tab.c:897
+#: ../vinagre/vinagre-tab.c:961
 msgid "Could not get a screenshot of the connection."
 msgstr "Nie udało się uzyskać zrzutu ekranu połączenia."
 
-#: ../vinagre/vinagre-tab.c:902
+#: ../vinagre/vinagre-tab.c:966
 msgid "Save Screenshot"
 msgstr "Zapisz zrzut ekranu"
 
-#: ../vinagre/vinagre-tab.c:916
+#: ../vinagre/vinagre-tab.c:980
 #, c-format
 msgid "Screenshot of %s at %s"
 msgstr "Zrzut ekranu %s w %s"
 
-#: ../vinagre/vinagre-tab.c:970
+#: ../vinagre/vinagre-tab.c:1034
 msgid "Error saving screenshot"
 msgstr "Błąd podczas zapisywania zrzutu ekranu"
 
@@ -1359,12 +1370,12 @@ msgid "Error loading UI file"
 msgstr "Błąd podczas wczytywania pliku interfejsu użytkownika"
 
 #. Translators: %s is a protocol, like VNC or SSH
-#: ../vinagre/vinagre-utils.vala:112
+#: ../vinagre/vinagre-utils.vala:116
 #, c-format
 msgid "%s authentication is required"
 msgstr "Wymagane jest uwierzytelnienie %s"
 
-#: ../vinagre/vinagre-utils.vala:193
+#: ../vinagre/vinagre-utils.vala:227
 msgid "Error showing help"
 msgstr "Błąd podczas wyświetlania pomocy"
 
