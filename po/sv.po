@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-11-23 11:17+0000\n"
-"PO-Revision-Date: 2015-12-09 00:22+0100\n"
+"POT-Creation-Date: 2016-01-06 14:59+0000\n"
+"PO-Revision-Date: 2016-01-07 02:05+0100\n"
 "Last-Translator: Sebastian Rasmussen <sebras@gmail.com>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -87,7 +87,7 @@ msgstr ""
 #: ../data/vinagre.appdata.xml.in.h:2 ../data/vinagre.desktop.in.in.h:1
 #: ../data/vinagre-file.desktop.in.in.h:1 ../vinagre/vinagre-main.c:182
 msgid "Remote Desktop Viewer"
-msgstr "Fjärrskrivbordsklient"
+msgstr "Fjärrskrivbordsvisare"
 
 #: ../data/vinagre.appdata.xml.in.h:3 ../data/vinagre.desktop.in.in.h:2
 #: ../data/vinagre-file.desktop.in.in.h:2
@@ -112,7 +112,7 @@ msgstr "VNC;RDP;SSH;"
 
 #: ../data/vinagre.ui.h:1
 msgid "Vinagre is a remote desktop viewer for the GNOME desktop"
-msgstr "Vinagre är en fjärrskrivbordsklient för GNOME-skrivbordet"
+msgstr "Vinagre är en fjärrskrivbordsvisare för GNOME-skrivbordet"
 
 #. Add your name here to appear as a translator in the about dialog
 #: ../data/vinagre.ui.h:3
@@ -473,7 +473,7 @@ msgstr "VNC-alternativ"
 #: ../plugins/spice/vinagre-spice-plugin.c:237
 #: ../plugins/spice/vinagre-spice-tab.c:514
 msgid "_View only"
-msgstr "_Visa endast"
+msgstr "_Endast visning"
 
 #. Keep ratio check button
 #: ../plugins/vnc/vinagre-vnc-plugin.c:299
@@ -919,7 +919,7 @@ msgstr "Filen kändes inte igen av någon av insticksmodulerna."
 #. Setup command line options
 #: ../vinagre/vinagre-main.c:91
 msgid "- Remote Desktop Viewer"
-msgstr "- Fjärrskrivbordsklient"
+msgstr "- Fjärrskrivbordsvisare"
 
 #: ../vinagre/vinagre-mdns.c:172
 #, c-format
@@ -1194,6 +1194,7 @@ msgstr "Omöjligt att få egenskap för tjänsten: %s"
 msgid "Impossible to create the connection: %s"
 msgstr "Omöjligt att skapa anslutningen: %s"
 
+# sebras: what is a stream tube? not used elsewhere.
 #: ../vinagre/vinagre-tube-handler.c:339
 #, c-format
 msgid "Impossible to accept the stream tube: %s"
@@ -1365,7 +1366,7 @@ msgstr "Kunde inte sammanfoga XML-fil för användargränssnitt: %s"
 
 #: ../vinagre/vinagre-window.c:421
 msgid "_Recent Connections"
-msgstr "_Tidigare anslutningar"
+msgstr "_Senaste anslutningar"
 
 #. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
 #: ../vinagre/vinagre-window.c:579
