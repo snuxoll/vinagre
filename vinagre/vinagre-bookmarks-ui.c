@@ -327,8 +327,7 @@ vinagre_bookmarks_del (VinagreBookmarks      *book,
 				   title);
 
   gtk_message_dialog_format_secondary_markup (GTK_MESSAGE_DIALOG (dialog),
-					      msg2,
-					      name);
+					      "%s", msg2);
  
   if (gtk_dialog_run (GTK_DIALOG (dialog)) == GTK_RESPONSE_OK)
     if (!vinagre_bookmarks_remove_entry (book, entry))
