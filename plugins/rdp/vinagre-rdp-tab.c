@@ -169,7 +169,6 @@ vinagre_rdp_tab_dispose (GObject *object)
 {
   VinagreRdpTab        *rdp_tab = VINAGRE_RDP_TAB (object);
   VinagreRdpTabPrivate *priv = rdp_tab->priv;
-  GtkWindow            *window = GTK_WINDOW (vinagre_tab_get_window (VINAGRE_TAB (rdp_tab)));
 
   if (priv->connected_actions)
     {
@@ -217,13 +216,13 @@ vinagre_rdp_tab_dispose (GObject *object)
 
   if (priv->key_press_handler_id > 0)
     {
-      g_signal_handler_disconnect (window, priv->key_press_handler_id);
+      g_signal_handler_disconnect (GTK_WIDGET (object), priv->key_press_handler_id);
       priv->key_press_handler_id = 0;
     }
 
   if (priv->key_release_handler_id > 0)
     {
-      g_signal_handler_disconnect (window, priv->key_release_handler_id);
+      g_signal_handler_disconnect (GTK_WIDGET (object), priv->key_release_handler_id);
       priv->key_release_handler_id = 0;
     }
 
@@ -1195,11 +1194,11 @@ open_freerdp (VinagreRdpTab *rdp_tab)
       vinagre_rdp_tab_set_scaling (rdp_tab, scaling);
     }
 
-  priv->key_press_handler_id = g_signal_connect (window, "key-press-event",
+  priv->key_press_handler_id = g_signal_connect (GTK_WIDGET (tab), "key-press-event",
                                                  G_CALLBACK (frdp_key_pressed),
                                                  rdp_tab);
 
-  priv->key_release_handler_id = g_signal_connect (window, "key-release-event",
+  priv->key_release_handler_id = g_signal_connect (GTK_WIDGET (tab), "key-release-event",
                                                    G_CALLBACK (frdp_key_pressed),
                                                    rdp_tab);
 
