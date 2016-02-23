@@ -1103,7 +1103,7 @@ vinagre_window_conn_exists (VinagreWindow *window, VinagreConnection *conn)
 {
   VinagreConnection *c;
   VinagreTab *tab;
-  const gchar *host, *protocol;
+  const gchar *host, *protocol, *username;
   gint port;
   GList *conns, *l;
 
@@ -1111,6 +1111,7 @@ vinagre_window_conn_exists (VinagreWindow *window, VinagreConnection *conn)
   g_return_val_if_fail (VINAGRE_IS_CONNECTION (conn), NULL);
 
   host = vinagre_connection_get_host (conn);
+  username = vinagre_connection_get_username (conn);
   protocol = vinagre_connection_get_protocol (conn);
   port = vinagre_connection_get_port (conn);
 
@@ -1125,6 +1126,7 @@ vinagre_window_conn_exists (VinagreWindow *window, VinagreConnection *conn)
       c = VINAGRE_CONNECTION (l->data);
 
       if (!strcmp (host, vinagre_connection_get_host (c)) &&
+	  g_strcmp0 (username, vinagre_connection_get_username (c)) == 0 &&
 	  !strcmp (protocol, vinagre_connection_get_protocol (c)) &&
 	  port == vinagre_connection_get_port (c))
 	{
