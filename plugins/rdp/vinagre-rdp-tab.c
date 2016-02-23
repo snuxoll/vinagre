@@ -1220,11 +1220,21 @@ open_freerdp (VinagreRdpTab *rdp_tab)
 }
 
 static void
+tab_realized (GtkWidget     *widget,
+              gpointer       user_data)
+{
+  gtk_widget_grab_focus (widget);
+  g_signal_handlers_disconnect_by_func (widget, tab_realized, user_data);
+}
+
+static void
 vinagre_rdp_tab_init (VinagreRdpTab *rdp_tab)
 {
   rdp_tab->priv = VINAGRE_RDP_TAB_GET_PRIVATE (rdp_tab);
 
   rdp_tab->priv->connected_actions = create_connected_actions (rdp_tab);
+
+  g_signal_connect (rdp_tab, "realize", G_CALLBACK (tab_realized), NULL);
 }
 
 GtkWidget *
@@ -1234,6 +1244,7 @@ vinagre_rdp_tab_new (VinagreConnection *conn,
   return GTK_WIDGET (g_object_new (VINAGRE_TYPE_RDP_TAB,
 				   "conn", conn,
 				   "window", window,
+				   "can-focus", TRUE,
 				   NULL));
 }
 
