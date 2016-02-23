@@ -231,6 +231,14 @@ vinagre_rdp_tab_dispose (GObject *object)
   G_OBJECT_CLASS (vinagre_rdp_tab_parent_class)->dispose (object);
 }
 
+static gboolean
+emit_delayed_signal (GObject *object)
+{
+  g_signal_emit_by_name (object, "tab-initialized");
+
+  return G_SOURCE_REMOVE;
+}
+
 static void
 vinagre_rdp_tab_constructed (GObject *object)
 {
@@ -241,6 +249,8 @@ vinagre_rdp_tab_constructed (GObject *object)
 
   setup_toolbar (rdp_tab);
   open_freerdp (rdp_tab);
+
+  g_idle_add ((GSourceFunc) emit_delayed_signal, object);
 }
 
 static void
