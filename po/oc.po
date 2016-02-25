@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=vinagre"
 "&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2015-11-23 11:17+0000\n"
-"PO-Revision-Date: 2016-02-25 22:19+0200\n"
+"PO-Revision-Date: 2016-02-25 22:24+0200\n"
 "Last-Translator: Cédric Valmary (totenoc.eu) <cvalmary@yahoo.fr>\n"
 "Language-Team: Tot En Òc\n"
 "Language: oc\n"
@@ -29,9 +29,10 @@ msgid ""
 "clients connected or to drop the existent connections. Set the value to true "
 "to share the desktop with the other clients."
 msgstr ""
-"Lors de la connexion a un òste, lo client pòt dire al servidor de daissar "
-"los autres clients connectés o d'abandonner las connexions existentas. "
-"Definir la valor a « true » per partejar lo burèu amb los autres clients."
+"Al moment de la connexion a un òste, lo client pòt dire al servidor de "
+"daissar los autres clients connectés o d'abandonner las connexions "
+"existentas. Definir la valor a « true » per partejar lo burèu amb los autres "
+"clients."
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:3
 msgid ""
@@ -70,7 +71,7 @@ msgstr ""
 #: ../data/org.gnome.Vinagre.gschema.xml.h:8
 msgid "Specifies the maximum number of items in the host dropdown entry."
 msgstr ""
-"Indica lo nombre maximal d'elements dins la lista déroulante dels òstes."
+"Indica lo nombre maximal d'elements dins la lista desenrotlanta dels òstes."
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:9
 #| msgid ""
@@ -330,7 +331,7 @@ msgstr "Accedir a de burèus distants MS Windows"
 
 #: ../plugins/rdp/vinagre-rdp-plugin.c:111
 msgid "RDP Options"
-msgstr "Options RDP"
+msgstr "Opcions RDP"
 
 #. Scaling check button
 #: ../plugins/rdp/vinagre-rdp-plugin.c:120
@@ -420,7 +421,7 @@ msgstr "Accedir a de terminals Unix/Linux"
 
 #: ../plugins/ssh/vinagre-ssh-plugin.c:103
 msgid "SSH Options"
-msgstr "Options SSH"
+msgstr "Opcions SSH"
 
 #. Translators: 'shared' here is a VNC protocol specific flag. You can translate it, but I think it's better to let it untranslated
 #: ../plugins/vnc/vinagre-vnc-connection.c:317
@@ -440,7 +441,7 @@ msgstr "Activa lo mòde redimensionné"
 #. Translators: this is a command line option (run vinagre --help)
 #: ../plugins/vnc/vinagre-vnc-plugin.c:65
 msgid "VNC Options:"
-msgstr "Options VNC :"
+msgstr "Opcions VNC :"
 
 #. Translators: this is a command line option (run vinagre --help)
 #: ../plugins/vnc/vinagre-vnc-plugin.c:67
