@@ -9,17 +9,17 @@
 # Marios Zindilis <m.zindilis@dmajor.org>, 2011.
 # George Stefanakis <george.stefanakis@gmail.com>, 2011.
 # Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2012, 2013.
-# Efstathios Iosifidis <iosifidis@opensuse.org>, 2015.
+# Efstathios Iosifidis <iosifidis@opensuse.org>, 2015, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre.HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-11-20 15:00+0000\n"
-"PO-Revision-Date: 2015-11-20 19:00+0200\n"
+"POT-Creation-Date: 2016-03-01 03:09+0000\n"
+"PO-Revision-Date: 2016-03-01 15:50+0200\n"
 "Last-Translator: Efstathios Iosifidis <iosifidis@opensuse.org>\n"
-"Language-Team: Ελληνικά <opensuse-translation-el@opensuse.org>\n"
+"Language-Team: Greek, Modern (1453-) <opensuse-translation-el@opensuse.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -160,7 +160,7 @@ msgstr "_Πιστοποίηση"
 msgid "Authentication is required"
 msgstr "Απαιτείται πιστοποίηση"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:132
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:134
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
 #: ../plugins/spice/vinagre-spice-tab.c:142
 msgid "Host:"
@@ -175,7 +175,7 @@ msgstr "Ό_νομα χρήστη:"
 msgid "_Password:"
 msgstr "_Κωδικός πρόσβασης:"
 
-#: ../data/vinagre.ui.h:10
+#: ../data/vinagre.ui.h:10 ../plugins/rdp/vinagre-rdp-plugin.c:149
 msgid "_Domain:"
 msgstr "_Τομέας:"
 
@@ -269,8 +269,8 @@ msgstr ""
 msgid "Fingerprint:"
 msgstr "Αποτύπωμα:"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:972
-#: ../plugins/rdp/vinagre-rdp-tab.c:1013
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:946
+#: ../plugins/rdp/vinagre-rdp-tab.c:987
 msgid "Connect"
 msgstr "Σύνδεση"
 
@@ -378,55 +378,61 @@ msgstr ""
 "μπορείτε να το εισάγετε στο πεδίο σύστημα πιο πάνω, στην μορφή όνομα "
 "χρήστη@όνομα κεντρικού υπολογιστή."
 
+#. Translators: This is the tooltip for the domain field in a RDP connection
+#: ../plugins/rdp/vinagre-rdp-plugin.c:156
+#| msgid "Optional"
+msgid "Optional."
+msgstr "Προαιρετικό."
+
 #. Host width
-#: ../plugins/rdp/vinagre-rdp-plugin.c:150
+#: ../plugins/rdp/vinagre-rdp-plugin.c:169
 msgid "_Width:"
 msgstr "_Πλάτος:"
 
 #. Translators: This is the tooltip for the width field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:157
+#: ../plugins/rdp/vinagre-rdp-plugin.c:176
 msgid "Set width of the remote desktop"
 msgstr "Ορισμός πλάτους στην απομακρυσμένη επιφάνεια εργασίας"
 
 #. Host height
-#: ../plugins/rdp/vinagre-rdp-plugin.c:170
+#: ../plugins/rdp/vinagre-rdp-plugin.c:189
 msgid "_Height:"
 msgstr "Ύ_ψος:"
 
 #. Translators: This is the tooltip for the height field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:177
+#: ../plugins/rdp/vinagre-rdp-plugin.c:196
 msgid "Set height of the remote desktop"
 msgstr "Ορισμός ύψους στην απομακρυσμένη επιφάνεια εργασίας"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:133 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:135 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:143
 msgid "Port:"
 msgstr "Θύρα:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:281 ../plugins/vnc/vinagre-vnc-tab.c:601
-#: ../plugins/spice/vinagre-spice-tab.c:469
+#: ../plugins/rdp/vinagre-rdp-tab.c:292 ../plugins/vnc/vinagre-vnc-tab.c:601
+#: ../plugins/spice/vinagre-spice-tab.c:473
 msgid "S_caling"
 msgstr "_Κλιμάκωση"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:282 ../plugins/vnc/vinagre-vnc-tab.c:602
-#: ../plugins/spice/vinagre-spice-tab.c:470
+#: ../plugins/rdp/vinagre-rdp-tab.c:293 ../plugins/vnc/vinagre-vnc-tab.c:602
+#: ../plugins/spice/vinagre-spice-tab.c:474
 msgid "Fit the remote screen into the current window size"
 msgstr ""
 "Προσαρμόζει την απομακρυσμένη οθόνη στο μέγεθος του τρέχοντος παραθύρου"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:355 ../plugins/rdp/vinagre-rdp-tab.c:356
+#: ../plugins/rdp/vinagre-rdp-tab.c:366 ../plugins/rdp/vinagre-rdp-tab.c:367
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
-#: ../plugins/spice/vinagre-spice-tab.c:587
-#: ../plugins/spice/vinagre-spice-tab.c:588
+#: ../plugins/spice/vinagre-spice-tab.c:591
+#: ../plugins/spice/vinagre-spice-tab.c:592
 msgid "Scaling"
 msgstr "Κλιμάκωση"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:971 ../plugins/rdp/vinagre-rdp-tab.c:1012
+#: ../plugins/rdp/vinagre-rdp-tab.c:945 ../plugins/rdp/vinagre-rdp-tab.c:986
 msgid "_Cancel"
 msgstr "Ακύ_ρωση"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:1212 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:1221 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:267
 msgid "Error connecting to host."
 msgstr "Σφάλμα κατά τη σύνδεση στον κεντρικό υπολογιστή."
@@ -500,7 +506,7 @@ msgstr "Επιλογές VNC"
 #. View only check button - not fully ready on spice-gtk side
 #: ../plugins/vnc/vinagre-vnc-plugin.c:276 ../plugins/vnc/vinagre-vnc-tab.c:630
 #: ../plugins/spice/vinagre-spice-plugin.c:237
-#: ../plugins/spice/vinagre-spice-tab.c:510
+#: ../plugins/spice/vinagre-spice-tab.c:514
 msgid "_View only"
 msgstr "_Προβολή μόνο"
 
@@ -629,7 +635,7 @@ msgstr ""
 "Διατηρεί την αναλογία της οθόνης όταν γίνεται χρήση της αλλαγής κλίμακας"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
-#: ../plugins/spice/vinagre-spice-tab.c:511
+#: ../plugins/spice/vinagre-spice-tab.c:515
 msgid "Do not send mouse and keyboard events"
 msgstr "Δεν αποστέλλονται συμβάντα του ποντικιού ή του πληκτρολογίου"
 
@@ -651,25 +657,25 @@ msgid "Requests an update of the screen"
 msgstr "Ζητάει μια ενημέρωση της οθόνης"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:681
-#: ../plugins/spice/vinagre-spice-tab.c:534
+#: ../plugins/spice/vinagre-spice-tab.c:538
 msgid "_Send Ctrl-Alt-Del"
 msgstr "Απο_στολή Ctrl-Alt-Del"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
-#: ../plugins/spice/vinagre-spice-tab.c:535
-#: ../plugins/spice/vinagre-spice-tab.c:608
+#: ../plugins/spice/vinagre-spice-tab.c:539
+#: ../plugins/spice/vinagre-spice-tab.c:612
 msgid "Send Ctrl+Alt+Del to the remote desktop"
 msgstr "Αποστέλνει Ctrl+Alt+Del στην απομακρυσμένη επιφ. εργασίας"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:745 ../plugins/vnc/vinagre-vnc-tab.c:746
-#: ../plugins/spice/vinagre-spice-tab.c:597
-#: ../plugins/spice/vinagre-spice-tab.c:598
+#: ../plugins/spice/vinagre-spice-tab.c:601
+#: ../plugins/spice/vinagre-spice-tab.c:602
 msgid "Read only"
 msgstr "Μόνο για ανάγνωση"
 
 #. Send Ctrl-alt-del
 #: ../plugins/vnc/vinagre-vnc-tab.c:754
-#: ../plugins/spice/vinagre-spice-tab.c:606
+#: ../plugins/spice/vinagre-spice-tab.c:610
 msgid "Send Ctrl-Alt-Del"
 msgstr "Αποστολή Ctrl-Alt-Del"
 
@@ -716,13 +722,13 @@ msgstr "Επιλογές Spice"
 
 #. Resize guest check button
 #: ../plugins/spice/vinagre-spice-plugin.c:245
-#: ../plugins/spice/vinagre-spice-tab.c:483
+#: ../plugins/spice/vinagre-spice-tab.c:487
 msgid "_Resize guest"
 msgstr "Α_λλαγή μεγέθους επισκέπτη"
 
 #. Clipboard sharing check button
 #: ../plugins/spice/vinagre-spice-plugin.c:253
-#: ../plugins/spice/vinagre-spice-tab.c:496
+#: ../plugins/spice/vinagre-spice-tab.c:500
 msgid "_Share clipboard"
 msgstr "Δ_ιαμοιρασμός του προχείρου"
 
@@ -736,11 +742,11 @@ msgstr "Προαιρετικό"
 msgid "Spice Files"
 msgstr "Αρχεία Spice"
 
-#: ../plugins/spice/vinagre-spice-tab.c:484
+#: ../plugins/spice/vinagre-spice-tab.c:488
 msgid "Resize the screen guest to best fit"
 msgstr "Αλλαγή μεγέθους της οθόνης επισκέπτη για να ταιριάζει καλύτερα"
 
-#: ../plugins/spice/vinagre-spice-tab.c:497
+#: ../plugins/spice/vinagre-spice-tab.c:501
 msgid "Automatically share clipboard between client and guest"
 msgstr "Αυτόματη κοινή χρήση προχείρου μεταξύ πελάτη και επισκέπτη"
 
@@ -896,11 +902,11 @@ msgstr "Σημειώστε ότι όλοι οι υποφάκελοι και οι
 msgid "Remove Item?"
 msgstr "Αφαίρεση αντικειμένου;"
 
-#: ../vinagre/vinagre-bookmarks-ui.c:335
+#: ../vinagre/vinagre-bookmarks-ui.c:334
 msgid "Error removing bookmark: Entry not found"
 msgstr "Σφάλμα κατά την αφαίρεση του σελιδοδείκτη: Δε βρέθηκε η καταχώριση"
 
-#: ../vinagre/vinagre-bookmarks-ui.c:352
+#: ../vinagre/vinagre-bookmarks-ui.c:351
 msgid "New Folder"
 msgstr "Νέος φάκελος"
 
@@ -945,17 +951,17 @@ msgstr "Σφάλμα κατά την αποθήκευση του αρχείου 
 msgid "Choose a Remote Desktop"
 msgstr "Επιλέξτε μια απομακρυσμένη επιφάνεια εργασίας"
 
-#: ../vinagre/vinagre-connection.c:614 ../vinagre/vinagre-tab.c:590
+#: ../vinagre/vinagre-connection.c:658 ../vinagre/vinagre-tab.c:590
 #: ../vinagre/vinagre-tube-handler.c:257
 #, c-format
 msgid "The protocol %s is not supported."
 msgstr "Το πρωτόκολλο %s δεν υποστηρίζεται."
 
-#: ../vinagre/vinagre-connection.c:722
+#: ../vinagre/vinagre-connection.c:766
 msgid "Could not open the file."
 msgstr "Αδυναμία ανοίγματος αρχείου."
 
-#: ../vinagre/vinagre-connection.c:748
+#: ../vinagre/vinagre-connection.c:792
 msgid "The file was not recognized by any of the plugins."
 msgstr "Το αρχείο δεν αναγνωρίστηκε από κάποιο πρόσθετο."
 
@@ -1165,7 +1171,7 @@ msgstr "Αδυναμία αποστολής επιβεβαίωσης ταυτό�
 msgid "Secure shell password: %s"
 msgstr "Κωδικός πρόσβασης ασφαλούς κελύφους: %s"
 
-#: ../vinagre/vinagre-ssh.c:618 ../vinagre/vinagre-tab.c:814
+#: ../vinagre/vinagre-ssh.c:618 ../vinagre/vinagre-tab.c:860
 msgid "Error saving the credentials on the keyring."
 msgstr "Σφάλμα κατά την αποθήκευση των διαπιστευτηρίων στην κλειδοθήκη."
 
@@ -1206,25 +1212,25 @@ msgstr "Έξοδος από την πλήρη οθόνη"
 msgid "Error saving recent connection."
 msgstr "Σφάλμα κατά την αποθήκευση της πρόσφατης σύνδεσης."
 
-#: ../vinagre/vinagre-tab.c:797
+#: ../vinagre/vinagre-tab.c:844
 #, c-format
 msgid "Remote desktop password for %s"
 msgstr "Κωδικός πρόσβασης απομακρυσμένης επιφάνειας εργασίας %s"
 
-#: ../vinagre/vinagre-tab.c:913
+#: ../vinagre/vinagre-tab.c:961
 msgid "Could not get a screenshot of the connection."
 msgstr "Αδυναμία λήψης στιγμιότυπου της σύνδεσης."
 
-#: ../vinagre/vinagre-tab.c:918
+#: ../vinagre/vinagre-tab.c:966
 msgid "Save Screenshot"
 msgstr "Αποθήκευση στιγμιότυπου"
 
-#: ../vinagre/vinagre-tab.c:932
+#: ../vinagre/vinagre-tab.c:980
 #, c-format
 msgid "Screenshot of %s at %s"
 msgstr "Στιγμιότυπο του %s στο %s"
 
-#: ../vinagre/vinagre-tab.c:986
+#: ../vinagre/vinagre-tab.c:1034
 msgid "Error saving screenshot"
 msgstr "Σφάλμα κατά την αποθήκευση του στιγμιότυπου"
 
@@ -1394,12 +1400,12 @@ msgid "Error loading UI file"
 msgstr "Σφάλμα κατά την φόρτωση του αρχείου UI"
 
 #. Translators: %s is a protocol, like VNC or SSH
-#: ../vinagre/vinagre-utils.vala:112
+#: ../vinagre/vinagre-utils.vala:116
 #, c-format
 msgid "%s authentication is required"
 msgstr "Το %s απαιτεί πιστοποίηση"
 
-#: ../vinagre/vinagre-utils.vala:193
+#: ../vinagre/vinagre-utils.vala:227
 msgid "Error showing help"
 msgstr "Υπήρξε σφάλμα κατά την εμφάνιση της βοήθειας"
 
