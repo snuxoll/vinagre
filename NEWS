@@ -1,3 +1,111 @@
+Vinagre 3.20.0
+==============
+
+Alexandre Franke (1):
+      Updated French translation
+
+Ask Hjorth Larsen (1):
+      Updated Danish translation
+
+Aurimas Černius (2):
+      Updated Lithuanian translation
+      Updated Lithuanian translation
+
+Balázs Meskó (1):
+      Updated Hungarian translation
+
+Baurzhan Muftakhidinov (1):
+      Updated Kazakh translation
+
+Changwoo Ryu (1):
+      Updated Korean translation
+
+Chao-Hsiung Liao (1):
+      Updated Chinese (Taiwan) translation
+
+Cédric Valmary (2):
+      Updated Occitan translation
+      Updated Occitan translation
+
+Daniel Mustieles (1):
+      Updated Spanish translation
+
+David King (2):
+      Fix a string format-nonliteral warning
+      Fix the translation element in the AppData file
+
+Dušan Kazik (1):
+      Updated Slovak translation
+
+Efstathios Iosifidis (1):
+      Updated Greek translation
+
+Enrico Nicoletto (1):
+      Updated Brazilian Portuguese translation
+
+Fran Dieguez (1):
+      Updated Galician translations
+
+Gianvito Cavasoli (1):
+      Updated Italian translation
+
+Jiri Grönroos (1):
+      Updated Finnish translation
+
+Jiro Matsuzawa (1):
+      Updated Japanese translation
+
+Kjartan Maraas (1):
+      Updated Norwegian bokmål translation.
+
+Marek Kasik (4):
+      Don't capture key events of other tabs
+      Give focus to new RDP tab
+      Allow different logins to the same host
+      Show correct tooltip for RDP tab
+
+Marek Černocký (1):
+      Updated Czech translation
+
+Mario Blättermann (1):
+      Updated German translation
+
+Matej Urbančič (1):
+      Updated Slovenian translation
+
+Muhammet Kara (1):
+      Updated Turkish translation
+
+Nathan Follens (1):
+      Updated Dutch translation Master 3.20
+
+Pedro Albuquerque (1):
+      Updated Portuguese translation
+
+Piotr Drąg (2):
+      Updated Polish translation
+      Updated Polish translation
+
+Richard Hughes (1):
+      Update the AppData to spec version 0.7+
+
+Rūdolfs Mazurs (2):
+      Update Latvian translation
+      Update Latvian translation
+
+Sebastian Rasmussen (2):
+      Updated Swedish translation
+      Updated Swedish translation
+
+Stas Solovey (1):
+      Updated Russian translation
+
+Sveinn í Felli (1):
+      Updated Icelandic translation
+
+Мирослав Николић (1):
+      Updated Serbian translation
+
 Vinagre 3.19.2
 ==============
 
