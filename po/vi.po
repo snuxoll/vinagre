@@ -1,17 +1,17 @@
 # Vietnamese translation for Vinagre.
 # Bản dịch tiếng Việt dành cho Vinagre.
-# Copyright © 2015 GNOME i18n Project for Vietnamese.
+# Copyright © 2016 GNOME i18n Project for Vietnamese.
 # Clytie Siddall <clytie@riverland.net.au>, 2008-2009.
 # Nguyễn Thái Ngọc Duy <pclouds@gmail.com>, 2012.
-# Trần Ngọc Quân <vnwildman@gmail.com>, 2015.
+# Trần Ngọc Quân <vnwildman@gmail.com>, 2015, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-10-01 12:54+0000\n"
-"PO-Revision-Date: 2015-10-02 08:19+0700\n"
+"POT-Creation-Date: 2016-03-30 02:35+0000\n"
+"PO-Revision-Date: 2016-03-30 14:45+0700\n"
 "Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
 "Language-Team: Vietnamese <gnome-vi-list@gnome.org>\n"
 "Language: vi\n"
@@ -127,7 +127,7 @@ msgstr "_Xác thực"
 msgid "Authentication is required"
 msgstr "Yêu cầu xác thực"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:132
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:134
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
 #: ../plugins/spice/vinagre-spice-tab.c:142
 msgid "Host:"
@@ -142,7 +142,7 @@ msgstr "Tên người _dùng:"
 msgid "_Password:"
 msgstr "_Mật khẩu:"
 
-#: ../data/vinagre.ui.h:10
+#: ../data/vinagre.ui.h:10 ../plugins/rdp/vinagre-rdp-plugin.c:149
 msgid "_Domain:"
 msgstr "_Miền:"
 
@@ -236,8 +236,8 @@ msgstr ""
 msgid "Fingerprint:"
 msgstr "Dấu vân tay:"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:972
-#: ../plugins/rdp/vinagre-rdp-tab.c:1013
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:946
+#: ../plugins/rdp/vinagre-rdp-tab.c:987
 msgid "Connect"
 msgstr "Kết nối"
 
@@ -339,54 +339,59 @@ msgstr ""
 "Tùy chọn. Nếu để trống, tài khoản của bạn sẽ được dùng. Ngoài ra, nó có thể "
 "được cung ứng trên trường máy chủ, theo dạng thức tài_khoản@máy_chủ."
 
+#. Translators: This is the tooltip for the domain field in a RDP connection
+#: ../plugins/rdp/vinagre-rdp-plugin.c:156
+msgid "Optional."
+msgstr "Tùy chọn."
+
 #. Host width
-#: ../plugins/rdp/vinagre-rdp-plugin.c:150
+#: ../plugins/rdp/vinagre-rdp-plugin.c:169
 msgid "_Width:"
 msgstr "_Rộng:"
 
 #. Translators: This is the tooltip for the width field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:157
+#: ../plugins/rdp/vinagre-rdp-plugin.c:176
 msgid "Set width of the remote desktop"
 msgstr "Đặt chiều rộng của màn hình nền máy chủ"
 
 #. Host height
-#: ../plugins/rdp/vinagre-rdp-plugin.c:170
+#: ../plugins/rdp/vinagre-rdp-plugin.c:189
 msgid "_Height:"
 msgstr "_Cao:"
 
 #. Translators: This is the tooltip for the height field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:177
+#: ../plugins/rdp/vinagre-rdp-plugin.c:196
 msgid "Set height of the remote desktop"
 msgstr "Đặt chiều cao của màn hình nền máy chủ"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:133 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:135 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:143
 msgid "Port:"
 msgstr "Cổng:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:281 ../plugins/vnc/vinagre-vnc-tab.c:601
-#: ../plugins/spice/vinagre-spice-tab.c:469
+#: ../plugins/rdp/vinagre-rdp-tab.c:292 ../plugins/vnc/vinagre-vnc-tab.c:601
+#: ../plugins/spice/vinagre-spice-tab.c:473
 msgid "S_caling"
 msgstr "_Co giãn"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:282 ../plugins/vnc/vinagre-vnc-tab.c:602
-#: ../plugins/spice/vinagre-spice-tab.c:470
+#: ../plugins/rdp/vinagre-rdp-tab.c:293 ../plugins/vnc/vinagre-vnc-tab.c:602
+#: ../plugins/spice/vinagre-spice-tab.c:474
 msgid "Fit the remote screen into the current window size"
 msgstr "Vừa khít màn hình ở xa vào kích cỡ cửa sổ hiện tại"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:355 ../plugins/rdp/vinagre-rdp-tab.c:356
+#: ../plugins/rdp/vinagre-rdp-tab.c:366 ../plugins/rdp/vinagre-rdp-tab.c:367
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
-#: ../plugins/spice/vinagre-spice-tab.c:587
-#: ../plugins/spice/vinagre-spice-tab.c:588
+#: ../plugins/spice/vinagre-spice-tab.c:591
+#: ../plugins/spice/vinagre-spice-tab.c:592
 msgid "Scaling"
 msgstr "Co giãn"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:971 ../plugins/rdp/vinagre-rdp-tab.c:1012
+#: ../plugins/rdp/vinagre-rdp-tab.c:945 ../plugins/rdp/vinagre-rdp-tab.c:986
 msgid "_Cancel"
 msgstr "T_hôi"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:1209 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:1221 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:267
 msgid "Error connecting to host."
 msgstr "Gặp lỗi khi kết nối tới máy."
@@ -462,7 +467,7 @@ msgstr "Tùy chọn VNC"
 #. View only check button - not fully ready on spice-gtk side
 #: ../plugins/vnc/vinagre-vnc-plugin.c:276 ../plugins/vnc/vinagre-vnc-tab.c:630
 #: ../plugins/spice/vinagre-spice-plugin.c:237
-#: ../plugins/spice/vinagre-spice-tab.c:510
+#: ../plugins/spice/vinagre-spice-tab.c:514
 msgid "_View only"
 msgstr "Chỉ _xem"
 
@@ -587,7 +592,7 @@ msgid "Keep the screen aspect ratio when using scaling"
 msgstr "Giữ nguyên tỷ lệ màn hình không co dãn"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
-#: ../plugins/spice/vinagre-spice-tab.c:511
+#: ../plugins/spice/vinagre-spice-tab.c:515
 msgid "Do not send mouse and keyboard events"
 msgstr "Không gửi sự kiện con chuột và bàn phím"
 
@@ -608,25 +613,25 @@ msgid "Requests an update of the screen"
 msgstr "Yêu cầu cập nhật của màn hình"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:681
-#: ../plugins/spice/vinagre-spice-tab.c:534
+#: ../plugins/spice/vinagre-spice-tab.c:538
 msgid "_Send Ctrl-Alt-Del"
 msgstr "_Gửi Ctrl-Alt-Del"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
-#: ../plugins/spice/vinagre-spice-tab.c:535
-#: ../plugins/spice/vinagre-spice-tab.c:608
+#: ../plugins/spice/vinagre-spice-tab.c:539
+#: ../plugins/spice/vinagre-spice-tab.c:612
 msgid "Send Ctrl+Alt+Del to the remote desktop"
 msgstr "Gửi tín hiệu Ctrl+Alt+Del đến máy tính được điều khiển"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:745 ../plugins/vnc/vinagre-vnc-tab.c:746
-#: ../plugins/spice/vinagre-spice-tab.c:597
-#: ../plugins/spice/vinagre-spice-tab.c:598
+#: ../plugins/spice/vinagre-spice-tab.c:601
+#: ../plugins/spice/vinagre-spice-tab.c:602
 msgid "Read only"
 msgstr "Chỉ đọc"
 
 #. Send Ctrl-alt-del
 #: ../plugins/vnc/vinagre-vnc-tab.c:754
-#: ../plugins/spice/vinagre-spice-tab.c:606
+#: ../plugins/spice/vinagre-spice-tab.c:610
 msgid "Send Ctrl-Alt-Del"
 msgstr "Gửi Ctrl-Alt-Del"
 
@@ -639,14 +644,14 @@ msgid ""
 msgstr ""
 "Chức năng co giãn không được hỗ trợ trên bản cài đặt này.\n"
 "\n"
-"Xem tài liệu Đọc Đi (README) có sẵn với Vinagre, để tìm biết hiệu lực tính "
+"Xem tài liệu ĐỌC ĐI (README) có sẵn với Vinagre, để tìm biết hiệu lực tính "
 "năng này như thế nào."
 
 #: ../plugins/vnc/vinagre-vnc-tunnel.c:97
 #: ../plugins/spice/vinagre-spice-tunnel.c:103
 #, c-format
 msgid "Unable to find a free TCP port"
-msgstr "Không thể tìm thấy côngr TCP nào còn trống"
+msgstr "Không thể tìm thấy cổng TCP nào còn trống"
 
 #. Translators: Do not translate "connection". It's the name of a group in the .spice (.ini like) file.
 #: ../plugins/spice/vinagre-spice-plugin.c:108
@@ -673,13 +678,13 @@ msgstr "Tùy chọn SPICE"
 
 #. Resize guest check button
 #: ../plugins/spice/vinagre-spice-plugin.c:245
-#: ../plugins/spice/vinagre-spice-tab.c:483
+#: ../plugins/spice/vinagre-spice-tab.c:487
 msgid "_Resize guest"
 msgstr "_Co giãn máy khách"
 
 #. Clipboard sharing check button
 #: ../plugins/spice/vinagre-spice-plugin.c:253
-#: ../plugins/spice/vinagre-spice-tab.c:496
+#: ../plugins/spice/vinagre-spice-tab.c:500
 msgid "_Share clipboard"
 msgstr "_Chia sẻ clipboard"
 
@@ -693,11 +698,11 @@ msgstr "Tùy chọn"
 msgid "Spice Files"
 msgstr "Tập tin Spice"
 
-#: ../plugins/spice/vinagre-spice-tab.c:484
+#: ../plugins/spice/vinagre-spice-tab.c:488
 msgid "Resize the screen guest to best fit"
 msgstr "Đổi cỡ màn hình khách cho vừa vặn nhất"
 
-#: ../plugins/spice/vinagre-spice-tab.c:497
+#: ../plugins/spice/vinagre-spice-tab.c:501
 msgid "Automatically share clipboard between client and guest"
 msgstr "Tự động chia sẻ clipboard giữa máy khách và khách"
 
@@ -839,11 +844,11 @@ msgstr "Ghi chú rằng tất cả các thư mục con và mục bên trong sẽ
 msgid "Remove Item?"
 msgstr "Bỏ mục?"
 
-#: ../vinagre/vinagre-bookmarks-ui.c:335
+#: ../vinagre/vinagre-bookmarks-ui.c:334
 msgid "Error removing bookmark: Entry not found"
 msgstr "Gặp lỗi khi gỡ bỏ liên kết lưu: không tìm thấy mục nhập"
 
-#: ../vinagre/vinagre-bookmarks-ui.c:352
+#: ../vinagre/vinagre-bookmarks-ui.c:351
 msgid "New Folder"
 msgstr "Thư mục mới"
 
@@ -887,17 +892,17 @@ msgstr "Gặp lỗi khi lưu tập tin lịch sử: %s"
 msgid "Choose a Remote Desktop"
 msgstr "Chọn Màn hình nền từ xa"
 
-#: ../vinagre/vinagre-connection.c:615 ../vinagre/vinagre-tab.c:574
+#: ../vinagre/vinagre-connection.c:658 ../vinagre/vinagre-tab.c:590
 #: ../vinagre/vinagre-tube-handler.c:257
 #, c-format
 msgid "The protocol %s is not supported."
 msgstr "Không hỗ trợ giao thức %s."
 
-#: ../vinagre/vinagre-connection.c:728
+#: ../vinagre/vinagre-connection.c:766
 msgid "Could not open the file."
 msgstr "Không thể mở tập tin đó."
 
-#: ../vinagre/vinagre-connection.c:754
+#: ../vinagre/vinagre-connection.c:792
 msgid "The file was not recognized by any of the plugins."
 msgstr "Tập tin không được bất kỳ phần bổ xung nào nhận ra"
 
@@ -1105,7 +1110,7 @@ msgstr "Không thể gửi xác nhận định danh máy chủ"
 msgid "Secure shell password: %s"
 msgstr "Mật khẩu hệ vỏ an toàn: %s"
 
-#: ../vinagre/vinagre-ssh.c:618 ../vinagre/vinagre-tab.c:798
+#: ../vinagre/vinagre-ssh.c:618 ../vinagre/vinagre-tab.c:860
 msgid "Error saving the credentials on the keyring."
 msgstr "Gặp lỗi khi lưu thông tin xác thực vào vòng khóa."
 
@@ -1129,37 +1134,42 @@ msgstr "Xác thực khóa không thành công"
 msgid "Unable to find a valid SSH program"
 msgstr "Không thể tìm thấy chương trình SSH hợp lệ"
 
-#: ../vinagre/vinagre-tab.c:354
+#: ../vinagre/vinagre-tab.c:361
 msgid "Disconnect"
 msgstr "Ngắt kết nối"
 
-#: ../vinagre/vinagre-tab.c:375
+#. Translators: Pressing this button will minimize Vinagre
+#: ../vinagre/vinagre-tab.c:370
+msgid "Minimize window"
+msgstr "Thu nhỏ cửa sổ"
+
+#: ../vinagre/vinagre-tab.c:391
 msgid "Leave fullscreen"
 msgstr "Rời toàn màn hình"
 
-#: ../vinagre/vinagre-tab.c:537
+#: ../vinagre/vinagre-tab.c:553
 msgid "Error saving recent connection."
 msgstr "Gặp lỗi khi lưu kết nối mới mở."
 
-#: ../vinagre/vinagre-tab.c:781
+#: ../vinagre/vinagre-tab.c:844
 #, c-format
 msgid "Remote desktop password for %s"
 msgstr "Mật khẩu điều khiển máy tính từ xa cho %s"
 
-#: ../vinagre/vinagre-tab.c:897
+#: ../vinagre/vinagre-tab.c:961
 msgid "Could not get a screenshot of the connection."
 msgstr "Không thể lấy ảnh chụp màn hình của kết nối."
 
-#: ../vinagre/vinagre-tab.c:902
+#: ../vinagre/vinagre-tab.c:966
 msgid "Save Screenshot"
 msgstr "Lưu ảnh chụp màn hình"
 
-#: ../vinagre/vinagre-tab.c:916
+#: ../vinagre/vinagre-tab.c:980
 #, c-format
 msgid "Screenshot of %s at %s"
 msgstr "Ảnh chụp màn hình của %s tại %s"
 
-#: ../vinagre/vinagre-tab.c:970
+#: ../vinagre/vinagre-tab.c:1034
 msgid "Error saving screenshot"
 msgstr "Gặp lỗi khi lưu ảnh chụp màn hình"
 
@@ -1328,12 +1338,12 @@ msgid "Error loading UI file"
 msgstr "Gặp lỗi khi tải tập tin UI"
 
 #. Translators: %s is a protocol, like VNC or SSH
-#: ../vinagre/vinagre-utils.vala:112
+#: ../vinagre/vinagre-utils.vala:116
 #, c-format
 msgid "%s authentication is required"
 msgstr "Yêu cầu xác thực %s"
 
-#: ../vinagre/vinagre-utils.vala:193
+#: ../vinagre/vinagre-utils.vala:227
 msgid "Error showing help"
 msgstr "Gặp lỗi khi hiển thị trợ giúp"
 
