@@ -1,0 +1,650 @@
+# Swedish translation for vinagre.
+# Copyright © 2016 vinagre's COPYRIGHT HOLDER
+# This file is distributed under the same license as the vinagre package.
+# Sebastian Rasmussen <sebras@gmail.com>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: vinagre master\n"
+"POT-Creation-Date: 2016-02-06 03:08+0000\n"
+"PO-Revision-Date: 2016-02-06 12:28+0100\n"
+"Last-Translator: Sebastian Rasmussen <sebras@gmail.com>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Sebastian Rasmussen <sebras@gmail.com>, 2016"
+
+#. (itstool) path: info/title
+#: C/connect.page:8
+msgctxt "sort"
+msgid "1"
+msgstr "1"
+
+#. (itstool) path: credit/name
+#: C/connect.page:14 C/connect-file.page:13 C/connect-reverse.page:15
+#: C/fullscreen.page:11 C/introduction.page:14 C/keyboard-shortcuts.page:13
+#: C/scaling.page:11 C/take-screenshot.page:13 C/view-only.page:11
+msgid "Ekaterina Gerasimova"
+msgstr "Ekaterina Gerasimova"
+
+#. (itstool) path: info/desc
+#: C/connect.page:20
+msgid "Connect to another computer on your local network."
+msgstr "Anslut till en annan dator på ditt lokala nätverk."
+
+#. (itstool) path: page/title
+#: C/connect.page:23
+msgid "Establish a connection"
+msgstr "Etablera en anslutning"
+
+#. (itstool) path: page/p
+#: C/connect.page:25
+msgid ""
+"You can connect to other computers on your local network using <app>Remote "
+"Desktop Viewer</app>."
+msgstr ""
+"Du kan ansluta till andra datorer på ditt lokala nätverk via "
+"<app>Fjärrskrivbordsvisare</app>."
+
+#. (itstool) path: item/p
+#: C/connect.page:30
+msgid ""
+"Select <guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem"
+"\">Connect</gui></guiseq>."
+msgstr ""
+"Välj <guiseq><gui style=\"menu\">Fjärr</gui> <gui style=\"menuitem\">Anslut</"
+"gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/connect.page:34
+msgid ""
+"Choose the <gui>Protocol</gui> and the <gui>Host</gui> for the connection."
+msgstr "Välj <gui>Protokoll</gui> och <gui>Värd</gui> för anslutningen."
+
+# sebras: buttons
+#. (itstool) path: note/p
+#: C/connect.page:37
+msgid ""
+"Some protocols allow you to see all available computers on your local "
+"network by clicking the <gui style=\"button\">Find</gui> button. This "
+"buttons will not be displayed if you do not have <app>Avahi</app> support."
+msgstr ""
+"Vissa protokoll låter dig se alla tillgängliga datorer på ditt lokala "
+"nätverk genom att klicka på <gui style=\"button\">Sök</gui>-knappen. Denna "
+"knapp kommer inte att visas om du inte har <app>Avahi</app>-stöd."
+
+#. (itstool) path: item/p
+#: C/connect.page:44
+msgid ""
+"Select the options which you want enabled when the connection is made. "
+"Options will vary depending on the protocol that you use."
+msgstr ""
+"Välj de inställningar du vill ha aktiverade när anslutningen görs. "
+"Inställningarna varierar beroende på vilket protokoll du använder."
+
+#. (itstool) path: item/p
+#: C/connect.page:48
+msgid "Click the <gui style=\"button\">Connect</gui> button."
+msgstr "Klicka på knappen <gui style=\"button\">Anslut</gui>."
+
+#. (itstool) path: item/p
+#: C/connect.page:49
+msgid ""
+"At this point, the remote desktop may need to confirm the connection. If "
+"this is the case, the viewer may remain black until the connection is "
+"confirmed."
+msgstr ""
+"I detta läge kan fjärrskrivbordet behöva bekräfta anslutningen. Om detta är "
+"fallet kommer visaren att fortsatt vara svart tills anslutningen är "
+"bekräftad."
+
+#. (itstool) path: note/p
+#: C/connect.page:53
+msgid ""
+"Some computers may require a secure connection: an authentication dialog "
+"will be displayed, asking for the credentials. The type of credentials "
+"depend on the remote host; it may be a password and a username. If you "
+"select <gui>Remember this credential</gui>, <app>Remote Desktop Viewer</app> "
+"will store the information using <app>GNOME Keyring</app>."
+msgstr ""
+"Vissa datorer kan kräva en säker anslutning: en autentiseringsdialog kommer "
+"att visas som efterfrågar inloggningsuppgifter. Typen av "
+"inloggningsuppgifter beror på fjärrvärden; det kan vara ett lösenord och ett "
+"användarnamn. Om du väljer <gui>Kom ihåg denna inloggningsuppgift</gui> så "
+"kommer <app>Fjärrskrivbordsvisare</app> att spara informationen i <app>GNOME-"
+"nyckelring</app>."
+
+#. (itstool) path: page/p
+#: C/connect.page:63
+msgid ""
+"If the connection has been used previously, you can also access it through "
+"<guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem\">Recent "
+"Connections</gui></guiseq>."
+msgstr ""
+"Om anslutningen har använts förut kan du också nå den via <guiseq><gui style="
+"\"menu\">Fjärr</gui> <gui style=\"menuitem\">Senaste anslutningar</gui></"
+"guiseq>."
+
+#. (itstool) path: page/p
+#: C/connect.page:67
+msgid ""
+"To close a connection, choose <guiseq><gui style=\"menu\">Remote</gui> <gui "
+"style=\"menuitem\">Close</gui></guiseq> or click the <gui style=\"button"
+"\">Close</gui> button."
+msgstr ""
+"För att stänga en anslutning, välj <guiseq><gui style=\"menu\">Fjärr</gui> "
+"<gui style=\"menuitem\">Stäng</gui></guiseq> eller klicka på <gui style="
+"\"button\">Stäng</gui>-knappen."
+
+#. (itstool) path: info/title
+#: C/connect-file.page:8
+msgctxt "sort"
+msgid "2"
+msgstr "2"
+
+#. (itstool) path: license/p
+#: C/connect-file.page:18 C/fullscreen.page:16 C/scaling.page:16
+#: C/view-only.page:16
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Creative Commons DelaLika 3.0"
+
+#. (itstool) path: info/desc
+#: C/connect-file.page:21
+msgid "Use a remote connection file to connect to a remote machine."
+msgstr "Använd en fjärranslutningsfil för att ansluta till en fjärrmaskin."
+
+#. (itstool) path: page/title
+#: C/connect-file.page:24
+msgid "Connect using a <file>.vnc</file> file"
+msgstr "Anslut med hjälp av en <file>.vnc</file>-fil"
+
+# sebras: suffix? file extension?
+#. (itstool) path: page/p
+#: C/connect-file.page:26
+msgid ""
+"Some hosts distribute <em>remote connection files</em>, that generally end "
+"with the suffix <file>.vnc</file>, instead of using a host address and port."
+msgstr ""
+"Vissa värdar distribuerar <em>fjärranslutningsfiler</em>, som generellt "
+"slutar med ändelsen <file>.vnc</file>, istället för att använda en "
+"värdadress och värdport."
+
+#. (itstool) path: item/p
+#: C/connect-file.page:32
+msgid ""
+"Select <guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem"
+"\">Open</gui></guiseq>."
+msgstr ""
+"Välj <guiseq><gui style=\"menu\">Fjärr</gui> <gui style=\"menuitem\">Öppna</"
+"gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/connect-file.page:36
+msgid "Select the file you want to open."
+msgstr "Välj filen du vill öppna."
+
+#. (itstool) path: item/p
+#: C/connect-file.page:39
+msgid "Click the <gui style=\"button\">Open</gui> button."
+msgstr "Klicka på knappen <gui style=\"button\">Öppna</gui>."
+
+#. (itstool) path: note/p
+#: C/connect-file.page:44
+msgid "You can also open a remote connection file from <app>Files</app>."
+msgstr "Du kan också öppna en fjärranslutningsfil från <app>Filer</app>."
+
+#. (itstool) path: info/title
+#: C/connect-reverse.page:9
+msgctxt "sort"
+msgid "3"
+msgstr "3"
+
+#. (itstool) path: info/desc
+#: C/connect-reverse.page:21
+msgid ""
+"Connect to computers not on your local network: bypassing firewall "
+"restrictions on remote host."
+msgstr ""
+"Anslut till datorer som inte finns på ditt lokala nätverk: förbigår "
+"brandväggsbegränsningar på fjärrvärd."
+
+#. (itstool) path: page/title
+#: C/connect-reverse.page:25
+msgid "<gui>Reverse Connections…</gui>"
+msgstr "<gui>Omvända anslutningar…</gui>"
+
+#. (itstool) path: page/p
+#: C/connect-reverse.page:27
+msgid ""
+"A reverse connection is usually used to bypass firewall restrictions on open "
+"ports. A firewall usually blocks open ports, but does not block outgoing "
+"traffic. In a normal forward connection, a client connects to an open port "
+"on the server. However, in the case of a reverse connection, the client "
+"opens a port for the server to connect to."
+msgstr ""
+"En omvänd anslutning används vanligtvis för att förbigå "
+"brandväggsbegränsningar för öppna portar. En brandvägg blockerar vanligtvis "
+"öppna portar, men blockerar inte utgående trafik. I en normal "
+"framåtanslutning så ansluter en klient till en öppen port på servern. Men i "
+"fallet med en omvänd anslutning så öppnar klienten en port som servern kan "
+"ansluta till."
+
+#. (itstool) path: section/title
+#: C/connect-reverse.page:34
+msgid "Enabling reverse connections"
+msgstr "Aktivera omvända anslutningar"
+
+#. (itstool) path: item/p
+#: C/connect-reverse.page:38
+msgid ""
+"Select <guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem"
+"\">Reverse Connections…</gui></guiseq>."
+msgstr ""
+"Välj <guiseq><gui style=\"menu\">Fjärr</gui> <gui style=\"menuitem\">Omvända "
+"anslutningar…</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/connect-reverse.page:42
+msgid "Check <gui>Enable Reverse Connections</gui>."
+msgstr "Kryssa i <gui>Aktivera omvända anslutningar</gui>."
+
+#. (itstool) path: section/title
+#: C/connect-reverse.page:49
+msgid "Access a computer behind a firewall"
+msgstr "Tillgång till en dator bakom en brandvägg"
+
+#. (itstool) path: section/p
+#: C/connect-reverse.page:51
+msgid ""
+"The remote machine needs to connect to your machine using your <em>IP "
+"address</em> and port number, which can be found in the <gui>Reverse "
+"Connections…</gui> dialog, under <gui>Connectivity</gui>."
+msgstr ""
+"Fjärrmaskinen behöver ansluta till din maskin via din <em>IP-adress</em> och "
+"ditt portnummer, vilka kan hittas i dialogen <gui>Omvända anslutningar…</"
+"gui> under <gui>Anslutning</gui>."
+
+#. (itstool) path: note/p
+#: C/connect-reverse.page:56
+msgid ""
+"Currently, <app>Vino</app>, the GNOME VNC server, does not support reverse "
+"connections which are also known as \"listen mode\". Some other "
+"applications, such as <app>UltraVNC</app>, <app>RealVNC</app> and "
+"<app>TightVNC</app>, do have support for reverse connections."
+msgstr ""
+"För närvarande stöder <app>Vino</app>, GNOME:s VNC-server, inte omvända "
+"anslutningar, också kallade ”lyssningsläge”. Vissa andra program så som "
+"<app>UltraVNC</app>, <app>RealVNC</app> och <app>TightVNC</app> har dock "
+"stöd för omvända anslutningar."
+
+#. (itstool) path: section/p
+#: C/connect-reverse.page:62
+msgid ""
+"Once the remote computer connects to your machine, <app>Remote Desktop "
+"Viewer</app> will establish the reverse connection."
+msgstr ""
+"När fjärrdatorn ansluter till din maskin kommer <app>Fjärrskrivbordsvisare</"
+"app> att etablera den omvända anslutningen."
+
+#. (itstool) path: section/p
+#: C/connect-reverse.page:65
+msgid ""
+"When connecting to a machine which is not on your local network, you will "
+"need to provide your externally visible IP address and port number to the "
+"remote server."
+msgstr ""
+"När du ansluter till en maskin som inte är på ditt lokala nätverk kommer du "
+"att behöva tillhandahålla din externt synliga IP-adress och ditt portnummer "
+"till fjärrservern."
+
+#. (itstool) path: info/desc
+#: C/fullscreen.page:19
+msgid "View the remote desktop in fullscreen mode."
+msgstr "Visa fjärrskrivbordet i helskärmsläge."
+
+#. (itstool) path: page/title
+#: C/fullscreen.page:22
+msgid "Fullscreen mode"
+msgstr "Helskärmsläge"
+
+#. (itstool) path: page/p
+#: C/fullscreen.page:24
+msgid ""
+"Fullscreen mode can be useful if viewing a desktop which is the same size or "
+"larger than yours."
+msgstr ""
+"Helskärmsläge kan vara användbart om du visar ett skrivbord som har samma "
+"storlek eller större än ditt."
+
+# sebras: display area? maybe remote desktop?
+#. (itstool) path: item/p
+#: C/fullscreen.page:29
+msgid ""
+"Choose <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
+"\">Fullscreen</gui></guiseq>, or press the corresponding toolbar button, to "
+"view the display area in fullscreen mode."
+msgstr ""
+"Välj <guiseq><gui style=\"menu\">Visa</gui> <gui style=\"menuitem"
+"\">Helskärm</gui></guiseq>, eller tryck på motsvarande knapp i "
+"verktygsfältet, för att visa skärmområdet i helskärmsläge."
+
+#. (itstool) path: note/p
+#: C/fullscreen.page:37
+msgid ""
+"While in fullscreen mode, move the mouse to the top-center of the screen to "
+"display a hidden toolbar, which has <gui style=\"button\">Leave Fullscreen</"
+"gui>, <gui style=\"button\">Disconnect</gui> and other buttons."
+msgstr ""
+"När du är i helskärmsläge, flytta musen överst i mitten av skärmen för att "
+"visa ett gömt verktygsfält som bland annat har knappar för <gui style="
+"\"button\">Lämna helskärmsläge</gui> och <gui style=\"button\">Koppla från</"
+"gui>."
+
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "text"
+msgid "Remote Desktop Viewer help"
+msgstr "Hjälp för Fjärrskrivbordsvisare"
+
+#. (itstool) path: info/desc
+#: C/index.page:12
+msgid "Learn how to connect remotely to other desktops."
+msgstr "Lär dig hur du fjärransluter till andra skrivbord."
+
+#. (itstool) path: page/title
+#: C/index.page:15
+msgid "<_:media-1/> Remote Desktop Viewer"
+msgstr "<_:media-1/> Fjärrskrivbordsvisare"
+
+#. (itstool) path: section/title
+#: C/index.page:21
+msgid "Connecting to other computers using VNC"
+msgstr "Ansluta till andra datorer via VNC"
+
+#. (itstool) path: section/title
+#: C/index.page:25
+msgid "Features and options"
+msgstr "Funktioner och inställningar"
+
+#. (itstool) path: media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/introduction.page:39
+msgctxt "_"
+msgid ""
+"external ref='figures/vinagre-connected-3-16.png' "
+"md5='7f513a6b8104a46acd4656ea0042a677'"
+msgstr ""
+"external ref='figures/vinagre-connected-3-16.png' "
+"md5='7f513a6b8104a46acd4656ea0042a677'"
+
+#. (itstool) path: info/desc
+#: C/introduction.page:20
+msgid "Introduction to <app>Remote Desktop Viewer</app>."
+msgstr "Introduktion till <app>Fjärrskrivbordsvisare</app>."
+
+#. (itstool) path: page/title
+#: C/introduction.page:23
+msgid "Introduction"
+msgstr "Introduktion"
+
+# sebras: remote desktop viewer is repeated, maybe rephrase?
+#. (itstool) path: page/p
+#: C/introduction.page:25
+msgid ""
+"<app>Remote Desktop Viewer</app> is a remote desktop viewer application for "
+"GNOME for accessing other machines using Virtual Network Computing (VNC) and "
+"other protocols. It can be used to control and interact with another "
+"computer or to just view the desktop."
+msgstr ""
+"<app>Fjärrskrivbordsvisare</app> är ett program för att visa fjärrskrivbord "
+"för GNOME via Virtual Network Computing (VNC) och andra protokoll. Det kan "
+"användas för att kontrollera och interagera med en annan dator eller bara "
+"för att visa skrivbordet."
+
+#. (itstool) path: page/p
+#: C/introduction.page:30
+msgid "<app>Remote Desktop Viewer</app> provides the following features:"
+msgstr "<app>Fjärrskrivbordsvisare</app> tillhandahåller följande funktioner:"
+
+#. (itstool) path: item/p
+#: C/introduction.page:32
+msgid "connect to several machines at the same time"
+msgstr "anslut till flera maskiner på samma gång"
+
+#. (itstool) path: item/p
+#: C/introduction.page:33
+msgid "store recent connections and bookmark them"
+msgstr "spara senaste anslutningar och bokmärk dem"
+
+#. (itstool) path: item/p
+#: C/introduction.page:34
+msgid "browse the local network for other machines"
+msgstr "bläddra efter maskiner på det lokala nätverket"
+
+#. (itstool) path: figure/title
+#: C/introduction.page:38
+msgid "Remote Desktop Viewer in action"
+msgstr "Fjärrskrivbordsvisare i arbete"
+
+#. (itstool) path: media/p
+#: C/introduction.page:40
+msgid ""
+"Remote Desktop Viewer running in GNOME 3, connected to a machine running "
+"GNOME 2"
+msgstr ""
+"Fjärrskrivbordsvisare kör i GNOME 3, ansluten till en maskin som kör GNOME 2"
+
+#. (itstool) path: p/link
+#: C/legal.xml:5
+msgid "Creative Commons Attribution-ShareAlike 3.0 Unported License"
+msgstr "licensen Creative Commons Erkännande-DelaLika 3.0 Unported"
+
+#. (itstool) path: license/p
+#: C/legal.xml:4
+msgid "This work is licensed under a <_:link-1/>."
+msgstr "Detta verk är licensierat under <_:link-1/>."
+
+#. (itstool) path: info/desc
+#: C/keyboard-shortcuts.page:19
+msgid "Disable the sending of keyboard shortcuts to the remote machine."
+msgstr "Inaktivera sändning av tangentbordsgenvägar till fjärrmaskinen."
+
+#. (itstool) path: page/title
+#: C/keyboard-shortcuts.page:23
+msgid "Keyboard shortcuts"
+msgstr "Tangentbordsgenvägar"
+
+#. (itstool) path: page/p
+#: C/keyboard-shortcuts.page:25
+msgid ""
+"You can enable or disable keyboard shortcuts by selecting <guiseq><gui style="
+"\"menu\">View</gui> <gui style=\"menuitem\">Keyboard shortcuts</gui></"
+"guiseq>."
+msgstr ""
+"Du kan aktivera eller inaktivera tangentbordsgenvägar genom att välja "
+"<guiseq><gui style=\"menu\">Visa</gui> <gui style=\"menuitem"
+"\">Tangentbordsgenvägar</gui></guiseq>."
+
+#. (itstool) path: page/p
+#: C/keyboard-shortcuts.page:29
+msgid ""
+"Enabling this option allows the use of keyboard shortcuts (like "
+"<keyseq><key>Ctrl</key><key>N</key></keyseq>), menu accelerators (such as "
+"<keyseq><key>Alt</key><key>M</key></keyseq>) and mnemonics, with <app>Remote "
+"Desktop Viewer</app>. This means that <app>Remote Desktop Viewer</app> will "
+"catch those key combinations instead of sending them to the remote machine. "
+"This option is disabled by default because most of the time, you will be "
+"interacting with the computer to which you are connected."
+msgstr ""
+"Att aktivera denna inställning tillåter användning av tangentbordsgenvägar "
+"(så som <keyseq><key>Ctrl</key><key>N</key></keyseq>), menytangenter (så som "
+"<keyseq><key>Alt</key><key>M</key></keyseq>) och menyåtkomsttangenter i "
+"<app>Fjärrskrivbordsvisare</app>. Detta innebär att "
+"<app>Fjärrskrivbordsvisare</app> kommer att fånga de tangentkombinationerna "
+"istället för att skicka dem till fjärrmaskinen. Denna inställning är "
+"inaktiverad som standard eftersom du mestadels kommer att interagera med "
+"datorn som du är ansluten till."
+
+#. (itstool) path: note/p
+#: C/keyboard-shortcuts.page:38
+msgid ""
+"When the <gui>Keyboard shortcuts</gui> option is disabled, "
+"<keyseq><key>Ctrl</key><key>Alt</key><key>Delete</key></keyseq> is the only "
+"key combination which will not be sent to the remote desktop. Choose "
+"<guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem\">Send Ctrl-"
+"Alt-Delete</gui></guiseq>, or use the corresponding toolbar button, to send "
+"this key combination."
+msgstr ""
+"När inställningen <gui>Tangentbordsgenvägar</gui> är inaktiverad kommer "
+"<keyseq><key>Ctrl</key><key>Alt</key><key>Delete</key></keyseq> vara den "
+"enda tangentkombinationen som inte kommer att skickas till fjärrskrivbordet. "
+"Välj <guiseq><gui style=\"menu\">Fjärr</gui> <gui style=\"menuitem\">Skicka "
+"Ctrl-Alt-Delete</gui></guiseq>, eller använd motsvarande knapp i "
+"verktygsfältet, för att skicka denna tangentkombination."
+
+#. (itstool) path: info/desc
+#: C/scaling.page:19
+msgid "Scale the remote desktop to fit the display area."
+msgstr "Skala fjärrskrivbordet för att anpassas till skärmytan."
+
+#. (itstool) path: page/title
+#: C/scaling.page:22
+msgid "Scale the remote desktop"
+msgstr "Skala fjärrskrivbordet"
+
+#. (itstool) path: page/p
+#: C/scaling.page:24
+msgid ""
+"Some protocols have an option to scale the remote desktop to fit your "
+"display area."
+msgstr ""
+"Vissa protokoll har en inställning för att skala fjärrskrivbordet så att det "
+"anpassas till din skärmyta."
+
+#. (itstool) path: item/p
+#: C/scaling.page:29
+msgid ""
+"Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
+"\">Scaling</gui></guiseq>, or click the <gui>Scaling</gui> toolbar button."
+msgstr ""
+"Välj <guiseq><gui style=\"menu\">Visa</gui> <gui style=\"menuitem"
+"\">Skalning</gui></guiseq>, eller klicka på verktygsknappen <gui>Skalning</"
+"gui>."
+
+#. (itstool) path: item/p
+#: C/scaling.page:34
+msgid ""
+"Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem\">Keep "
+"Aspect Ratio</gui></guiseq> if you want to constrain the aspect ratio of the "
+"remote desktop inside the display area, or deselect the option to stretch "
+"the remote desktop to fill the available space."
+msgstr ""
+"Välj <guiseq><gui style=\"menu\">Visa</gui> <gui style=\"menuitem\">Behåll "
+"bildförhållande</gui></guiseq> om du vill begränsa fjärrskrivbordets "
+"bildförhållande i din skärmyta eller avmarkera inställningen för att sträcka "
+"ut fjärrskrivbordet så att det fyller det tillgängliga utrymmet."
+
+#. (itstool) path: note/p
+#: C/scaling.page:40
+msgid ""
+"This option can be toggled only if <gui>Scaling</gui> has already been "
+"enabled."
+msgstr ""
+"Denna inställning kan bara ställas in om <gui>Skalning</gui> redan har "
+"aktiverats."
+
+#. (itstool) path: info/desc
+#: C/take-screenshot.page:19
+msgid "Take a screenshot of a remote desktop."
+msgstr "Ta en skärmbild av ett fjärrskrivbord."
+
+#. (itstool) path: page/title
+#: C/take-screenshot.page:22
+msgid "Take a screenshot"
+msgstr "Ta en skärmbild"
+
+#. (itstool) path: page/p
+#: C/take-screenshot.page:24
+msgid ""
+"You can take screenshots of only the desktop that you are connected to by "
+"using the tool provided by <app>Remote Desktop Viewer</app>."
+msgstr ""
+"Du kan ta skärmbilder enbart av skrivbordet som du är anslutet till genom "
+"verktyget som tillhandahålls av <app>Fjärrskrivbordsvisare</app>."
+
+#. (itstool) path: item/p
+#: C/take-screenshot.page:29
+msgid ""
+"Select <guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem\">Take "
+"screenshot</gui></guiseq>, or click the <gui>Take Screenshot</gui> button in "
+"the toolbar."
+msgstr ""
+"Välj <guiseq><gui style=\"menu\">Fjärr</gui> <gui style=\"menuitem\">Ta "
+"skärmbild</gui></guiseq>, eller klicka på knappen <gui>Ta skärmbild</gui> i "
+"verktygsfältet."
+
+#. (itstool) path: item/p
+#: C/take-screenshot.page:34
+msgid ""
+"In the <gui>Name</gui> field, enter the filename that you want the "
+"screenshot to be saved under."
+msgstr ""
+"I fältet <gui>Namn</gui>, mata in filnamnet som du vill att skärmbilden ska "
+"sparas under."
+
+#. (itstool) path: item/p
+#: C/take-screenshot.page:38
+msgid ""
+"From the <gui>Save in folder</gui> drop down list, select the folder that "
+"you want the screenshot to be saved in. You can also click <gui>Browse for "
+"other folder</gui> to select one which is not in the drop down list."
+msgstr ""
+"Från rullgardinsmenyn <gui>Spara i mapp</gui>, välj mappen som du vill att "
+"skärmbilden ska sparas i. Du kan också klicka på <gui>Bläddra efter annan "
+"mapp</gui> för att välja en som inte finns i rullgardinsmenyn."
+
+#. (itstool) path: item/p
+#: C/take-screenshot.page:44
+msgid "Click <gui style=\"button\">Save</gui> to save the screenshot."
+msgstr "Klicka på <gui style=\"button\">Spara</gui> för att spara skärmbilden."
+
+#. (itstool) path: info/desc
+#: C/view-only.page:19
+msgid "Disable interaction with the remote desktop."
+msgstr "Inaktivera interaktion med fjärrskrivbordet."
+
+#. (itstool) path: page/title
+#: C/view-only.page:22
+msgid "View-only mode"
+msgstr "Enbart visnings-läge"
+
+#. (itstool) path: page/p
+#: C/view-only.page:24
+msgid ""
+"Some protocols allow you to enable a <gui>View Only</gui> mode. This mode "
+"allows you to disable all interaction with the remote."
+msgstr ""
+"Vissa protokoll låter dig aktivera ett läge för <gui>Enbart visning</gui>. "
+"Detta läge låter dig inaktivera all interaktion med fjärren."
+
+#. (itstool) path: page/p
+#: C/view-only.page:26
+msgid ""
+"Choose <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem\">View "
+"Only</gui></guiseq> or click the corresponding toolbar button to enable this "
+"mode."
+msgstr ""
+"Välj <guiseq><gui style=\"menu\">Visa</gui> <gui style=\"menuitem\">Endast "
+"visning</gui></guiseq> eller klicka på motsvarande knapp i verktygsfältet "
+"för att aktivera detta läge."

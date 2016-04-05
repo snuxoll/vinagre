@@ -19,4 +19,4 @@ HELP_FILES = \
 	take-screenshot.page \
 	view-only.page
 
-HELP_LINGUAS = cs de el es eu fr fa gl hu id lv pt_BR ru sl zh_CN
+HELP_LINGUAS = cs de el es eu fr fa gl hu id lv pt_BR ru sl sv zh_CN
