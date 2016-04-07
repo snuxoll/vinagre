@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-14 04:44+0100\n"
-"PO-Revision-Date: 2016-03-14 04:45+0100\n"
+"POT-Creation-Date: 2016-04-07 20:50+0200\n"
+"PO-Revision-Date: 2016-04-07 20:51+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Po połączeniu z komputerem klient może kazać serwerowi pozostawić innych "
 "klientów połączonych lub opuścić istniejące połączenia. Ustawienie na "
-"wartość „true” umożliwia współdzielenie pulpitu z innymi klientami."
+"wartość „true” umożliwia udostępnianie pulpitu innym klientom."
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:3
 msgid ""
@@ -1232,11 +1232,11 @@ msgstr "Niemożliwe uzyskanie awatara: %s"
 #: ../vinagre/vinagre-tube-handler.c:535
 #, c-format
 msgid "%s wants to share their desktop with you."
-msgstr "Użytkownik %s chce współdzielić swój pulpit."
+msgstr "Użytkownik %s chce udostępnić swój pulpit."
 
 #: ../vinagre/vinagre-tube-handler.c:540
 msgid "Desktop sharing invitation"
-msgstr "Zaproszenie do współdzielenia pulpitu"
+msgstr "Zaproszenie do udostępniania pulpitu"
 
 #. Toplevel
 #: ../vinagre/vinagre-ui.h:33
