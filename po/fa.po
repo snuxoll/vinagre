@@ -2,15 +2,15 @@
 # Copyright (C) 2011 vinagre's COPYRIGHT HOLDER
 # This file is distributed under the same license as the vinagre package.
 # Ali Akbar Najafian <ali_njfn@yahoo.com>, 2011.
-# Arash Mousavi <mousavi.arash@gmail.com>, 2011, 2012, 2013, 2014, 2015.
+# Arash Mousavi <mousavi.arash@gmail.com>, 2011, 2012, 2013, 2014, 2015, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-09-11 12:21+0000\n"
-"PO-Revision-Date: 2015-09-12 12:02+0430\n"
+"POT-Creation-Date: 2016-04-08 14:45+0000\n"
+"PO-Revision-Date: 2016-04-09 01:04+0430\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: Persian\n"
 "Language: fa_IR\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=0;\n"
 "X-DamnedLies-Scope: partial\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
 msgid "Whether we should leave other clients connected"
@@ -126,7 +126,7 @@ msgstr "_تایید هویت"
 msgid "Authentication is required"
 msgstr "تایید هویت مورد نیاز است"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:132
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:134
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
 #: ../plugins/spice/vinagre-spice-tab.c:142
 msgid "Host:"
@@ -141,7 +141,7 @@ msgstr "_نام کاربری:"
 msgid "_Password:"
 msgstr "_گذرواژه:"
 
-#: ../data/vinagre.ui.h:10
+#: ../data/vinagre.ui.h:10 ../plugins/rdp/vinagre-rdp-plugin.c:149
 msgid "_Domain:"
 msgstr "_دامنه:"
 
@@ -235,8 +235,8 @@ msgstr ""
 msgid "Fingerprint:"
 msgstr "اثرانگشت:"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:972
-#: ../plugins/rdp/vinagre-rdp-tab.c:1013
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:946
+#: ../plugins/rdp/vinagre-rdp-tab.c:987
 msgid "Connect"
 msgstr "اتصال"
 
@@ -336,52 +336,57 @@ msgstr ""
 "اختیاری. اگر خالی باشد، نام‌کاربری شما مورد استفاده قرار می‌گیرد. همچنین، می‌تواند "
 "از طریق فیلد میزبان در بالا، به شکل username@hostname تامین شود."
 
+#. Translators: This is the tooltip for the domain field in a RDP connection
+#: ../plugins/rdp/vinagre-rdp-plugin.c:156
+msgid "Optional."
+msgstr "اختیاری."
+
 #. Host width
-#: ../plugins/rdp/vinagre-rdp-plugin.c:150
+#: ../plugins/rdp/vinagre-rdp-plugin.c:169
 msgid "_Width:"
 msgstr "_پهنا:"
 
 #. Translators: This is the tooltip for the width field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:157
+#: ../plugins/rdp/vinagre-rdp-plugin.c:176
 msgid "Set width of the remote desktop"
 msgstr "تنظیم پهنا رومیزی دوردست"
 
 #. Host height
-#: ../plugins/rdp/vinagre-rdp-plugin.c:170
+#: ../plugins/rdp/vinagre-rdp-plugin.c:189
 msgid "_Height:"
 msgstr "_ارتفاع:"
 
 #. Translators: This is the tooltip for the height field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:177
+#: ../plugins/rdp/vinagre-rdp-plugin.c:196
 msgid "Set height of the remote desktop"
 msgstr "تنظیم ارتفاع رومیزی دوردست"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:133 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:135 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150 ../plugins/spice/vinagre-spice-tab.c:143
 msgid "Port:"
 msgstr "درگاه:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:281 ../plugins/vnc/vinagre-vnc-tab.c:601
-#: ../plugins/spice/vinagre-spice-tab.c:469
+#: ../plugins/rdp/vinagre-rdp-tab.c:292 ../plugins/vnc/vinagre-vnc-tab.c:601
+#: ../plugins/spice/vinagre-spice-tab.c:473
 msgid "S_caling"
 msgstr "در حال _مقیاس کردن"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:282 ../plugins/vnc/vinagre-vnc-tab.c:602
-#: ../plugins/spice/vinagre-spice-tab.c:470
+#: ../plugins/rdp/vinagre-rdp-tab.c:293 ../plugins/vnc/vinagre-vnc-tab.c:602
+#: ../plugins/spice/vinagre-spice-tab.c:474
 msgid "Fit the remote screen into the current window size"
 msgstr "صفحه‌ی میزکار دوردست را با اندازه‌ی فعلی پنجره مطابقت بده"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:355 ../plugins/rdp/vinagre-rdp-tab.c:356
+#: ../plugins/rdp/vinagre-rdp-tab.c:366 ../plugins/rdp/vinagre-rdp-tab.c:367
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
-#: ../plugins/spice/vinagre-spice-tab.c:587 ../plugins/spice/vinagre-spice-tab.c:588
+#: ../plugins/spice/vinagre-spice-tab.c:591 ../plugins/spice/vinagre-spice-tab.c:592
 msgid "Scaling"
 msgstr "در حال مقیاس کردن"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:971 ../plugins/rdp/vinagre-rdp-tab.c:1012
+#: ../plugins/rdp/vinagre-rdp-tab.c:945 ../plugins/rdp/vinagre-rdp-tab.c:986
 msgid "_Cancel"
 msgstr "_لغو"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:1209 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:1221 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:267
 msgid "Error connecting to host."
 msgstr "خطا در اتصال به میزبان"
@@ -454,7 +459,7 @@ msgstr "گزینه‌های VNC"
 #. View only check button - not fully ready on spice-gtk side
 #: ../plugins/vnc/vinagre-vnc-plugin.c:276 ../plugins/vnc/vinagre-vnc-tab.c:630
 #: ../plugins/spice/vinagre-spice-plugin.c:237
-#: ../plugins/spice/vinagre-spice-tab.c:510
+#: ../plugins/spice/vinagre-spice-tab.c:514
 msgid "_View only"
 msgstr "فقط _نمایش"
 
@@ -576,7 +581,7 @@ msgstr "_ثابت نگاه داشتن نسبت ابعاد"
 msgid "Keep the screen aspect ratio when using scaling"
 msgstr "نسبت ابعاد صفحه را در هنگام مقیاس کردن ثابت نگاه دار"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:631 ../plugins/spice/vinagre-spice-tab.c:511
+#: ../plugins/vnc/vinagre-vnc-tab.c:631 ../plugins/spice/vinagre-spice-tab.c:515
 msgid "Do not send mouse and keyboard events"
 msgstr "رویدادهای موشی و صفحه کلید ارسال نشوند"
 
@@ -596,22 +601,22 @@ msgstr "_نوسازی صفحه‌نمایش"
 msgid "Requests an update of the screen"
 msgstr "درخواست یک بروزرسانی از صفحه‌نمایش را می‌کند"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:681 ../plugins/spice/vinagre-spice-tab.c:534
+#: ../plugins/vnc/vinagre-vnc-tab.c:681 ../plugins/spice/vinagre-spice-tab.c:538
 msgid "_Send Ctrl-Alt-Del"
 msgstr "_ارسال Ctrl-Alt-Del"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
-#: ../plugins/spice/vinagre-spice-tab.c:535 ../plugins/spice/vinagre-spice-tab.c:608
+#: ../plugins/spice/vinagre-spice-tab.c:539 ../plugins/spice/vinagre-spice-tab.c:612
 msgid "Send Ctrl+Alt+Del to the remote desktop"
 msgstr "ارسال Ctrl+Alt+Del به رومیزی دوردست"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:745 ../plugins/vnc/vinagre-vnc-tab.c:746
-#: ../plugins/spice/vinagre-spice-tab.c:597 ../plugins/spice/vinagre-spice-tab.c:598
+#: ../plugins/spice/vinagre-spice-tab.c:601 ../plugins/spice/vinagre-spice-tab.c:602
 msgid "Read only"
 msgstr "فقط خواندنی"
 
 #. Send Ctrl-alt-del
-#: ../plugins/vnc/vinagre-vnc-tab.c:754 ../plugins/spice/vinagre-spice-tab.c:606
+#: ../plugins/vnc/vinagre-vnc-tab.c:754 ../plugins/spice/vinagre-spice-tab.c:610
 msgid "Send Ctrl-Alt-Del"
 msgstr "ارسال Ctrl-Alt-Del"
 
@@ -658,13 +663,13 @@ msgstr "گزینه‌های SPICE"
 
 #. Resize guest check button
 #: ../plugins/spice/vinagre-spice-plugin.c:245
-#: ../plugins/spice/vinagre-spice-tab.c:483
+#: ../plugins/spice/vinagre-spice-tab.c:487
 msgid "_Resize guest"
 msgstr "_تغییر اندازه‌ی مهمان"
 
 #. Clipboard sharing check button
 #: ../plugins/spice/vinagre-spice-plugin.c:253
-#: ../plugins/spice/vinagre-spice-tab.c:496
+#: ../plugins/spice/vinagre-spice-tab.c:500
 msgid "_Share clipboard"
 msgstr "_اشتراک‌گذاری تخته‌گیره"
 
@@ -678,11 +683,11 @@ msgstr "اختیاری"
 msgid "Spice Files"
 msgstr "پرونده‌های Spice"
 
-#: ../plugins/spice/vinagre-spice-tab.c:484
+#: ../plugins/spice/vinagre-spice-tab.c:488
 msgid "Resize the screen guest to best fit"
 msgstr "تغییر اندازه صفحه مهمان به بهترین اندازه‌ی ممکن"
 
-#: ../plugins/spice/vinagre-spice-tab.c:497
+#: ../plugins/spice/vinagre-spice-tab.c:501
 msgid "Automatically share clipboard between client and guest"
 msgstr "تخته‌گیره را بطور خودکار بین کارگیر و مهمان به اشتراک بگذار"
 
@@ -817,11 +822,11 @@ msgstr "توجه نمایید که تمام زیر شاخه‌ها و نشانک
 msgid "Remove Item?"
 msgstr "مورد پاک شود؟"
 
-#: ../vinagre/vinagre-bookmarks-ui.c:335
+#: ../vinagre/vinagre-bookmarks-ui.c:334
 msgid "Error removing bookmark: Entry not found"
 msgstr "خطا در حذف نشانک: ورودی یافت نشد"
 
-#: ../vinagre/vinagre-bookmarks-ui.c:352
+#: ../vinagre/vinagre-bookmarks-ui.c:351
 msgid "New Folder"
 msgstr "پوشه جدید"
 
@@ -866,17 +871,17 @@ msgstr "خطا در هنگام ذخیره‌سازی پرونده‌ی تاری�
 msgid "Choose a Remote Desktop"
 msgstr "یک رومیزی دوردست انتخاب کنید"
 
-#: ../vinagre/vinagre-connection.c:614 ../vinagre/vinagre-tab.c:574
+#: ../vinagre/vinagre-connection.c:658 ../vinagre/vinagre-tab.c:590
 #: ../vinagre/vinagre-tube-handler.c:257
 #, c-format
 msgid "The protocol %s is not supported."
 msgstr "از پروتکل %s پشتیبانی نمی‌شود."
 
-#: ../vinagre/vinagre-connection.c:722
+#: ../vinagre/vinagre-connection.c:766
 msgid "Could not open the file."
 msgstr "نمی‌توان پرونده را باز کرد."
 
-#: ../vinagre/vinagre-connection.c:748
+#: ../vinagre/vinagre-connection.c:792
 msgid "The file was not recognized by any of the plugins."
 msgstr "پرونده توسط هیچ کدام از افزونه‌ها شناسایی نشد."
 
@@ -1085,7 +1090,7 @@ msgstr "نمی‌توان تاییدِ اطلاعاتِ هویتی میزبان 
 msgid "Secure shell password: %s"
 msgstr "گذرواژه پوسته امن: %s"
 
-#: ../vinagre/vinagre-ssh.c:618 ../vinagre/vinagre-tab.c:798
+#: ../vinagre/vinagre-ssh.c:618 ../vinagre/vinagre-tab.c:860
 msgid "Error saving the credentials on the keyring."
 msgstr "خطا در ذخیره گواهی‌نامه‌ها در دسته‌کلید"
 
@@ -1109,37 +1114,42 @@ msgstr "تایید کلید میزبان شکست خورد"
 msgid "Unable to find a valid SSH program"
 msgstr "نمی‌توان یک برنامه‌ی معتبر SSH پیدا کرد"
 
-#: ../vinagre/vinagre-tab.c:354
+#: ../vinagre/vinagre-tab.c:361
 msgid "Disconnect"
 msgstr "قطع اتصال"
 
-#: ../vinagre/vinagre-tab.c:375
+#. Translators: Pressing this button will minimize Vinagre
+#: ../vinagre/vinagre-tab.c:370
+msgid "Minimize window"
+msgstr "کمینه کردن پنجره"
+
+#: ../vinagre/vinagre-tab.c:391
 msgid "Leave fullscreen"
 msgstr "خروج از تمام‌صفحه"
 
-#: ../vinagre/vinagre-tab.c:537
+#: ../vinagre/vinagre-tab.c:553
 msgid "Error saving recent connection."
 msgstr "خطا در هنگام ذخیره‌ی اتصالِ اخیر."
 
-#: ../vinagre/vinagre-tab.c:781
+#: ../vinagre/vinagre-tab.c:844
 #, c-format
 msgid "Remote desktop password for %s"
 msgstr "گذرواژه رومیزی دوردست برای %s"
 
-#: ../vinagre/vinagre-tab.c:897
+#: ../vinagre/vinagre-tab.c:961
 msgid "Could not get a screenshot of the connection."
 msgstr "نمی‌توان یک عکس از اتصال گرفت."
 
-#: ../vinagre/vinagre-tab.c:902
+#: ../vinagre/vinagre-tab.c:966
 msgid "Save Screenshot"
 msgstr "ذخیره عکس‌صفحه"
 
-#: ../vinagre/vinagre-tab.c:916
+#: ../vinagre/vinagre-tab.c:980
 #, c-format
 msgid "Screenshot of %s at %s"
 msgstr "عکس صفحه‌ی %s در %s"
 
-#: ../vinagre/vinagre-tab.c:970
+#: ../vinagre/vinagre-tab.c:1034
 msgid "Error saving screenshot"
 msgstr "خطا در ذخیره‌ی عکس صفحه"
 
@@ -1308,12 +1318,12 @@ msgid "Error loading UI file"
 msgstr "خطا در هنگام بار کردن پرونده‌ی UI"
 
 #. Translators: %s is a protocol, like VNC or SSH
-#: ../vinagre/vinagre-utils.vala:112
+#: ../vinagre/vinagre-utils.vala:116
 #, c-format
 msgid "%s authentication is required"
 msgstr "تایید هویت %s مورد نیاز است"
 
-#: ../vinagre/vinagre-utils.vala:193
+#: ../vinagre/vinagre-utils.vala:227
 msgid "Error showing help"
 msgstr "خطا در هنگام نمایش راهنما"
 
