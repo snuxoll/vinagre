@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2016-04-09 14:39+0000\n"
-"PO-Revision-Date: 2016-04-09 18:40+0200\n"
+"PO-Revision-Date: 2016-04-09 19:33+0200\n"
 "Language-Team: Friulian <fur@li.org>\n"
 "Language: fur\n"
 "MIME-Version: 1.0\n"
@@ -29,21 +29,28 @@ msgid ""
 "clients connected or to drop the existent connections. Set the value to true "
 "to share the desktop with the other clients."
 msgstr ""
+"Conetintsi a un host, il client al pues disi al servidôr di lassâ chei "
+"altris client tacâts o di molâ lis conessions esistentis. Met il valôr a "
+"\"true\" par condividi il scritori cun chei altris client."
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:3
 msgid ""
 "Whether we should show tabs even when there is only one active connection"
 msgstr ""
+"Indiche se mostrâ lis schedis ancje cuant che 'nd è nome une di conession "
+"ative"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:4
 msgid ""
 "Set to \"true\" to always show the tabs. Set to \"false\" to only show the "
 "tabs when there is more than one active connection."
 msgstr ""
+"Met a \"true\" par mostrâ simpri lis schedis. Met a \"false\" par mostrâ lis "
+"schedis nome se e je plui di une conession ative."
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:5
 msgid "Whether we should show the menu accelerators (shortcut keys)"
-msgstr ""
+msgstr "Indiche se mostrâ il menù dai aceleradôrs (scurtis di tastiere)"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:6
 msgid ""
@@ -51,14 +58,17 @@ msgid ""
 "Note that if they are enabled, those keys will be intercepted by the menu "
 "and will not be sent to the remote host."
 msgstr ""
+"Met a \"false\" par disabilitâ il menù des scurtis. Met a \"true\" par "
+"abilitâlis. Viôt che se a son abilitadis, chei tascj a vegnaran intercetâts "
+"dal menù e no vegnaran inviâts al host rimot."
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:7
 msgid "Maximum number of history items in connect dialog"
-msgstr ""
+msgstr "Numar massim di elements de cronologjie tal dialic di conession"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:8
 msgid "Specifies the maximum number of items in the host dropdown entry."
-msgstr ""
+msgstr "Specifiche il numar massim di elements te casele a vignî ju pai host."
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:9
 msgid "Whether we should start the program listening for reverse connections"
@@ -74,22 +84,24 @@ msgstr ""
 #: ../data/vinagre.appdata.xml.in.h:2 ../data/vinagre.desktop.in.in.h:1
 #: ../data/vinagre-file.desktop.in.in.h:1 ../vinagre/vinagre-main.c:182
 msgid "Remote Desktop Viewer"
-msgstr ""
+msgstr "Visualizadôr di Scritoris Rimots"
 
 #: ../data/vinagre.appdata.xml.in.h:3 ../data/vinagre.desktop.in.in.h:2
 #: ../data/vinagre-file.desktop.in.in.h:2
 msgid "Access remote desktops"
-msgstr ""
+msgstr "Jentre tai scritoris rimots"
 
 #: ../data/vinagre.appdata.xml.in.h:4
 msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
-msgstr ""
+msgstr "Vinagre al mostre scritoris rimots di Windows, Mac OS X e Linux. "
 
 #: ../data/vinagre.appdata.xml.in.h:5
 msgid ""
 "It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
 "SSH servers."
 msgstr ""
+"Al dopre i protocoi VNC, RDP e SPICE e al pues ancje jessi doprât par tacâsi "
+"ai servidôrs SSH."
 
 #: ../data/vinagre.desktop.in.in.h:3
 msgid "VNC;RDP;SSH;"
@@ -97,7 +109,7 @@ msgstr "VNC;RDP;SSH;"
 
 #: ../data/vinagre.ui.h:1
 msgid "Vinagre is a remote desktop viewer for the GNOME desktop"
-msgstr ""
+msgstr "Vinagre al è un visualizadôr di scritoris rimots pal scritori GNOME"
 
 #. Add your name here to appear as a translator in the about dialog
 #: ../data/vinagre.ui.h:3
@@ -179,7 +191,7 @@ msgstr "Cartele superiôr"
 
 #: ../data/vinagre.ui.h:23
 msgid "Certificate Verification"
-msgstr ""
+msgstr "Verifiche dal certificât"
 
 #: ../data/vinagre.ui.h:24
 msgid ""
@@ -214,6 +226,8 @@ msgid ""
 "The below certificate could not be verified.\n"
 "Do you trust the certificate?"
 msgstr ""
+"Il certificât chi sot nol pues jessi verificât.\n"
+"Ti fidistu dal certificât?"
 
 #. Fingerprint of the certificate.
 #: ../data/vinagre.ui.h:37
@@ -227,7 +241,7 @@ msgstr "Conet"
 
 #: ../data/vinagre.ui.h:39
 msgid "Choose a remote desktop to connect to"
-msgstr ""
+msgstr "Sielç un scritori rimot dulà tacâsi"
 
 #: ../data/vinagre.ui.h:40
 msgid "_Protocol:"
@@ -235,7 +249,7 @@ msgstr "_Protocol:"
 
 #: ../data/vinagre.ui.h:41
 msgid "Select a remote desktop protocol for this connection"
-msgstr ""
+msgstr "Selezione un protocol di scritori rimot par cheste conession"
 
 #: ../data/vinagre.ui.h:42
 msgid "Search for remote hosts on the network"
@@ -255,7 +269,7 @@ msgstr "Abilite modalitât a plen visôr par cheste conession"
 
 #: ../data/vinagre.ui.h:46
 msgid "Reverse Connections"
-msgstr ""
+msgstr "Conessions contraris"
 
 #: ../data/vinagre.ui.h:47
 msgid ""
@@ -263,10 +277,13 @@ msgid ""
 "behind a firewall. The remote side is supposed to initiate the connection "
 "with you. For further information, read the help."
 msgstr ""
+"Ativant lis conessions contraris tu puedis jentrâ tai scritoris rimots che a "
+"son daûr a un firewall. Si supon che e sedi la bande rimote a tacâ la "
+"conession cun te. Par vê plui informazions, lei il jutori."
 
 #: ../data/vinagre.ui.h:48
 msgid "_Enable Reverse Connections"
-msgstr ""
+msgstr "_Abilite conessions contraris"
 
 #. Translators: this is the reverse connection mode. "Always enabled" means it will be enabled by default in the program startup. You can see this string in the dialog Remote->Reverse connections.
 #: ../data/vinagre.ui.h:50
@@ -275,7 +292,7 @@ msgstr "_Simpri abilitadis"
 
 #: ../data/vinagre.ui.h:51
 msgid "This desktop is reachable through the following IP address(es):"
-msgstr ""
+msgstr "Chest scritori al è acessibil traviers di chestis direzions IP:"
 
 #: ../data/vinagre.ui.h:52
 msgid "Connectivity"
@@ -283,11 +300,11 @@ msgstr "Conetivitât"
 
 #: ../data/vinagre-mime.xml.in.h:1
 msgid "Remote Desktop (VNC) file"
-msgstr ""
+msgstr "File di scritori rimot (VNC)"
 
 #: ../data/vinagre-mime.xml.in.h:2
 msgid "Remote Desktop Connection"
-msgstr ""
+msgstr "Conession cuntun scritori rimot"
 
 #: ../plugins/rdp/vinagre-rdp-plugin.c:61
 msgid "RDP"
@@ -296,7 +313,7 @@ msgstr "RDP"
 #. Translators: This is a description of the RDP protocol. It appears in the Connect dialog.
 #: ../plugins/rdp/vinagre-rdp-plugin.c:63
 msgid "Access MS Windows remote desktops"
-msgstr ""
+msgstr "Jentre tai scritoris rimots di MS Windows"
 
 #: ../plugins/rdp/vinagre-rdp-plugin.c:111
 msgid "RDP Options"
@@ -317,11 +334,13 @@ msgid ""
 "Optional. If blank, your username will be used. Also, it can be supplied in "
 "the Host field above, in the form username@hostname."
 msgstr ""
+"Opzionâl. Se vueit, al vegnarà doprâ il to non utent. Al pues ancje jessi "
+"furnît tal cjamp Host parsore, inte forme <non utent>@<non host>."
 
 #. Translators: This is the tooltip for the domain field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:156
 msgid "Optional."
-msgstr ""
+msgstr "Opzionâl."
 
 #. Host width
 #: ../plugins/rdp/vinagre-rdp-plugin.c:169
@@ -331,7 +350,7 @@ msgstr "_Largjece:"
 #. Translators: This is the tooltip for the width field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:176
 msgid "Set width of the remote desktop"
-msgstr ""
+msgstr "Impueste la largjece dal scritori rimot"
 
 #. Host height
 #: ../plugins/rdp/vinagre-rdp-plugin.c:189
@@ -341,7 +360,7 @@ msgstr "_Altece:"
 #. Translators: This is the tooltip for the height field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:196
 msgid "Set height of the remote desktop"
-msgstr ""
+msgstr "Impueste la altece dal scritori rimot"
 
 #: ../plugins/rdp/vinagre-rdp-tab.c:135 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
