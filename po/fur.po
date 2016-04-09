@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2016-04-09 14:39+0000\n"
-"PO-Revision-Date: 2016-04-09 21:44+0200\n"
+"PO-Revision-Date: 2016-04-09 22:46+0200\n"
 "Language-Team: Friulian <fur@li.org>\n"
 "Language: fur\n"
 "MIME-Version: 1.0\n"
@@ -73,12 +73,15 @@ msgstr "Specifiche il numar massim di elements te casele a vignî ju pai host."
 #: ../data/org.gnome.Vinagre.gschema.xml.h:9
 msgid "Whether we should start the program listening for reverse connections"
 msgstr ""
+"Indiche se inviâ il program in modalitât di scolte pes conessions contraris"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:10
 msgid ""
 "Set to \"true\" to always start the program listening for reverse "
 "connections."
 msgstr ""
+"Met a \"true\" par inviâ simpri il program in modalitât di scolte pes "
+"conessions contraris."
 
 #. Both taken from the desktop file.
 #: ../data/vinagre.appdata.xml.in.h:2 ../data/vinagre.desktop.in.in.h:1
@@ -691,7 +694,7 @@ msgstr "File Spice"
 
 #: ../plugins/spice/vinagre-spice-tab.c:488
 msgid "Resize the screen guest to best fit"
-msgstr ""
+msgstr "Ridimensione il schermi ospit par adatâsi miôr che si pues"
 
 #: ../plugins/spice/vinagre-spice-tab.c:501
 msgid "Automatically share clipboard between client and guest"
@@ -916,7 +919,7 @@ msgstr "Zonte dal esploradôr mDNS pal servizi %s falide."
 #: ../vinagre/vinagre-mdns.c:251
 #, c-format
 msgid "Failed to browse for hosts: %s\n"
-msgstr ""
+msgstr "Ricercje dai host falide: %s\n"
 
 #: ../vinagre/vinagre-mdns.c:320
 #, c-format
@@ -965,6 +968,7 @@ msgstr "Vierç Vinagre in modalitât plen visôr"
 #: ../vinagre/vinagre-options.c:41
 msgid "Create a new toplevel window in an existing instance of Vinagre"
 msgstr ""
+"Cree un gnûf barcon di nivel plui alt intune istance esistent di Vinagre"
 
 #. Translators: this is a command line option (run vinagre --help)
 #: ../vinagre/vinagre-options.c:45
@@ -992,8 +996,8 @@ msgstr "Argoment %s no valit par --geometry"
 #: ../vinagre/vinagre-options.c:145
 msgid "The following error has occurred:"
 msgid_plural "The following errors have occurred:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "L'erôr chi daurman al è vignût fûr:"
+msgstr[1] "I erôrs chi daurman a son vignûts fûr:"
 
 #: ../vinagre/vinagre-prefs.c:83
 msgid "Cannot initialize preferences manager."
@@ -1020,30 +1024,32 @@ msgstr "Te puarte %d"
 
 #: ../vinagre/vinagre-reverse-vnc-listener.c:212
 msgid "Error activating reverse connections"
-msgstr ""
+msgstr "Erôr tal ativâ lis conessions contraris"
 
 #: ../vinagre/vinagre-reverse-vnc-listener.c:213
 msgid ""
 "The program could not find any available TCP ports starting at 5500. Is "
 "there any other running program consuming all your TCP ports?"
 msgstr ""
+"Il program nol rive a cjatâ nissune puarte TCP disponibil tacant di 5500. "
+"Isal un altri program che ti dopre dutis lis puartis TCP?"
 
 #: ../vinagre/vinagre-ssh.c:115
 msgid "Timed out when logging into SSH host"
-msgstr ""
+msgstr "Fûr timp massim tal jentrâ intal host SSH"
 
 #: ../vinagre/vinagre-ssh.c:191
 msgid "Unable to spawn ssh program"
-msgstr ""
+msgstr "Impussibil fâ partî il program ssh"
 
 #: ../vinagre/vinagre-ssh.c:208
 #, c-format
 msgid "Unable to spawn ssh program: %s"
-msgstr ""
+msgstr "Impussibil fâ partî il program ssh: %s"
 
 #: ../vinagre/vinagre-ssh.c:424
 msgid "Timed out when logging in"
-msgstr ""
+msgstr "Fûr timp massim tal jentrâ"
 
 #: ../vinagre/vinagre-ssh.c:454 ../vinagre/vinagre-ssh.c:596
 #: ../vinagre/vinagre-ssh.c:692
@@ -1156,33 +1162,33 @@ msgstr ""
 #: ../vinagre/vinagre-tube-handler.c:233
 #, c-format
 msgid "Impossible to get service property: %s"
-msgstr ""
+msgstr "Impussibil vê lis proprietâts dal servizi:  %s"
 
 #: ../vinagre/vinagre-tube-handler.c:300
 #, c-format
 msgid "Impossible to create the connection: %s"
-msgstr ""
+msgstr "Impussibil creâ la conession: %s"
 
 #: ../vinagre/vinagre-tube-handler.c:339
 #, c-format
 msgid "Impossible to accept the stream tube: %s"
-msgstr ""
+msgstr "Impussibil acetâ il flus dal tubo: %s"
 
 #. Translators: this is an error message when we fail to get the name of an empathy/telepathy buddy. %s will be replaced by the actual error message.
 #: ../vinagre/vinagre-tube-handler.c:477
 #, c-format
 msgid "Impossible to get the contact name: %s"
-msgstr ""
+msgstr "Impussibile vê il non dal contat: %s"
 
 #: ../vinagre/vinagre-tube-handler.c:514
 #, c-format
 msgid "Impossible to get the avatar: %s"
-msgstr ""
+msgstr "Impussibil vê il avatar: %s"
 
 #: ../vinagre/vinagre-tube-handler.c:535
 #, c-format
 msgid "%s wants to share their desktop with you."
-msgstr ""
+msgstr "%s al vûl condividi il so scritori cun te."
 
 #: ../vinagre/vinagre-tube-handler.c:540
 msgid "Desktop sharing invitation"
@@ -1220,11 +1226,11 @@ msgstr "Vierç un file .VNC"
 #. Translators: "Reverse" here is an adjective, not a verb.
 #: ../vinagre/vinagre-ui.h:45
 msgid "_Reverse Connections…"
-msgstr ""
+msgstr "Conessions cont_raris..."
 
 #: ../vinagre/vinagre-ui.h:45
 msgid "Configure incoming VNC connections"
-msgstr ""
+msgstr "Configure conessions VNC in jentrade"
 
 #: ../vinagre/vinagre-ui.h:48
 msgid "Quit the program"
@@ -1291,15 +1297,15 @@ msgstr "Zonte la conession atuâl tai segnelibris"
 #. Remote menu
 #: ../vinagre/vinagre-ui.h:88
 msgid "_Take Screenshot"
-msgstr ""
+msgstr "Fâs une ca_ture"
 
 #: ../vinagre/vinagre-ui.h:89
 msgid "Take a screenshot of the current remote desktop"
-msgstr ""
+msgstr "Fâs une cature dal scritori rimot atuâl"
 
 #: ../vinagre/vinagre-ui.h:93
 msgid "View the current remote desktop in fullscreen mode"
-msgstr ""
+msgstr "Viôt il scritori rimot atuâl in modalitât plen visôr"
 
 #: ../vinagre/vinagre-utils.vala:40
 msgid "An error occurred"
@@ -1308,6 +1314,7 @@ msgstr "Al è vignût fûr un erôr"
 #: ../vinagre/vinagre-utils.vala:84
 msgid "Vinagre failed to open a UI file, with the error message:"
 msgstr ""
+"Vinagre nol è rivât a vierzi un file de interface utent, cul messaç di erôr:"
 
 #: ../vinagre/vinagre-utils.vala:85
 msgid "Please check your installation."
@@ -1315,7 +1322,7 @@ msgstr "Controle la tô instalazion."
 
 #: ../vinagre/vinagre-utils.vala:89
 msgid "Error loading UI file"
-msgstr ""
+msgstr "Erôr tal cjariâ il file de interface utent"
 
 #. Translators: %s is a protocol, like VNC or SSH
 #: ../vinagre/vinagre-utils.vala:116
@@ -1330,7 +1337,7 @@ msgstr "Erôr tal mostrâ il jutori"
 #: ../vinagre/vinagre-window.c:390
 #, c-format
 msgid "Could not merge UI XML file: %s"
-msgstr ""
+msgstr "Impussibil unî il file XML de interface utent: %s"
 
 #: ../vinagre/vinagre-window.c:421
 msgid "_Recent Connections"
@@ -1340,7 +1347,7 @@ msgstr "Conessions _resintis"
 #: ../vinagre/vinagre-window.c:579
 #, c-format
 msgid "Open %s:%d"
-msgstr ""
+msgstr "Vierç %s:%d"
 
 #: ../vinagre/vinagre-window.c:773
 msgid ""
@@ -1349,6 +1356,10 @@ msgid ""
 "\n"
 "This message will appear only once."
 msgstr ""
+"Vinagre in maniere predefinide al disabilite lis scurtis di tastiere, cussì "
+"che dutis lis scurtis a vegnin inviadis al scritori rimot.\n"
+"\n"
+"Chest messaç al vegnarà mostrât nome une volte."
 
 #: ../vinagre/vinagre-window.c:779
 msgid "Enable shortcuts"
@@ -1357,4 +1368,4 @@ msgstr "_Abilite scurtis"
 #: ../vinagre/vinagre-window.c:792 ../vinagre/vinagre-window.c:798
 #, c-format
 msgid "Error while creating the file %s: %s"
-msgstr ""
+msgstr "Erôr tal creâ il file %s: %s"
