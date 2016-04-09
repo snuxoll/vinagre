@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2016-04-09 14:39+0000\n"
-"PO-Revision-Date: 2016-04-09 22:46+0200\n"
+"PO-Revision-Date: 2016-04-09 23:48+0200\n"
 "Language-Team: Friulian <fur@li.org>\n"
 "Language: fur\n"
 "MIME-Version: 1.0\n"
@@ -327,7 +327,7 @@ msgstr "Opzions RDP"
 #: ../plugins/vnc/vinagre-vnc-plugin.c:285
 #: ../plugins/spice/vinagre-spice-plugin.c:261
 msgid "_Scaling"
-msgstr ""
+msgstr "_Scjalâ"
 
 #. Translators: This is the tooltip for the username field in a RDP connection
 #. Translators: This is the tooltip for the username field in a SSH connection
@@ -374,19 +374,19 @@ msgstr "Puarte:"
 #: ../plugins/rdp/vinagre-rdp-tab.c:292 ../plugins/vnc/vinagre-vnc-tab.c:601
 #: ../plugins/spice/vinagre-spice-tab.c:473
 msgid "S_caling"
-msgstr ""
+msgstr "S_cjale"
 
 #: ../plugins/rdp/vinagre-rdp-tab.c:293 ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:474
 msgid "Fit the remote screen into the current window size"
-msgstr ""
+msgstr "Adate il schermi rimot ae dimension dal barcon curint"
 
 #: ../plugins/rdp/vinagre-rdp-tab.c:366 ../plugins/rdp/vinagre-rdp-tab.c:367
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
 #: ../plugins/spice/vinagre-spice-tab.c:591
 #: ../plugins/spice/vinagre-spice-tab.c:592
 msgid "Scaling"
-msgstr ""
+msgstr "Scjale"
 
 #: ../plugins/rdp/vinagre-rdp-tab.c:945 ../plugins/rdp/vinagre-rdp-tab.c:986
 msgid "_Cancel"
@@ -417,11 +417,13 @@ msgstr "Opzions SSH"
 msgid ""
 "Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
 msgstr ""
+"Valôr no valit pe opzion 'shared': %d. Si supon che al sedi 0 o 1. Lu si "
+"ignore."
 
 #. Translators: this is a command line option (run vinagre --help)
 #: ../plugins/vnc/vinagre-vnc-plugin.c:52
 msgid "Enable scaled mode"
-msgstr ""
+msgstr "Abilite la modalitât scjalade"
 
 #. Translators: this is a command line option (run vinagre --help)
 #: ../plugins/vnc/vinagre-vnc-plugin.c:65
@@ -449,7 +451,7 @@ msgstr "Impussibil analizâ il file."
 #. Translators: Do not translate "Connection". It's the name of a group in the .vnc (.ini like) file.
 #: ../plugins/vnc/vinagre-vnc-plugin.c:155
 msgid "The file is not a VNC one: Missing the group \"Connection\"."
-msgstr "Chest nol è un file VNC: al mancje la grup \"Conession\"."
+msgstr "Chest nol è un file VNC: al mancje il grup \"Conession\"."
 
 #. Translators: Do not translate "Host". It's the name of a key in the .vnc (.ini like) file.
 #: ../plugins/vnc/vinagre-vnc-plugin.c:162
@@ -472,7 +474,7 @@ msgstr "Dome _Viôt"
 #. Keep ratio check button
 #: ../plugins/vnc/vinagre-vnc-plugin.c:299
 msgid "_Keep aspect ratio"
-msgstr ""
+msgstr "_Manten lis proporzions dal aspiet"
 
 #. JPEG Compression check button
 #: ../plugins/vnc/vinagre-vnc-plugin.c:309
@@ -512,7 +514,7 @@ msgstr "Une vore pôcs di colôrs (3 bit)"
 #: ../plugins/vnc/vinagre-vnc-plugin.c:343
 #: ../plugins/spice/vinagre-spice-plugin.c:272
 msgid "Use h_ost"
-msgstr ""
+msgstr "Dopre il h_ost"
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:352
 #: ../plugins/spice/vinagre-spice-plugin.c:281
@@ -563,7 +565,7 @@ msgstr "Motîf no cognossût"
 #: ../plugins/vnc/vinagre-vnc-tab.c:362
 #, c-format
 msgid "Authentication method for host %s is unsupported. (%u)"
-msgstr ""
+msgstr "Il metodi di autenticazion pal host %s nol è supuartât. (%u)"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:366
 msgid "Authentication unsupported"
@@ -583,11 +585,11 @@ msgstr "Une password e je necessarie par jentrâ in chest scritori rimot."
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:615
 msgid "_Keep Aspect Ratio"
-msgstr ""
+msgstr "_Manten lis proporzions dal aspiet"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:616
 msgid "Keep the screen aspect ratio when using scaling"
-msgstr ""
+msgstr "Manten lis proporzions dal aspiet cuant che si dopre la opzion scjalâ"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
 #: ../plugins/spice/vinagre-spice-tab.c:515
@@ -604,11 +606,11 @@ msgstr "Adate il barcon ae dimension dal scritori rimot"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:658
 msgid "_Refresh Screen"
-msgstr ""
+msgstr "_Inzorne schermi"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:659
 msgid "Requests an update of the screen"
-msgstr ""
+msgstr "Domande un inzornament dal schermi"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:681
 #: ../plugins/spice/vinagre-spice-tab.c:538
@@ -640,6 +642,10 @@ msgid ""
 "Read the README file (shipped with Vinagre) in order to know how to enable "
 "this feature."
 msgstr ""
+"In chest instalazion nol è supuartât il scjalâ.\n"
+"\n"
+"Lei il file README (distribuît cun Vinagre) par cognossi ce mût abilitâ "
+"cheste funzion."
 
 #: ../plugins/vnc/vinagre-vnc-tunnel.c:97
 #: ../plugins/spice/vinagre-spice-tunnel.c:103
@@ -650,12 +656,12 @@ msgstr "Impussibil cjatâ une puarte TCP libare"
 #. Translators: Do not translate "connection". It's the name of a group in the .spice (.ini like) file.
 #: ../plugins/spice/vinagre-spice-plugin.c:108
 msgid "The file is not a Spice one: Missing the group \"connection\"."
-msgstr ""
+msgstr "Chest nol è un file Spice: al mancje il grup \"conession\"."
 
 #. Translators: Do not translate "host". It's the name of a key in the .spice (.ini like) file.
 #: ../plugins/spice/vinagre-spice-plugin.c:115
 msgid "The file is not a Spice one: Missing the key \"host\"."
-msgstr ""
+msgstr "Chest nol è un file Spice: al mancje la clâf \"host\"."
 
 #: ../plugins/spice/vinagre-spice-plugin.c:174
 msgid "SPICE"
@@ -674,7 +680,7 @@ msgstr "Opzions SPICE"
 #: ../plugins/spice/vinagre-spice-plugin.c:245
 #: ../plugins/spice/vinagre-spice-tab.c:487
 msgid "_Resize guest"
-msgstr ""
+msgstr "_Ridimensione ospit"
 
 #. Clipboard sharing check button
 #: ../plugins/spice/vinagre-spice-plugin.c:253
@@ -703,7 +709,7 @@ msgstr "Condivît in automatic lis notis tra client e ospit"
 #: ../vinagre/vinagre-bookmarks.c:366
 #, c-format
 msgid "Error while initializing bookmarks: %s"
-msgstr ""
+msgstr "Erôr tal inizializâ i segnelibris: %s"
 
 #: ../vinagre/vinagre-bookmarks.c:366 ../vinagre/vinagre-bookmarks.c:492
 #: ../vinagre/vinagre-bookmarks-migration.c:135
@@ -716,12 +722,14 @@ msgstr "Erôr no cognossût"
 
 #: ../vinagre/vinagre-bookmarks.c:373
 msgid "Error while initializing bookmarks: The file seems to be empty"
-msgstr ""
+msgstr "Erôr tal inizializâ i segnelibris: Il file al semee jessi vueit"
 
 #: ../vinagre/vinagre-bookmarks.c:380
 msgid ""
 "Error while initializing bookmarks: The file is not a vinagre bookmarks file"
 msgstr ""
+"Erôr tal inizializâ i segnelibris: Il file nol è un file di segnelibris di "
+"vinagre"
 
 #: ../vinagre/vinagre-bookmarks.c:453 ../vinagre/vinagre-bookmarks.c:460
 msgid "Error while saving bookmarks: Failed to create the XML structure"
@@ -729,11 +737,11 @@ msgstr "Erôr tal salvâ i segnelibris: No si è rivâts a creâ la struture XML
 
 #: ../vinagre/vinagre-bookmarks.c:467 ../vinagre/vinagre-bookmarks.c:474
 msgid "Error while saving bookmarks: Failed to initialize the XML structure"
-msgstr ""
+msgstr "Erôr tal salvâ i segnelibris: Falît a inizializâ la struture XML"
 
 #: ../vinagre/vinagre-bookmarks.c:483
 msgid "Error while saving bookmarks: Failed to finalize the XML structure"
-msgstr ""
+msgstr "Erôr tal salvâ i segnelibris: Falît a finalizâ la struture XML"
 
 #: ../vinagre/vinagre-bookmarks.c:492
 #, c-format
@@ -743,26 +751,28 @@ msgstr "Erôr tal salvâ i segnelibris: %s"
 #: ../vinagre/vinagre-bookmarks-migration.c:95
 #: ../vinagre/vinagre-bookmarks-migration.c:102
 msgid "Error while migrating bookmarks: Failed to create the XML structure"
-msgstr ""
+msgstr "Erôr tal migrâ i segnelibris: No si è rivâts a creâ la struture XML"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:109
 #: ../vinagre/vinagre-bookmarks-migration.c:116
 msgid "Error while migrating bookmarks: Failed to initialize the XML structure"
 msgstr ""
+"Erôr tal migrâ i segnelibris: No si è rivâts a inizializâ la struture XML"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:125
 msgid "Error while migrating bookmarks: Failed to finalize the XML structure"
 msgstr ""
+"Erôr tal migrâ i segnelibris: No si è rivâts a finalizâ la struture XML"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:135
 #: ../vinagre/vinagre-bookmarks-migration.c:216
 #, c-format
 msgid "Error while migrating bookmarks: %s"
-msgstr ""
+msgstr "Erôr tal migrâ i segnelibris: %s"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:164
 msgid "Error while migrating bookmarks: VNC plugin is not activated"
-msgstr ""
+msgstr "Erôr tal migrâ i segnelibris: il plugin VNC nol è atîf"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:216
 msgid "Failed to create the directory"
@@ -773,16 +783,18 @@ msgid ""
 "Migrating the bookmarks file to the new format. This operation is only "
 "supposed to run once."
 msgstr ""
+"Migrazion dai file dai segnelibris al gnûf formât. Cheste operazion e varès "
+"di jessi eseguide une volte sole."
 
 #: ../vinagre/vinagre-bookmarks-migration.c:249
 #, c-format
 msgid "Error opening old bookmarks file: %s"
-msgstr ""
+msgstr "Erôr tal vierzi il vecjo file dai segnelibris: %s"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:250
 #: ../vinagre/vinagre-bookmarks-migration.c:262
 msgid "Migration cancelled"
-msgstr ""
+msgstr "Migrazion anulade"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:259
 msgid "Could not remove the old bookmarks file"
@@ -924,7 +936,7 @@ msgstr "Ricercje dai host falide: %s\n"
 #: ../vinagre/vinagre-mdns.c:320
 #, c-format
 msgid "Failed to initialize mDNS browser: %s\n"
-msgstr ""
+msgstr "No si è rivâts a inizializâ l'esploradôr mDNS: %s\n"
 
 #. Translators: %s is a host name or IP address.
 #: ../vinagre/vinagre-notebook.c:462
@@ -1001,7 +1013,7 @@ msgstr[1] "I erôrs chi daurman a son vignûts fûr:"
 
 #: ../vinagre/vinagre-prefs.c:83
 msgid "Cannot initialize preferences manager."
-msgstr ""
+msgstr "Impussibil inizializâ il gjestôr des preferencis."
 
 #: ../vinagre/vinagre-reverse-vnc-listener-dialog.c:103
 msgid "IPv4:"
@@ -1081,6 +1093,11 @@ msgid ""
 "The identity sent by the remote host is %s. If you want to be absolutely "
 "sure it is safe to continue, contact the system administrator."
 msgstr ""
+"La identitât dal host rimot (%s) no je cognossude.\n"
+"Chest al sucêt cuant che tu jentris intun host pe prime volte.\n"
+"\n"
+"La identitât inviade dal host rimot e je %s. Par jessi sigûrs dal dut di "
+"continuâ, contatâ l'aministradôr di sisteme."
 
 #: ../vinagre/vinagre-ssh.c:565
 msgid "Login dialog canceled"
@@ -1088,7 +1105,7 @@ msgstr "Dialic di acès anulât"
 
 #: ../vinagre/vinagre-ssh.c:586
 msgid "Can't send host identity confirmation"
-msgstr ""
+msgstr "Impussibil inviâ la conferme de identitât dal host"
 
 #. Login succeed, save password in keyring
 #: ../vinagre/vinagre-ssh.c:605
@@ -1144,20 +1161,20 @@ msgstr "Password di scritori rimot par %s"
 
 #: ../vinagre/vinagre-tab.c:961
 msgid "Could not get a screenshot of the connection."
-msgstr ""
+msgstr "Impussibil otignî une cature de conession."
 
 #: ../vinagre/vinagre-tab.c:966
 msgid "Save Screenshot"
-msgstr ""
+msgstr "Salve cature"
 
 #: ../vinagre/vinagre-tab.c:980
 #, c-format
 msgid "Screenshot of %s at %s"
-msgstr ""
+msgstr "Cature di %s su %s"
 
 #: ../vinagre/vinagre-tab.c:1034
 msgid "Error saving screenshot"
-msgstr ""
+msgstr "Erôr tal salvâ la cature"
 
 #: ../vinagre/vinagre-tube-handler.c:233
 #, c-format
