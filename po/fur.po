@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2016-04-09 14:39+0000\n"
-"PO-Revision-Date: 2016-04-09 18:00+0200\n"
+"PO-Revision-Date: 2016-04-09 18:40+0200\n"
 "Language-Team: Friulian <fur@li.org>\n"
 "Language: fur\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
 msgid "Whether we should leave other clients connected"
-msgstr ""
+msgstr "Indiche se lassâ chei altris client tacâts"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:2
 msgid ""
@@ -93,7 +93,7 @@ msgstr ""
 
 #: ../data/vinagre.desktop.in.in.h:3
 msgid "VNC;RDP;SSH;"
-msgstr ""
+msgstr "VNC;RDP;SSH;"
 
 #: ../data/vinagre.ui.h:1
 msgid "Vinagre is a remote desktop viewer for the GNOME desktop"
@@ -111,7 +111,7 @@ msgstr "_Autentiche"
 
 #: ../data/vinagre.ui.h:6
 msgid "Authentication is required"
-msgstr ""
+msgstr "La autenticazion e je necessarie"
 
 #: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:134
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
@@ -138,7 +138,7 @@ msgstr "_Visâsi cheste credenziâl"
 
 #: ../data/vinagre.ui.h:12
 msgid "Store the login credential in GNOME Keyring"
-msgstr ""
+msgstr "Memorize lis credenziâi di acès tal puarteclâfs di GNOME"
 
 #: ../data/vinagre.ui.h:13
 msgid "Bookmarks"
@@ -186,6 +186,8 @@ msgid ""
 "The remote host has changed its certificate.\n"
 "Do you trust the new certificate?"
 msgstr ""
+"Il host rimot al à cambiât il so certificât.\n"
+"Ti fidistu di chest gnûf certificât?"
 
 #. Subject of the certificate.
 #: ../data/vinagre.ui.h:27
@@ -277,7 +279,7 @@ msgstr ""
 
 #: ../data/vinagre.ui.h:52
 msgid "Connectivity"
-msgstr ""
+msgstr "Conetivitât"
 
 #: ../data/vinagre-mime.xml.in.h:1
 msgid "Remote Desktop (VNC) file"
@@ -289,7 +291,7 @@ msgstr ""
 
 #: ../plugins/rdp/vinagre-rdp-plugin.c:61
 msgid "RDP"
-msgstr ""
+msgstr "RDP"
 
 #. Translators: This is a description of the RDP protocol. It appears in the Connect dialog.
 #: ../plugins/rdp/vinagre-rdp-plugin.c:63
@@ -298,7 +300,7 @@ msgstr ""
 
 #: ../plugins/rdp/vinagre-rdp-plugin.c:111
 msgid "RDP Options"
-msgstr ""
+msgstr "Opzions RDP"
 
 #. Scaling check button
 #: ../plugins/rdp/vinagre-rdp-plugin.c:120
@@ -498,12 +500,12 @@ msgstr ""
 #: ../plugins/vnc/vinagre-vnc-plugin.c:353
 #: ../plugins/spice/vinagre-spice-plugin.c:282
 msgid "Supply an alternative port using colon"
-msgstr ""
+msgstr "Furnìs une puarte alternative doprant i doi ponts"
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:354
 #: ../plugins/spice/vinagre-spice-plugin.c:283
 msgid "For instance: joe@example.com:5022"
-msgstr ""
+msgstr "Par esempli: tite@example.com:5022"
 
 #. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
 #: ../plugins/vnc/vinagre-vnc-plugin.c:360
@@ -518,7 +520,7 @@ msgstr "File VNC"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:148
 msgid "Desktop Name:"
-msgstr ""
+msgstr "Non scritori:"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:151
 msgid "Dimensions:"
@@ -621,7 +623,7 @@ msgstr ""
 #: ../plugins/spice/vinagre-spice-tunnel.c:103
 #, c-format
 msgid "Unable to find a free TCP port"
-msgstr ""
+msgstr "Impussibil cjatâ une puarte TCP libare"
 
 #. Translators: Do not translate "connection". It's the name of a group in the .spice (.ini like) file.
 #: ../plugins/spice/vinagre-spice-plugin.c:108
@@ -640,7 +642,7 @@ msgstr "SPICE"
 #. Translators: This is a description of the SPICE protocol. It appears at Connect dialog.
 #: ../plugins/spice/vinagre-spice-plugin.c:176
 msgid "Access Spice desktop server"
-msgstr ""
+msgstr "Al jentre al servidôr di scritori Spice"
 
 #: ../plugins/spice/vinagre-spice-plugin.c:224
 msgid "SPICE Options"
@@ -656,17 +658,17 @@ msgstr ""
 #: ../plugins/spice/vinagre-spice-plugin.c:253
 #: ../plugins/spice/vinagre-spice-tab.c:500
 msgid "_Share clipboard"
-msgstr ""
+msgstr "_Condivît notis"
 
 #. Translators: This is the tooltip for the password field in a SPICE connection
 #: ../plugins/spice/vinagre-spice-plugin.c:315
 msgid "Optional"
-msgstr ""
+msgstr "Opzionâl"
 
 #. Translators: this is a pattern to open *.spice files in a open dialog.
 #: ../plugins/spice/vinagre-spice-plugin.c:336
 msgid "Spice Files"
-msgstr ""
+msgstr "File Spice"
 
 #: ../plugins/spice/vinagre-spice-tab.c:488
 msgid "Resize the screen guest to best fit"
@@ -776,7 +778,7 @@ msgstr ""
 #, c-format
 msgid ""
 "The name \"%s\" is already used in this folder. Please use a different name."
-msgstr ""
+msgstr "Il non \"%s\" al è za doprât in cheste cartele. Dopre un altri non."
 
 #: ../vinagre/vinagre-bookmarks-ui.c:89 ../vinagre/vinagre-bookmarks-ui.c:190
 #: ../vinagre/vinagre-bookmarks-ui.c:201
@@ -787,13 +789,13 @@ msgstr ""
 #: ../vinagre/vinagre-bookmarks-ui.c:168
 #, c-format
 msgid "(Protocol: %s)"
-msgstr ""
+msgstr "(Protocol: %s)"
 
 #. Translators: %s is a bookmark entry name
 #: ../vinagre/vinagre-bookmarks-ui.c:306
 #, c-format
 msgid "Are you sure you want to remove %s from bookmarks?"
-msgstr ""
+msgstr "Sigûr di gjavâ %s dai segnelibris?"
 
 #: ../vinagre/vinagre-bookmarks-ui.c:312
 msgid "Remove Folder?"
@@ -826,7 +828,7 @@ msgstr "Sielç il file"
 
 #: ../vinagre/vinagre-commands.c:139
 msgid "There are no supported files"
-msgstr ""
+msgstr "No 'ndi son file supuartâts"
 
 #: ../vinagre/vinagre-commands.c:140
 msgid ""
@@ -858,7 +860,7 @@ msgstr "Sielç un scritori rimot"
 #: ../vinagre/vinagre-tube-handler.c:257
 #, c-format
 msgid "The protocol %s is not supported."
-msgstr ""
+msgstr "Il protocol %s nol è supuartât."
 
 #: ../vinagre/vinagre-connection.c:766
 msgid "Could not open the file."
@@ -903,7 +905,7 @@ msgstr ""
 #: ../vinagre/vinagre-notebook.c:462
 #, c-format
 msgid "Connection to host %s was closed."
-msgstr ""
+msgstr "La conession al host %s e je stade sierade."
 
 #: ../vinagre/vinagre-notebook.c:464
 msgid "Connection closed"
@@ -913,7 +915,7 @@ msgstr "Conession sierade"
 #: ../vinagre/vinagre-notebook.c:483
 #, c-format
 msgid "Authentication for host %s has failed"
-msgstr ""
+msgstr "Autenticazion pal host %s falide"
 
 #: ../vinagre/vinagre-notebook.c:489
 msgid "Authentication failed"
@@ -930,12 +932,12 @@ msgstr "Siere conession"
 #. Translators: this is a command line option (run vinagre --help)
 #: ../vinagre/vinagre-options.c:33
 msgid "Specify geometry of the main Vinagre window"
-msgstr ""
+msgstr "Specifiche la gjeometrie dal barcon principâl di Vinagre"
 
 #. Translators: this is a command line option (run vinagre --help)
 #: ../vinagre/vinagre-options.c:37
 msgid "Open Vinagre in fullscreen mode"
-msgstr ""
+msgstr "Vierç Vinagre in modalitât plen visôr"
 
 #. Translators: this is a command line option (run vinagre --help)
 #: ../vinagre/vinagre-options.c:41
@@ -945,7 +947,7 @@ msgstr ""
 #. Translators: this is a command line option (run vinagre --help)
 #: ../vinagre/vinagre-options.c:45
 msgid "Open a file recognized by Vinagre"
-msgstr ""
+msgstr "Vierç un file ricognossût di Vinagre"
 
 #: ../vinagre/vinagre-options.c:45
 msgid "filename"
@@ -1028,11 +1030,11 @@ msgstr "Permès dineât"
 
 #: ../vinagre/vinagre-ssh.c:513
 msgid "Password dialog canceled"
-msgstr ""
+msgstr "Dialic pe password anulât"
 
 #: ../vinagre/vinagre-ssh.c:530
 msgid "Could not send password"
-msgstr ""
+msgstr "Impussibil inviâ password"
 
 #: ../vinagre/vinagre-ssh.c:538
 msgid "Log In Anyway"
@@ -1054,7 +1056,7 @@ msgstr ""
 
 #: ../vinagre/vinagre-ssh.c:565
 msgid "Login dialog canceled"
-msgstr ""
+msgstr "Dialic di acès anulât"
 
 #: ../vinagre/vinagre-ssh.c:586
 msgid "Can't send host identity confirmation"
@@ -1076,11 +1078,11 @@ msgstr ""
 
 #: ../vinagre/vinagre-ssh.c:708
 msgid "No route to host"
-msgstr ""
+msgstr "Nissun indreçament di direzion pal host"
 
 #: ../vinagre/vinagre-ssh.c:716
 msgid "Connection refused by server"
-msgstr ""
+msgstr "Conession refudade dal servidôr"
 
 #: ../vinagre/vinagre-ssh.c:724
 msgid "Host key verification failed"
@@ -1233,7 +1235,7 @@ msgstr "_Sbare dai struments"
 
 #: ../vinagre/vinagre-ui.h:63
 msgid "Show or hide the toolbar"
-msgstr ""
+msgstr "Mostre o plate la sbare dai struments"
 
 #: ../vinagre/vinagre-ui.h:66
 msgid "_Statusbar"
@@ -1241,11 +1243,11 @@ msgstr "Sbare di s_tât"
 
 #: ../vinagre/vinagre-ui.h:67
 msgid "Show or hide the statusbar"
-msgstr ""
+msgstr "Mostre o plate la sbare di stât"
 
 #: ../vinagre/vinagre-ui.h:75
 msgid "Disconnect the current connection"
-msgstr ""
+msgstr "Disconet la conession atuâl"
 
 #: ../vinagre/vinagre-ui.h:76
 msgid "Disconnect All"
@@ -1297,7 +1299,7 @@ msgstr ""
 #: ../vinagre/vinagre-utils.vala:116
 #, c-format
 msgid "%s authentication is required"
-msgstr ""
+msgstr "Autenticazion %s necessarie"
 
 #: ../vinagre/vinagre-utils.vala:227
 msgid "Error showing help"
