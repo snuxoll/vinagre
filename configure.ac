@@ -1,5 +1,5 @@
 AC_PREREQ([2.64])
-AC_INIT([Vinagre], [3.20.1], [https://bugzilla.gnome.org/enter_bug.cgi?product=vinagre], [vinagre], [https://wiki.gnome.org/Apps/Vinagre])
+AC_INIT([Vinagre], [3.20.2], [https://bugzilla.gnome.org/enter_bug.cgi?product=vinagre], [vinagre], [https://wiki.gnome.org/Apps/Vinagre])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_SRCDIR([vinagre/vinagre-main.c])
 AC_CONFIG_HEADERS([config.h])
