@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: vinagre HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=vinagre"
 "&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-11-23 11:17+0000\n"
-"PO-Revision-Date: 2016-02-25 22:24+0200\n"
+"POT-Creation-Date: 2016-04-29 14:48+0000\n"
+"PO-Revision-Date: 2016-05-08 18:53+0200\n"
 "Last-Translator: Cédric Valmary (totenoc.eu) <cvalmary@yahoo.fr>\n"
 "Language-Team: Tot En Òc\n"
 "Language: oc\n"
@@ -30,7 +30,7 @@ msgid ""
 "to share the desktop with the other clients."
 msgstr ""
 "Al moment de la connexion a un òste, lo client pòt dire al servidor de "
-"daissar los autres clients connectés o d'abandonner las connexions "
+"daissar los autres clients connectats o d'abandonar las connexions "
 "existentas. Definir la valor a « true » per partejar lo burèu amb los autres "
 "clients."
 
@@ -60,13 +60,13 @@ msgid ""
 "and will not be sent to the remote host."
 msgstr ""
 "Definir a « false » per desactivar los acorchis dels menús. Definir a « true "
-"» per los activar. Notez que si elles son activadas, aquelas tòcas seràn "
+"» per los activar. Notatz que se son activadas, aquelas tòcas seràn "
 "interceptadas pel menú e seràn pas mandadas a l'òste distant."
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:7
 msgid "Maximum number of history items in connect dialog"
 msgstr ""
-"Nombre maximal de lignes d'istoric dins la bóstia de dialogue de connexion"
+"Nombre maximal de linhas d'istoric dins la bóstia de dialòg de connexion"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:8
 msgid "Specifies the maximum number of items in the host dropdown entry."
@@ -74,22 +74,17 @@ msgstr ""
 "Indica lo nombre maximal d'elements dins la lista desenrotlanta dels òstes."
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:9
-#| msgid ""
-#| "Whether we should start the program listaning for reverse connections"
 msgid "Whether we should start the program listening for reverse connections"
 msgstr ""
 "Indica se cal aviar lo programa en demorant a l'escota de las connexions "
 "invèrsas"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:10
-#| msgid ""
-#| "Set to \"true\" to always start the program listaning for reverse "
-#| "connections."
 msgid ""
 "Set to \"true\" to always start the program listening for reverse "
 "connections."
 msgstr ""
-"Definir a « true » per que lo programa s'àvie totjorn en escotant las "
+"Definir a « true » per que lo programa s'avie totjorn en escotant las "
 "connexions invèrsas."
 
 #. Both taken from the desktop file.
@@ -98,7 +93,7 @@ msgstr ""
 msgid "Remote Desktop Viewer"
 msgstr "Visionador de burèus distants"
 
-# Utilisation de l'infinitif dins les infobulles del Burèu
+# Utilizacion de l'infinitiu dins las infobullas del Burèu
 #: ../data/vinagre.appdata.xml.in.h:3 ../data/vinagre.desktop.in.in.h:2
 #: ../data/vinagre-file.desktop.in.in.h:2
 msgid "Access remote desktops"
@@ -227,12 +222,12 @@ msgstr "Emeteire :"
 #. Fingerprint of the new certificate.
 #: ../data/vinagre.ui.h:31
 msgid "New fingerprint:"
-msgstr "Novèla emprencha :"
+msgstr "Novèla emprenta :"
 
 #. Fingerprint of the old certificate.
 #: ../data/vinagre.ui.h:33
 msgid "Old fingerprint:"
-msgstr "Anciana emprencha :"
+msgstr "Anciana emprenta :"
 
 #: ../data/vinagre.ui.h:34
 msgid ""
@@ -245,10 +240,10 @@ msgstr ""
 #. Fingerprint of the certificate.
 #: ../data/vinagre.ui.h:37
 msgid "Fingerprint:"
-msgstr "Emprencha :"
+msgstr "Emprenta :"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:937
-#: ../plugins/rdp/vinagre-rdp-tab.c:978
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:946
+#: ../plugins/rdp/vinagre-rdp-tab.c:987
 msgid "Connect"
 msgstr "Se connectar"
 
@@ -266,7 +261,7 @@ msgstr "Causissètz un protocòl de burèu distant per aquesta connexion"
 
 #: ../data/vinagre.ui.h:42
 msgid "Search for remote hosts on the network"
-msgstr "Recercar d'òstes distants sus lo ret"
+msgstr "Recercar d'òstes distants sus la ret"
 
 #: ../data/vinagre.ui.h:43
 msgid "Connection options"
@@ -323,7 +318,7 @@ msgstr "Connexion a un burèu distant"
 msgid "RDP"
 msgstr "RDP"
 
-# Utilisation de l'infinitif dins les infobulles del Burèu
+# Utilizacion de l'infinitiu dins las infobullas del Burèu
 #. Translators: This is a description of the RDP protocol. It appears in the Connect dialog.
 #: ../plugins/rdp/vinagre-rdp-plugin.c:63
 msgid "Access MS Windows remote desktops"
@@ -348,13 +343,12 @@ msgid ""
 "Optional. If blank, your username will be used. Also, it can be supplied in "
 "the Host field above, in the form username@hostname."
 msgstr ""
-"Facultatiu. Se lo camp es void, vòstre nom d'utilizaire serà utilizat. Peut "
-"tanben èsser fourni dins lo camp Òste çaisús jos la forma nom-utilizaire@nom-"
+"Facultatiu. Se lo camp es void, vòstre nom d'utilizaire serà utilizat. Pòt "
+"tanben èsser provesit dins lo camp Òste çaisús jos la forma nom-utilizaire@nom-"
 "oste."
 
 #. Translators: This is the tooltip for the domain field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:156
-#| msgid "Optional"
 msgid "Optional."
 msgstr "Opcional."
 
@@ -384,28 +378,28 @@ msgstr "Definir la nautor del burèu distant"
 msgid "Port:"
 msgstr "Pòrt :"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:283 ../plugins/vnc/vinagre-vnc-tab.c:601
+#: ../plugins/rdp/vinagre-rdp-tab.c:292 ../plugins/vnc/vinagre-vnc-tab.c:601
 #: ../plugins/spice/vinagre-spice-tab.c:473
 msgid "S_caling"
 msgstr "_Mesa a l'escala"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:284 ../plugins/vnc/vinagre-vnc-tab.c:602
+#: ../plugins/rdp/vinagre-rdp-tab.c:293 ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:474
 msgid "Fit the remote screen into the current window size"
 msgstr "Adapta la talha de l'ecran distant a la talha actuala de la fenèstra"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:357 ../plugins/rdp/vinagre-rdp-tab.c:358
+#: ../plugins/rdp/vinagre-rdp-tab.c:366 ../plugins/rdp/vinagre-rdp-tab.c:367
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
 #: ../plugins/spice/vinagre-spice-tab.c:591
 #: ../plugins/spice/vinagre-spice-tab.c:592
 msgid "Scaling"
 msgstr "Mesa a l'escala"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:936 ../plugins/rdp/vinagre-rdp-tab.c:977
+#: ../plugins/rdp/vinagre-rdp-tab.c:945 ../plugins/rdp/vinagre-rdp-tab.c:986
 msgid "_Cancel"
 msgstr "_Anullar"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:1212 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:1221 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:267
 msgid "Error connecting to host."
 msgstr "Error al moment de la connexion a l'òste."
@@ -430,13 +424,13 @@ msgstr "Opcions SSH"
 msgid ""
 "Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
 msgstr ""
-"La valor %d de l'indicador « shared » es incorrècta. Elle devrait èsser 0 o "
-"1. Elle es ignorée."
+"La valor %d de l'indicador « shared » es incorrècta. Deuriá èsser 0 o "
+"1. Es ignorada."
 
 #. Translators: this is a command line option (run vinagre --help)
 #: ../plugins/vnc/vinagre-vnc-plugin.c:52
 msgid "Enable scaled mode"
-msgstr "Activa lo mòde redimensionné"
+msgstr "Activa lo mòde redimensionat"
 
 #. Translators: this is a command line option (run vinagre --help)
 #: ../plugins/vnc/vinagre-vnc-plugin.c:65
@@ -446,7 +440,7 @@ msgstr "Opcions VNC :"
 #. Translators: this is a command line option (run vinagre --help)
 #: ../plugins/vnc/vinagre-vnc-plugin.c:67
 msgid "Show VNC Options"
-msgstr "Aficha las options VNC"
+msgstr "Aficha las opcions VNC"
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:89
 msgid "VNC"
@@ -670,7 +664,8 @@ msgstr "Impossible de trobar un pòrt TCP liure"
 #. Translators: Do not translate "connection". It's the name of a group in the .spice (.ini like) file.
 #: ../plugins/spice/vinagre-spice-plugin.c:108
 msgid "The file is not a Spice one: Missing the group \"connection\"."
-msgstr "Lo fichièr es pas un fichièr Spice : lo grop « connection » es mancant."
+msgstr ""
+"Lo fichièr es pas un fichièr Spice : lo grop « connection » es mancant."
 
 #. Translators: Do not translate "host". It's the name of a key in the .spice (.ini like) file.
 #: ../plugins/spice/vinagre-spice-plugin.c:115
@@ -681,7 +676,7 @@ msgstr "Lo fichièr es pas un fichièr Spice : la clau « host » es mancanta."
 msgid "SPICE"
 msgstr "SPICE"
 
-# Utilisation de l'infinitif dins les infobulles del Burèu
+# Utilizacion de l'infinitiu dins las infobullas del Burèu
 #. Translators: This is a description of the SPICE protocol. It appears at Connect dialog.
 #: ../plugins/spice/vinagre-spice-plugin.c:176
 msgid "Access Spice desktop server"
@@ -870,11 +865,11 @@ msgstr "Nòta : totes los sosdorsièrs e signets seràn tanben suprimits."
 msgid "Remove Item?"
 msgstr "Levar l'element ?"
 
-#: ../vinagre/vinagre-bookmarks-ui.c:335
+#: ../vinagre/vinagre-bookmarks-ui.c:334
 msgid "Error removing bookmark: Entry not found"
 msgstr "Error al moment de l'escafament del signet : entrada pas trobada"
 
-#: ../vinagre/vinagre-bookmarks-ui.c:352
+#: ../vinagre/vinagre-bookmarks-ui.c:351
 msgid "New Folder"
 msgstr "Dorsièr novèl"
 
@@ -990,7 +985,7 @@ msgstr "Connexion en cors…"
 
 #: ../vinagre/vinagre-notebook.c:559
 msgid "Close connection"
-msgstr "Ferme la connexion"
+msgstr "Tampa la connexion"
 
 #. Translators: this is a command line option (run vinagre --help)
 #: ../vinagre/vinagre-options.c:33
@@ -1012,7 +1007,7 @@ msgstr ""
 #. Translators: this is a command line option (run vinagre --help)
 #: ../vinagre/vinagre-options.c:45
 msgid "Open a file recognized by Vinagre"
-msgstr "Dobrís un fichièr reconnu per Vinagre"
+msgstr "Dobrís un fichièr reconegut per Vinagre"
 
 #: ../vinagre/vinagre-options.c:45
 msgid "filename"
@@ -1025,7 +1020,7 @@ msgstr "Aficha l'aide"
 #. Translators: this is a command line option (run vinagre --help)
 #: ../vinagre/vinagre-options.c:53
 msgid "[server:port]"
-msgstr "[servidor:port]"
+msgstr "[servidor:pòrt]"
 
 #: ../vinagre/vinagre-options.c:127
 #, c-format
@@ -1035,8 +1030,8 @@ msgstr "Paramètre %s pas valid per --geometry"
 #: ../vinagre/vinagre-options.c:145
 msgid "The following error has occurred:"
 msgid_plural "The following errors have occurred:"
-msgstr[0] "L'error seguenta s'es producha :"
-msgstr[1] "Les errors seguentas se son produchas :"
+msgstr[0] "L'error seguenta s'es produita :"
+msgstr[1] "Las errors seguentas se son produitas :"
 
 #: ../vinagre/vinagre-prefs.c:83
 msgid "Cannot initialize preferences manager."
@@ -1182,7 +1177,7 @@ msgstr "Quitar l'ecran complet"
 
 #: ../vinagre/vinagre-tab.c:553
 msgid "Error saving recent connection."
-msgstr "Impossible d'enregistrar la connexion récente."
+msgstr "Impossible d'enregistrar la connexion recenta."
 
 #: ../vinagre/vinagre-tab.c:844
 #, c-format
@@ -1200,7 +1195,7 @@ msgstr "Enregistrar la còpia d'ecran"
 #: ../vinagre/vinagre-tab.c:980
 #, c-format
 msgid "Screenshot of %s at %s"
-msgstr "Copie d'ecran de %s sus %s"
+msgstr "Còpia d'ecran de %s sus %s"
 
 #: ../vinagre/vinagre-tab.c:1034
 msgid "Error saving screenshot"
@@ -1277,7 +1272,7 @@ msgstr "Connexions _invèrsas…"
 
 #: ../vinagre/vinagre-ui.h:45
 msgid "Configure incoming VNC connections"
-msgstr "Configurar las connexions VNC entrantes"
+msgstr "Configurar las connexions VNC entrantas"
 
 #: ../vinagre/vinagre-ui.h:48
 msgid "Quit the program"
@@ -1286,7 +1281,7 @@ msgstr "Quitar lo programa"
 #. Help menu
 #: ../vinagre/vinagre-ui.h:51
 msgid "_Contents"
-msgstr "_Sommaire"
+msgstr "_Ensenhador"
 
 #: ../vinagre/vinagre-ui.h:52
 msgid "Open the Vinagre manual"
@@ -1356,13 +1351,13 @@ msgstr "Aficha lo burèu distant actual en ecran complet"
 
 #: ../vinagre/vinagre-utils.vala:40
 msgid "An error occurred"
-msgstr "Una error s'es producha"
+msgstr "Una error s'es produita"
 
 #: ../vinagre/vinagre-utils.vala:84
 msgid "Vinagre failed to open a UI file, with the error message:"
 msgstr ""
 "Vinagre a pas capitat de dobrir un fichièr d'interfàcia, las errors "
-"seguentas se son produchas :"
+"seguentas se son produitas :"
 
 #: ../vinagre/vinagre-utils.vala:85
 msgid "Please check your installation."
