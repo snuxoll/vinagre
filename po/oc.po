@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=vinagre"
-"&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-04-29 14:48+0000\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=vinagre&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2016-05-10 16:53+0000\n"
 "PO-Revision-Date: 2016-05-08 18:53+0200\n"
 "Last-Translator: Cédric Valmary (totenoc.eu) <cvalmary@yahoo.fr>\n"
 "Language-Team: Tot En Òc\n"
@@ -344,8 +344,8 @@ msgid ""
 "the Host field above, in the form username@hostname."
 msgstr ""
 "Facultatiu. Se lo camp es void, vòstre nom d'utilizaire serà utilizat. Pòt "
-"tanben èsser provesit dins lo camp Òste çaisús jos la forma nom-utilizaire@nom-"
-"oste."
+"tanben èsser provesit dins lo camp Òste çaisús jos la forma nom-"
+"utilizaire@nom-oste."
 
 #. Translators: This is the tooltip for the domain field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:156
@@ -424,8 +424,8 @@ msgstr "Opcions SSH"
 msgid ""
 "Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
 msgstr ""
-"La valor %d de l'indicador « shared » es incorrècta. Deuriá èsser 0 o "
-"1. Es ignorada."
+"La valor %d de l'indicador « shared » es incorrècta. Deuriá èsser 0 o 1. Es "
+"ignorada."
 
 #. Translators: this is a command line option (run vinagre --help)
 #: ../plugins/vnc/vinagre-vnc-plugin.c:52
