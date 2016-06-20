@@ -5,21 +5,21 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: vinagre master\n"
-"POT-Creation-Date: 2014-03-23 00:02+0000\n"
-"PO-Revision-Date: 2014-03-23 18:30+0700\n"
+"Project-Id-Version: vinagre-help gnome-3-20\n"
+"POT-Creation-Date: 2016-05-09 21:47+0000\n"
+"PO-Revision-Date: 2016-06-21 01:20+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <gnome@i15n.org>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr "Andika Triwidada <andika@gmail.com>, 2013, 2014."
+msgstr "Andika Triwidada <andika@gmail.com>, 2013, 2014, 2016."
 
 #. (itstool) path: info/title
 #: C/connect.page:8
@@ -29,7 +29,7 @@ msgstr "1"
 
 #. (itstool) path: credit/name
 #: C/connect.page:14 C/connect-file.page:13 C/connect-reverse.page:15
-#: C/fullscreen.page:11 C/introduction.page:13 C/keyboard-shortcuts.page:13
+#: C/fullscreen.page:11 C/introduction.page:14 C/keyboard-shortcuts.page:13
 #: C/scaling.page:11 C/take-screenshot.page:13 C/view-only.page:11
 msgid "Ekaterina Gerasimova"
 msgstr "Ekaterina Gerasimova"
@@ -375,25 +375,25 @@ msgstr "Fitur dan opsi"
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/introduction.page:38
+#: C/introduction.page:39
 msgctxt "_"
 msgid ""
-"external ref='figures/vinagre-connected.png' "
-"md5='abef2af863dbd4659703bcc09bb89d1a'"
+"external ref='figures/vinagre-connected-3-16.png' "
+"md5='7f513a6b8104a46acd4656ea0042a677'"
 msgstr "-"
 
 #. (itstool) path: info/desc
-#: C/introduction.page:19
+#: C/introduction.page:20
 msgid "Introduction to <app>Remote Desktop Viewer</app>."
 msgstr "Pengenalan ke <app>Penampil Desktop Jauh</app>."
 
 #. (itstool) path: page/title
-#: C/introduction.page:22
+#: C/introduction.page:23
 msgid "Introduction"
 msgstr "Perkenalan"
 
 #. (itstool) path: page/p
-#: C/introduction.page:24
+#: C/introduction.page:25
 msgid ""
 "<app>Remote Desktop Viewer</app> is a remote desktop viewer application for "
 "GNOME for accessing other machines using Virtual Network Computing (VNC) and "
@@ -406,32 +406,32 @@ msgstr ""
 "berinteraksi dengan komputer lain atau hanya sekedar melihat desktop."
 
 #. (itstool) path: page/p
-#: C/introduction.page:29
+#: C/introduction.page:30
 msgid "<app>Remote Desktop Viewer</app> provides the following features:"
 msgstr "<app>Penampil Desktop Jauh</app> menyediakan fitur-fitur berikut:"
 
 #. (itstool) path: item/p
-#: C/introduction.page:31
+#: C/introduction.page:32
 msgid "connect to several machines at the same time"
 msgstr "menyambung ke beberapa mesin pada saat yang sama"
 
 #. (itstool) path: item/p
-#: C/introduction.page:32
+#: C/introduction.page:33
 msgid "store recent connections and bookmark them"
 msgstr "menyimpan koneksi baru-baru ini dan menandatauti mereka"
 
 #. (itstool) path: item/p
-#: C/introduction.page:33
+#: C/introduction.page:34
 msgid "browse the local network for other machines"
 msgstr "meramban jaringan lokal untuk mencari mesin lain"
 
 #. (itstool) path: figure/title
-#: C/introduction.page:37
+#: C/introduction.page:38
 msgid "Remote Desktop Viewer in action"
 msgstr "Penampil Desktop Jauh beraksi"
 
 #. (itstool) path: media/p
-#: C/introduction.page:39
+#: C/introduction.page:40
 msgid ""
 "Remote Desktop Viewer running in GNOME 3, connected to a machine running "
 "GNOME 2"
