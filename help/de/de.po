@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vinagre help master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-18 10:56+0000\n"
-"PO-Revision-Date: 2014-09-18 23:52+0100\n"
+"POT-Creation-Date: 2016-05-05 15:10+0000\n"
+"PO-Revision-Date: 2016-07-14 22:19+0200\n"
 "Last-Translator: Christian Kirbach <christian.kirbach@gmail.com>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -17,14 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
 "Mario Blättermann <mario.blaettermann@gmail.com>, 2008, 2009, 2011, 2012\n"
-"Christian Kirbach <Christian.Kirbach@googlemail.com>, 2009,2014.\n"
+"Christian Kirbach <Christian.Kirbach@googlemail.com>, 2009,2014,2016.\n"
 "Wolfgang Stöggl <c72578@yahoo.de>, 2011.\n"
 "Benjamin Steinwender <b@stbe.at>, 2014."
 
@@ -36,7 +36,7 @@ msgstr "1"
 
 #. (itstool) path: credit/name
 #: C/connect.page:14 C/connect-file.page:13 C/connect-reverse.page:15
-#: C/fullscreen.page:11 C/introduction.page:13 C/keyboard-shortcuts.page:13
+#: C/fullscreen.page:11 C/introduction.page:14 C/keyboard-shortcuts.page:13
 #: C/scaling.page:11 C/take-screenshot.page:13 C/view-only.page:11
 msgid "Ekaterina Gerasimova"
 msgstr "Ekaterina Gerasimova"
@@ -397,25 +397,25 @@ msgstr "Funktionen und Einstellungen"
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/introduction.page:38
+#: C/introduction.page:39
 msgctxt "_"
 msgid ""
-"external ref='figures/vinagre-connected.png' "
-"md5='abef2af863dbd4659703bcc09bb89d1a'"
-msgstr "Original kann verwendet werden. Verbindung wird demonstriert."
+"external ref='figures/vinagre-connected-3-16.png' "
+"md5='7f513a6b8104a46acd4656ea0042a677'"
+msgstr "Erstellt"
 
 #. (itstool) path: info/desc
-#: C/introduction.page:19
+#: C/introduction.page:20
 msgid "Introduction to <app>Remote Desktop Viewer</app>."
 msgstr "Einführung in <app>Betrachter für entfernte Bildschirme</app>"
 
 #. (itstool) path: page/title
-#: C/introduction.page:22
+#: C/introduction.page:23
 msgid "Introduction"
 msgstr "Einführung"
 
 #. (itstool) path: page/p
-#: C/introduction.page:24
+#: C/introduction.page:25
 msgid ""
 "<app>Remote Desktop Viewer</app> is a remote desktop viewer application for "
 "GNOME for accessing other machines using Virtual Network Computing (VNC) and "
@@ -429,35 +429,35 @@ msgstr ""
 "entfernten Arbeitsumgebung verwendet werden."
 
 #. (itstool) path: page/p
-#: C/introduction.page:29
+#: C/introduction.page:30
 msgid "<app>Remote Desktop Viewer</app> provides the following features:"
 msgstr ""
 "<app>Betrachter für entfernte Bildschirme</app> verfügt über die folgenden "
 "Leistungsmerkmale:"
 
 #. (itstool) path: item/p
-#: C/introduction.page:31
+#: C/introduction.page:32
 msgid "connect to several machines at the same time"
 msgstr "Gleichzeitige Verbindung zu verschiedenen Maschinen."
 
 #. (itstool) path: item/p
-#: C/introduction.page:32
+#: C/introduction.page:33
 msgid "store recent connections and bookmark them"
 msgstr ""
 "Speichern bereits benutzter Verbindungen, und deren Ablegen als Lesezeichen."
 
 #. (itstool) path: item/p
-#: C/introduction.page:33
+#: C/introduction.page:34
 msgid "browse the local network for other machines"
 msgstr "Durchsuchen des lokalen Netzwerks nach anderen Rechnern."
 
 #. (itstool) path: figure/title
-#: C/introduction.page:37
+#: C/introduction.page:38
 msgid "Remote Desktop Viewer in action"
 msgstr "Betrachter für entfernte Bildschirme in Aktion"
 
 #. (itstool) path: media/p
-#: C/introduction.page:39
+#: C/introduction.page:40
 msgid ""
 "Remote Desktop Viewer running in GNOME 3, connected to a machine running "
 "GNOME 2"
