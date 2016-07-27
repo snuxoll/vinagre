@@ -1187,8 +1187,8 @@ open_freerdp (VinagreRdpTab *rdp_tab)
   VinagreTab           *tab = VINAGRE_TAB (rdp_tab);
   GtkWindow            *window = GTK_WINDOW (vinagre_tab_get_window (tab));
   gboolean              success = TRUE;
-  gboolean              authentication_error = FALSE;
   gboolean              cancelled = FALSE;
+  guint                 authentication_errors = 0;
 
   priv->events = g_queue_new ();
 
@@ -1197,14 +1197,12 @@ open_freerdp (VinagreRdpTab *rdp_tab)
 
   do
     {
-      authentication_error = FALSE;
-
       /* Run FreeRDP session */
       success = freerdp_connect (priv->freerdp_session);
       if (!success)
         {
-          authentication_error = freerdp_get_last_error (priv->freerdp_session->context) == 0x20009 ||
-                                 freerdp_get_last_error (priv->freerdp_session->context) == 0x2000c;
+          authentication_errors += freerdp_get_last_error (priv->freerdp_session->context) == 0x20009 ||
+                                   freerdp_get_last_error (priv->freerdp_session->context) == 0x2000c;
 
           cancelled = freerdp_get_last_error (priv->freerdp_session->context) == 0x2000b;
 
@@ -1212,7 +1210,7 @@ open_freerdp (VinagreRdpTab *rdp_tab)
           init_freerdp (rdp_tab);
         }
     }
-  while (!success && authentication_error);
+  while (!success && authentication_errors < 3);
 
   if (!success)
     {
