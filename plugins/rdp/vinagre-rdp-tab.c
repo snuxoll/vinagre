@@ -705,16 +705,24 @@ frdp_key_pressed (GtkWidget   *widget,
   VinagreRdpTab        *rdp_tab = (VinagreRdpTab *) user_data;
   VinagreRdpTabPrivate *priv = rdp_tab->priv;
   frdpEventKey         *frdp_event;
+#if HAVE_FREERDP_1_1
+  UINT16                scancode;
+#endif
 
   frdp_event = g_new0 (frdpEventKey, 1);
   frdp_event->type = FRDP_EVENT_TYPE_KEY;
   frdp_event->flags = event->type == GDK_KEY_PRESS ? KBD_FLAGS_DOWN : KBD_FLAGS_RELEASE;
 
 #if HAVE_FREERDP_1_1
-  frdp_event->code = freerdp_keyboard_get_rdp_scancode_from_x11_keycode (event->hardware_keycode);
+  scancode = freerdp_keyboard_get_rdp_scancode_from_x11_keycode (event->hardware_keycode);
+  frdp_event->code = RDP_SCANCODE_CODE(scancode);
+  frdp_event->extended = RDP_SCANCODE_EXTENDED(scancode);
 #else
   frdp_event->code = freerdp_kbd_get_scancode_by_keycode (event->hardware_keycode, &frdp_event->extended);
 #endif
+
+  if (frdp_event->extended)
+    frdp_event->flags |= KBD_FLAGS_EXTENDED;
 
   g_queue_push_tail (priv->events, frdp_event);
 
