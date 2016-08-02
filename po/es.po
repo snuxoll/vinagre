@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: vinagre.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-11-24 02:54+0000\n"
+"POT-Creation-Date: 2016-07-25 21:00+0000\n"
 "PO-Revision-Date: 2015-11-24 09:40+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
@@ -247,8 +247,8 @@ msgstr ""
 msgid "Fingerprint:"
 msgstr "Huella dactilar:"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:937
-#: ../plugins/rdp/vinagre-rdp-tab.c:978
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:946
+#: ../plugins/rdp/vinagre-rdp-tab.c:987
 msgid "Connect"
 msgstr "Conectar"
 
@@ -353,7 +353,6 @@ msgstr ""
 
 #. Translators: This is the tooltip for the domain field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:156
-#| msgid "Optional"
 msgid "Optional."
 msgstr "Opcional."
 
@@ -383,28 +382,28 @@ msgstr "Establecer la altura del escritorio remoto"
 msgid "Port:"
 msgstr "Puerto:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:283 ../plugins/vnc/vinagre-vnc-tab.c:601
+#: ../plugins/rdp/vinagre-rdp-tab.c:292 ../plugins/vnc/vinagre-vnc-tab.c:601
 #: ../plugins/spice/vinagre-spice-tab.c:473
 msgid "S_caling"
 msgstr "Es_calado"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:284 ../plugins/vnc/vinagre-vnc-tab.c:602
+#: ../plugins/rdp/vinagre-rdp-tab.c:293 ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:474
 msgid "Fit the remote screen into the current window size"
 msgstr "Ajustar la pantalla remota en el tamaño actual de ventana"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:357 ../plugins/rdp/vinagre-rdp-tab.c:358
+#: ../plugins/rdp/vinagre-rdp-tab.c:366 ../plugins/rdp/vinagre-rdp-tab.c:367
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
 #: ../plugins/spice/vinagre-spice-tab.c:591
 #: ../plugins/spice/vinagre-spice-tab.c:592
 msgid "Scaling"
 msgstr "Escalado"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:936 ../plugins/rdp/vinagre-rdp-tab.c:977
+#: ../plugins/rdp/vinagre-rdp-tab.c:945 ../plugins/rdp/vinagre-rdp-tab.c:986
 msgid "_Cancel"
 msgstr "_Cancelar"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:1212 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:1221 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:267
 msgid "Error connecting to host."
 msgstr "Error al conectar con el equipo."
@@ -476,8 +475,7 @@ msgstr "Opciones de VNC"
 
 #. View only check button
 #. View only check button - not fully ready on spice-gtk side
-#: ../plugins/vnc/vinagre-vnc-plugin.c:276
-#: ../plugins/vnc/vinagre-vnc-tab.c:630
+#: ../plugins/vnc/vinagre-vnc-plugin.c:276 ../plugins/vnc/vinagre-vnc-tab.c:630
 #: ../plugins/spice/vinagre-spice-plugin.c:237
 #: ../plugins/spice/vinagre-spice-tab.c:514
 msgid "_View only"
@@ -859,11 +857,11 @@ msgstr ""
 msgid "Remove Item?"
 msgstr "¿Eliminar elemento?"
 
-#: ../vinagre/vinagre-bookmarks-ui.c:335
+#: ../vinagre/vinagre-bookmarks-ui.c:334
 msgid "Error removing bookmark: Entry not found"
 msgstr "Error al eliminar el marcador: No se encontró la entrada"
 
-#: ../vinagre/vinagre-bookmarks-ui.c:352
+#: ../vinagre/vinagre-bookmarks-ui.c:351
 msgid "New Folder"
 msgstr "Carpeta nueva"
 
@@ -920,7 +918,7 @@ msgstr "No se pudo abrir el archivo."
 
 #: ../vinagre/vinagre-connection.c:792
 msgid "The file was not recognized by any of the plugins."
-msgstr "Ninguno de los complementos reconoció el archivo"
+msgstr "Ninguno de los complementos reconoció el archivo."
 
 #. Setup command line options
 #: ../vinagre/vinagre-main.c:91
