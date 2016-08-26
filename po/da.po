@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-20 23:29+0100\n"
+"POT-Creation-Date: 2016-08-26 03:52+0200\n"
 "PO-Revision-Date: 2016-03-20 03:07+0100\n"
 "Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -239,8 +239,8 @@ msgstr ""
 msgid "Fingerprint:"
 msgstr "Fingeraftryk:"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:946
-#: ../plugins/rdp/vinagre-rdp-tab.c:987
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:954
+#: ../plugins/rdp/vinagre-rdp-tab.c:995
 msgid "Connect"
 msgstr "Tilslut"
 
@@ -346,7 +346,7 @@ msgstr ""
 #. Translators: This is the tooltip for the domain field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:156
 msgid "Optional."
-msgstr "Valgfri"
+msgstr "Valgfri."
 
 #. Host width
 #: ../plugins/rdp/vinagre-rdp-plugin.c:169
@@ -391,11 +391,11 @@ msgstr "Tilpas den fjerne skærm til den aktuelle vinduesstørrelse"
 msgid "Scaling"
 msgstr "Skalerer"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:945 ../plugins/rdp/vinagre-rdp-tab.c:986
+#: ../plugins/rdp/vinagre-rdp-tab.c:953 ../plugins/rdp/vinagre-rdp-tab.c:994
 msgid "_Cancel"
 msgstr "_Annullér"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:1221 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:1227 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:267
 msgid "Error connecting to host."
 msgstr "Fejl under forbindelse til vært."
@@ -1667,6 +1667,3 @@ msgstr "Fejl under oprettelse af filen %s: %s"
 
 #~ msgid "All fields above are mandatory"
 #~ msgstr "Alle ovenstående felter er påkrævet"
-
-#~ msgid "Could not merge vinagre-ui.xml: %s"
-#~ msgstr "Kunne ikke sammenføje vinagre-ui.xml: %s"
