@@ -7,10 +7,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-05 19:38+0100\n"
-"PO-Revision-Date: 2012-09-05 19:39+0100\n"
-"Last-Translator: Bruce Cowan <bruce@bcowan.me.uk>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=vinagre&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2016-08-22 16:50+0000\n"
+"PO-Revision-Date: 2016-09-04 14:56+0200\n"
+"Last-Translator: David King <amigadave@amigadave.com>\n"
 "Language-Team: British English <en@li.org>\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
@@ -81,14 +82,28 @@ msgstr ""
 "Set to \"true\" to always start the program listening for reverse "
 "connections."
 
-#: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
-#: ../vinagre/vinagre-main.c:182
+#. Both taken from the desktop file.
+#: ../data/vinagre.appdata.xml.in.h:2 ../data/vinagre.desktop.in.in.h:1
+#: ../data/vinagre-file.desktop.in.in.h:1 ../vinagre/vinagre-main.c:182
 msgid "Remote Desktop Viewer"
 msgstr "Remote Desktop Viewer"
 
-#: ../data/vinagre.desktop.in.in.h:2 ../data/vinagre-file.desktop.in.in.h:2
+#: ../data/vinagre.appdata.xml.in.h:3 ../data/vinagre.desktop.in.in.h:2
+#: ../data/vinagre-file.desktop.in.in.h:2
 msgid "Access remote desktops"
 msgstr "Access remote desktops"
+
+#: ../data/vinagre.appdata.xml.in.h:4
+msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
+msgstr "Vinagre shows remote Windows, Mac OS X and Linux desktops."
+
+#: ../data/vinagre.appdata.xml.in.h:5
+msgid ""
+"It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
+"SSH servers."
+msgstr ""
+"It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
+"SSH servers."
 
 #: ../data/vinagre.desktop.in.in.h:3
 msgid "VNC;RDP;SSH;"
@@ -104,7 +119,8 @@ msgid "translator-credits"
 msgstr ""
 "Philip Withnall <pwithnall@svn.gnome.org>\n"
 "Jen Ockwell <jenfraggleubuntu@gmail.com>\n"
-"Bruce Cowan <bruce@bcowan.me.uk>"
+"Bruce Cowan <bruce@bcowan.me.uk>\n"
+"David King <amigadave@amigadave.com>"
 
 #. This is a button label, in the authentication dialog
 #: ../data/vinagre.ui.h:5
@@ -115,103 +131,153 @@ msgstr "_Authenticate"
 msgid "Authentication is required"
 msgstr "Authentication is required"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:54
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:134
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
-#: ../plugins/spice/vinagre-spice-tab.c:139
+#: ../plugins/spice/vinagre-spice-tab.c:142
 msgid "Host:"
 msgstr "Host:"
 
-#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:105
-#: ../plugins/ssh/vinagre-ssh-plugin.c:110
+#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:130
+#: ../plugins/ssh/vinagre-ssh-plugin.c:112
 msgid "_Username:"
 msgstr "_Username:"
 
-#: ../data/vinagre.ui.h:9 ../plugins/spice/vinagre-spice-plugin.c:294
+#: ../data/vinagre.ui.h:9 ../plugins/spice/vinagre-spice-plugin.c:310
 msgid "_Password:"
 msgstr "_Password:"
 
-#: ../data/vinagre.ui.h:10
+#: ../data/vinagre.ui.h:10 ../plugins/rdp/vinagre-rdp-plugin.c:149
+msgid "_Domain:"
+msgstr "_Domain:"
+
+#: ../data/vinagre.ui.h:11
 msgid "_Remember this credential"
 msgstr "_Remember this credential"
 
-#: ../data/vinagre.ui.h:11
+#: ../data/vinagre.ui.h:12
 msgid "Store the login credential in GNOME Keyring"
 msgstr "Store the login credential in GNOME Keyring"
 
-#: ../data/vinagre.ui.h:12
+#: ../data/vinagre.ui.h:13
 msgid "Bookmarks"
 msgstr "Bookmarks"
 
-#: ../data/vinagre.ui.h:13
+#: ../data/vinagre.ui.h:14
 msgid "Connection"
 msgstr "Connection"
 
 #. Translators: This is the name of a bookmark. It appears in the add/edit bookmark dialog.
-#: ../data/vinagre.ui.h:15
+#: ../data/vinagre.ui.h:16
 msgid "_Name:"
 msgstr "_Name:"
 
-#: ../data/vinagre.ui.h:16
+#: ../data/vinagre.ui.h:17
 msgid "_Host:"
 msgstr "_Host:"
 
-#: ../data/vinagre.ui.h:17
+#: ../data/vinagre.ui.h:18
 msgid "Options"
 msgstr "Options"
 
-#: ../data/vinagre.ui.h:18
+#: ../data/vinagre.ui.h:19
 msgid "_Full screen"
 msgstr "_Full screen"
 
-#: ../data/vinagre.ui.h:19
+#: ../data/vinagre.ui.h:20
 msgid "Folder"
 msgstr "Folder"
 
-#: ../data/vinagre.ui.h:20
+#: ../data/vinagre.ui.h:21
 msgid "Bookmark Folder"
 msgstr "Bookmark Folder"
 
-#: ../data/vinagre.ui.h:21
+#: ../data/vinagre.ui.h:22
 msgid "Parent Folder"
 msgstr "Parent Folder"
 
-#: ../data/vinagre.ui.h:22
+#: ../data/vinagre.ui.h:23
+msgid "Certificate Verification"
+msgstr "Certificate Verification"
+
+#: ../data/vinagre.ui.h:24
+msgid ""
+"The remote host has changed its certificate.\n"
+"Do you trust the new certificate?"
+msgstr ""
+"The remote host has changed its certificate.\n"
+"Do you trust the new certificate?"
+
+#. Subject of the certificate.
+#: ../data/vinagre.ui.h:27
+msgid "Subject:"
+msgstr "Subject:"
+
+#. Issuer of the certificate.
+#: ../data/vinagre.ui.h:29
+msgid "Issuer:"
+msgstr "Issuer:"
+
+#. Fingerprint of the new certificate.
+#: ../data/vinagre.ui.h:31
+msgid "New fingerprint:"
+msgstr "New fingerprint:"
+
+#. Fingerprint of the old certificate.
+#: ../data/vinagre.ui.h:33
+msgid "Old fingerprint:"
+msgstr "Old fingerprint:"
+
+#: ../data/vinagre.ui.h:34
+msgid ""
+"The below certificate could not be verified.\n"
+"Do you trust the certificate?"
+msgstr ""
+"The below certificate could not be verified.\n"
+"Do you trust the certificate?"
+
+#. Fingerprint of the certificate.
+#: ../data/vinagre.ui.h:37
+msgid "Fingerprint:"
+msgstr "Fingerprint:"
+
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:954
+#: ../plugins/rdp/vinagre-rdp-tab.c:995
 msgid "Connect"
 msgstr "Connect"
 
-#: ../data/vinagre.ui.h:23
+#: ../data/vinagre.ui.h:39
 msgid "Choose a remote desktop to connect to"
 msgstr "Choose a remote desktop to connect to"
 
-#: ../data/vinagre.ui.h:24
+#: ../data/vinagre.ui.h:40
 msgid "_Protocol:"
 msgstr "_Protocol:"
 
-#: ../data/vinagre.ui.h:25
+#: ../data/vinagre.ui.h:41
 msgid "Select a remote desktop protocol for this connection"
 msgstr "Select a remote desktop protocol for this connection"
 
-#: ../data/vinagre.ui.h:26
+#: ../data/vinagre.ui.h:42
 msgid "Search for remote hosts on the network"
 msgstr "Search for remote hosts on the network"
 
-#: ../data/vinagre.ui.h:27
+#: ../data/vinagre.ui.h:43
 msgid "Connection options"
 msgstr "Connection options"
 
-#: ../data/vinagre.ui.h:28
+#: ../data/vinagre.ui.h:44
 msgid "_Fullscreen"
 msgstr "_Fullscreen"
 
-#: ../data/vinagre.ui.h:29
+#: ../data/vinagre.ui.h:45
 msgid "Enable fullscreen mode for this connection"
 msgstr "Enable fullscreen mode for this connection"
 
-#: ../data/vinagre.ui.h:30
+#: ../data/vinagre.ui.h:46
 msgid "Reverse Connections"
 msgstr "Reverse Connections"
 
-#: ../data/vinagre.ui.h:31
+#: ../data/vinagre.ui.h:47
 msgid ""
 "By activating reverse connections you can access remote desktops that are "
 "behind a firewall. The remote side is supposed to initiate the connection "
@@ -221,20 +287,20 @@ msgstr ""
 "behind a firewall. The remote side is supposed to initiate the connection "
 "with you. For further information, read the help."
 
-#: ../data/vinagre.ui.h:32
+#: ../data/vinagre.ui.h:48
 msgid "_Enable Reverse Connections"
 msgstr "_Enable Reverse Connections"
 
 #. Translators: this is the reverse connection mode. "Always enabled" means it will be enabled by default in the program startup. You can see this string in the dialog Remote->Reverse connections.
-#: ../data/vinagre.ui.h:34
+#: ../data/vinagre.ui.h:50
 msgid "_Always Enabled"
 msgstr "_Always Enabled"
 
-#: ../data/vinagre.ui.h:35
+#: ../data/vinagre.ui.h:51
 msgid "This desktop is reachable through the following IP address(es):"
 msgstr "This desktop is reachable through the following IP address(es):"
 
-#: ../data/vinagre.ui.h:36
+#: ../data/vinagre.ui.h:52
 msgid "Connectivity"
 msgstr "Connectivity"
 
@@ -246,23 +312,30 @@ msgstr "Remote Desktop (VNC) file"
 msgid "Remote Desktop Connection"
 msgstr "Remote Desktop Connection"
 
-#: ../plugins/rdp/vinagre-rdp-plugin.c:55
+#: ../plugins/rdp/vinagre-rdp-plugin.c:61
 msgid "RDP"
 msgstr "RDP"
 
 #. Translators: This is a description of the RDP protocol. It appears in the Connect dialog.
-#: ../plugins/rdp/vinagre-rdp-plugin.c:57
+#: ../plugins/rdp/vinagre-rdp-plugin.c:63
 msgid "Access MS Windows remote desktops"
 msgstr "Access MS Windows remote desktops"
 
-#: ../plugins/rdp/vinagre-rdp-plugin.c:96
+#: ../plugins/rdp/vinagre-rdp-plugin.c:111
 msgid "RDP Options"
 msgstr "RDP Options"
 
+#. Scaling check button
+#: ../plugins/rdp/vinagre-rdp-plugin.c:120
+#: ../plugins/vnc/vinagre-vnc-plugin.c:285
+#: ../plugins/spice/vinagre-spice-plugin.c:261
+msgid "_Scaling"
+msgstr "_Scaling"
+
 #. Translators: This is the tooltip for the username field in a RDP connection
 #. Translators: This is the tooltip for the username field in a SSH connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:110
-#: ../plugins/ssh/vinagre-ssh-plugin.c:115
+#: ../plugins/rdp/vinagre-rdp-plugin.c:137
+#: ../plugins/ssh/vinagre-ssh-plugin.c:117
 msgid ""
 "Optional. If blank, your username will be used. Also, it can be supplied in "
 "the Host field above, in the form username@hostname."
@@ -270,42 +343,79 @@ msgstr ""
 "Optional. If blank, your username will be used. Also, it can be supplied in "
 "the Host field above, in the form username@hostname."
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:55 ../plugins/ssh/vinagre-ssh-tab.c:50
+#. Translators: This is the tooltip for the domain field in a RDP connection
+#: ../plugins/rdp/vinagre-rdp-plugin.c:156
+msgid "Optional."
+msgstr "Optional."
+
+#. Host width
+#: ../plugins/rdp/vinagre-rdp-plugin.c:169
+msgid "_Width:"
+msgstr "_Width:"
+
+#. Translators: This is the tooltip for the width field in a RDP connection
+#: ../plugins/rdp/vinagre-rdp-plugin.c:176
+msgid "Set width of the remote desktop"
+msgstr "Set width of the remote desktop"
+
+#. Host height
+#: ../plugins/rdp/vinagre-rdp-plugin.c:189
+msgid "_Height:"
+msgstr "_Height:"
+
+#. Translators: This is the tooltip for the height field in a RDP connection
+#: ../plugins/rdp/vinagre-rdp-plugin.c:196
+msgid "Set height of the remote desktop"
+msgstr "Set height of the remote desktop"
+
+#: ../plugins/rdp/vinagre-rdp-tab.c:135 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
-#: ../plugins/spice/vinagre-spice-tab.c:140
+#: ../plugins/spice/vinagre-spice-tab.c:143
 msgid "Port:"
 msgstr "Port:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:124
-msgid "Error while executing xfreerdp"
-msgstr "Error while executing xfreerdp"
+#: ../plugins/rdp/vinagre-rdp-tab.c:292 ../plugins/vnc/vinagre-vnc-tab.c:601
+#: ../plugins/spice/vinagre-spice-tab.c:473
+msgid "S_caling"
+msgstr "S_caling"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:125 ../vinagre/vinagre-bookmarks.c:366
-#: ../vinagre/vinagre-bookmarks.c:492
-#: ../vinagre/vinagre-bookmarks-migration.c:135
-#: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
-#: ../vinagre/vinagre-connect.c:495 ../vinagre/vinagre-options.c:85
-#: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
-#: ../vinagre/vinagre-window.c:798
-msgid "Unknown error"
-msgstr "Unknown error"
+#: ../plugins/rdp/vinagre-rdp-tab.c:293 ../plugins/vnc/vinagre-vnc-tab.c:602
+#: ../plugins/spice/vinagre-spice-tab.c:474
+msgid "Fit the remote screen into the current window size"
+msgstr "Fit the remote screen into the current window size"
 
-#: ../plugins/ssh/vinagre-ssh-plugin.c:59
+#: ../plugins/rdp/vinagre-rdp-tab.c:366 ../plugins/rdp/vinagre-rdp-tab.c:367
+#: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
+#: ../plugins/spice/vinagre-spice-tab.c:591
+#: ../plugins/spice/vinagre-spice-tab.c:592
+msgid "Scaling"
+msgstr "Scaling"
+
+#: ../plugins/rdp/vinagre-rdp-tab.c:953 ../plugins/rdp/vinagre-rdp-tab.c:994
+msgid "_Cancel"
+msgstr "_Cancel"
+
+#: ../plugins/rdp/vinagre-rdp-tab.c:1227 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/spice/vinagre-spice-tab.c:267
+msgid "Error connecting to host."
+msgstr "Error connecting to host."
+
+#: ../plugins/ssh/vinagre-ssh-plugin.c:61
 msgid "SSH"
 msgstr "SSH"
 
 #. Translators: This is a description of the SSH protocol. It appears at Connect dialog.
-#: ../plugins/ssh/vinagre-ssh-plugin.c:61
+#: ../plugins/ssh/vinagre-ssh-plugin.c:63
 msgid "Access Unix/Linux terminals"
 msgstr "Access Unix/Linux terminals"
 
-#: ../plugins/ssh/vinagre-ssh-plugin.c:101
+#: ../plugins/ssh/vinagre-ssh-plugin.c:103
 msgid "SSH Options"
 msgstr "SSH Options"
 
 #. Translators: 'shared' here is a VNC protocol specific flag. You can translate it, but I think it's better to let it untranslated
 #: ../plugins/vnc/vinagre-vnc-connection.c:317
-#: ../plugins/vnc/vinagre-vnc-plugin.c:199
+#: ../plugins/vnc/vinagre-vnc-plugin.c:201
 #, c-format
 msgid ""
 "Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
@@ -313,130 +423,123 @@ msgstr ""
 "Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
 
 #. Translators: this is a command line option (run vinagre --help)
-#: ../plugins/vnc/vinagre-vnc-plugin.c:50
+#: ../plugins/vnc/vinagre-vnc-plugin.c:52
 msgid "Enable scaled mode"
 msgstr "Enable scaled mode"
 
 #. Translators: this is a command line option (run vinagre --help)
-#: ../plugins/vnc/vinagre-vnc-plugin.c:63
+#: ../plugins/vnc/vinagre-vnc-plugin.c:65
 msgid "VNC Options:"
 msgstr "VNC Options:"
 
 #. Translators: this is a command line option (run vinagre --help)
-#: ../plugins/vnc/vinagre-vnc-plugin.c:65
+#: ../plugins/vnc/vinagre-vnc-plugin.c:67
 msgid "Show VNC Options"
 msgstr "Show VNC Options"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:87
+#: ../plugins/vnc/vinagre-vnc-plugin.c:89
 msgid "VNC"
 msgstr "VNC"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:88
+#: ../plugins/vnc/vinagre-vnc-plugin.c:90
 msgid "Access Unix/Linux, Windows and other remote desktops."
 msgstr "Access Unix/Linux, Windows and other remote desktops."
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:145
-#: ../plugins/spice/vinagre-spice-plugin.c:100
+#: ../plugins/vnc/vinagre-vnc-plugin.c:147
+#: ../plugins/spice/vinagre-spice-plugin.c:101
 msgid "Could not parse the file."
 msgstr "Could not parse the file."
 
 #. Translators: Do not translate "Connection". It's the name of a group in the .vnc (.ini like) file.
-#: ../plugins/vnc/vinagre-vnc-plugin.c:153
+#: ../plugins/vnc/vinagre-vnc-plugin.c:155
 msgid "The file is not a VNC one: Missing the group \"Connection\"."
 msgstr "The file is not a VNC one: Missing the group \"Connection\"."
 
 #. Translators: Do not translate "Host". It's the name of a key in the .vnc (.ini like) file.
-#: ../plugins/vnc/vinagre-vnc-plugin.c:160
+#: ../plugins/vnc/vinagre-vnc-plugin.c:162
 msgid "The file is not a VNC one: Missing the key \"Host\"."
 msgstr "The file is not a VNC one: Missing the key \"Host\"."
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:251
+#: ../plugins/vnc/vinagre-vnc-plugin.c:268
 msgid "VNC Options"
 msgstr "VNC Options"
 
 #. View only check button
 #. View only check button - not fully ready on spice-gtk side
-#: ../plugins/vnc/vinagre-vnc-plugin.c:259
-#: ../plugins/vnc/vinagre-vnc-tab.c:619
-#: ../plugins/spice/vinagre-spice-plugin.c:221
-#: ../plugins/spice/vinagre-spice-tab.c:507
+#: ../plugins/vnc/vinagre-vnc-plugin.c:276 ../plugins/vnc/vinagre-vnc-tab.c:630
+#: ../plugins/spice/vinagre-spice-plugin.c:237
+#: ../plugins/spice/vinagre-spice-tab.c:514
 msgid "_View only"
 msgstr "_View only"
 
-#. Scaling check button
-#: ../plugins/vnc/vinagre-vnc-plugin.c:268
-#: ../plugins/spice/vinagre-spice-plugin.c:245
-msgid "_Scaling"
-msgstr "_Scaling"
-
 #. Keep ratio check button
-#: ../plugins/vnc/vinagre-vnc-plugin.c:282
+#: ../plugins/vnc/vinagre-vnc-plugin.c:299
 msgid "_Keep aspect ratio"
 msgstr "_Keep aspect ratio"
 
 #. JPEG Compression check button
-#: ../plugins/vnc/vinagre-vnc-plugin.c:292
+#: ../plugins/vnc/vinagre-vnc-plugin.c:309
 msgid "_Use JPEG Compression"
 msgstr "_Use JPEG Compression"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:293
+#: ../plugins/vnc/vinagre-vnc-plugin.c:310
 msgid "This might not work on all VNC servers"
 msgstr "This might not work on all VNC servers"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:303
+#: ../plugins/vnc/vinagre-vnc-plugin.c:320
 msgid "Color _Depth:"
 msgstr "Colour _Depth:"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:308
+#: ../plugins/vnc/vinagre-vnc-plugin.c:325
 msgid "Use Server Settings"
 msgstr "Use Server Settings"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:309
+#: ../plugins/vnc/vinagre-vnc-plugin.c:326
 msgid "True Color (24 bits)"
 msgstr "True Colour (24 bits)"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:310
+#: ../plugins/vnc/vinagre-vnc-plugin.c:327
 msgid "High Color (16 bits)"
 msgstr "High Colour (16 bits)"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:311
+#: ../plugins/vnc/vinagre-vnc-plugin.c:328
 msgid "Low Color (8 bits)"
 msgstr "Low Colour (8 bits)"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:312
+#: ../plugins/vnc/vinagre-vnc-plugin.c:329
 msgid "Ultra Low Color (3 bits)"
 msgstr "Ultra Low Colour (3 bits)"
 
 #. Translators: the whole sentence will be: Use Host <hostname> as a SSH tunnel
 #. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
-#: ../plugins/vnc/vinagre-vnc-plugin.c:326
-#: ../plugins/spice/vinagre-spice-plugin.c:256
+#: ../plugins/vnc/vinagre-vnc-plugin.c:343
+#: ../plugins/spice/vinagre-spice-plugin.c:272
 msgid "Use h_ost"
 msgstr "Use h_ost"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:335
-#: ../plugins/spice/vinagre-spice-plugin.c:265
+#: ../plugins/vnc/vinagre-vnc-plugin.c:352
+#: ../plugins/spice/vinagre-spice-plugin.c:281
 msgid "hostname or user@hostname"
 msgstr "hostname or user@hostname"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:336
-#: ../plugins/spice/vinagre-spice-plugin.c:266
+#: ../plugins/vnc/vinagre-vnc-plugin.c:353
+#: ../plugins/spice/vinagre-spice-plugin.c:282
 msgid "Supply an alternative port using colon"
 msgstr "Supply an alternative port using colon"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:337
-#: ../plugins/spice/vinagre-spice-plugin.c:267
+#: ../plugins/vnc/vinagre-vnc-plugin.c:354
+#: ../plugins/spice/vinagre-spice-plugin.c:283
 msgid "For instance: joe@example.com:5022"
 msgstr "For instance: joe@example.com:5022"
 
 #. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
-#: ../plugins/vnc/vinagre-vnc-plugin.c:343
-#: ../plugins/spice/vinagre-spice-plugin.c:273
+#: ../plugins/vnc/vinagre-vnc-plugin.c:360
+#: ../plugins/spice/vinagre-spice-plugin.c:289
 msgid "as a SSH tunnel"
 msgstr "as a SSH tunnel"
 
 #. Translators: this is a pattern to open *.vnc files in a open dialog.
-#: ../plugins/vnc/vinagre-vnc-plugin.c:378
+#: ../plugins/vnc/vinagre-vnc-plugin.c:395
 msgid "VNC Files"
 msgstr "VNC Files"
 
@@ -448,113 +551,92 @@ msgstr "Desktop Name:"
 msgid "Dimensions:"
 msgstr "Dimensions:"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:296
-#: ../plugins/spice/vinagre-spice-tab.c:252
+#: ../plugins/vnc/vinagre-vnc-tab.c:306
+#: ../plugins/spice/vinagre-spice-tab.c:255
 msgid "Error creating the SSH tunnel"
 msgstr "Error creating the SSH tunnel"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:297 ../plugins/vnc/vinagre-vnc-tab.c:308
-#: ../plugins/spice/vinagre-spice-tab.c:253
-#: ../plugins/spice/vinagre-spice-tab.c:265
+#: ../plugins/vnc/vinagre-vnc-tab.c:307 ../plugins/vnc/vinagre-vnc-tab.c:318
+#: ../plugins/spice/vinagre-spice-tab.c:256
+#: ../plugins/spice/vinagre-spice-tab.c:268
 msgid "Unknown reason"
 msgstr "Unknown reason"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:307
-#: ../plugins/spice/vinagre-spice-tab.c:264
-msgid "Error connecting to host."
-msgstr "Error connecting to host."
-
 #. Translators: %s is a host name or IP address; %u is a code error (number).
-#: ../plugins/vnc/vinagre-vnc-tab.c:352
+#: ../plugins/vnc/vinagre-vnc-tab.c:362
 #, c-format
 msgid "Authentication method for host %s is unsupported. (%u)"
 msgstr "Authentication method for host %s is unsupported. (%u)"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:356
+#: ../plugins/vnc/vinagre-vnc-tab.c:366
 msgid "Authentication unsupported"
 msgstr "Authentication unsupported"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:518 ../plugins/vnc/vinagre-vnc-tab.c:535
+#: ../plugins/vnc/vinagre-vnc-tab.c:529 ../plugins/vnc/vinagre-vnc-tab.c:546
 msgid "Authentication error"
 msgstr "Authentication error"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:519
+#: ../plugins/vnc/vinagre-vnc-tab.c:530
 msgid "A username is required in order to access this remote desktop."
 msgstr "A username is required in order to access this remote desktop."
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:536
+#: ../plugins/vnc/vinagre-vnc-tab.c:547
 msgid "A password is required in order to access this remote desktop."
 msgstr "A password is required in order to access this remote desktop."
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:590
-#: ../plugins/spice/vinagre-spice-tab.c:466
-msgid "S_caling"
-msgstr "S_caling"
-
-#: ../plugins/vnc/vinagre-vnc-tab.c:591
-#: ../plugins/spice/vinagre-spice-tab.c:467
-msgid "Fits the remote screen into the current window size"
-msgstr "Fits the remote screen into the current window size"
-
-#: ../plugins/vnc/vinagre-vnc-tab.c:604
+#: ../plugins/vnc/vinagre-vnc-tab.c:615
 msgid "_Keep Aspect Ratio"
 msgstr "_Keep Aspect Ratio"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:605
-msgid "Keeps the screen aspect ratio when using scaling"
-msgstr "Keeps the screen aspect ratio when using scaling"
+#: ../plugins/vnc/vinagre-vnc-tab.c:616
+msgid "Keep the screen aspect ratio when using scaling"
+msgstr "Keep the screen aspect ratio when using scaling"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:620
-#: ../plugins/spice/vinagre-spice-tab.c:508
-msgid "Does not send mouse and keyboard events"
-msgstr "Does not send mouse and keyboard events"
+#: ../plugins/vnc/vinagre-vnc-tab.c:631
+#: ../plugins/spice/vinagre-spice-tab.c:515
+msgid "Do not send mouse and keyboard events"
+msgstr "Do not send mouse and keyboard events"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:633
+#: ../plugins/vnc/vinagre-vnc-tab.c:644
 msgid "_Original size"
 msgstr "_Original size"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:634
-msgid "Adjusts the window to the remote desktop's size"
-msgstr "Adjusts the window to the remote desktop's size"
+#: ../plugins/vnc/vinagre-vnc-tab.c:645
+msgid "Adjust the window to the size of the remote desktop"
+msgstr "Adjust the window to the size of the remote desktop"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:647
+#: ../plugins/vnc/vinagre-vnc-tab.c:658
 msgid "_Refresh Screen"
 msgstr "_Refresh Screen"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:648
+#: ../plugins/vnc/vinagre-vnc-tab.c:659
 msgid "Requests an update of the screen"
 msgstr "Requests an update of the screen"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:670
-#: ../plugins/spice/vinagre-spice-tab.c:531
+#: ../plugins/vnc/vinagre-vnc-tab.c:681
+#: ../plugins/spice/vinagre-spice-tab.c:538
 msgid "_Send Ctrl-Alt-Del"
 msgstr "_Send Ctrl-Alt-Del"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:671
-#: ../plugins/spice/vinagre-spice-tab.c:532
-msgid "Sends Ctrl+Alt+Del to the remote desktop"
-msgstr "Sends Ctrl+Alt+Del to the remote desktop"
+#: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
+#: ../plugins/spice/vinagre-spice-tab.c:539
+#: ../plugins/spice/vinagre-spice-tab.c:612
+msgid "Send Ctrl+Alt+Del to the remote desktop"
+msgstr "Send Ctrl+Alt+Del to the remote desktop"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:724 ../plugins/vnc/vinagre-vnc-tab.c:725
-#: ../plugins/spice/vinagre-spice-tab.c:584
-#: ../plugins/spice/vinagre-spice-tab.c:585
-msgid "Scaling"
-msgstr "Scaling"
-
-#: ../plugins/vnc/vinagre-vnc-tab.c:734 ../plugins/vnc/vinagre-vnc-tab.c:735
-#: ../plugins/spice/vinagre-spice-tab.c:594
-#: ../plugins/spice/vinagre-spice-tab.c:595
+#: ../plugins/vnc/vinagre-vnc-tab.c:745 ../plugins/vnc/vinagre-vnc-tab.c:746
+#: ../plugins/spice/vinagre-spice-tab.c:601
+#: ../plugins/spice/vinagre-spice-tab.c:602
 msgid "Read only"
 msgstr "Read only"
 
 #. Send Ctrl-alt-del
-#: ../plugins/vnc/vinagre-vnc-tab.c:743 ../plugins/vnc/vinagre-vnc-tab.c:745
-#: ../plugins/spice/vinagre-spice-tab.c:603
-#: ../plugins/spice/vinagre-spice-tab.c:605
+#: ../plugins/vnc/vinagre-vnc-tab.c:754
+#: ../plugins/spice/vinagre-spice-tab.c:610
 msgid "Send Ctrl-Alt-Del"
 msgstr "Send Ctrl-Alt-Del"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:908
+#: ../plugins/vnc/vinagre-vnc-tab.c:919
 msgid ""
 "Scaling is not supported on this installation.\n"
 "\n"
@@ -573,55 +655,55 @@ msgid "Unable to find a free TCP port"
 msgstr "Unable to find a free TCP port"
 
 #. Translators: Do not translate "connection". It's the name of a group in the .spice (.ini like) file.
-#: ../plugins/spice/vinagre-spice-plugin.c:107
+#: ../plugins/spice/vinagre-spice-plugin.c:108
 msgid "The file is not a Spice one: Missing the group \"connection\"."
 msgstr "The file is not a Spice one: Missing the group \"connection\"."
 
 #. Translators: Do not translate "host". It's the name of a key in the .spice (.ini like) file.
-#: ../plugins/spice/vinagre-spice-plugin.c:114
+#: ../plugins/spice/vinagre-spice-plugin.c:115
 msgid "The file is not a Spice one: Missing the key \"host\"."
 msgstr "The file is not a Spice one: Missing the key \"host\"."
 
-#: ../plugins/spice/vinagre-spice-plugin.c:158
+#: ../plugins/spice/vinagre-spice-plugin.c:174
 msgid "SPICE"
 msgstr "SPICE"
 
 #. Translators: This is a description of the SPICE protocol. It appears at Connect dialog.
-#: ../plugins/spice/vinagre-spice-plugin.c:160
+#: ../plugins/spice/vinagre-spice-plugin.c:176
 msgid "Access Spice desktop server"
 msgstr "Access Spice desktop server"
 
-#: ../plugins/spice/vinagre-spice-plugin.c:208
+#: ../plugins/spice/vinagre-spice-plugin.c:224
 msgid "SPICE Options"
 msgstr "SPICE Options"
 
 #. Resize guest check button
-#: ../plugins/spice/vinagre-spice-plugin.c:229
-#: ../plugins/spice/vinagre-spice-tab.c:480
+#: ../plugins/spice/vinagre-spice-plugin.c:245
+#: ../plugins/spice/vinagre-spice-tab.c:487
 msgid "_Resize guest"
 msgstr "_Resize guest"
 
 #. Clipboard sharing check button
-#: ../plugins/spice/vinagre-spice-plugin.c:237
-#: ../plugins/spice/vinagre-spice-tab.c:493
+#: ../plugins/spice/vinagre-spice-plugin.c:253
+#: ../plugins/spice/vinagre-spice-tab.c:500
 msgid "_Share clipboard"
 msgstr "_Share clipboard"
 
 #. Translators: This is the tooltip for the password field in a SPICE connection
-#: ../plugins/spice/vinagre-spice-plugin.c:299
+#: ../plugins/spice/vinagre-spice-plugin.c:315
 msgid "Optional"
 msgstr "Optional"
 
 #. Translators: this is a pattern to open *.spice files in a open dialog.
-#: ../plugins/spice/vinagre-spice-plugin.c:320
+#: ../plugins/spice/vinagre-spice-plugin.c:336
 msgid "Spice Files"
 msgstr "Spice Files"
 
-#: ../plugins/spice/vinagre-spice-tab.c:481
+#: ../plugins/spice/vinagre-spice-tab.c:488
 msgid "Resize the screen guest to best fit"
 msgstr "Resize the screen guest to best fit"
 
-#: ../plugins/spice/vinagre-spice-tab.c:494
+#: ../plugins/spice/vinagre-spice-tab.c:501
 msgid "Automatically share clipboard between client and guest"
 msgstr "Automatically share clipboard between client and guest"
 
@@ -629,6 +711,15 @@ msgstr "Automatically share clipboard between client and guest"
 #, c-format
 msgid "Error while initializing bookmarks: %s"
 msgstr "Error while initialising bookmarks: %s"
+
+#: ../vinagre/vinagre-bookmarks.c:366 ../vinagre/vinagre-bookmarks.c:492
+#: ../vinagre/vinagre-bookmarks-migration.c:135
+#: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
+#: ../vinagre/vinagre-connect.c:510 ../vinagre/vinagre-options.c:85
+#: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
+#: ../vinagre/vinagre-window.c:798
+msgid "Unknown error"
+msgstr "Unknown error"
 
 #: ../vinagre/vinagre-bookmarks.c:373
 msgid "Error while initializing bookmarks: The file seems to be empty"
@@ -752,11 +843,11 @@ msgstr "Note that all its subfolders and bookmarks will be removed as well."
 msgid "Remove Item?"
 msgstr "Remove Item?"
 
-#: ../vinagre/vinagre-bookmarks-ui.c:335
+#: ../vinagre/vinagre-bookmarks-ui.c:334
 msgid "Error removing bookmark: Entry not found"
 msgstr "Error removing bookmark: Entry not found"
 
-#: ../vinagre/vinagre-bookmarks-ui.c:352
+#: ../vinagre/vinagre-bookmarks-ui.c:351
 msgid "New Folder"
 msgstr "New Folder"
 
@@ -787,31 +878,31 @@ msgid_plural "The following files could not be opened:"
 msgstr[0] "The following file could not be opened:"
 msgstr[1] "The following files could not be opened:"
 
-#: ../vinagre/vinagre-connect.c:90 ../vinagre/vinagre-connect.c:336
-#: ../vinagre/vinagre-connect.c:459
+#: ../vinagre/vinagre-connect.c:91 ../vinagre/vinagre-connect.c:344
+#: ../vinagre/vinagre-connect.c:474
 msgid "Could not get the active protocol from the protocol list."
 msgstr "Could not get the active protocol from the protocol list."
 
-#: ../vinagre/vinagre-connect.c:317
+#: ../vinagre/vinagre-connect.c:318
 #, c-format
 msgid "Error while saving history file: %s"
 msgstr "Error while saving history file: %s"
 
-#: ../vinagre/vinagre-connect.c:352
+#: ../vinagre/vinagre-connect.c:360
 msgid "Choose a Remote Desktop"
 msgstr "Choose a Remote Desktop"
 
-#: ../vinagre/vinagre-connection.c:525 ../vinagre/vinagre-tab.c:574
+#: ../vinagre/vinagre-connection.c:658 ../vinagre/vinagre-tab.c:590
 #: ../vinagre/vinagre-tube-handler.c:257
 #, c-format
 msgid "The protocol %s is not supported."
 msgstr "The protocol %s is not supported."
 
-#: ../vinagre/vinagre-connection.c:633
+#: ../vinagre/vinagre-connection.c:766
 msgid "Could not open the file."
 msgstr "Could not open the file."
 
-#: ../vinagre/vinagre-connection.c:657
+#: ../vinagre/vinagre-connection.c:792
 msgid "The file was not recognized by any of the plugins."
 msgstr "The file was not recognised by any of the plugins."
 
@@ -971,7 +1062,7 @@ msgid "Timed out when logging in"
 msgstr "Timed out when logging in"
 
 #: ../vinagre/vinagre-ssh.c:454 ../vinagre/vinagre-ssh.c:596
-#: ../vinagre/vinagre-ssh.c:679
+#: ../vinagre/vinagre-ssh.c:692
 msgid "Permission denied"
 msgstr "Permission denied"
 
@@ -1020,61 +1111,66 @@ msgstr "Can't send host identity confirmation"
 msgid "Secure shell password: %s"
 msgstr "Secure shell password: %s"
 
-#: ../vinagre/vinagre-ssh.c:618 ../vinagre/vinagre-tab.c:793
+#: ../vinagre/vinagre-ssh.c:618 ../vinagre/vinagre-tab.c:860
 msgid "Error saving the credentials on the keyring."
 msgstr "Error saving the credentials on the keyring."
 
-#: ../vinagre/vinagre-ssh.c:686
+#: ../vinagre/vinagre-ssh.c:700
 msgid "Hostname not known"
 msgstr "Hostname not known"
 
-#: ../vinagre/vinagre-ssh.c:693
+#: ../vinagre/vinagre-ssh.c:708
 msgid "No route to host"
 msgstr "No route to host"
 
-#: ../vinagre/vinagre-ssh.c:700
+#: ../vinagre/vinagre-ssh.c:716
 msgid "Connection refused by server"
 msgstr "Connection refused by server"
 
-#: ../vinagre/vinagre-ssh.c:707
+#: ../vinagre/vinagre-ssh.c:724
 msgid "Host key verification failed"
 msgstr "Host key verification failed"
 
-#: ../vinagre/vinagre-ssh.c:744
+#: ../vinagre/vinagre-ssh.c:764
 msgid "Unable to find a valid SSH program"
 msgstr "Unable to find a valid SSH program"
 
-#: ../vinagre/vinagre-tab.c:354
+#: ../vinagre/vinagre-tab.c:361
 msgid "Disconnect"
 msgstr "Disconnect"
 
-#: ../vinagre/vinagre-tab.c:375
+#. Translators: Pressing this button will minimize Vinagre
+#: ../vinagre/vinagre-tab.c:370
+msgid "Minimize window"
+msgstr "Minimise window"
+
+#: ../vinagre/vinagre-tab.c:391
 msgid "Leave fullscreen"
 msgstr "Leave fullscreen"
 
-#: ../vinagre/vinagre-tab.c:537
+#: ../vinagre/vinagre-tab.c:553
 msgid "Error saving recent connection."
 msgstr "Error saving recent connection."
 
-#: ../vinagre/vinagre-tab.c:778
+#: ../vinagre/vinagre-tab.c:844
 #, c-format
-msgid "Remote desktop password: %s"
-msgstr "Remote desktop password: %s"
+msgid "Remote desktop password for %s"
+msgstr "Remote desktop password for %s"
 
-#: ../vinagre/vinagre-tab.c:890
+#: ../vinagre/vinagre-tab.c:961
 msgid "Could not get a screenshot of the connection."
 msgstr "Could not get a screenshot of the connection."
 
-#: ../vinagre/vinagre-tab.c:895
+#: ../vinagre/vinagre-tab.c:966
 msgid "Save Screenshot"
 msgstr "Save Screenshot"
 
-#: ../vinagre/vinagre-tab.c:909
+#: ../vinagre/vinagre-tab.c:980
 #, c-format
 msgid "Screenshot of %s at %s"
 msgstr "Screenshot of %s at %s"
 
-#: ../vinagre/vinagre-tab.c:963
+#: ../vinagre/vinagre-tab.c:1034
 msgid "Error saving screenshot"
 msgstr "Error saving screenshot"
 
@@ -1173,8 +1269,8 @@ msgid "_Keyboard shortcuts"
 msgstr "_Keyboard shortcuts"
 
 #: ../vinagre/vinagre-ui.h:60
-msgid "Enable keyboard shurtcuts"
-msgstr "Enable keyboard shurtcuts"
+msgid "Enable keyboard shortcuts"
+msgstr "Enable keyboard shortcuts"
 
 #: ../vinagre/vinagre-ui.h:62
 msgid "_Toolbar"
@@ -1243,12 +1339,12 @@ msgid "Error loading UI file"
 msgstr "Error loading UI file"
 
 #. Translators: %s is a protocol, like VNC or SSH
-#: ../vinagre/vinagre-utils.vala:112
+#: ../vinagre/vinagre-utils.vala:116
 #, c-format
 msgid "%s authentication is required"
 msgstr "%s authentication is required"
 
-#: ../vinagre/vinagre-utils.vala:194
+#: ../vinagre/vinagre-utils.vala:227
 msgid "Error showing help"
 msgstr "Error showing help"
 
@@ -1287,6 +1383,9 @@ msgstr "Enable shortcuts"
 #, c-format
 msgid "Error while creating the file %s: %s"
 msgstr "Error while creating the file %s: %s"
+
+#~ msgid "Error while executing xfreerdp"
+#~ msgstr "Error while executing xfreerdp"
 
 #~ msgid "Enter a valid hostname or IP address"
 #~ msgstr "Enter a valid hostname or IP address"
@@ -1585,9 +1684,6 @@ msgstr "Error while creating the file %s: %s"
 
 #~ msgid "- VNC Client for GNOME"
 #~ msgstr "- VNC Client for GNOME"
-
-#~ msgid "Minimize window"
-#~ msgstr "Minimise window"
 
 #~ msgid "_Read only"
 #~ msgstr "_Read only"
