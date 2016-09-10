@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-22 18:48+0200\n"
-"PO-Revision-Date: 2016-08-22 18:49+0200\n"
+"POT-Creation-Date: 2016-09-10 05:21+0200\n"
+"PO-Revision-Date: 2016-09-10 05:22+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -39,7 +39,7 @@ msgstr ""
 msgid ""
 "Whether we should show tabs even when there is only one active connection"
 msgstr ""
-"Określa, czy wyświetlać karty nawet, jeśli jest tylko jedno aktywne "
+"Określa, czy wyświetlać karty, nawet jeśli jest tylko jedno aktywne "
 "połączenie"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:4
@@ -532,7 +532,7 @@ msgstr "nazwa-komputera lub użytkownik@nazwa-komputera"
 #: ../plugins/vnc/vinagre-vnc-plugin.c:353
 #: ../plugins/spice/vinagre-spice-plugin.c:282
 msgid "Supply an alternative port using colon"
-msgstr "Dostarczenie alternatywnego portu używając dwukropka"
+msgstr "Dostarczenie alternatywnego portu za pomocą dwukropka"
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:354
 #: ../plugins/spice/vinagre-spice-plugin.c:283
@@ -733,7 +733,7 @@ msgstr "Nieznany błąd"
 
 #: ../vinagre/vinagre-bookmarks.c:373
 msgid "Error while initializing bookmarks: The file seems to be empty"
-msgstr "Błąd podczas inicjowania zakładek: plik wydaje się być pusty"
+msgstr "Błąd podczas inicjowania zakładek: plik jest pusty"
 
 #: ../vinagre/vinagre-bookmarks.c:380
 msgid ""
@@ -1355,7 +1355,7 @@ msgstr "Wystąpił błąd"
 msgid "Vinagre failed to open a UI file, with the error message:"
 msgstr ""
 "Otwarcie pliku interfejsu użytkownika przez program Vinagre się nie "
-"powiodło. Komunikat błędu:"
+"powiodło. Komunikat o błędzie:"
 
 #: ../vinagre/vinagre-utils.vala:85
 msgid "Please check your installation."
