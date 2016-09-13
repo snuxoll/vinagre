@@ -1,3 +1,37 @@
+Vinagre 3.21.92
+===============
+
+Andika Triwidada (1):
+      Updated Indonesian translation     (cherry picked from commit ae0530393bf0f39b3bdc37c48bb79a72727c5f7b)
+
+Ask Hjorth Larsen (1):
+      Updated Danish translation
+
+Christian Kirbach (1):
+      Update German screenshots
+
+Daniel Mustieles (1):
+      Updated Spanish translation
+
+David King (1):
+      Update British English translation
+
+Michał Kępień (2):
+      Improve FreeRDP authentication failure handling
+      Correctly handle extended scancodes for RDP
+
+Piotr Drąg (4):
+      Updated Polish translation
+      Add Language headers to po files
+      Updated Polish translation
+      Updated Polish translation
+
+Yosef Or Boczko (1):
+      Updated Hebrew translation
+
+વિશાલ ભલાણી (1):
+      Updated Gujarati translation
+
 Vinagre 3.21.3
 ==============
 
