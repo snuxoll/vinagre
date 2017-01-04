@@ -14,7 +14,7 @@ AM_PROG_CC_C_O
 AM_PROG_VALAC([0.12.0])
 
 AM_MAINTAINER_MODE([enable])
-GNOME_COMPILE_WARNINGS([maximum])
+#GNOME_COMPILE_WARNINGS([maximum])
 GNOME_MAINTAINER_MODE_DEFINES
 
 AC_CANONICAL_HOST
@@ -59,6 +59,7 @@ AM_CONDITIONAL([VINAGRE_ENABLE_SSH], [test "x$have_ssh" = "xyes"])
 
 # Whether to enable support for RDP.
 RDP_DEPS="freerdp x11"
+RDP_2_DEPS="freerdp2 x11"
 AC_ARG_ENABLE([rdp],
   [AS_HELP_STRING([--disable-rdp],
     [Disable Remote Desktop Protocol (RDP) support])])
@@ -68,7 +69,11 @@ AS_IF([test "x$enable_rdp" != "xno"],
     [have_rdp=yes
      PKG_CHECK_EXISTS(freerdp >= 1.1,
        [AC_DEFINE([HAVE_FREERDP_1_1], [1], [FreeRDP is of version 1.1 or newer])], [])],
-    [have_rdp=no])],
+    [PKG_CHECK_EXISTS([$RDP_2_DEPS],
+       [have_rdp=yes
+        RDP_DEPS=$RDP_2_DEPS
+        AC_DEFINE([HAVE_FREERDP_1_1], [1], [FreeRDP is of version 1.1 or newer])
+        AC_DEFINE([HAVE_FREERDP_2_0], [1], [FreeRDP is of version 2.0 or newer])], [have_rdp=no])])],
   [have_rdp=no])
 
 AS_IF([test "x$have_rdp" = "xyes"],

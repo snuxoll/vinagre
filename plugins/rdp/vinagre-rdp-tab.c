@@ -49,6 +49,11 @@ typedef boolean BOOL;
 typedef uint8   UINT8;
 typedef uint16  UINT16;
 #endif
+#if !HAVE_FREERDP_2_0
+typedef BOOL CV_RESULT;
+#else
+typedef DWORD CV_RESULT;
+#endif
 
 struct _VinagreRdpTabPrivate
 {
@@ -926,7 +931,7 @@ frdp_authenticate (freerdp  *instance,
   return TRUE;
 }
 
-static BOOL
+static CV_RESULT
 frdp_certificate_verify (freerdp *instance,
                          char    *subject,
                          char    *issuer,
